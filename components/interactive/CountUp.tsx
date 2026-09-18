@@ -24,5 +24,5 @@ export function CountUp({ value }: { value: string }) {
     if (element.current) observer.observe(element.current);
     return () => { observer.disconnect(); cancelAnimationFrame(frame); };
   }, [value]);
-  return <span ref={element} aria-label={value}><span aria-hidden="true">{display}</span></span>;
+  return <span ref={element}><span className="sr-only">{value}</span><span aria-hidden="true">{display}</span></span>;
 }

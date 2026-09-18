@@ -8,7 +8,7 @@ for (const locale of ["en", "cn"] as const) {
     await page.goto(`/${locale}/`);
     await expect(page.getByRole("heading", { level: 1 })).toContainText(cn ? "节省时间与成本" : "Saving You Time and Cost");
     await page.getByRole("button", { name: cn ? "下一张" : "Next slide" }).click();
-    await expect(page.getByRole("heading", { name: "LBH-3228" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "LBH-3228", level: 2 })).toBeVisible();
     await expect.poll(() => page.getByRole("img", { name: "LBH-3228" }).evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
     await page.getByRole("button", { name: cn ? "上一张" : "Previous slide" }).click();
     const play = page.getByRole("button", { name: cn ? "播放制造视频" : "Play manufacturing video" });
@@ -17,16 +17,27 @@ for (const locale of ["en", "cn"] as const) {
     await expect(dialog).toBeVisible();
     await expect(dialog.locator("video")).toHaveAttribute("src", /^\/media\/.*\.mp4$/);
     await expect.poll(() => dialog.locator("video").evaluate((video: HTMLVideoElement) => video.videoWidth)).toBe(1280);
-    await page.keyboard.press("Shift+Tab");
-    await expect(dialog.locator("video")).toBeFocused();
-    await page.keyboard.press("Tab");
-    await expect(page.getByRole("button", { name: cn ? "关闭视频" : "Close video" })).toBeFocused();
+    // Native media controls live in the browser's shadow tree. Verify an actual
+    // inner control is reachable and changes playback state, not just its host.
+    const accessibility = await page.context().newCDPSession(page);
+    await accessibility.send("Accessibility.enable");
+    let reachedMute = false;
+    for (let index = 0; index < 10; index++) {
+      await page.keyboard.press("Tab");
+      const tree = await accessibility.send("Accessibility.getFullAXTree");
+      reachedMute = tree.nodes.some((node) => /^(mute|静音)$/i.test(String(node.name?.value)) && node.properties?.some((property) => property.name === "focused" && property.value.value === true));
+      if (reachedMute) break;
+    }
+    expect(reachedMute).toBe(true);
+    await page.keyboard.press("Space");
+    await expect.poll(() => dialog.locator("video").evaluate((video: HTMLVideoElement) => video.muted)).toBe(true);
+    await accessibility.detach();
     await page.keyboard.press("Escape");
     await expect(dialog).toHaveCount(0);
     await expect(play).toBeFocused();
     const stat = page.getByText(cn ? "成功定制样品" : "Successful Custom Sample");
     await stat.scrollIntoViewIfNeeded();
-    await expect(page.getByText("4800 +", { exact: true })).toBeVisible();
+    await expect(page.locator('dd [aria-hidden="true"]', { hasText: "4800 +" })).toBeVisible();
     await expect(page.getByRole("heading", { name: cn ? "我们的使命" : "Our Mission" })).toBeVisible();
     const broken = await page.locator("img").evaluateAll((images) => images.filter((image) => image.getAttribute("src")?.startsWith("http")).length);
     expect(broken).toBe(0);
@@ -38,10 +49,18 @@ for (const locale of ["en", "cn"] as const) {
     await page.emulateMedia({ reducedMotion: "reduce" });
     await page.goto(`/${locale}/`);
     await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
-    await expect(page.getByText("4800 +", { exact: true })).toBeVisible();
+    await expect(page.locator('dd [aria-hidden="true"]', { hasText: "4800 +" })).toBeVisible();
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
     const lastCta = page.getByRole("link", { name: cn ? "咨询家电专家" : "Consult with Home Appliance Experts" });
     await lastCta.scrollIntoViewIfNeeded();
     await expect(lastCta).toHaveAttribute("href", `/${locale}/Contact_Us`);
+  });
+
+  test(`${locale} statistics expose every final value to assistive technology`, async ({ page }) => {
+    await page.goto(`/${locale}/`);
+    const definitions = page.getByRole("definition");
+    for (const [index, value] of ["2 +", "10 +", "20 +", "4800 +"].entries()) {
+      await expect(definitions.nth(index)).toMatchAriaSnapshot(`- definition: ${value}`);
+    }
   });
 }

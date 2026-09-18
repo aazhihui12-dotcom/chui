@@ -13,15 +13,20 @@ export function HomeTemplate({ page }: { page: SitePage }) {
   const uniqueMedia = [...new Map(media.map((block) => [block.image.src, block.image])).values()];
   const galleries = page.blocks.filter((block) => block.type === "gallery");
   const stats = page.blocks.filter((block) => block.type === "stats");
-  const featured = ["11906944", "11906943"].map((id) => products.find((product) => product.id === id)!);
+  const featured = ["11906944", "11906943", "11906942", "11906941"].map((id) => products.find((product) => product.id === id)!);
   return <main id="main-content" tabIndex={-1} className="home-page">
     <HeroCarousel locale={page.locale} slides={[
       { title: page.title, subtitle: copy.partner, image: page.images[0], bullets: copy.bullets },
-      ...featured.map((product, index) => ({ title: product.model, subtitle: product.locales[page.locale].description, image: page.images[index + 3], href: `/${page.locale}${product.legacyPath}` })),
+      ...featured.slice(0, 2).map((product, index) => ({ title: product.model, subtitle: product.locales[page.locale].description, image: page.images[index + 3], href: `/${page.locale}${product.legacyPath}` })),
     ]} />
     <section className="home-manufacturing home-section" aria-labelledby="manufacturing-title">
       <h2 id="manufacturing-title">{copy.manufacturing}</h2><p>{copy.why}</p><p>{copy.video}</p>
       <VideoModal src={manufacturingVideo} poster={manufacturingPoster} locale={page.locale} />
+      <section className="home-featured-products" aria-label={page.locale === "cn" ? "精选产品" : "Featured products"}>
+        {featured.map((product, index) => <a href={`/${page.locale}${product.legacyPath}`} key={product.id}>
+          <Media image={{ ...page.images[index + 3], alt: "" }} /><h3>{product.model}</h3>
+        </a>)}
+      </section>
       <SectionRenderer blocks={stats} />
     </section>
 

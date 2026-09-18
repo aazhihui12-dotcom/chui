@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 import { englishHome, pages } from "@/content/pages";
 import { HomeTemplate } from "@/components/templates/HomeTemplate";
@@ -24,12 +24,21 @@ describe("homepage source recognition", () => {
 
   it("allows visitors to browse hero slides in either direction", () => {
     render(<HomeTemplate page={englishHome} />);
+    const carousel = within(screen.getByRole("region", { name: "Products and brand highlights" }));
     fireEvent.click(screen.getByRole("button", { name: "Next slide" }));
-    expect(screen.getByRole("heading", { name: "LBH-3228" })).toBeVisible();
+    expect(carousel.getByRole("heading", { name: "LBH-3228" })).toBeVisible();
     fireEvent.click(screen.getByRole("button", { name: "Previous slide" }));
     expect(screen.getByRole("heading", { name: /Saving You Time and Cost/ })).toBeVisible();
     fireEvent.click(screen.getByRole("button", { name: "Go to slide 3" }));
-    expect(screen.getByRole("heading", { name: "LBH-3210" })).toBeVisible();
+    expect(carousel.getByRole("heading", { name: "LBH-3210" })).toBeVisible();
+  });
+
+  it.each(["en", "cn"] as const)("offers all four source featured products with %s detail links", (locale) => {
+    render(<HomeTemplate page={pages.find((page) => page.id === "home" && page.locale === locale)!} />);
+    const featured = within(screen.getByRole("region", { name: locale === "cn" ? "精选产品" : "Featured products" }));
+    for (const [model, id] of [["LBH-3228", "11906944"], ["LBH-3210", "11906943"], ["LBH-320", "11906942"], ["LBH-WY605", "11906941"]]) {
+      expect(featured.getByRole("link", { name: model })).toHaveAttribute("href", `/${locale}/ProductDetail/${id}.html`);
+    }
   });
 
   it("opens the manufacturing video and restores focus when Escape closes it", () => {
@@ -46,7 +55,7 @@ describe("homepage source recognition", () => {
 
   it("renders real manufacturing figures and category destinations", () => {
     render(<HomeTemplate page={englishHome} />);
-    expect(screen.getByText("4800 +")).toBeVisible();
+    expect(screen.getByText("4800 +", { selector: '[aria-hidden="true"]' })).toBeVisible();
     expect(screen.getByText("Successful Custom Sample")).toBeVisible();
     expect(screen.getByRole("link", { name: /High Speed Hair Multi-Styler/ })).toHaveAttribute("href", "/en/Product/682971.html");
     expect(screen.getByRole("heading", { name: "LBH Appliances Product Certifications" })).toBeVisible();

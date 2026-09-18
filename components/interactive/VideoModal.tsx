@@ -20,12 +20,8 @@ export function VideoModal({ src, poster, locale }: { src: string; poster: strin
     close.current?.focus();
     const onKey = (event: KeyboardEvent) => {
       if (event.key === "Escape") { event.preventDefault(); setOpen(false); }
-      if (event.key === "Tab") {
-        const controls = Array.from(node.querySelectorAll<HTMLElement>("button, a[href], video[controls]"));
-        const first = controls[0]; const last = controls.at(-1);
-        if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
-        else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
-      }
+      // showModal makes the surrounding page inert and preserves native media
+      // control tab order. A host-level trap would skip the video shadow tree.
     };
     document.addEventListener("keydown", onKey);
     return () => { document.removeEventListener("keydown", onKey); document.body.style.overflow = overflow; trigger.current?.focus(); };
