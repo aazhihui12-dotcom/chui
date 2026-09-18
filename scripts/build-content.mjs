@@ -242,7 +242,10 @@ export async function buildContent({ source = "source-cache", output = "content"
       if (!model) throw new Error(`Missing model ${page.pathname}`);
       const category = categories.find((category) => category.productIds.includes(id));
       if (!category) throw new Error(`Missing category ${model}`);
-      const gallery = imagesFor(root.querySelector(".ModuleProduteDetailMain"), model);
+      // The detail module also contains feature posters, loading graphics and
+      // share thumbnails. Only the main carousel supplies product gallery photos.
+      const gallery = imagesFor(root.querySelector(".ModuleProduteDetailMain .gallery-top"), model);
+      if (!gallery.length) throw new Error(`Missing gallery ${model}`);
       const specifications = specificationsFor(doc);
       if (!specifications.length) throw new Error(`Missing specifications ${model}`);
       const panes = root.querySelectorAll(".particularsMain .tab-pane");

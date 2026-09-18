@@ -27,30 +27,6 @@ export const products: Product[] = [
       {
         "src": "/media/0cc838869dc753d62e857f92551e35ebccc34bdaa5127a1b23665a0d88e908ec.png",
         "alt": "LBH-3228"
-      },
-      {
-        "src": "/media/168be48ad2f8f5ac51df288488b8e756eba6ce2a16c666d0a5e5af4fc0880571.webp",
-        "alt": "LBH-3228"
-      },
-      {
-        "src": "/media/71d2e98840f319353d6d1290125ee08b3528e9b600e64d7ed3b17c1e7a36e377.webp",
-        "alt": "LBH-3228"
-      },
-      {
-        "src": "/media/49e2f6c23d2c9307055af3a17239de959516d1dfbf4a53dd84d65e298527ab18.webp",
-        "alt": "LBH-3228"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-3228"
-      },
-      {
-        "src": "/media/1ab5f993bce14dda7a9776d82cc12be3c8c31eb8674c7917030f2324c7e63d19.png",
-        "alt": "LBH-3228"
-      },
-      {
-        "src": "/media/81d59ff7502082323a74288652cebd4edcff84750ad581806be1b14d61cb821f.png",
-        "alt": "LBH-3228"
       }
     ],
     "locales": {
@@ -93,30 +69,6 @@ export const products: Product[] = [
               {
                 "src": "/media/0cc838869dc753d62e857f92551e35ebccc34bdaa5127a1b23665a0d88e908ec.png",
                 "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/168be48ad2f8f5ac51df288488b8e756eba6ce2a16c666d0a5e5af4fc0880571.webp",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/71d2e98840f319353d6d1290125ee08b3528e9b600e64d7ed3b17c1e7a36e377.webp",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/49e2f6c23d2c9307055af3a17239de959516d1dfbf4a53dd84d65e298527ab18.webp",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/1ab5f993bce14dda7a9776d82cc12be3c8c31eb8674c7917030f2324c7e63d19.png",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/81d59ff7502082323a74288652cebd4edcff84750ad581806be1b14d61cb821f.png",
-                "alt": "LBH-3228"
               }
             ]
           }
@@ -136,30 +88,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/0cc838869dc753d62e857f92551e35ebccc34bdaa5127a1b23665a0d88e908ec.png",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/168be48ad2f8f5ac51df288488b8e756eba6ce2a16c666d0a5e5af4fc0880571.webp",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/71d2e98840f319353d6d1290125ee08b3528e9b600e64d7ed3b17c1e7a36e377.webp",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/49e2f6c23d2c9307055af3a17239de959516d1dfbf4a53dd84d65e298527ab18.webp",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/1ab5f993bce14dda7a9776d82cc12be3c8c31eb8674c7917030f2324c7e63d19.png",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/81d59ff7502082323a74288652cebd4edcff84750ad581806be1b14d61cb821f.png",
             "alt": "LBH-3228"
           }
         ],
@@ -284,30 +212,6 @@ export const products: Product[] = [
               {
                 "src": "/media/0cc838869dc753d62e857f92551e35ebccc34bdaa5127a1b23665a0d88e908ec.png",
                 "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/168be48ad2f8f5ac51df288488b8e756eba6ce2a16c666d0a5e5af4fc0880571.webp",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/71d2e98840f319353d6d1290125ee08b3528e9b600e64d7ed3b17c1e7a36e377.webp",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/49e2f6c23d2c9307055af3a17239de959516d1dfbf4a53dd84d65e298527ab18.webp",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/1ab5f993bce14dda7a9776d82cc12be3c8c31eb8674c7917030f2324c7e63d19.png",
-                "alt": "LBH-3228"
-              },
-              {
-                "src": "/media/81d59ff7502082323a74288652cebd4edcff84750ad581806be1b14d61cb821f.png",
-                "alt": "LBH-3228"
               }
             ]
           }
@@ -327,30 +231,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/0cc838869dc753d62e857f92551e35ebccc34bdaa5127a1b23665a0d88e908ec.png",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/168be48ad2f8f5ac51df288488b8e756eba6ce2a16c666d0a5e5af4fc0880571.webp",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/71d2e98840f319353d6d1290125ee08b3528e9b600e64d7ed3b17c1e7a36e377.webp",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/49e2f6c23d2c9307055af3a17239de959516d1dfbf4a53dd84d65e298527ab18.webp",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/1ab5f993bce14dda7a9776d82cc12be3c8c31eb8674c7917030f2324c7e63d19.png",
-            "alt": "LBH-3228"
-          },
-          {
-            "src": "/media/81d59ff7502082323a74288652cebd4edcff84750ad581806be1b14d61cb821f.png",
             "alt": "LBH-3228"
           }
         ],
@@ -463,26 +343,6 @@ export const products: Product[] = [
       {
         "src": "/media/3f7aec8b8ada1edb7c5b16c49380c0dd10bc01c348cf673514d6fc42e27cb565.png",
         "alt": "LBH-3210"
-      },
-      {
-        "src": "/media/901277e53a8e68644e32c758f51737e036b79210a38a92ce17717bdd34306fe9.webp",
-        "alt": "LBH-3210"
-      },
-      {
-        "src": "/media/9f04514901afec2f082b95781c5b7220fac55657c3dae2b473f9510e4b107812.webp",
-        "alt": "LBH-3210"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-3210"
-      },
-      {
-        "src": "/media/1b21decf38eed71ad5c6d3d64e852f9adfe8ddcadfa8521d162a4a18891bebfd.png",
-        "alt": "LBH-3210"
-      },
-      {
-        "src": "/media/98f0aa1608fc00b24490d75baac7085fd9e6e98e5ca307d1092a8f7231580feb.png",
-        "alt": "LBH-3210"
       }
     ],
     "locales": {
@@ -525,26 +385,6 @@ export const products: Product[] = [
               {
                 "src": "/media/3f7aec8b8ada1edb7c5b16c49380c0dd10bc01c348cf673514d6fc42e27cb565.png",
                 "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/901277e53a8e68644e32c758f51737e036b79210a38a92ce17717bdd34306fe9.webp",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/9f04514901afec2f082b95781c5b7220fac55657c3dae2b473f9510e4b107812.webp",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/1b21decf38eed71ad5c6d3d64e852f9adfe8ddcadfa8521d162a4a18891bebfd.png",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/98f0aa1608fc00b24490d75baac7085fd9e6e98e5ca307d1092a8f7231580feb.png",
-                "alt": "LBH-3210"
               }
             ]
           }
@@ -564,26 +404,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/3f7aec8b8ada1edb7c5b16c49380c0dd10bc01c348cf673514d6fc42e27cb565.png",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/901277e53a8e68644e32c758f51737e036b79210a38a92ce17717bdd34306fe9.webp",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/9f04514901afec2f082b95781c5b7220fac55657c3dae2b473f9510e4b107812.webp",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/1b21decf38eed71ad5c6d3d64e852f9adfe8ddcadfa8521d162a4a18891bebfd.png",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/98f0aa1608fc00b24490d75baac7085fd9e6e98e5ca307d1092a8f7231580feb.png",
             "alt": "LBH-3210"
           }
         ],
@@ -704,26 +524,6 @@ export const products: Product[] = [
               {
                 "src": "/media/3f7aec8b8ada1edb7c5b16c49380c0dd10bc01c348cf673514d6fc42e27cb565.png",
                 "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/901277e53a8e68644e32c758f51737e036b79210a38a92ce17717bdd34306fe9.webp",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/9f04514901afec2f082b95781c5b7220fac55657c3dae2b473f9510e4b107812.webp",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/1b21decf38eed71ad5c6d3d64e852f9adfe8ddcadfa8521d162a4a18891bebfd.png",
-                "alt": "LBH-3210"
-              },
-              {
-                "src": "/media/98f0aa1608fc00b24490d75baac7085fd9e6e98e5ca307d1092a8f7231580feb.png",
-                "alt": "LBH-3210"
               }
             ]
           }
@@ -743,26 +543,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/3f7aec8b8ada1edb7c5b16c49380c0dd10bc01c348cf673514d6fc42e27cb565.png",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/901277e53a8e68644e32c758f51737e036b79210a38a92ce17717bdd34306fe9.webp",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/9f04514901afec2f082b95781c5b7220fac55657c3dae2b473f9510e4b107812.webp",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/1b21decf38eed71ad5c6d3d64e852f9adfe8ddcadfa8521d162a4a18891bebfd.png",
-            "alt": "LBH-3210"
-          },
-          {
-            "src": "/media/98f0aa1608fc00b24490d75baac7085fd9e6e98e5ca307d1092a8f7231580feb.png",
             "alt": "LBH-3210"
           }
         ],
@@ -871,26 +651,6 @@ export const products: Product[] = [
       {
         "src": "/media/79e9478f874b7fa395585de504acc98132ff857189f60bb9ea37fdb1dad824f9.png",
         "alt": "LBH-320"
-      },
-      {
-        "src": "/media/ae2e5282004ff9471ccb569d15bb399c508ad43512a2cffc4901e831177f699c.webp",
-        "alt": "LBH-320"
-      },
-      {
-        "src": "/media/819abe51a736419402e710d2c82c1f33c772c1e2c8eea55c3ddf0a170e07d8f2.webp",
-        "alt": "LBH-320"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-320"
-      },
-      {
-        "src": "/media/a279d4e3bbd285458d031ee5198474ca20fde128308ded6c62c2faa16643884e.png",
-        "alt": "LBH-320"
-      },
-      {
-        "src": "/media/d669fc2be129943e5639f205ff825f7b5e2e363af97e2c6e766d03e4f90c24c2.png",
-        "alt": "LBH-320"
       }
     ],
     "locales": {
@@ -933,26 +693,6 @@ export const products: Product[] = [
               {
                 "src": "/media/79e9478f874b7fa395585de504acc98132ff857189f60bb9ea37fdb1dad824f9.png",
                 "alt": "LBH-320"
-              },
-              {
-                "src": "/media/ae2e5282004ff9471ccb569d15bb399c508ad43512a2cffc4901e831177f699c.webp",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/819abe51a736419402e710d2c82c1f33c772c1e2c8eea55c3ddf0a170e07d8f2.webp",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/a279d4e3bbd285458d031ee5198474ca20fde128308ded6c62c2faa16643884e.png",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/d669fc2be129943e5639f205ff825f7b5e2e363af97e2c6e766d03e4f90c24c2.png",
-                "alt": "LBH-320"
               }
             ]
           }
@@ -972,26 +712,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/79e9478f874b7fa395585de504acc98132ff857189f60bb9ea37fdb1dad824f9.png",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/ae2e5282004ff9471ccb569d15bb399c508ad43512a2cffc4901e831177f699c.webp",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/819abe51a736419402e710d2c82c1f33c772c1e2c8eea55c3ddf0a170e07d8f2.webp",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/a279d4e3bbd285458d031ee5198474ca20fde128308ded6c62c2faa16643884e.png",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/d669fc2be129943e5639f205ff825f7b5e2e363af97e2c6e766d03e4f90c24c2.png",
             "alt": "LBH-320"
           }
         ],
@@ -1104,26 +824,6 @@ export const products: Product[] = [
               {
                 "src": "/media/79e9478f874b7fa395585de504acc98132ff857189f60bb9ea37fdb1dad824f9.png",
                 "alt": "LBH-320"
-              },
-              {
-                "src": "/media/ae2e5282004ff9471ccb569d15bb399c508ad43512a2cffc4901e831177f699c.webp",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/819abe51a736419402e710d2c82c1f33c772c1e2c8eea55c3ddf0a170e07d8f2.webp",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/a279d4e3bbd285458d031ee5198474ca20fde128308ded6c62c2faa16643884e.png",
-                "alt": "LBH-320"
-              },
-              {
-                "src": "/media/d669fc2be129943e5639f205ff825f7b5e2e363af97e2c6e766d03e4f90c24c2.png",
-                "alt": "LBH-320"
               }
             ]
           }
@@ -1143,26 +843,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/79e9478f874b7fa395585de504acc98132ff857189f60bb9ea37fdb1dad824f9.png",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/ae2e5282004ff9471ccb569d15bb399c508ad43512a2cffc4901e831177f699c.webp",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/819abe51a736419402e710d2c82c1f33c772c1e2c8eea55c3ddf0a170e07d8f2.webp",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/a279d4e3bbd285458d031ee5198474ca20fde128308ded6c62c2faa16643884e.png",
-            "alt": "LBH-320"
-          },
-          {
-            "src": "/media/d669fc2be129943e5639f205ff825f7b5e2e363af97e2c6e766d03e4f90c24c2.png",
             "alt": "LBH-320"
           }
         ],
@@ -1263,30 +943,6 @@ export const products: Product[] = [
       {
         "src": "/media/f54759f8b26d6737dfaf5a2f03c4e5898bed5fca7de49861009877ecc2c8a19e.png",
         "alt": "LBH-WY605"
-      },
-      {
-        "src": "/media/cdbae16267d5db82304a3bd55f6d340644b726d34f59b207c2f2abc9652e85a9.webp",
-        "alt": "LBH-WY605"
-      },
-      {
-        "src": "/media/6f966ce06094fedbaa8cf20ffe256ea5b506c8838a1c06943d8c1f60154fba56.webp",
-        "alt": "LBH-WY605"
-      },
-      {
-        "src": "/media/83731a07973b9fd8bd38f7d9b16b0f51b9d0d561474c7acb378773c800375e34.webp",
-        "alt": "LBH-WY605"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-WY605"
-      },
-      {
-        "src": "/media/6e834eeaf2e76aece067bf6cfe2e313830efa110d42fcaefcc9faa92c112a100.png",
-        "alt": "LBH-WY605"
-      },
-      {
-        "src": "/media/a7bb12be120a51de224ab3f947e6ce8ff606b35c433729a6a064eeb4831423f9.png",
-        "alt": "LBH-WY605"
       }
     ],
     "locales": {
@@ -1329,30 +985,6 @@ export const products: Product[] = [
               {
                 "src": "/media/f54759f8b26d6737dfaf5a2f03c4e5898bed5fca7de49861009877ecc2c8a19e.png",
                 "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/cdbae16267d5db82304a3bd55f6d340644b726d34f59b207c2f2abc9652e85a9.webp",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/6f966ce06094fedbaa8cf20ffe256ea5b506c8838a1c06943d8c1f60154fba56.webp",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/83731a07973b9fd8bd38f7d9b16b0f51b9d0d561474c7acb378773c800375e34.webp",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/6e834eeaf2e76aece067bf6cfe2e313830efa110d42fcaefcc9faa92c112a100.png",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/a7bb12be120a51de224ab3f947e6ce8ff606b35c433729a6a064eeb4831423f9.png",
-                "alt": "LBH-WY605"
               }
             ]
           }
@@ -1372,30 +1004,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/f54759f8b26d6737dfaf5a2f03c4e5898bed5fca7de49861009877ecc2c8a19e.png",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/cdbae16267d5db82304a3bd55f6d340644b726d34f59b207c2f2abc9652e85a9.webp",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/6f966ce06094fedbaa8cf20ffe256ea5b506c8838a1c06943d8c1f60154fba56.webp",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/83731a07973b9fd8bd38f7d9b16b0f51b9d0d561474c7acb378773c800375e34.webp",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/6e834eeaf2e76aece067bf6cfe2e313830efa110d42fcaefcc9faa92c112a100.png",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/a7bb12be120a51de224ab3f947e6ce8ff606b35c433729a6a064eeb4831423f9.png",
             "alt": "LBH-WY605"
           }
         ],
@@ -1526,30 +1134,6 @@ export const products: Product[] = [
               {
                 "src": "/media/f54759f8b26d6737dfaf5a2f03c4e5898bed5fca7de49861009877ecc2c8a19e.png",
                 "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/cdbae16267d5db82304a3bd55f6d340644b726d34f59b207c2f2abc9652e85a9.webp",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/6f966ce06094fedbaa8cf20ffe256ea5b506c8838a1c06943d8c1f60154fba56.webp",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/83731a07973b9fd8bd38f7d9b16b0f51b9d0d561474c7acb378773c800375e34.webp",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/6e834eeaf2e76aece067bf6cfe2e313830efa110d42fcaefcc9faa92c112a100.png",
-                "alt": "LBH-WY605"
-              },
-              {
-                "src": "/media/a7bb12be120a51de224ab3f947e6ce8ff606b35c433729a6a064eeb4831423f9.png",
-                "alt": "LBH-WY605"
               }
             ]
           }
@@ -1569,30 +1153,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/f54759f8b26d6737dfaf5a2f03c4e5898bed5fca7de49861009877ecc2c8a19e.png",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/cdbae16267d5db82304a3bd55f6d340644b726d34f59b207c2f2abc9652e85a9.webp",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/6f966ce06094fedbaa8cf20ffe256ea5b506c8838a1c06943d8c1f60154fba56.webp",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/83731a07973b9fd8bd38f7d9b16b0f51b9d0d561474c7acb378773c800375e34.webp",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/6e834eeaf2e76aece067bf6cfe2e313830efa110d42fcaefcc9faa92c112a100.png",
-            "alt": "LBH-WY605"
-          },
-          {
-            "src": "/media/a7bb12be120a51de224ab3f947e6ce8ff606b35c433729a6a064eeb4831423f9.png",
             "alt": "LBH-WY605"
           }
         ],
@@ -1715,26 +1275,6 @@ export const products: Product[] = [
       {
         "src": "/media/88db109cc4ceebeffe9384a54c0e647cae5af2841cd503edca51ff8663c4fc8d.png",
         "alt": "LBH-WY602"
-      },
-      {
-        "src": "/media/b09fcb222ed4060b5bf859be9dacaa03b919c459323d80cde1cc13521181652c.webp",
-        "alt": "LBH-WY602"
-      },
-      {
-        "src": "/media/ab4f8ed0f9719271a3b2e02568f8a985dd33f2778481d58fe70be7d94a374b38.webp",
-        "alt": "LBH-WY602"
-      },
-      {
-        "src": "/media/491e1fff99266a0328e6a45dd10cca395129f3ddee84ddc7580975713b61b4ce.webp",
-        "alt": "LBH-WY602"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-WY602"
-      },
-      {
-        "src": "/media/6ce38c2cced1f7b14193b60c80b8413a5939dd33fe422eb39483ec6fe714d5b9.png",
-        "alt": "LBH-WY602"
       }
     ],
     "locales": {
@@ -1781,26 +1321,6 @@ export const products: Product[] = [
               {
                 "src": "/media/88db109cc4ceebeffe9384a54c0e647cae5af2841cd503edca51ff8663c4fc8d.png",
                 "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/b09fcb222ed4060b5bf859be9dacaa03b919c459323d80cde1cc13521181652c.webp",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/ab4f8ed0f9719271a3b2e02568f8a985dd33f2778481d58fe70be7d94a374b38.webp",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/491e1fff99266a0328e6a45dd10cca395129f3ddee84ddc7580975713b61b4ce.webp",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/6ce38c2cced1f7b14193b60c80b8413a5939dd33fe422eb39483ec6fe714d5b9.png",
-                "alt": "LBH-WY602"
               }
             ]
           }
@@ -1824,26 +1344,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/88db109cc4ceebeffe9384a54c0e647cae5af2841cd503edca51ff8663c4fc8d.png",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/b09fcb222ed4060b5bf859be9dacaa03b919c459323d80cde1cc13521181652c.webp",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/ab4f8ed0f9719271a3b2e02568f8a985dd33f2778481d58fe70be7d94a374b38.webp",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/491e1fff99266a0328e6a45dd10cca395129f3ddee84ddc7580975713b61b4ce.webp",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/6ce38c2cced1f7b14193b60c80b8413a5939dd33fe422eb39483ec6fe714d5b9.png",
             "alt": "LBH-WY602"
           }
         ],
@@ -1978,26 +1478,6 @@ export const products: Product[] = [
               {
                 "src": "/media/88db109cc4ceebeffe9384a54c0e647cae5af2841cd503edca51ff8663c4fc8d.png",
                 "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/b09fcb222ed4060b5bf859be9dacaa03b919c459323d80cde1cc13521181652c.webp",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/ab4f8ed0f9719271a3b2e02568f8a985dd33f2778481d58fe70be7d94a374b38.webp",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/491e1fff99266a0328e6a45dd10cca395129f3ddee84ddc7580975713b61b4ce.webp",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-WY602"
-              },
-              {
-                "src": "/media/6ce38c2cced1f7b14193b60c80b8413a5939dd33fe422eb39483ec6fe714d5b9.png",
-                "alt": "LBH-WY602"
               }
             ]
           }
@@ -2021,26 +1501,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/88db109cc4ceebeffe9384a54c0e647cae5af2841cd503edca51ff8663c4fc8d.png",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/b09fcb222ed4060b5bf859be9dacaa03b919c459323d80cde1cc13521181652c.webp",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/ab4f8ed0f9719271a3b2e02568f8a985dd33f2778481d58fe70be7d94a374b38.webp",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/491e1fff99266a0328e6a45dd10cca395129f3ddee84ddc7580975713b61b4ce.webp",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-WY602"
-          },
-          {
-            "src": "/media/6ce38c2cced1f7b14193b60c80b8413a5939dd33fe422eb39483ec6fe714d5b9.png",
             "alt": "LBH-WY602"
           }
         ],
@@ -2159,30 +1619,6 @@ export const products: Product[] = [
       {
         "src": "/media/349d99dbade1532acce200d18acc6d3d2c70494d90e1001f06ef897cc51dc366.png",
         "alt": "LBH-HD020"
-      },
-      {
-        "src": "/media/b5e9aafb33c8ce5e836e2d7ebc357af17192a38d6e72ab89bd5497b948f51dd6.webp",
-        "alt": "LBH-HD020"
-      },
-      {
-        "src": "/media/f1cd07487a6e7852dff13490044dbdb3a03179e1941cff163014b0b708bd3e73.webp",
-        "alt": "LBH-HD020"
-      },
-      {
-        "src": "/media/688c941cfd7d40825ec4da9165d4cabfc62293873ea22640824ac30249fb3b55.webp",
-        "alt": "LBH-HD020"
-      },
-      {
-        "src": "/media/793a30ac3ef63c01d2ef4525e5d3f7574a1cb86554df17e356269a34066032cf.webp",
-        "alt": "LBH-HD020"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-HD020"
-      },
-      {
-        "src": "/media/d2e1d3cebf8341393e407fcbcbaa05fea7fa142baeaca72a3f99059838778d3c.png",
-        "alt": "LBH-HD020"
       }
     ],
     "locales": {
@@ -2225,30 +1661,6 @@ export const products: Product[] = [
               {
                 "src": "/media/349d99dbade1532acce200d18acc6d3d2c70494d90e1001f06ef897cc51dc366.png",
                 "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/b5e9aafb33c8ce5e836e2d7ebc357af17192a38d6e72ab89bd5497b948f51dd6.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/f1cd07487a6e7852dff13490044dbdb3a03179e1941cff163014b0b708bd3e73.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/688c941cfd7d40825ec4da9165d4cabfc62293873ea22640824ac30249fb3b55.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/793a30ac3ef63c01d2ef4525e5d3f7574a1cb86554df17e356269a34066032cf.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/d2e1d3cebf8341393e407fcbcbaa05fea7fa142baeaca72a3f99059838778d3c.png",
-                "alt": "LBH-HD020"
               }
             ]
           }
@@ -2268,30 +1680,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/349d99dbade1532acce200d18acc6d3d2c70494d90e1001f06ef897cc51dc366.png",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/b5e9aafb33c8ce5e836e2d7ebc357af17192a38d6e72ab89bd5497b948f51dd6.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/f1cd07487a6e7852dff13490044dbdb3a03179e1941cff163014b0b708bd3e73.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/688c941cfd7d40825ec4da9165d4cabfc62293873ea22640824ac30249fb3b55.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/793a30ac3ef63c01d2ef4525e5d3f7574a1cb86554df17e356269a34066032cf.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/d2e1d3cebf8341393e407fcbcbaa05fea7fa142baeaca72a3f99059838778d3c.png",
             "alt": "LBH-HD020"
           }
         ],
@@ -2426,30 +1814,6 @@ export const products: Product[] = [
               {
                 "src": "/media/349d99dbade1532acce200d18acc6d3d2c70494d90e1001f06ef897cc51dc366.png",
                 "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/b5e9aafb33c8ce5e836e2d7ebc357af17192a38d6e72ab89bd5497b948f51dd6.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/f1cd07487a6e7852dff13490044dbdb3a03179e1941cff163014b0b708bd3e73.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/688c941cfd7d40825ec4da9165d4cabfc62293873ea22640824ac30249fb3b55.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/793a30ac3ef63c01d2ef4525e5d3f7574a1cb86554df17e356269a34066032cf.webp",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-HD020"
-              },
-              {
-                "src": "/media/d2e1d3cebf8341393e407fcbcbaa05fea7fa142baeaca72a3f99059838778d3c.png",
-                "alt": "LBH-HD020"
               }
             ]
           }
@@ -2469,30 +1833,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/349d99dbade1532acce200d18acc6d3d2c70494d90e1001f06ef897cc51dc366.png",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/b5e9aafb33c8ce5e836e2d7ebc357af17192a38d6e72ab89bd5497b948f51dd6.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/f1cd07487a6e7852dff13490044dbdb3a03179e1941cff163014b0b708bd3e73.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/688c941cfd7d40825ec4da9165d4cabfc62293873ea22640824ac30249fb3b55.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/793a30ac3ef63c01d2ef4525e5d3f7574a1cb86554df17e356269a34066032cf.webp",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-HD020"
-          },
-          {
-            "src": "/media/d2e1d3cebf8341393e407fcbcbaa05fea7fa142baeaca72a3f99059838778d3c.png",
             "alt": "LBH-HD020"
           }
         ],
@@ -2619,26 +1959,6 @@ export const products: Product[] = [
       {
         "src": "/media/df99c8388cb795b31825fb10dcf48db209643c835cdeedefae35e663849a0472.png",
         "alt": "LBH-EF488"
-      },
-      {
-        "src": "/media/2ee62c06046cd75261f4469b1e1519f855b2739989b25764150288cb1381b488.webp",
-        "alt": "LBH-EF488"
-      },
-      {
-        "src": "/media/69112aebcc80891255934b0e0a04ac15fc82bc0d0921102df8aedb486ed711e6.webp",
-        "alt": "LBH-EF488"
-      },
-      {
-        "src": "/media/1b20bd5281aad19e8de7d16840b4ebde0241581c4872f7ded44638f62b8db2f0.jpg",
-        "alt": "LBH-EF488"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-EF488"
-      },
-      {
-        "src": "/media/8db0d64168da9a14cc2522d7c09370554e627503322469b004f3f51b06f945e8.png",
-        "alt": "LBH-EF488"
       }
     ],
     "locales": {
@@ -2685,26 +2005,6 @@ export const products: Product[] = [
               {
                 "src": "/media/df99c8388cb795b31825fb10dcf48db209643c835cdeedefae35e663849a0472.png",
                 "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/2ee62c06046cd75261f4469b1e1519f855b2739989b25764150288cb1381b488.webp",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/69112aebcc80891255934b0e0a04ac15fc82bc0d0921102df8aedb486ed711e6.webp",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/1b20bd5281aad19e8de7d16840b4ebde0241581c4872f7ded44638f62b8db2f0.jpg",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/8db0d64168da9a14cc2522d7c09370554e627503322469b004f3f51b06f945e8.png",
-                "alt": "LBH-EF488"
               }
             ]
           }
@@ -2728,26 +2028,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/df99c8388cb795b31825fb10dcf48db209643c835cdeedefae35e663849a0472.png",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/2ee62c06046cd75261f4469b1e1519f855b2739989b25764150288cb1381b488.webp",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/69112aebcc80891255934b0e0a04ac15fc82bc0d0921102df8aedb486ed711e6.webp",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/1b20bd5281aad19e8de7d16840b4ebde0241581c4872f7ded44638f62b8db2f0.jpg",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/8db0d64168da9a14cc2522d7c09370554e627503322469b004f3f51b06f945e8.png",
             "alt": "LBH-EF488"
           }
         ],
@@ -2882,26 +2162,6 @@ export const products: Product[] = [
               {
                 "src": "/media/df99c8388cb795b31825fb10dcf48db209643c835cdeedefae35e663849a0472.png",
                 "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/2ee62c06046cd75261f4469b1e1519f855b2739989b25764150288cb1381b488.webp",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/69112aebcc80891255934b0e0a04ac15fc82bc0d0921102df8aedb486ed711e6.webp",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/1b20bd5281aad19e8de7d16840b4ebde0241581c4872f7ded44638f62b8db2f0.jpg",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-EF488"
-              },
-              {
-                "src": "/media/8db0d64168da9a14cc2522d7c09370554e627503322469b004f3f51b06f945e8.png",
-                "alt": "LBH-EF488"
               }
             ]
           }
@@ -2925,26 +2185,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/df99c8388cb795b31825fb10dcf48db209643c835cdeedefae35e663849a0472.png",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/2ee62c06046cd75261f4469b1e1519f855b2739989b25764150288cb1381b488.webp",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/69112aebcc80891255934b0e0a04ac15fc82bc0d0921102df8aedb486ed711e6.webp",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/1b20bd5281aad19e8de7d16840b4ebde0241581c4872f7ded44638f62b8db2f0.jpg",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-EF488"
-          },
-          {
-            "src": "/media/8db0d64168da9a14cc2522d7c09370554e627503322469b004f3f51b06f945e8.png",
             "alt": "LBH-EF488"
           }
         ],
@@ -3055,26 +2295,6 @@ export const products: Product[] = [
       {
         "src": "/media/98d8861c6d86f4fae1084f07850a2d255f30cee16ecc0c779e510b188607f602.png",
         "alt": "LBH-D1"
-      },
-      {
-        "src": "/media/c4d01eb36fe7e9bb003ee3c13675116f83c6dedfb06957849caf77ee403d0ba0.webp",
-        "alt": "LBH-D1"
-      },
-      {
-        "src": "/media/f8676ca2460e0df2af9e8ec275127162a24ef1dfcad19d62f905fdd6fcb8573a.webp",
-        "alt": "LBH-D1"
-      },
-      {
-        "src": "/media/26764d146bba2a89e626a7d79075fed7ace0bad36a15cfc9c2608e4a66fa5afd.webp",
-        "alt": "LBH-D1"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-D1"
-      },
-      {
-        "src": "/media/b0926adfb9e799e8ad63f231488d1d44f616e3ae8e51c281660db281edbd311b.png",
-        "alt": "LBH-D1"
       }
     ],
     "locales": {
@@ -3109,26 +2329,6 @@ export const products: Product[] = [
               {
                 "src": "/media/98d8861c6d86f4fae1084f07850a2d255f30cee16ecc0c779e510b188607f602.png",
                 "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/c4d01eb36fe7e9bb003ee3c13675116f83c6dedfb06957849caf77ee403d0ba0.webp",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/f8676ca2460e0df2af9e8ec275127162a24ef1dfcad19d62f905fdd6fcb8573a.webp",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/26764d146bba2a89e626a7d79075fed7ace0bad36a15cfc9c2608e4a66fa5afd.webp",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/b0926adfb9e799e8ad63f231488d1d44f616e3ae8e51c281660db281edbd311b.png",
-                "alt": "LBH-D1"
               }
             ]
           }
@@ -3140,26 +2340,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/98d8861c6d86f4fae1084f07850a2d255f30cee16ecc0c779e510b188607f602.png",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/c4d01eb36fe7e9bb003ee3c13675116f83c6dedfb06957849caf77ee403d0ba0.webp",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/f8676ca2460e0df2af9e8ec275127162a24ef1dfcad19d62f905fdd6fcb8573a.webp",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/26764d146bba2a89e626a7d79075fed7ace0bad36a15cfc9c2608e4a66fa5afd.webp",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/b0926adfb9e799e8ad63f231488d1d44f616e3ae8e51c281660db281edbd311b.png",
             "alt": "LBH-D1"
           }
         ],
@@ -3282,26 +2462,6 @@ export const products: Product[] = [
               {
                 "src": "/media/98d8861c6d86f4fae1084f07850a2d255f30cee16ecc0c779e510b188607f602.png",
                 "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/c4d01eb36fe7e9bb003ee3c13675116f83c6dedfb06957849caf77ee403d0ba0.webp",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/f8676ca2460e0df2af9e8ec275127162a24ef1dfcad19d62f905fdd6fcb8573a.webp",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/26764d146bba2a89e626a7d79075fed7ace0bad36a15cfc9c2608e4a66fa5afd.webp",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-D1"
-              },
-              {
-                "src": "/media/b0926adfb9e799e8ad63f231488d1d44f616e3ae8e51c281660db281edbd311b.png",
-                "alt": "LBH-D1"
               }
             ]
           }
@@ -3313,26 +2473,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/98d8861c6d86f4fae1084f07850a2d255f30cee16ecc0c779e510b188607f602.png",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/c4d01eb36fe7e9bb003ee3c13675116f83c6dedfb06957849caf77ee403d0ba0.webp",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/f8676ca2460e0df2af9e8ec275127162a24ef1dfcad19d62f905fdd6fcb8573a.webp",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/26764d146bba2a89e626a7d79075fed7ace0bad36a15cfc9c2608e4a66fa5afd.webp",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-D1"
-          },
-          {
-            "src": "/media/b0926adfb9e799e8ad63f231488d1d44f616e3ae8e51c281660db281edbd311b.png",
             "alt": "LBH-D1"
           }
         ],
@@ -3455,26 +2595,6 @@ export const products: Product[] = [
       {
         "src": "/media/1ac78b7dddd8649b72cd31d27bb968677b7dd5534da5c9d4d33182ad1cf6e720.png",
         "alt": "LBH-BD24"
-      },
-      {
-        "src": "/media/8be9ee89c8311e0af910740616b2414b9d9f1fd20327e38101b77118750e82bb.webp",
-        "alt": "LBH-BD24"
-      },
-      {
-        "src": "/media/bcf5fc5e38738fb0a9daf25b9c0c5507f0204623bc760db27ed1154fa94e8886.webp",
-        "alt": "LBH-BD24"
-      },
-      {
-        "src": "/media/2b03285aedb1bb5b7b7779a1ce030670c965bc7118672f8cff3ce75f14c76f1e.webp",
-        "alt": "LBH-BD24"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-BD24"
-      },
-      {
-        "src": "/media/81b783e2995cb84281084a0877d8756d943ef062446f134d065d0d9933af07f2.png",
-        "alt": "LBH-BD24"
       }
     ],
     "locales": {
@@ -3521,26 +2641,6 @@ export const products: Product[] = [
               {
                 "src": "/media/1ac78b7dddd8649b72cd31d27bb968677b7dd5534da5c9d4d33182ad1cf6e720.png",
                 "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/8be9ee89c8311e0af910740616b2414b9d9f1fd20327e38101b77118750e82bb.webp",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/bcf5fc5e38738fb0a9daf25b9c0c5507f0204623bc760db27ed1154fa94e8886.webp",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/2b03285aedb1bb5b7b7779a1ce030670c965bc7118672f8cff3ce75f14c76f1e.webp",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/81b783e2995cb84281084a0877d8756d943ef062446f134d065d0d9933af07f2.png",
-                "alt": "LBH-BD24"
               }
             ]
           }
@@ -3564,26 +2664,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/1ac78b7dddd8649b72cd31d27bb968677b7dd5534da5c9d4d33182ad1cf6e720.png",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/8be9ee89c8311e0af910740616b2414b9d9f1fd20327e38101b77118750e82bb.webp",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/bcf5fc5e38738fb0a9daf25b9c0c5507f0204623bc760db27ed1154fa94e8886.webp",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/2b03285aedb1bb5b7b7779a1ce030670c965bc7118672f8cff3ce75f14c76f1e.webp",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/81b783e2995cb84281084a0877d8756d943ef062446f134d065d0d9933af07f2.png",
             "alt": "LBH-BD24"
           }
         ],
@@ -3718,26 +2798,6 @@ export const products: Product[] = [
               {
                 "src": "/media/1ac78b7dddd8649b72cd31d27bb968677b7dd5534da5c9d4d33182ad1cf6e720.png",
                 "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/8be9ee89c8311e0af910740616b2414b9d9f1fd20327e38101b77118750e82bb.webp",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/bcf5fc5e38738fb0a9daf25b9c0c5507f0204623bc760db27ed1154fa94e8886.webp",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/2b03285aedb1bb5b7b7779a1ce030670c965bc7118672f8cff3ce75f14c76f1e.webp",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD24"
-              },
-              {
-                "src": "/media/81b783e2995cb84281084a0877d8756d943ef062446f134d065d0d9933af07f2.png",
-                "alt": "LBH-BD24"
               }
             ]
           }
@@ -3761,26 +2821,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/1ac78b7dddd8649b72cd31d27bb968677b7dd5534da5c9d4d33182ad1cf6e720.png",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/8be9ee89c8311e0af910740616b2414b9d9f1fd20327e38101b77118750e82bb.webp",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/bcf5fc5e38738fb0a9daf25b9c0c5507f0204623bc760db27ed1154fa94e8886.webp",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/2b03285aedb1bb5b7b7779a1ce030670c965bc7118672f8cff3ce75f14c76f1e.webp",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD24"
-          },
-          {
-            "src": "/media/81b783e2995cb84281084a0877d8756d943ef062446f134d065d0d9933af07f2.png",
             "alt": "LBH-BD24"
           }
         ],
@@ -3903,30 +2943,6 @@ export const products: Product[] = [
       {
         "src": "/media/94b829902dda22abead687b6033d5a351b4616c4513195c0fe0c577f4a300657.png",
         "alt": "LBH-956P"
-      },
-      {
-        "src": "/media/0a7258e8480e9d04c062a39e5d24ef45685323b3d974b9ddfc934b2031b2c24a.webp",
-        "alt": "LBH-956P"
-      },
-      {
-        "src": "/media/954c1238c68339bef2ca1d0f1364b4f999592001448313c30f070d2fb896e106.webp",
-        "alt": "LBH-956P"
-      },
-      {
-        "src": "/media/c18c6c6d5dc20e1d002749b7d10734fc87295adb1630a48ab32e78c535761b2d.webp",
-        "alt": "LBH-956P"
-      },
-      {
-        "src": "/media/ed37b5ae843c14a13ccd7e6e48017f5ad1df0f0ba3fb9cf15bd79c3859be716f.webp",
-        "alt": "LBH-956P"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-956P"
-      },
-      {
-        "src": "/media/c53c4abff0ae39256b2f32a3ede46fe96b81d2b93ea2156d4fd29d0041f27c1f.png",
-        "alt": "LBH-956P"
       }
     ],
     "locales": {
@@ -3973,30 +2989,6 @@ export const products: Product[] = [
               {
                 "src": "/media/94b829902dda22abead687b6033d5a351b4616c4513195c0fe0c577f4a300657.png",
                 "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/0a7258e8480e9d04c062a39e5d24ef45685323b3d974b9ddfc934b2031b2c24a.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/954c1238c68339bef2ca1d0f1364b4f999592001448313c30f070d2fb896e106.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/c18c6c6d5dc20e1d002749b7d10734fc87295adb1630a48ab32e78c535761b2d.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/ed37b5ae843c14a13ccd7e6e48017f5ad1df0f0ba3fb9cf15bd79c3859be716f.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/c53c4abff0ae39256b2f32a3ede46fe96b81d2b93ea2156d4fd29d0041f27c1f.png",
-                "alt": "LBH-956P"
               }
             ]
           }
@@ -4020,30 +3012,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/94b829902dda22abead687b6033d5a351b4616c4513195c0fe0c577f4a300657.png",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/0a7258e8480e9d04c062a39e5d24ef45685323b3d974b9ddfc934b2031b2c24a.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/954c1238c68339bef2ca1d0f1364b4f999592001448313c30f070d2fb896e106.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/c18c6c6d5dc20e1d002749b7d10734fc87295adb1630a48ab32e78c535761b2d.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/ed37b5ae843c14a13ccd7e6e48017f5ad1df0f0ba3fb9cf15bd79c3859be716f.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/c53c4abff0ae39256b2f32a3ede46fe96b81d2b93ea2156d4fd29d0041f27c1f.png",
             "alt": "LBH-956P"
           }
         ],
@@ -4182,30 +3150,6 @@ export const products: Product[] = [
               {
                 "src": "/media/94b829902dda22abead687b6033d5a351b4616c4513195c0fe0c577f4a300657.png",
                 "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/0a7258e8480e9d04c062a39e5d24ef45685323b3d974b9ddfc934b2031b2c24a.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/954c1238c68339bef2ca1d0f1364b4f999592001448313c30f070d2fb896e106.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/c18c6c6d5dc20e1d002749b7d10734fc87295adb1630a48ab32e78c535761b2d.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/ed37b5ae843c14a13ccd7e6e48017f5ad1df0f0ba3fb9cf15bd79c3859be716f.webp",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-956P"
-              },
-              {
-                "src": "/media/c53c4abff0ae39256b2f32a3ede46fe96b81d2b93ea2156d4fd29d0041f27c1f.png",
-                "alt": "LBH-956P"
               }
             ]
           }
@@ -4229,30 +3173,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/94b829902dda22abead687b6033d5a351b4616c4513195c0fe0c577f4a300657.png",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/0a7258e8480e9d04c062a39e5d24ef45685323b3d974b9ddfc934b2031b2c24a.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/954c1238c68339bef2ca1d0f1364b4f999592001448313c30f070d2fb896e106.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/c18c6c6d5dc20e1d002749b7d10734fc87295adb1630a48ab32e78c535761b2d.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/ed37b5ae843c14a13ccd7e6e48017f5ad1df0f0ba3fb9cf15bd79c3859be716f.webp",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-956P"
-          },
-          {
-            "src": "/media/c53c4abff0ae39256b2f32a3ede46fe96b81d2b93ea2156d4fd29d0041f27c1f.png",
             "alt": "LBH-956P"
           }
         ],
@@ -4379,30 +3299,6 @@ export const products: Product[] = [
       {
         "src": "/media/d2397762cf0c25ad06b7ab4c693f673b95125689ea7b529b0cec20659839e4c9.png",
         "alt": "LBH-919"
-      },
-      {
-        "src": "/media/136ae4eb4f69faee7242f1ca4cf8aaf417a61e11e09085576e4070e96c1ef3ad.jpg",
-        "alt": "LBH-919"
-      },
-      {
-        "src": "/media/5376351e65a71998a0f9d59480663b27745d3d3f5ca5ba42bf484bdfb1be5294.jpg",
-        "alt": "LBH-919"
-      },
-      {
-        "src": "/media/a49c0ec1b945afef36588fad56a5a1c36a1d72e52579a373a6233c14419d6be1.jpg",
-        "alt": "LBH-919"
-      },
-      {
-        "src": "/media/374ac932b4d5f71546da498343827395a963ecfe5ed5960acb8640978f179142.jpg",
-        "alt": "LBH-919"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-919"
-      },
-      {
-        "src": "/media/a38ed4ac6c0f3a28616fa9bbfeea2a72490b1983c1f4aaead2f31cef390f6105.png",
-        "alt": "LBH-919"
       }
     ],
     "locales": {
@@ -4449,30 +3345,6 @@ export const products: Product[] = [
               {
                 "src": "/media/d2397762cf0c25ad06b7ab4c693f673b95125689ea7b529b0cec20659839e4c9.png",
                 "alt": "LBH-919"
-              },
-              {
-                "src": "/media/136ae4eb4f69faee7242f1ca4cf8aaf417a61e11e09085576e4070e96c1ef3ad.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/5376351e65a71998a0f9d59480663b27745d3d3f5ca5ba42bf484bdfb1be5294.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/a49c0ec1b945afef36588fad56a5a1c36a1d72e52579a373a6233c14419d6be1.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/374ac932b4d5f71546da498343827395a963ecfe5ed5960acb8640978f179142.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/a38ed4ac6c0f3a28616fa9bbfeea2a72490b1983c1f4aaead2f31cef390f6105.png",
-                "alt": "LBH-919"
               }
             ]
           }
@@ -4496,30 +3368,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/d2397762cf0c25ad06b7ab4c693f673b95125689ea7b529b0cec20659839e4c9.png",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/136ae4eb4f69faee7242f1ca4cf8aaf417a61e11e09085576e4070e96c1ef3ad.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/5376351e65a71998a0f9d59480663b27745d3d3f5ca5ba42bf484bdfb1be5294.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/a49c0ec1b945afef36588fad56a5a1c36a1d72e52579a373a6233c14419d6be1.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/374ac932b4d5f71546da498343827395a963ecfe5ed5960acb8640978f179142.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/a38ed4ac6c0f3a28616fa9bbfeea2a72490b1983c1f4aaead2f31cef390f6105.png",
             "alt": "LBH-919"
           }
         ],
@@ -4658,30 +3506,6 @@ export const products: Product[] = [
               {
                 "src": "/media/d2397762cf0c25ad06b7ab4c693f673b95125689ea7b529b0cec20659839e4c9.png",
                 "alt": "LBH-919"
-              },
-              {
-                "src": "/media/136ae4eb4f69faee7242f1ca4cf8aaf417a61e11e09085576e4070e96c1ef3ad.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/5376351e65a71998a0f9d59480663b27745d3d3f5ca5ba42bf484bdfb1be5294.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/a49c0ec1b945afef36588fad56a5a1c36a1d72e52579a373a6233c14419d6be1.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/374ac932b4d5f71546da498343827395a963ecfe5ed5960acb8640978f179142.jpg",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-919"
-              },
-              {
-                "src": "/media/a38ed4ac6c0f3a28616fa9bbfeea2a72490b1983c1f4aaead2f31cef390f6105.png",
-                "alt": "LBH-919"
               }
             ]
           }
@@ -4705,30 +3529,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/d2397762cf0c25ad06b7ab4c693f673b95125689ea7b529b0cec20659839e4c9.png",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/136ae4eb4f69faee7242f1ca4cf8aaf417a61e11e09085576e4070e96c1ef3ad.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/5376351e65a71998a0f9d59480663b27745d3d3f5ca5ba42bf484bdfb1be5294.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/a49c0ec1b945afef36588fad56a5a1c36a1d72e52579a373a6233c14419d6be1.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/374ac932b4d5f71546da498343827395a963ecfe5ed5960acb8640978f179142.jpg",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-919"
-          },
-          {
-            "src": "/media/a38ed4ac6c0f3a28616fa9bbfeea2a72490b1983c1f4aaead2f31cef390f6105.png",
             "alt": "LBH-919"
           }
         ],
@@ -4859,26 +3659,6 @@ export const products: Product[] = [
       {
         "src": "/media/33195c8dde026d7fabd63d38c91ad9c433aae6d38978ca1311b3aee032357346.png",
         "alt": "LBH-EF601"
-      },
-      {
-        "src": "/media/20f140b35232a1f445bb6eff4f7e9ff53907fa0189994817ec397d7f27589fbf.webp",
-        "alt": "LBH-EF601"
-      },
-      {
-        "src": "/media/dc855b43087d407039b8603e1aeb325270e1b86af4c123c29ad97e1364a2f1f6.webp",
-        "alt": "LBH-EF601"
-      },
-      {
-        "src": "/media/0e99e0343997afaa0a243b59ebb7d01098161a3425fc56fdf670dea7dae5c0c0.webp",
-        "alt": "LBH-EF601"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-EF601"
-      },
-      {
-        "src": "/media/b8983364ca73e07c0f74aae46ace46253ae564e11a8739fc1000ff47c8133255.png",
-        "alt": "LBH-EF601"
       }
     ],
     "locales": {
@@ -4929,26 +3709,6 @@ export const products: Product[] = [
               {
                 "src": "/media/33195c8dde026d7fabd63d38c91ad9c433aae6d38978ca1311b3aee032357346.png",
                 "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/20f140b35232a1f445bb6eff4f7e9ff53907fa0189994817ec397d7f27589fbf.webp",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/dc855b43087d407039b8603e1aeb325270e1b86af4c123c29ad97e1364a2f1f6.webp",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/0e99e0343997afaa0a243b59ebb7d01098161a3425fc56fdf670dea7dae5c0c0.webp",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/b8983364ca73e07c0f74aae46ace46253ae564e11a8739fc1000ff47c8133255.png",
-                "alt": "LBH-EF601"
               }
             ]
           }
@@ -4976,26 +3736,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/33195c8dde026d7fabd63d38c91ad9c433aae6d38978ca1311b3aee032357346.png",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/20f140b35232a1f445bb6eff4f7e9ff53907fa0189994817ec397d7f27589fbf.webp",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/dc855b43087d407039b8603e1aeb325270e1b86af4c123c29ad97e1364a2f1f6.webp",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/0e99e0343997afaa0a243b59ebb7d01098161a3425fc56fdf670dea7dae5c0c0.webp",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/b8983364ca73e07c0f74aae46ace46253ae564e11a8739fc1000ff47c8133255.png",
             "alt": "LBH-EF601"
           }
         ],
@@ -5116,26 +3856,6 @@ export const products: Product[] = [
               {
                 "src": "/media/33195c8dde026d7fabd63d38c91ad9c433aae6d38978ca1311b3aee032357346.png",
                 "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/20f140b35232a1f445bb6eff4f7e9ff53907fa0189994817ec397d7f27589fbf.webp",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/dc855b43087d407039b8603e1aeb325270e1b86af4c123c29ad97e1364a2f1f6.webp",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/0e99e0343997afaa0a243b59ebb7d01098161a3425fc56fdf670dea7dae5c0c0.webp",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-EF601"
-              },
-              {
-                "src": "/media/b8983364ca73e07c0f74aae46ace46253ae564e11a8739fc1000ff47c8133255.png",
-                "alt": "LBH-EF601"
               }
             ]
           }
@@ -5163,26 +3883,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/33195c8dde026d7fabd63d38c91ad9c433aae6d38978ca1311b3aee032357346.png",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/20f140b35232a1f445bb6eff4f7e9ff53907fa0189994817ec397d7f27589fbf.webp",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/dc855b43087d407039b8603e1aeb325270e1b86af4c123c29ad97e1364a2f1f6.webp",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/0e99e0343997afaa0a243b59ebb7d01098161a3425fc56fdf670dea7dae5c0c0.webp",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-EF601"
-          },
-          {
-            "src": "/media/b8983364ca73e07c0f74aae46ace46253ae564e11a8739fc1000ff47c8133255.png",
             "alt": "LBH-EF601"
           }
         ],
@@ -5291,26 +3991,6 @@ export const products: Product[] = [
       {
         "src": "/media/56ddd11ee44f6274951c0d7f0d0c214f232794f091affe4c1855fdeaca363d02.png",
         "alt": "LBH-BD18"
-      },
-      {
-        "src": "/media/3a1d2befc2d147861216ac171f2a641b7e9e7abcd61cb0ab51ca90a509d75b6e.webp",
-        "alt": "LBH-BD18"
-      },
-      {
-        "src": "/media/378196b3fb59322d16aa8a9375da6af4941456dafa434f63c1b5b8a06dd462a8.webp",
-        "alt": "LBH-BD18"
-      },
-      {
-        "src": "/media/693460a5edffe878cbdac0270a5f5a8783bc802b9788d6e39fba6ae33866e968.webp",
-        "alt": "LBH-BD18"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-BD18"
-      },
-      {
-        "src": "/media/0274474320ec4094ff40275526e4b8a53166a542a0cd5acfe8fc7215e0df6d6d.png",
-        "alt": "LBH-BD18"
       }
     ],
     "locales": {
@@ -5361,26 +4041,6 @@ export const products: Product[] = [
               {
                 "src": "/media/56ddd11ee44f6274951c0d7f0d0c214f232794f091affe4c1855fdeaca363d02.png",
                 "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/3a1d2befc2d147861216ac171f2a641b7e9e7abcd61cb0ab51ca90a509d75b6e.webp",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/378196b3fb59322d16aa8a9375da6af4941456dafa434f63c1b5b8a06dd462a8.webp",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/693460a5edffe878cbdac0270a5f5a8783bc802b9788d6e39fba6ae33866e968.webp",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/0274474320ec4094ff40275526e4b8a53166a542a0cd5acfe8fc7215e0df6d6d.png",
-                "alt": "LBH-BD18"
               }
             ]
           }
@@ -5408,26 +4068,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/56ddd11ee44f6274951c0d7f0d0c214f232794f091affe4c1855fdeaca363d02.png",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/3a1d2befc2d147861216ac171f2a641b7e9e7abcd61cb0ab51ca90a509d75b6e.webp",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/378196b3fb59322d16aa8a9375da6af4941456dafa434f63c1b5b8a06dd462a8.webp",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/693460a5edffe878cbdac0270a5f5a8783bc802b9788d6e39fba6ae33866e968.webp",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/0274474320ec4094ff40275526e4b8a53166a542a0cd5acfe8fc7215e0df6d6d.png",
             "alt": "LBH-BD18"
           }
         ],
@@ -5548,26 +4188,6 @@ export const products: Product[] = [
               {
                 "src": "/media/56ddd11ee44f6274951c0d7f0d0c214f232794f091affe4c1855fdeaca363d02.png",
                 "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/3a1d2befc2d147861216ac171f2a641b7e9e7abcd61cb0ab51ca90a509d75b6e.webp",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/378196b3fb59322d16aa8a9375da6af4941456dafa434f63c1b5b8a06dd462a8.webp",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/693460a5edffe878cbdac0270a5f5a8783bc802b9788d6e39fba6ae33866e968.webp",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD18"
-              },
-              {
-                "src": "/media/0274474320ec4094ff40275526e4b8a53166a542a0cd5acfe8fc7215e0df6d6d.png",
-                "alt": "LBH-BD18"
               }
             ]
           }
@@ -5595,26 +4215,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/56ddd11ee44f6274951c0d7f0d0c214f232794f091affe4c1855fdeaca363d02.png",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/3a1d2befc2d147861216ac171f2a641b7e9e7abcd61cb0ab51ca90a509d75b6e.webp",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/378196b3fb59322d16aa8a9375da6af4941456dafa434f63c1b5b8a06dd462a8.webp",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/693460a5edffe878cbdac0270a5f5a8783bc802b9788d6e39fba6ae33866e968.webp",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD18"
-          },
-          {
-            "src": "/media/0274474320ec4094ff40275526e4b8a53166a542a0cd5acfe8fc7215e0df6d6d.png",
             "alt": "LBH-BD18"
           }
         ],
@@ -5715,26 +4315,6 @@ export const products: Product[] = [
       {
         "src": "/media/4352dc47757c3b982fb92439c3718eef289a9d56ee7f1b2c04a375088a70e7a4.png",
         "alt": "LBH-BD15"
-      },
-      {
-        "src": "/media/916c702319fc818e178f94d1f88e5302eb98a1f96a35a123726e82f63881acde.webp",
-        "alt": "LBH-BD15"
-      },
-      {
-        "src": "/media/ec99d55d6680f3c8cb44f4666d02919f0a332067f3f399f8d55e6e14c9bea585.webp",
-        "alt": "LBH-BD15"
-      },
-      {
-        "src": "/media/265dc9bd07a58fc56404c82cecc9b07229f54c172bc201298e24668f45f937fd.webp",
-        "alt": "LBH-BD15"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-BD15"
-      },
-      {
-        "src": "/media/d9f1134043179e858e8c25b7681a7a1c5b89ce72e2f16ff144745eee9b66bb75.png",
-        "alt": "LBH-BD15"
       }
     ],
     "locales": {
@@ -5777,26 +4357,6 @@ export const products: Product[] = [
               {
                 "src": "/media/4352dc47757c3b982fb92439c3718eef289a9d56ee7f1b2c04a375088a70e7a4.png",
                 "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/916c702319fc818e178f94d1f88e5302eb98a1f96a35a123726e82f63881acde.webp",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/ec99d55d6680f3c8cb44f4666d02919f0a332067f3f399f8d55e6e14c9bea585.webp",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/265dc9bd07a58fc56404c82cecc9b07229f54c172bc201298e24668f45f937fd.webp",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/d9f1134043179e858e8c25b7681a7a1c5b89ce72e2f16ff144745eee9b66bb75.png",
-                "alt": "LBH-BD15"
               }
             ]
           }
@@ -5816,26 +4376,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/4352dc47757c3b982fb92439c3718eef289a9d56ee7f1b2c04a375088a70e7a4.png",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/916c702319fc818e178f94d1f88e5302eb98a1f96a35a123726e82f63881acde.webp",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/ec99d55d6680f3c8cb44f4666d02919f0a332067f3f399f8d55e6e14c9bea585.webp",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/265dc9bd07a58fc56404c82cecc9b07229f54c172bc201298e24668f45f937fd.webp",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/d9f1134043179e858e8c25b7681a7a1c5b89ce72e2f16ff144745eee9b66bb75.png",
             "alt": "LBH-BD15"
           }
         ],
@@ -5948,26 +4488,6 @@ export const products: Product[] = [
               {
                 "src": "/media/4352dc47757c3b982fb92439c3718eef289a9d56ee7f1b2c04a375088a70e7a4.png",
                 "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/916c702319fc818e178f94d1f88e5302eb98a1f96a35a123726e82f63881acde.webp",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/ec99d55d6680f3c8cb44f4666d02919f0a332067f3f399f8d55e6e14c9bea585.webp",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/265dc9bd07a58fc56404c82cecc9b07229f54c172bc201298e24668f45f937fd.webp",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD15"
-              },
-              {
-                "src": "/media/d9f1134043179e858e8c25b7681a7a1c5b89ce72e2f16ff144745eee9b66bb75.png",
-                "alt": "LBH-BD15"
               }
             ]
           }
@@ -5987,26 +4507,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/4352dc47757c3b982fb92439c3718eef289a9d56ee7f1b2c04a375088a70e7a4.png",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/916c702319fc818e178f94d1f88e5302eb98a1f96a35a123726e82f63881acde.webp",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/ec99d55d6680f3c8cb44f4666d02919f0a332067f3f399f8d55e6e14c9bea585.webp",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/265dc9bd07a58fc56404c82cecc9b07229f54c172bc201298e24668f45f937fd.webp",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD15"
-          },
-          {
-            "src": "/media/d9f1134043179e858e8c25b7681a7a1c5b89ce72e2f16ff144745eee9b66bb75.png",
             "alt": "LBH-BD15"
           }
         ],
@@ -6115,22 +4615,6 @@ export const products: Product[] = [
       {
         "src": "/media/d125f96260d2c5a2fa4e114aad213beaafe982373093b0379ef0760923c5219d.png",
         "alt": "LBH-BD13"
-      },
-      {
-        "src": "/media/49d03e5d95263321eccbd25bdab7469104401f385112c1171b7b48c33f6b5b25.webp",
-        "alt": "LBH-BD13"
-      },
-      {
-        "src": "/media/bf4b8a925df036311a27d221b73854fceb486d77576f757bb905def6aef6ad78.webp",
-        "alt": "LBH-BD13"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-BD13"
-      },
-      {
-        "src": "/media/b4cf7b3d0b3a7a3b2cc839f7d99b7f4b1057ce1863bbe1ad5b01dbe5a6c1468d.png",
-        "alt": "LBH-BD13"
       }
     ],
     "locales": {
@@ -6181,22 +4665,6 @@ export const products: Product[] = [
               {
                 "src": "/media/d125f96260d2c5a2fa4e114aad213beaafe982373093b0379ef0760923c5219d.png",
                 "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/49d03e5d95263321eccbd25bdab7469104401f385112c1171b7b48c33f6b5b25.webp",
-                "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/bf4b8a925df036311a27d221b73854fceb486d77576f757bb905def6aef6ad78.webp",
-                "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/b4cf7b3d0b3a7a3b2cc839f7d99b7f4b1057ce1863bbe1ad5b01dbe5a6c1468d.png",
-                "alt": "LBH-BD13"
               }
             ]
           }
@@ -6224,22 +4692,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/d125f96260d2c5a2fa4e114aad213beaafe982373093b0379ef0760923c5219d.png",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/49d03e5d95263321eccbd25bdab7469104401f385112c1171b7b48c33f6b5b25.webp",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/bf4b8a925df036311a27d221b73854fceb486d77576f757bb905def6aef6ad78.webp",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/b4cf7b3d0b3a7a3b2cc839f7d99b7f4b1057ce1863bbe1ad5b01dbe5a6c1468d.png",
             "alt": "LBH-BD13"
           }
         ],
@@ -6356,22 +4808,6 @@ export const products: Product[] = [
               {
                 "src": "/media/d125f96260d2c5a2fa4e114aad213beaafe982373093b0379ef0760923c5219d.png",
                 "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/49d03e5d95263321eccbd25bdab7469104401f385112c1171b7b48c33f6b5b25.webp",
-                "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/bf4b8a925df036311a27d221b73854fceb486d77576f757bb905def6aef6ad78.webp",
-                "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD13"
-              },
-              {
-                "src": "/media/b4cf7b3d0b3a7a3b2cc839f7d99b7f4b1057ce1863bbe1ad5b01dbe5a6c1468d.png",
-                "alt": "LBH-BD13"
               }
             ]
           }
@@ -6399,22 +4835,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/d125f96260d2c5a2fa4e114aad213beaafe982373093b0379ef0760923c5219d.png",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/49d03e5d95263321eccbd25bdab7469104401f385112c1171b7b48c33f6b5b25.webp",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/bf4b8a925df036311a27d221b73854fceb486d77576f757bb905def6aef6ad78.webp",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD13"
-          },
-          {
-            "src": "/media/b4cf7b3d0b3a7a3b2cc839f7d99b7f4b1057ce1863bbe1ad5b01dbe5a6c1468d.png",
             "alt": "LBH-BD13"
           }
         ],
@@ -6519,22 +4939,6 @@ export const products: Product[] = [
       {
         "src": "/media/e0fc004bad95d52875e38bfad5e0533a62ca66e7a041808e9a0d460fe4a6730e.png",
         "alt": "LBH-3806"
-      },
-      {
-        "src": "/media/e67f8068bd347c8b9e48d7d48229ecf8ef5b5d0721ca0191e7eaeedb3948d58d.webp",
-        "alt": "LBH-3806"
-      },
-      {
-        "src": "/media/9036a2e978341599b561f1e88be4055a5dec02e293c374a1b1491797e2df9b66.webp",
-        "alt": "LBH-3806"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-3806"
-      },
-      {
-        "src": "/media/9a46f6ace852d18ee3c0658bc62a7bb4a29c209b871821c382593d21c315fdc5.png",
-        "alt": "LBH-3806"
       }
     ],
     "locales": {
@@ -6585,22 +4989,6 @@ export const products: Product[] = [
               {
                 "src": "/media/e0fc004bad95d52875e38bfad5e0533a62ca66e7a041808e9a0d460fe4a6730e.png",
                 "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/e67f8068bd347c8b9e48d7d48229ecf8ef5b5d0721ca0191e7eaeedb3948d58d.webp",
-                "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/9036a2e978341599b561f1e88be4055a5dec02e293c374a1b1491797e2df9b66.webp",
-                "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/9a46f6ace852d18ee3c0658bc62a7bb4a29c209b871821c382593d21c315fdc5.png",
-                "alt": "LBH-3806"
               }
             ]
           }
@@ -6628,22 +5016,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/e0fc004bad95d52875e38bfad5e0533a62ca66e7a041808e9a0d460fe4a6730e.png",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/e67f8068bd347c8b9e48d7d48229ecf8ef5b5d0721ca0191e7eaeedb3948d58d.webp",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/9036a2e978341599b561f1e88be4055a5dec02e293c374a1b1491797e2df9b66.webp",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/9a46f6ace852d18ee3c0658bc62a7bb4a29c209b871821c382593d21c315fdc5.png",
             "alt": "LBH-3806"
           }
         ],
@@ -6756,22 +5128,6 @@ export const products: Product[] = [
               {
                 "src": "/media/e0fc004bad95d52875e38bfad5e0533a62ca66e7a041808e9a0d460fe4a6730e.png",
                 "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/e67f8068bd347c8b9e48d7d48229ecf8ef5b5d0721ca0191e7eaeedb3948d58d.webp",
-                "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/9036a2e978341599b561f1e88be4055a5dec02e293c374a1b1491797e2df9b66.webp",
-                "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3806"
-              },
-              {
-                "src": "/media/9a46f6ace852d18ee3c0658bc62a7bb4a29c209b871821c382593d21c315fdc5.png",
-                "alt": "LBH-3806"
               }
             ]
           }
@@ -6799,22 +5155,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/e0fc004bad95d52875e38bfad5e0533a62ca66e7a041808e9a0d460fe4a6730e.png",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/e67f8068bd347c8b9e48d7d48229ecf8ef5b5d0721ca0191e7eaeedb3948d58d.webp",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/9036a2e978341599b561f1e88be4055a5dec02e293c374a1b1491797e2df9b66.webp",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3806"
-          },
-          {
-            "src": "/media/9a46f6ace852d18ee3c0658bc62a7bb4a29c209b871821c382593d21c315fdc5.png",
             "alt": "LBH-3806"
           }
         ],
@@ -6915,26 +5255,6 @@ export const products: Product[] = [
       {
         "src": "/media/8114c1272b22d5406e42bc1c4b7a93af4fc9c760834374902b7bbd67392facd4.png",
         "alt": "LBH-3802"
-      },
-      {
-        "src": "/media/f82b240f7bfbcbfa6813a418bd9081ce4d03f4ff544eeb651998bec8335865db.webp",
-        "alt": "LBH-3802"
-      },
-      {
-        "src": "/media/42032ce99e404f6e159e5e3569d577e98ff0a0d7535ac0ecfc88eb6e6d52059f.webp",
-        "alt": "LBH-3802"
-      },
-      {
-        "src": "/media/503632c2d0c3d44e1ca93e5529f65b48928b0c5ef16dc99b49e8902060267883.webp",
-        "alt": "LBH-3802"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-3802"
-      },
-      {
-        "src": "/media/132fa2bb30554e15ca3c8e0169442fa0190d4f7f559de8c04c1986e6b4bb1470.png",
-        "alt": "LBH-3802"
       }
     ],
     "locales": {
@@ -6985,26 +5305,6 @@ export const products: Product[] = [
               {
                 "src": "/media/8114c1272b22d5406e42bc1c4b7a93af4fc9c760834374902b7bbd67392facd4.png",
                 "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/f82b240f7bfbcbfa6813a418bd9081ce4d03f4ff544eeb651998bec8335865db.webp",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/42032ce99e404f6e159e5e3569d577e98ff0a0d7535ac0ecfc88eb6e6d52059f.webp",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/503632c2d0c3d44e1ca93e5529f65b48928b0c5ef16dc99b49e8902060267883.webp",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/132fa2bb30554e15ca3c8e0169442fa0190d4f7f559de8c04c1986e6b4bb1470.png",
-                "alt": "LBH-3802"
               }
             ]
           }
@@ -7032,26 +5332,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/8114c1272b22d5406e42bc1c4b7a93af4fc9c760834374902b7bbd67392facd4.png",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/f82b240f7bfbcbfa6813a418bd9081ce4d03f4ff544eeb651998bec8335865db.webp",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/42032ce99e404f6e159e5e3569d577e98ff0a0d7535ac0ecfc88eb6e6d52059f.webp",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/503632c2d0c3d44e1ca93e5529f65b48928b0c5ef16dc99b49e8902060267883.webp",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/132fa2bb30554e15ca3c8e0169442fa0190d4f7f559de8c04c1986e6b4bb1470.png",
             "alt": "LBH-3802"
           }
         ],
@@ -7172,26 +5452,6 @@ export const products: Product[] = [
               {
                 "src": "/media/8114c1272b22d5406e42bc1c4b7a93af4fc9c760834374902b7bbd67392facd4.png",
                 "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/f82b240f7bfbcbfa6813a418bd9081ce4d03f4ff544eeb651998bec8335865db.webp",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/42032ce99e404f6e159e5e3569d577e98ff0a0d7535ac0ecfc88eb6e6d52059f.webp",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/503632c2d0c3d44e1ca93e5529f65b48928b0c5ef16dc99b49e8902060267883.webp",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3802"
-              },
-              {
-                "src": "/media/132fa2bb30554e15ca3c8e0169442fa0190d4f7f559de8c04c1986e6b4bb1470.png",
-                "alt": "LBH-3802"
               }
             ]
           }
@@ -7219,26 +5479,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/8114c1272b22d5406e42bc1c4b7a93af4fc9c760834374902b7bbd67392facd4.png",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/f82b240f7bfbcbfa6813a418bd9081ce4d03f4ff544eeb651998bec8335865db.webp",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/42032ce99e404f6e159e5e3569d577e98ff0a0d7535ac0ecfc88eb6e6d52059f.webp",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/503632c2d0c3d44e1ca93e5529f65b48928b0c5ef16dc99b49e8902060267883.webp",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3802"
-          },
-          {
-            "src": "/media/132fa2bb30554e15ca3c8e0169442fa0190d4f7f559de8c04c1986e6b4bb1470.png",
             "alt": "LBH-3802"
           }
         ],
@@ -7339,26 +5579,6 @@ export const products: Product[] = [
       {
         "src": "/media/ec9e99ec9d4bee818edbcd5004c06f97b84dffb5f48d2dce8db773a3dfbdc8da.png",
         "alt": "LBH-F19"
-      },
-      {
-        "src": "/media/bff1418b62ca3871f67ffb6a569f1ab25df1c27a53a10cd036181a3c83039903.webp",
-        "alt": "LBH-F19"
-      },
-      {
-        "src": "/media/66c07384044fe46527f39da13e9765612681405fe503e468c06b010103ae52b2.webp",
-        "alt": "LBH-F19"
-      },
-      {
-        "src": "/media/252aa494f2d89df5d56923a2f79997bca8d39caf4af11e2fed68da212daab45b.webp",
-        "alt": "LBH-F19"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-F19"
-      },
-      {
-        "src": "/media/bc4e4fbc0b0eaa6baee898d0225164c4400061268a911367f24a4b04aa0be891.png",
-        "alt": "LBH-F19"
       }
     ],
     "locales": {
@@ -7401,26 +5621,6 @@ export const products: Product[] = [
               {
                 "src": "/media/ec9e99ec9d4bee818edbcd5004c06f97b84dffb5f48d2dce8db773a3dfbdc8da.png",
                 "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/bff1418b62ca3871f67ffb6a569f1ab25df1c27a53a10cd036181a3c83039903.webp",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/66c07384044fe46527f39da13e9765612681405fe503e468c06b010103ae52b2.webp",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/252aa494f2d89df5d56923a2f79997bca8d39caf4af11e2fed68da212daab45b.webp",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/bc4e4fbc0b0eaa6baee898d0225164c4400061268a911367f24a4b04aa0be891.png",
-                "alt": "LBH-F19"
               }
             ]
           }
@@ -7440,26 +5640,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/ec9e99ec9d4bee818edbcd5004c06f97b84dffb5f48d2dce8db773a3dfbdc8da.png",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/bff1418b62ca3871f67ffb6a569f1ab25df1c27a53a10cd036181a3c83039903.webp",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/66c07384044fe46527f39da13e9765612681405fe503e468c06b010103ae52b2.webp",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/252aa494f2d89df5d56923a2f79997bca8d39caf4af11e2fed68da212daab45b.webp",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/bc4e4fbc0b0eaa6baee898d0225164c4400061268a911367f24a4b04aa0be891.png",
             "alt": "LBH-F19"
           }
         ],
@@ -7580,26 +5760,6 @@ export const products: Product[] = [
               {
                 "src": "/media/ec9e99ec9d4bee818edbcd5004c06f97b84dffb5f48d2dce8db773a3dfbdc8da.png",
                 "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/bff1418b62ca3871f67ffb6a569f1ab25df1c27a53a10cd036181a3c83039903.webp",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/66c07384044fe46527f39da13e9765612681405fe503e468c06b010103ae52b2.webp",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/252aa494f2d89df5d56923a2f79997bca8d39caf4af11e2fed68da212daab45b.webp",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-F19"
-              },
-              {
-                "src": "/media/bc4e4fbc0b0eaa6baee898d0225164c4400061268a911367f24a4b04aa0be891.png",
-                "alt": "LBH-F19"
               }
             ]
           }
@@ -7619,26 +5779,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/ec9e99ec9d4bee818edbcd5004c06f97b84dffb5f48d2dce8db773a3dfbdc8da.png",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/bff1418b62ca3871f67ffb6a569f1ab25df1c27a53a10cd036181a3c83039903.webp",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/66c07384044fe46527f39da13e9765612681405fe503e468c06b010103ae52b2.webp",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/252aa494f2d89df5d56923a2f79997bca8d39caf4af11e2fed68da212daab45b.webp",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-F19"
-          },
-          {
-            "src": "/media/bc4e4fbc0b0eaa6baee898d0225164c4400061268a911367f24a4b04aa0be891.png",
             "alt": "LBH-F19"
           }
         ],
@@ -7755,26 +5895,6 @@ export const products: Product[] = [
       {
         "src": "/media/59a22267b54e563c363ec0f841698ef3e8896519d6a95c07e0243980f0dd4e7e.png",
         "alt": "LBH-EF055"
-      },
-      {
-        "src": "/media/b44ea703da70c0d57a6a44c66c2fdd092f72408a717605ae39f955f19c6c0b31.webp",
-        "alt": "LBH-EF055"
-      },
-      {
-        "src": "/media/1e29699920565a307483b851491461f0dd10de992f741ee5b172c1e2b7e3f60f.webp",
-        "alt": "LBH-EF055"
-      },
-      {
-        "src": "/media/39586f007f0cde7e260ffb322de864515d9f0fc5570a0989e3c90d3884fbe231.webp",
-        "alt": "LBH-EF055"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-EF055"
-      },
-      {
-        "src": "/media/4f7675d8e0e9a4b43991ffd327ccad85cb34beb20fe3b1cd2829bcf0c17328d9.png",
-        "alt": "LBH-EF055"
       }
     ],
     "locales": {
@@ -7825,26 +5945,6 @@ export const products: Product[] = [
               {
                 "src": "/media/59a22267b54e563c363ec0f841698ef3e8896519d6a95c07e0243980f0dd4e7e.png",
                 "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/b44ea703da70c0d57a6a44c66c2fdd092f72408a717605ae39f955f19c6c0b31.webp",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/1e29699920565a307483b851491461f0dd10de992f741ee5b172c1e2b7e3f60f.webp",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/39586f007f0cde7e260ffb322de864515d9f0fc5570a0989e3c90d3884fbe231.webp",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/4f7675d8e0e9a4b43991ffd327ccad85cb34beb20fe3b1cd2829bcf0c17328d9.png",
-                "alt": "LBH-EF055"
               }
             ]
           }
@@ -7872,26 +5972,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/59a22267b54e563c363ec0f841698ef3e8896519d6a95c07e0243980f0dd4e7e.png",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/b44ea703da70c0d57a6a44c66c2fdd092f72408a717605ae39f955f19c6c0b31.webp",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/1e29699920565a307483b851491461f0dd10de992f741ee5b172c1e2b7e3f60f.webp",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/39586f007f0cde7e260ffb322de864515d9f0fc5570a0989e3c90d3884fbe231.webp",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/4f7675d8e0e9a4b43991ffd327ccad85cb34beb20fe3b1cd2829bcf0c17328d9.png",
             "alt": "LBH-EF055"
           }
         ],
@@ -8024,26 +6104,6 @@ export const products: Product[] = [
               {
                 "src": "/media/59a22267b54e563c363ec0f841698ef3e8896519d6a95c07e0243980f0dd4e7e.png",
                 "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/b44ea703da70c0d57a6a44c66c2fdd092f72408a717605ae39f955f19c6c0b31.webp",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/1e29699920565a307483b851491461f0dd10de992f741ee5b172c1e2b7e3f60f.webp",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/39586f007f0cde7e260ffb322de864515d9f0fc5570a0989e3c90d3884fbe231.webp",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-EF055"
-              },
-              {
-                "src": "/media/4f7675d8e0e9a4b43991ffd327ccad85cb34beb20fe3b1cd2829bcf0c17328d9.png",
-                "alt": "LBH-EF055"
               }
             ]
           }
@@ -8071,26 +6131,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/59a22267b54e563c363ec0f841698ef3e8896519d6a95c07e0243980f0dd4e7e.png",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/b44ea703da70c0d57a6a44c66c2fdd092f72408a717605ae39f955f19c6c0b31.webp",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/1e29699920565a307483b851491461f0dd10de992f741ee5b172c1e2b7e3f60f.webp",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/39586f007f0cde7e260ffb322de864515d9f0fc5570a0989e3c90d3884fbe231.webp",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-EF055"
-          },
-          {
-            "src": "/media/4f7675d8e0e9a4b43991ffd327ccad85cb34beb20fe3b1cd2829bcf0c17328d9.png",
             "alt": "LBH-EF055"
           }
         ],
@@ -8203,22 +6243,6 @@ export const products: Product[] = [
       {
         "src": "/media/8a08731344fb0b63e575ea78feae4af8c4b39d67a02a10cd1589ee9951bdeda8.png",
         "alt": "LBH-3257W"
-      },
-      {
-        "src": "/media/8d8593dcbef4d8899d9662eed4c81f3e566a2ad4f1da1078a82e45ebe29318e8.webp",
-        "alt": "LBH-3257W"
-      },
-      {
-        "src": "/media/98a3ba667334d06cf46f8685595326b3322369fbfd6c5cb161e5be21c8311b5e.webp",
-        "alt": "LBH-3257W"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-3257W"
-      },
-      {
-        "src": "/media/37fe07b065111ec8f23ca564dcbd48cf3349ebd66550e1ba961a8d973e119cf5.png",
-        "alt": "LBH-3257W"
       }
     ],
     "locales": {
@@ -8261,22 +6285,6 @@ export const products: Product[] = [
               {
                 "src": "/media/8a08731344fb0b63e575ea78feae4af8c4b39d67a02a10cd1589ee9951bdeda8.png",
                 "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/8d8593dcbef4d8899d9662eed4c81f3e566a2ad4f1da1078a82e45ebe29318e8.webp",
-                "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/98a3ba667334d06cf46f8685595326b3322369fbfd6c5cb161e5be21c8311b5e.webp",
-                "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/37fe07b065111ec8f23ca564dcbd48cf3349ebd66550e1ba961a8d973e119cf5.png",
-                "alt": "LBH-3257W"
               }
             ]
           }
@@ -8296,22 +6304,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/8a08731344fb0b63e575ea78feae4af8c4b39d67a02a10cd1589ee9951bdeda8.png",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/8d8593dcbef4d8899d9662eed4c81f3e566a2ad4f1da1078a82e45ebe29318e8.webp",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/98a3ba667334d06cf46f8685595326b3322369fbfd6c5cb161e5be21c8311b5e.webp",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/37fe07b065111ec8f23ca564dcbd48cf3349ebd66550e1ba961a8d973e119cf5.png",
             "alt": "LBH-3257W"
           }
         ],
@@ -8432,22 +6424,6 @@ export const products: Product[] = [
               {
                 "src": "/media/8a08731344fb0b63e575ea78feae4af8c4b39d67a02a10cd1589ee9951bdeda8.png",
                 "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/8d8593dcbef4d8899d9662eed4c81f3e566a2ad4f1da1078a82e45ebe29318e8.webp",
-                "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/98a3ba667334d06cf46f8685595326b3322369fbfd6c5cb161e5be21c8311b5e.webp",
-                "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3257W"
-              },
-              {
-                "src": "/media/37fe07b065111ec8f23ca564dcbd48cf3349ebd66550e1ba961a8d973e119cf5.png",
-                "alt": "LBH-3257W"
               }
             ]
           }
@@ -8467,22 +6443,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/8a08731344fb0b63e575ea78feae4af8c4b39d67a02a10cd1589ee9951bdeda8.png",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/8d8593dcbef4d8899d9662eed4c81f3e566a2ad4f1da1078a82e45ebe29318e8.webp",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/98a3ba667334d06cf46f8685595326b3322369fbfd6c5cb161e5be21c8311b5e.webp",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3257W"
-          },
-          {
-            "src": "/media/37fe07b065111ec8f23ca564dcbd48cf3349ebd66550e1ba961a8d973e119cf5.png",
             "alt": "LBH-3257W"
           }
         ],
@@ -8591,22 +6551,6 @@ export const products: Product[] = [
       {
         "src": "/media/0265ea995ae4626d4c2140b19e03a1f9c69ee35890eac9290e77a8b9eb31f444.png",
         "alt": "LBH-3257"
-      },
-      {
-        "src": "/media/909880e55ea92730de9385eaca21ad6d6e495e9222bd0fe33b1a8b6d89008637.webp",
-        "alt": "LBH-3257"
-      },
-      {
-        "src": "/media/72301c2cbcbd8f0400cd6d68be8f152a53dd75c0bd54988e6f1e4aff415365cd.webp",
-        "alt": "LBH-3257"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-3257"
-      },
-      {
-        "src": "/media/f1c3017e37d4a8e3d14dbb89f9e628333d0662f7c3ba6dc9d5ac920b7f475c4c.png",
-        "alt": "LBH-3257"
       }
     ],
     "locales": {
@@ -8649,22 +6593,6 @@ export const products: Product[] = [
               {
                 "src": "/media/0265ea995ae4626d4c2140b19e03a1f9c69ee35890eac9290e77a8b9eb31f444.png",
                 "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/909880e55ea92730de9385eaca21ad6d6e495e9222bd0fe33b1a8b6d89008637.webp",
-                "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/72301c2cbcbd8f0400cd6d68be8f152a53dd75c0bd54988e6f1e4aff415365cd.webp",
-                "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/f1c3017e37d4a8e3d14dbb89f9e628333d0662f7c3ba6dc9d5ac920b7f475c4c.png",
-                "alt": "LBH-3257"
               }
             ]
           }
@@ -8684,22 +6612,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/0265ea995ae4626d4c2140b19e03a1f9c69ee35890eac9290e77a8b9eb31f444.png",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/909880e55ea92730de9385eaca21ad6d6e495e9222bd0fe33b1a8b6d89008637.webp",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/72301c2cbcbd8f0400cd6d68be8f152a53dd75c0bd54988e6f1e4aff415365cd.webp",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/f1c3017e37d4a8e3d14dbb89f9e628333d0662f7c3ba6dc9d5ac920b7f475c4c.png",
             "alt": "LBH-3257"
           }
         ],
@@ -8820,22 +6732,6 @@ export const products: Product[] = [
               {
                 "src": "/media/0265ea995ae4626d4c2140b19e03a1f9c69ee35890eac9290e77a8b9eb31f444.png",
                 "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/909880e55ea92730de9385eaca21ad6d6e495e9222bd0fe33b1a8b6d89008637.webp",
-                "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/72301c2cbcbd8f0400cd6d68be8f152a53dd75c0bd54988e6f1e4aff415365cd.webp",
-                "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3257"
-              },
-              {
-                "src": "/media/f1c3017e37d4a8e3d14dbb89f9e628333d0662f7c3ba6dc9d5ac920b7f475c4c.png",
-                "alt": "LBH-3257"
               }
             ]
           }
@@ -8855,22 +6751,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/0265ea995ae4626d4c2140b19e03a1f9c69ee35890eac9290e77a8b9eb31f444.png",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/909880e55ea92730de9385eaca21ad6d6e495e9222bd0fe33b1a8b6d89008637.webp",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/72301c2cbcbd8f0400cd6d68be8f152a53dd75c0bd54988e6f1e4aff415365cd.webp",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3257"
-          },
-          {
-            "src": "/media/f1c3017e37d4a8e3d14dbb89f9e628333d0662f7c3ba6dc9d5ac920b7f475c4c.png",
             "alt": "LBH-3257"
           }
         ],
@@ -8987,26 +6867,6 @@ export const products: Product[] = [
       {
         "src": "/media/9e187ebd56c0e1e016fe7e62cf3d6caabf85cd52f29eee4d8b56a870c8eba47c.png",
         "alt": "LBH-001A"
-      },
-      {
-        "src": "/media/320340084fbba1aa969afbfab4a7f97958df1950be0c56f9f501ee4277d61bea.webp",
-        "alt": "LBH-001A"
-      },
-      {
-        "src": "/media/be1d92aa6d3141f5bafad6d8abe774974cf4491ec9b3e56cfb1e11b8ec19dee8.webp",
-        "alt": "LBH-001A"
-      },
-      {
-        "src": "/media/3521a25e115897b6a18def6d0ec0f57a84c6a6bc5dede4e8057bf16073f2757e.webp",
-        "alt": "LBH-001A"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-001A"
-      },
-      {
-        "src": "/media/51f1c41b1145defc94ecf83cf830a05e29b5339eba1918d1c8a55bd146ede37e.png",
-        "alt": "LBH-001A"
       }
     ],
     "locales": {
@@ -9057,26 +6917,6 @@ export const products: Product[] = [
               {
                 "src": "/media/9e187ebd56c0e1e016fe7e62cf3d6caabf85cd52f29eee4d8b56a870c8eba47c.png",
                 "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/320340084fbba1aa969afbfab4a7f97958df1950be0c56f9f501ee4277d61bea.webp",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/be1d92aa6d3141f5bafad6d8abe774974cf4491ec9b3e56cfb1e11b8ec19dee8.webp",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/3521a25e115897b6a18def6d0ec0f57a84c6a6bc5dede4e8057bf16073f2757e.webp",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/51f1c41b1145defc94ecf83cf830a05e29b5339eba1918d1c8a55bd146ede37e.png",
-                "alt": "LBH-001A"
               }
             ]
           }
@@ -9104,26 +6944,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/9e187ebd56c0e1e016fe7e62cf3d6caabf85cd52f29eee4d8b56a870c8eba47c.png",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/320340084fbba1aa969afbfab4a7f97958df1950be0c56f9f501ee4277d61bea.webp",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/be1d92aa6d3141f5bafad6d8abe774974cf4491ec9b3e56cfb1e11b8ec19dee8.webp",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/3521a25e115897b6a18def6d0ec0f57a84c6a6bc5dede4e8057bf16073f2757e.webp",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/51f1c41b1145defc94ecf83cf830a05e29b5339eba1918d1c8a55bd146ede37e.png",
             "alt": "LBH-001A"
           }
         ],
@@ -9248,26 +7068,6 @@ export const products: Product[] = [
               {
                 "src": "/media/9e187ebd56c0e1e016fe7e62cf3d6caabf85cd52f29eee4d8b56a870c8eba47c.png",
                 "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/320340084fbba1aa969afbfab4a7f97958df1950be0c56f9f501ee4277d61bea.webp",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/be1d92aa6d3141f5bafad6d8abe774974cf4491ec9b3e56cfb1e11b8ec19dee8.webp",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/3521a25e115897b6a18def6d0ec0f57a84c6a6bc5dede4e8057bf16073f2757e.webp",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-001A"
-              },
-              {
-                "src": "/media/51f1c41b1145defc94ecf83cf830a05e29b5339eba1918d1c8a55bd146ede37e.png",
-                "alt": "LBH-001A"
               }
             ]
           }
@@ -9295,26 +7095,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/9e187ebd56c0e1e016fe7e62cf3d6caabf85cd52f29eee4d8b56a870c8eba47c.png",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/320340084fbba1aa969afbfab4a7f97958df1950be0c56f9f501ee4277d61bea.webp",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/be1d92aa6d3141f5bafad6d8abe774974cf4491ec9b3e56cfb1e11b8ec19dee8.webp",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/3521a25e115897b6a18def6d0ec0f57a84c6a6bc5dede4e8057bf16073f2757e.webp",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-001A"
-          },
-          {
-            "src": "/media/51f1c41b1145defc94ecf83cf830a05e29b5339eba1918d1c8a55bd146ede37e.png",
             "alt": "LBH-001A"
           }
         ],
@@ -9415,30 +7195,6 @@ export const products: Product[] = [
       {
         "src": "/media/56a58886d4b2899223a72b66dc11b86fff7d931fc4694ef434f5f9a072d54a62.png",
         "alt": "LBH-BD22"
-      },
-      {
-        "src": "/media/cdc23269f5dc8f9ee9cb52ba36217f28f1b4338ad8709f6967242da1899db772.webp",
-        "alt": "LBH-BD22"
-      },
-      {
-        "src": "/media/320b3d083cdd5fd0adc42ffa750bdea3d7e4ee0a031f414d57355993a5c8c016.webp",
-        "alt": "LBH-BD22"
-      },
-      {
-        "src": "/media/30d39549b7253593ad233ba4bd0d147260fc8b437e4b771f364b6fc2f623774d.webp",
-        "alt": "LBH-BD22"
-      },
-      {
-        "src": "/media/45641c8a104ff64b76954db577a84aaaae83fdcb61f720b86b6a24835cf152de.webp",
-        "alt": "LBH-BD22"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-BD22"
-      },
-      {
-        "src": "/media/d54d230a41ed9b805c6a9a1e9dc2812c0e2f179fa9d9ba00ae25645f20f86d1a.png",
-        "alt": "LBH-BD22"
       }
     ],
     "locales": {
@@ -9477,30 +7233,6 @@ export const products: Product[] = [
               {
                 "src": "/media/56a58886d4b2899223a72b66dc11b86fff7d931fc4694ef434f5f9a072d54a62.png",
                 "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/cdc23269f5dc8f9ee9cb52ba36217f28f1b4338ad8709f6967242da1899db772.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/320b3d083cdd5fd0adc42ffa750bdea3d7e4ee0a031f414d57355993a5c8c016.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/30d39549b7253593ad233ba4bd0d147260fc8b437e4b771f364b6fc2f623774d.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/45641c8a104ff64b76954db577a84aaaae83fdcb61f720b86b6a24835cf152de.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/d54d230a41ed9b805c6a9a1e9dc2812c0e2f179fa9d9ba00ae25645f20f86d1a.png",
-                "alt": "LBH-BD22"
               }
             ]
           }
@@ -9516,30 +7248,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/56a58886d4b2899223a72b66dc11b86fff7d931fc4694ef434f5f9a072d54a62.png",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/cdc23269f5dc8f9ee9cb52ba36217f28f1b4338ad8709f6967242da1899db772.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/320b3d083cdd5fd0adc42ffa750bdea3d7e4ee0a031f414d57355993a5c8c016.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/30d39549b7253593ad233ba4bd0d147260fc8b437e4b771f364b6fc2f623774d.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/45641c8a104ff64b76954db577a84aaaae83fdcb61f720b86b6a24835cf152de.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/d54d230a41ed9b805c6a9a1e9dc2812c0e2f179fa9d9ba00ae25645f20f86d1a.png",
             "alt": "LBH-BD22"
           }
         ],
@@ -9662,30 +7370,6 @@ export const products: Product[] = [
               {
                 "src": "/media/56a58886d4b2899223a72b66dc11b86fff7d931fc4694ef434f5f9a072d54a62.png",
                 "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/cdc23269f5dc8f9ee9cb52ba36217f28f1b4338ad8709f6967242da1899db772.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/320b3d083cdd5fd0adc42ffa750bdea3d7e4ee0a031f414d57355993a5c8c016.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/30d39549b7253593ad233ba4bd0d147260fc8b437e4b771f364b6fc2f623774d.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/45641c8a104ff64b76954db577a84aaaae83fdcb61f720b86b6a24835cf152de.webp",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-BD22"
-              },
-              {
-                "src": "/media/d54d230a41ed9b805c6a9a1e9dc2812c0e2f179fa9d9ba00ae25645f20f86d1a.png",
-                "alt": "LBH-BD22"
               }
             ]
           }
@@ -9701,30 +7385,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/56a58886d4b2899223a72b66dc11b86fff7d931fc4694ef434f5f9a072d54a62.png",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/cdc23269f5dc8f9ee9cb52ba36217f28f1b4338ad8709f6967242da1899db772.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/320b3d083cdd5fd0adc42ffa750bdea3d7e4ee0a031f414d57355993a5c8c016.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/30d39549b7253593ad233ba4bd0d147260fc8b437e4b771f364b6fc2f623774d.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/45641c8a104ff64b76954db577a84aaaae83fdcb61f720b86b6a24835cf152de.webp",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-BD22"
-          },
-          {
-            "src": "/media/d54d230a41ed9b805c6a9a1e9dc2812c0e2f179fa9d9ba00ae25645f20f86d1a.png",
             "alt": "LBH-BD22"
           }
         ],
@@ -9839,30 +7499,6 @@ export const products: Product[] = [
       {
         "src": "/media/eed90ae6234d650e8f73705d02257303ae5b1d144930f5d2fd74ed40ccd79bd7.png",
         "alt": "LBH-3808"
-      },
-      {
-        "src": "/media/2a40339274aae60a39b5e16993196399a569ee421a186130e949518a514324ec.webp",
-        "alt": "LBH-3808"
-      },
-      {
-        "src": "/media/85230aeb670869fa1bbb9e02e9a05c958bfe461ca3e94196823f25358c4112f0.webp",
-        "alt": "LBH-3808"
-      },
-      {
-        "src": "/media/089e1c7c1848c989152c7c87d590878fe24281e6f05efb78356c711174e0a7f3.webp",
-        "alt": "LBH-3808"
-      },
-      {
-        "src": "/media/1d0f6fea15b62de4e6a4c3d9a95c88fee81f616f2b997d74ebdbeee2f8d95556.webp",
-        "alt": "LBH-3808"
-      },
-      {
-        "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-        "alt": "LBH-3808"
-      },
-      {
-        "src": "/media/1e2c5f61ff60f8bf8b1489406f3bad4245f324240c1b2bf7c5edee234820ca8d.png",
-        "alt": "LBH-3808"
       }
     ],
     "locales": {
@@ -9905,30 +7541,6 @@ export const products: Product[] = [
               {
                 "src": "/media/eed90ae6234d650e8f73705d02257303ae5b1d144930f5d2fd74ed40ccd79bd7.png",
                 "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/2a40339274aae60a39b5e16993196399a569ee421a186130e949518a514324ec.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/85230aeb670869fa1bbb9e02e9a05c958bfe461ca3e94196823f25358c4112f0.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/089e1c7c1848c989152c7c87d590878fe24281e6f05efb78356c711174e0a7f3.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/1d0f6fea15b62de4e6a4c3d9a95c88fee81f616f2b997d74ebdbeee2f8d95556.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/1e2c5f61ff60f8bf8b1489406f3bad4245f324240c1b2bf7c5edee234820ca8d.png",
-                "alt": "LBH-3808"
               }
             ]
           }
@@ -9948,30 +7560,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/eed90ae6234d650e8f73705d02257303ae5b1d144930f5d2fd74ed40ccd79bd7.png",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/2a40339274aae60a39b5e16993196399a569ee421a186130e949518a514324ec.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/85230aeb670869fa1bbb9e02e9a05c958bfe461ca3e94196823f25358c4112f0.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/089e1c7c1848c989152c7c87d590878fe24281e6f05efb78356c711174e0a7f3.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/1d0f6fea15b62de4e6a4c3d9a95c88fee81f616f2b997d74ebdbeee2f8d95556.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/1e2c5f61ff60f8bf8b1489406f3bad4245f324240c1b2bf7c5edee234820ca8d.png",
             "alt": "LBH-3808"
           }
         ],
@@ -10102,30 +7690,6 @@ export const products: Product[] = [
               {
                 "src": "/media/eed90ae6234d650e8f73705d02257303ae5b1d144930f5d2fd74ed40ccd79bd7.png",
                 "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/2a40339274aae60a39b5e16993196399a569ee421a186130e949518a514324ec.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/85230aeb670869fa1bbb9e02e9a05c958bfe461ca3e94196823f25358c4112f0.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/089e1c7c1848c989152c7c87d590878fe24281e6f05efb78356c711174e0a7f3.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/1d0f6fea15b62de4e6a4c3d9a95c88fee81f616f2b997d74ebdbeee2f8d95556.webp",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-                "alt": "LBH-3808"
-              },
-              {
-                "src": "/media/1e2c5f61ff60f8bf8b1489406f3bad4245f324240c1b2bf7c5edee234820ca8d.png",
-                "alt": "LBH-3808"
               }
             ]
           }
@@ -10145,30 +7709,6 @@ export const products: Product[] = [
           },
           {
             "src": "/media/eed90ae6234d650e8f73705d02257303ae5b1d144930f5d2fd74ed40ccd79bd7.png",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/2a40339274aae60a39b5e16993196399a569ee421a186130e949518a514324ec.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/85230aeb670869fa1bbb9e02e9a05c958bfe461ca3e94196823f25358c4112f0.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/089e1c7c1848c989152c7c87d590878fe24281e6f05efb78356c711174e0a7f3.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/1d0f6fea15b62de4e6a4c3d9a95c88fee81f616f2b997d74ebdbeee2f8d95556.webp",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/28e52f65cb5b121859012f4d2bd0130c829d7dad9a96dec20395265a0dcd9f9b.gif",
-            "alt": "LBH-3808"
-          },
-          {
-            "src": "/media/1e2c5f61ff60f8bf8b1489406f3bad4245f324240c1b2bf7c5edee234820ca8d.png",
             "alt": "LBH-3808"
           }
         ],

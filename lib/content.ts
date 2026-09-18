@@ -13,3 +13,8 @@ export function getPage(locale: Locale, slug: string[]): SitePage | undefined {
   const key = `/${slug.join("/")}`;
   return allPages.find((page) => page.locale === locale && page.legacyPath === key);
 }
+
+export function productStaticParams(): Array<{ locale: Locale; slug: string[] }> {
+  return allPages.filter((page) => ["product-index", "product-category", "product-detail"].includes(page.kind))
+    .map((page) => ({ locale: page.locale, slug: page.legacyPath.split("/").filter(Boolean) }));
+}
