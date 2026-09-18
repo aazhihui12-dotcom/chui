@@ -132,3 +132,17 @@ it.each(["content", "export"])("rejects wrong-prefix and relative media in %s wi
     "non-local media path: media/missing.mp4",
   ]);
 });
+
+it("rejects exported remote catalogue links without a download attribute while excluding navigation", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "lbh-assets-remote-download-")); directories.push(root);
+  for (const directory of ["public", "content", "out"]) await mkdir(path.join(root, directory));
+  await writeFile(path.join(root, "manifest.json"), '{"assets":[]}');
+  await writeFile(path.join(root, "out/index.html"), `
+    <a href="https://lbhappliances.com/catalogue.pdf">Download catalogue</a>
+    <a href="https://lbhappliances.com/en/ProductIndex">Products</a>
+    <a href="/en/FAQ">FAQ</a><a href="../Contact">Contact</a>
+  `);
+  const result = run("--public", path.join(root, "public"), "--content", path.join(root, "content"), "--source-roots", path.join(root, "content"), "--manifest", path.join(root, "manifest.json"), "--output", path.join(root, "out"), "--json");
+  expect(result.status).toBe(1);
+  expect(JSON.parse(result.stdout).errors).toEqual(["remote dependency: https://lbhappliances.com/catalogue.pdf"]);
+});

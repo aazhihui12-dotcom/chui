@@ -65,7 +65,8 @@ function referencesFrom(filename) {
       if (tag === "image") add(attributes.href || attributes["xlink:href"]);
       const downloadable = tag === "a" && /\bdownload(?:\s|=|$)/i.test(element[2]);
       const mediaPreload = tag === "link" && /^(image|video|audio|font)$/.test(attributes.as);
-      if (downloadable || mediaPreload || mediaPath.test(attributes.href || "")) add(attributes.href);
+      const linkedMedia = tag === "a" && mediaExtension.test(attributes.href || "");
+      if (downloadable || linkedMedia || mediaPreload || mediaPath.test(attributes.href || "")) add(attributes.href);
       for (const srcset of [attributes.srcset, attributes.imagesrcset].filter(Boolean))
         for (const candidate of srcset.split(",")) add(candidate.trim().split(/\s+/)[0]);
     }
