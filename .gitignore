@@ -8,3 +8,4 @@ test-results/
 tsconfig.tsbuildinfo
 source-cache/pages/
 source-cache/assets/
+source-cache/session-cookies.txt
