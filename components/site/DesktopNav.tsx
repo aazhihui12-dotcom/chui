@@ -26,7 +26,7 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
                   aria-expanded={expanded}
                   aria-label={`${expanded ? "Close" : "Open"} ${item.label} menu`}
                   className="desktop-nav__toggle"
-                  onClick={() => setOpenLabel(expanded ? null : item.label)}
+                  onClick={() => setOpenLabel(item.label)}
                   onFocus={() => setOpenLabel(item.label)}
                   onKeyDown={(event) => {
                     if (event.key === "Escape") {

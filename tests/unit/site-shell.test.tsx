@@ -34,6 +34,43 @@ describe("SiteShell", () => {
     expect(toggle).toHaveAttribute("aria-expanded", "false");
   });
 
+  it("keeps a desktop submenu open when a pointer clicks an already focused toggle", () => {
+    render(
+      <SiteShell locale="en">
+        <main>Page</main>
+      </SiteShell>,
+    );
+
+    const toggle = screen.getByRole("button", { name: "Open Product menu" });
+    fireEvent.mouseEnter(toggle.closest("li")!);
+    fireEvent.focus(toggle);
+    fireEvent.click(toggle);
+
+    // Catches a pointer/focus pre-open being immediately inverted by the click handler.
+    expect(toggle).toHaveAttribute("aria-expanded", "true");
+    expect(screen.getByRole("link", { name: "Hair Dryer" })).toBeVisible();
+  });
+
+  it("does not move focus to the closed mobile-menu trigger on mount", () => {
+    const previousControl = document.createElement("button");
+    previousControl.textContent = "Outside control";
+    document.body.append(previousControl);
+    previousControl.focus();
+
+    try {
+      render(
+        <SiteShell locale="en">
+          <main>Page</main>
+        </SiteShell>,
+      );
+
+      // Catches hydration stealing focus from an already active page control.
+      expect(document.activeElement).toBe(previousControl);
+    } finally {
+      previousControl.remove();
+    }
+  });
+
   it("focuses, locks, and restores the mobile drawer with Escape", () => {
     render(
       <SiteShell locale="en">

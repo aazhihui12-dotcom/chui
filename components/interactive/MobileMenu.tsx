@@ -11,6 +11,7 @@ export function MobileMenu({ locale, items }: { locale: Locale; items: Navigatio
   const triggerRef = useRef<HTMLButtonElement>(null);
   const closeRef = useRef<HTMLButtonElement>(null);
   const drawerRef = useRef<HTMLElement>(null);
+  const wasOpenRef = useRef(false);
   const labels = siteConfig[locale].labels;
 
   const close = () => setOpen(false);
@@ -18,10 +19,12 @@ export function MobileMenu({ locale, items }: { locale: Locale; items: Navigatio
   useEffect(() => {
     if (!open) {
       document.body.style.overflow = "";
-      triggerRef.current?.focus();
+      if (wasOpenRef.current) triggerRef.current?.focus();
+      wasOpenRef.current = false;
       return;
     }
 
+    wasOpenRef.current = true;
     const previousOverflow = document.body.style.overflow;
     document.body.style.overflow = "hidden";
     closeRef.current?.focus();
