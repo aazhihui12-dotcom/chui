@@ -1,8 +1,9 @@
-import { cleanup, render, screen, within } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, expect, it } from "vitest";
 import * as renderer from "@/components/site/SectionRenderer";
 import type { ContentBlock } from "@/content/schema";
 import ContentPage from "@/app/[locale]/[...slug]/page";
+import { sourceEditorialMedia } from "../fixtures/editorial-source-media";
 
 afterEach(cleanup);
 
@@ -73,4 +74,32 @@ it("presents seven chronological milestones without repeating the year headings"
 it.each(["en", "cn"] as const)("makes all six certificate scans accessible in %s", async (locale) => {
   render(await ContentPage({ params: Promise.resolve({ locale, slug: ["Certification_certificate"] }) }));
   expect(screen.getAllByRole("img", { name: locale === "cn" ? /^产品认证证书 \d$/ : /^Product certificate \d$/ })).toHaveLength(6);
+});
+
+for (const locale of ["en", "cn"] as const) {
+  it.each(Object.entries(sourceEditorialMedia))(`retains the unique captured %s media once in ${locale}`, async (route, sources) => {
+    const { container } = render(await ContentPage({ params: Promise.resolve({ locale, slug: [route] }) }));
+    for (const source of sources) expect(container.querySelectorAll(`img[src="${source}"]`), source).toHaveLength(1);
+    expect(screen.getAllByRole("heading", { level: 1 })).toHaveLength(1);
+  });
+}
+
+it("shows factory assembly and motor images before statistics and browses the assembly variants", async () => {
+  const { container } = render(await ContentPage({ params: Promise.resolve({ locale: "en", slug: ["Factory_tour"] }) }));
+  const assembly = screen.getByRole("region", { name: "Assembly Site" });
+  const motor = screen.getByRole("region", { name: "Motor Factory" });
+  expect(within(assembly).getByRole("img")).toHaveAttribute("src", sourceEditorialMedia.Factory_tour[0]);
+  expect(within(motor).getByRole("img")).toHaveAttribute("src", sourceEditorialMedia.Factory_tour[3]);
+  expect(assembly.compareDocumentPosition(container.querySelector(".stats-grid")!)).toBe(Node.DOCUMENT_POSITION_FOLLOWING);
+  fireEvent.click(within(assembly).getByRole("button", { name: "Next image" }));
+  expect(within(assembly).getByRole("img")).toHaveAttribute("src", sourceEditorialMedia.Factory_tour[1]);
+  fireEvent.click(within(assembly).getByRole("button", { name: "Previous image" }));
+  expect(within(assembly).getByRole("img")).toHaveAttribute("src", sourceEditorialMedia.Factory_tour[0]);
+});
+
+it("keeps the laboratory's small test icons beside their labels instead of treating the extracted icon as a hero", async () => {
+  const { container } = render(await ContentPage({ params: Promise.resolve({ locale: "en", slug: ["Product_Laboratory"] }) }));
+  const icons = container.querySelectorAll('img[src="/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png"]');
+  expect(icons).toHaveLength(4);
+  expect(icons[0].closest(".editorial-test-item")).toHaveTextContent("New Design Concept Flexibility Test");
 });

@@ -27,6 +27,21 @@
 .editorial-section--certificates h2 { text-align: center; }
 .editorial-section--stack .content-media { margin-top: 30px; }
 .editorial-section--stack + .editorial-section--cards { padding-top: 10px; }
+.editorial-section--stack + .editorial-section--split { padding-top: 10px; }
+.editorial-gallery { min-width: 0; }
+.editorial-gallery [hidden] { display: none; }
+.editorial-gallery img { aspect-ratio: 1.5; display: block; height: auto; object-fit: cover; width: 100%; }
+.editorial-gallery__controls { align-items: center; display: flex; gap: 20px; justify-content: center; padding: 10px 0; }
+.editorial-gallery__controls button { background: #1a1a1a; border: 0; color: #fff; cursor: pointer; height: 36px; width: 44px; }
+.editorial-gallery__controls span { color: #605b56; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.editorial-gallery + .content-text h2 { font-size: 1.2rem; margin: 14px 0 0; text-align: center; }
+.editorial-test-item { align-items: center; display: flex; gap: 18px; margin-top: 20px; }
+.editorial-test-item > img { flex: 0 0 32px; height: 32px; object-fit: contain; width: 32px; }
+.editorial-page .editorial-test-item h2 { font-size: 1rem; margin: 0; }
+.editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type { padding-bottom: 26px; padding-top: 74px; }
+.editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type h2 { color: #000; font-size: clamp(1.5rem, 3vw, 2.5rem); margin: 0 auto 22px; max-width: 840px; }
+.editorial-page[data-editorial-path="/Factory_tour"] .editorial-section--split .editorial-section__inner { gap: 60px; max-width: 1212px; }
+.editorial-page[data-editorial-path="/Factory_tour"] .editorial-gallery img { aspect-ratio: 1.72; border-radius: 40px; }
 .editorial-section--certificates .content-gallery > div { display: grid; gap: 24px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .editorial-section--certificates .content-gallery img { background: #fff; height: 300px; object-fit: contain; padding: 14px; width: 100%; }
 .editorial-page .stats-grid { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
@@ -49,6 +64,9 @@
 .editorial-summary > .content-media img { aspect-ratio: 1.5; object-fit: contain; }
 .editorial-summary > .content-text p { font-size: 1.08rem; line-height: 2; }
 @media (max-width: 700px) {
+  .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type { padding: 34px 20px 20px; }
+  .editorial-page[data-editorial-path="/Factory_tour"] .editorial-section--split .editorial-section__inner { gap: 28px; }
+  .editorial-page[data-editorial-path="/Factory_tour"] .editorial-gallery img { border-radius: 24px; }
   .editorial-banner { padding: 42px 20px; }
   .editorial-banner h1 { font-size: 1.65rem; }
   .editorial-section { padding: 34px 20px; }

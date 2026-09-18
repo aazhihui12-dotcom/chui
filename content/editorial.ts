@@ -9,9 +9,19 @@ export const editorialPaths = [
 
 export interface EditorialSection {
   layout: "stack" | "split" | "cards" | "feature" | "certificates" | "timeline";
-  groups: number[][];
+  groups: EditorialEntry[][];
   tone?: "muted" | "dark";
 }
+
+export interface EditorialSourceGallery {
+  media: number[];
+  label: { en: string; cn: string };
+}
+export type EditorialEntry = number | EditorialSourceGallery | { icon: number; block: number };
+
+// The source's ModuleSlideV2Giant photos are retained in page.images, but its
+// generic block extraction misses the slide modules. Keep the exact groupings.
+const sourceGallery = (media: number[], en: string, cn: string): EditorialSourceGallery => ({ media, label: { en, cn } });
 
 const range = (first: number, last: number) => Array.from({ length: last - first + 1 }, (_, index) => first + index);
 
@@ -34,7 +44,9 @@ export const editorialSections: Partial<Record<(typeof editorialPaths)[number], 
     { layout: "split", groups: [[7], [8, 9, 10]], tone: "muted" },
   ],
   "/Factory_tour": [
-    { layout: "stack", groups: [range(2, 7)] },
+    { layout: "stack", groups: [[2]] },
+    { layout: "split", groups: [[sourceGallery([0, 1, 2], "Assembly Site", "装配现场"), 3], [sourceGallery([3, 4, 5], "Motor Factory", "电机工厂"), 4]] },
+    { layout: "stack", groups: [[5, 6, 7]] },
     { layout: "stack", groups: [[9, 10]], tone: "muted" },
     { layout: "cards", groups: [[11, 12], [13, 14], [15, 16], [17, 18], [19, 20], [21, 22], [23, 24], [25, 26]], tone: "muted" },
     { layout: "stack", groups: [[27, 28]] },
@@ -47,8 +59,7 @@ export const editorialSections: Partial<Record<(typeof editorialPaths)[number], 
     { layout: "split", groups: [[9, 10], [11]] },
   ],
   "/Product_Laboratory": [
-    { layout: "stack", groups: [[2]] },
-    { layout: "cards", groups: [[3], [4], [5], [6]] },
+    { layout: "split", groups: [[2, { icon: 0, block: 3 }, { icon: 0, block: 4 }, { icon: 0, block: 5 }, { icon: 0, block: 6 }], [sourceGallery([1, 2, 3], "Product laboratory", "产品实验室")]] },
     { layout: "split", groups: [[7], [8]] },
     { layout: "stack", groups: [[10, 11]], tone: "muted" },
     { layout: "cards", groups: [[12, 13], [14, 15], [16, 17]], tone: "muted" },
@@ -69,11 +80,15 @@ export const editorialSections: Partial<Record<(typeof editorialPaths)[number], 
     { layout: "split", groups: [[52], [53, 54, 55]], tone: "muted" },
   ],
   "/PinZhiGuanLi": [
-    { layout: "stack", groups: [[2, 3, 4]] },
-    { layout: "cards", groups: [[5, 6], [7, 8], [9, 10]], tone: "muted" },
-    { layout: "stack", groups: [[11, 12, 13]] },
+    { layout: "split", groups: [[2], [sourceGallery([0, 1], "ISO 9001:2000 quality management", "ISO 9001:2000 品质管理")]] },
+    { layout: "split", groups: [[3, 4], [sourceGallery([2, 3], "Quality in every component", "零部件品质管理")]] },
+    { layout: "split", groups: [[sourceGallery([4, 5], "Independently developed drive module", "自主研发驱动模块")], [5, 6]], tone: "muted" },
+    { layout: "split", groups: [[7, 8], [sourceGallery([6, 7, 8], "High-speed motor manufacturing", "高速电机制造")]] },
+    { layout: "split", groups: [[sourceGallery([9, 10, 11], "CNC mold engraving", "CNC 模具雕刻")], [9, 10]], tone: "muted" },
+    { layout: "split", groups: [[11, 12], [sourceGallery([12, 13], "Sample testing", "样品测试")]] },
+    { layout: "stack", groups: [[13]] },
     { layout: "cards", groups: [[14, 15, 16], [17, 18, 19], [20, 21, 22], [23, 24, 25]] },
-    { layout: "stack", groups: [[26, 27]] },
+    { layout: "split", groups: [[26, 27], [sourceGallery([18, 19], "Assembly control and inspection", "装配控制与检验")]] },
     { layout: "split", groups: [[28], [29, 30, 31]], tone: "muted" },
   ],
   "/Design_and_Development": [
