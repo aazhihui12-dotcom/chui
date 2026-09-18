@@ -7,6 +7,8 @@ import { ProductIndexTemplate } from "@/components/templates/ProductIndexTemplat
 import { ProductCategoryTemplate } from "@/components/templates/ProductCategoryTemplate";
 import { ProductDetailTemplate } from "@/components/templates/ProductDetailTemplate";
 import { SectionRenderer } from "@/components/site/SectionRenderer";
+import { EditorialTemplate } from "@/components/templates/EditorialTemplate";
+import { editorialPaths } from "@/content/editorial";
 
 type Props = { params: Promise<{ locale: string; slug: string[] }> };
 export const dynamicParams = false;
@@ -39,5 +41,6 @@ export default async function ContentPage({ params }: Props) {
     if (!product) notFound();
     return <ProductDetailTemplate product={product} locale={locale} />;
   }
+  if (page.kind === "content" && editorialPaths.some((path) => path === page.legacyPath)) return <EditorialTemplate page={page} />;
   return <main id="main-content" className="home-section"><h1>{page.title}</h1><SectionRenderer blocks={page.blocks} /></main>;
 }
