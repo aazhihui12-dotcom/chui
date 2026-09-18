@@ -1,6 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
   <title id="title">LBH Appliances</title>
-  <rect width="64" height="64" rx="12" fill="#111827"/>
-  <path d="M18 14h9v27h19v9H18z" fill="#f97316"/>
-  <path d="M32 14h14v9H32z" fill="#fff"/>
+  <rect width="64" height="64" rx="12" fill="#1f1b19"/>
+  <g fill="none" stroke="#ef4b00" stroke-width="4" stroke-linejoin="round">
+    <path d="M9 21v23h11"/>
+    <path d="M26 21v23h6c9 0 9-12 0-12h-6m0-11h6c8 0 8 11 0 11"/>
+    <path d="M45 21v23m11-23v23M45 32h11"/>
+  </g>
 </svg>

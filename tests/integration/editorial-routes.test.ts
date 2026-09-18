@@ -21,7 +21,7 @@ it.each(expectedEditorialPaths)("exports, dispatches and preserves metadata for 
     expect(page).toBeDefined();
     expect(generateStaticParams()).toContainEqual({ locale, slug });
     const params = Promise.resolve({ locale, slug });
-    expect(await generateMetadata({ params })).toEqual({ title: page!.seo.title, description: page!.seo.description });
+    expect(await generateMetadata({ params })).toMatchObject({ title: page!.seo.title, description: page!.seo.description });
     const html = renderToStaticMarkup(await ContentPage({ params }));
     expect(html).toContain('class="editorial-page');
     expect(html.match(/<h1[ >]/g)).toHaveLength(1);

@@ -15,6 +15,7 @@ import { ArticleDetailTemplate } from "@/components/templates/ArticleDetailTempl
 import { FaqTemplate } from "@/components/templates/FaqTemplate";
 import { ContactTemplate } from "@/components/templates/ContactTemplate";
 import { DownloadsTemplate } from "@/components/templates/DownloadsTemplate";
+import { pageMetadata } from "@/lib/metadata";
 
 type Props = { params: Promise<{ locale: string; slug: string[] }> };
 export const dynamicParams = false;
@@ -28,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!isLocale(locale)) notFound();
   const page = getPage(locale, slug);
   if (!page) notFound();
-  return { title: page.seo.title, description: page.seo.description };
+  return pageMetadata(page);
 }
 
 export default async function ContentPage({ params }: Props) {

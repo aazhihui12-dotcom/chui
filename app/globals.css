@@ -12,6 +12,11 @@
   --motion-base: 280ms;
 }
 
+.not-found-page { align-items: center; background: var(--lbh-warm); display: flex; flex-direction: column; gap: 18px; justify-content: center; min-height: 100vh; padding: 48px 24px; text-align: center; }
+.not-found-page h1, .not-found-page p { margin: 0; }
+.not-found-page__code { color: var(--lbh-orange); font-size: clamp(4rem, 12vw, 8rem); font-weight: 700; line-height: 1; }
+.not-found-page > a { background: var(--lbh-orange); color: white; margin-top: 18px; padding: 14px 26px; }
+
 .product-page { color: #24201d; }
 .product-page img { max-width: 100%; }
 .product-index__catalog, .product-index__section, .product-index__proof, .product-index__categories, .product-category-layout, .product-detail { margin: 0 auto; max-width: var(--content-wide); padding: 55px 24px; }
