@@ -87,6 +87,11 @@
   .editorial-section--feature { background: #1a1a1a; min-height: 0; padding: 30px 0 0; }
   .editorial-section--feature h2 { padding: 0 20px; }
   .editorial-section--feature .content-media { display: block; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-banner { height: 99px; padding: 10px 0 59px; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-banner h1 { font-size: 22px; line-height: 30px; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature { background: #fff; color: #000; padding-top: 100px; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature h2 { font-size: 22px; line-height: 30px; margin-bottom: 63px; text-shadow: none; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split { padding: 15px 10px 34px; }
   .editorial-page .stats-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .editorial-page .content-timeline li { margin-left: 58px; padding-left: 24px; }
   .editorial-page .content-timeline li > span { font-size: 1.1rem; left: -60px; top: 1px; }

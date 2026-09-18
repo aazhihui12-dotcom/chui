@@ -6,6 +6,7 @@ for (const locale of ["en", "cn"] as const) {
     await page.goto(`/${locale}/ProductIndex`);
     const catalog = page.getByRole("region", { name: cn ? "产品目录" : "Product catalog" });
     await expect(catalog.getByRole("link", { includeHidden: true })).toHaveCount(24);
+    await page.getByText(cn ? "筛选产品" : "Filter products", { exact: true }).click();
     await page.getByRole("button", { name: cn ? "直发器" : "Hair Straightener", exact: true }).click();
     await expect(catalog.getByRole("link", { includeHidden: true })).toHaveCount(5);
     for (const [id, count] of [["682971", 2], ["682972", 6], ["682973", 5], ["682974", 3], ["682975", 8]] as const) {
@@ -47,6 +48,7 @@ for (const locale of ["en", "cn"] as const) {
     expect(mobileBoxes[1].right).toBeLessThanOrEqual(390);
     await next.click();
     await expect(links.first()).toHaveAttribute("aria-label", "LBH-3210");
+    await page.getByText(cn ? "筛选产品" : "Filter products", { exact: true }).click();
     await page.getByRole("button", { name: cn ? "高速多功能美发造型器" : "High Speed Hair Multi-Styler", exact: true }).click();
     await expect(links).toHaveCount(2);
     await expect(links.first()).toHaveAttribute("aria-label", "LBH-BD22");

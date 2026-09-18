@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 import { mkdir } from "node:fs/promises";
 import { visualName, visualRoutes, visualViewports } from "../fixtures/visual-routes";
+import { decodedImageFailures } from "../fixtures/decoded-images";
 
 test("source header dimensions, logo and product heading band are retained", async ({ page }) => {
   await page.setViewportSize({ width: 1440, height: 1200 });
@@ -50,13 +51,7 @@ for (const viewport of visualViewports) {
       expect((await page.goto(route))?.status()).toBe(200);
       await expect(page.getByRole("main")).toBeVisible();
       await expect(page.locator("#main-content")).toBeVisible();
-      await page.evaluate(async () => {
-        await document.fonts.ready;
-        await Promise.all([...document.images].map(async (image) => {
-          image.loading = "eager";
-          await image.decode().catch(() => {});
-        }));
-      });
+      expect(await decodedImageFailures(page), `Displayed images must decode: ${route}`).toEqual([]);
       if (viewport.width === 390) {
         expect(await page.evaluate(() => document.documentElement.scrollWidth)).toBe(viewport.width);
       }

@@ -31,6 +31,8 @@
 .article-sharing > span { color: #686868; font-size: 13px; }
 .article-sharing a, .article-sharing button { align-items: center; background: white; border: 1px solid #ccc; border-radius: 50%; color: #27527b; display: inline-flex; font-size: 21px; font-weight: 700; height: 36px; justify-content: center; width: 36px; }
 .article-sharing button { color: #626262; cursor: pointer; }
+.article-sharing__services { display: flex; gap: 10px; }
+.article-sharing .article-sharing__toggle { display: none; }
 .article-neighbors { border-top: 1px solid #eee; display: flex; gap: 30px; justify-content: space-between; margin-top: 24px; padding: 40px 10px 15px; }
 .article-neighbors a { font-size: 14px; }
 .article-neighbors a:last-child { text-align: right; }
@@ -94,4 +96,18 @@
   .content-pagination { font-size: .85rem; gap: 14px; }
   .content-pagination button { padding: 10px 14px; }
   .faq-item h2 { font-size: 1rem; }
+  .article-banner { font-size: 32px; height: 42px; line-height: 42px; overflow: hidden; padding: 0; }
+  .article-detail { min-height: 0; }
+  .article-detail__body { padding: 100px 0 0; }
+  .article-detail h1 { margin: 0 0 18px; }
+  .article-metadata { font-size: 12px; gap: 8px; margin: 0; padding-bottom: 7px; }
+  .article-sharing { margin: 16px 10px 0; position: relative; }
+  .article-sharing__label { display: none; }
+  .article-sharing .article-sharing__toggle { border-radius: 20px; display: inline-flex; font-size: 14px; font-weight: 400; height: 32px; width: 76px; }
+  .article-sharing__services { background: white; border: 1px solid #ccc; display: none; left: 0; padding: 10px; position: absolute; top: 36px; z-index: 2; }
+  .article-sharing__services.is-expanded { display: flex; }
+  .article-neighbors { flex-direction: column; gap: 10px; margin: 20px 10px 0; padding: 6px 5px; }
+  .article-neighbors a:last-child { text-align: left; }
+  .article-detail .article-back { height: 1px; margin: 0; overflow: hidden; padding: 0; position: absolute; width: 1px; }
+  .article-detail .article-back:focus { background: white; height: auto; padding: 8px; width: auto; z-index: 2; }
 }

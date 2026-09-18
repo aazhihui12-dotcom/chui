@@ -36,7 +36,8 @@ export function ProductCarousel({ products, locale }: { products: Product[]; loc
     </div>
     <div className="product-carousel__controls">
       <button aria-label={cn ? "上一组产品" : "Previous products"} aria-controls={trackId} disabled={offset === 0} onClick={() => setStart(offset - 1)}>←</button>
-      <p role="status" aria-live="polite" aria-atomic="true">{cn ? `第${offset + 1}–${end}款，共${products.length}款` : `Products ${offset + 1}–${end} of ${products.length}`}</p>
+      <p className="sr-only" role="status" aria-live="polite" aria-atomic="true">{cn ? `第${offset + 1}–${end}款，共${products.length}款` : `Products ${offset + 1}–${end} of ${products.length}`}</p>
+      <div className="product-carousel__dots">{Array.from({ length: Math.ceil(products.length / visibleCount) }, (_, index) => <button key={index} aria-label={cn ? `转到第${index + 1}组产品` : `Go to product group ${index + 1}`} aria-controls={trackId} aria-current={Math.floor(offset / visibleCount) === index ? "true" : undefined} onClick={() => setStart(Math.min(index * visibleCount, lastStart))}><span /></button>)}</div>
       <button aria-label={cn ? "下一组产品" : "Next products"} aria-controls={trackId} disabled={offset === lastStart} onClick={() => setStart(offset + 1)}>→</button>
     </div>
   </section>;

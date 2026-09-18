@@ -34,6 +34,7 @@ export function ProductGallery({ images, model, locale }: { images: ImageAsset[]
       <img src={image.src} alt={image.alt} width="700" height="700" fetchPriority="high" />
       <span className="product-gallery__zoom" aria-hidden="true">＋</span>
     </button>
+    <a className="product-gallery__graphic" href="#product-details">{cn ? "图文详情" : "Graphic Detail"}</a>
     <div className="product-gallery__thumbnails" aria-label={cn ? "产品图片" : "Product images"}>
       {images.map((item, index) => <button key={`${item.src}-${index}`} aria-label={cn ? `查看${model}第${index + 1}张图片` : `View image ${index + 1} of ${model}`} aria-pressed={selected === index} onClick={() => setSelected(index)}><img src={item.src} alt="" width="90" height="90" loading="lazy" /></button>)}
     </div>

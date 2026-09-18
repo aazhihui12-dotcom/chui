@@ -20,13 +20,13 @@ export function ProductDetailTemplate({ product, locale }: { product: Product; l
         <ProductInquiry context={{ locale, productId: product.id, model: product.model, title: page.inquiryTitle }} label={labels.inquiry} />
       </section>
     </div>
-    <ProductTabs labels={[labels.specifications, labels.features, labels.accessories]} initialIndex={1}>
+    <div id="product-details"><ProductTabs labels={[labels.specifications, labels.features, labels.accessories]} initialIndex={1}>
       {[
         <div key="parameters" className="product-parameter-list"><h2>{cn ? `${product.model}规格参数` : `${product.model} technical specifications`}</h2><dl>{page.specifications.map((spec, index) => <div key={index}><dt>{spec.label}</dt><dd>{spec.value}</dd></div>)}</dl></div>,
         <SectionRenderer key="features" blocks={page.features} />,
         page.accessories.length ? <SectionRenderer key="accessories" blocks={page.accessories} /> : <p key="accessories">{cn ? "联系我们，了解可选配件与定制方案。" : "Contact us for available accessories and customization options."}</p>,
       ]}
-    </ProductTabs>
+    </ProductTabs></div>
     <a className="product-back" href={`/${locale}${category.legacyPath}`}>← {cn ? "返回" : "Back to"} {category.title[locale]}</a>
   </main>;
 }

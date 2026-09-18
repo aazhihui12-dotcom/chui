@@ -10,7 +10,7 @@ export function HeroCarousel({ slides, locale }: { slides: HeroSlide[]; locale: 
   const [active, setActive] = useState(0);
   const cn = locale === "cn";
   const change = (direction: number) => setActive((index) => (index + direction + slides.length) % slides.length);
-  return <section className="home-hero" aria-label={cn ? "产品与品牌展示" : "Products and brand highlights"} aria-roledescription="carousel">
+  return <section className="home-hero" data-locale={locale} aria-label={cn ? "产品与品牌展示" : "Products and brand highlights"} aria-roledescription="carousel">
     {slides.map((slide, index) => <div key={slide.title} hidden={index !== active} className={index ? "hero-slide hero-slide--product" : "hero-slide"} role="group" aria-roledescription="slide" aria-label={`${index + 1} / ${slides.length}`}>
       <Media image={{ ...slide.image, width: index ? 900 : 1920, height: 800, alt: index ? slide.title : "" }} priority={index === 0} className="home-hero__image" />
       <div className="home-hero__inner">
