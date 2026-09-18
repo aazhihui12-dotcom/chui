@@ -51,6 +51,24 @@ describe("SiteShell", () => {
     expect(screen.getByRole("link", { name: "Hair Dryer" })).toBeVisible();
   });
 
+  it("closes a desktop submenu when its expanded toggle is clicked again", () => {
+    render(
+      <SiteShell locale="en">
+        <main>Page</main>
+      </SiteShell>,
+    );
+
+    const toggle = screen.getByRole("button", { name: "Open Product menu" });
+    fireEvent.mouseEnter(toggle.closest("li")!);
+    fireEvent.focus(toggle);
+    fireEvent.click(toggle);
+    fireEvent.click(toggle);
+
+    // Catches a menu toggle that can open but leaves pointer-only users unable to dismiss it.
+    expect(toggle).toHaveAttribute("aria-expanded", "false");
+    expect(screen.queryByRole("link", { name: "Hair Dryer" })).not.toBeInTheDocument();
+  });
+
   it("does not move focus to the closed mobile-menu trigger on mount", () => {
     const previousControl = document.createElement("button");
     previousControl.textContent = "Outside control";

@@ -13,6 +13,8 @@ test.describe("shared navigation shell", () => {
     await expect(page.getByRole("link", { name: "Product", exact: true })).toHaveAttribute("href", "/en/ProductIndex");
     await page.getByRole("button", { name: "Open Product menu" }).click();
     await expect(page.getByRole("link", { name: "Hair Dryer", exact: true })).toBeVisible();
+    await page.getByRole("button", { name: "Close Product menu" }).click();
+    await expect(page.getByRole("link", { name: "Hair Dryer", exact: true })).toBeHidden();
     await expect(page.getByRole("link", { name: "中文", exact: true })).toHaveAttribute("href", "/cn");
     await expect(page.getByRole("contentinfo").getByRole("link", { name: "Contact Us" })).toHaveAttribute("href", "/en/Contact");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);

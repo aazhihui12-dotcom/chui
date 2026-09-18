@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useRef, useState } from "react";
 import type { NavigationItem } from "@/content/schema";
 
 export function DesktopNav({ items }: { items: NavigationItem[] }) {
   const [openLabel, setOpenLabel] = useState<string | null>(null);
+  const openedByToggleRef = useRef<string | null>(null);
 
   return (
     <nav className="desktop-nav" aria-label="Primary">
@@ -16,8 +17,15 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
             <li
               className="desktop-nav__item"
               key={item.href}
-              onMouseEnter={() => hasChildren && setOpenLabel(item.label)}
-              onMouseLeave={() => hasChildren && setOpenLabel(null)}
+              onMouseEnter={() => {
+                if (!hasChildren) return;
+                openedByToggleRef.current = null;
+                setOpenLabel(item.label);
+              }}
+              onMouseLeave={() => {
+                openedByToggleRef.current = null;
+                setOpenLabel(null);
+              }}
             >
               <a href={item.href}>{item.label}</a>
               {hasChildren ? (
@@ -26,10 +34,22 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
                   aria-expanded={expanded}
                   aria-label={`${expanded ? "Close" : "Open"} ${item.label} menu`}
                   className="desktop-nav__toggle"
-                  onClick={() => setOpenLabel(item.label)}
-                  onFocus={() => setOpenLabel(item.label)}
+                  onClick={() => {
+                    if (expanded && openedByToggleRef.current === item.label) {
+                      openedByToggleRef.current = null;
+                      setOpenLabel(null);
+                      return;
+                    }
+                    openedByToggleRef.current = item.label;
+                    setOpenLabel(item.label);
+                  }}
+                  onFocus={() => {
+                    openedByToggleRef.current = null;
+                    setOpenLabel(item.label);
+                  }}
                   onKeyDown={(event) => {
                     if (event.key === "Escape") {
+                      openedByToggleRef.current = null;
                       setOpenLabel(null);
                     }
                   }}
