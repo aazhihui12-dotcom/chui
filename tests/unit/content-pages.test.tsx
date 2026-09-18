@@ -7,6 +7,25 @@ import { mkdirSync, mkdtempSync, writeFileSync, rmSync } from "node:fs";
 afterEach(() => { cleanup(); window.history.replaceState({}, "", "/"); });
 const page = (path: string, locale = "en") => ContentPage({ params: Promise.resolve({ locale, slug: path.split("/") }) });
 
+it("retains the captured Blog thumbnail on placeholder cards across pagination", async () => {
+  render(await page("Blog"));
+  const source = "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg";
+  for (const card of screen.getAllByRole("article")) {
+    expect(within(card).getByRole("img")).toHaveAttribute("src", source);
+    expect(card).toHaveTextContent("Source placeholder");
+  }
+  fireEvent.click(screen.getByRole("button", { name: "Next page" }));
+  expect(screen.getAllByRole("img")).toHaveLength(3);
+});
+
+it("leads contact with the source project headline, followed by contact details and the shared inquiry entry", async () => {
+  render(await page("Contact_Us"));
+  const heading = screen.getByRole("heading", { level: 1, name: "Let us take on your new personal care and home appliance project!" });
+  expect(heading.closest("header")).not.toBeNull();
+  expect(screen.getByRole("heading", { level: 2, name: "Contact Us Now" })).toBeVisible();
+  expect(screen.getByRole("link", { name: "Get a Quote Now" })).toHaveAttribute("href", "mailto:tina.fang@linknove.com");
+});
+
 it("paginates the eleven news records without mixing in FAQs or losing the last three records", async () => {
   render(await page("Blog"));
   expect(screen.getAllByRole("article")).toHaveLength(8);

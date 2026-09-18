@@ -1,5 +1,28 @@
 import { expect, test } from "@playwright/test";
 
+for (const width of [1440, 390]) {
+  test(`Blog displays decoded source thumbnails at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/en/Blog");
+    const images = page.getByRole("main").getByRole("article").getByRole("img");
+    await expect(images).toHaveCount(8);
+    await expect(images.first()).toHaveAttribute("src", "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg");
+    await expect.poll(() => images.first().evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
+  });
+  test(`Contact retains source centered white hero typography at ${width}px`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 900 });
+    await page.goto("/en/Contact_Us");
+    const heading = page.getByRole("heading", { level: 1 });
+    await expect(heading).toHaveText("Let us take on your new personal care and home appliance project!");
+    await expect(heading).toHaveCSS("color", "rgb(255, 255, 255)");
+    await expect(heading).toHaveCSS("text-align", "center");
+    await expect(heading).toHaveCSS("font-size", width === 1440 ? "40px" : "22px");
+    await expect(heading).toHaveCSS("line-height", width === 1440 ? "60px" : "39px");
+    await expect(heading.locator("..")).toHaveCSS("background-color", "rgb(26, 26, 26)");
+    await expect(page.getByRole("heading", { name: "Contact Us Now" })).toBeVisible();
+  });
+}
+
 for (const locale of ["en", "cn"]) for (const width of [1440, 390]) {
   test(`${locale} support and article pages fit ${width}px`, async ({ page }) => {
     test.setTimeout(90000);

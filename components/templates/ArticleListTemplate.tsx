@@ -7,6 +7,9 @@ import "./content-pages.css";
 
 export function ArticleListTemplate({ page, articles }: { page: SitePage; articles: ArticlePage[] }) {
   const cn = page.locale === "cn";
+  // The source Blog supplies a shared placeholder thumbnail on its list,
+  // while the article detail records correctly contain no body images.
+  const placeholderThumbnail = page.legacyPath === "/Blog" ? page.images[0] : undefined;
   const size = page.legacyPath === "/NewsList/2.html" ? 12 : 8;
   const count = Math.max(1, Math.ceil(articles.length / size));
   const [current, setCurrent] = useState(1);
@@ -32,13 +35,16 @@ export function ArticleListTemplate({ page, articles }: { page: SitePage; articl
         <a href={`/${page.locale}/Blog`} aria-current={page.legacyPath !== "/NewsList/2.html" ? "page" : undefined}>{cn ? "博客与新闻" : "Blog & News"}</a>
         <a href={`/${page.locale}/NewsList/2.html`} aria-current={page.legacyPath === "/NewsList/2.html" ? "page" : undefined}>{cn ? "常见问题" : "FAQ"}</a>
       </nav>
-      <div className="article-grid">{articles.slice((current - 1) * size, current * size).map((article) => <article className="article-card" key={article.id}>
-        {article.images[0] && <Media image={article.images[0]} />}
+      <div className="article-grid">{articles.slice((current - 1) * size, current * size).map((article) => {
+        const thumbnail = article.images[0] ?? (article.provenance.coverage === "source-placeholder" ? placeholderThumbnail : undefined);
+        return <article className="article-card" key={article.id}>
+        {thumbnail && <Media image={{ ...thumbnail, alt: cn ? "原站文章缩略图" : "Source article thumbnail" }} />}
         <time dateTime={article.publishedAt.replace(" ", "T")}>{article.publishedAt.slice(0, 10)}</time>
         <h2><a href={`/${page.locale}${article.legacyPath}`}>{article.title}{article.provenance.coverage === "source-placeholder" && <span className="sr-only"> — {article.id}</span>}</a></h2>
         <p>{article.description}</p>
         {article.provenance.coverage === "source-placeholder" && <small>{cn ? "原站占位内容" : "Source placeholder"}</small>}
-      </article>)}</div>
+      </article>;
+      })}</div>
       <nav className="content-pagination" aria-label={cn ? "文章分页" : "Article pagination"}>
         <button type="button" disabled={current === 1} onClick={() => navigate(current - 1)}>{cn ? "上一页" : "Previous page"}</button>
         <span role="status" aria-live="polite">{current} / {count}</span>

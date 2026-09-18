@@ -7,7 +7,7 @@
 .support-links a[aria-current], .support-text-link { color: #a83100; border-bottom-color: #a83100; }
 .article-grid { display: grid; gap: 28px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .article-card { border: 1px solid #e4dbd2; display: flex; flex-direction: column; padding: 26px; }
-.article-card img { width: 100%; height: auto; }
+.article-card img { aspect-ratio: 16 / 9; height: auto; margin-bottom: 22px; object-fit: cover; width: 100%; }
 .article-card time, .article-metadata, .article-card small { color: #75675d; font-size: .85rem; }
 .article-card h2 { font-size: 1.25rem; font-weight: 500; margin: 15px 0; }
 .article-card h2 a:hover, .catalogue-card a:hover { color: #a83100; }
@@ -32,8 +32,15 @@
 .faq-item > div { color: #63564b; padding: 0 4px 25px; }
 .faq-item .content-text { margin: 0; max-width: none; padding: 0 0 12px; }
 .faq-item .content-text p { margin-top: 0; }
-.contact-layout { display: grid; gap: 85px; grid-template-columns: 1fr 1fr; }
-.contact-intro h2 { font-size: clamp(1.7rem, 2.8vw, 2.4rem); font-weight: 500; line-height: 1.4; margin: 24px 0 35px; }
+/* Poppins is referenced by the captured Contact_Us PageCss.css. */
+@font-face { font-family: "LBH Poppins"; src: url("/fonts/Poppins-Regular.woff2") format("woff2"); font-style: normal; font-weight: 400; font-display: swap; }
+.contact-page { font-family: "LBH Poppins", Arial, sans-serif; }
+/* Source module 724144658 uses a solid background, not a hero image. */
+.contact-hero { background: #1a1a1a; padding: 3.9185vw 0; }
+.contact-hero h1 { color: #fff; font-size: 40px; font-weight: 400; line-height: 1.5; margin: 0 auto; max-width: 1200px; padding: 10px; text-align: center; }
+.contact-heading { color: #000; font-size: 40px; font-weight: 400; line-height: 1.5; margin: 0; padding: calc(3.9185vw + 10px) 10px 10px; text-align: center; }
+.contact-layout { display: grid; gap: 60px; grid-template-columns: minmax(0, 480fr) minmax(0, 660fr); max-width: 1240px; padding-top: 2.3511vw; }
+.contact-inquiry-panel { padding-top: 16px; }
 .contact-details h2 { font-size: 1.4rem; font-weight: 500; margin-top: 12px; }
 .contact-details address { font-style: normal; }
 .contact-company { font-weight: 600; }
@@ -53,6 +60,12 @@
 @media (max-width: 900px) {
   .article-grid, .catalogue-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .contact-layout { gap: 40px; }
+}
+@media (max-width: 767px) {
+  .contact-hero { padding: 11.4943vw 0; }
+  .contact-hero h1 { font-size: 22px; line-height: 39px; padding: 10px; }
+  .contact-heading { font-size: 22px; padding-top: calc(22.9885vw + 10px); }
+  .contact-layout.support-container { gap: 25px; grid-template-columns: minmax(0, 1fr); padding-top: 0; padding-bottom: 22.9885vw; }
 }
 @media (max-width: 600px) {
   .support-banner { padding: 48px 20px; }
