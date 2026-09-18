@@ -2,7 +2,7 @@ import { expect, test } from "@playwright/test";
 
 for (const locale of ["en", "cn"] as const) {
   const cn = locale === "cn";
-  test(`${locale} header, floating, CTA, contact and product share one accessible inquiry dialog`, async ({ page }) => {
+  test(`${locale} header, floating, CTA and product share one accessible inquiry dialog`, async ({ page }) => {
     const errors: string[] = [];
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto(`/${locale}`);
@@ -23,11 +23,6 @@ for (const locale of ["en", "cn"] as const) {
       await expect(dialog).toHaveCount(0);
       await expect(trigger).toBeFocused();
     }
-    await page.goto(`/${locale}/Contact_Us`);
-    await page.locator(".contact-inquiry-panel a").click();
-    await expect(page.getByRole("dialog")).toBeVisible();
-    await page.getByRole("button", { name: cn ? "关闭询盘" : "Close inquiry" }).click();
-    await expect(page.getByRole("dialog")).toHaveCount(0);
     await page.goto(`/${locale}/ProductIndex`);
     await page.locator(".product-index__cta .inquiry-trigger").click();
     await expect(page.getByRole("dialog")).toBeVisible();
@@ -46,6 +41,27 @@ for (const locale of ["en", "cn"] as const) {
     await dialog.getByRole("button", { name: cn ? "提交" : "Submit", exact: true }).click();
     await expect(dialog.getByRole("status")).toHaveText(cn ? "谢谢，我们会尽快与您联系。" : "Thank you. We will contact you soon.");
     expect(errors).toEqual([]);
+  });
+  test(`${locale} Contact has exactly one inline form and submits without opening a dialog`, async ({ page }) => {
+    await page.goto(`/${locale}/Contact_Us`);
+    const panel = page.locator(".contact-inquiry-panel");
+    await expect(page.locator("form")).toHaveCount(1);
+    await expect(page.getByRole("dialog")).toHaveCount(0);
+    const name = panel.getByLabel(cn ? "姓名" : "Name", { exact: true });
+    await panel.getByRole("button", { name: cn ? "提交" : "Submit", exact: true }).click();
+    await expect(name).toHaveAttribute("aria-invalid", "true");
+    await expect(name).toBeFocused();
+    await name.fill("Contact buyer");
+    await panel.getByLabel(cn ? "电子邮箱" : "Email", { exact: true }).fill("buyer@example.com");
+    await panel.getByLabel(cn ? "留言" : "Message", { exact: true }).fill("Please send the catalogue.");
+    await page.locator(".site-header .inquiry-trigger").click();
+    await expect(page.getByRole("dialog")).toHaveCount(1);
+    await page.keyboard.press("Escape");
+    await expect(name).toHaveValue("Contact buyer");
+    await expect(page.locator("form")).toHaveCount(1);
+    await panel.getByRole("button", { name: cn ? "提交" : "Submit", exact: true }).click();
+    await expect(panel.getByRole("status")).toHaveText(cn ? "谢谢，我们会尽快与您联系。" : "Thank you. We will contact you soon.");
+    await expect(page.getByRole("dialog")).toHaveCount(0);
   });
   test(`${locale} inquiry fits mobile and closes on the backdrop`, async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 844 });

@@ -60,6 +60,7 @@ it("does not add a summary label or fabricated technical detail to sparse Englis
   expect(screen.queryByRole("note")).not.toBeInTheDocument();
   expect(screen.getAllByRole("heading")).toHaveLength(1);
   expect(screen.getByRole("heading", { name: "Air Duct Technology", level: 1 })).toBeVisible();
+  expect(screen.getAllByText("Air Duct Technology")).toHaveLength(1);
 });
 
 it("presents seven chronological milestones without repeating the year headings", async () => {

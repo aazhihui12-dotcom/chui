@@ -1,0 +1,133 @@
+{
+  "capturedAt": "2026-09-18T20:41:55.195Z",
+  "captures": [
+    {
+      "route": "/en",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/en",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-1440.png"
+    },
+    {
+      "route": "/cn",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/cn",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "cn-1440.png"
+    },
+    {
+      "route": "/en/ProductIndex",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/en/ProductIndex",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-ProductIndex-1440.png"
+    },
+    {
+      "route": "/en/ProductDetail/11906944.html",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/en/ProductDetail/11906944.html",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-ProductDetail-11906944.html-1440.png"
+    },
+    {
+      "route": "/cn/ProductDetail/11906921.html",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/cn/ProductDetail/11906921.html",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "cn-ProductDetail-11906921.html-1440.png"
+    },
+    {
+      "route": "/en/Company_Introduction",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/en/Company_Introduction",
+      "status": 200,
+      "title": "公司介绍",
+      "filename": "en-Company_Introduction-1440.png"
+    },
+    {
+      "route": "/en/NewsDetail/6860217.html",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/en/NewsDetail/6860217.html",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-NewsDetail-6860217.html-1440.png"
+    },
+    {
+      "route": "/cn/Contact_Us",
+      "width": 1440,
+      "url": "https://www.lbhappliances.com/cn/Contact_Us",
+      "status": 200,
+      "title": "联系我们",
+      "filename": "cn-Contact_Us-1440.png"
+    },
+    {
+      "route": "/en",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/en",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-390.png"
+    },
+    {
+      "route": "/cn",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/cn",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "cn-390.png"
+    },
+    {
+      "route": "/en/ProductIndex",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/en/ProductIndex",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-ProductIndex-390.png"
+    },
+    {
+      "route": "/en/ProductDetail/11906944.html",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/en/ProductDetail/11906944.html",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-ProductDetail-11906944.html-390.png"
+    },
+    {
+      "route": "/cn/ProductDetail/11906921.html",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/cn/ProductDetail/11906921.html",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "cn-ProductDetail-11906921.html-390.png"
+    },
+    {
+      "route": "/en/Company_Introduction",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/en/Company_Introduction",
+      "status": 200,
+      "title": "公司介绍",
+      "filename": "en-Company_Introduction-390.png"
+    },
+    {
+      "route": "/en/NewsDetail/6860217.html",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/en/NewsDetail/6860217.html",
+      "status": 200,
+      "title": "LBH APPLIANCES",
+      "filename": "en-NewsDetail-6860217.html-390.png"
+    },
+    {
+      "route": "/cn/Contact_Us",
+      "width": 390,
+      "url": "https://www.lbhappliances.com/cn/Contact_Us",
+      "status": 200,
+      "title": "联系我们",
+      "filename": "cn-Contact_Us-390.png"
+    }
+  ]
+}

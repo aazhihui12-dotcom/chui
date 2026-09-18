@@ -10,7 +10,7 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
   return (
     <nav className="desktop-nav" aria-label="Primary">
       <ul className="desktop-nav__list">
-        {items.map((item) => {
+        {items.map((item, index) => {
           const expanded = openLabel === item.label;
           const hasChildren = Boolean(item.children?.length);
           return (
@@ -30,7 +30,7 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
               <a href={item.href}>{item.label}</a>
               {hasChildren ? (
                 <button
-                  aria-controls={`desktop-menu-${item.label}`}
+                  aria-controls={`desktop-menu-${index}`}
                   aria-expanded={expanded}
                   aria-label={`${expanded ? "Close" : "Open"} ${item.label} menu`}
                   className="desktop-nav__toggle"
@@ -59,7 +59,7 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
                 </button>
               ) : null}
               {hasChildren && expanded ? (
-                <ul className="desktop-nav__menu" id={`desktop-menu-${item.label}`}>
+                <ul className="desktop-nav__menu" id={`desktop-menu-${index}`}>
                   {item.children?.map((child) => (
                     <li key={child.href}><a href={child.href}>{child.label}</a></li>
                   ))}

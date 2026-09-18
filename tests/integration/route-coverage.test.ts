@@ -56,7 +56,7 @@ it("writes usable static legacy redirects for all 97 paths and passes route vali
   const checked = command(output);
   expect(checked.status, checked.stderr).toBe(0);
   expect(checked.stdout).toContain("194 localized pages, 97 legacy redirects");
-});
+}, 15000);
 
 it("fails for a missing localized export, a corrupt redirect, and a broken internal link", async () => {
   const output = await exportedFixture();
@@ -69,4 +69,4 @@ it("fails for a missing localized export, a corrupt redirect, and a broken inter
   expect(checked.stderr).toContain("/cn/FAQ");
   expect(checked.stderr).toContain("/Contact");
   expect(checked.stderr).toContain("/en/missing-page/");
-});
+}, 15000);

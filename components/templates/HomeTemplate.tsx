@@ -20,15 +20,17 @@ export function HomeTemplate({ page }: { page: SitePage }) {
       { title: page.title, subtitle: copy.partner, image: page.images[0], bullets: copy.bullets },
       ...featured.slice(0, 2).map((product, index) => ({ title: product.model, subtitle: product.locales[page.locale].description, image: page.images[index + 3], href: `/${page.locale}${product.legacyPath}` })),
     ]} />
-    <section className="home-manufacturing home-section" aria-labelledby="manufacturing-title">
+    <section className="home-manufacturing" aria-labelledby="manufacturing-title">
       <h2 id="manufacturing-title">{copy.manufacturing}</h2><p>{copy.why}</p><p>{copy.video}</p>
-      <VideoModal src={manufacturingVideo} poster={manufacturingPoster} locale={page.locale} />
+      <div className="home-manufacturing__media">
+        <VideoModal src={manufacturingVideo} poster="/media/manufacturing-opening.webp" locale={page.locale} background />
+        <SectionRenderer blocks={stats} />
+      </div>
       <section className="home-featured-products" aria-label={page.locale === "cn" ? "精选产品" : "Featured products"}>
         {featured.map((product, index) => <a href={`/${page.locale}${product.legacyPath}`} key={product.id}>
           <Media image={{ ...page.images[index + 3], alt: "" }} /><h3>{product.model}</h3>
         </a>)}
       </section>
-      <SectionRenderer blocks={stats} />
     </section>
 
     <section className="home-products home-section" aria-labelledby="products-title">

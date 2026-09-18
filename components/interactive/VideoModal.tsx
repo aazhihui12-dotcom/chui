@@ -3,13 +3,27 @@
 import { useEffect, useRef, useState } from "react";
 import type { Locale } from "@/content/schema";
 
-export function VideoModal({ src, poster, locale }: { src: string; poster: string; locale: Locale }) {
+export function VideoModal({ src, poster, locale, background = false }: { src: string; poster: string; locale: Locale; background?: boolean }) {
   const [open, setOpen] = useState(false);
   const [failed, setFailed] = useState(false);
   const trigger = useRef<HTMLButtonElement>(null);
   const dialog = useRef<HTMLDialogElement>(null);
   const close = useRef<HTMLButtonElement>(null);
+  const backgroundVideo = useRef<HTMLVideoElement>(null);
   const cn = locale === "cn";
+  useEffect(() => {
+    if (!background || typeof window.matchMedia !== "function") return;
+    const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const update = () => {
+      const video = backgroundVideo.current;
+      if (!video) return;
+      if (preference.matches) video.pause();
+      else void video.play().catch(() => {});
+    };
+    update();
+    preference.addEventListener("change", update);
+    return () => preference.removeEventListener("change", update);
+  }, [background]);
   useEffect(() => {
     if (!open) return;
     const node = dialog.current!;
@@ -28,7 +42,7 @@ export function VideoModal({ src, poster, locale }: { src: string; poster: strin
   }, [open]);
   return <>
     <button ref={trigger} className="video-preview" aria-label={cn ? "播放制造视频" : "Play manufacturing video"} onClick={() => { setFailed(false); setOpen(true); }}>
-      <img src={poster} alt="" width="1280" height="720" loading="lazy" />
+      {background ? <video ref={backgroundVideo} src={src} poster={poster} muted loop playsInline preload="none" aria-hidden="true" tabIndex={-1} /> : <img src={poster} alt="" width="1280" height="720" loading="lazy" />}
       <span className="video-preview__play" aria-hidden="true">▶</span>
       <span className="video-preview__caption">{cn ? "走进LBH制造体系" : "Inside LBH manufacturing"}</span>
     </button>

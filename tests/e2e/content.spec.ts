@@ -1,5 +1,16 @@
 import { expect, test } from "@playwright/test";
 
+test("article readers can navigate adjacent captured questions and copy the current link", async ({ page, context }) => {
+  await context.grantPermissions(["clipboard-read", "clipboard-write"]);
+  await page.goto("/en/NewsDetail/6860217.html/");
+  await expect(page.getByRole("link", { name: /Prev.*customize the outer packaging/ })).toHaveAttribute("href", "/en/NewsDetail/6860216.html");
+  await expect(page.getByRole("link", { name: /Next.*warranty period/ })).toHaveAttribute("href", "/en/NewsDetail/6860218.html");
+  await expect(page.getByRole("link", { name: "Share on LinkedIn" })).toHaveAttribute("href", /linkedin\.com\/sharing/);
+  await page.getByRole("button", { name: "Copy article link" }).click();
+  await expect(page.getByRole("status")).toHaveText("Link copied");
+  expect(await page.evaluate(() => navigator.clipboard.readText())).toContain("/en/NewsDetail/6860217.html");
+});
+
 for (const width of [1440, 390]) {
   test(`Blog displays decoded source thumbnails at ${width}px`, async ({ page }) => {
     await page.setViewportSize({ width, height: 900 });

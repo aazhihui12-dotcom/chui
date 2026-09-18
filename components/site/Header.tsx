@@ -14,8 +14,7 @@ export function Header({ locale }: { locale: Locale }) {
   return (
     <header className="site-header">
       <a className="site-brand" href={`/${locale}`} aria-label={`${config.name} home`}>
-        <span aria-hidden="true" className="site-brand__mark">LBH</span>
-        <span className="site-brand__name">APPLIANCES</span>
+        <img src="/media/02c18594ff75b4cec3a7b5913466afc8c03f83ebd36105841df28808f49e93df.webp" alt="LBH APPLIANCES" width="132" height="24" />
       </a>
       <DesktopNav items={config.navigation} />
       <div className="site-header__actions">

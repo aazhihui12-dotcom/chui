@@ -2,8 +2,8 @@
 
 import { useId, useRef, useState, type ReactNode } from "react";
 
-export function ProductTabs({ labels, children }: { labels: string[]; children: ReactNode[] }) {
-  const [active, setActive] = useState(0);
+export function ProductTabs({ labels, children, initialIndex = 0 }: { labels: string[]; children: ReactNode[]; initialIndex?: number }) {
+  const [active, setActive] = useState(initialIndex);
   const buttons = useRef<Array<HTMLButtonElement | null>>([]);
   const id = useId();
   return <section className="product-tabs">

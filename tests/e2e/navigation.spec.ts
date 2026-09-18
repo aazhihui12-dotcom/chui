@@ -16,7 +16,7 @@ test.describe("shared navigation shell", () => {
     await page.getByRole("button", { name: "Close Product menu" }).click();
     await expect(page.getByRole("banner").getByRole("link", { name: "Hair Dryer", exact: true })).toBeHidden();
     await expect(page.getByRole("link", { name: "中文", exact: true })).toHaveAttribute("href", "/cn");
-    await expect(page.getByRole("contentinfo").getByRole("link", { name: "Contact Us" })).toHaveAttribute("href", "/en/Contact");
+    await expect(page.getByRole("contentinfo").getByRole("link", { name: "Contact Us" })).toHaveAttribute("href", "/en/Contact_Us");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   });
 
@@ -27,7 +27,7 @@ test.describe("shared navigation shell", () => {
     await page.getByRole("button", { name: "Open 产品 menu" }).click();
     await expect(page.getByRole("banner").getByRole("link", { name: "吹风机", exact: true })).toBeVisible();
     await expect(page.getByRole("link", { name: "English", exact: true })).toHaveAttribute("href", "/en");
-    await expect(page.getByRole("contentinfo").getByRole("link", { name: "联系我们" })).toHaveAttribute("href", "/cn/Contact");
+    await expect(page.getByRole("contentinfo").getByRole("link", { name: "联系我们" })).toHaveAttribute("href", "/cn/Contact_Us");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
   });
 
@@ -36,7 +36,7 @@ test.describe("shared navigation shell", () => {
     await page.goto("/cn");
 
     await expect(page.getByRole("link", { name: "English", exact: true })).toHaveAttribute("href", "/en");
-    await expect(page.getByRole("contentinfo").getByRole("link", { name: "联系我们" })).toHaveAttribute("href", "/cn/Contact");
+    await expect(page.getByRole("contentinfo").getByRole("link", { name: "联系我们" })).toHaveAttribute("href", "/cn/Contact_Us");
     const menuButton = page.getByRole("button", { name: "菜单" });
     await menuButton.click();
     const drawer = page.getByRole("dialog", { name: "菜单" });

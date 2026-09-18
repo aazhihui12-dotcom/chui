@@ -83,6 +83,18 @@ it("localizes every milestone and retains homepage statistics in Chinese", () =>
   expect(stats).toContainEqual({ value: "4800 +", label: "成功定制样品" });
 });
 
+it("provides Chinese labels for every captured call to action", () => {
+  const labels = allPages.filter((page) => page.locale === "cn").flatMap((page) => page.blocks.flatMap((block) => "actions" in block ? (block.actions ?? []).map((action) => action.label) : []));
+  expect(labels.filter((label) => /^[A-Za-z]/.test(label))).toEqual([]);
+});
+
+it("keeps milestone event titles separate from their year", () => {
+  const timeline = getPage("en", ["Milestone"])!.blocks.find((block) => block.type === "timeline")!;
+  expect(timeline.items[0].title).toBe("Passionate Entrepreneurship");
+  expect(timeline.items.every((item) => item.title !== item.year)).toBe(true);
+  expect(timeline.items[0].description).toMatch(/^Recognizing/);
+});
+
 it("retains all six captured certificate images despite unreliable MIME metadata", () => {
   for (const locale of ["en", "cn"] as const) {
     const page = getPage(locale, ["Certification_certificate"])!;

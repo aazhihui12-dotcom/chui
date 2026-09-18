@@ -1,5 +1,5 @@
 .editorial-page { min-width: 0; }
-.editorial-banner { background: #1a1a1a; color: #fff; padding: 54px 24px; text-align: center; }
+.editorial-banner { background: #1a1a1a; color: #fff; padding: 72px 24px; text-align: center; }
 .editorial-banner h1 { font-size: clamp(1.8rem, 3vw, 2.6rem); font-weight: 500; line-height: 1.25; margin: 0 auto; max-width: 1100px; overflow-wrap: anywhere; }
 .editorial-section { padding: 52px 24px; }
 .editorial-section--muted { background: #f6f5f3; }
@@ -63,6 +63,15 @@
 .editorial-summary > .content-text, .editorial-summary > .content-cta, .editorial-summary > .content-gallery { grid-column: 1 / -1; }
 .editorial-summary > .content-media img { aspect-ratio: 1.5; object-fit: contain; }
 .editorial-summary > .content-text p { font-size: 1.08rem; line-height: 2; }
+@media (min-width: 701px) {
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature { min-height: 56vw; padding-top: 70px; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature h2 { font-size: 40px; text-shadow: none; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split { margin-top: -350px; padding-top: 0; position: relative; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split .editorial-section__inner { align-items: stretch; gap: 20px; max-width: 1200px; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split .editorial-section__group { background: rgb(255 255 255 / 85%); border: 1px solid #df4204; border-radius: 20px; padding: 20px; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split h2 { color: #161310; font-size: 26px; }
+  .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split p { color: #302b28; font-size: 14px; }
+}
 @media (max-width: 700px) {
   .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type { padding: 34px 20px 20px; }
   .editorial-page[data-editorial-path="/Factory_tour"] .editorial-section--split .editorial-section__inner { gap: 28px; }

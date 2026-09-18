@@ -15,6 +15,7 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
   });
   const seenImages = new Set<string>();
   const summaryBlocks = blocks.slice(1).flatMap((block): ContentBlock[] => {
+    if (block.type === "rich-text" && !block.heading && block.paragraphs.length === 1 && block.paragraphs[0] === page.title) return [];
     if (block.type === "rich-text" && block.heading === page.title) return block.paragraphs.length ? [{ ...block, heading: undefined }] : [];
     if (block.type === "media") {
       if (seenImages.has(block.image.src)) return [];

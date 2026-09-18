@@ -3029,7 +3029,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Talk to a home appliance expert",
+            "label": "咨询家电专家",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -3294,7 +3294,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Talk to a home appliance expert",
+            "label": "咨询家电专家",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -3704,7 +3704,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Talk to a home appliance expert",
+            "label": "咨询家电专家",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -3999,7 +3999,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Talk to a home appliance expert",
+            "label": "咨询家电专家",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -5269,38 +5269,38 @@ export const pages: SitePage[] = [
         "items": [
           {
             "year": "2020",
-            "title": "2020",
-            "description": "Passionate Entrepreneurship Recognizing the transformative growth opportunities presented by high-speed motors within the home appliance sector, our founder, Tina, established LBH. She assembled a team to spearhead the R&D and design of our first high-speed hair dryer—successfully bringing it to market—thereby launching the business."
+            "title": "Passionate Entrepreneurship",
+            "description": "Recognizing the transformative growth opportunities presented by high-speed motors within the home appliance sector, our founder, Tina, established LBH. She assembled a team to spearhead the R&D and design of our first high-speed hair dryer—successfully bringing it to market—thereby launching the business."
           },
           {
             "year": "2021",
-            "title": "2021",
-            "description": "The Frustration of a Lesson We pressed forward through difficulties, encountering issues stemming from product immaturity. After the initial batch of products hit the market, customer feedback revealed a lack of options regarding temperature settings and various operating modes. This served as a valuable lesson: increasing investment in R&D is the only way to survive in a competitive landscape."
+            "title": "The Frustration of a Lesson",
+            "description": "We pressed forward through difficulties, encountering issues stemming from product immaturity. After the initial batch of products hit the market, customer feedback revealed a lack of options regarding temperature settings and various operating modes. This served as a valuable lesson: increasing investment in R&D is the only way to survive in a competitive landscape."
           },
           {
             "year": "2022",
-            "title": "2022",
-            "description": "Bouncing Back from Setbacks We have assembled a more systematic team of experts and implemented a rigorous screening process for suppliers to refine our supply chain system. LBH has also conducted research into emerging markets, enabling us to optimize and upgrade our product offerings, perfect our quality control framework, and cultivate a robust corporate culture; furthermore, a brand-new generation of high-speed hair dryers has been successfully launched and has entered mass production."
+            "title": "Bouncing Back from Setbacks",
+            "description": "We have assembled a more systematic team of experts and implemented a rigorous screening process for suppliers to refine our supply chain system. LBH has also conducted research into emerging markets, enabling us to optimize and upgrade our product offerings, perfect our quality control framework, and cultivate a robust corporate culture; furthermore, a brand-new generation of high-speed hair dryers has been successfully launched and has entered mass production."
           },
           {
             "year": "2023",
-            "title": "2023",
-            "description": "Vigorous Forward Momentum We have established a comprehensive supply chain framework encompassing manufacturing, marketing teams, quality assessment, and intellectual property management. Furthermore, we have set up an in-house R&D center and defined our distinct product positioning. Our Sales Department has also experienced rapid growth, marked by the launch of five competitive sales challenges."
+            "title": "Vigorous Forward Momentum",
+            "description": "We have established a comprehensive supply chain framework encompassing manufacturing, marketing teams, quality assessment, and intellectual property management. Furthermore, we have set up an in-house R&D center and defined our distinct product positioning. Our Sales Department has also experienced rapid growth, marked by the launch of five competitive sales challenges."
           },
           {
             "year": "2024",
-            "title": "2024",
-            "description": "Performance Soars LBH has gone all out in developing the North American market; we have continued to expand and successfully partnered with some of the region's most renowned brands. In a competitive bidding process involving the top ten highest-volume companies, LBH Appliances emerged as the winning partner for one such brand in 2024, achieving a turnover exceeding 50 million."
+            "title": "Performance Soars",
+            "description": "LBH has gone all out in developing the North American market; we have continued to expand and successfully partnered with some of the region's most renowned brands. In a competitive bidding process involving the top ten highest-volume companies, LBH Appliances emerged as the winning partner for one such brand in 2024, achieving a turnover exceeding 50 million."
           },
           {
             "year": "2025",
-            "title": "2025",
-            "description": "Rapid Progress First-quarter sales surpassed 20 million. Concurrently, we advanced the R&D and launch of new personal care and home appliance products—along with category expansion—and conducted extensive testing. Furthermore, LBH has established long-term business relationships with top-tier suppliers to enhance our supply chain and operational efficiency."
+            "title": "Rapid Progress",
+            "description": "First-quarter sales surpassed 20 million. Concurrently, we advanced the R&D and launch of new personal care and home appliance products—along with category expansion—and conducted extensive testing. Furthermore, LBH has established long-term business relationships with top-tier suppliers to enhance our supply chain and operational efficiency."
           },
           {
             "year": "2026",
-            "title": "2026",
-            "description": "Continuously Exploring and Seeking Breakthroughs We are embarking on a new phase of market expansion in Europe and the Middle East, which will see the simultaneous launch of 2–3 disruptive personal care and home appliance products, alongside the expansion of our global network of localized brand partners. In 2026, we will continue to invest in R&D for small personal care appliances—a commitment we intend to maintain well into the future."
+            "title": "Continuously Exploring and Seeking Breakthroughs",
+            "description": "We are embarking on a new phase of market expansion in Europe and the Middle East, which will see the simultaneous launch of 2–3 disruptive personal care and home appliance products, alongside the expansion of our global network of localized brand partners. In 2026, we will continue to invest in R&D for small personal care appliances—a commitment we intend to maintain well into the future."
           }
         ]
       }
@@ -7688,7 +7688,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Get a Quick Quote",
+            "label": "立即询价",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -7708,7 +7708,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Get Product Catalog",
+            "label": "获取产品目录",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -7728,7 +7728,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Order Now",
+            "label": "立即订购",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -7738,7 +7738,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Inquire Now",
+            "label": "立即咨询",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -12174,7 +12174,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Get a Quick Quote",
+            "label": "立即询价",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -12194,7 +12194,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Get Product Catalog",
+            "label": "获取产品目录",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -12214,7 +12214,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Order Now",
+            "label": "立即订购",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -12224,7 +12224,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Inquire Now",
+            "label": "立即咨询",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -14119,7 +14119,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Get a Quick Quote",
+            "label": "立即询价",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -14139,7 +14139,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Get Product Catalog",
+            "label": "获取产品目录",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -14159,7 +14159,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Order Now",
+            "label": "立即订购",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -14169,7 +14169,7 @@ export const pages: SitePage[] = [
         "type": "cta",
         "actions": [
           {
-            "label": "Inquire Now",
+            "label": "立即咨询",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }

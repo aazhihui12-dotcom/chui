@@ -79,6 +79,11 @@ const ctaLabels = {
   "Join us today": "今天加入我们",
   "Contact Us": "联系我们",
   "Consult with Home Appliance Experts": "咨询家电专家",
+  "Talk to a home appliance expert": "咨询家电专家",
+  "Get a Quick Quote": "立即询价",
+  "Get Product Catalog": "获取产品目录",
+  "Order Now": "立即订购",
+  "Inquire Now": "立即咨询",
 };
 
 async function hasImageSignature(filename) {
@@ -300,9 +305,12 @@ export async function buildContent({ source = "source-cache", output = "content"
         ] });
         if (!blocks.length) blocks = [{ type: "rich-text", paragraphs: [locale === "cn" ? labels[2] : title] }];
         if (page.pathname === "/Milestone") {
-          const milestones = [...root.querySelectorAll(".ModuleImageTextContent")].map(textOf).filter((text) => /^202\d\s/.test(text));
+          const milestones = [...root.querySelectorAll(".ModuleImageTextContent")].filter((node) => /^202\d\s/.test(textOf(node)));
           const cnYears = { "2020": ["激情创业", "Tina 创立 LBH，组建团队研发首款高速吹风机并推向市场。"], "2021": ["从经验中学习", "根据客户对温度和工作模式的反馈，进一步加大研发投入。"], "2022": ["完善体系", "组建专业团队，严格筛选供应商，完善质量体系，新一代高速吹风机投入量产。"], "2023": ["稳步前行", "完善制造、营销、质量与知识产权体系，建立内部研发中心，开展五场销售竞赛。"], "2024": ["业绩增长", "持续开拓北美市场，与当地知名品牌合作，在十大企业参与的竞标中胜出，营业额超过 5,000 万。"], "2025": ["快速进步", "第一季度销售额超过 2,000 万，推进新品研发、上市、品类扩展与测试，并与优秀供应商建立长期合作。"], "2026": ["持续探索与突破", "开拓欧洲与中东市场，同步推出 2–3 款创新个护家电，扩大全球本地品牌合作网络，并持续投入个护小家电研发。"] };
-          const items = [...new Map(milestones.map((text) => { const year = text.slice(0, 4); return [year, { year, title: locale === "cn" && cnYears[year] ? cnYears[year][0] : year, description: locale === "cn" && cnYears[year] ? cnYears[year][1] : text.slice(5) }]; })).values()];
+          const items = [...new Map(milestones.map((node) => {
+            const paragraphs = paragraphsFor(node), year = paragraphs[0].slice(0, 4);
+            return [year, { year, title: locale === "cn" && cnYears[year] ? cnYears[year][0] : paragraphs[0].slice(5), description: locale === "cn" && cnYears[year] ? cnYears[year][1] : paragraphs.slice(1).join(" ") }];
+          })).values()];
           if (items.length) blocks.push({ type: "timeline", items });
         }
         const desc = locale === "cn" ? labels[2] : description;

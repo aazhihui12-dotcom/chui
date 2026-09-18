@@ -18,12 +18,14 @@ it("retains the captured Blog thumbnail on placeholder cards across pagination",
   expect(screen.getAllByRole("img")).toHaveLength(3);
 });
 
-it("leads contact with the source project headline, followed by contact details and the shared inquiry entry", async () => {
+it("leads contact with the source project headline, followed by contact details and one inline inquiry form", async () => {
   render(await page("Contact_Us"));
   const heading = screen.getByRole("heading", { level: 1, name: "Let us take on your new personal care and home appliance project!" });
   expect(heading.closest("header")).not.toBeNull();
   expect(screen.getByRole("heading", { level: 2, name: "Contact Us Now" })).toBeVisible();
-  expect(screen.getByRole("link", { name: "Get a Quote Now" })).toHaveAttribute("href", "mailto:tina.fang@linknove.com");
+  expect(screen.getByRole("button", { name: "Submit", exact: true })).toBeVisible();
+  expect(document.querySelectorAll("form")).toHaveLength(1);
+  expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
 });
 
 it("paginates the eleven news records without mixing in FAQs or losing the last three records", async () => {
@@ -81,20 +83,16 @@ it("expands and collapses FAQ answers with labeled, connected buttons and locali
   expect(answer).not.toBeVisible();
 });
 
-it("renders real contact channels and delegates inquiry to the shared cancelable event", async () => {
+it("renders real contact channels and the Chinese inline inquiry fields", async () => {
   render(await page("Contact_Us", "cn"));
   expect(screen.getByRole("link", { name: "tina.fang@linknove.com" })).toHaveAttribute("href", "mailto:tina.fang@linknove.com");
   expect(screen.getByRole("link", { name: "+86 137 0306 7387" })).toHaveAttribute("href", "tel:+8613703067387");
   expect(screen.getByRole("link", { name: "WhatsApp" })).toHaveAttribute("href", "https://wa.me/8613703067387");
   expect(screen.getByText(/兴南路9号/)).toBeVisible();
-  const inquiry = screen.getByRole("link", { name: "立即询价" });
-  expect(inquiry).toHaveAttribute("href", "mailto:tina.fang@linknove.com");
-  let context: unknown;
-  const handle = (event: Event) => { context = (event as CustomEvent).detail; event.preventDefault(); };
-  window.addEventListener("lbh:inquiry", handle);
-  try { expect(fireEvent.click(inquiry)).toBe(false); } finally { window.removeEventListener("lbh:inquiry", handle); }
-  expect(context).toMatchObject({ locale: "cn", title: "联系我们" });
-  expect(screen.queryByRole("textbox")).not.toBeInTheDocument();
+  expect(screen.getByLabelText("姓名")).toBeVisible();
+  expect(screen.getByLabelText("电子邮箱")).toBeVisible();
+  expect(screen.getByLabelText("留言")).toBeVisible();
+  expect(document.querySelectorAll("form")).toHaveLength(1);
 });
 
 it("offers four catalogue records while clearly marking their files unavailable", async () => {

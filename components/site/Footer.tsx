@@ -8,22 +8,17 @@ export function Footer({ locale }: { locale: Locale }) {
     <footer className="site-footer">
       <div className="site-footer__inner">
         <section aria-label={config.name}>
-          <p className="site-footer__brand">LBH APPLIANCES</p>
-          <p>{config.contact.company}</p>
-          <a href={`mailto:${config.contact.email}`}>{config.contact.email}</a>
-          <a href={`tel:${config.contact.phone.replace(/\s/g, "")}`}>{config.contact.phone}</a>
+          <img className="site-footer__logo" src="/media/02c18594ff75b4cec3a7b5913466afc8c03f83ebd36105841df28808f49e93df.webp" alt="LBH APPLIANCES" width="230" height="27" />
+          <a href={`tel:${config.contact.phone.replace(/\s/g, "")}`}>{locale === "cn" ? "电话" : "Phone"}: {config.contact.phone}</a>
+          <a href={`mailto:${config.contact.email}`}>{locale === "cn" ? "邮箱" : "Email"}: {config.contact.email}</a>
+          <address>{locale === "cn" ? "地址" : "Address"}: {config.contact.address}</address>
         </section>
-        <nav aria-label="Footer navigation">
-          <p className="site-footer__heading">{locale === "cn" ? "快速链接" : "Quick links"}</p>
+        {config.navigation.map((item) => <nav key={item.href} aria-label={`${item.label} — footer`}>
+          <a className="site-footer__heading" aria-label={`${item.label} — footer`} href={item.href}>{item.label}</a>
           <ul>
-            {config.navigation.map((item) => <li key={item.href}><a aria-label={`${item.label} — footer`} href={item.href}>{item.label}</a></li>)}
-            <li><a href={`/${locale}/Contact`}>{locale === "cn" ? "联系我们" : "Contact Us"}</a></li>
+            {item.children?.map((child) => <li key={child.href}><a aria-label={child.href.endsWith("/Contact_Us") ? child.label : `${child.label} — footer`} href={child.href}>{child.label}</a></li>)}
           </ul>
-        </nav>
-        <section aria-label={locale === "cn" ? "地址" : "Address"}>
-          <p className="site-footer__heading">{locale === "cn" ? "地址" : "Address"}</p>
-          <address>{config.contact.address}</address>
-        </section>
+        </nav>)}
       </div>
       <div className="site-footer__bottom">© {new Date().getFullYear()} LBH APPLIANCES</div>
     </footer>
