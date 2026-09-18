@@ -1,0 +1,68 @@
+.support-page { color: #30271f; min-height: 55vh; }
+.support-banner { background: #dfcbb8; padding: 72px 24px; text-align: center; }
+.support-banner h1 { font-size: clamp(1.9rem, 3vw, 2.8rem); font-weight: 500; margin: 0; }
+.support-container { margin: 0 auto; max-width: 1240px; padding: 55px 24px 75px; }
+.support-links { display: flex; gap: 28px; margin-bottom: 35px; }
+.support-links a { border-bottom: 2px solid transparent; padding: 10px 0; }
+.support-links a[aria-current], .support-text-link { color: #a83100; border-bottom-color: #a83100; }
+.article-grid { display: grid; gap: 28px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.article-card { border: 1px solid #e4dbd2; display: flex; flex-direction: column; padding: 26px; }
+.article-card img { width: 100%; height: auto; }
+.article-card time, .article-metadata, .article-card small { color: #75675d; font-size: .85rem; }
+.article-card h2 { font-size: 1.25rem; font-weight: 500; margin: 15px 0; }
+.article-card h2 a:hover, .catalogue-card a:hover { color: #a83100; }
+.article-card p { color: #63564b; font-size: .92rem; margin: 0 0 24px; }
+.article-card small { margin-top: auto; }
+.content-pagination { align-items: center; display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; margin-top: 42px; }
+.content-pagination button { background: white; border: 1px solid #baaa9e; cursor: pointer; min-height: 44px; padding: 10px 18px; }
+.content-pagination button:disabled { color: #80766e; cursor: default; background: #f4f1ed; border-color: #e3ddd7; }
+.article-detail__body { max-width: 980px; padding-top: 70px; }
+.support-eyebrow { color: #a83100; font-size: .85rem; letter-spacing: .08em; }
+.article-detail h1 { font-size: clamp(1.8rem, 3vw, 2.7rem); font-weight: 500; line-height: 1.35; }
+.article-metadata { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 24px 0 38px; }
+.article-detail .content-text { max-width: none; padding: 15px 0 35px; line-height: 1.9; }
+.article-detail .content-media img { max-width: 100%; height: auto; }
+.source-note { background: #f7f3ee; border-left: 3px solid #b74713; line-height: 1.7; margin: 0 0 32px; padding: 18px 22px; }
+.article-back { border-top: 1px solid #e1d7ce; color: #a83100; display: block; margin-top: 30px; padding-top: 25px; }
+.faq-list { max-width: 1050px; }
+.faq-item { border-bottom: 1px solid #e1d7ce; }
+.faq-item h2 { font-size: 1.1rem; font-weight: 500; margin: 0; }
+.faq-item h2 button { align-items: center; background: transparent; border: 0; cursor: pointer; display: flex; gap: 22px; justify-content: space-between; min-height: 68px; padding: 20px 4px; text-align: left; width: 100%; }
+.faq-item h2 button span { color: #a83100; flex-shrink: 0; font-size: 1.4rem; }
+.faq-item > div { color: #63564b; padding: 0 4px 25px; }
+.faq-item .content-text { margin: 0; max-width: none; padding: 0 0 12px; }
+.faq-item .content-text p { margin-top: 0; }
+.contact-layout { display: grid; gap: 85px; grid-template-columns: 1fr 1fr; }
+.contact-intro h2 { font-size: clamp(1.7rem, 2.8vw, 2.4rem); font-weight: 500; line-height: 1.4; margin: 24px 0 35px; }
+.contact-details h2 { font-size: 1.4rem; font-weight: 500; margin-top: 12px; }
+.contact-details address { font-style: normal; }
+.contact-company { font-weight: 600; }
+.contact-details dl > div { border-bottom: 1px solid #e4dbd2; display: grid; gap: 15px; grid-template-columns: 85px minmax(0, 1fr); padding: 14px 0; }
+.contact-details dd { margin: 0; overflow-wrap: anywhere; }
+.contact-details dt { color: #78665a; }
+.contact-details a:hover { color: #a83100; }
+.contact-details h3 { font-size: 1rem; font-weight: 500; margin: 30px 0 10px; }
+.contact-details p { line-height: 1.8; }
+.catalogue-grid { display: grid; gap: 24px; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.catalogue-card { border: 1px solid #e4dbd2; padding: 26px 22px; }
+.catalogue-icon { align-items: center; background: #eee3d9; color: #8b3f1e; display: flex; font-size: 2.8rem; height: 120px; justify-content: center; }
+.catalogue-card h2 { font-size: 1.1rem; font-weight: 500; line-height: 1.5; }
+.catalogue-card p { color: #75675d; font-size: .9rem; }
+.downloads-actions { align-items: center; display: flex; flex-wrap: wrap; gap: 25px; margin-top: 35px; }
+.support-text-link { text-decoration: underline; text-underline-offset: 4px; }
+@media (max-width: 900px) {
+  .article-grid, .catalogue-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .contact-layout { gap: 40px; }
+}
+@media (max-width: 600px) {
+  .support-banner { padding: 48px 20px; }
+  .support-container { padding: 35px 20px 50px; }
+  .article-grid, .contact-layout { grid-template-columns: minmax(0, 1fr); }
+  .article-grid { gap: 18px; }
+  .catalogue-grid { gap: 14px; }
+  .catalogue-card { padding: 16px 12px; }
+  .catalogue-card h2 { font-size: .95rem; overflow-wrap: anywhere; }
+  .content-pagination { font-size: .85rem; gap: 14px; }
+  .content-pagination button { padding: 10px 14px; }
+  .faq-item h2 { font-size: 1rem; }
+}

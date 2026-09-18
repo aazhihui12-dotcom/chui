@@ -18,3 +18,8 @@ export function productStaticParams(): Array<{ locale: Locale; slug: string[] }>
   return allPages.filter((page) => ["product-index", "product-category", "product-detail"].includes(page.kind))
     .map((page) => ({ locale: page.locale, slug: page.legacyPath.split("/").filter(Boolean) }));
 }
+
+export function articleStaticParams(): Array<{ locale: Locale; slug: string[] }> {
+  return articles.flatMap((article) => [article.locales.en, article.locales.cn])
+    .map((page) => ({ locale: page.locale, slug: page.legacyPath.split("/").filter(Boolean) }));
+}
