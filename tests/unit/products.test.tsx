@@ -74,13 +74,50 @@ describe("product pages", () => {
 
   it("filters the full overview by category and restores all models", () => {
     render(<ProductIndexTemplate page={pages.find((page) => page.locale === "en" && page.kind === "product-index")!} />);
-    const grid = within(screen.getByRole("region", { name: "Product catalog" }));
-    expect(grid.getAllByRole("link")).toHaveLength(24);
+    const grid = () => within(screen.getByRole("region", { name: "Product catalog" }));
+    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(24);
     fireEvent.click(screen.getByRole("button", { name: "Hair Straightener" }));
-    expect(grid.getAllByRole("link")).toHaveLength(5);
-    expect(grid.queryByRole("link", { name: "LBH-3228" })).not.toBeInTheDocument();
+    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(5);
+    expect(grid().queryByRole("link", { name: "LBH-3228" })).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Show All" }));
-    expect(grid.getAllByRole("link")).toHaveLength(24);
+    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(24);
+  });
+
+  it("presents three overview slides and browses every product in source order", () => {
+    render(<ProductIndexTemplate page={pages.find((page) => page.locale === "en" && page.kind === "product-index")!} />);
+    const catalog = screen.getByRole("region", { name: "Product catalog" });
+    expect(catalog).toHaveAttribute("aria-roledescription", "carousel");
+    const carousel = within(catalog);
+    const names = () => carousel.getAllByRole("link").map((link) => link.getAttribute("aria-label"));
+    expect(names()).toEqual(["LBH-3228", "LBH-3210", "LBH-320"]);
+    expect(carousel.getAllByRole("group")).toHaveLength(3);
+    const previous = carousel.getByRole("button", { name: "Previous products" });
+    const next = carousel.getByRole("button", { name: "Next products" });
+    expect(previous).toBeDisabled();
+    const seen = new Set(names());
+    for (let index = 0; index < 21; index++) {
+      fireEvent.click(next);
+      names().forEach((name) => seen.add(name));
+    }
+    expect(seen.size).toBe(24);
+    expect(names()).toEqual(["LBH-001A", "LBH-BD22", "LBH-3808"]);
+    expect(next).toBeDisabled();
+    fireEvent.click(previous);
+    expect(names()).toEqual(["LBH-3257", "LBH-001A", "LBH-BD22"]);
+    expect(carousel.getByRole("status")).toHaveTextContent("Products 21–23 of 24");
+  });
+
+  it("resets the carousel when filtering and keeps a short category fully visible", () => {
+    render(<ProductIndexTemplate page={pages.find((page) => page.locale === "en" && page.kind === "product-index")!} />);
+    const carousel = () => within(screen.getByRole("region", { name: "Product catalog" }));
+    fireEvent.click(carousel().getByRole("button", { name: "Next products" }));
+    fireEvent.click(screen.getByRole("button", { name: "High Speed Hair Multi-Styler" }));
+    expect(carousel().getAllByRole("link").map((link) => link.getAttribute("aria-label"))).toEqual(["LBH-BD22", "LBH-3808"]);
+    expect(carousel().getByRole("button", { name: "Previous products" })).toBeDisabled();
+    expect(carousel().getByRole("button", { name: "Next products" })).toBeDisabled();
+    fireEvent.click(screen.getByRole("button", { name: "Show All" }));
+    expect(carousel().getByRole("link", { name: "LBH-3228" })).toBeVisible();
+    expect(carousel().getByRole("button", { name: "Previous products" })).toBeDisabled();
   });
 
   it.each(["en", "cn"] as const)("keeps customization, manufacturing and certification sections in %s", (locale) => {
@@ -92,6 +129,7 @@ describe("product pages", () => {
     render(<ProductCategoryTemplate category={categories[index]} locale="cn" />);
     expect(screen.getByRole("heading", { name: categories[index].title.cn, level: 1 })).toBeVisible();
     expect(within(screen.getByRole("region", { name: "产品目录" })).getAllByRole("link")).toHaveLength(count);
+    expect(screen.getByRole("region", { name: "产品目录" })).not.toHaveAttribute("aria-roledescription", "carousel");
     expect(screen.getByRole("link", { name: "显示全部" })).toHaveAttribute("href", "/cn/ProductIndex");
   });
 
