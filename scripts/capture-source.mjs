@@ -130,6 +130,7 @@ function assetsFromHtml(html, pageUrl) {
   for (const match of html.matchAll(assetHref)) {
     if (assetFile.test(match[1])) add(match[1]);
   }
+  for (const match of html.matchAll(/url\(['"]?([^)'"\s]+)['"]?\)/g)) if (assetFile.test(match[1])) add(match[1]);
   return assets;
 }
 
@@ -170,8 +171,8 @@ async function cachedVariant({ previous, cacheDir, cacheFile, locale, requestedU
     resolvedUrl: previous?.resolvedUrl ?? requestedUrl,
     cacheFile: candidate,
     status: 200,
-    contentLocale: previous?.contentLocale ?? contentLocale(html),
-    languageVerified: previous?.languageVerified ?? false,
+    contentLocale: contentLocale(html),
+    languageVerified: locale === "cn" ? /^(?:zh|cn)/.test(contentLocale(html) ?? "") : contentLocale(html) === "en",
     diagnostics: previous?.diagnostics ?? [],
     assets: assetsFromHtml(html, previous?.resolvedUrl ?? requestedUrl),
     resumed: true,
@@ -179,9 +180,11 @@ async function cachedVariant({ previous, cacheDir, cacheFile, locale, requestedU
 }
 
 async function captureLocaleVariant({ origin, cacheDir, cookieJar, locale, pathname, kind, previous }) {
+  const chineseGeneral = locale === "cn" && !["product-detail", "news-detail"].includes(kind);
   const requestedUrl = localeUrl(origin, locale, pathname);
   const cacheFile = cachePathFor("pages", requestedUrl, ".html");
-  const resumed = await cachedVariant({ previous, cacheDir, cacheFile, locale, requestedUrl });
+  let resumed = await cachedVariant({ previous, cacheDir, cacheFile, locale, requestedUrl });
+  if (chineseGeneral && resumed && (!resumed.languageVerified || resumed.resolvedUrl !== requestedUrl)) resumed = null;
   const needsChineseFallback = locale === "cn"
     && (kind === "product-detail" || kind === "news-detail")
     && resumed
@@ -195,7 +198,7 @@ async function captureLocaleVariant({ origin, cacheDir, cookieJar, locale, pathn
     cookie: `Lang=${locale}`,
     acceptLanguage: locale === "cn" ? "zh-CN,zh;q=0.9" : "en-US,en;q=0.9",
   };
-  const candidates = (needsChineseFallback ? [fallbackUrl] : [requestedUrl, fallbackUrl])
+  const candidates = (chineseGeneral ? [requestedUrl] : needsChineseFallback ? [fallbackUrl] : [requestedUrl, fallbackUrl])
     .filter((url, index, urls) => urls.indexOf(url) === index);
   const diagnostics = [...(previous?.diagnostics ?? [])];
 
@@ -231,7 +234,7 @@ async function captureLocaleVariant({ origin, cacheDir, cookieJar, locale, pathn
     url: requestedUrl,
     resolvedUrl: finalAttempt?.resolvedUrl ?? requestedUrl,
     cacheFile,
-    status: finalAttempt?.status ?? 0,
+    status: isSuccessful(finalAttempt?.status) ? 422 : finalAttempt?.status ?? 0,
     contentLocale: null,
     languageVerified: false,
     diagnostics,
@@ -278,7 +281,7 @@ async function captureAsset({ sourceUrl, referencedBy, referer, cacheDir, cookie
 }
 
 export async function captureSource({ origin, cacheDir }) {
-  const normalizedOrigin = new URL(origin).origin;
+  const normalizedOrigin = /^(www\.)?lbhappliances\.com$/.test(new URL(origin).hostname) ? "https://www.lbhappliances.com" : new URL(origin).origin;
   const resolvedCacheDir = path.resolve(cacheDir);
   await mkdir(resolvedCacheDir, { recursive: true });
   const cookieJar = path.join(resolvedCacheDir, "session-cookies.txt");
@@ -330,6 +333,7 @@ export async function captureSource({ origin, cacheDir }) {
         diagnostics: variant.diagnostics,
       });
       for (const sourceUrl of variant.assets) pageAssets.set(sourceUrl, variant.resolvedUrl);
+      if (!variant.resumed) console.log(`${locale} ${pathname}: ${variant.status}, verified=${variant.languageVerified}`);
       if (!variant.resumed) await sleep(jittered(PAGE_REQUEST_GAP_MS));
     }
 

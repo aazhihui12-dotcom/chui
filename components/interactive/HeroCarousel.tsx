@@ -19,11 +19,11 @@ export function HeroCarousel({ slides, locale }: { slides: HeroSlide[]; locale: 
         {slide.href && <a className="lbh-button" href={slide.href}>{cn ? "探索产品" : "Explore product"}<span aria-hidden="true"> ↗</span></a>}
       </div>
     </div>)}
-    <div className="hero-controls">
+    {slides.length === 1 ? <div className="hero-controls hero-counter">01 / 01</div> : <div className="hero-controls">
       <button aria-label={cn ? "上一张" : "Previous slide"} onClick={() => change(-1)}>←</button>
       <div className="hero-controls__dots">{slides.map((slide, index) => <button key={slide.title} aria-label={cn ? `转到第${index + 1}张` : `Go to slide ${index + 1}`} aria-current={index === active ? "true" : undefined} onClick={() => setActive(index)}><span /></button>)}</div>
       <button aria-label={cn ? "下一张" : "Next slide"} onClick={() => change(1)}>→</button>
       <span className="sr-only" aria-live="polite">{cn ? "当前展示" : "Current slide"}: {active + 1} / {slides.length}</span>
-    </div>
+    </div>}
   </section>;
 }

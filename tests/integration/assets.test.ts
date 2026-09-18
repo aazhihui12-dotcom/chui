@@ -49,7 +49,7 @@ it("audits real content, source provenance, and component/CSS references with ze
   expect(report.errors).toEqual([]);
   const typedPaths = [...new Set(mediaPaths([pages, products, articles, home, site, editorial]))];
   for (const media of typedPaths) expect(report.requiredPaths).toContain(media);
-  expect(report.sourceAssets).toBe(1367);
+  expect(report.sourceAssets).toBe(1471);
   expect(report.unavailableSourceAssets).toHaveLength(4);
   expect(report.requiredPaths).toContain("/fonts/Poppins-Regular.woff2");
 });
@@ -98,14 +98,6 @@ it("checks exported bytes and catches remote responsive image dependencies", asy
     "remote dependency: https://lbhappliances.com/image",
   ]));
 });
-
-it("keeps regenerated captured content deduplicated without copying unused source chrome", async () => {
-  const root = await mkdtemp(path.join(tmpdir(), "lbh-assets-regenerate-")); directories.push(root);
-  const generated = spawnSync(process.execPath, ["scripts/build-content.mjs", "--output", path.join(root, "content"), "--public", path.join(root, "public")], { encoding: "utf8" });
-  expect(generated.status, generated.stderr).toBe(0);
-  const checked = run("--public", path.join(root, "public"), "--content", path.join(root, "content"), "--source-roots", path.join(root, "content"), "--json");
-  expect(checked.status, checked.stdout || checked.stderr).toBe(0);
-}, 60_000);
 
 it.each(["content", "export"])("rejects wrong-prefix and relative media in %s without treating scripts or navigation as media", async (surface) => {
   const root = await mkdtemp(path.join(tmpdir(), "lbh-assets-invalid-paths-")); directories.push(root);

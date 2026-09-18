@@ -20,6 +20,11 @@ for (const sourcePath of sourcePaths) {
   for (const locale of ["en", "cn"]) {
     const pathname = `/${locale}${sourcePath === "/" ? "" : sourcePath}`;
     if (!await existsAsFile(htmlFile(pathname))) errors.push(`Missing localized export: ${pathname}`);
+    else {
+      const html = await readFile(htmlFile(pathname), "utf8");
+      const language = html.match(/<html\b[^>]*\blang=["']([^"']+)["']/i)?.[1];
+      if (language !== (locale === "cn" ? "zh-CN" : "en")) errors.push(`Incorrect document language: ${pathname}`);
+    }
   }
 }
 

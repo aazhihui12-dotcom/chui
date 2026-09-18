@@ -1,12 +1,13 @@
-import { render, screen } from "@testing-library/react";
-import RootLayout from "@/app/layout";
+import { renderToStaticMarkup } from "react-dom/server";
+import RootLayout from "@/app/(entry)/layout";
 
 it("declares the LBH document shell", () => {
-  render(
+  const html = renderToStaticMarkup(
     <RootLayout>
       <main>content</main>
     </RootLayout>,
   );
 
-  expect(screen.getByText("content")).toBeInTheDocument();
+  expect(html).toContain('<html lang="en">');
+  expect(html).toContain("<main>content</main>");
 });

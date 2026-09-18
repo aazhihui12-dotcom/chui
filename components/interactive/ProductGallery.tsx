@@ -2,6 +2,7 @@
 
 import { useEffect, useId, useRef, useState } from "react";
 import type { ImageAsset, Locale } from "@/content/schema";
+import { useCarouselMotion } from "./useCarouselMotion";
 
 export function ProductGallery({ images, model, locale }: { images: ImageAsset[]; model: string; locale: Locale }) {
   const [selected, setSelected] = useState(0);
@@ -12,6 +13,7 @@ export function ProductGallery({ images, model, locale }: { images: ImageAsset[]
   const titleId = useId();
   const cn = locale === "cn";
   const image = images[selected];
+  const motion = useCarouselMotion(direction => setSelected(index => (index + direction + images.length) % images.length));
   useEffect(() => {
     if (!open) return;
     const node = dialog.current!;
@@ -29,7 +31,7 @@ export function ProductGallery({ images, model, locale }: { images: ImageAsset[]
     return () => { document.removeEventListener("keydown", onKey); document.body.style.overflow = overflow; trigger.current?.focus(); };
   }, [open, images.length]);
   if (!image) return null;
-  return <div className="product-gallery">
+  return <div {...motion.bindings} className="product-gallery">
     <button ref={trigger} className="product-gallery__main" aria-label={cn ? `放大${model}图片` : `Enlarge ${model} image`} onClick={() => setOpen(true)}>
       <img src={image.src} alt={image.alt} width="700" height="700" fetchPriority="high" />
       <span className="product-gallery__zoom" aria-hidden="true">＋</span>

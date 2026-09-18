@@ -9,6 +9,10 @@
     "start": "http-server out -c-1",
     "test": "vitest run",
     "test:watch": "vitest",
+    "capture": "node scripts/capture-source.mjs --origin https://www.lbhappliances.com --cache source-cache",
+    "capture:regenerate": "node scripts/build-content.mjs",
+    "capture:verify": "node scripts/check-source-manifest.mjs --cache source-cache && node scripts/check-assets.mjs --capture-integrity",
+    "assets:manifest": "node scripts/update-shipped-assets.mjs",
     "test:e2e": "playwright test"
   },
   "dependencies": {

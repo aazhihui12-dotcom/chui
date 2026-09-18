@@ -16,21 +16,23 @@ describe("homepage source recognition", () => {
 
   it("keeps the complete Chinese homepage and contact actions localized", () => {
     render(<HomeTemplate page={pages.find((page) => page.id === "home" && page.locale === "cn")!} />);
-    expect(screen.getByRole("heading", { name: "欢迎加入LBH电器大家庭" })).toBeVisible();
-    expect(screen.getByRole("heading", { name: "LBH电器产品认证" })).toBeVisible();
-    expect(screen.getByRole("heading", { name: "我们的使命" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "欢迎来到LBH电器家族" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "LBH电器的产品认证" })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "我们的任务" })).toBeVisible();
     expect(screen.getByRole("link", { name: "咨询家电专家" })).toHaveAttribute("href", "/cn/Contact_Us");
   });
+  it("renders complete captured Chinese welcome copy rather than an authored paraphrase", () => {
+    render(<HomeTemplate page={pages.find(page => page.id === "home" && page.locale === "cn")!} />);
+    expect(screen.getByText(/我们多年的行业经验磨练了我们在个护家电研发设计方面的专业知识/)).toBeVisible();
+  });
 
-  it("allows visitors to browse hero slides in either direction", () => {
+  it("retains the source single-slide hero separately from the four featured products", () => {
     render(<HomeTemplate page={englishHome} />);
     const carousel = within(screen.getByRole("region", { name: "Products and brand highlights" }));
-    fireEvent.click(screen.getByRole("button", { name: "Next slide" }));
-    expect(carousel.getByRole("heading", { name: "LBH-3228" })).toBeVisible();
-    fireEvent.click(screen.getByRole("button", { name: "Previous slide" }));
+    expect(carousel.getAllByRole("group")).toHaveLength(1);
+    expect(carousel.getByText("01 / 01")).toBeVisible();
+    expect(carousel.queryByRole("button")).not.toBeInTheDocument();
     expect(screen.getByRole("heading", { name: /Saving You Time and Cost/ })).toBeVisible();
-    fireEvent.click(screen.getByRole("button", { name: "Go to slide 3" }));
-    expect(carousel.getByRole("heading", { name: "LBH-3210" })).toBeVisible();
   });
 
   it.each(["en", "cn"] as const)("offers all four source featured products with %s detail links", (locale) => {

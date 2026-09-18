@@ -9,7 +9,7 @@ const pageLabels = {
   Exclusive_sale: ["Exclusive Sale", "独家销售", "我们重视您的商机，为您的品牌推荐独特创新的产品，并提供区域独家经销合作。以差异化设计提升品牌竞争力，减少价格竞争，赢得忠实客户。"],
   Contract_manufacturing_service: ["OEM Services", "代工服务", "专业工程师与您共同确认设计及制造需求。依托通过 ISO 9001:2000 认证的工厂，提供个护与家电代工服务；本页面标示起订量为 2,000 件，交货周期为 35–40 天，并提供批量优惠。"],
   PinZhiGuanLi: ["Quality Management", "品质管理", "以 ISO 9001:2000 为质量管理指引，从原料、零部件和半成品到成品，坚持标准化检验。自主开发驱动模块，精益制造高速电机，关注吹风机的每一处细节。"],
-  Design_and_Development: ["Design and Development", "设计与研发", "由创始人 Tina 领导的研发团队汇集工程师和设计师，在成立四年内获得超过 40 项专利。从客户的创意与需求出发，综合考虑外观、尺寸、功能、模具、成本和生产周期。"],
+  Design_and_Development: ["Design and Development", "设计与开发", "由创始人 Tina 领导的研发团队汇集工程师和设计师，在成立四年内获得超过 40 项专利。从客户的创意与需求出发，综合考虑外观、尺寸、功能、模具、成本和生产周期。"],
   Order_Management: ["Order Management", "订单管理", "产品上市时间对您的业务至关重要。下单后由专属项目经理持续反馈定制产品的进展，提供生产通知，协调修改和实施，并收集您的建议以改善制造流程。"],
   Product_manufacturing: ["Product Manufacturing", "产品制造", "见证从零件到成品的完整制造过程：驱动主板、高速电机、外壳注塑、吹风机组装、测试与包装。按预算和交期完成批量订单。"],
   "Product_Warranty_and_After-Sales_Service": ["Product Warranty and After-Sales Service", "产品保修与售后服务", "所有出库产品提供一年保修。售后团队提供 24/7/365 支持，在联系后 8 小时内给出有效解决方案；支持免费更换或后续补货，无需提供质量问题证明。"],
@@ -117,13 +117,19 @@ export async function buildContent({ source = "source-cache", output = "content"
     }
   }
   const usedAssets = new Map();
+  const canonicalAssetByHash = new Map();
   const docs = new Map();
   async function documentFor(page, locale) {
     const variant = page.localeVariants.find((item) => item.locale === locale);
+    // These six canonical Chinese endpoints were rechecked on 2026-09-19: HTTP 404.
+    const unavailableChinese = ["/Content/3022032.html", "/Content/3022033.html", "/DownLoad/261891.html", "/DownLoad/261890.html", "/DownLoad/261889.html", "/DownLoad/261888.html"];
+    if (locale === "cn" && variant?.status === 404 && unavailableChinese.includes(page.pathname)) return documentFor(page, "en");
+    if (locale === "cn" && !["product-detail", "news-detail"].includes(page.kind) && !variant?.languageVerified) throw new Error(`Unverified canonical Chinese content: ${page.pathname}`);
     if (!variant || variant.status !== 200) throw new Error(`Missing captured ${locale} page: ${page.pathname}`);
     if (!docs.has(variant.cacheFile)) {
       const html = await readFile(path.join(source, variant.cacheFile), "utf8");
       const doc = new JSDOM(html, { virtualConsole: new VirtualConsole() }).window.document;
+      if (locale === "cn" && variant.languageVerified && (!/^(zh|cn)/i.test(doc.documentElement.lang) || new URL(variant.resolvedUrl).hostname !== "www.lbhappliances.com")) throw new Error(`Unverified canonical Chinese content: ${page.pathname}`);
       // Some source FAQs place their only answer in the share-preview summary.
       doc.capturedArticleIntroduction = textOf(doc.querySelector(".news-introduction-deail"));
       doc.querySelectorAll("script,style,noscript,form,template,#HeaderZone,#FooterZone,mobilenav,.share,.shareitem").forEach((node) => node.remove());
@@ -138,6 +144,9 @@ export async function buildContent({ source = "source-cache", output = "content"
     const asset = assetMap.get(url);
     if (!asset || (!download && !imageAssets.has(asset.sourceUrl))) return;
     const destination = `/${download ? "downloads" : "media"}/${path.basename(asset.localPath)}`;
+    const canonical = canonicalAssetByHash.get(asset.sha256) || assetAliases[destination] || destination;
+    canonicalAssetByHash.set(asset.sha256, canonical);
+    if (canonical !== destination) assetAliases[destination] = canonical;
     usedAssets.set(destination, asset.localPath);
     return { src: destination, alt: clean(alt) };
   }
@@ -157,11 +166,11 @@ export async function buildContent({ source = "source-cache", output = "content"
     }
     return [...new Map(images.map((image) => [image.src, image])).values()];
   }
-  function paragraphsFor(root) {
+  function paragraphsFor(root, retainPlaceholders = false) {
     if (!root) return [];
     const nodes = [...root.querySelectorAll("p,li,h1,h2,h3,h4")].filter((node) => !node.querySelector("p,li,h1,h2,h3,h4"));
     const lines = nodes.length ? nodes.map(textOf) : [textOf(root)];
-    return unique(lines.filter((text) => text && !text.includes("XX") && !/^Product$|^About$|^Touch$/.test(text)));
+    return unique(lines.filter((text) => text && (retainPlaceholders || !text.includes("XX")) && !/^Product$|^About$|^Touch$/.test(text)));
   }
   function sourceAction(anchor, locale, pageUrl) {
     const text = textOf(anchor.querySelector(".ButtonText")) || textOf(anchor);
@@ -187,7 +196,7 @@ export async function buildContent({ source = "source-cache", output = "content"
     const seen = new Set();
     const modules = root.querySelectorAll(ctaOnly ? ".ModuleButtonGiant" : ".ModuleImageTextContent,.ModuleDigitalIncreaseGiant,.ModuleButtonGiant,.ModuleSiteGalleryV2Giant,.ModuleImageGiant,.ModuleVideoGiant");
     for (const node of modules) {
-      const paragraphs = paragraphsFor(node), text = paragraphs.join(" ");
+      const paragraphs = paragraphsFor(node, locale === "cn"), text = paragraphs.join(" ");
       if (text && seen.has(text)) continue;
       if (text) seen.add(text);
       const images = imagesFor(node);
@@ -199,11 +208,14 @@ export async function buildContent({ source = "source-cache", output = "content"
         const items = [...raw.matchAll(/(\d[\d,]*\s*\+?)\s*([^\d]+?)(?=\s*\d|$)/g)].map((match) => ({ value: clean(match[1]), label: clean(match[2]) }));
         if (items.length) blocks.push({ type: "stats", items });
       } else if (paragraphs.length) {
-        const heading = paragraphs[0].length < 160 ? paragraphs.shift() : undefined;
+        const firstParagraph = node.querySelector("p,li,h1,h2,h3,h4");
+        const fontSizes = firstParagraph ? [...firstParagraph.querySelectorAll("[style]"), firstParagraph].flatMap(element => [...(element.getAttribute("style") || "").matchAll(/font-size:\s*(\d+)px/g)].map(match => Number(match[1]))) : [];
+        const isHeading = locale === "cn" ? Boolean(firstParagraph?.matches("h1,h2,h3,h4") || Math.max(0, ...fontSizes) >= 18) : paragraphs[0].length < 160;
+        const heading = isHeading ? paragraphs.shift() : undefined;
         const items = [...node.querySelectorAll("li")].map(textOf).filter(Boolean);
         if (images.length) blocks.push({ type: "split", heading: heading || "", paragraphs, image: images[0] });
         else blocks.push({ type: "rich-text", ...(heading ? { heading } : {}), paragraphs, ...(items.length ? { items } : {}) });
-      } else if (images.length > 1) blocks.push({ type: "gallery", images });
+      } else if (images.length > 1) blocks.push({ type: "gallery", images, ...(node.querySelector(".imgHoverBox") ? { presentation: "hover" } : {}) });
       else if (images.length) blocks.push({ type: "media", image: images[0] });
     }
     return blocks;
@@ -236,6 +248,7 @@ export async function buildContent({ source = "source-cache", output = "content"
   const categories = [];
   for (const [id, titles] of Object.entries(categoryLabels)) {
     const page = sourcePages.find((page) => page.pathname === `/Product/${id}.html`);
+    if (!page) continue;
     const doc = await documentFor(page, "en"), root = doc.querySelector("#BodyMain1Zone");
     const productIds = unique([...root.querySelectorAll('.ModuleProductListGiant a[href*="ProductDetail/"]')].map((node) => idOf(new URL(node.getAttribute("href"), page.url).pathname)));
     categories.push({ id, legacyPath: page.pathname, title: { en: titles[0], cn: titles[1] }, productIds, image: imagesFor(root)[0] });
@@ -291,30 +304,23 @@ export async function buildContent({ source = "source-cache", output = "content"
       const englishBlocks = blocksFor(root, "en", page.url);
       const description = englishBlocks.flatMap((block) => block.paragraphs || []).find((text) => text.length > 40 && !/[\u4e00-\u9fff]/.test(text)) || labels[0];
       const cnRoot = cnDoc.querySelector("#BodyMain1Zone") || cnDoc.body;
-      const cnParagraphs = [...cnRoot.querySelectorAll(".ModuleImageTextContent")].flatMap(paragraphsFor);
-      const cnCount = cnParagraphs.filter((text) => /[\u4e00-\u9fff]/.test(text)).length;
-      const actualChinese = cnParagraphs.length > 2 && cnCount / cnParagraphs.length > 0.6;
+      const actualChinese = page.localeVariants.find(variant => variant.locale === "cn")?.languageVerified === true;
       for (const locale of ["en", "cn"]) {
         const title = labels[locale === "en" ? 0 : 1];
         let blocks = locale === "en" ? englishBlocks : actualChinese ? blocksFor(cnRoot, locale, page.url) : [{ type: "rich-text", heading: title, paragraphs: [labels[2]] }, ...englishBlocks.filter((block) => block.type === "media" || block.type === "gallery"), ...blocksFor(cnRoot, locale, page.url, true)];
-        if (locale === "cn" && page.pathname === "/") blocks.push({ type: "stats", items: [
-          { value: "2 +", label: "全资自动化工厂" },
-          { value: "10 +", label: "灵活付款方式" },
-          { value: "20 +", label: "国际知名品牌合作伙伴" },
-          { value: "4800 +", label: "成功定制样品" },
-        ] });
         if (!blocks.length) blocks = [{ type: "rich-text", paragraphs: [locale === "cn" ? labels[2] : title] }];
         if (page.pathname === "/Milestone") {
-          const milestones = [...root.querySelectorAll(".ModuleImageTextContent")].filter((node) => /^202\d\s/.test(textOf(node)));
-          const cnYears = { "2020": ["激情创业", "Tina 创立 LBH，组建团队研发首款高速吹风机并推向市场。"], "2021": ["从经验中学习", "根据客户对温度和工作模式的反馈，进一步加大研发投入。"], "2022": ["完善体系", "组建专业团队，严格筛选供应商，完善质量体系，新一代高速吹风机投入量产。"], "2023": ["稳步前行", "完善制造、营销、质量与知识产权体系，建立内部研发中心，开展五场销售竞赛。"], "2024": ["业绩增长", "持续开拓北美市场，与当地知名品牌合作，在十大企业参与的竞标中胜出，营业额超过 5,000 万。"], "2025": ["快速进步", "第一季度销售额超过 2,000 万，推进新品研发、上市、品类扩展与测试，并与优秀供应商建立长期合作。"], "2026": ["持续探索与突破", "开拓欧洲与中东市场，同步推出 2–3 款创新个护家电，扩大全球本地品牌合作网络，并持续投入个护小家电研发。"] };
+          const milestoneNodes = [...(locale === "cn" && actualChinese ? cnRoot : root).querySelectorAll(".ModuleImageTextContent")];
+          const milestones = milestoneNodes.filter((node) => /^202\d\s/.test(textOf(node)));
           const items = [...new Map(milestones.map((node) => {
             const paragraphs = paragraphsFor(node), year = paragraphs[0].slice(0, 4);
-            return [year, { year, title: locale === "cn" && cnYears[year] ? cnYears[year][0] : paragraphs[0].slice(5), description: locale === "cn" && cnYears[year] ? cnYears[year][1] : paragraphs.slice(1).join(" ") }];
+            return [year, { year, title: paragraphs[0].slice(5), description: paragraphs.slice(1).join(" ") || (locale === "cn" && actualChinese ? textOf(milestoneNodes[milestoneNodes.indexOf(node) + 1]) : "") }];
           })).values()];
           if (items.length) blocks.push({ type: "timeline", items });
         }
-        const desc = locale === "cn" ? labels[2] : description;
-        const record = basePage(page, locale, title, desc, [{ type: "hero", title, image: images[0] }, ...blocks], images, locale === "cn" && !actualChinese ? "localized-summary" : "full", locale === "cn" && actualChinese ? "cn" : "en");
+        const localizedImages = locale === "cn" && actualChinese ? imagesFor(cnRoot, title) : images;
+        const desc = locale === "cn" ? blocks.flatMap(block => block.paragraphs || []).find(text => /[\u4e00-\u9fff]/.test(text)) || labels[2] : description;
+        const record = basePage(page, locale, title, desc, [{ type: "hero", title, image: localizedImages[0] }, ...blocks], localizedImages, locale === "cn" && !actualChinese ? "localized-summary" : "full", locale === "cn" && actualChinese ? "cn" : "en");
         if (category) record.categoryId = category.id;
         if (/^\/(Contact|Contact_Us)$/.test(page.pathname)) record.kind = "contact";
         if (page.pathname.startsWith("/DownLoad/") || page.pathname === "/Product_Catalogue") {
@@ -326,6 +332,7 @@ export async function buildContent({ source = "source-cache", output = "content"
     }
   }
   await mkdir(output, { recursive: true });
+  await writeFile(path.join(output, "asset-aliases.json"), `${JSON.stringify(assetAliases, null, 2)}\n`);
   for (const [file, symbol, type, data] of [["pages", "pages", "SitePage", pages], ["products", "products", "Product", products], ["articles", "articles", "Article", articles]]) {
     const extra = file === "products" ? `\nexport const categories: Category[] = ${JSON.stringify(categories, localize, 2)};\n` : file === "pages" ? '\nexport const englishHome = pages.find((page) => page.id === "home" && page.locale === "en")!;\n' : "";
     await writeFile(path.join(output, `${file}.ts`), `// Generated by scripts/build-content.mjs. Do not edit by hand.\nimport type { ${type}${file === "products" ? ", Category" : ""} } from "./schema";\n\nexport const ${symbol}: ${type}[] = ${JSON.stringify(data, localize, 2)};\n${extra}`);

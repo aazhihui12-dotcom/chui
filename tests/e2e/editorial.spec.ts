@@ -23,7 +23,7 @@ for (const locale of ["en", "cn"] as const) {
         await expect(main).toHaveClass(/editorial-page/);
         await expect(main.getByRole("heading", { level: 1 })).toHaveCount(1);
         await expect(main.getByRole("heading", { level: 1 })).toBeVisible();
-        await expect(main.getByRole("note")).toHaveCount(locale === "cn" ? 1 : 0);
+        await expect(main.getByRole("note")).toHaveCount(0);
         for (const source of sourceEditorialMedia[route as keyof typeof sourceEditorialMedia] ?? []) {
           await expect(main.locator(`img[src="${source}"]`), `${route}: ${source}`).toHaveCount(1);
         }
@@ -77,5 +77,6 @@ test("company artwork, responsive split stacking and inquiry links remain usable
   await expect(inquiry).toBeFocused();
   await expect(inquiry).toHaveAttribute("href", "/en/Contact_Us");
   await page.keyboard.press("Enter");
-  await expect(page).toHaveURL(/\/en\/Contact_Us\/$/);
+  await expect(page.getByRole("dialog")).toBeVisible();
+  await expect(page).toHaveURL(/\/en\/Exclusive_sale\/$/);
 });

@@ -9,7 +9,7 @@ import { render, screen, cleanup } from "@testing-library/react";
 import { allPages } from "@/lib/content";
 import sitemap from "@/app/sitemap";
 import robots from "@/app/robots";
-import NotFound from "@/app/not-found";
+import NotFound from "@/components/site/NotFound";
 
 const navigation = vi.hoisted(() => ({ pathname: "/en/unknown" }));
 vi.mock("next/navigation", async (importOriginal) => ({

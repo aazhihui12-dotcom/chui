@@ -4,8 +4,16 @@ import * as renderer from "@/components/site/SectionRenderer";
 import type { ContentBlock } from "@/content/schema";
 import ContentPage from "@/app/[locale]/[...slug]/page";
 import { sourceEditorialMedia } from "../fixtures/editorial-source-media";
+import chineseSource from "../fixtures/chinese-source-content.json";
 
 afterEach(cleanup);
+
+it.each(["Company_Introduction", "Contract_manufacturing_service", "Factory_tour", "PinZhiGuanLi", "Design_and_Development"])("renders every canonical Chinese paragraph for %s, not merely its data record", async route => {
+  const { container } = render(await ContentPage({ params: Promise.resolve({ locale: "cn", slug: [route] }) }));
+  const text = container.textContent!.replace(/\s/g, "");
+  const expected = chineseSource[`/${route}` as keyof typeof chineseSource].paragraphs;
+  for (const paragraph of expected) expect(text, `${route}: ${paragraph}`).toContain(paragraph.replace(/\s/g, ""));
+});
 
 const image = { src: "/media/example.webp", alt: "Laboratory inspection" };
 const blocks: ContentBlock[] = [
@@ -48,11 +56,12 @@ it("shows the company banner once and retains source section order", async () =>
   expect(headings.indexOf("Our Mission")).toBeLessThan(headings.indexOf("Listen to the Voice of the Customer"));
 });
 
-it("identifies an authored Chinese summary without implying source-language verification", async () => {
+it("renders full canonical Chinese OEM sections without a summary notice", async () => {
   render(await ContentPage({ params: Promise.resolve({ locale: "cn", slug: ["Contract_manufacturing_service"] }) }));
-  expect(screen.getByRole("note")).toHaveTextContent("本页为英文资料的中文摘要，非已核验的中文原文。");
+  expect(screen.queryByRole("note")).not.toBeInTheDocument();
   expect(screen.getByRole("heading", { name: "代工服务", level: 1 })).toBeVisible();
-  expect(screen.getByText(/2,000 件/)).toBeVisible();
+  expect(screen.getByText("最小起订量2000起")).toBeVisible();
+  expect(screen.getByText("通过我们的平台展示您产品的设计理念，您还可以提供该设计理念的大致规格，例如功率输出和模式。").tagName).toBe("P");
 });
 
 it("does not add a summary label or fabricated technical detail to sparse English pages", async () => {
@@ -103,4 +112,17 @@ it("keeps the laboratory's small test icons beside their labels instead of treat
   const icons = container.querySelectorAll('img[src="/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png"]');
   expect(icons).toHaveLength(4);
   expect(icons[0].closest(".editorial-test-item")).toHaveTextContent("New Design Concept Flexibility Test");
+});
+
+it.each(["en", "cn"] as const)("retains the four captured manufacturing photo carousels in %s", async locale => {
+  const { container } = render(await ContentPage({ params: Promise.resolve({ locale, slug: ["Product_manufacturing"] }) }));
+  expect(container.querySelectorAll(".editorial-gallery")).toHaveLength(4);
+  expect(container.querySelectorAll(".editorial-gallery img")).toHaveLength(12);
+});
+it("retains the Factory source player with explicit activation and a stable provider fallback", async () => {
+  const { container } = render(await ContentPage({ params: Promise.resolve({ locale: "cn", slug: ["Factory_tour"] }) }));
+  expect(container.querySelector("iframe")).toBeNull();
+  fireEvent.click(screen.getByRole("button", { name: "播放工厂概览视频" }));
+  expect(container.querySelector("iframe")).toHaveAttribute("src", "https://www.youtube-nocookie.com/embed/gg8SzzwqR2M?autoplay=1");
+  expect(screen.getByRole("link", { name: "在 YouTube 打开视频" })).toHaveAttribute("href", "https://www.youtube.com/watch?v=gg8SzzwqR2M");
 });

@@ -740,10 +740,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/",
     "kind": "home",
     "title": "LBH电器 — 节省时间与成本，成就您的品牌",
-    "description": "值得信赖的个护与家用电器合作伙伴。提供创新设计、研发和制造解决方案，帮助品牌打造有竞争力的产品。",
+    "description": "一段1分钟的视频，证明我们卓越的制造体系",
     "seo": {
       "title": "LBH电器 — 节省时间与成本，成就您的品牌 | LBH APPLIANCES",
-      "description": "值得信赖的个护与家用电器合作伙伴。提供创新设计、研发和制造解决方案，帮助品牌打造有竞争力的产品。"
+      "description": "一段1分钟的视频，证明我们卓越的制造体系"
     },
     "blocks": [
       {
@@ -751,22 +751,88 @@ export const pages: SitePage[] = [
         "title": "LBH电器 — 节省时间与成本，成就您的品牌",
         "image": {
           "src": "/media/43a3baa29efcc67c1b2018ab2fbee7cb467c55cef719008d2b38fc987665c903.webp",
-          "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+          "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
         }
       },
       {
         "type": "rich-text",
-        "heading": "LBH电器 — 节省时间与成本，成就您的品牌",
+        "heading": "LBH电器 ,节省您的时间与成本并成就您的品牌 您宝贵的个护家电合作伙伴",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "10条自动化生产线",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "8年个护家电研发制造经验",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "66个成功的联合品牌案例",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "提供创新的个护家电设计研发方案",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "为什么众多知名品牌信赖LBH的个护小家电解决方案?",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
         "paragraphs": [
-          "值得信赖的个护与家用电器合作伙伴。提供创新设计、研发和制造解决方案，帮助品牌打造有竞争力的产品。"
+          "一段1分钟的视频，证明我们卓越的制造体系"
         ]
+      },
+      {
+        "type": "stats",
+        "items": [
+          {
+            "value": "2",
+            "label": "条 自有自动化工厂"
+          },
+          {
+            "value": "10",
+            "label": "种 灵活付款方式"
+          },
+          {
+            "value": "20 +",
+            "label": "全球知名品牌合作"
+          },
+          {
+            "value": "4800 +",
+            "label": "成功的客制样品"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "立即选择您有竞争力的产品",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "与大多数其他供应商相比，我们只专注于做有竞争壁垒、私模客制化、高门槛认证的好产品",
+        "paragraphs": []
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
+          "src": "/media/716152888e427f8ac34dc9a4e6c465c1749f0fa3d7ea1f565d796634558da8d8.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "高速多功能美发器"
+        ]
       },
       {
         "type": "media",
@@ -776,11 +842,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "造型梳系列"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "直发器系列"
+        ]
       },
       {
         "type": "media",
@@ -790,6 +868,12 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "卷发器系列"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/f9926c373fe5ded620115ec2e3de58803f5af251f89824abe666537ce331cc1f.jpg",
@@ -797,6 +881,108 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "吹风机系列"
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "立即报价",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "索取完整产品目录",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "heading": "您是经销商或批发商？",
+        "paragraphs": []
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "今天加入我们",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "heading": "您是品牌定制客户？",
+        "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "heading": "您是工程师或设计师？",
+        "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "heading": "您是网络品牌企业主？",
+        "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "heading": "经纪人专用",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "如果您和家电行业的品牌采购人士有联系 我们鼓励您成为LBH电器的宝贵合作伙伴"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
@@ -832,39 +1018,30 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
-          "alt": "图片展示"
-        }
+        "type": "rich-text",
+        "heading": "欢迎来到LBH电器家族",
+        "paragraphs": []
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
-          "alt": "图片展示"
-        }
+        "type": "rich-text",
+        "paragraphs": [
+          "在LBH电器，我们了解您的业务需要的不仅是一款个护家电产品，还需要有助于您品牌成功的创新解决方案。我们多年的行业经验磨练了我们在个护家电研发设计方面的专业知识，使我们能够提供不仅满足而且超越您期望的产品。我们深入研究每种设计的潜力，确保我们的产品解决方案提升您的品牌调性和消费者认知。选择LBH电器，您就与致力于推动您的业务发展和增长的优质制造商合作。"
+        ]
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
-          "alt": "图片展示"
-        }
+        "type": "cta",
+        "actions": [
+          {
+            "label": "联系我们",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
-          "alt": "图片展示"
-        }
-      },
-      {
-        "type": "media",
-        "image": {
-          "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
-          "alt": "图片展示"
-        }
+        "type": "rich-text",
+        "heading": "宝贵的合作伙伴",
+        "paragraphs": []
       },
       {
         "type": "gallery",
@@ -940,6 +1117,17 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH为我们定制的高速吹风机产品在设计和产品技术方面均处于领先地位。面对激烈的市场竞争，凭借产品独特的差异化和卓越的用户体验，我们在短时间内迅速获得了很高的市场份额。LBH团队兑现了他们最初对我们的承诺。如今，我们已成功开拓了新的国内市场，与LBH的深度合作仍在继续。感谢LBH团队的辛勤付出。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— Jeff Deng",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
@@ -947,11 +1135,38 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH是我们合作过的最有效率的团队。从第一次会议到最终产品交付，仅仅用了两个多月的时间，这在以前是难以想象的！更重要的是，新产品的开发过程很好地规避了专利问题。消费者非常喜欢我们的产品风格，产品上市后也获得了良好的市场反馈。未来我们将继续携手开发更多创新产品。LBH团队让我们感到非常安心！"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— Warren Steve",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LHB为我们定制的高速吹风机产品在设计和产品技术方面都处于领先地位。面对激烈的市场竞争，产品的独特差异化和用户体验使我们在很短的时间内获得了很高的市场份额。LHB团队兑现了他们对我们的最初承诺。我们现已开拓了新的国际市场，与LHB的更深入合作仍在继续。感谢 LHB 团队的努力。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— María Emilia",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH电器的产品认证",
+        "paragraphs": []
       },
       {
         "type": "gallery",
@@ -983,11 +1198,52 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "rich-text",
+        "heading": "我们为下一代的可持续发展所做的努力",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "可再生能源",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "节能产品",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "环保包装和涂层",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "可持续包装",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们的任务",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/e3697ef103f0da3ec4a048e4d4ed38d03838861698668dba65c3945e0b26b34b.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，使我们了解个护家电产业未来的研发趋势与方向；同时，我们扎根客户市场，安排我们的工程师团队了解当地消费者的实际使用情况和售后情况；透过对这些数据的分析，我们不断优化我们产品的设计。我们的使命是了解客户想要什麽并做客户需要做的事情。坚定与我们的品牌合作伙伴合作，并打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "现在联系LBH电器开始进行您的产品定制吧！",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -997,73 +1253,25 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "立即询价",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
         ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
       },
       {
         "type": "cta",
         "actions": [
           {
-            "label": "索取完整产品目录",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "今天加入我们",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "联系我们",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "咨询家电专家",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "stats",
-        "items": [
-          {
-            "value": "2 +",
-            "label": "全资自动化工厂"
-          },
-          {
-            "value": "10 +",
-            "label": "灵活付款方式"
-          },
-          {
-            "value": "20 +",
-            "label": "国际知名品牌合作伙伴"
-          },
-          {
-            "value": "4800 +",
-            "label": "成功定制样品"
           }
         ]
       }
@@ -1071,15 +1279,15 @@ export const pages: SitePage[] = [
     "images": [
       {
         "src": "/media/43a3baa29efcc67c1b2018ab2fbee7cb467c55cef719008d2b38fc987665c903.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/91197754d2e56f44172178d30caf92f66f3306ba28eea22a6de84b16530ba989.png",
@@ -1098,7 +1306,7 @@ export const pages: SitePage[] = [
         "alt": "LBH-WY605"
       },
       {
-        "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
+        "src": "/media/716152888e427f8ac34dc9a4e6c465c1749f0fa3d7ea1f565d796634558da8d8.jpg",
         "alt": "图片展示"
       },
       {
@@ -1139,31 +1347,31 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
@@ -1179,47 +1387,47 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/f5b922de341d5afcd094a78d59bc785b13401fb2841f2800f75cee5742715b84.png",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/b181f7afcd98f4d5b0792e6050a1cd3f37c79a2a673b9e00df4496d306bd27c3.png",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/8d71177979fd77c7219e1bf5b11916efcbfae6ff6dba95a099cb5a0ef22ce95b.png",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/7342b9dc51cfbd13a36f036dcd6c46db49ccad5a78d9dcbf08f869e568a7ad76.png",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/e3697ef103f0da3ec4a048e4d4ed38d03838861698668dba65c3945e0b26b34b.webp",
@@ -1227,7 +1435,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/593d21d66be9e8169bf325f675736e583a8ddf1749eb11a484cd8e0d9e6842d3.png",
-        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+        "alt": "LBH电器 — 节省时间与成本，成就您的品牌"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -1235,11 +1443,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -1393,10 +1601,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Exclusive_sale",
     "kind": "content",
     "title": "独家销售",
-    "description": "我们重视您的商机，为您的品牌推荐独特创新的产品，并提供区域独家经销合作。以差异化设计提升品牌竞争力，减少价格竞争，赢得忠实客户。",
+    "description": "将差异化的产品引入您的市场可以让您的品牌在竞争中拥有独特的优势；",
     "seo": {
       "title": "独家销售 | LBH APPLIANCES",
-      "description": "我们重视您的商机，为您的品牌推荐独特创新的产品，并提供区域独家经销合作。以差异化设计提升品牌竞争力，减少价格竞争，赢得忠实客户。"
+      "description": "将差异化的产品引入您的市场可以让您的品牌在竞争中拥有独特的优势；"
     },
     "blocks": [
       {
@@ -1410,8 +1618,20 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "独家销售",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们关心您的商机",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH电器专为您的品牌推荐独特的创新产品",
         "paragraphs": [
-          "我们重视您的商机，为您的品牌推荐独特创新的产品，并提供区域独家经销合作。以差异化设计提升品牌竞争力，减少价格竞争，赢得忠实客户。"
+          "将差异化的产品引入您的市场可以让您的品牌在竞争中拥有独特的优势；",
+          "我们为您的品牌提供您所在地区的独家销售权，透过这种方式，LBH电器可以根据您的品牌形象和目标打造独特、创新的设计，帮助您提升品牌影响力！",
+          "联络我们！如果您正在寻找绝佳的机会。"
         ]
       },
       {
@@ -1422,6 +1642,50 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "从我们的服务中受益",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们捕捉您独特的创意，并将其转化为具有市场竞争力和有效性的家电解决方案，从而将您的品牌推向更高的高度。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "避免价格战",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "无需和同行竞争创新的产品价格"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "更忠诚的客户",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "利用满足消费者需求的创新产品赢得用户的尊重和忠诚"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "独特的品牌识别",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们的创新和卓越方法是您的品牌脱颖而出"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -1429,10 +1693,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -1446,15 +1723,15 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/d0e7a51642b45dc9aae43bd7e4c5d8c86eec36e3b94ed573ea5e85bf87e571f7.png",
-        "alt": "Exclusive Sale"
+        "alt": "独家销售"
       },
       {
         "src": "/media/660f74d0a4a28b5c6a899f0d3fdc0eb08eb71fa6bdc0267d553ebee4815828a9.png",
-        "alt": "Exclusive Sale"
+        "alt": "独家销售"
       },
       {
         "src": "/media/3af0b38072a11c36230c6f48827379d72e49d2627bcfa1b96c7417b67d4d0874.png",
-        "alt": "Exclusive Sale"
+        "alt": "独家销售"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -1462,11 +1739,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Exclusive_sale",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Exclusive_sale",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -1513,7 +1790,8 @@ export const pages: SitePage[] = [
             "src": "/media/d4e668b2d5669b860c266b0aa19e48110c99c1f21209b5f06f7fde0f5d3ed02e.webp",
             "alt": "你有中国的制作团队"
           }
-        ]
+        ],
+        "presentation": "hover"
       },
       {
         "type": "rich-text",
@@ -1935,10 +2213,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Contract_manufacturing_service",
     "kind": "content",
     "title": "代工服务",
-    "description": "专业工程师与您共同确认设计及制造需求。依托通过 ISO 9001:2000 认证的工厂，提供个护与家电代工服务；本页面标示起订量为 2,000 件，交货周期为 35–40 天，并提供批量优惠。",
+    "description": "LBH电器还提供强大的OEM服务，助您打造品牌。我们丰富的个护家电产品，经过市场认证的生产设施以及团队的专业技能和经验，将助您在目标市场脱颖而出。",
     "seo": {
       "title": "代工服务 | LBH APPLIANCES",
-      "description": "专业工程师与您共同确认设计及制造需求。依托通过 ISO 9001:2000 认证的工厂，提供个护与家电代工服务；本页面标示起订量为 2,000 件，交货周期为 35–40 天，并提供批量优惠。"
+      "description": "LBH电器还提供强大的OEM服务，助您打造品牌。我们丰富的个护家电产品，经过市场认证的生产设施以及团队的专业技能和经验，将助您在目标市场脱颖而出。"
     },
     "blocks": [
       {
@@ -1952,8 +2230,14 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "代工服务",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "您拥有一支体系化中国生产团队",
         "paragraphs": [
-          "专业工程师与您共同确认设计及制造需求。依托通过 ISO 9001:2000 认证的工厂，提供个护与家电代工服务；本页面标示起订量为 2,000 件，交货周期为 35–40 天，并提供批量优惠。"
+          "LBH电器还提供强大的OEM服务，助您打造品牌。我们丰富的个护家电产品，经过市场认证的生产设施以及团队的专业技能和经验，将助您在目标市场脱颖而出。",
+          "凭借我们先进的生产设备，我们能够在保证产品质量的前提下，快速交付您的个护家电订单！"
         ]
       },
       {
@@ -1967,6 +2251,42 @@ export const pages: SitePage[] = [
             "src": "/media/d4e668b2d5669b860c266b0aa19e48110c99c1f21209b5f06f7fde0f5d3ed02e.webp",
             "alt": "你有中国的制作团队"
           }
+        ],
+        "presentation": "hover"
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "最小起订量2000起"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "ISO9001:2000 认证工厂"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "35-40天交货时间"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "量大优惠"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们如何合作？",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "自始至终，我们经验丰富且合格的工程师都会与您密切合作，寻找符合您业务需求的个护家电解决方案"
         ]
       },
       {
@@ -1977,11 +2297,28 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "发送您的设计",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "通过我们的平台展示您产品的设计理念，您还可以提供该设计理念的大致规格，例如功率输出和模式。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/ba4b76dd704f62075ee9f4712709c28baf04a94daa21f7f12c0858e38d6b4d61.webp",
           "alt": "正在审核中"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "设计团队将仔细审查您的设计或规格说明，并就如何改进您的方案提出建议。"
+        ]
       },
       {
         "type": "media",
@@ -1991,11 +2328,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "样品类型",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "使用最终设计图制作您定制小家电的模具，我们确保模具完全符合您的规格要求。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/5ffb6459a082dba76b0f461d4c0315eb0730903e0d687fc48556895ba058a6cc.webp",
           "alt": "样品制作"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "样品制作",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "您的小家电样品将在 7 周内制作完成并交付给您；在投入批量生产之前，您可以亲自查看效果。"
+        ]
       },
       {
         "type": "media",
@@ -2005,11 +2364,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "试订单",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "您可以根据需要订购少量产品进行测试，试订单能让您安心，确保您订购的所有产品都符合您的标准。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/633a67db25918d6eec5dea135c4ebd013fd3af6c4bb9a7eaa621d80718e10c7a.webp",
           "alt": "合作合同"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "合作合同",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "签订合同可确保您在订单生产前确认产品的结构和质量。"
+        ]
       },
       {
         "type": "media",
@@ -2019,11 +2400,44 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "批量生产",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "签订合同后，我们将利用最先进的生产设备，在预期时间内生产您订购的家电产品。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/5b754759a65c56c3e2139ed8271392f214a56072719579d528d4987064c22def.webp",
           "alt": "物流与配送"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "物流与配送",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "所有成品均采用定制包装组装，并装入货运集装箱，以确保安全准时送达！"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "把负担分担给我们！",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH电器作为一家大型吹风机元件和电机开发商和生产商，已利用最先进的技术建立了必要的生产能力，因此您不必担心任何事情。"
+        ]
       },
       {
         "type": "media",
@@ -2033,11 +2447,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "原材料采购",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "凭借我们成熟的供应链，我们从可靠的供应商处以最优价格采购塑料和其他必需材料。我们的个护家电价格极具竞争力。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/9c58f3447da9587d95228ee2b29e74e3e3c1066efab05d0855c18decf9faefa5.webp",
           "alt": "零部件的制造和组装"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "零部件的制造和组装",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "关键部件（驱动器、芯片和其他组件）可自行生产，这项服务可为您节省资金和厂房空间。"
+        ]
       },
       {
         "type": "media",
@@ -2047,11 +2483,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "进一步处理",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH电器还提供其他服务，例如品牌标识丝网印刷或电镀，我们的附加服务可以满足您目标市场的需求。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/4f999c2c445ff28e88cf46f09cf608640585ba43a70cc382a0c97384d4c209da.webp",
           "alt": "包装材料"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "包装材料",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "请将您的品牌包装图稿或设计稿发送给我们，我们将为您制作产品包装图稿或设计稿；我们团队的专业设计师可以确保您的包装质量。"
+        ]
       },
       {
         "type": "media",
@@ -2089,10 +2547,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -2110,7 +2581,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/13b21ba10a305e581eff9d9a473c68027d03550e45a931b69bbe819be2214049.webp",
@@ -2118,7 +2589,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/4870a5d3362dd749b95fa60fae954dc48194f49e20b041b1b2e24a41c6db057d.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/ba4b76dd704f62075ee9f4712709c28baf04a94daa21f7f12c0858e38d6b4d61.webp",
@@ -2126,7 +2597,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/1e628ef8408bdc4f3ce5394e7b9ffe8138c5104b90d8fa0cfe3d136762e69412.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/fe6b08cb224c79bc4fb75ef5f3be0fd21a3428636a5060515c35dd5908c771a3.webp",
@@ -2134,7 +2605,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/622bc33419f7384b11797840ed2eb08e1ae7ccb17033b90b7cbd76da43c703f7.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/5ffb6459a082dba76b0f461d4c0315eb0730903e0d687fc48556895ba058a6cc.webp",
@@ -2142,7 +2613,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/99f1b6a8903ccc5697c4ffdb640e75226db49f9f96ea1f63a951b59c654b3847.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/53e491d2d1c64f758a5d41f29196965dbf2acf3f3b389fe14be96c74b2ab6318.webp",
@@ -2150,7 +2621,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/590a4afe5fd5a3c2b933176432fea56949a9f62e8c31659d1bb41307727e0367.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/633a67db25918d6eec5dea135c4ebd013fd3af6c4bb9a7eaa621d80718e10c7a.webp",
@@ -2158,7 +2629,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/ddb07ff565e08f9ac5c1f6787a6dc8bdee7c47cb3965dad1ac2f813877e3d89a.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/a3eca00ace9f7632293f931474ac45400bde3447cfb692516769b9b3af5fc32a.webp",
@@ -2166,7 +2637,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/98348737819940f8f9b2799468298b515e7e8ff70c6939231cd3ab094501d15e.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/5b754759a65c56c3e2139ed8271392f214a56072719579d528d4987064c22def.webp",
@@ -2174,7 +2645,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/ff7419266bc1b3373bcf43f43aa0c3d3a9de4816221920583eea763ee4feeade.png",
-        "alt": "OEM Services"
+        "alt": "代工服务"
       },
       {
         "src": "/media/6b29bf41b4fcf6239bf39f4a3d32d600bd217b87bef71985cf5c08562ca51c36.webp",
@@ -2198,11 +2669,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Contract_manufacturing_service",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Contract_manufacturing_service",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -2511,10 +2982,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/PinZhiGuanLi",
     "kind": "content",
     "title": "品质管理",
-    "description": "以 ISO 9001:2000 为质量管理指引，从原料、零部件和半成品到成品，坚持标准化检验。自主开发驱动模块，精益制造高速电机，关注吹风机的每一处细节。",
+    "description": "LBH电器工厂已通过 ISO9001 认证，并以此原则指导我们日常的生产流程；",
     "seo": {
       "title": "品质管理 | LBH APPLIANCES",
-      "description": "以 ISO 9001:2000 为质量管理指引，从原料、零部件和半成品到成品，坚持标准化检验。自主开发驱动模块，精益制造高速电机，关注吹风机的每一处细节。"
+      "description": "LBH电器工厂已通过 ISO9001 认证，并以此原则指导我们日常的生产流程；"
     },
     "blocks": [
       {
@@ -2528,9 +2999,78 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "品质管理",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "ISO9001:2000 作为指导原则",
         "paragraphs": [
-          "以 ISO 9001:2000 为质量管理指引，从原料、零部件和半成品到成品，坚持标准化检验。自主开发驱动模块，精益制造高速电机，关注吹风机的每一处细节。"
+          "LBH电器工厂已通过 ISO9001 认证，并以此原则指导我们日常的生产流程；",
+          "我们与诸多知名电器品牌合作，产品质量获得客户的认可；",
+          "从原材料检验到半成品检验，从零部件到成品测试，我们始终信赖标准化流程的力量。"
         ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "从空气的各个角落开始",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们非常重视吹风机的品质，因此，我们对构成完美吹风机的每一个部件都精益求精，注重每一个细节。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "自主研发的驱动模块",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们使用经各国强制认证的驱动器，并且每个组件都必须正确放置和焊接，以确保产品在特定的最大功率、正确的温度和正确的功率数据下运行。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "高速电机的精益制造",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "核心电机的制造需要专业技术和细致的工序。从扇叶精密的加工，到检查主板位置和外壳的引线拼接，我们对每个检验步骤都遵循详细的标准，以确保100%排除任何缺陷的电机。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "CNC模具雕刻",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "吹风机的外观是给人的第一印象，我们绝不会放过任何细微的缺陷，无论是铸造或注塑过程中的毛刺、铝层电镀不均匀、尺寸或规格偏差，我们绝不会允许任何有缺陷的产品出现，也绝不会允许有缺陷的产品进入下一工序。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "样品测试：",
+        "paragraphs": [
+          "确保批量生产的质量"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "样品是优质组件与高质量批量生产之间的桥梁。在LBH电器，我们独特的做法是在最严苛的条件下反复测试样品，以确保所有组件都能正常工作，并保证性能。一旦样品通过测试，质检团队将负责记录其规格，并为批量生产项目提供物料清单。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "电子性能测试：用于安全应用",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -2540,11 +3080,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "电压抗⼲扰度测试",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "模拟不同环境下使用不同尺寸的电压发生器，测试吹风机是否能正常使用以及过载保护功能。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/d27228df38c9adea3c3998e082bc5ecd3a075438f90b63371d5b9003502f50cc.webp",
           "alt": "跌落和振动测试"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "壳料熔点试验",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "通过提高吹风机样品的加热丝温度并调整外壳中防火材料的比例，来测试内壳材料的极限熔点。"
+        ]
       },
       {
         "type": "media",
@@ -2554,11 +3116,44 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "电气参数测试",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "将产品连接到直流电源，以获得精确的电气参数，包括电源效率、电压、电流、瓦特、功率数据等。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/d314f8b813bec5765308bd88ee5e32a642b6edc9c94acf33304d141a26c744fa.webp",
           "alt": "壳体公差试验"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "跌落和振动测试",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "将样品从离地1.5米高的地方摔落，然后放在振动架上，测试它是否能承受冲击并仍然正常工作。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "装配控制与严格检验",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "正确的组装能够确保吹风机正常运转，保障最终用户的安全。LBH电器特别注重组装流程，并对每位工人的操作进行严格把控；LBH团队严格的质量控制体现在每个流程的方法论和标准化上，从细节入手剔除不合格产品，确保您收到的产品完美无瑕。"
+        ]
       },
       {
         "type": "media",
@@ -2568,10 +3163,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -2617,15 +3225,15 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/fa07dc4a6e202406f95baff22cac2f7a409c3e298f9cac6b4928d2f7765fc2bd.webp",
-        "alt": "Quality Management"
+        "alt": "品质管理"
       },
       {
         "src": "/media/a046022707d615cd9e44d0e2beee873eabdcbf4c6aa90a446a45e4c7dbfc23d4.webp",
-        "alt": "Quality Management"
+        "alt": "品质管理"
       },
       {
         "src": "/media/841a5ae1d6832c08a029fa4e1e476819832f425bccc84008267e44d7283815dc.webp",
-        "alt": "Quality Management"
+        "alt": "品质管理"
       },
       {
         "src": "/media/d693f69b6c93a04f43ffc0771435d1e77a86eb9257dce0fc3dff3cd10993c316.webp",
@@ -2653,11 +3261,11 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/8e138ab576f6f34965b71a80b4a75145d946f318ed156f4cd3a8faa9c1c10ba6.webp",
-        "alt": "Quality Management"
+        "alt": "品质管理"
       },
       {
         "src": "/media/f6d8730255b730478d9827e11a5980e2e5ac18d09dd6fd5da3939e190c95e2bb.webp",
-        "alt": "Quality Management"
+        "alt": "品质管理"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -2665,11 +3273,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/PinZhiGuanLi",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/PinZhiGuanLi",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -2954,16 +3562,16 @@ export const pages: SitePage[] = [
     "locale": "cn",
     "legacyPath": "/Design_and_Development",
     "kind": "content",
-    "title": "设计与研发",
-    "description": "由创始人 Tina 领导的研发团队汇集工程师和设计师，在成立四年内获得超过 40 项专利。从客户的创意与需求出发，综合考虑外观、尺寸、功能、模具、成本和生产周期。",
+    "title": "设计与开发",
+    "description": "LBH电器的研发部门由创始人Tina领导，汇聚了一批杰出的工程师和设计师。我们致力于高质量的研发和卓越的成果，成立四年内便获得了40多项专利。",
     "seo": {
-      "title": "设计与研发 | LBH APPLIANCES",
-      "description": "由创始人 Tina 领导的研发团队汇集工程师和设计师，在成立四年内获得超过 40 项专利。从客户的创意与需求出发，综合考虑外观、尺寸、功能、模具、成本和生产周期。"
+      "title": "设计与开发 | LBH APPLIANCES",
+      "description": "LBH电器的研发部门由创始人Tina领导，汇聚了一批杰出的工程师和设计师。我们致力于高质量的研发和卓越的成果，成立四年内便获得了40多项专利。"
     },
     "blocks": [
       {
         "type": "hero",
-        "title": "设计与研发",
+        "title": "设计与开发",
         "image": {
           "src": "/media/35ba69dfcc0902a8c361ffbadd99d1a993a8dd14b9d5a2e3d94bdb49985d2beb.webp",
           "alt": "图片展示"
@@ -2971,9 +3579,19 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "设计与研发",
+        "heading": "设计与开发",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "品牌销售引擎：专注的团队与设计态度",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
         "paragraphs": [
-          "由创始人 Tina 领导的研发团队汇集工程师和设计师，在成立四年内获得超过 40 项专利。从客户的创意与需求出发，综合考虑外观、尺寸、功能、模具、成本和生产周期。"
+          "LBH电器的研发部门由创始人Tina领导，汇聚了一批杰出的工程师和设计师。我们致力于高质量的研发和卓越的成果，成立四年内便获得了40多项专利。",
+          "我们团队的目标是为您带来市场上最优质的新产品，好的设计始于您的想法和建议，我们以此为基础，确定您的需求，并运用我们的制造经验，为您提供精准的解决方案。"
         ]
       },
       {
@@ -2991,11 +3609,82 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "每次我们开始设计一款新的个护家电产品时，我们都会清空思绪，打破既定的思维模式。",
+          "—— 首席设计师Jeff"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们的设施和设备确保了形式和功能",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "在制作原型时，我们关注每一个细节，从尺寸和形状再到生产成本和时间。",
+          "之后，我们根据最终设计制作模具，这不仅能展现产品的精确形状，还能确保在生产过程中实现其功能性。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "模具灵活性"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "制造速度与成本"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "结构稳定性"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/ba83503d37552f10616f8cf5943e489a12d8d98010199c1e25a08b8dcec00bc8.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们的三步法，助您保持领先优势",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "15天内将你的想法变成草图",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "询问"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们的专家会提供诚实坦率的建议，以便我们能够帮助您将所有产品创意转化为现实，并在您启动项目后为您带来成功。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "工程与报价"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "为了保持工作的透明度，我们提供详细开发定价，并解释我们如何从最终设计中设计新的个护家电产品。"
+        ]
       },
       {
         "type": "media",
@@ -3005,11 +3694,69 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "模具设计和加工在45天内完成估算与分析",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "估算与分析"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "在研究了您的设计和想法之后，我们会估算出需要多少精力和时间来制定清晰的时间表，并让您随时了解最新开发进展。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "模具制造"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "在我们的模具注塑工厂，我们根据精确尺寸调整模具，并创建新模型以实​​现快速生产。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
           "alt": "模具设计与加工"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "原型制作将在60天内完成",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "原型制作与审批"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "利用3D 技术，我们提供 3D 图纸，并将其制作成手板样品供您检验，以确认我们的设计是否符合您的规格要求。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "修改与完善"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们的研发部门与您合作，测试和修改我们的原型产品，使其满足您的要求并做好批量生产的准备。"
+        ]
       },
       {
         "type": "media",
@@ -3026,10 +3773,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -3047,7 +3807,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/c97baca31ae7d15eb7dd717e5e63d19059c9a2bf49e7c36fe9879251665fc116.png",
-        "alt": "Design and Development"
+        "alt": "设计与开发"
       },
       {
         "src": "/media/ba83503d37552f10616f8cf5943e489a12d8d98010199c1e25a08b8dcec00bc8.webp",
@@ -3055,7 +3815,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "Design and Development"
+        "alt": "设计与开发"
       },
       {
         "src": "/media/3a9f60f7c8ad4524ebaa22b21c2a4d75b611b7328807e798e0c8d676ffe0e915.webp",
@@ -3075,11 +3835,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Design_and_Development",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Design_and_Development",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -3241,10 +4001,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Order_Management",
     "kind": "content",
     "title": "订单管理",
-    "description": "产品上市时间对您的业务至关重要。下单后由专属项目经理持续反馈定制产品的进展，提供生产通知，协调修改和实施，并收集您的建议以改善制造流程。",
+    "description": "LBH电器深知时间对您的业务至关重要，也明白及时了解生产流程对于您品牌决策的重要性。",
     "seo": {
       "title": "订单管理 | LBH APPLIANCES",
-      "description": "产品上市时间对您的业务至关重要。下单后由专属项目经理持续反馈定制产品的进展，提供生产通知，协调修改和实施，并收集您的建议以改善制造流程。"
+      "description": "LBH电器深知时间对您的业务至关重要，也明白及时了解生产流程对于您品牌决策的重要性。"
     },
     "blocks": [
       {
@@ -3258,8 +4018,14 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "订单管理",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "因为您的产品上市时间至关重要",
         "paragraphs": [
-          "产品上市时间对您的业务至关重要。下单后由专属项目经理持续反馈定制产品的进展，提供生产通知，协调修改和实施，并收集您的建议以改善制造流程。"
+          "LBH电器深知时间对您的业务至关重要，也明白及时了解生产流程对于您品牌决策的重要性。",
+          "因此，我们会在您下单后为您配备专属项目经理，随时向您汇报定制新产品项目的进展情况。"
         ]
       },
       {
@@ -3277,6 +4043,29 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "轻松了解每笔订单的进度",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "从您的专属联系人处获取反馈：始终密切关注合同进展，定期获得反馈，以便对正在进行和未来的项目进行修改和实施。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "获取生产进度通知：我们的项目经理会根据您的要求，向您提供项目的最新通知，让您随时了解项目的进展情况。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "请提出您的建议：通过您宝贵的见解和建议，帮助我们在产品项目中追求卓越的制造工艺；打造您专业的个护家电产品。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/a2072a93190828df6b57c763b50e42467e3e6f3d30c74ee77de63b664a8623b7.webp",
@@ -3291,10 +4080,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -3312,7 +4114,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "Order Management"
+        "alt": "订单管理"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -3320,11 +4122,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Order_Management",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Order_Management",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -3644,10 +4446,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Product_manufacturing",
     "kind": "content",
     "title": "产品制造",
-    "description": "见证从零件到成品的完整制造过程：驱动主板、高速电机、外壳注塑、吹风机组装、测试与包装。按预算和交期完成批量订单。",
+    "description": "了解LBH电器如何管理吹风机的整个生产流程，并按时按预算分批完成您的订单。",
     "seo": {
       "title": "产品制造 | LBH APPLIANCES",
-      "description": "见证从零件到成品的完整制造过程：驱动主板、高速电机、外壳注塑、吹风机组装、测试与包装。按预算和交期完成批量订单。"
+      "description": "了解LBH电器如何管理吹风机的整个生产流程，并按时按预算分批完成您的订单。"
     },
     "blocks": [
       {
@@ -3661,8 +4463,106 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "产品制造",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "见证我们产品从零件到成品的整个过程",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
         "paragraphs": [
-          "见证从零件到成品的完整制造过程：驱动主板、高速电机、外壳注塑、吹风机组装、测试与包装。按预算和交期完成批量订单。"
+          "了解LBH电器如何管理吹风机的整个生产流程，并按时按预算分批完成您的订单。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "驱动主板"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "高速电机"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "壳料注塑"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "吹风机制造"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "测试与包装"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "主板驱动制造",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "吹风机产品的驱动主板是一个独立的核心组件，它决定了产品的各种功能参数、不同模式下的温度、工作电压以及其他关键数据。LBH电器自主设计、制造和测试吹风机驱动器，以确保吹风机产品具备始终如一的卓越品质和性能。",
+          "空气电器驱动器的制造过程极其严谨，我们的工人必须按照设计将所有组件精准地安装和连接起来；完成后，我们会进行功能测试，以确保吹风机驱动器能够正常工作。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "高速电机制造",
+        "paragraphs": [
+          "电机生产的全过程"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH电器拥有独立的高速电机研发和生产部门，掌握了电机生产核心工艺中的“高精度转子设计”。",
+          "LBH电器的独立研发和生产部门掌控了从“高精度转子设计”、“定子绕组制造及热管理”、“轴承系统设计及安装”到电机",
+          "“动平衡及振动控制”的整个生产流程，解决了高速电机材料强度、散热效率、支撑稳定性和振动抑制等核心难题，确保了电机高效可靠运行的关键技术要点。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "产品壳料注塑",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "模具设计：",
+          "基于对制造灵活性的深入分析，LBH与领先的模具设计机构建立了合作关系，共同打造 吹风机外壳;精心设计的模具确保了成型工艺的高效性和安全性。 LBH采用最先进的数控机床和水刀切割机，生产精度高达0.01毫米以内的高精度模具，从而打造出完美成型的外壳。",
+          "外壳注塑成型：",
+          "我们从泰国采购塑料颗粒，确保以最优价格获得最佳原材料；LBH电器采用世界一流的YIZUMI注塑机，使注塑过程可靠且精准。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "高速吹风机制造",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "所有部件的组装：驱动器、电机和外壳准备就绪后，所有部件就被送往装配车间进行组装，LBH电器遵循标准化的装配流程，并为每款型号提供物料清单，其中详细说明了吹风机的正确装配方法和标准。",
+          "所有工人必须严格按照物料清单完成装配工作！"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "组装好的产品应进行110V至220V电压40分钟老化测试，合格后方可送至包装线进行装箱。"
         ]
       },
       {
@@ -3673,11 +4573,21 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "老化测试",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/7a6426b1696d661573e0ced025c3febf53da0392958e5d59b54ef046bdb9de12.webp",
           "alt": "产品清洁"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "产品清洁",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -3687,11 +4597,21 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "成品包装",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/edf0d917e11e9f4823746eff239b78a99531d70db43060eebbf821febbaa496e.webp",
           "alt": "成品装箱"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "成品装箱",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -3701,10 +4621,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -3734,51 +4667,51 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/03bfd685c95182f4dd1453ce2f06dac90e5e13faf75c086569237ef259794062.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/995c80cc375349cd8ce7b2cfdf52cc1b67e0442d5cb12dfc19986ab352d3fa77.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/3b8ce9e266a0a476f4dc33caff0c77b65ddbec8a3fc26c2fb5859adbde2732ca.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/50ada9d121f761df0e4a6e7c0cf2819329ac43a8ab62d8abc6d0c95bafd57762.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/6b2a2d0d6e88290aab33226601706f302b391e2cb3ca2d97212e8997edde2af8.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/7525d7a290563bdff4cb9f7b2a2ea8511a8f17bb58959f489208b28134bc8df4.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/2aaf3eb25c7ed4d480ab6b2e40e8afab21041d0bfb614f46db7b76ec8b2e0e9a.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/66b021a46d87c006da71d682e4c87674ff2f6ce5d2308257f85f8a741bb3e5ec.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/03a0e72060ec226e8b12a24188a5a947802ef813863da178d2348db811c3608e.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/433b55ab1bd63e5acb52dd57756183e6fa8568d4e4552bedbfea2c411fd6610a.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/3d722f698973d5ddc524bab60cf48e525778349199fc85b3bcf140374a9e0a71.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/ac082c275ff5a971185d6aab934eb898de93cf90ef3513db4891623c11d54fc3.webp",
-        "alt": "Product Manufacturing"
+        "alt": "产品制造"
       },
       {
         "src": "/media/e8cf8ab094e2482f67195a81d1401e1bd220c3c345dc2e89cad5e84d2e357726.webp",
@@ -3798,11 +4731,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product_manufacturing",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_manufacturing",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -3946,10 +4879,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Product_Warranty_and_After-Sales_Service",
     "kind": "content",
     "title": "产品保修与售后服务",
-    "description": "所有出库产品提供一年保修。售后团队提供 24/7/365 支持，在联系后 8 小时内给出有效解决方案；支持免费更换或后续补货，无需提供质量问题证明。",
+    "description": "为了证明我们对产品的信心，我们仓库发出的每一件产品都享有一年质保。",
     "seo": {
       "title": "产品保修与售后服务 | LBH APPLIANCES",
-      "description": "所有出库产品提供一年保修。售后团队提供 24/7/365 支持，在联系后 8 小时内给出有效解决方案；支持免费更换或后续补货，无需提供质量问题证明。"
+      "description": "为了证明我们对产品的信心，我们仓库发出的每一件产品都享有一年质保。"
     },
     "blocks": [
       {
@@ -3962,9 +4895,15 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "产品保修与售后服务",
+        "heading": "产品保修与售后",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "所有产品均享有一年保修",
         "paragraphs": [
-          "所有出库产品提供一年保修。售后团队提供 24/7/365 支持，在联系后 8 小时内给出有效解决方案；支持免费更换或后续补货，无需提供质量问题证明。"
+          "为了证明我们对产品的信心，我们仓库发出的每一件产品都享有一年质保。",
+          "该质保涵盖我们研发和生产的产品出现的任何问题，并在需要时提供快速更换服务。"
         ]
       },
       {
@@ -3982,6 +4921,36 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "我们的售后团队提供 7/24/365 全天候支持",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH电器的支持服务不会在产品交付后结束，我们拥有响应迅速的售后团队；",
+          "联系后 8 小时内即可提供有效的解决方案，更换服务快速且免费，无需提供质量问题证明。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "无需提供任何质量问题证明"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "8 小时内响应，有效解决您的问题"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "免费更换或后期补货您的产品"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/5a8dc46de50ee7379781665d127c2267369fdee4abfaf70a761967bb1d786306.webp",
@@ -3996,10 +4965,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -4017,7 +4999,7 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "Product Warranty and After-Sales Service"
+        "alt": "产品保修与售后服务"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -4025,11 +5007,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product_Warranty_and_After-Sales_Service",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_Warranty_and_After-Sales_Service",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -4399,10 +5381,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Company_Introduction",
     "kind": "content",
     "title": "公司介绍",
-    "description": "LBH电器创立于 2020 年，专注于采用高速电机的个护小家电设计、研发、制造与销售。我们重视技术创新、设计美学和用户体验，并通过供应链与品牌伙伴合作创造价值。",
+    "description": "LBH电器的创业之旅始于2020年，是一家专注于高速电机应用的个护小家电设计、开发、制造和销售的科技公司；我们不仅追求产品的技术领先地位，更注重设计美学和用户体验，力求使每一款产品都能在市场中占据主导地位。自成立以来，LBH电器一直引领着个护家电的设计潮流和技术应用的创新，致力于打造极致的产品体验——未来也将继续如此。",
     "seo": {
       "title": "公司介绍 | LBH APPLIANCES",
-      "description": "LBH电器创立于 2020 年，专注于采用高速电机的个护小家电设计、研发、制造与销售。我们重视技术创新、设计美学和用户体验，并通过供应链与品牌伙伴合作创造价值。"
+      "description": "LBH电器的创业之旅始于2020年，是一家专注于高速电机应用的个护小家电设计、开发、制造和销售的科技公司；我们不仅追求产品的技术领先地位，更注重设计美学和用户体验，力求使每一款产品都能在市场中占据主导地位。自成立以来，LBH电器一直引领着个护家电的设计潮流和技术应用的创新，致力于打造极致的产品体验——未来也将继续如此。"
     },
     "blocks": [
       {
@@ -4416,9 +5398,12 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "公司介绍",
-        "paragraphs": [
-          "LBH电器创立于 2020 年，专注于采用高速电机的个护小家电设计、研发、制造与销售。我们重视技术创新、设计美学和用户体验，并通过供应链与品牌伙伴合作创造价值。"
-        ]
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "那么如何定义LBH",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -4426,6 +5411,33 @@ export const pages: SitePage[] = [
           "src": "/media/pages/company-introduction-background.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "个护家电创新产品的潮流引领者",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH电器的创业之旅始于2020年，是一家专注于高速电机应用的个护小家电设计、开发、制造和销售的科技公司；我们不仅追求产品的技术领先地位，更注重设计美学和用户体验，力求使每一款产品都能在市场中占据主导地位。自成立以来，LBH电器一直引领着个护家电的设计潮流和技术应用的创新，致力于打造极致的产品体验——未来也将继续如此。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "顶级品牌合作伙伴",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们已与供应商建立了战略合作关系，并充分利用供应链优势，为客户提供更优质的服务；LBH电器已与众多世界知名品牌建立了长期合作伙伴关系，展望未来，LBH电器始终秉承“唯有走在市场前沿才能获得无可比拟的优势”的理念，这使我们成为诸多品牌最佳合作伙伴。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH产品认证",
+        "paragraphs": []
       },
       {
         "type": "gallery",
@@ -4457,11 +5469,132 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "rich-text",
+        "heading": "我们有何不同？",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH 文化核心：相信才能看见",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "永不止步地追求卓越",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "永远不要满足于已取得的成就，保持市场领先地位需要我们团队每一位成员的全力以赴。当有机会做得更好时，我们没有任何理由拒绝付出额外的努力。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "做好迎接任何挑战的准备",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们每天都会面临挑战，生活中的挑战无法预料，我们能做的就是做好心理和情感上的准备。每当遇到障碍时，我们都需要运用智慧将其分解，然后采取行动。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "思考并做新的事情",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们深知，没有失败就没有创新和创造力；探索未知的海洋不仅需要一支勇敢的航海团队，更需要敢于探索未知海岸的勇气；在LBH电器，我们珍视创新，并乐于接受充满建设性冲突的过程。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "聚焦才能看到光明",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "没有人会闭着眼睛射击目标，无论何时你想达成目标，都要睁大眼睛，集中注意力，确保你清楚自己想要什么；专注于你的目标，像激光束一样聚焦。最终，我们关注的事物会成长。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "永不止步地追求卓越 永远不要满足于已取得的成就，保持市场领先地位需要我们团队每一位成员的全力以赴。当有机会做得更好时，我们没有任何理由拒绝付出额外的努力。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "做好迎接任何挑战的准备 我们每天都会面临挑战，生活中的挑战无法预料，我们能做的就是做好心理和情感上的准备。每当遇到障碍时，我们都需要运用智慧将其分解，然后采取行动。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "思考并做新的事情 我们深知，没有失败就没有创新和创造力；探索未知的海洋不仅需要一支勇敢的航海团队，更需要敢于探索未知海岸的勇气；在LBH电器，我们珍视创新，并乐于接受充满建设性冲突的过程。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "聚焦才能看到光明 没有人会闭着眼睛射击目标，无论何时你想达成目标，都要睁大眼睛，集中注意力，确保你清楚自己想要什么；专注于你的目标，像激光束一样聚焦。最终，我们关注的事物会成长。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们的使命",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "为优秀员工创建一个平台",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH电器是一家愿意为员工的成长贡献力量并分享成长机会的公司，只要有机会进修，我们都会竭尽全力去实现。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "为我们信赖的客户创造价值",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "客户的利益高于一切,LBH电器始终从客户的角度考虑问题，不断努力提高客户满意度，并致力于建立长期、互信且有意义的客户关系。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "为行业和社会进步做出贡献",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们致力于通过日常创新，不断提升个护家电行业标准；我们的贡献包括更优质的产品体验、更先进的制造技术和更多就业机会。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "倾听客户的声音",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -4471,6 +5604,17 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH为我们定制的高速吹风机产品在设计和产品技术方面均处于领先地位。面对激烈的市场竞争，凭借产品独特的差异化和卓越的用户体验，我们在短时间内迅速获得了很高的市场份额。LBH团队兑现了他们最初对我们的承诺。如今，我们已成功开拓了新的国内市场，与LBH的深度合作仍在继续。感谢LBH团队的辛勤付出。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— Jeff Deng",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
@@ -4478,11 +5622,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH是我们合作过的最有效率的团队。从第一次会议到最终产品交付，仅仅用了两个多月的时间，这在以前是难以想象的！更重要的是，新产品的开发过程很好地规避了专利问题。消费者非常喜欢我们的产品风格，产品上市后也获得了良好的市场反馈。未来我们将继续携手开发更多创新产品。LBH团队让我们感到非常安心！"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— Warren Steve",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LHB为我们定制的高速吹风机产品在设计和产品技术方面都处于领先地位。面对激烈的市场竞争，产品的独特差异化和用户体验使我们在很短的时间内获得了很高的市场份额。LHB团队兑现了他们对我们的最初承诺。我们现已开拓了新的国际市场，与LHB的更深入合作仍在继续。感谢 LHB 团队的努力。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— María Emilia",
+        "paragraphs": []
       }
     ],
     "images": [
@@ -4492,27 +5658,27 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp",
@@ -4520,19 +5686,19 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/a8a76af0d404c01c4266bf3dc930cc09dee4970fa6513b2270da45261746030c.webp",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/d1520b0bf29f8da18269cd3a2e9c77df2ad61bf6ca85d043524df7df936eb303.png",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/f8614aa5f8f69ebedb65994a14cb64b4e82ec7a4c05a90c5c37085e2e00cb2bd.png",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/a3ea061df5ae7957bb5927a3e054b59dd1d23ed08661976b8093d98b39f187f6.png",
-        "alt": "Company Introduction"
+        "alt": "公司介绍"
       },
       {
         "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
@@ -4548,11 +5714,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Company_Introduction",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Company_Introduction",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -4672,10 +5838,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Lead_the_team",
     "kind": "content",
     "title": "领导团队",
-    "description": "以专业、热情和对高品质个护家电解决方案的投入，真诚地与每一位客户合作，建立长期联系。",
+    "description": "我们真诚地与每位客户互动，反映出我们致力于建立有意义的联系；LBH电器团队以其专业、热情和对提供高品质个护家电解决方案的不懈承诺而闻名！",
     "seo": {
       "title": "领导团队 | LBH APPLIANCES",
-      "description": "以专业、热情和对高品质个护家电解决方案的投入，真诚地与每一位客户合作，建立长期联系。"
+      "description": "我们真诚地与每位客户互动，反映出我们致力于建立有意义的联系；LBH电器团队以其专业、热情和对提供高品质个护家电解决方案的不懈承诺而闻名！"
     },
     "blocks": [
       {
@@ -4689,9 +5855,7 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "领导团队",
-        "paragraphs": [
-          "以专业、热情和对高品质个护家电解决方案的投入，真诚地与每一位客户合作，建立长期联系。"
-        ]
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -4701,16 +5865,27 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "与我们的客户不断合作",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们真诚地与每位客户互动，反映出我们致力于建立有意义的联系；LBH电器团队以其专业、热情和对提供高品质个护家电解决方案的不懈承诺而闻名！"
+        ]
+      },
+      {
         "type": "media",
         "image": {
-          "src": "/media/48947aad2836af58cec8f19097a166fe96b02ebc9021019b9615336d34b8131b.png",
+          "src": "/media/7e0337506237ed1be4fc6bcfffc7090765f437b27f284e78e6333d571f8962f4.png",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b2fed2b1b37f0213e2360cdbcbdfb0b0fd0f6c3b26c441513c149cba2f0a7faa.png",
+          "src": "/media/f1fadc112c3bea01b5fb516eae4e2dc7289271706c56c1840e190b74f39a81d1.png",
           "alt": "图片展示"
         }
       },
@@ -4722,10 +5897,23 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "让我们今天联系，寻找正确的解决方案！",
+        "paragraphs": []
+      },
+      {
         "type": "cta",
         "actions": [
           {
-            "label": "咨询家电专家",
+            "label": "与家电专家交流",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -4738,11 +5926,11 @@ export const pages: SitePage[] = [
         "alt": "领导团队"
       },
       {
-        "src": "/media/48947aad2836af58cec8f19097a166fe96b02ebc9021019b9615336d34b8131b.png",
+        "src": "/media/7e0337506237ed1be4fc6bcfffc7090765f437b27f284e78e6333d571f8962f4.png",
         "alt": "图片展示"
       },
       {
-        "src": "/media/b2fed2b1b37f0213e2360cdbcbdfb0b0fd0f6c3b26c441513c149cba2f0a7faa.png",
+        "src": "/media/f1fadc112c3bea01b5fb516eae4e2dc7289271706c56c1840e190b74f39a81d1.png",
         "alt": "图片展示"
       },
       {
@@ -4751,11 +5939,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Lead_the_team",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Lead_the_team",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -5039,10 +6227,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Factory_tour",
     "kind": "content",
     "title": "工厂参观",
-    "description": "走进通过 ISO 9001:2000 认证的制造工厂，了解组装现场、电机工厂、专用生产车间、制造设备和经过校准的检测工具。",
+    "description": "探索LBH电器的优质的制造设施，了解我们如何以速度、卓越和精准的方式完成项目。",
     "seo": {
       "title": "工厂参观 | LBH APPLIANCES",
-      "description": "走进通过 ISO 9001:2000 认证的制造工厂，了解组装现场、电机工厂、专用生产车间、制造设备和经过校准的检测工具。"
+      "description": "探索LBH电器的优质的制造设施，了解我们如何以速度、卓越和精准的方式完成项目。"
     },
     "blocks": [
       {
@@ -5050,15 +6238,85 @@ export const pages: SitePage[] = [
         "title": "工厂参观",
         "image": {
           "src": "/media/04fa55b8aa685bb4f41f03a87ccfc03ed3e6dbdc4e0ea0213df53e4e4f513ac5.webp",
-          "alt": "Factory Tour"
+          "alt": "工厂参观"
         }
       },
       {
         "type": "rich-text",
         "heading": "工厂参观",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "探秘我们通过 ISO 9001:2000 认证的工厂",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "组装现场",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "电机工厂",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "现在即可轻松游览",
         "paragraphs": [
-          "走进通过 ISO 9001:2000 认证的制造工厂，了解组装现场、电机工厂、专用生产车间、制造设备和经过校准的检测工具。"
+          "探索LBH电器的优质的制造设施，了解我们如何以速度、卓越和精准的方式完成项目。",
+          "我们的工厂拥有独立的生产车间，配备最新的生产设备和校准过的测试工具，以确保整个制造过程始终保持最高标准。"
         ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "了解LBH电器产品制造的相关信息",
+        "paragraphs": [
+          "数字不会说谎：让我们的年度数据来证明我们在个护家电行业的竞争力！"
+        ]
+      },
+      {
+        "type": "stats",
+        "items": [
+          {
+            "value": "15000",
+            "label": ""
+          },
+          {
+            "value": "2",
+            "label": "专业化工厂"
+          },
+          {
+            "value": "8 +",
+            "label": "专业生产线"
+          },
+          {
+            "value": "50000 +",
+            "label": "月度产能"
+          },
+          {
+            "value": "66 +",
+            "label": "信赖品牌"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们的设施——专业精神成就完美品质",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们拥有专门负责小家电制造流程各个环节的车间，这使得我们的团队能够同时专注于多个环节；精通产品的每个环节，",
+          "确保了我们每件成品小家电的质量和性能都达到最佳状态。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "原材料储存",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -5068,11 +6326,21 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "模具铸造车间",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/f5c4c506fe45a61127f23042287ece98e59d2d4643989e61e9c5c1e6daec1e5d.webp",
           "alt": "模具铸造车间"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "注塑成型车间",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -5082,11 +6350,21 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "打磨车间",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
           "alt": "打磨车间"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "装配车间",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -5096,11 +6374,21 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "包装车间",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/62cb549ed41b79b28ca06f7a6839076b1b17a5e7bcf928b19b3a85d985e586bf.webp",
           "alt": "包装车间"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "质量检验车间",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -5110,6 +6398,11 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "成品存储车间",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/d59c99832f538ff0222d62a26025cf8ec14102c1e86b1832eb358f5a7a2e99c8.webp",
@@ -5117,9 +6410,14 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "精益管理——基于5S原则",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
-          "src": "/media/971f9eb9dfd719ccdc24d0b5d9bfd52ba090e850fffa561ee0e741c22ec1f933.webp",
+          "src": "/media/1edff7c07bac747e812d1d7193bc9cad7ea190484a68cef85fc60c94a8a2e81c.webp",
           "alt": "精益管理——基于5S原则"
         }
       }
@@ -5127,27 +6425,27 @@ export const pages: SitePage[] = [
     "images": [
       {
         "src": "/media/04fa55b8aa685bb4f41f03a87ccfc03ed3e6dbdc4e0ea0213df53e4e4f513ac5.webp",
-        "alt": "Factory Tour"
+        "alt": "工厂参观"
       },
       {
         "src": "/media/322d82ace13db1a2533927f57ea6c02ba1a3ed00a28c7efd43d0e10fb132feba.webp",
-        "alt": "Factory Tour"
+        "alt": "工厂参观"
       },
       {
         "src": "/media/c2e1b773d066bce38ba2f0b00af76a7a42f8194584b396a7e00b7239a5214b35.webp",
-        "alt": "Factory Tour"
+        "alt": "工厂参观"
       },
       {
         "src": "/media/c5e2f00ffe25d40035cf89c07db17ddb8fc045714b07806ccb44d18fb9e045ac.webp",
-        "alt": "Factory Tour"
+        "alt": "工厂参观"
       },
       {
         "src": "/media/966d43b628b96e7d0af8853b857d79d51764086f584b7d93c69017af9d911451.webp",
-        "alt": "Factory Tour"
+        "alt": "工厂参观"
       },
       {
         "src": "/media/86e1277874fc324711b6c1e8ff1347288335998f066d7e3f5ae475147abea2a5.webp",
-        "alt": "Factory Tour"
+        "alt": "工厂参观"
       },
       {
         "src": "/media/d06cc955363a1dac0f683a8bc749aa58f8806e3e27e3ce8ff30e746d0afc05cd.webp",
@@ -5182,16 +6480,16 @@ export const pages: SitePage[] = [
         "alt": "成品存储车间"
       },
       {
-        "src": "/media/971f9eb9dfd719ccdc24d0b5d9bfd52ba090e850fffa561ee0e741c22ec1f933.webp",
+        "src": "/media/1edff7c07bac747e812d1d7193bc9cad7ea190484a68cef85fc60c94a8a2e81c.webp",
         "alt": "精益管理——基于5S原则"
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Factory_tour",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Factory_tour",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -5332,59 +6630,127 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "发展历程",
-        "paragraphs": [
-          "从 2020 年创立到持续完善研发、供应链和制造体系，回顾 LBH电器的发展历程。"
-        ]
+        "heading": "里程碑",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "2020 充满激情的创业",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们的创办人Tina看到高速电机在家电领域革新的增长机会，创办了LBH, 组建团队研发设计落地了第一款高速吹风机，从而启动了业务。",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "2021 教训的挫折",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "艰难前行，产品不成熟出现问题，第一批产品面向市场后，客户反馈在温度、各项模式上缺少选择，这给我们上了一课，加大研发投入是在竞争中生存的唯一途径。",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "2022 挫折中反弹",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "组建了更系统的专家团队，对供应商采用严格的筛选流程，以完善我们的供应系统。 LBH也研究了新兴市场，使我们能够优化或升级我们的产品，完善我们的品质控制体系，并建立稳固的企业文化,全新一代的高速吹风机落地并实现了量产。",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "2023 强劲的前进步伐",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "完成了生产制造、营销团队、质量测评、知识产权等供应链体系；建立了内部研发中心，并确定我们自己的产品定位；销售部也发展迅速，设立了五场PK赛。",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "2024 效能飙升",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH在开发北美市场方面全力以赴，我们继续发展并对接到了北美最知名的品牌；在争夺销量最高的10家公司的竞标中，LBH电器成为该品牌2024年的获胜者，营业额突破5000万。",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "2025 快速进步",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "第一季度销售额突破2000万，同时开展了个护家电新品的研发落地与品类的扩充，进行了多项测试，LBH也和顶级供应商建立了长期的业务关系，以改善我们的供应链和运营工作。",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "2026 持续探索寻求突破",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "欧洲与中东地区开启新的市场拓展，会同时落地2-3款颠覆性个护家电产品，拓展全球本土化品牌合作伙伴，2026年我们将持续在个护小家电产品上进行研发投入，并将在未来继续这样做。",
+        "paragraphs": []
       },
       {
         "type": "timeline",
         "items": [
           {
             "year": "2020",
-            "title": "激情创业",
-            "description": "Tina 创立 LBH，组建团队研发首款高速吹风机并推向市场。"
+            "title": "充满激情的创业",
+            "description": "我们的创办人Tina看到高速电机在家电领域革新的增长机会，创办了LBH, 组建团队研发设计落地了第一款高速吹风机，从而启动了业务。"
           },
           {
             "year": "2021",
-            "title": "从经验中学习",
-            "description": "根据客户对温度和工作模式的反馈，进一步加大研发投入。"
+            "title": "教训的挫折",
+            "description": "艰难前行，产品不成熟出现问题，第一批产品面向市场后，客户反馈在温度、各项模式上缺少选择，这给我们上了一课，加大研发投入是在竞争中生存的唯一途径。"
           },
           {
             "year": "2022",
-            "title": "完善体系",
-            "description": "组建专业团队，严格筛选供应商，完善质量体系，新一代高速吹风机投入量产。"
+            "title": "挫折中反弹",
+            "description": "组建了更系统的专家团队，对供应商采用严格的筛选流程，以完善我们的供应系统。 LBH也研究了新兴市场，使我们能够优化或升级我们的产品，完善我们的品质控制体系，并建立稳固的企业文化,全新一代的高速吹风机落地并实现了量产。"
           },
           {
             "year": "2023",
-            "title": "稳步前行",
-            "description": "完善制造、营销、质量与知识产权体系，建立内部研发中心，开展五场销售竞赛。"
+            "title": "强劲的前进步伐",
+            "description": "完成了生产制造、营销团队、质量测评、知识产权等供应链体系；建立了内部研发中心，并确定我们自己的产品定位；销售部也发展迅速，设立了五场PK赛。"
           },
           {
             "year": "2024",
-            "title": "业绩增长",
-            "description": "持续开拓北美市场，与当地知名品牌合作，在十大企业参与的竞标中胜出，营业额超过 5,000 万。"
+            "title": "效能飙升",
+            "description": "LBH在开发北美市场方面全力以赴，我们继续发展并对接到了北美最知名的品牌；在争夺销量最高的10家公司的竞标中，LBH电器成为该品牌2024年的获胜者，营业额突破5000万。"
           },
           {
             "year": "2025",
             "title": "快速进步",
-            "description": "第一季度销售额超过 2,000 万，推进新品研发、上市、品类扩展与测试，并与优秀供应商建立长期合作。"
+            "description": "第一季度销售额突破2000万，同时开展了个护家电新品的研发落地与品类的扩充，进行了多项测试，LBH也和顶级供应商建立了长期的业务关系，以改善我们的供应链和运营工作。"
           },
           {
             "year": "2026",
-            "title": "持续探索与突破",
-            "description": "开拓欧洲与中东市场，同步推出 2–3 款创新个护家电，扩大全球本地品牌合作网络，并持续投入个护小家电研发。"
+            "title": "持续探索寻求突破",
+            "description": "欧洲与中东地区开启新的市场拓展，会同时落地2-3款颠覆性个护家电产品，拓展全球本土化品牌合作伙伴，2026年我们将持续在个护小家电产品上进行研发投入，并将在未来继续这样做。"
           }
         ]
       }
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Milestone",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Milestone",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -5493,15 +6859,13 @@ export const pages: SitePage[] = [
         "title": "产品认证",
         "image": {
           "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
-          "alt": "LBH Product Certification"
+          "alt": "产品认证"
         }
       },
       {
         "type": "rich-text",
-        "heading": "产品认证",
-        "paragraphs": [
-          "查看 LBH电器的产品认证与证书。"
-        ]
+        "heading": "LBH 产品认证",
+        "paragraphs": []
       },
       {
         "type": "gallery",
@@ -5536,35 +6900,35 @@ export const pages: SitePage[] = [
     "images": [
       {
         "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
-        "alt": "LBH Product Certification"
+        "alt": "产品认证"
       },
       {
         "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
-        "alt": "LBH Product Certification"
+        "alt": "产品认证"
       },
       {
         "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
-        "alt": "LBH Product Certification"
+        "alt": "产品认证"
       },
       {
         "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
-        "alt": "LBH Product Certification"
+        "alt": "产品认证"
       },
       {
         "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
-        "alt": "LBH Product Certification"
+        "alt": "产品认证"
       },
       {
         "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
-        "alt": "LBH Product Certification"
+        "alt": "产品认证"
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Certification_certificate",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Certification_certificate",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -5686,10 +7050,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Sustainable_Development",
     "kind": "content",
     "title": "可持续发展",
-    "description": "生态优先，利润其次。通过先进设备和专业人才减少能耗与废弃物，发展高效电机产品、环保包装和可持续生产，并关注员工与社区的长期发展。",
+    "description": "这些举措使我们能够降低能耗和废物排放，从而减少碳足迹。",
     "seo": {
       "title": "可持续发展 | LBH APPLIANCES",
-      "description": "生态优先，利润其次。通过先进设备和专业人才减少能耗与废弃物，发展高效电机产品、环保包装和可持续生产，并关注员工与社区的长期发展。"
+      "description": "这些举措使我们能够降低能耗和废物排放，从而减少碳足迹。"
     },
     "blocks": [
       {
@@ -5702,9 +7066,19 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "可持续发展",
+        "heading": "永续发展",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "生态第一，利润第二",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "与盈利能力相比，环境保护是LBH电器的首要任务。为了实现可持续生产的目标，我们投资了最先进的生产设备，并聘请了高素质的员工。",
         "paragraphs": [
-          "生态优先，利润其次。通过先进设备和专业人才减少能耗与废弃物，发展高效电机产品、环保包装和可持续生产，并关注员工与社区的长期发展。"
+          "这些举措使我们能够降低能耗和废物排放，从而减少碳足迹。"
         ]
       },
       {
@@ -5722,11 +7096,36 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "你好，高速电机",
+        "paragraphs": [
+          "再见，碳刷电机"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "通过广泛的市场调研和对技术趋势的密切关注，我们致力于打造用户体验更佳、能耗更低的个护家电产品。LBH电器可以帮助您以更低的能耗实现目标用户所需的风量，从而降低能源成本，保护环境。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/eca8ecbb346975891e5632bdc3bb331504af1a442557d0dc953db091099935f5.webp",
           "alt": "高速电机"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "人才：长期发展的驱动力",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH电器聘用年轻而充满活力的优秀人才，并通过我们的培训项目对他们进行培训，这些项目涵盖可持续行业实践和社区建设参与等方面。",
+        "paragraphs": [
+          "我们为员工提供的价值确保他们有能力在未来找到有效的可持续解决方案。"
+        ]
       },
       {
         "type": "media",
@@ -5751,11 +7150,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Sustainable_Development",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Sustainable_Development",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -5927,10 +7326,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Product_Laboratory",
     "kind": "content",
     "title": "产品实验室",
-    "description": "在产品开发各阶段严格把控质量，开展设计灵活性、采购零件、完整样机和成品抽检等测试。专业团队与先进检测设备共同保障产品质量。",
+    "description": "LBH电器在产品开发的每一步都严格控制品质；我们的实验室进行了数百次测试，致力于在最重要的市场提供合适的产品。",
     "seo": {
       "title": "产品实验室 | LBH APPLIANCES",
-      "description": "在产品开发各阶段严格把控质量，开展设计灵活性、采购零件、完整样机和成品抽检等测试。专业团队与先进检测设备共同保障产品质量。"
+      "description": "LBH电器在产品开发的每一步都严格控制品质；我们的实验室进行了数百次测试，致力于在最重要的市场提供合适的产品。"
     },
     "blocks": [
       {
@@ -5938,14 +7337,43 @@ export const pages: SitePage[] = [
         "title": "产品实验室",
         "image": {
           "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-          "alt": "Product Lab"
+          "alt": "产品实验室"
         }
       },
       {
         "type": "rich-text",
         "heading": "产品实验室",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们投资于研发实验室和提升您的产品质量",
         "paragraphs": [
-          "在产品开发各阶段严格把控质量，开展设计灵活性、采购零件、完整样机和成品抽检等测试。专业团队与先进检测设备共同保障产品质量。"
+          "LBH电器在产品开发的每一步都严格控制品质；我们的实验室进行了数百次测试，致力于在最重要的市场提供合适的产品。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "新设计理念灵活性测试"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "对采购产品组件进行测试"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "对完整样品进行测试"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "对成品进⾏随机抽检"
         ]
       },
       {
@@ -5956,11 +7384,29 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "我们的队伍",
+        "paragraphs": [
+          "具有深厚的产品知识和高度的责任感"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
           "alt": "我们的队伍"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "先进的检测设备",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "从核心组件到家电成品，LBH电器不惜大量投资在硬件设施上，使用最精密的机器和设备进行严格的产品测试，以确保产品的最高品质。"
+        ]
       },
       {
         "type": "media",
@@ -5970,6 +7416,11 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "自研产品老化系统",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/6ccbe1bdd5c454c00ba0d6e9b34d76303601bb07cf569bb452c4f4878040522d.webp",
@@ -5977,29 +7428,39 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "电子元器件测试设备",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/a58b3d49af89505ece2f3a80ff9174a69c028734ee739696eea420e5a579d3b7.webp",
           "alt": "振动跌落试验设备"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "振动跌落试验设备",
+        "paragraphs": []
       }
     ],
     "images": [
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "Product Lab"
+        "alt": "产品实验室"
       },
       {
         "src": "/media/086f325bc712575f7534f3daaf7abb42fe4014a1d252935574fb4ae6db2abdf3.webp",
-        "alt": "Product Lab"
+        "alt": "产品实验室"
       },
       {
         "src": "/media/fde3b914ae9050aa40c03159ac28c0e8c2a7efbc289b51a287eb9b7fca399bb1.webp",
-        "alt": "Product Lab"
+        "alt": "产品实验室"
       },
       {
         "src": "/media/44cbdac2701d385904a0b132fb13b8fe5286d3a1ac58258fb8d88dfdaad57681.webp",
-        "alt": "Product Lab"
+        "alt": "产品实验室"
       },
       {
         "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
@@ -6019,11 +7480,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product_Laboratory",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_Laboratory",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -7324,10 +8785,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/ProductIndex",
     "kind": "product-index",
     "title": "产品中心",
-    "description": "探索高速多功能造型器、热风梳、直发器、卷发棒与吹风机系列。",
+    "description": "我们严格遵循体系化的产品制造流程，确保每一批订单能够按时生产，并保证质量。",
     "seo": {
       "title": "产品中心 | LBH APPLIANCES",
-      "description": "探索高速多功能造型器、热风梳、直发器、卷发棒与吹风机系列。"
+      "description": "我们严格遵循体系化的产品制造流程，确保每一批订单能够按时生产，并保证质量。"
     },
     "blocks": [
       {
@@ -7340,9 +8801,59 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "产品中心",
+        "heading": "是什么让我们的个护家电产品脱颖而出？",
+        "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
         "paragraphs": [
-          "探索高速多功能造型器、热风梳、直发器、卷发棒与吹风机系列。"
+          "我们严格遵循体系化的产品制造流程，确保每一批订单能够按时生产，并保证质量。"
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "产品出厂前不放过任何一项必要的检测流程，严控产品售后率。"
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我們自行設計的模型提供具競爭力的價格，可節省更多費用。"
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "齐全的产品国际化认证，我们为每一款产品都申请了专利，保障我们的客户。"
         ]
       },
       {
@@ -7374,37 +8885,94 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
-          "alt": "图片展示"
-        }
+        "type": "cta",
+        "actions": [
+          {
+            "label": "取得快速报价",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "索取完整产品目录",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+          "src": "/media/716152888e427f8ac34dc9a4e6c465c1749f0fa3d7ea1f565d796634558da8d8.jpg",
           "alt": "图片展示"
         }
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
-          "alt": "图片展示"
-        }
+        "type": "rich-text",
+        "paragraphs": [
+          "高速多功能美发器"
+        ]
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+          "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
           "alt": "图片展示"
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "造型梳系列"
+        ]
+      },
+      {
         "type": "media",
         "image": {
-          "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
+          "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "直发器系列"
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "卷发器系列"
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f9926c373fe5ded620115ec2e3de58803f5af251f89824abe666537ce331cc1f.jpg",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "吹风机系列"
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/716152888e427f8ac34dc9a4e6c465c1749f0fa3d7ea1f565d796634558da8d8.jpg",
           "alt": "图片展示"
         }
       },
@@ -7437,39 +9005,19 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
-          "alt": "图片展示"
-        }
+        "type": "cta",
+        "actions": [
+          {
+            "label": "获取产品目录",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       },
       {
-        "type": "media",
-        "image": {
-          "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
-          "alt": "图片展示"
-        }
-      },
-      {
-        "type": "media",
-        "image": {
-          "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
-          "alt": "图片展示"
-        }
-      },
-      {
-        "type": "media",
-        "image": {
-          "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
-          "alt": "图片展示"
-        }
-      },
-      {
-        "type": "media",
-        "image": {
-          "src": "/media/f9926c373fe5ded620115ec2e3de58803f5af251f89824abe666537ce331cc1f.jpg",
-          "alt": "图片展示"
-        }
+        "type": "rich-text",
+        "heading": "定制化的独特小家电解决方案",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -7479,11 +9027,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "颜色选择",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "根据销售市场用户的偏好，定制颜色以打造完美的配色方案。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "电源选择",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "电源适配，调整电压和功率等级以满足不同国家/地区的要求和设置。"
+        ]
       },
       {
         "type": "media",
@@ -7493,11 +9063,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "控制系统",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "编辑主板程序，以获得指定产品的功能模式。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "品牌标识",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "添加您的品牌标志和其他个性化元素，以提升品牌知名度。"
+        ]
       },
       {
         "type": "media",
@@ -7507,11 +9099,54 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "包装设计",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "选择环保包装方案，体现您对可持续发展的承诺，并强化您的品牌形象。"
+        ]
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "外观设计",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "选择符合您审美和功能需求的材料和饰面，可以带来显著的差异。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "探索工厂品质之源",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "在LBH电器，我们深知信任建立在高品质产品之上，我们对品质的承诺不仅体现在设计上，更贯穿于生产流程的每一个环节；欢迎莅临参观我们的工厂，在这里，尖端科技、精密工程和严格的质量控制体系完美融合，为您提供值得信赖的个护家电定制解决方案，满足您的业务需求！"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "差异化服务：精准满足您业务需求",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "针对线下客户",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -7521,11 +9156,87 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "1.独家区域代理权和定价支持",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "品牌授权可确保在市场中拥有竞争优势。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "2.研发资源",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "30天内即可提供3D手板，研发能力强。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "3.30天快速交货",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "高效生产，原材料备齐后，最快30天即可发货。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "面向线上客户",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/7593192c7d696c0a1fb43ddd16c90fcb90f70ac2c452a309be03e7c1994993ca.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "1.灵活的交货时间",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "可靠的交货计划和仓储支持。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "2.高性价比",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "极具竞争力的定价，最大程度提升整体价值。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "3.丰富的产品选择",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "多种选择，满足所有市场细分的需求。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "品牌合作伙伴",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -7535,11 +9246,94 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "1.最低的订购量",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "灵活的最低订购量与产品组合选项"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "2.定制标志",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "小批量个性化LOGO定制"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "3.一站式营销方案",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "提供高质量的图片与视频来提升销售收入"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH的一站式服务为您节省时间、精力和成本",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "了解你的市场和客户的实际需求",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "设计与创新畅销的独特个护家电",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "以最具竞争力的价格实现绝妙创意",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "展现最佳品质，维护品牌形象",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "继续并完成项目的领导工作",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "成为当地市场唯一的卖家",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH的一站式服务为您节省时间、精力和成本。",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "利用我们的定制化解决方案，最大限度地提高产品效能",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "提出请求",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -7549,11 +9343,21 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "确定数量",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "结构设计",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -7563,11 +9367,21 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "构建3D模型",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "原型制作",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -7577,6 +9391,11 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "功能调试",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
@@ -7584,11 +9403,121 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "heading": "样品试订单生产",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "heading": "正式生产",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "确保每份订单都能按时生产，并保证质量",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "物料清单核对",
+        "paragraphs": [
+          "确认所有核心部件齐全：高速无刷电机、PCB控制板、加热元件、温度传感器等"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "PCB控制板安装",
+        "paragraphs": [
+          "采用SMT表面贴装焊接工艺，将MCU、MOSFET及其他元件焊接在电路板上。通电后检查电压输出和PWM信号反馈是否正常。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "高速电机模块组装",
+        "paragraphs": [
+          "无刷电机嵌入专用支架中，将电机的三相线固定焊接在PCB板上，并用热缩管绝缘。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "加热元件安装",
+        "paragraphs": [
+          "PTC加热元件安装：将PTC片固定在云母支架上，云母绝缘层覆盖两侧。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "风管系统集成",
+        "paragraphs": [
+          "将叶轮与电机轴对齐，按压直至其卡入槽内，安装导风罩，并确保风道内没有毛刺。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "外壳预安装",
+        "paragraphs": [
+          "前壳组件：嵌入滤光片；后壳组件，安装电源线和模式开关"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "密封和封装",
+        "paragraphs": [
+          "上下壳体对齐，采用超声波焊接和耐高温扣锁，气密性测试。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "各种测试",
+        "paragraphs": [
+          "冷风模式：全速运行 5 分钟 热风模式：持续运行 40 分钟，并检测温度梯度。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "纸箱包装",
+        "paragraphs": [
+          "产品采用坚固的纸箱包装，以便安全搬运和运输。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "集装箱货架安装",
+        "paragraphs": [
+          "为确保产品在长途运输过程中得到额外保护，请将其放入航空箱中"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "LBH 绝不会把问题留给客户解决，这是我们坚定不移的原则！",
+        "paragraphs": []
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "立即下单",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "全球认可的质量认证",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "根据客户要求，产品每年都会接受各种技术认证和测试，例如 CCC、FCC、CE、IC、ROHS、UL、ISO9001 等，以确保符合国际安全、质量和效率标准。",
+        "paragraphs": []
       },
       {
         "type": "gallery",
@@ -7622,6 +9551,71 @@ export const pages: SitePage[] = [
             "alt": ""
           }
         ]
+      },
+      {
+        "type": "stats",
+        "items": [
+          {
+            "value": "40 +",
+            "label": "已获认证的专利"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "我们为每项技术申请专利保护，以确保法律保护和市场独占权。"
+        ]
+      },
+      {
+        "type": "stats",
+        "items": [
+          {
+            "value": "40 +",
+            "label": "生产设备"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "相关生产流程和新设备的采购已升级至国际标准。"
+        ]
+      },
+      {
+        "type": "stats",
+        "items": [
+          {
+            "value": "17",
+            "label": "% 新增研发费用"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "每年，公司将利润的17%投入到产品的持续创新中。"
+        ]
+      },
+      {
+        "type": "stats",
+        "items": [
+          {
+            "value": "15 +",
+            "label": "检验程序"
+          }
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "每日记录材料和产品的缺陷率。通过测试后方可交付。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "我们宝贵的合作伙伴",
+        "paragraphs": []
       },
       {
         "type": "gallery",
@@ -7664,11 +9658,33 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH为我们定制的高速吹风机产品在设计和产品技术方面均处于领先地位。面对激烈的市场竞争，凭借产品独特的差异化和卓越的用户体验，我们在短时间内迅速获得了很高的市场份额。LBH团队兑现了他们最初对我们的承诺。如今，我们已成功开拓了新的国内市场，与LBH的深度合作仍在继续。感谢LBH团队的辛勤付出。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— Jeff Deng",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "LBH是我们合作过的最有效率的团队。从第一次会议到最终产品交付，仅仅用了两个多月的时间，这在以前是难以想象的！更重要的是，新产品的开发过程很好地规避了专利问题。消费者非常喜欢我们的产品风格，产品上市后也获得了良好的市场反馈。未来我们将继续携手开发更多创新产品。LBH团队让我们感到非常安心！"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— Warren Steve",
+        "paragraphs": []
       },
       {
         "type": "media",
@@ -7678,6 +9694,22 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "rich-text",
+        "paragraphs": [
+          "LHB为我们定制的高速吹风机产品在设计和产品技术方面都处于领先地位。面对激烈的市场竞争，产品的独特差异化和用户体验使我们在很短的时间内获得了很高的市场份额。LHB团队兑现了他们对我们的最初承诺。我们现已开拓了新的国际市场，与LHB的更深入合作仍在继续。感谢 LHB 团队的努力。"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "—— María Emilia",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "FAQ",
+        "paragraphs": []
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -7685,60 +9717,23 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "立即询价",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
+        "type": "rich-text",
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
         ]
+      },
+      {
+        "type": "rich-text",
+        "heading": "欢迎您向我们发送询价，我们为您准备了一份惊喜礼物!",
+        "paragraphs": []
       },
       {
         "type": "cta",
         "actions": [
           {
-            "label": "索取完整产品目录",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "获取产品目录",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "立即询价",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "立即订购",
-            "href": "/cn/Contact_Us",
-            "action": "inquiry"
-          }
-        ]
-      },
-      {
-        "type": "cta",
-        "actions": [
-          {
-            "label": "立即咨询",
+            "label": "立刻咨询",
             "href": "/cn/Contact_Us",
             "action": "inquiry"
           }
@@ -7859,7 +9854,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
+        "src": "/media/716152888e427f8ac34dc9a4e6c465c1749f0fa3d7ea1f565d796634558da8d8.jpg",
         "alt": "图片展示"
       },
       {
@@ -7916,27 +9911,27 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/886ed787fdbac488879f4c0bc86e6e8484b8b84196517c55ddeff63d20f5ebc7.png",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/88e0f1373402b4e84cfdad31004d46fb20f776d2d6cda401cfd8606e12acfdb6.png",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/033013027eec11a34898233df95319a3e90db586d6a82fcc4600c03799805f2e.png",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/636bf9c08164e63305f5a8709358765bd34ed7f5a9948199db52dbfa336af55b.png",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/9c89d90e699c3e101e856aa79101e41a2348b92b1be26682275704e483dacfc7.png",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/6a5de8494e57dcdff17cbadf31213fd0762f2fe41588572dffbf04d22ff5b7d2.png",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
@@ -7972,99 +9967,99 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/839b2151336e3a578cfe8bd2ac64d0aeaecbf15edf5bcbc1d9f7840626e337c7.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/6f93419b971b59ecd7e6e3fae8fe34a1c61b6dba33bedf797ff4d4a4b135dab3.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/90f231701b6333e9dcc42814a18a68b0d78d384dc8ed2a76b797c973e4e038c3.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/babdff2ceb5fe3e5d527d79c2f3d1c9012a147c1f112cf4cdaf2f4183da5e896.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/a6f40ce9067dd989c7fb521ff9f4be615be6708740a77e1ff3dbdb946ad8b77a.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/e685b9ddf587d989e18854900009b517bcd5d31331a963996d5153c858648742.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/3dbea3c2d46b24799c4235949dd2be116f2ccc491fe6e0a31596c604bc3b37e8.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/07eb1d8feb841a58232c654bc3f6ee85fd4dcdde2cd75e4c7961804000ea93c6.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/8a61a98dbf0ae01be1ec15c7296cb07f55e0c87384b3570330e15ec022859ec5.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/935443adf48853cd7cd18656677c845fe751adbf41632c9dd5b22d37d61a1131.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
-        "alt": "Products"
+        "alt": "产品中心"
       },
       {
         "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
@@ -8084,11 +10079,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/ProductIndex",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductIndex",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -8178,10 +10173,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Contact_Us",
     "kind": "contact",
     "title": "联系我们",
-    "description": "与 LBH电器团队沟通您的个护与家用电器项目，获取产品、定制与合作信息。",
+    "description": "公司名称：佛山朗必豪电器有限公司",
     "seo": {
       "title": "联系我们 | LBH APPLIANCES",
-      "description": "与 LBH电器团队沟通您的个护与家用电器项目，获取产品、定制与合作信息。"
+      "description": "公司名称：佛山朗必豪电器有限公司"
     },
     "blocks": [
       {
@@ -8189,29 +10184,73 @@ export const pages: SitePage[] = [
         "title": "联系我们",
         "image": {
           "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-          "alt": "Contact Us"
+          "alt": "联系我们"
         }
       },
       {
         "type": "rich-text",
-        "heading": "联系我们",
+        "heading": "让我们来承接您新的个护家电项目吧！",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "立即联系我们",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
+        "heading": "中国办事处",
+        "paragraphs": []
+      },
+      {
+        "type": "rich-text",
         "paragraphs": [
-          "与 LBH电器团队沟通您的个护与家用电器项目，获取产品、定制与合作信息。"
+          "公司名称：佛山朗必豪电器有限公司"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "公司地址：广东省佛山市顺德区容桂街道南区社区兴南路9号广意智能装备园3栋1006"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "公司邮箱：tina.fang@linknove.com"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "手机号码：+86 137 0306 7387"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "WhatsApp：+86 137 0306 7387"
+        ]
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "1 号厂地址：广东省佛山市顺德区德良中星湾（五沙）智谷产业园"
         ]
       }
     ],
     "images": [
       {
         "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
-        "alt": "Contact Us"
+        "alt": "联系我们"
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Contact_Us",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Contact_Us",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -8268,19 +10307,17 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "常见问题",
-        "paragraphs": [
-          "了解产品、产能、研发、样品、起订量、定制、认证、保修、物流与交期。"
-        ]
+        "heading": "常问问题",
+        "paragraphs": []
       }
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/FAQ",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/FAQ",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -8360,18 +10397,17 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "rich-text",
-        "heading": "高速多功能美发造型器",
-        "paragraphs": [
-          "探索 高速多功能美发造型器 系列，查看产品型号、规格和定制选项。"
-        ]
-      },
-      {
         "type": "media",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "Show All"
+        ]
       }
     ],
     "images": [
@@ -8389,11 +10425,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product/682971.html",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682971.html",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     },
     "categoryId": "682971"
   },
@@ -8490,18 +10526,17 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "rich-text",
-        "heading": "热风梳",
-        "paragraphs": [
-          "探索 热风梳 系列，查看产品型号、规格和定制选项。"
-        ]
-      },
-      {
         "type": "media",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "Show All"
+        ]
       }
     ],
     "images": [
@@ -8535,11 +10570,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product/682972.html",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682972.html",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     },
     "categoryId": "682972"
   },
@@ -8632,18 +10667,17 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "rich-text",
-        "heading": "直发器",
-        "paragraphs": [
-          "探索 直发器 系列，查看产品型号、规格和定制选项。"
-        ]
-      },
-      {
         "type": "media",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "Show All"
+        ]
       }
     ],
     "images": [
@@ -8673,11 +10707,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product/682973.html",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682973.html",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     },
     "categoryId": "682973"
   },
@@ -8762,18 +10796,17 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "rich-text",
-        "heading": "卷发棒",
-        "paragraphs": [
-          "探索 卷发棒 系列，查看产品型号、规格和定制选项。"
-        ]
-      },
-      {
         "type": "media",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "Show All"
+        ]
       }
     ],
     "images": [
@@ -8795,11 +10828,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product/682974.html",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682974.html",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     },
     "categoryId": "682974"
   },
@@ -8904,18 +10937,17 @@ export const pages: SitePage[] = [
         }
       },
       {
-        "type": "rich-text",
-        "heading": "吹风机",
-        "paragraphs": [
-          "探索 吹风机 系列，查看产品型号、规格和定制选项。"
-        ]
-      },
-      {
         "type": "media",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "rich-text",
+        "paragraphs": [
+          "Show All"
+        ]
       }
     ],
     "images": [
@@ -8957,11 +10989,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product/682975.html",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682975.html",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     },
     "categoryId": "682975"
   },
@@ -9015,7 +11047,6 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "我们为您提供帮助",
         "paragraphs": [
           "了解独家销售、代工、品质管理、设计研发、订单管理、产品制造与售后服务。"
         ]
@@ -9023,11 +11054,11 @@ export const pages: SitePage[] = [
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/We_are_here_to_offer_assistance",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/We_are_here_to_offer_assistance",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -9080,7 +11111,6 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "关于我们",
         "paragraphs": [
           "了解 LBH电器、团队、工厂、发展历程、产品认证和可持续发展。"
         ]
@@ -9088,11 +11118,11 @@ export const pages: SitePage[] = [
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/About_us",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/About_us",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -9145,7 +11175,6 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "联系",
         "paragraphs": [
           "联系 LBH电器团队，讨论您的产品与合作需求。"
         ]
@@ -9153,11 +11182,11 @@ export const pages: SitePage[] = [
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Contact",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Contact",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -9696,10 +11725,10 @@ export const pages: SitePage[] = [
     "legacyPath": "/Content/3012462.html",
     "kind": "content",
     "title": "个护小家电解决方案",
-    "description": "一位在小型空气电器领域拥有卓越研发和制造经验的宝贵合作伙伴。",
+    "description": "拥有卓越研发和制造经验的",
     "seo": {
       "title": "个护小家电解决方案 | LBH APPLIANCES",
-      "description": "一位在小型空气电器领域拥有卓越研发和制造经验的宝贵合作伙伴。"
+      "description": "拥有卓越研发和制造经验的"
     },
     "blocks": [
       {
@@ -9707,7 +11736,7 @@ export const pages: SitePage[] = [
         "title": "个护小家电解决方案",
         "image": {
           "src": "/media/5ee19316945107f2928e6f2fc56d9cecc32376bbe5c7d41a69bc6343ed4555cb.jpg",
-          "alt": "Personal Care Appliance Solutions"
+          "alt": "个护小家电解决方案"
         }
       },
       {
@@ -9866,8 +11895,10 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "我们鼓励您成为 LHB 的宝贵合作伙伴。",
-        "paragraphs": []
+        "paragraphs": [
+          "若您与 XX 行业的专业人士有联系，",
+          "我们鼓励您成为 LHB 的宝贵合作伙伴。"
+        ]
       },
       {
         "type": "rich-text",
@@ -9947,8 +11978,9 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "LHB为我们定制的高速吹风机产品在设计和产品技术方面都处于领先地位。面对激烈的市场竞争，产品的独特差异化和用户体验使我们在很短的时间内获得了很高的市场份额。LHB团队兑现了他们对我们的最初承诺。我们现已开拓了新的国际市场，与LHB的更深入合作仍在继续。感谢 LHB 团队的努力。",
-        "paragraphs": []
+        "paragraphs": [
+          "LHB为我们定制的高速吹风机产品在设计和产品技术方面都处于领先地位。面对激烈的市场竞争，产品的独特差异化和用户体验使我们在很短的时间内获得了很高的市场份额。LHB团队兑现了他们对我们的最初承诺。我们现已开拓了新的国际市场，与LHB的更深入合作仍在继续。感谢 LHB 团队的努力。"
+        ]
       },
       {
         "type": "rich-text",
@@ -10058,38 +12090,41 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。",
-        "paragraphs": []
+        "paragraphs": [
+          "与国外多家专业研究机构的多年合作，让我们了解 XX 产业未来的研发趋势与方向。",
+          "同时，我们扎根客户市场，安排工程师团队了解当地 XX 产品的实际使用情况和售后情况。通过对这些数据的分析，不断优化我们产品的设计。",
+          "我们的使命是了解客户需求，并做好客户需要的事。与我们的联合品牌合作伙伴携手，打造满足用户需求的高品质产品。"
+        ]
       }
     ],
     "images": [
       {
         "src": "/media/5ee19316945107f2928e6f2fc56d9cecc32376bbe5c7d41a69bc6343ed4555cb.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/5bc55ba2c6ca75b932894b3a3261cd9063e2226b4210500f1d41f8ac58663ce7.png",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/cdc2fcd270f07b12225a2fd46e7f75a1e3af49e0895d89dfb64243fd4dbf8a69.png",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/9856a7ed318d4a2b922dc5b4da98a74eeb67d13bfd6556489eeef7ba6ea9061b.png",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/e5ee13ed77a5f36631df2d911d5cad2065bba4d4c5baff5149825b8553d19b22.png",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/3a1f5bc96712aab076598e3ff6c56255b5cfa2e585eac9b92bfda0bcab8ea3d9.png",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/2fe6114b59c824fd2bfb63c528da90b49de614d8326613773a74a82a3b251329.png",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/91197754d2e56f44172178d30caf92f66f3306ba28eea22a6de84b16530ba989.png",
@@ -10133,35 +12168,35 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/2f9969a8f0e39ad89b6d3464a0d0b4358c59e555b3abfba007a8380cd0bc3fad.png",
@@ -10169,53 +12204,53 @@ export const pages: SitePage[] = [
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       },
       {
         "src": "/media/72c82517b33cfa99c0cc2f97a8e4eeef4af280e7d703769a7a99b158cf4b874a.jpg",
-        "alt": "Personal Care Appliance Solutions"
+        "alt": "个护小家电解决方案"
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/cn/Content/3012462.html",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Content/3012462.html",
       "sourceLocale": "cn",
-      "languageVerified": false,
+      "languageVerified": true,
       "translation": "none",
       "coverage": "full"
     }
@@ -10284,9 +12319,7 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "产品目录",
-        "paragraphs": [
-          "查看与下载 LBH电器产品目录。"
-        ]
+        "paragraphs": []
       }
     ],
     "images": [
@@ -10296,11 +12329,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Product_Catalogue",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_Catalogue",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     },
     "downloads": []
   },
@@ -10367,9 +12400,7 @@ export const pages: SitePage[] = [
       {
         "type": "rich-text",
         "heading": "博客",
-        "paragraphs": [
-          "浏览 LBH电器发布的文章与资讯。"
-        ]
+        "paragraphs": []
       }
     ],
     "images": [
@@ -10379,11 +12410,11 @@ export const pages: SitePage[] = [
       }
     ],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Blog",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Blog",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -10436,7 +12467,6 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "为什么选择LHB吹风机产品",
         "paragraphs": [
           "了解 LHB吹风机产品。"
         ]
@@ -10444,11 +12474,11 @@ export const pages: SitePage[] = [
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Why_choose_LHB_hair_dryer_products",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Why_choose_LHB_hair_dryer_products",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -10501,7 +12531,6 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "风道技术",
         "paragraphs": [
           "了解产品的风道技术。"
         ]
@@ -10509,11 +12538,11 @@ export const pages: SitePage[] = [
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/Ventilation_duct_technology",
-      "sourceLocale": "en",
-      "languageVerified": false,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "sourceUrl": "https://www.lbhappliances.com/cn/Ventilation_duct_technology",
+      "sourceLocale": "cn",
+      "languageVerified": true,
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -14456,7 +16485,6 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "新闻资讯",
         "paragraphs": [
           "浏览最新文章与常见问题。"
         ]
@@ -14464,11 +16492,11 @@ export const pages: SitePage[] = [
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/NewsList/1.html",
-      "sourceLocale": "en",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsList/1.html",
+      "sourceLocale": "cn",
       "languageVerified": true,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {
@@ -14521,7 +16549,6 @@ export const pages: SitePage[] = [
       },
       {
         "type": "rich-text",
-        "heading": "新闻资讯",
         "paragraphs": [
           "浏览最新文章与常见问题。"
         ]
@@ -14529,11 +16556,11 @@ export const pages: SitePage[] = [
     ],
     "images": [],
     "provenance": {
-      "sourceUrl": "https://lbhappliances.com/en/NewsList/2.html",
-      "sourceLocale": "en",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsList/2.html",
+      "sourceLocale": "cn",
       "languageVerified": true,
-      "translation": "authored",
-      "coverage": "localized-summary"
+      "translation": "none",
+      "coverage": "full"
     }
   },
   {

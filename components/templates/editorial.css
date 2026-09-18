@@ -28,25 +28,71 @@
 .editorial-section--stack .content-media { margin-top: 30px; }
 .editorial-section--stack + .editorial-section--cards { padding-top: 10px; }
 .editorial-section--stack + .editorial-section--split { padding-top: 10px; }
-.editorial-gallery { min-width: 0; }
+.editorial-gallery { min-width: 0; position: relative; }
 .editorial-gallery [hidden] { display: none; }
 .editorial-gallery img { aspect-ratio: 1.5; display: block; height: auto; object-fit: cover; width: 100%; }
-.editorial-gallery__controls { align-items: center; display: flex; gap: 20px; justify-content: center; padding: 10px 0; }
+.editorial-gallery__controls { align-items: center; bottom: 7px; display: flex; gap: 2px; justify-content: center; left: 0; position: absolute; width: 100%; }
 .editorial-gallery__controls button { background: #1a1a1a; border: 0; color: #fff; cursor: pointer; height: 36px; width: 44px; }
 .editorial-gallery__controls span { color: #605b56; font-size: .82rem; font-variant-numeric: tabular-nums; }
+.editorial-gallery__controls .editorial-gallery__dot { background: transparent; height: 44px; width: 40px; }
+.editorial-gallery__dot span { background: #fff9; border: 1px solid #8d6400; border-radius: 50%; display: inline-block; height: 13px; width: 13px; }
+.editorial-gallery__dot[aria-current] span { background: #f24400; box-shadow: inset 0 0 0 3px white; }
+.editorial-gallery__previous, .editorial-gallery__next { opacity: 0; }
+.editorial-gallery:hover .editorial-gallery__previous, .editorial-gallery:hover .editorial-gallery__next,
+.editorial-gallery:focus-within .editorial-gallery__previous, .editorial-gallery:focus-within .editorial-gallery__next { opacity: 1; }
+.editorial-gallery__controls .editorial-gallery__pause { height: 44px; position: absolute; right: 12px; width: 44px; }
+.editorial-page .content-gallery--hover { margin: 0; width: 100%; }
+.editorial-page .content-gallery--hover > div { display: block; position: relative; }
+.editorial-page .content-gallery--hover img { border-radius: 40px; display: block; height: auto; max-height: none; width: 100%; }
+.content-gallery--hover img + img { inset: 0; opacity: 0; position: absolute; transition: opacity .25s; }
+.content-gallery--hover:hover img + img, .content-gallery--hover:focus img + img { opacity: 1; }
+html[lang="zh-CN"] .editorial-page h1, html[lang="zh-CN"] .editorial-page h2 { color: inherit; font-weight: 400; }
+html[lang="zh-CN"] .editorial-page { color: #000; }
+html[lang="zh-CN"] .editorial-page p { color: inherit; font-size: 16px; line-height: 2; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type,
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type { padding: 56px 24px; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type .editorial-section__inner,
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type .editorial-section__inner { align-items: start; gap: 60px; max-width: 1200px; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type .editorial-section__group:first-child,
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type .editorial-section__group:first-child { padding: 18px 10px 0; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type h2,
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type h2 { font-size: 24px; font-weight: 600; margin-bottom: 12px; }
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] .editorial-gallery img { border-radius: 40px; }
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section--dark { padding: 0; text-align: left; }
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section--dark .editorial-section__inner { gap: 0; grid-template-columns: 56% 44%; max-width: none; }
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section--dark .editorial-section__group:last-child { padding: 60px 44px; }
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section--dark .editorial-gallery img { border-radius: 0; }
+.editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section--dark p { color: white; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:nth-of-type(2) { padding: 30px 24px; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:nth-of-type(2) .editorial-section__group { align-items: center; display: flex; gap: 18px; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:nth-of-type(2) .editorial-section__group::before { color: #e64a00; content: '✓'; font-size: 30px; }
+.editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:nth-of-type(2) p { margin: 0; }
+.editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:first-of-type { padding: 72px 24px 32px; }
+.editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:first-of-type h2 { font-size: 40px; margin: 0; }
+.editorial-page[data-editorial-path="/Design_and_Development"] .editorial-section--split .editorial-section__inner { align-items: start; gap: 60px; max-width: 1200px; }
+.editorial-page[data-editorial-path="/Design_and_Development"] .editorial-section--split .content-media img { border-radius: 40px; }
+.editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:nth-of-type(2) { padding-top: 16px; }
+.editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:nth-of-type(2) .editorial-section__group:first-child { padding: 12px 10px 0; }
+.source-video { aspect-ratio: 16 / 9; background: black; border-radius: 40px; overflow: hidden; position: relative; width: 100%; }
+.source-video iframe, .source-video button { border: 0; height: 100%; inset: 0; position: absolute; width: 100%; }
+.source-video button { background: black; color: white; cursor: pointer; }
+.source-video strong { font-size: 18px; left: 24px; position: absolute; text-align: left; top: 16px; }
+.source-video span { font-size: 30px; }
+.source-video__fallback { display: inline-block; margin-top: 8px; text-decoration: underline; }
 .editorial-gallery + .content-text h2 { font-size: 1.2rem; margin: 14px 0 0; text-align: center; }
 .editorial-test-item { align-items: center; display: flex; gap: 18px; margin-top: 20px; }
 .editorial-test-item > img { flex: 0 0 32px; height: 32px; object-fit: contain; width: 32px; }
 .editorial-page .editorial-test-item h2 { font-size: 1rem; margin: 0; }
-.editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type { padding-bottom: 26px; padding-top: 74px; }
+.editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type { padding-bottom: 11px; padding-top: 74px; }
 .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type h2 { color: #000; font-size: clamp(1.5rem, 3vw, 2.5rem); margin: 0 auto 22px; max-width: 840px; }
 .editorial-page[data-editorial-path="/Factory_tour"] .editorial-section--split .editorial-section__inner { gap: 60px; max-width: 1212px; }
 .editorial-page[data-editorial-path="/Factory_tour"] .editorial-gallery img { aspect-ratio: 1.72; border-radius: 40px; }
+.editorial-page[data-editorial-path="/Factory_tour"] .editorial-gallery + .content-text h2 { font-size: 24px; margin-top: 28px; }
 .editorial-section--certificates .content-gallery > div { display: grid; gap: 24px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .editorial-section--certificates .content-gallery img { background: #fff; height: 300px; object-fit: contain; padding: 14px; width: 100%; }
 .editorial-page .stats-grid { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
 .editorial-page .content-gallery > div { gap: 24px; }
-.editorial-page .content-gallery img { height: auto; max-height: 350px; object-fit: contain; width: min(45%, 500px); }
+.editorial-page .content-gallery:not(.content-gallery--hover) img { height: auto; max-height: 350px; object-fit: contain; width: min(45%, 500px); }
 .editorial-section--certificates .content-gallery img { height: 300px; width: 100%; }
 .editorial-section--feature { background: #1a1a1a url('/media/pages/company-introduction-background.webp') center / cover no-repeat; color: white; min-height: min(52vw, 780px); padding-top: 50px; }
 .editorial-section--feature h2 { text-align: center; text-shadow: 0 1px 12px #000; }
@@ -64,6 +110,10 @@
 .editorial-summary > .content-media img { aspect-ratio: 1.5; object-fit: contain; }
 .editorial-summary > .content-text p { font-size: 1.08rem; line-height: 2; }
 @media (min-width: 701px) {
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split { margin-top: -300px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split .editorial-section__inner { gap: 60px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split .editorial-section__group { padding: 30px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split p { font-size: 16px; }
   .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature { min-height: 56vw; padding-top: 70px; }
   .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature h2 { font-size: 40px; text-shadow: none; }
   .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split { margin-top: -350px; padding-top: 0; position: relative; }
@@ -73,6 +123,16 @@
   .editorial-page[data-editorial-path="/Company_Introduction"] .editorial-section--feature + .editorial-section--split p { color: #302b28; font-size: 14px; }
 }
 @media (max-width: 700px) {
+  .editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type,
+  .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type { padding: 34px 20px; }
+  .editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type .editorial-section__inner,
+  .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type .editorial-section__inner,
+  .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section--dark .editorial-section__inner,
+  .editorial-page[data-editorial-path="/Design_and_Development"] .editorial-section--split .editorial-section__inner { gap: 25px; grid-template-columns: minmax(0, 1fr); }
+  .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section--dark .editorial-section__group:last-child { padding: 30px 20px; }
+  .editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:first-of-type { padding: 34px 20px 12px; }
+  .editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:first-of-type h2 { font-size: 26px; }
+  .editorial-page .content-gallery--hover img, .source-video { border-radius: 24px; }
   .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type { padding: 34px 20px 20px; }
   .editorial-page[data-editorial-path="/Factory_tour"] .editorial-section--split .editorial-section__inner { gap: 28px; }
   .editorial-page[data-editorial-path="/Factory_tour"] .editorial-gallery img { border-radius: 24px; }
@@ -97,4 +157,22 @@
   .editorial-page .content-timeline li > span { font-size: 1.1rem; left: -60px; top: 1px; }
   .editorial-summary { gap: 24px; grid-template-columns: minmax(0, 1fr); padding: 30px 20px 45px; }
   .editorial-summary-note { width: calc(100% - 40px); }
+  html[lang="zh-CN"] .editorial-banner { height: 99px; padding: 10px 0 59px; }
+  html[lang="zh-CN"] .editorial-banner h1 { font-size: 22px; line-height: 30px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type,
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type { padding: 100px 0 34px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type .editorial-section__group:first-child,
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type .editorial-section__group:first-child { padding: 10px 10px 0; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type .editorial-section__inner,
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type .editorial-section__inner { gap: 10px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Contract_manufacturing_service"] > .editorial-section:first-of-type p:last-child,
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/PinZhiGuanLi"] > .editorial-section:first-of-type p:last-child,
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:nth-of-type(2) p:last-child { margin-bottom: 0; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:first-of-type { padding: 100px 10px 12px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Design_and_Development"] > .editorial-section:nth-of-type(2) { padding: 16px 0 34px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type { padding: 100px 10px 0; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:first-of-type h2 { font-size: 26px; margin-bottom: 0; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:nth-of-type(2) { padding: 35px 0; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Factory_tour"] > .editorial-section:nth-of-type(2) .editorial-section__inner { gap: 16px; }
+  html[lang="zh-CN"] .editorial-page[data-editorial-path="/Factory_tour"] .editorial-gallery + .content-text h2 { margin-top: 14px; }
 }

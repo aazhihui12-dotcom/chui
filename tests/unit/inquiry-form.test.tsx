@@ -2,6 +2,8 @@ import { act, cleanup, fireEvent, render, screen } from "@testing-library/react"
 import { afterEach, describe, expect, it, vi } from "vitest";
 import { InquiryForm } from "@/components/interactive/InquiryForm";
 import * as inquiry from "@/lib/inquiry";
+import { ContactTemplate } from "@/components/templates/ContactTemplate";
+import { pages } from "@/content/pages";
 
 afterEach(() => { cleanup(); vi.restoreAllMocks(); vi.useRealTimers(); });
 function fill(cn = false) {
@@ -10,6 +12,19 @@ function fill(cn = false) {
   fireEvent.change(screen.getByLabelText(cn ? "留言" : "Message"), { target: { value: " Please send a quote. " } });
 }
 describe("inquiry form", () => {
+  it.each(["en", "cn"] as const)("initializes Contact query product once without overwriting the %s draft", (locale) => {
+    window.history.replaceState({}, "", `/${locale}/Contact_Us?product=LBH-3228`);
+    const page = pages.find(page => page.locale === locale && page.legacyPath === "/Contact_Us")!;
+    const { rerender } = render(<ContactTemplate page={page} />);
+    const input = screen.getByLabelText(locale === "cn" ? "产品" : "Product");
+    expect(input).toHaveValue("LBH-3228");
+    fireEvent.change(input, { target: { value: "My custom model" } });
+    rerender(<ContactTemplate page={page} />);
+    expect(input).toHaveValue("My custom model");
+    expect(document.querySelectorAll("form")).toHaveLength(1);
+    if (locale === "cn") expect(screen.getByText("佛山朗必豪电器有限公司")).toBeVisible();
+    window.history.replaceState({}, "", "/");
+  });
   it("links field errors to invalid inputs and focuses the first error", () => {
     render(<InquiryForm locale="en" />);
     fireEvent.click(screen.getByRole("button", { name: "Submit" }));

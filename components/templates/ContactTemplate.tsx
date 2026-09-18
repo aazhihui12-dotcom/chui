@@ -21,7 +21,7 @@ export function ContactTemplate({ page }: { page: SitePage }) {
         </dl>
       </section>
       <section className="contact-inquiry-panel" aria-label={labels.inquiry}>
-        <InquiryForm locale={page.locale} />
+        <InquiryForm locale={page.locale} queryProduct />
       </section>
     </div>
   </main>;

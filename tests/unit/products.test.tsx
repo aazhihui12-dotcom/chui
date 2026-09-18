@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
+import { act, cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 import { productStaticParams } from "@/lib/content";
 import { products, categories } from "@/content/products";
@@ -23,6 +23,11 @@ describe("product route coverage", () => {
 });
 
 describe("product pages", () => {
+  it("renders canonical Chinese overview details without abridging customization and factory text", () => {
+    render(<ProductIndexTemplate page={pages.find(page => page.kind === "product-index" && page.locale === "cn")!} />);
+    expect(screen.getByText("选择环保包装方案，体现您对可持续发展的承诺，并强化您的品牌形象。")).toBeVisible();
+    expect(screen.getByText(/我们对品质的承诺不仅体现在设计上/)).toBeVisible();
+  });
   it("shows only captured product gallery photos, without loading graphics or feature posters", () => {
     render(<ProductDetailTemplate product={products[0]} locale="en" />);
     expect(screen.getAllByRole("button", { name: /^View image \d+ of LBH-3228$/ })).toHaveLength(4);
@@ -41,7 +46,7 @@ describe("product pages", () => {
     fireEvent.click(screen.getByRole("button", { name: "View image 2 of LBH-3228" }));
     const enlarge = screen.getByRole("button", { name: "Enlarge LBH-3228 image" });
     expect(within(enlarge).getByRole("img")).toHaveAttribute("src", "/media/fcc94b06b588d10b188c5eb7a8bedfe6ce21fc6097ff78aa2a453114ecbf61b6.png");
-    enlarge.focus();
+    act(() => enlarge.focus());
     fireEvent.click(enlarge);
     expect(screen.getByRole("dialog", { name: "LBH-3228 gallery" })).toBeVisible();
     fireEvent.keyDown(document, { key: "Escape" });
@@ -122,7 +127,7 @@ describe("product pages", () => {
 
   it.each(["en", "cn"] as const)("keeps customization, manufacturing and certification sections in %s", (locale) => {
     render(<ProductIndexTemplate page={pages.find((page) => page.locale === locale && page.kind === "product-index")!} />);
-    for (const name of locale === "en" ? ["Customized, Unique Small Appliance Solutions", "Maximize Product Performance with Our Customized Solutions", "Globally Recognized Quality Certification", "Differentiated Services: Precisely Meeting Your Business Needs", "Ensure that every order is produced on time and meets quality standards.", "Our Valued Partners"] : ["定制独特的小家电解决方案", "通过定制方案提升产品性能", "全球认可的品质认证", "差异化服务，精准满足业务需求", "确保每份订单按时生产并符合质量标准", "重要合作伙伴"]) expect(screen.getByRole("heading", { name })).toBeVisible();
+    for (const name of locale === "en" ? ["Customized, Unique Small Appliance Solutions", "Maximize Product Performance with Our Customized Solutions", "Globally Recognized Quality Certification", "Differentiated Services: Precisely Meeting Your Business Needs", "Ensure that every order is produced on time and meets quality standards.", "Our Valued Partners"] : ["定制独特的小家电解决方案", "通过定制方案提升产品性能", "全球认可的质量认证", "差异化服务：精准满足您业务需求", "确保每份订单都能按时生产，并保证质量", "我们宝贵的合作伙伴"]) expect(screen.getByRole("heading", { name })).toBeVisible();
   });
 
   it.each([[0, 2], [1, 6], [2, 5], [3, 3], [4, 8]])("keeps category %i scoped to its source products", (index, count) => {

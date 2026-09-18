@@ -1,14 +1,15 @@
 import type { ContentBlock, SitePage } from "@/content/schema";
-import { editorialSections, type editorialPaths, type EditorialEntry, type EditorialSourceGallery } from "@/content/editorial";
+import { editorialSections, chineseEditorialSections, type editorialPaths, type EditorialEntry, type EditorialSourceGallery } from "@/content/editorial";
 import { Fragment } from "react";
 import { SectionRenderer, renderBlock } from "@/components/site/SectionRenderer";
 import { EditorialGallery } from "@/components/interactive/EditorialGallery";
 import { Media } from "@/components/site/Media";
+import { SourceVideo } from "@/components/interactive/SourceVideo";
 import "./editorial.css";
 
 export function EditorialTemplate({ page }: { page: SitePage }) {
   const isSummary = page.provenance.coverage === "localized-summary";
-  const sections = editorialSections[page.legacyPath as (typeof editorialPaths)[number]];
+  const sections = (page.locale === "cn" ? chineseEditorialSections : editorialSections)[page.legacyPath as (typeof editorialPaths)[number]];
   const blocks = page.blocks.map((block): ContentBlock => {
     if (block.type !== "gallery" || !["/Company_Introduction", "/Certification_certificate"].includes(page.legacyPath)) return block;
     return { ...block, images: block.images.map((image, index) => ({ ...image, alt: image.alt || `${page.locale === "cn" ? "产品认证证书" : "Product certificate"} ${index + 1}` })) };
@@ -24,10 +25,11 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
     return [block];
   });
   const sourceGalleries = sections?.flatMap((section) => section.groups.flat()).filter((entry): entry is EditorialSourceGallery => typeof entry !== "number" && "media" in entry) ?? [];
-  const renderSourceGallery = (gallery: EditorialSourceGallery) => <EditorialGallery images={gallery.media.map((index) => page.images[index])} label={gallery.label[page.locale]} locale={page.locale} />;
+  const renderSourceGallery = (gallery: EditorialSourceGallery) => <EditorialGallery images={gallery.media.map((index) => page.images[index])} label={gallery.label[page.locale]} locale={page.locale} autoplayMs={gallery.autoplayMs || (page.legacyPath === "/PinZhiGuanLi" ? 3000 : 0)} />;
   const renderEntry = (entry: EditorialEntry) => {
     if (typeof entry === "number") return renderBlock(blocks[entry]);
     if ("media" in entry) return renderSourceGallery(entry);
+    if ("video" in entry) return <SourceVideo video={entry.video} locale={page.locale} />;
     return <div className="editorial-test-item"><Media image={{ ...page.images[entry.icon], alt: "" }} />{renderBlock(blocks[entry.block])}</div>;
   };
   // Summaries have fewer text blocks, so do not reuse English block indices.

@@ -75,15 +75,28 @@ function referencesFrom(filename) {
   return references;
 }
 
-export function auditAssets({ publicDir = "public", contentDir = "content", sourceRoots = ["app", "components"], manifestPath = "source-cache/manifest.json", output } = {}) {
+export function auditAssets({ publicDir = "public", contentDir = "content", sourceRoots = ["app", "components"], manifestPath = "source-cache/manifest.json", output, captureIntegrity = false } = {}) {
   const errors = [];
   const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
   const byBasename = new Map(manifest.assets.filter(asset => asset.localPath).map(asset => [path.basename(asset.localPath), asset]));
   const sourceHashes = new Set(manifest.assets.filter(asset => asset.status >= 200 && asset.status < 300).map(asset => asset.sha256));
-  for (const asset of manifest.assets.filter(asset => asset.status >= 200 && asset.status < 300)) {
+  for (const asset of captureIntegrity ? manifest.assets.filter(asset => asset.status >= 200 && asset.status < 300) : []) {
     const cached = asset.localPath && path.join(path.dirname(manifestPath), asset.localPath);
     if (!cached || !existsSync(cached) || hash(readFileSync(cached)) !== asset.sha256) errors.push(`source cache checksum mismatch: ${asset.sourceUrl}`);
   }
+  // Default validation uses committed shipping hashes, not ignored capture bytes.
+  const shippedPath = path.join(contentDir, "shipped-assets.json");
+  if (existsSync(shippedPath)) {
+    const shipped = JSON.parse(readFileSync(shippedPath, "utf8"));
+    for (const [file, digest] of Object.entries(shipped)) {
+      const filename = path.join(publicDir, file);
+      if (!existsSync(filename) || hash(readFileSync(filename)) !== digest) errors.push(`shipped checksum mismatch: ${file}`);
+    }
+    for (const file of ["media", "downloads", "fonts"].flatMap(dir => filesUnder(path.join(publicDir, dir)))) {
+      const relative = `/${path.relative(publicDir, file).split(path.sep).join("/")}`;
+      if (!shipped[relative]) errors.push(`unregistered shipped asset: ${relative}`);
+    }
+  } else if (path.resolve(contentDir) === path.resolve("content")) errors.push("missing committed shipped-assets.json");
   const references = [...new Set([...[contentDir, ...sourceRoots].flatMap(filesUnder),
     ...(output ? filesUnder(output).filter(file => /\.(html|css)$/.test(file)) : [])])]
     .filter(file => /\.(?:[jt]sx?|css|html)$/.test(file)).flatMap(referencesFrom);
@@ -131,7 +144,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   const argument = (name, fallback) => process.argv.includes(name) ? process.argv[process.argv.indexOf(name) + 1] : fallback;
   try {
     const report = auditAssets({ publicDir: argument("--public", "public"), contentDir: argument("--content", "content"),
-      sourceRoots: argument("--source-roots", "app,components").split(","), manifestPath: argument("--manifest", "source-cache/manifest.json"), output: argument("--output", undefined) });
+      sourceRoots: argument("--source-roots", "app,components").split(","), manifestPath: argument("--manifest", "source-cache/manifest.json"), output: argument("--output", undefined), captureIntegrity: process.argv.includes("--capture-integrity") });
     if (process.argv.includes("--json")) console.log(JSON.stringify(report, null, 2));
     else if (report.errors.length) console.error(`Asset audit failed:\n- ${report.errors.join("\n- ")}`);
     else console.log(`Valid assets: ${report.files.length} local files, ${report.totalBytes} bytes; ${report.sourceAssets} source assets audited, ${report.unavailableSourceAssets.length} unavailable source references excluded; zero errors.`);

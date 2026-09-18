@@ -8,7 +8,7 @@ export interface RichTextBlock { type: "rich-text"; heading?: string; paragraphs
 export interface MediaBlock { type: "media"; image: ImageAsset; caption?: string; videoUrl?: string }
 export interface SplitBlock { type: "split"; heading: string; paragraphs: string[]; image: ImageAsset; imagePosition?: "left" | "right"; actions?: Action[] }
 export interface StatsBlock { type: "stats"; items: { value: string; label: string }[] }
-export interface GalleryBlock { type: "gallery"; heading?: string; images: ImageAsset[] }
+export interface GalleryBlock { type: "gallery"; heading?: string; images: ImageAsset[]; presentation?: "hover" }
 export interface TimelineBlock { type: "timeline"; items: { year: string; title: string; description: string }[] }
 export interface CtaBlock { type: "cta"; heading?: string; description?: string; actions: Action[] }
 export type ContentBlock = HeroBlock | RichTextBlock | MediaBlock | SplitBlock | StatsBlock | GalleryBlock | TimelineBlock | CtaBlock;

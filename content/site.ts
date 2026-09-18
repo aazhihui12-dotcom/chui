@@ -32,7 +32,7 @@ function createConfig(locale: Locale): SiteConfig {
     ],
     contact: {
       phone: "+86 137 0306 7387", email: "tina.fang@linknove.com", whatsapp: "+8613703067387",
-      company: cn ? "佛山市LBH电器有限公司" : "Foshan LBH Appliances Co.,ltd.",
+      company: cn ? "佛山朗必豪电器有限公司" : "Foshan LBH Appliances Co.,ltd.",
       address: cn ? "广东省佛山市顺德区容桂街道南区社区兴南路9号广意智能装备园3栋1006室" : "Room 1006, Building 3, Guangyi Intelligent Equipment Park, No. 9 Xingnan Road, Nanqu Community, Ronggui Subdistrict, Shunde District, Foshan City, Guangdong Province",
     },
     labels: cn ? {

@@ -6,11 +6,10 @@ for (const locale of ["en", "cn"] as const) {
     const failures: string[] = [];
     page.on("pageerror", (error) => failures.push(error.message));
     await page.goto(`/${locale}/`);
-    await expect(page.getByRole("heading", { level: 1 })).toContainText(cn ? "节省时间与成本" : "Saving You Time and Cost");
-    await page.getByRole("button", { name: cn ? "下一张" : "Next slide" }).click();
-    await expect(page.getByRole("heading", { name: "LBH-3228", level: 2 })).toBeVisible();
-    await expect.poll(() => page.getByRole("img", { name: "LBH-3228" }).evaluate((image: HTMLImageElement) => image.naturalWidth)).toBeGreaterThan(0);
-    await page.getByRole("button", { name: cn ? "上一张" : "Previous slide" }).click();
+    await expect(page.getByRole("heading", { level: 1 })).toContainText(cn ? "节省您的时间与成本" : "Saving You Time and Cost");
+    await expect(page.locator(".home-hero [aria-roledescription=slide]")).toHaveCount(1);
+    await expect(page.locator(".hero-counter")).toHaveText("01 / 01");
+    await expect(page.locator(".home-hero button")).toHaveCount(0);
     const play = page.getByRole("button", { name: cn ? "播放制造视频" : "Play manufacturing video" });
     await play.click();
     const dialog = page.getByRole("dialog");
@@ -35,10 +34,10 @@ for (const locale of ["en", "cn"] as const) {
     await page.keyboard.press("Escape");
     await expect(dialog).toHaveCount(0);
     await expect(play).toBeFocused();
-    const stat = page.getByText(cn ? "成功定制样品" : "Successful Custom Sample");
+    const stat = page.getByText(cn ? "成功的客制样品" : "Successful Custom Sample");
     await stat.scrollIntoViewIfNeeded();
     await expect(page.locator('dd [aria-hidden="true"]', { hasText: "4800 +" })).toBeVisible();
-    await expect(page.getByRole("heading", { name: cn ? "我们的使命" : "Our Mission" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: cn ? "我们的任务" : "Our Mission" })).toBeVisible();
     const broken = await page.locator("img").evaluateAll((images) => images.filter((image) => image.getAttribute("src")?.startsWith("http")).length);
     expect(broken).toBe(0);
     expect(failures).toEqual([]);
@@ -59,7 +58,7 @@ for (const locale of ["en", "cn"] as const) {
   test(`${locale} statistics expose every final value to assistive technology`, async ({ page }) => {
     await page.goto(`/${locale}/`);
     const definitions = page.getByRole("definition");
-    for (const [index, value] of ["2 +", "10 +", "20 +", "4800 +"].entries()) {
+    for (const [index, value] of (cn ? ["2", "10", "20 +", "4800 +"] : ["2 +", "10 +", "20 +", "4800 +"]).entries()) {
       await expect(definitions.nth(index)).toMatchAriaSnapshot(`- definition: ${value}`);
     }
   });

@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useRef, useState, type FormEvent } from "react";
+import { useEffect, useId, useRef, useState, type FormEvent } from "react";
 import type { Locale } from "@/content/schema";
 import { submitInquiry, validateInquiry, type InquiryPayload } from "@/lib/inquiry";
 
@@ -11,7 +11,12 @@ const labels = {
 };
 const chineseErrors: Record<string, string> = { name: "请输入姓名", email: "请输入有效的电子邮箱", message: "请输入留言" };
 
-export function InquiryForm({ locale, product = "" }: { locale: Locale; product?: string }) {
+export function InquiryForm({ locale, product = "", queryProduct = false }: { locale: Locale; product?: string; queryProduct?: boolean }) {
+  const formRef = useRef<HTMLFormElement>(null);
+  useEffect(() => {
+    const input = formRef.current?.elements.namedItem("product") as HTMLInputElement | null;
+    if (queryProduct && input && !input.value) input.value = new URLSearchParams(window.location.search).get("product") ?? "";
+  }, [queryProduct]);
   const id = useId();
   const cn = locale === "cn";
   const [errors, setErrors] = useState<Record<string, string>>({});
@@ -44,7 +49,7 @@ export function InquiryForm({ locale, product = "" }: { locale: Locale; product?
     }
   }
   if (state === "success") return <p className="inquiry-success" role="status">{cn ? "谢谢，我们会尽快与您联系。" : "Thank you. We will contact you soon."}</p>;
-  return <form className="inquiry-form" noValidate onSubmit={submit} aria-busy={state === "pending"}>
+  return <form ref={formRef} className="inquiry-form" noValidate onSubmit={submit} aria-busy={state === "pending"}>
     <p className="inquiry-required">{cn ? "标有 * 的字段为必填项。" : "Fields marked * are required."}</p>
     <fieldset disabled={state === "pending"}>
       {fields.map((field) => {

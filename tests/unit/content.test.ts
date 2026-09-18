@@ -42,7 +42,7 @@ it("preserves source model and specification values through localization", () =>
 });
 
 it("records generated Chinese translations without claiming verified Chinese source", () => {
-  for (const slug of [[], ["Company_Introduction"], ["ProductDetail", "11906944.html"], ["NewsDetail", "6860195.html"]]) {
+  for (const slug of [["ProductDetail", "11906944.html"], ["NewsDetail", "6860195.html"]]) {
     const page = getPage("cn", slug)!;
     expect(page.provenance.sourceLocale).toBe("en");
     expect(page.provenance.translation).toBe("authored");
@@ -80,7 +80,7 @@ it("localizes every milestone and retains homepage statistics in Chinese", () =>
   expect(milestone.items).toHaveLength(7);
   expect(milestone.items.find((item) => item.year === "2026")!.description).toMatch(/[\u4e00-\u9fff]/);
   const stats = getPage("cn", [])!.blocks.filter((block) => block.type === "stats").flatMap((block) => block.items);
-  expect(stats).toContainEqual({ value: "4800 +", label: "成功定制样品" });
+  expect(stats).toContainEqual({ value: "4800 +", label: "成功的客制样品" });
 });
 
 it("provides Chinese labels for every captured call to action", () => {

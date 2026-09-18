@@ -35,7 +35,7 @@ async function exportedFixture() {
     for (const locale of ["en", "cn"]) {
       const directory = path.join(output, locale, pathname === "/" ? "" : pathname);
       await mkdir(directory, { recursive: true });
-      await writeFile(path.join(directory, "index.html"), '<html><body><a href="/en/FAQ/?from=test#questions">FAQ</a><a href="https://outside.example/test">External</a><a href="mailto:test@example.com">Email</a></body></html>');
+      await writeFile(path.join(directory, "index.html"), '<html lang="' + (locale === "cn" ? "zh-CN" : "en") + '"><body><a href="/en/FAQ/?from=test#questions">FAQ</a><a href="https://outside.example/test">External</a><a href="mailto:test@example.com">Email</a></body></html>');
     }
   }
   return output;
@@ -69,4 +69,13 @@ it("fails for a missing localized export, a corrupt redirect, and a broken inter
   expect(checked.stderr).toContain("/cn/FAQ");
   expect(checked.stderr).toContain("/Contact");
   expect(checked.stderr).toContain("/en/missing-page/");
+}, 15000);
+
+it("rejects English document language on a Chinese static export", async () => {
+  const output = await exportedFixture();
+  expect(command(output, "--generate-legacy").status).toBe(0);
+  await writeFile(path.join(output, "cn/FAQ/index.html"), '<html lang="en"><body>常见问题</body></html>');
+  const checked = command(output);
+  expect(checked.status).toBe(1);
+  expect(checked.stderr).toContain("Incorrect document language: /cn/FAQ");
 }, 15000);
