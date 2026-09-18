@@ -17,9 +17,12 @@ const directories: string[] = [];
 afterEach(async () => { await Promise.all(directories.splice(0).map(dir => rm(dir, { recursive: true, force: true }))); });
 const sha = (data: Buffer) => createHash("sha256").update(data).digest("hex");
 const run = (...args: string[]) => spawnSync(process.execPath, ["scripts/check-assets.mjs", ...args], { encoding: "utf8" });
-function mediaPaths(value: unknown): string[] {
-  if (typeof value === "string") return /^\/(media|downloads)\//.test(value) ? [value] : [];
-  if (value && typeof value === "object") return Object.values(value).flatMap(mediaPaths);
+function mediaPaths(value: unknown, field = "", isDownload = false): string[] {
+  if (typeof value === "string") return /^(src|poster|videoUrl|manufacturingVideo|manufacturingPoster)$/.test(field) || isDownload ? [value] : [];
+  if (value && typeof value === "object") {
+    const object = value as Record<string, unknown>;
+    return Object.entries(object).flatMap(([key, item]) => mediaPaths(item, key, key === "href" && object.action === "download"));
+  }
   return [];
 }
 
@@ -28,6 +31,7 @@ it("serves every typed-content media reference locally without byte-identical du
   expect(paths.length).toBeGreaterThan(300);
   const hashes = new Map<string, string[]>();
   for (const media of paths) {
+    expect(/^\/(media|downloads)\/.+/.test(media), media).toBe(true);
     const file = path.join("public", media);
     expect(existsSync(file), media).toBe(true);
     const bytes = readFileSync(file);
@@ -102,3 +106,29 @@ it("keeps regenerated captured content deduplicated without copying unused sourc
   const checked = run("--public", path.join(root, "public"), "--content", path.join(root, "content"), "--source-roots", path.join(root, "content"), "--json");
   expect(checked.status, checked.stdout || checked.stderr).toBe(0);
 }, 60_000);
+
+it.each(["content", "export"])("rejects wrong-prefix and relative media in %s without treating scripts or navigation as media", async (surface) => {
+  const root = await mkdtemp(path.join(tmpdir(), "lbh-assets-invalid-paths-")); directories.push(root);
+  for (const directory of ["public", "content", "out"]) await mkdir(path.join(root, directory));
+  await writeFile(path.join(root, "manifest.json"), '{"assets":[]}');
+  if (surface === "content") {
+    await writeFile(path.join(root, "content/data.tsx"), `
+      export const data = [{ src: "/images/missing.png" }, { videoUrl: "media/missing.mp4" },
+        { poster: "../poster.jpg" }, { action: "download", href: "/files/catalogue" },
+        { href: "/en/FAQ" }, { href: "../Contact" }];
+      export const scripts = <script src="/_next/static/framework.js" />;
+    `);
+  } else {
+    await writeFile(path.join(root, "out/index.html"), `<img src="/images/missing.png"><video src="media/missing.mp4" poster="../poster.jpg"></video>
+      <a download href="/files/catalogue">Catalogue</a><a href="/en/FAQ">FAQ</a><a href="../Contact">Contact</a>
+      <script src="/_next/static/framework.js"></script><link rel="stylesheet" href="/_next/static/style.css">`);
+  }
+  const result = run("--public", path.join(root, "public"), "--content", path.join(root, "content"), "--source-roots", path.join(root, "content"), "--manifest", path.join(root, "manifest.json"), "--output", path.join(root, "out"), "--json");
+  expect(result.status).toBe(1);
+  expect(JSON.parse(result.stdout).errors).toEqual([
+    "non-local media path: ../poster.jpg",
+    "non-local media path: /files/catalogue",
+    "non-local media path: /images/missing.png",
+    "non-local media path: media/missing.mp4",
+  ]);
+});

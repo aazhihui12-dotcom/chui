@@ -45,15 +45,30 @@ function referencesFrom(filename) {
       const value = literal[2];
       const before = text.slice(Math.max(0, literal.index - 80), literal.index);
       const key = before.match(/(?:["']?)(\w+)["']?\s*[:=]\s*$/)?.[1];
-      if (mediaPath.test(value) || (key !== "sourceUrl" && remote.test(value) && (mediaExtension.test(value) || /^(src|poster|videoUrl)$/.test(key)))) add(value);
+      const object = key === "href" ? text.slice(text.lastIndexOf("{", literal.index), text.indexOf("}", literal.index) + 1) : "";
+      const download = key === "href" && /["']?action["']?\s*:\s*["']download["']/.test(object);
+      const tag = /\.[jt]sx$/.test(filename) && key === "src" ? text.slice(text.lastIndexOf("<", literal.index), literal.index) : "";
+      const script = /^<script\b[^>]*$/i.test(tag);
+      const mediaField = /^(src|poster|videoUrl)$/.test(key) || /(?:Video|Poster)$/.test(key);
+      if (!script && (mediaField || download || mediaPath.test(value)
+        || (key !== "sourceUrl" && remote.test(value) && mediaExtension.test(value)))) add(value);
       for (const match of value.matchAll(/url\(\s*["']?([^\s)'";]+)["']?\s*\)/g)) add(match[1]);
     }
   } else if (filename.endsWith(".html")) {
-    for (const match of text.matchAll(/\b(src|poster|href)=["']([^"']+)["']/g)) {
-      if (mediaPath.test(match[2]) || (remote.test(match[2]) && (match[1] !== "href" || mediaExtension.test(match[2])))) add(match[2]);
+    // Decide whether an attribute carries media before validating its URL. A wrong
+    // directory or relative path is still a dependency, not a reason to omit it.
+    for (const element of text.matchAll(/<(img|video|audio|source|track|image|input|link|a)\b([^>]*?)>/gi)) {
+      const tag = element[1].toLowerCase();
+      const attributes = Object.fromEntries([...element[2].matchAll(/\b([\w-]+)\s*=\s*["']([^"']*)["']/g)].map(match => [match[1].toLowerCase(), match[2]]));
+      if (/^(img|video|audio|source|track)$/.test(tag) || (tag === "input" && attributes.type === "image")) add(attributes.src);
+      if (tag === "video") add(attributes.poster);
+      if (tag === "image") add(attributes.href || attributes["xlink:href"]);
+      const downloadable = tag === "a" && /\bdownload(?:\s|=|$)/i.test(element[2]);
+      const mediaPreload = tag === "link" && /^(image|video|audio|font)$/.test(attributes.as);
+      if (downloadable || mediaPreload || mediaPath.test(attributes.href || "")) add(attributes.href);
+      for (const srcset of [attributes.srcset, attributes.imagesrcset].filter(Boolean))
+        for (const candidate of srcset.split(",")) add(candidate.trim().split(/\s+/)[0]);
     }
-    for (const match of text.matchAll(/\b(?:srcset|imagesrcset)=["']([^"']+)["']/gi))
-      for (const candidate of match[1].split(",")) add(candidate.trim().split(/\s+/)[0]);
     for (const match of text.matchAll(/url\(\s*["']?([^\s)'";]+)["']?\s*\)/g)) add(match[1]);
   }
   return references;
