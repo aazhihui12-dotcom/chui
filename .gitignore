@@ -6,3 +6,5 @@ playwright-report/
 test-results/
 .sites-runtime/
 tsconfig.tsbuildinfo
+source-cache/pages/
+source-cache/assets/
