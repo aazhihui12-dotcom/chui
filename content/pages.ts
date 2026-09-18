@@ -18,7 +18,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "LBH Appliances — Saving You Time and Cost, Building Your Brand",
         "image": {
-          "src": "/media/74cfb11d067ad63182dd60d3232522857fb3336264b12897f00fcb5817750153.png",
+          "src": "/media/43a3baa29efcc67c1b2018ab2fbee7cb467c55cef719008d2b38fc987665c903.webp",
           "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
         }
       },
@@ -175,9 +175,17 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Request Full Product Catalog",
-            "href": "/en/Product_Catalogue"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -195,9 +203,23 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Are you a brand customization client?",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -205,9 +227,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Are you an online brand business owner?",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -220,9 +256,44 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Are you an engineer or a designer?",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -263,6 +334,26 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
+          {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
           },
@@ -276,6 +367,26 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
+          {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
           },
@@ -284,6 +395,13 @@ export const pages: SitePage[] = [
             "alt": ""
           }
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -297,6 +415,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "paragraphs": [
           "LBH is the most efficient team we have ever collaborated with. From our initial meeting to the final product delivery, the entire process took just over two months—a feat that would have been unimaginable in the past! More importantly, the development process for the new product was expertly managed to successfully avoid any potential patent issues. Consumers absolutely love our product's aesthetic, and since its launch, it has received excellent feedback from the market. We look forward to continuing our partnership in the future to develop even more innovative products. The LBH team gives us complete peace of mind!"
@@ -306,6 +431,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "—— Warren Steve",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -322,6 +454,35 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "LBH Appliances Product Certifications",
         "paragraphs": []
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+            "alt": ""
+          }
+        ]
       },
       {
         "type": "rich-text",
@@ -352,6 +513,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Our Mission",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/e3697ef103f0da3ec4a048e4d4ed38d03838861698668dba65c3945e0b26b34b.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -393,6 +561,10 @@ export const pages: SitePage[] = [
       }
     ],
     "images": [
+      {
+        "src": "/media/43a3baa29efcc67c1b2018ab2fbee7cb467c55cef719008d2b38fc987665c903.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
       {
         "src": "/media/74cfb11d067ad63182dd60d3232522857fb3336264b12897f00fcb5817750153.png",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
@@ -438,11 +610,87 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
@@ -460,6 +708,14 @@ export const pages: SitePage[] = [
       {
         "src": "/media/7342b9dc51cfbd13a36f036dcd6c46db49ccad5a78d9dcbf08f869e568a7ad76.png",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/e3697ef103f0da3ec4a048e4d4ed38d03838861698668dba65c3945e0b26b34b.webp",
+        "alt": "图片展示"
       },
       {
         "src": "/media/593d21d66be9e8169bf325f675736e583a8ddf1749eb11a484cd8e0d9e6842d3.png",
@@ -494,7 +750,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "LBH电器 — 节省时间与成本，成就您的品牌",
         "image": {
-          "src": "/media/74cfb11d067ad63182dd60d3232522857fb3336264b12897f00fcb5817750153.png",
+          "src": "/media/43a3baa29efcc67c1b2018ab2fbee7cb467c55cef719008d2b38fc987665c903.webp",
           "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
         }
       },
@@ -541,8 +797,98 @@ export const pages: SitePage[] = [
         }
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "gallery",
         "images": [
+          {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
           {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
@@ -556,6 +902,26 @@ export const pages: SitePage[] = [
       {
         "type": "gallery",
         "images": [
+          {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
           {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
@@ -569,9 +935,116 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/e3697ef103f0da3ec4a048e4d4ed38d03838861698668dba65c3945e0b26b34b.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "立即询价",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "索取完整产品目录",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "今天加入我们",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "联系我们",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "咨询家电专家",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       },
       {
         "type": "stats",
@@ -596,6 +1069,10 @@ export const pages: SitePage[] = [
       }
     ],
     "images": [
+      {
+        "src": "/media/43a3baa29efcc67c1b2018ab2fbee7cb467c55cef719008d2b38fc987665c903.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
       {
         "src": "/media/74cfb11d067ad63182dd60d3232522857fb3336264b12897f00fcb5817750153.png",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
@@ -641,11 +1118,87 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/ff3816397d0eb9717aa9564860812c612166a0b7f0111af3d55d631d063ccdb3.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/f571dabfe4528081bdf405679b5a01a494a8b50cf65d8a80009b524879972cb7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/058c8de06058a9fb1893d1c06b6981e66b6a515e87cb11dc86f93016219d47f8.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/cc97e07aa82ace4d7c8c4063119e72e53f6ffad69b2db10acaaecdda2dfe73c0.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/3cbc82acacc5dbf32fa80fd6f451517743d6fa5f3b501ef6ab74431d7f34e671.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
@@ -663,6 +1216,14 @@ export const pages: SitePage[] = [
       {
         "src": "/media/7342b9dc51cfbd13a36f036dcd6c46db49ccad5a78d9dcbf08f869e568a7ad76.png",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp",
+        "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
+      },
+      {
+        "src": "/media/e3697ef103f0da3ec4a048e4d4ed38d03838861698668dba65c3945e0b26b34b.webp",
+        "alt": "图片展示"
       },
       {
         "src": "/media/593d21d66be9e8169bf325f675736e583a8ddf1749eb11a484cd8e0d9e6842d3.png",
@@ -697,8 +1258,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Exclusive Sale",
         "image": {
-          "src": "/media/d0e7a51642b45dc9aae43bd7e4c5d8c86eec36e3b94ed573ea5e85bf87e571f7.png",
-          "alt": "Exclusive Sale"
+          "src": "/media/c9d49c4b2314a79bb6bc8d0b6f454c8eb5c00a590f3d9459b77b2c48057105b5.webp",
+          "alt": "LBH 专为您的品牌设计的独特设计"
         }
       },
       {
@@ -719,6 +1280,13 @@ export const pages: SitePage[] = [
           "We offer your brand exclusive distribution rights within your region; through this approach, LBH Appliances can craft unique and innovative designs—tailored to your specific brand image and objectives—to help you amplify your brand influence!",
           "Contact us today if you are seeking an exceptional opportunity."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c9d49c4b2314a79bb6bc8d0b6f454c8eb5c00a590f3d9459b77b2c48057105b5.webp",
+          "alt": "LBH 专为您的品牌设计的独特设计"
+        }
       },
       {
         "type": "rich-text",
@@ -791,6 +1359,10 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
+        "src": "/media/c9d49c4b2314a79bb6bc8d0b6f454c8eb5c00a590f3d9459b77b2c48057105b5.webp",
+        "alt": "LBH 专为您的品牌设计的独特设计"
+      },
+      {
         "src": "/media/d0e7a51642b45dc9aae43bd7e4c5d8c86eec36e3b94ed573ea5e85bf87e571f7.png",
         "alt": "Exclusive Sale"
       },
@@ -831,8 +1403,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "独家销售",
         "image": {
-          "src": "/media/d0e7a51642b45dc9aae43bd7e4c5d8c86eec36e3b94ed573ea5e85bf87e571f7.png",
-          "alt": "Exclusive Sale"
+          "src": "/media/c9d49c4b2314a79bb6bc8d0b6f454c8eb5c00a590f3d9459b77b2c48057105b5.webp",
+          "alt": "LBH 专为您的品牌设计的独特设计"
         }
       },
       {
@@ -845,12 +1417,33 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/c9d49c4b2314a79bb6bc8d0b6f454c8eb5c00a590f3d9459b77b2c48057105b5.webp",
+          "alt": "LBH 专为您的品牌设计的独特设计"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "咨询家电专家",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
+      {
+        "src": "/media/c9d49c4b2314a79bb6bc8d0b6f454c8eb5c00a590f3d9459b77b2c48057105b5.webp",
+        "alt": "LBH 专为您的品牌设计的独特设计"
+      },
       {
         "src": "/media/d0e7a51642b45dc9aae43bd7e4c5d8c86eec36e3b94ed573ea5e85bf87e571f7.png",
         "alt": "Exclusive Sale"
@@ -892,8 +1485,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "OEM Services",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
-          "alt": "OEM Services"
+          "src": "/media/df43e493be9d873465912df4280e33505092d678acf141b5855ea28aaad8db72.webp",
+          "alt": "你有中国的制作团队"
         }
       },
       {
@@ -907,6 +1500,19 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "LBH Appliances also offers robust OEM services to help you build your brand. Our extensive range of personal care and home appliance products—combined with our market-certified production facilities and the professional expertise and experience of our team—will help you stand out in your target market.",
           "Leveraging our advanced production equipment, we are able to fulfill your personal care and home appliance orders with rapid turnaround times, all while ensuring uncompromising product quality!"
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/df43e493be9d873465912df4280e33505092d678acf141b5855ea28aaad8db72.webp",
+            "alt": "你有中国的制作团队"
+          },
+          {
+            "src": "/media/d4e668b2d5669b860c266b0aa19e48110c99c1f21209b5f06f7fde0f5d3ed02e.webp",
+            "alt": "你有中国的制作团队"
+          }
         ]
       },
       {
@@ -941,6 +1547,13 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/13b21ba10a305e581eff9d9a473c68027d03550e45a931b69bbe819be2214049.webp",
+          "alt": "发送您的设计"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Send Your Design",
         "paragraphs": []
@@ -952,9 +1565,23 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/ba4b76dd704f62075ee9f4712709c28baf04a94daa21f7f12c0858e38d6b4d61.webp",
+          "alt": "正在审核中"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "The design team will carefully review your design or specifications and offer suggestions on how to improve your proposal.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/fe6b08cb224c79bc4fb75ef5f3be0fd21a3428636a5060515c35dd5908c771a3.webp",
+          "alt": "样品类型"
+        }
       },
       {
         "type": "rich-text",
@@ -965,6 +1592,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Using the final design drawings, we manufacture the molds for your custom small appliances, ensuring that they fully meet your specifications.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5ffb6459a082dba76b0f461d4c0315eb0730903e0d687fc48556895ba058a6cc.webp",
+          "alt": "样品制作"
+        }
       },
       {
         "type": "rich-text",
@@ -978,6 +1612,13 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/53e491d2d1c64f758a5d41f29196965dbf2acf3f3b389fe14be96c74b2ab6318.webp",
+          "alt": "试订单"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Trial Order",
         "paragraphs": []
@@ -987,6 +1628,13 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "You may order a small quantity of products for testing purposes as needed; a trial order offers you peace of mind, ensuring that all the products you order meet your standards."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/633a67db25918d6eec5dea135c4ebd013fd3af6c4bb9a7eaa621d80718e10c7a.webp",
+          "alt": "合作合同"
+        }
       },
       {
         "type": "rich-text",
@@ -999,6 +1647,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/a3eca00ace9f7632293f931474ac45400bde3447cfb692516769b9b3af5fc32a.webp",
+          "alt": ".批量生产"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Mass Production",
         "paragraphs": []
@@ -1008,6 +1663,13 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "Upon signing the contract, we will utilize state-of-the-art production equipment to manufacture the home appliances you have ordered within the anticipated timeframe."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b754759a65c56c3e2139ed8271392f214a56072719579d528d4987064c22def.webp",
+          "alt": "物流与配送"
+        }
       },
       {
         "type": "rich-text",
@@ -1031,6 +1693,13 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/6b29bf41b4fcf6239bf39f4a3d32d600bd217b87bef71985cf5c08562ca51c36.webp",
+          "alt": "原材料采购"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Raw Material Procurement",
         "paragraphs": []
@@ -1040,6 +1709,13 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "Leveraging our mature supply chain, we source plastics and other essential materials from reliable suppliers at the most competitive prices. Our personal care appliances are priced highly competitively."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/9c58f3447da9587d95228ee2b29e74e3e3c1066efab05d0855c18decf9faefa5.webp",
+          "alt": "零部件的制造和组装"
+        }
       },
       {
         "type": "rich-text",
@@ -1052,6 +1728,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/97ed162dfd4e0f7058e3ae64d6be5d7a9b8418185930e39fec164266fce81658.webp",
+          "alt": "进一步处理"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Further Processing",
         "paragraphs": []
@@ -1060,6 +1743,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "LBH Appliances also offers additional services—such as brand logo silk-screen printing or electroplating—to meet the specific needs of your target market.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/4f999c2c445ff28e88cf46f09cf608640585ba43a70cc382a0c97384d4c209da.webp",
+          "alt": "包装材料"
+        }
       },
       {
         "type": "rich-text",
@@ -1073,9 +1763,37 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/6b29bf41b4fcf6239bf39f4a3d32d600bd217b87bef71985cf5c08562ca51c36.webp",
+          "alt": "原材料采购"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/9c58f3447da9587d95228ee2b29e74e3e3c1066efab05d0855c18decf9faefa5.webp",
+          "alt": "零部件的制造和组装"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/97ed162dfd4e0f7058e3ae64d6be5d7a9b8418185930e39fec164266fce81658.webp",
+          "alt": "进一步处理"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "LBH Appliances also offers additional services—such as brand logo screen printing or electroplating—to meet the specific needs of your target market.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/4f999c2c445ff28e88cf46f09cf608640585ba43a70cc382a0c97384d4c209da.webp",
+          "alt": "包装材料"
+        }
       },
       {
         "type": "media",
@@ -1107,40 +1825,96 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
+        "src": "/media/df43e493be9d873465912df4280e33505092d678acf141b5855ea28aaad8db72.webp",
+        "alt": "你有中国的制作团队"
+      },
+      {
+        "src": "/media/d4e668b2d5669b860c266b0aa19e48110c99c1f21209b5f06f7fde0f5d3ed02e.webp",
+        "alt": "你有中国的制作团队"
+      },
+      {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/13b21ba10a305e581eff9d9a473c68027d03550e45a931b69bbe819be2214049.webp",
+        "alt": "发送您的设计"
       },
       {
         "src": "/media/4870a5d3362dd749b95fa60fae954dc48194f49e20b041b1b2e24a41c6db057d.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/ba4b76dd704f62075ee9f4712709c28baf04a94daa21f7f12c0858e38d6b4d61.webp",
+        "alt": "正在审核中"
+      },
+      {
         "src": "/media/1e628ef8408bdc4f3ce5394e7b9ffe8138c5104b90d8fa0cfe3d136762e69412.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/fe6b08cb224c79bc4fb75ef5f3be0fd21a3428636a5060515c35dd5908c771a3.webp",
+        "alt": "样品类型"
       },
       {
         "src": "/media/622bc33419f7384b11797840ed2eb08e1ae7ccb17033b90b7cbd76da43c703f7.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/5ffb6459a082dba76b0f461d4c0315eb0730903e0d687fc48556895ba058a6cc.webp",
+        "alt": "样品制作"
+      },
+      {
         "src": "/media/99f1b6a8903ccc5697c4ffdb640e75226db49f9f96ea1f63a951b59c654b3847.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/53e491d2d1c64f758a5d41f29196965dbf2acf3f3b389fe14be96c74b2ab6318.webp",
+        "alt": "试订单"
       },
       {
         "src": "/media/590a4afe5fd5a3c2b933176432fea56949a9f62e8c31659d1bb41307727e0367.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/633a67db25918d6eec5dea135c4ebd013fd3af6c4bb9a7eaa621d80718e10c7a.webp",
+        "alt": "合作合同"
+      },
+      {
         "src": "/media/ddb07ff565e08f9ac5c1f6787a6dc8bdee7c47cb3965dad1ac2f813877e3d89a.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/a3eca00ace9f7632293f931474ac45400bde3447cfb692516769b9b3af5fc32a.webp",
+        "alt": ".批量生产"
       },
       {
         "src": "/media/98348737819940f8f9b2799468298b515e7e8ff70c6939231cd3ab094501d15e.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/5b754759a65c56c3e2139ed8271392f214a56072719579d528d4987064c22def.webp",
+        "alt": "物流与配送"
+      },
+      {
         "src": "/media/ff7419266bc1b3373bcf43f43aa0c3d3a9de4816221920583eea763ee4feeade.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/6b29bf41b4fcf6239bf39f4a3d32d600bd217b87bef71985cf5c08562ca51c36.webp",
+        "alt": "原材料采购"
+      },
+      {
+        "src": "/media/9c58f3447da9587d95228ee2b29e74e3e3c1066efab05d0855c18decf9faefa5.webp",
+        "alt": "零部件的制造和组装"
+      },
+      {
+        "src": "/media/97ed162dfd4e0f7058e3ae64d6be5d7a9b8418185930e39fec164266fce81658.webp",
+        "alt": "进一步处理"
+      },
+      {
+        "src": "/media/4f999c2c445ff28e88cf46f09cf608640585ba43a70cc382a0c97384d4c209da.webp",
+        "alt": "包装材料"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -1171,8 +1945,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "代工服务",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
-          "alt": "OEM Services"
+          "src": "/media/df43e493be9d873465912df4280e33505092d678acf141b5855ea28aaad8db72.webp",
+          "alt": "你有中国的制作团队"
         }
       },
       {
@@ -1183,49 +1957,240 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/df43e493be9d873465912df4280e33505092d678acf141b5855ea28aaad8db72.webp",
+            "alt": "你有中国的制作团队"
+          },
+          {
+            "src": "/media/d4e668b2d5669b860c266b0aa19e48110c99c1f21209b5f06f7fde0f5d3ed02e.webp",
+            "alt": "你有中国的制作团队"
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/13b21ba10a305e581eff9d9a473c68027d03550e45a931b69bbe819be2214049.webp",
+          "alt": "发送您的设计"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ba4b76dd704f62075ee9f4712709c28baf04a94daa21f7f12c0858e38d6b4d61.webp",
+          "alt": "正在审核中"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/fe6b08cb224c79bc4fb75ef5f3be0fd21a3428636a5060515c35dd5908c771a3.webp",
+          "alt": "样品类型"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5ffb6459a082dba76b0f461d4c0315eb0730903e0d687fc48556895ba058a6cc.webp",
+          "alt": "样品制作"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/53e491d2d1c64f758a5d41f29196965dbf2acf3f3b389fe14be96c74b2ab6318.webp",
+          "alt": "试订单"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/633a67db25918d6eec5dea135c4ebd013fd3af6c4bb9a7eaa621d80718e10c7a.webp",
+          "alt": "合作合同"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/a3eca00ace9f7632293f931474ac45400bde3447cfb692516769b9b3af5fc32a.webp",
+          "alt": ".批量生产"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b754759a65c56c3e2139ed8271392f214a56072719579d528d4987064c22def.webp",
+          "alt": "物流与配送"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6b29bf41b4fcf6239bf39f4a3d32d600bd217b87bef71985cf5c08562ca51c36.webp",
+          "alt": "原材料采购"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/9c58f3447da9587d95228ee2b29e74e3e3c1066efab05d0855c18decf9faefa5.webp",
+          "alt": "零部件的制造和组装"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/97ed162dfd4e0f7058e3ae64d6be5d7a9b8418185930e39fec164266fce81658.webp",
+          "alt": "进一步处理"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/4f999c2c445ff28e88cf46f09cf608640585ba43a70cc382a0c97384d4c209da.webp",
+          "alt": "包装材料"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6b29bf41b4fcf6239bf39f4a3d32d600bd217b87bef71985cf5c08562ca51c36.webp",
+          "alt": "原材料采购"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/9c58f3447da9587d95228ee2b29e74e3e3c1066efab05d0855c18decf9faefa5.webp",
+          "alt": "零部件的制造和组装"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/97ed162dfd4e0f7058e3ae64d6be5d7a9b8418185930e39fec164266fce81658.webp",
+          "alt": "进一步处理"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/4f999c2c445ff28e88cf46f09cf608640585ba43a70cc382a0c97384d4c209da.webp",
+          "alt": "包装材料"
+        }
+      },
+      {
         "type": "media",
         "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "咨询家电专家",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
       {
+        "src": "/media/df43e493be9d873465912df4280e33505092d678acf141b5855ea28aaad8db72.webp",
+        "alt": "你有中国的制作团队"
+      },
+      {
+        "src": "/media/d4e668b2d5669b860c266b0aa19e48110c99c1f21209b5f06f7fde0f5d3ed02e.webp",
+        "alt": "你有中国的制作团队"
+      },
+      {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/13b21ba10a305e581eff9d9a473c68027d03550e45a931b69bbe819be2214049.webp",
+        "alt": "发送您的设计"
       },
       {
         "src": "/media/4870a5d3362dd749b95fa60fae954dc48194f49e20b041b1b2e24a41c6db057d.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/ba4b76dd704f62075ee9f4712709c28baf04a94daa21f7f12c0858e38d6b4d61.webp",
+        "alt": "正在审核中"
+      },
+      {
         "src": "/media/1e628ef8408bdc4f3ce5394e7b9ffe8138c5104b90d8fa0cfe3d136762e69412.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/fe6b08cb224c79bc4fb75ef5f3be0fd21a3428636a5060515c35dd5908c771a3.webp",
+        "alt": "样品类型"
       },
       {
         "src": "/media/622bc33419f7384b11797840ed2eb08e1ae7ccb17033b90b7cbd76da43c703f7.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/5ffb6459a082dba76b0f461d4c0315eb0730903e0d687fc48556895ba058a6cc.webp",
+        "alt": "样品制作"
+      },
+      {
         "src": "/media/99f1b6a8903ccc5697c4ffdb640e75226db49f9f96ea1f63a951b59c654b3847.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/53e491d2d1c64f758a5d41f29196965dbf2acf3f3b389fe14be96c74b2ab6318.webp",
+        "alt": "试订单"
       },
       {
         "src": "/media/590a4afe5fd5a3c2b933176432fea56949a9f62e8c31659d1bb41307727e0367.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/633a67db25918d6eec5dea135c4ebd013fd3af6c4bb9a7eaa621d80718e10c7a.webp",
+        "alt": "合作合同"
+      },
+      {
         "src": "/media/ddb07ff565e08f9ac5c1f6787a6dc8bdee7c47cb3965dad1ac2f813877e3d89a.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/a3eca00ace9f7632293f931474ac45400bde3447cfb692516769b9b3af5fc32a.webp",
+        "alt": ".批量生产"
       },
       {
         "src": "/media/98348737819940f8f9b2799468298b515e7e8ff70c6939231cd3ab094501d15e.png",
         "alt": "OEM Services"
       },
       {
+        "src": "/media/5b754759a65c56c3e2139ed8271392f214a56072719579d528d4987064c22def.webp",
+        "alt": "物流与配送"
+      },
+      {
         "src": "/media/ff7419266bc1b3373bcf43f43aa0c3d3a9de4816221920583eea763ee4feeade.png",
         "alt": "OEM Services"
+      },
+      {
+        "src": "/media/6b29bf41b4fcf6239bf39f4a3d32d600bd217b87bef71985cf5c08562ca51c36.webp",
+        "alt": "原材料采购"
+      },
+      {
+        "src": "/media/9c58f3447da9587d95228ee2b29e74e3e3c1066efab05d0855c18decf9faefa5.webp",
+        "alt": "零部件的制造和组装"
+      },
+      {
+        "src": "/media/97ed162dfd4e0f7058e3ae64d6be5d7a9b8418185930e39fec164266fce81658.webp",
+        "alt": "进一步处理"
+      },
+      {
+        "src": "/media/4f999c2c445ff28e88cf46f09cf608640585ba43a70cc382a0c97384d4c209da.webp",
+        "alt": "包装材料"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -1256,8 +2221,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Quality Management",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
-          "alt": "图片展示"
+          "src": "/media/47b4f244f17dbf7c602eea1c2517ad888eb0ea72774204b9a8aa3e60ca421899.webp",
+          "alt": "ISO9001:2000 作为指导原则"
         }
       },
       {
@@ -1337,6 +2302,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/f7939203deeb9e0c41115c920038287d8563c95b6496930b260859f540b338d7.webp",
+          "alt": "电压频率跳变抗扰度测试"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Voltage Immunity Test",
         "paragraphs": []
@@ -1346,6 +2318,13 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "Using voltage generators of various sizes under different environmental conditions, we tested whether the hair dryer functions normally and verified its overload protection capabilities."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d27228df38c9adea3c3998e082bc5ecd3a075438f90b63371d5b9003502f50cc.webp",
+          "alt": "跌落和振动测试"
+        }
       },
       {
         "type": "rich-text",
@@ -1359,6 +2338,13 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/b9b59bd229a98790c7bda48df1105e61195b60b2a4c6fce795632073bd4f86b7.webp",
+          "alt": "电气参数测试"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Electrical Parameter Testing",
         "paragraphs": []
@@ -1367,6 +2353,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Connect the product to a DC power supply to obtain precise electrical parameters, including power efficiency, voltage, current, wattage, power data, and more.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d314f8b813bec5765308bd88ee5e32a642b6edc9c94acf33304d141a26c744fa.webp",
+          "alt": "壳体公差试验"
+        }
       },
       {
         "type": "rich-text",
@@ -1420,6 +2413,86 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
+        "src": "/media/47b4f244f17dbf7c602eea1c2517ad888eb0ea72774204b9a8aa3e60ca421899.webp",
+        "alt": "ISO9001:2000 作为指导原则"
+      },
+      {
+        "src": "/media/89afb31ae08077ea51b6072de16f2800ef0c1fb8b809cda566a49172e5a32cee.webp",
+        "alt": "ISO9001:2000 作为指导原则"
+      },
+      {
+        "src": "/media/3518f2befe5bb614cb439a8a4b9fe732ee867d7492143a97b2a80eb573515e9d.webp",
+        "alt": "从空气的各个角落开始"
+      },
+      {
+        "src": "/media/c932a025d8e1fdc2c4d827cc9a8074f062cbbe750c13f043793d836397e1bf1d.webp",
+        "alt": "从空气的各个角落开始"
+      },
+      {
+        "src": "/media/a62c9d235e59c5ec6df28d229167ef30c344261b6c3ed7377f3243c2ccbc5007.webp",
+        "alt": "自主研发的驱动模块"
+      },
+      {
+        "src": "/media/fc379bd0a3fc1848155de407993e1f596a3de7dcdc068355ebd3c92eeff2aafc.webp",
+        "alt": "自主研发的驱动模块"
+      },
+      {
+        "src": "/media/0a0a8cc1830dbe073d8c754e167dbd9efea502205c802e750fc58b155bc50d22.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/c36f95ad47cbdca81162b464ffb621fb683b8411a93e0ebdad077f9aa8f91a8a.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/776d3394c389642e464b4741c9a82728c596e4bed876d7908b39933a717f021c.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/fa07dc4a6e202406f95baff22cac2f7a409c3e298f9cac6b4928d2f7765fc2bd.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/a046022707d615cd9e44d0e2beee873eabdcbf4c6aa90a446a45e4c7dbfc23d4.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/841a5ae1d6832c08a029fa4e1e476819832f425bccc84008267e44d7283815dc.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/d693f69b6c93a04f43ffc0771435d1e77a86eb9257dce0fc3dff3cd10993c316.webp",
+        "alt": "样品测试： 确保批量生产的质量"
+      },
+      {
+        "src": "/media/b9a9841e882b891ec6a1e2f15665bcbd062e76b45d4543c3e9dbbc8cf119c866.webp",
+        "alt": "样品测试： 确保批量生产的质量"
+      },
+      {
+        "src": "/media/f7939203deeb9e0c41115c920038287d8563c95b6496930b260859f540b338d7.webp",
+        "alt": "电压频率跳变抗扰度测试"
+      },
+      {
+        "src": "/media/d27228df38c9adea3c3998e082bc5ecd3a075438f90b63371d5b9003502f50cc.webp",
+        "alt": "跌落和振动测试"
+      },
+      {
+        "src": "/media/b9b59bd229a98790c7bda48df1105e61195b60b2a4c6fce795632073bd4f86b7.webp",
+        "alt": "电气参数测试"
+      },
+      {
+        "src": "/media/d314f8b813bec5765308bd88ee5e32a642b6edc9c94acf33304d141a26c744fa.webp",
+        "alt": "壳体公差试验"
+      },
+      {
+        "src": "/media/8e138ab576f6f34965b71a80b4a75145d946f318ed156f4cd3a8faa9c1c10ba6.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/f6d8730255b730478d9827e11a5980e2e5ac18d09dd6fd5da3939e190c95e2bb.webp",
+        "alt": "Quality Management"
+      },
+      {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
       }
@@ -1448,8 +2521,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "品质管理",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
-          "alt": "图片展示"
+          "src": "/media/47b4f244f17dbf7c602eea1c2517ad888eb0ea72774204b9a8aa3e60ca421899.webp",
+          "alt": "ISO9001:2000 作为指导原则"
         }
       },
       {
@@ -1462,12 +2535,130 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/f7939203deeb9e0c41115c920038287d8563c95b6496930b260859f540b338d7.webp",
+          "alt": "电压频率跳变抗扰度测试"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d27228df38c9adea3c3998e082bc5ecd3a075438f90b63371d5b9003502f50cc.webp",
+          "alt": "跌落和振动测试"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b9b59bd229a98790c7bda48df1105e61195b60b2a4c6fce795632073bd4f86b7.webp",
+          "alt": "电气参数测试"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d314f8b813bec5765308bd88ee5e32a642b6edc9c94acf33304d141a26c744fa.webp",
+          "alt": "壳体公差试验"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "咨询家电专家",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
+      {
+        "src": "/media/47b4f244f17dbf7c602eea1c2517ad888eb0ea72774204b9a8aa3e60ca421899.webp",
+        "alt": "ISO9001:2000 作为指导原则"
+      },
+      {
+        "src": "/media/89afb31ae08077ea51b6072de16f2800ef0c1fb8b809cda566a49172e5a32cee.webp",
+        "alt": "ISO9001:2000 作为指导原则"
+      },
+      {
+        "src": "/media/3518f2befe5bb614cb439a8a4b9fe732ee867d7492143a97b2a80eb573515e9d.webp",
+        "alt": "从空气的各个角落开始"
+      },
+      {
+        "src": "/media/c932a025d8e1fdc2c4d827cc9a8074f062cbbe750c13f043793d836397e1bf1d.webp",
+        "alt": "从空气的各个角落开始"
+      },
+      {
+        "src": "/media/a62c9d235e59c5ec6df28d229167ef30c344261b6c3ed7377f3243c2ccbc5007.webp",
+        "alt": "自主研发的驱动模块"
+      },
+      {
+        "src": "/media/fc379bd0a3fc1848155de407993e1f596a3de7dcdc068355ebd3c92eeff2aafc.webp",
+        "alt": "自主研发的驱动模块"
+      },
+      {
+        "src": "/media/0a0a8cc1830dbe073d8c754e167dbd9efea502205c802e750fc58b155bc50d22.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/c36f95ad47cbdca81162b464ffb621fb683b8411a93e0ebdad077f9aa8f91a8a.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/776d3394c389642e464b4741c9a82728c596e4bed876d7908b39933a717f021c.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/fa07dc4a6e202406f95baff22cac2f7a409c3e298f9cac6b4928d2f7765fc2bd.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/a046022707d615cd9e44d0e2beee873eabdcbf4c6aa90a446a45e4c7dbfc23d4.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/841a5ae1d6832c08a029fa4e1e476819832f425bccc84008267e44d7283815dc.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/d693f69b6c93a04f43ffc0771435d1e77a86eb9257dce0fc3dff3cd10993c316.webp",
+        "alt": "样品测试： 确保批量生产的质量"
+      },
+      {
+        "src": "/media/b9a9841e882b891ec6a1e2f15665bcbd062e76b45d4543c3e9dbbc8cf119c866.webp",
+        "alt": "样品测试： 确保批量生产的质量"
+      },
+      {
+        "src": "/media/f7939203deeb9e0c41115c920038287d8563c95b6496930b260859f540b338d7.webp",
+        "alt": "电压频率跳变抗扰度测试"
+      },
+      {
+        "src": "/media/d27228df38c9adea3c3998e082bc5ecd3a075438f90b63371d5b9003502f50cc.webp",
+        "alt": "跌落和振动测试"
+      },
+      {
+        "src": "/media/b9b59bd229a98790c7bda48df1105e61195b60b2a4c6fce795632073bd4f86b7.webp",
+        "alt": "电气参数测试"
+      },
+      {
+        "src": "/media/d314f8b813bec5765308bd88ee5e32a642b6edc9c94acf33304d141a26c744fa.webp",
+        "alt": "壳体公差试验"
+      },
+      {
+        "src": "/media/8e138ab576f6f34965b71a80b4a75145d946f318ed156f4cd3a8faa9c1c10ba6.webp",
+        "alt": "Quality Management"
+      },
+      {
+        "src": "/media/f6d8730255b730478d9827e11a5980e2e5ac18d09dd6fd5da3939e190c95e2bb.webp",
+        "alt": "Quality Management"
+      },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
@@ -1497,8 +2688,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Design and Development",
         "image": {
-          "src": "/media/c97baca31ae7d15eb7dd717e5e63d19059c9a2bf49e7c36fe9879251665fc116.png",
-          "alt": "Design and Development"
+          "src": "/media/35ba69dfcc0902a8c361ffbadd99d1a993a8dd14b9d5a2e3d94bdb49985d2beb.webp",
+          "alt": "图片展示"
         }
       },
       {
@@ -1517,6 +2708,20 @@ export const pages: SitePage[] = [
           "LBH Appliances' R&D department, led by founder Tina, brings together a team of exceptional engineers and designers. Committed to high-quality research and development and the pursuit of excellence, we secured over 40 patents within just four years of our inception.",
           "Our team's objective is to bring you the highest-quality new products available on the market. Great design begins with your ideas and suggestions; building upon this foundation, we identify your specific needs and leverage our manufacturing expertise to provide you with precise, tailored solutions."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/35ba69dfcc0902a8c361ffbadd99d1a993a8dd14b9d5a2e3d94bdb49985d2beb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/97d0a905f346d28738d954d1788712865c543889142b693148907800822503ea.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -1551,6 +2756,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Structural Stability",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ba83503d37552f10616f8cf5943e489a12d8d98010199c1e25a08b8dcec00bc8.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -1592,6 +2804,13 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/3a9f60f7c8ad4524ebaa22b21c2a4d75b611b7328807e798e0c8d676ffe0e915.webp",
+          "alt": "将您的想法转化为草图"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Mold design and processing are estimated and analyzed within 45 days",
         "paragraphs": []
@@ -1616,6 +2835,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "In our mold injection molding factory, we adjust molds to precise dimensions and create new models for rapid production.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+          "alt": "模具设计与加工"
+        }
       },
       {
         "type": "rich-text",
@@ -1645,6 +2871,13 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/de9d1b82ddf1cee8e873a95db343e59bdc3ab190a593d056697e1150e23d04c8.webp",
+          "alt": "原型制作"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
@@ -1664,19 +2897,44 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Talk to a home appliance expert",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       }
     ],
     "images": [
       {
+        "src": "/media/35ba69dfcc0902a8c361ffbadd99d1a993a8dd14b9d5a2e3d94bdb49985d2beb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/97d0a905f346d28738d954d1788712865c543889142b693148907800822503ea.webp",
+        "alt": "图片展示"
+      },
+      {
         "src": "/media/c97baca31ae7d15eb7dd717e5e63d19059c9a2bf49e7c36fe9879251665fc116.png",
         "alt": "Design and Development"
       },
       {
+        "src": "/media/ba83503d37552f10616f8cf5943e489a12d8d98010199c1e25a08b8dcec00bc8.webp",
+        "alt": "图片展示"
+      },
+      {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Design and Development"
+      },
+      {
+        "src": "/media/3a9f60f7c8ad4524ebaa22b21c2a4d75b611b7328807e798e0c8d676ffe0e915.webp",
+        "alt": "将您的想法转化为草图"
+      },
+      {
+        "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+        "alt": "模具设计与加工"
+      },
+      {
+        "src": "/media/de9d1b82ddf1cee8e873a95db343e59bdc3ab190a593d056697e1150e23d04c8.webp",
+        "alt": "原型制作"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -1707,8 +2965,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "设计与研发",
         "image": {
-          "src": "/media/c97baca31ae7d15eb7dd717e5e63d19059c9a2bf49e7c36fe9879251665fc116.png",
-          "alt": "Design and Development"
+          "src": "/media/35ba69dfcc0902a8c361ffbadd99d1a993a8dd14b9d5a2e3d94bdb49985d2beb.webp",
+          "alt": "图片展示"
         }
       },
       {
@@ -1721,19 +2979,95 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/35ba69dfcc0902a8c361ffbadd99d1a993a8dd14b9d5a2e3d94bdb49985d2beb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/97d0a905f346d28738d954d1788712865c543889142b693148907800822503ea.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ba83503d37552f10616f8cf5943e489a12d8d98010199c1e25a08b8dcec00bc8.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/3a9f60f7c8ad4524ebaa22b21c2a4d75b611b7328807e798e0c8d676ffe0e915.webp",
+          "alt": "将您的想法转化为草图"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+          "alt": "模具设计与加工"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/de9d1b82ddf1cee8e873a95db343e59bdc3ab190a593d056697e1150e23d04c8.webp",
+          "alt": "原型制作"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Talk to a home appliance expert",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
+      {
+        "src": "/media/35ba69dfcc0902a8c361ffbadd99d1a993a8dd14b9d5a2e3d94bdb49985d2beb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/97d0a905f346d28738d954d1788712865c543889142b693148907800822503ea.webp",
+        "alt": "图片展示"
+      },
       {
         "src": "/media/c97baca31ae7d15eb7dd717e5e63d19059c9a2bf49e7c36fe9879251665fc116.png",
         "alt": "Design and Development"
       },
       {
+        "src": "/media/ba83503d37552f10616f8cf5943e489a12d8d98010199c1e25a08b8dcec00bc8.webp",
+        "alt": "图片展示"
+      },
+      {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Design and Development"
+      },
+      {
+        "src": "/media/3a9f60f7c8ad4524ebaa22b21c2a4d75b611b7328807e798e0c8d676ffe0e915.webp",
+        "alt": "将您的想法转化为草图"
+      },
+      {
+        "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+        "alt": "模具设计与加工"
+      },
+      {
+        "src": "/media/de9d1b82ddf1cee8e873a95db343e59bdc3ab190a593d056697e1150e23d04c8.webp",
+        "alt": "原型制作"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -1764,8 +3098,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Order Management",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
-          "alt": "Order Management"
+          "src": "/media/cd02b363e8a58c075dce87b53977ee8348f76da29c186402c4e71e5adc971bfb.webp",
+          "alt": "产品上市时间"
         }
       },
       {
@@ -1799,6 +3133,20 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/cd02b363e8a58c075dce87b53977ee8348f76da29c186402c4e71e5adc971bfb.webp",
+          "alt": "产品上市时间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/a2072a93190828df6b57c763b50e42467e3e6f3d30c74ee77de63b664a8623b7.webp",
+          "alt": "轻松了解每笔订单的进度"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Easily understand the progress of each order",
         "paragraphs": []
@@ -1829,6 +3177,13 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/a2072a93190828df6b57c763b50e42467e3e6f3d30c74ee77de63b664a8623b7.webp",
+          "alt": "轻松了解每笔订单的进度"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
@@ -1848,12 +3203,21 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Talk to a home appliance expert",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       }
     ],
     "images": [
+      {
+        "src": "/media/cd02b363e8a58c075dce87b53977ee8348f76da29c186402c4e71e5adc971bfb.webp",
+        "alt": "产品上市时间"
+      },
+      {
+        "src": "/media/a2072a93190828df6b57c763b50e42467e3e6f3d30c74ee77de63b664a8623b7.webp",
+        "alt": "轻松了解每笔订单的进度"
+      },
       {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Order Management"
@@ -1887,8 +3251,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "订单管理",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
-          "alt": "Order Management"
+          "src": "/media/cd02b363e8a58c075dce87b53977ee8348f76da29c186402c4e71e5adc971bfb.webp",
+          "alt": "产品上市时间"
         }
       },
       {
@@ -1901,12 +3265,51 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/cd02b363e8a58c075dce87b53977ee8348f76da29c186402c4e71e5adc971bfb.webp",
+          "alt": "产品上市时间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/a2072a93190828df6b57c763b50e42467e3e6f3d30c74ee77de63b664a8623b7.webp",
+          "alt": "轻松了解每笔订单的进度"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/a2072a93190828df6b57c763b50e42467e3e6f3d30c74ee77de63b664a8623b7.webp",
+          "alt": "轻松了解每笔订单的进度"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Talk to a home appliance expert",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
+      {
+        "src": "/media/cd02b363e8a58c075dce87b53977ee8348f76da29c186402c4e71e5adc971bfb.webp",
+        "alt": "产品上市时间"
+      },
+      {
+        "src": "/media/a2072a93190828df6b57c763b50e42467e3e6f3d30c74ee77de63b664a8623b7.webp",
+        "alt": "轻松了解每笔订单的进度"
+      },
       {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Order Management"
@@ -1940,8 +3343,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Product Manufacturing",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
-          "alt": "图片展示"
+          "src": "/media/9b9dca5f3b7be12aecc5cb74df4972c019a3e7014c22c5f1cbcfd4c0c4615bef.webp",
+          "alt": "驱动主板"
         }
       },
       {
@@ -2066,9 +3469,23 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/e8cf8ab094e2482f67195a81d1401e1bd220c3c345dc2e89cad5e84d2e357726.webp",
+          "alt": "老化测试"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Aging test",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/7a6426b1696d661573e0ced025c3febf53da0392958e5d59b54ef046bdb9de12.webp",
+          "alt": "产品清洁"
+        }
       },
       {
         "type": "rich-text",
@@ -2076,9 +3493,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/f3c9b8c6ff3e91f9c293cb624404b421c523d6d63615da1d1b5805d7311c621d.webp",
+          "alt": "成品包装"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Finished product packaging",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/edf0d917e11e9f4823746eff239b78a99531d70db43060eebbf821febbaa496e.webp",
+          "alt": "成品装箱"
+        }
       },
       {
         "type": "rich-text",
@@ -2107,12 +3538,93 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Talk to a home appliance expert",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       }
     ],
     "images": [
+      {
+        "src": "/media/9b9dca5f3b7be12aecc5cb74df4972c019a3e7014c22c5f1cbcfd4c0c4615bef.webp",
+        "alt": "驱动主板"
+      },
+      {
+        "src": "/media/e5141ddc3c8d12d893c5b21c39d700868063a0b0cdec9d44afce3eb788bce87c.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/ae4973ceacd0705e4e7d3c9e67fd7e002fef19f2826499674dd25fd661be5d06.webp",
+        "alt": "壳料注塑"
+      },
+      {
+        "src": "/media/b07d02443e2058b1192fbfe6448a8ce26c5cc4a30e0d7ddb05b11028e876a3bb.webp",
+        "alt": "吹风机制造"
+      },
+      {
+        "src": "/media/f3c9b8c6ff3e91f9c293cb624404b421c523d6d63615da1d1b5805d7311c621d.webp",
+        "alt": "成品包装"
+      },
+      {
+        "src": "/media/03bfd685c95182f4dd1453ce2f06dac90e5e13faf75c086569237ef259794062.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/995c80cc375349cd8ce7b2cfdf52cc1b67e0442d5cb12dfc19986ab352d3fa77.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/3b8ce9e266a0a476f4dc33caff0c77b65ddbec8a3fc26c2fb5859adbde2732ca.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/50ada9d121f761df0e4a6e7c0cf2819329ac43a8ab62d8abc6d0c95bafd57762.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/6b2a2d0d6e88290aab33226601706f302b391e2cb3ca2d97212e8997edde2af8.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/7525d7a290563bdff4cb9f7b2a2ea8511a8f17bb58959f489208b28134bc8df4.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/2aaf3eb25c7ed4d480ab6b2e40e8afab21041d0bfb614f46db7b76ec8b2e0e9a.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/66b021a46d87c006da71d682e4c87674ff2f6ce5d2308257f85f8a741bb3e5ec.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/03a0e72060ec226e8b12a24188a5a947802ef813863da178d2348db811c3608e.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/433b55ab1bd63e5acb52dd57756183e6fa8568d4e4552bedbfea2c411fd6610a.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/3d722f698973d5ddc524bab60cf48e525778349199fc85b3bcf140374a9e0a71.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/ac082c275ff5a971185d6aab934eb898de93cf90ef3513db4891623c11d54fc3.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/e8cf8ab094e2482f67195a81d1401e1bd220c3c345dc2e89cad5e84d2e357726.webp",
+        "alt": "老化测试"
+      },
+      {
+        "src": "/media/7a6426b1696d661573e0ced025c3febf53da0392958e5d59b54ef046bdb9de12.webp",
+        "alt": "产品清洁"
+      },
+      {
+        "src": "/media/edf0d917e11e9f4823746eff239b78a99531d70db43060eebbf821febbaa496e.webp",
+        "alt": "成品装箱"
+      },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
@@ -2142,8 +3654,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "产品制造",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
-          "alt": "图片展示"
+          "src": "/media/9b9dca5f3b7be12aecc5cb74df4972c019a3e7014c22c5f1cbcfd4c0c4615bef.webp",
+          "alt": "驱动主板"
         }
       },
       {
@@ -2156,12 +3668,130 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/e8cf8ab094e2482f67195a81d1401e1bd220c3c345dc2e89cad5e84d2e357726.webp",
+          "alt": "老化测试"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/7a6426b1696d661573e0ced025c3febf53da0392958e5d59b54ef046bdb9de12.webp",
+          "alt": "产品清洁"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f3c9b8c6ff3e91f9c293cb624404b421c523d6d63615da1d1b5805d7311c621d.webp",
+          "alt": "成品包装"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/edf0d917e11e9f4823746eff239b78a99531d70db43060eebbf821febbaa496e.webp",
+          "alt": "成品装箱"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Talk to a home appliance expert",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
+      {
+        "src": "/media/9b9dca5f3b7be12aecc5cb74df4972c019a3e7014c22c5f1cbcfd4c0c4615bef.webp",
+        "alt": "驱动主板"
+      },
+      {
+        "src": "/media/e5141ddc3c8d12d893c5b21c39d700868063a0b0cdec9d44afce3eb788bce87c.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/ae4973ceacd0705e4e7d3c9e67fd7e002fef19f2826499674dd25fd661be5d06.webp",
+        "alt": "壳料注塑"
+      },
+      {
+        "src": "/media/b07d02443e2058b1192fbfe6448a8ce26c5cc4a30e0d7ddb05b11028e876a3bb.webp",
+        "alt": "吹风机制造"
+      },
+      {
+        "src": "/media/f3c9b8c6ff3e91f9c293cb624404b421c523d6d63615da1d1b5805d7311c621d.webp",
+        "alt": "成品包装"
+      },
+      {
+        "src": "/media/03bfd685c95182f4dd1453ce2f06dac90e5e13faf75c086569237ef259794062.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/995c80cc375349cd8ce7b2cfdf52cc1b67e0442d5cb12dfc19986ab352d3fa77.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/3b8ce9e266a0a476f4dc33caff0c77b65ddbec8a3fc26c2fb5859adbde2732ca.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/50ada9d121f761df0e4a6e7c0cf2819329ac43a8ab62d8abc6d0c95bafd57762.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/6b2a2d0d6e88290aab33226601706f302b391e2cb3ca2d97212e8997edde2af8.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/7525d7a290563bdff4cb9f7b2a2ea8511a8f17bb58959f489208b28134bc8df4.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/2aaf3eb25c7ed4d480ab6b2e40e8afab21041d0bfb614f46db7b76ec8b2e0e9a.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/66b021a46d87c006da71d682e4c87674ff2f6ce5d2308257f85f8a741bb3e5ec.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/03a0e72060ec226e8b12a24188a5a947802ef813863da178d2348db811c3608e.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/433b55ab1bd63e5acb52dd57756183e6fa8568d4e4552bedbfea2c411fd6610a.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/3d722f698973d5ddc524bab60cf48e525778349199fc85b3bcf140374a9e0a71.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/ac082c275ff5a971185d6aab934eb898de93cf90ef3513db4891623c11d54fc3.webp",
+        "alt": "Product Manufacturing"
+      },
+      {
+        "src": "/media/e8cf8ab094e2482f67195a81d1401e1bd220c3c345dc2e89cad5e84d2e357726.webp",
+        "alt": "老化测试"
+      },
+      {
+        "src": "/media/7a6426b1696d661573e0ced025c3febf53da0392958e5d59b54ef046bdb9de12.webp",
+        "alt": "产品清洁"
+      },
+      {
+        "src": "/media/edf0d917e11e9f4823746eff239b78a99531d70db43060eebbf821febbaa496e.webp",
+        "alt": "成品装箱"
+      },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
@@ -2191,8 +3821,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Product Warranty and After-Sales Service",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
-          "alt": "Product Warranty and After-Sales Service"
+          "src": "/media/dfe2db73f1dfa93c0fe1a2154fbfc90af716e67f8a6f162db65420d12b05e06c.webp",
+          "alt": "图片展示"
         }
       },
       {
@@ -2207,6 +3837,20 @@ export const pages: SitePage[] = [
           "To prove our confidence in our products, every product shipped from our warehouse comes with a one-year warranty.",
           "This warranty covers any problems with the products we develop and produce, and provides quick replacement if needed."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/dfe2db73f1dfa93c0fe1a2154fbfc90af716e67f8a6f162db65420d12b05e06c.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5a8dc46de50ee7379781665d127c2267369fdee4abfaf70a761967bb1d786306.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -2238,6 +3882,13 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/5a8dc46de50ee7379781665d127c2267369fdee4abfaf70a761967bb1d786306.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
@@ -2257,12 +3908,21 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Talk to a home appliance expert",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       }
     ],
     "images": [
+      {
+        "src": "/media/dfe2db73f1dfa93c0fe1a2154fbfc90af716e67f8a6f162db65420d12b05e06c.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5a8dc46de50ee7379781665d127c2267369fdee4abfaf70a761967bb1d786306.webp",
+        "alt": "图片展示"
+      },
       {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Product Warranty and After-Sales Service"
@@ -2296,8 +3956,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "产品保修与售后服务",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
-          "alt": "Product Warranty and After-Sales Service"
+          "src": "/media/dfe2db73f1dfa93c0fe1a2154fbfc90af716e67f8a6f162db65420d12b05e06c.webp",
+          "alt": "图片展示"
         }
       },
       {
@@ -2310,12 +3970,51 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/dfe2db73f1dfa93c0fe1a2154fbfc90af716e67f8a6f162db65420d12b05e06c.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5a8dc46de50ee7379781665d127c2267369fdee4abfaf70a761967bb1d786306.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5a8dc46de50ee7379781665d127c2267369fdee4abfaf70a761967bb1d786306.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Talk to a home appliance expert",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
+      {
+        "src": "/media/dfe2db73f1dfa93c0fe1a2154fbfc90af716e67f8a6f162db65420d12b05e06c.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5a8dc46de50ee7379781665d127c2267369fdee4abfaf70a761967bb1d786306.webp",
+        "alt": "图片展示"
+      },
       {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Product Warranty and After-Sales Service"
@@ -2347,7 +4046,11 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "Company Introduction"
+        "title": "Company Introduction",
+        "image": {
+          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -2358,6 +4061,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "So how to define LBH",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -2392,6 +4102,35 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+            "alt": ""
+          }
+        ]
+      },
+      {
         "type": "rich-text",
         "heading": "How are we different?",
         "paragraphs": []
@@ -2400,6 +4139,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "LBH Core Culture: Believe to See",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -2523,6 +4269,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "paragraphs": [
           "The high-speed hair dryer products LBH customized for us stand at the forefront of the industry in terms of both design and technical innovation. In the face of fierce market competition, and thanks to the product's unique differentiation and exceptional user experience, we rapidly secured a significant market share within a short period. The LBH team has fully delivered on the promises they made to us at the outset. Today, having successfully expanded into new domestic markets, our deep collaboration with LBH continues. We extend our sincere gratitude to the LBH team for their hard work and dedication."
@@ -2532,6 +4285,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "—— Jeff Deng",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -2545,6 +4305,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "paragraphs": [
           "The high-speed hair dryer products LHB customized for us stand at the forefront of the industry in terms of both design and technical innovation. In the face of fierce market competition, the products' unique differentiation and superior user experience enabled us to secure a significant market share within a very short period. The LHB team has fully delivered on the initial commitments they made to us. We have now successfully expanded into new international markets, and our deeper collaboration with LHB continues to evolve. We extend our sincere thanks to the LHB team for their hard work and dedication."
@@ -2556,7 +4323,68 @@ export const pages: SitePage[] = [
         "paragraphs": []
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/a8a76af0d404c01c4266bf3dc930cc09dee4970fa6513b2270da45261746030c.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/d1520b0bf29f8da18269cd3a2e9c77df2ad61bf6ca85d043524df7df936eb303.png",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/f8614aa5f8f69ebedb65994a14cb64b4e82ec7a4c05a90c5c37085e2e00cb2bd.png",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/a3ea061df5ae7957bb5927a3e054b59dd1d23ed08661976b8093d98b39f187f6.png",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Company_Introduction",
       "sourceLocale": "en",
@@ -2579,7 +4407,11 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "公司介绍"
+        "title": "公司介绍",
+        "image": {
+          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -2587,9 +4419,134 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "LBH电器创立于 2020 年，专注于采用高速电机的个护小家电设计、研发、制造与销售。我们重视技术创新、设计美学和用户体验，并通过供应链与品牌伙伴合作创造价值。"
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/a8a76af0d404c01c4266bf3dc930cc09dee4970fa6513b2270da45261746030c.webp",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/d1520b0bf29f8da18269cd3a2e9c77df2ad61bf6ca85d043524df7df936eb303.png",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/f8614aa5f8f69ebedb65994a14cb64b4e82ec7a4c05a90c5c37085e2e00cb2bd.png",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/a3ea061df5ae7957bb5927a3e054b59dd1d23ed08661976b8093d98b39f187f6.png",
+        "alt": "Company Introduction"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Company_Introduction",
       "sourceLocale": "en",
@@ -2614,14 +4571,21 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Leadership Team",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
-          "alt": "图片展示"
+          "src": "/media/0ba64ace8e3989dfa154e2c7a9a8955f229c7025efbc40931ec8e3309e8c8c29.webp",
+          "alt": "领导团队"
         }
       },
       {
         "type": "rich-text",
         "heading": "Leadership Team",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/0ba64ace8e3989dfa154e2c7a9a8955f229c7025efbc40931ec8e3309e8c8c29.webp",
+          "alt": "领导团队"
+        }
       },
       {
         "type": "rich-text",
@@ -2633,6 +4597,20 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "We engage sincerely with every client, reflecting our commitment to building meaningful connections; the LBH Appliances team is renowned for its professionalism, enthusiasm, and unwavering dedication to delivering high-quality personal care and home appliance solutions!"
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/48947aad2836af58cec8f19097a166fe96b02ebc9021019b9615336d34b8131b.png",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2fed2b1b37f0213e2360cdbcbdfb0b0fd0f6c3b26c441513c149cba2f0a7faa.png",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "media",
@@ -2664,6 +4642,18 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
+        "src": "/media/0ba64ace8e3989dfa154e2c7a9a8955f229c7025efbc40931ec8e3309e8c8c29.webp",
+        "alt": "领导团队"
+      },
+      {
+        "src": "/media/48947aad2836af58cec8f19097a166fe96b02ebc9021019b9615336d34b8131b.png",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2fed2b1b37f0213e2360cdbcbdfb0b0fd0f6c3b26c441513c149cba2f0a7faa.png",
+        "alt": "图片展示"
+      },
+      {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
       }
@@ -2692,8 +4682,8 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "领导团队",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
-          "alt": "图片展示"
+          "src": "/media/0ba64ace8e3989dfa154e2c7a9a8955f229c7025efbc40931ec8e3309e8c8c29.webp",
+          "alt": "领导团队"
         }
       },
       {
@@ -2706,12 +4696,55 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/0ba64ace8e3989dfa154e2c7a9a8955f229c7025efbc40931ec8e3309e8c8c29.webp",
+          "alt": "领导团队"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/48947aad2836af58cec8f19097a166fe96b02ebc9021019b9615336d34b8131b.png",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2fed2b1b37f0213e2360cdbcbdfb0b0fd0f6c3b26c441513c149cba2f0a7faa.png",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "咨询家电专家",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
+      {
+        "src": "/media/0ba64ace8e3989dfa154e2c7a9a8955f229c7025efbc40931ec8e3309e8c8c29.webp",
+        "alt": "领导团队"
+      },
+      {
+        "src": "/media/48947aad2836af58cec8f19097a166fe96b02ebc9021019b9615336d34b8131b.png",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2fed2b1b37f0213e2360cdbcbdfb0b0fd0f6c3b26c441513c149cba2f0a7faa.png",
+        "alt": "图片展示"
+      },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
@@ -2739,7 +4772,11 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "Factory Tour"
+        "title": "Factory Tour",
+        "image": {
+          "src": "/media/04fa55b8aa685bb4f41f03a87ccfc03ed3e6dbdc4e0ea0213df53e4e4f513ac5.webp",
+          "alt": "Factory Tour"
+        }
       },
       {
         "type": "rich-text",
@@ -2823,9 +4860,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d06cc955363a1dac0f683a8bc749aa58f8806e3e27e3ce8ff30e746d0afc05cd.webp",
+          "alt": "原材料储存"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Mold Casting Workshop",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f5c4c506fe45a61127f23042287ece98e59d2d4643989e61e9c5c1e6daec1e5d.webp",
+          "alt": "模具铸造车间"
+        }
       },
       {
         "type": "rich-text",
@@ -2833,9 +4884,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/5dfce62e3fe4b3175907b07aa4d6b048b7a2df667d61df2609c7f6010e6eb825.webp",
+          "alt": "注塑成型车间"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Grinding Workshop",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+          "alt": "打磨车间"
+        }
       },
       {
         "type": "rich-text",
@@ -2843,9 +4908,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/b144e8db332ecb8cf32a10a2dbe08277ab9c543144a62d73bf341131545ca7c7.webp",
+          "alt": "装配车间"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Packaging Workshop",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/62cb549ed41b79b28ca06f7a6839076b1b17a5e7bcf928b19b3a85d985e586bf.webp",
+          "alt": "包装车间"
+        }
       },
       {
         "type": "rich-text",
@@ -2853,17 +4932,99 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/5279774893556301e3e61ea52cbfdefc6355d3752b3f8d52228090b498e1932f.webp",
+          "alt": "质量检验车间"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Finished Goods Storage Workshop",
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d59c99832f538ff0222d62a26025cf8ec14102c1e86b1832eb358f5a7a2e99c8.webp",
+          "alt": "成品存储车间"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Lean Management — Based on 5S Principles",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/971f9eb9dfd719ccdc24d0b5d9bfd52ba090e850fffa561ee0e741c22ec1f933.webp",
+          "alt": "精益管理——基于5S原则"
+        }
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/04fa55b8aa685bb4f41f03a87ccfc03ed3e6dbdc4e0ea0213df53e4e4f513ac5.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/322d82ace13db1a2533927f57ea6c02ba1a3ed00a28c7efd43d0e10fb132feba.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/c2e1b773d066bce38ba2f0b00af76a7a42f8194584b396a7e00b7239a5214b35.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/c5e2f00ffe25d40035cf89c07db17ddb8fc045714b07806ccb44d18fb9e045ac.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/966d43b628b96e7d0af8853b857d79d51764086f584b7d93c69017af9d911451.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/86e1277874fc324711b6c1e8ff1347288335998f066d7e3f5ae475147abea2a5.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/d06cc955363a1dac0f683a8bc749aa58f8806e3e27e3ce8ff30e746d0afc05cd.webp",
+        "alt": "原材料储存"
+      },
+      {
+        "src": "/media/f5c4c506fe45a61127f23042287ece98e59d2d4643989e61e9c5c1e6daec1e5d.webp",
+        "alt": "模具铸造车间"
+      },
+      {
+        "src": "/media/5dfce62e3fe4b3175907b07aa4d6b048b7a2df667d61df2609c7f6010e6eb825.webp",
+        "alt": "注塑成型车间"
+      },
+      {
+        "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+        "alt": "打磨车间"
+      },
+      {
+        "src": "/media/b144e8db332ecb8cf32a10a2dbe08277ab9c543144a62d73bf341131545ca7c7.webp",
+        "alt": "装配车间"
+      },
+      {
+        "src": "/media/62cb549ed41b79b28ca06f7a6839076b1b17a5e7bcf928b19b3a85d985e586bf.webp",
+        "alt": "包装车间"
+      },
+      {
+        "src": "/media/5279774893556301e3e61ea52cbfdefc6355d3752b3f8d52228090b498e1932f.webp",
+        "alt": "质量检验车间"
+      },
+      {
+        "src": "/media/d59c99832f538ff0222d62a26025cf8ec14102c1e86b1832eb358f5a7a2e99c8.webp",
+        "alt": "成品存储车间"
+      },
+      {
+        "src": "/media/971f9eb9dfd719ccdc24d0b5d9bfd52ba090e850fffa561ee0e741c22ec1f933.webp",
+        "alt": "精益管理——基于5S原则"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Factory_tour",
       "sourceLocale": "en",
@@ -2886,7 +5047,11 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "工厂参观"
+        "title": "工厂参观",
+        "image": {
+          "src": "/media/04fa55b8aa685bb4f41f03a87ccfc03ed3e6dbdc4e0ea0213df53e4e4f513ac5.webp",
+          "alt": "Factory Tour"
+        }
       },
       {
         "type": "rich-text",
@@ -2894,9 +5059,133 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "走进通过 ISO 9001:2000 认证的制造工厂，了解组装现场、电机工厂、专用生产车间、制造设备和经过校准的检测工具。"
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d06cc955363a1dac0f683a8bc749aa58f8806e3e27e3ce8ff30e746d0afc05cd.webp",
+          "alt": "原材料储存"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f5c4c506fe45a61127f23042287ece98e59d2d4643989e61e9c5c1e6daec1e5d.webp",
+          "alt": "模具铸造车间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5dfce62e3fe4b3175907b07aa4d6b048b7a2df667d61df2609c7f6010e6eb825.webp",
+          "alt": "注塑成型车间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+          "alt": "打磨车间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b144e8db332ecb8cf32a10a2dbe08277ab9c543144a62d73bf341131545ca7c7.webp",
+          "alt": "装配车间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/62cb549ed41b79b28ca06f7a6839076b1b17a5e7bcf928b19b3a85d985e586bf.webp",
+          "alt": "包装车间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5279774893556301e3e61ea52cbfdefc6355d3752b3f8d52228090b498e1932f.webp",
+          "alt": "质量检验车间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d59c99832f538ff0222d62a26025cf8ec14102c1e86b1832eb358f5a7a2e99c8.webp",
+          "alt": "成品存储车间"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/971f9eb9dfd719ccdc24d0b5d9bfd52ba090e850fffa561ee0e741c22ec1f933.webp",
+          "alt": "精益管理——基于5S原则"
+        }
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/04fa55b8aa685bb4f41f03a87ccfc03ed3e6dbdc4e0ea0213df53e4e4f513ac5.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/322d82ace13db1a2533927f57ea6c02ba1a3ed00a28c7efd43d0e10fb132feba.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/c2e1b773d066bce38ba2f0b00af76a7a42f8194584b396a7e00b7239a5214b35.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/c5e2f00ffe25d40035cf89c07db17ddb8fc045714b07806ccb44d18fb9e045ac.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/966d43b628b96e7d0af8853b857d79d51764086f584b7d93c69017af9d911451.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/86e1277874fc324711b6c1e8ff1347288335998f066d7e3f5ae475147abea2a5.webp",
+        "alt": "Factory Tour"
+      },
+      {
+        "src": "/media/d06cc955363a1dac0f683a8bc749aa58f8806e3e27e3ce8ff30e746d0afc05cd.webp",
+        "alt": "原材料储存"
+      },
+      {
+        "src": "/media/f5c4c506fe45a61127f23042287ece98e59d2d4643989e61e9c5c1e6daec1e5d.webp",
+        "alt": "模具铸造车间"
+      },
+      {
+        "src": "/media/5dfce62e3fe4b3175907b07aa4d6b048b7a2df667d61df2609c7f6010e6eb825.webp",
+        "alt": "注塑成型车间"
+      },
+      {
+        "src": "/media/f5d66808fbe79e5feb6d2974fca83f213e875b52d5cf6be2f714b9190c991cbc.webp",
+        "alt": "打磨车间"
+      },
+      {
+        "src": "/media/b144e8db332ecb8cf32a10a2dbe08277ab9c543144a62d73bf341131545ca7c7.webp",
+        "alt": "装配车间"
+      },
+      {
+        "src": "/media/62cb549ed41b79b28ca06f7a6839076b1b17a5e7bcf928b19b3a85d985e586bf.webp",
+        "alt": "包装车间"
+      },
+      {
+        "src": "/media/5279774893556301e3e61ea52cbfdefc6355d3752b3f8d52228090b498e1932f.webp",
+        "alt": "质量检验车间"
+      },
+      {
+        "src": "/media/d59c99832f538ff0222d62a26025cf8ec14102c1e86b1832eb358f5a7a2e99c8.webp",
+        "alt": "成品存储车间"
+      },
+      {
+        "src": "/media/971f9eb9dfd719ccdc24d0b5d9bfd52ba090e850fffa561ee0e741c22ec1f933.webp",
+        "alt": "精益管理——基于5S原则"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Factory_tour",
       "sourceLocale": "en",
@@ -3112,15 +5401,73 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "LBH Product Certification"
+        "title": "LBH Product Certification",
+        "image": {
+          "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+          "alt": "LBH Product Certification"
+        }
       },
       {
         "type": "rich-text",
         "heading": "LBH Product Certification",
         "paragraphs": []
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+            "alt": ""
+          }
+        ]
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+        "alt": "LBH Product Certification"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Certification_certificate",
       "sourceLocale": "en",
@@ -3143,7 +5490,11 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "产品认证"
+        "title": "产品认证",
+        "image": {
+          "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+          "alt": "LBH Product Certification"
+        }
       },
       {
         "type": "rich-text",
@@ -3151,9 +5502,63 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "查看 LBH电器的产品认证与证书。"
         ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+            "alt": ""
+          }
+        ]
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
+        "alt": "LBH Product Certification"
+      },
+      {
+        "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
+        "alt": "LBH Product Certification"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Certification_certificate",
       "sourceLocale": "en",
@@ -3176,7 +5581,11 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "Sustainable Development"
+        "title": "Sustainable Development",
+        "image": {
+          "src": "/media/b3233cd3833b5075bcc929eb4a886c1386bc9889d560edc13805bac93f86e366.webp",
+          "alt": "生态第一，利润第二"
+        }
       },
       {
         "type": "rich-text",
@@ -3196,6 +5605,20 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/b3233cd3833b5075bcc929eb4a886c1386bc9889d560edc13805bac93f86e366.webp",
+          "alt": "生态第一，利润第二"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/eca8ecbb346975891e5632bdc3bb331504af1a442557d0dc953db091099935f5.webp",
+          "alt": "高速电机"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Hello, High-Speed ​​Motor",
         "paragraphs": [
@@ -3209,6 +5632,13 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/eca8ecbb346975891e5632bdc3bb331504af1a442557d0dc953db091099935f5.webp",
+          "alt": "高速电机"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Talent: The Driving Force for Long-Term Development",
         "paragraphs": []
@@ -3219,9 +5649,29 @@ export const pages: SitePage[] = [
           "LBH Appliances recruits young, dynamic, and exceptional talent, and trains them through our programs—initiatives that encompass sustainable industry practices and community engagement.",
           "The value we provide to our employees ensures they are equipped to identify effective, sustainable solutions in the future."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b04bfca93e7b549bff928a08efbd954bd667dbe0c59867cf2be9fe93f139401f.webp",
+          "alt": "人才：长期发展的驱动力"
+        }
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/b3233cd3833b5075bcc929eb4a886c1386bc9889d560edc13805bac93f86e366.webp",
+        "alt": "生态第一，利润第二"
+      },
+      {
+        "src": "/media/eca8ecbb346975891e5632bdc3bb331504af1a442557d0dc953db091099935f5.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/b04bfca93e7b549bff928a08efbd954bd667dbe0c59867cf2be9fe93f139401f.webp",
+        "alt": "人才：长期发展的驱动力"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Sustainable_Development",
       "sourceLocale": "en",
@@ -3244,7 +5694,11 @@ export const pages: SitePage[] = [
     "blocks": [
       {
         "type": "hero",
-        "title": "可持续发展"
+        "title": "可持续发展",
+        "image": {
+          "src": "/media/b3233cd3833b5075bcc929eb4a886c1386bc9889d560edc13805bac93f86e366.webp",
+          "alt": "生态第一，利润第二"
+        }
       },
       {
         "type": "rich-text",
@@ -3252,9 +5706,50 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "生态优先，利润其次。通过先进设备和专业人才减少能耗与废弃物，发展高效电机产品、环保包装和可持续生产，并关注员工与社区的长期发展。"
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b3233cd3833b5075bcc929eb4a886c1386bc9889d560edc13805bac93f86e366.webp",
+          "alt": "生态第一，利润第二"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/eca8ecbb346975891e5632bdc3bb331504af1a442557d0dc953db091099935f5.webp",
+          "alt": "高速电机"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/eca8ecbb346975891e5632bdc3bb331504af1a442557d0dc953db091099935f5.webp",
+          "alt": "高速电机"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b04bfca93e7b549bff928a08efbd954bd667dbe0c59867cf2be9fe93f139401f.webp",
+          "alt": "人才：长期发展的驱动力"
+        }
       }
     ],
-    "images": [],
+    "images": [
+      {
+        "src": "/media/b3233cd3833b5075bcc929eb4a886c1386bc9889d560edc13805bac93f86e366.webp",
+        "alt": "生态第一，利润第二"
+      },
+      {
+        "src": "/media/eca8ecbb346975891e5632bdc3bb331504af1a442557d0dc953db091099935f5.webp",
+        "alt": "高速电机"
+      },
+      {
+        "src": "/media/b04bfca93e7b549bff928a08efbd954bd667dbe0c59867cf2be9fe93f139401f.webp",
+        "alt": "人才：长期发展的驱动力"
+      }
+    ],
     "provenance": {
       "sourceUrl": "https://lbhappliances.com/en/Sustainable_Development",
       "sourceLocale": "en",
@@ -3316,11 +5811,25 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
+          "alt": "我们的队伍"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Our Team",
         "paragraphs": [
           "Possesses profound product knowledge and a strong sense of responsibility."
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
+          "alt": "我们的队伍"
+        }
       },
       {
         "type": "rich-text",
@@ -3334,14 +5843,35 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/f9905073e2b0f8adc86ddaa87d80a04e756822f5b2e04e4eba96c89645527342.webp",
+          "alt": "自研产品老化系统"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "In-house Developed Product Aging System",
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/6ccbe1bdd5c454c00ba0d6e9b34d76303601bb07cf569bb452c4f4878040522d.webp",
+          "alt": "电子元器件测试设备"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Electronic Component Testing Equipment",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/a58b3d49af89505ece2f3a80ff9174a69c028734ee739696eea420e5a579d3b7.webp",
+          "alt": "振动跌落试验设备"
+        }
       },
       {
         "type": "rich-text",
@@ -3353,6 +5883,34 @@ export const pages: SitePage[] = [
       {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Product Lab"
+      },
+      {
+        "src": "/media/086f325bc712575f7534f3daaf7abb42fe4014a1d252935574fb4ae6db2abdf3.webp",
+        "alt": "Product Lab"
+      },
+      {
+        "src": "/media/fde3b914ae9050aa40c03159ac28c0e8c2a7efbc289b51a287eb9b7fca399bb1.webp",
+        "alt": "Product Lab"
+      },
+      {
+        "src": "/media/44cbdac2701d385904a0b132fb13b8fe5286d3a1ac58258fb8d88dfdaad57681.webp",
+        "alt": "Product Lab"
+      },
+      {
+        "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
+        "alt": "我们的队伍"
+      },
+      {
+        "src": "/media/f9905073e2b0f8adc86ddaa87d80a04e756822f5b2e04e4eba96c89645527342.webp",
+        "alt": "自研产品老化系统"
+      },
+      {
+        "src": "/media/6ccbe1bdd5c454c00ba0d6e9b34d76303601bb07cf569bb452c4f4878040522d.webp",
+        "alt": "电子元器件测试设备"
+      },
+      {
+        "src": "/media/a58b3d49af89505ece2f3a80ff9174a69c028734ee739696eea420e5a579d3b7.webp",
+        "alt": "振动跌落试验设备"
       }
     ],
     "provenance": {
@@ -3389,12 +5947,75 @@ export const pages: SitePage[] = [
         "paragraphs": [
           "在产品开发各阶段严格把控质量，开展设计灵活性、采购零件、完整样机和成品抽检等测试。专业团队与先进检测设备共同保障产品质量。"
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
+          "alt": "我们的队伍"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
+          "alt": "我们的队伍"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f9905073e2b0f8adc86ddaa87d80a04e756822f5b2e04e4eba96c89645527342.webp",
+          "alt": "自研产品老化系统"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6ccbe1bdd5c454c00ba0d6e9b34d76303601bb07cf569bb452c4f4878040522d.webp",
+          "alt": "电子元器件测试设备"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/a58b3d49af89505ece2f3a80ff9174a69c028734ee739696eea420e5a579d3b7.webp",
+          "alt": "振动跌落试验设备"
+        }
       }
     ],
     "images": [
       {
         "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
         "alt": "Product Lab"
+      },
+      {
+        "src": "/media/086f325bc712575f7534f3daaf7abb42fe4014a1d252935574fb4ae6db2abdf3.webp",
+        "alt": "Product Lab"
+      },
+      {
+        "src": "/media/fde3b914ae9050aa40c03159ac28c0e8c2a7efbc289b51a287eb9b7fca399bb1.webp",
+        "alt": "Product Lab"
+      },
+      {
+        "src": "/media/44cbdac2701d385904a0b132fb13b8fe5286d3a1ac58258fb8d88dfdaad57681.webp",
+        "alt": "Product Lab"
+      },
+      {
+        "src": "/media/53d74febec14aef38a33ea12926fdd5bcedca388ef3c4149c6da74f88850d2a6.webp",
+        "alt": "我们的队伍"
+      },
+      {
+        "src": "/media/f9905073e2b0f8adc86ddaa87d80a04e756822f5b2e04e4eba96c89645527342.webp",
+        "alt": "自研产品老化系统"
+      },
+      {
+        "src": "/media/6ccbe1bdd5c454c00ba0d6e9b34d76303601bb07cf569bb452c4f4878040522d.webp",
+        "alt": "电子元器件测试设备"
+      },
+      {
+        "src": "/media/a58b3d49af89505ece2f3a80ff9174a69c028734ee739696eea420e5a579d3b7.webp",
+        "alt": "振动跌落试验设备"
       }
     ],
     "provenance": {
@@ -3431,9 +6052,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "We strictly follow a systematic product manufacturing process to ensure that each batch of orders can be produced on time and with guaranteed quality.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3441,9 +6076,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Our self-designed model offers competitive prices and can help save more costs.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3451,9 +6100,37 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Our proprietary models offer competitive pricing, allowing for greater cost savings.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "cta",
@@ -3470,7 +6147,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Request Full Product Catalog",
-            "href": "/en/Product_Catalogue"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -3574,7 +6252,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Get Product Catalog",
-            "href": "/en/Product_Catalogue"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -3594,6 +6273,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Color Options",
         "paragraphs": []
@@ -3602,6 +6288,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Customize colors based on the preferences of users in the target market to create the perfect color scheme.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3614,6 +6307,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Control System",
         "paragraphs": []
@@ -3622,6 +6322,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Edit the mainboard program to enable the specified product's functional mode.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3634,6 +6341,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Packaging Design",
         "paragraphs": []
@@ -3642,6 +6356,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Choosing eco-friendly packaging solutions demonstrates your commitment to sustainability and strengthens your brand image.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3673,6 +6394,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Targeting Offline Customers",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f17bbe9eb717a9b69c7fd28ff6f12c50cb40536834e95f524ee709eba61e8749.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3710,6 +6438,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/7593192c7d696c0a1fb43ddd16c90fcb90f70ac2c452a309be03e7c1994993ca.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "1.Flexible Delivery Times",
         "paragraphs": []
@@ -3743,6 +6478,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Brand Partners",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f08a2738e04a9d8e967b7cfd83121746fb76114134c8deeb217e2faee47ed4c1.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3817,9 +6559,23 @@ export const pages: SitePage[] = [
         ]
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Submit a request",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3827,9 +6583,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Structural Design",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3837,9 +6607,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Prototype Creation",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3847,9 +6631,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Sample and Trial Order Production",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -3944,7 +6742,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Order Now",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -3957,6 +6756,39 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "paragraphs": [
           "In accordance with client requirements, the products undergo various technical certifications and tests—such as CCC, FCC, CE, IC, RoHS, UL, and ISO 9001—on an annual basis to ensure compliance with international standards for safety, quality, and efficiency."
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+            "alt": ""
+          }
         ]
       },
       {
@@ -4024,6 +6856,26 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
+          {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
           },
@@ -4032,6 +6884,13 @@ export const pages: SitePage[] = [
             "alt": ""
           }
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -4045,6 +6904,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "paragraphs": [
           "LBH is the most efficient team we have ever collaborated with. From our initial meeting to the final product delivery, the entire process took just over two months—a feat that would have been unimaginable in the past! More importantly, the development process for the new product was expertly managed to successfully avoid any potential patent issues. Consumers absolutely love our product's aesthetic, and since its launch, it has received excellent feedback from the market. We look forward to continuing our partnership in the future to develop even more innovative products. The LBH team gives us complete peace of mind!"
@@ -4054,6 +6920,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "—— Warren Steve",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -4093,7 +6966,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Inquire Now",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       }
@@ -4116,6 +6990,102 @@ export const pages: SitePage[] = [
         "alt": "LBH-WY605"
       },
       {
+        "src": "/media/708b501bf583e6305c53d016145758583ea980c51372658b698eb759b23b7007.png",
+        "alt": "LBH-WY602"
+      },
+      {
+        "src": "/media/fe544358ebd453b57b266fc5f4cc8c92efb03054b993fcd89defdebaab620644.png",
+        "alt": "LBH-HD020"
+      },
+      {
+        "src": "/media/60cf76f88a5a481435914f441464d18febd43f4155e8c625f508471b37c71165.png",
+        "alt": "LBH-EF488"
+      },
+      {
+        "src": "/media/3b77c881e64938b4ce34626b1b9ca91806e73898d05b3c637673699b93a83cd4.png",
+        "alt": "LBH-D1"
+      },
+      {
+        "src": "/media/08a2998c78903ca9bbd06b80901b6bf605682cf35f5faeaeb11850f4b3cf6af0.png",
+        "alt": "LBH-BD24"
+      },
+      {
+        "src": "/media/1f695af7c5a4a68f1b628735646b8680da53df89fc3b4f78630109d91ac94a93.png",
+        "alt": "LBH-956P"
+      },
+      {
+        "src": "/media/acb5ed4e5dd087d42777207f7c8d5e1db2859e306e283fedb590f0130f210478.png",
+        "alt": "LBH-919"
+      },
+      {
+        "src": "/media/1d28f5948adbdae1c0f07ef4ba245a72d161d6276b4b52a03ae461cb4bc3aafd.png",
+        "alt": "LBH-EF601"
+      },
+      {
+        "src": "/media/b45b3aa22817e0f26d6ed5f26c292cd09888180edcf2fedf20b0f9825cb6b4c4.png",
+        "alt": "LBH-BD18"
+      },
+      {
+        "src": "/media/b26b2dc11524a4cc28ff7c59e039663d53c32ee50f6d6ca7d46c6c2fc019c7f9.png",
+        "alt": "LBH-BD15"
+      },
+      {
+        "src": "/media/25c26f5dc018c0b8f5bbd73c72fe811d50a593caf2dd133b1a9a30cdedd95213.png",
+        "alt": "LBH-BD13"
+      },
+      {
+        "src": "/media/5e6d52025648330208d85aa36ba39fe54bdc53d099710b3ace42e422ff7e4b14.png",
+        "alt": "LBH-3806"
+      },
+      {
+        "src": "/media/93f5e86da34eefcd3badafaa7f4772721de3810d318aac8a484fee9e0cd48932.png",
+        "alt": "LBH-3802"
+      },
+      {
+        "src": "/media/65560cc9e6e82cfddbcd5d049289a7fbe5ffa96c5ef8f5f2f32020e0ed85d36b.png",
+        "alt": "LBH-F19"
+      },
+      {
+        "src": "/media/e9f8a3b772451e212e7e41f5353d32a369deb45b61490da4e1294e61dde2a262.png",
+        "alt": "LBH-EF055"
+      },
+      {
+        "src": "/media/48ca9b3e7cf60d5be5c5c122b37e3966fddb3c872d4220fdaa8176aae3e4692f.png",
+        "alt": "LBH-3257W"
+      },
+      {
+        "src": "/media/2ab8d9e243061b1a67828acad50f691c7ba362745dee1d001925cf8258aea14d.png",
+        "alt": "LBH-3257"
+      },
+      {
+        "src": "/media/65eba49fc0ca871b68c5bbb7c82d2c7378e9a92559dc5cbbe8d369b970b094f9.png",
+        "alt": "LBH-001A"
+      },
+      {
+        "src": "/media/14426ef66120118fd107622881cf96d874d9bf252482977947da85854c035c67.png",
+        "alt": "LBH-BD22"
+      },
+      {
+        "src": "/media/f15517c4d23787d4fd8a3b1aa8c28f03f61e3e84cfd3e3e66558d2776f4dec6f.png",
+        "alt": "LBH-3808"
+      },
+      {
+        "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+        "alt": "图片展示"
+      },
+      {
         "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
         "alt": "图片展示"
       },
@@ -4136,12 +7106,204 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/f17bbe9eb717a9b69c7fd28ff6f12c50cb40536834e95f524ee709eba61e8749.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/7593192c7d696c0a1fb43ddd16c90fcb90f70ac2c452a309be03e7c1994993ca.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/f08a2738e04a9d8e967b7cfd83121746fb76114134c8deeb217e2faee47ed4c1.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/886ed787fdbac488879f4c0bc86e6e8484b8b84196517c55ddeff63d20f5ebc7.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/88e0f1373402b4e84cfdad31004d46fb20f776d2d6cda401cfd8606e12acfdb6.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/033013027eec11a34898233df95319a3e90db586d6a82fcc4600c03799805f2e.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/636bf9c08164e63305f5a8709358765bd34ed7f5a9948199db52dbfa336af55b.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/9c89d90e699c3e101e856aa79101e41a2348b92b1be26682275704e483dacfc7.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/6a5de8494e57dcdff17cbadf31213fd0762f2fe41588572dffbf04d22ff5b7d2.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/839b2151336e3a578cfe8bd2ac64d0aeaecbf15edf5bcbc1d9f7840626e337c7.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/6f93419b971b59ecd7e6e3fae8fe34a1c61b6dba33bedf797ff4d4a4b135dab3.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/90f231701b6333e9dcc42814a18a68b0d78d384dc8ed2a76b797c973e4e038c3.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/babdff2ceb5fe3e5d527d79c2f3d1c9012a147c1f112cf4cdaf2f4183da5e896.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/a6f40ce9067dd989c7fb521ff9f4be615be6708740a77e1ff3dbdb946ad8b77a.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/e685b9ddf587d989e18854900009b517bcd5d31331a963996d5153c858648742.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/3dbea3c2d46b24799c4235949dd2be116f2ccc491fe6e0a31596c604bc3b37e8.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/07eb1d8feb841a58232c654bc3f6ee85fd4dcdde2cd75e4c7961804000ea93c6.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/8a61a98dbf0ae01be1ec15c7296cb07f55e0c87384b3570330e15ec022859ec5.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/935443adf48853cd7cd18656677c845fe751adbf41632c9dd5b22d37d61a1131.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "Products"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "Products"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
         "alt": "Products"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -4186,6 +7348,62 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
           "alt": "图片展示"
         }
@@ -4250,12 +7468,184 @@ export const pages: SitePage[] = [
         "type": "media",
         "image": {
           "src": "/media/f9926c373fe5ded620115ec2e3de58803f5af251f89824abe666537ce331cc1f.jpg",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f17bbe9eb717a9b69c7fd28ff6f12c50cb40536834e95f524ee709eba61e8749.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/7593192c7d696c0a1fb43ddd16c90fcb90f70ac2c452a309be03e7c1994993ca.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/f08a2738e04a9d8e967b7cfd83121746fb76114134c8deeb217e2faee47ed4c1.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
           "alt": "图片展示"
         }
       },
       {
         "type": "gallery",
         "images": [
+          {
+            "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
           {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
@@ -4269,9 +7659,90 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Get a Quick Quote",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "索取完整产品目录",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Get Product Catalog",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "立即询价",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Order Now",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Inquire Now",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
@@ -4290,6 +7761,102 @@ export const pages: SitePage[] = [
       {
         "src": "/media/11a221c8ebc9fd6f7d042b797fbec9ff37b3783a68f6f9021bdeb3684855870c.png",
         "alt": "LBH-WY605"
+      },
+      {
+        "src": "/media/708b501bf583e6305c53d016145758583ea980c51372658b698eb759b23b7007.png",
+        "alt": "LBH-WY602"
+      },
+      {
+        "src": "/media/fe544358ebd453b57b266fc5f4cc8c92efb03054b993fcd89defdebaab620644.png",
+        "alt": "LBH-HD020"
+      },
+      {
+        "src": "/media/60cf76f88a5a481435914f441464d18febd43f4155e8c625f508471b37c71165.png",
+        "alt": "LBH-EF488"
+      },
+      {
+        "src": "/media/3b77c881e64938b4ce34626b1b9ca91806e73898d05b3c637673699b93a83cd4.png",
+        "alt": "LBH-D1"
+      },
+      {
+        "src": "/media/08a2998c78903ca9bbd06b80901b6bf605682cf35f5faeaeb11850f4b3cf6af0.png",
+        "alt": "LBH-BD24"
+      },
+      {
+        "src": "/media/1f695af7c5a4a68f1b628735646b8680da53df89fc3b4f78630109d91ac94a93.png",
+        "alt": "LBH-956P"
+      },
+      {
+        "src": "/media/acb5ed4e5dd087d42777207f7c8d5e1db2859e306e283fedb590f0130f210478.png",
+        "alt": "LBH-919"
+      },
+      {
+        "src": "/media/1d28f5948adbdae1c0f07ef4ba245a72d161d6276b4b52a03ae461cb4bc3aafd.png",
+        "alt": "LBH-EF601"
+      },
+      {
+        "src": "/media/b45b3aa22817e0f26d6ed5f26c292cd09888180edcf2fedf20b0f9825cb6b4c4.png",
+        "alt": "LBH-BD18"
+      },
+      {
+        "src": "/media/b26b2dc11524a4cc28ff7c59e039663d53c32ee50f6d6ca7d46c6c2fc019c7f9.png",
+        "alt": "LBH-BD15"
+      },
+      {
+        "src": "/media/25c26f5dc018c0b8f5bbd73c72fe811d50a593caf2dd133b1a9a30cdedd95213.png",
+        "alt": "LBH-BD13"
+      },
+      {
+        "src": "/media/5e6d52025648330208d85aa36ba39fe54bdc53d099710b3ace42e422ff7e4b14.png",
+        "alt": "LBH-3806"
+      },
+      {
+        "src": "/media/93f5e86da34eefcd3badafaa7f4772721de3810d318aac8a484fee9e0cd48932.png",
+        "alt": "LBH-3802"
+      },
+      {
+        "src": "/media/65560cc9e6e82cfddbcd5d049289a7fbe5ffa96c5ef8f5f2f32020e0ed85d36b.png",
+        "alt": "LBH-F19"
+      },
+      {
+        "src": "/media/e9f8a3b772451e212e7e41f5353d32a369deb45b61490da4e1294e61dde2a262.png",
+        "alt": "LBH-EF055"
+      },
+      {
+        "src": "/media/48ca9b3e7cf60d5be5c5c122b37e3966fddb3c872d4220fdaa8176aae3e4692f.png",
+        "alt": "LBH-3257W"
+      },
+      {
+        "src": "/media/2ab8d9e243061b1a67828acad50f691c7ba362745dee1d001925cf8258aea14d.png",
+        "alt": "LBH-3257"
+      },
+      {
+        "src": "/media/65eba49fc0ca871b68c5bbb7c82d2c7378e9a92559dc5cbbe8d369b970b094f9.png",
+        "alt": "LBH-001A"
+      },
+      {
+        "src": "/media/14426ef66120118fd107622881cf96d874d9bf252482977947da85854c035c67.png",
+        "alt": "LBH-BD22"
+      },
+      {
+        "src": "/media/f15517c4d23787d4fd8a3b1aa8c28f03f61e3e84cfd3e3e66558d2776f4dec6f.png",
+        "alt": "LBH-3808"
+      },
+      {
+        "src": "/media/ee12f73d454bbca944442a8fe0e2e6c6775190e7cca28dbcbf2a182aa0d0e925.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/6d6d799cb617a8086271f3bb1de806783ee3d31813469ed92aaff4ac3c99ac71.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/80b1bb8fc12b0a670dd1cab32d45be390aa372586df7d83a31c9f86d3d3d64fc.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d0fbf100671b6d978319228c141d1bc3208943e3efa2c85f1300a69d9309a846.webp",
+        "alt": "图片展示"
       },
       {
         "src": "/media/89636e064d9c7b31cf917c6db89cc6c01079d1cc478e93cfb482dc7c355e83d2.jpg",
@@ -4312,12 +7879,204 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/f17bbe9eb717a9b69c7fd28ff6f12c50cb40536834e95f524ee709eba61e8749.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/7593192c7d696c0a1fb43ddd16c90fcb90f70ac2c452a309be03e7c1994993ca.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/f08a2738e04a9d8e967b7cfd83121746fb76114134c8deeb217e2faee47ed4c1.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/886ed787fdbac488879f4c0bc86e6e8484b8b84196517c55ddeff63d20f5ebc7.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/88e0f1373402b4e84cfdad31004d46fb20f776d2d6cda401cfd8606e12acfdb6.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/033013027eec11a34898233df95319a3e90db586d6a82fcc4600c03799805f2e.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/636bf9c08164e63305f5a8709358765bd34ed7f5a9948199db52dbfa336af55b.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/9c89d90e699c3e101e856aa79101e41a2348b92b1be26682275704e483dacfc7.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/6a5de8494e57dcdff17cbadf31213fd0762f2fe41588572dffbf04d22ff5b7d2.png",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/839b2151336e3a578cfe8bd2ac64d0aeaecbf15edf5bcbc1d9f7840626e337c7.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/6f93419b971b59ecd7e6e3fae8fe34a1c61b6dba33bedf797ff4d4a4b135dab3.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/90f231701b6333e9dcc42814a18a68b0d78d384dc8ed2a76b797c973e4e038c3.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/babdff2ceb5fe3e5d527d79c2f3d1c9012a147c1f112cf4cdaf2f4183da5e896.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/a6f40ce9067dd989c7fb521ff9f4be615be6708740a77e1ff3dbdb946ad8b77a.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/e685b9ddf587d989e18854900009b517bcd5d31331a963996d5153c858648742.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/3dbea3c2d46b24799c4235949dd2be116f2ccc491fe6e0a31596c604bc3b37e8.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/07eb1d8feb841a58232c654bc3f6ee85fd4dcdde2cd75e4c7961804000ea93c6.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/8a61a98dbf0ae01be1ec15c7296cb07f55e0c87384b3570330e15ec022859ec5.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/935443adf48853cd7cd18656677c845fe751adbf41632c9dd5b22d37d61a1131.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "Products"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "Products"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "Products"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
         "alt": "Products"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
       },
       {
         "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
@@ -4561,6 +8320,14 @@ export const pages: SitePage[] = [
       {
         "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
         "alt": "图片展示"
+      },
+      {
+        "src": "/media/14426ef66120118fd107622881cf96d874d9bf252482977947da85854c035c67.png",
+        "alt": "LBH-BD22"
+      },
+      {
+        "src": "/media/f15517c4d23787d4fd8a3b1aa8c28f03f61e3e84cfd3e3e66558d2776f4dec6f.png",
+        "alt": "LBH-3808"
       }
     ],
     "provenance": {
@@ -4611,6 +8378,14 @@ export const pages: SitePage[] = [
       {
         "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
         "alt": "图片展示"
+      },
+      {
+        "src": "/media/14426ef66120118fd107622881cf96d874d9bf252482977947da85854c035c67.png",
+        "alt": "LBH-BD22"
+      },
+      {
+        "src": "/media/f15517c4d23787d4fd8a3b1aa8c28f03f61e3e84cfd3e3e66558d2776f4dec6f.png",
+        "alt": "LBH-3808"
       }
     ],
     "provenance": {
@@ -4659,6 +8434,30 @@ export const pages: SitePage[] = [
       {
         "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
         "alt": "图片展示"
+      },
+      {
+        "src": "/media/1d28f5948adbdae1c0f07ef4ba245a72d161d6276b4b52a03ae461cb4bc3aafd.png",
+        "alt": "LBH-EF601"
+      },
+      {
+        "src": "/media/b45b3aa22817e0f26d6ed5f26c292cd09888180edcf2fedf20b0f9825cb6b4c4.png",
+        "alt": "LBH-BD18"
+      },
+      {
+        "src": "/media/b26b2dc11524a4cc28ff7c59e039663d53c32ee50f6d6ca7d46c6c2fc019c7f9.png",
+        "alt": "LBH-BD15"
+      },
+      {
+        "src": "/media/25c26f5dc018c0b8f5bbd73c72fe811d50a593caf2dd133b1a9a30cdedd95213.png",
+        "alt": "LBH-BD13"
+      },
+      {
+        "src": "/media/5e6d52025648330208d85aa36ba39fe54bdc53d099710b3ace42e422ff7e4b14.png",
+        "alt": "LBH-3806"
+      },
+      {
+        "src": "/media/93f5e86da34eefcd3badafaa7f4772721de3810d318aac8a484fee9e0cd48932.png",
+        "alt": "LBH-3802"
       }
     ],
     "provenance": {
@@ -4709,6 +8508,30 @@ export const pages: SitePage[] = [
       {
         "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
         "alt": "图片展示"
+      },
+      {
+        "src": "/media/1d28f5948adbdae1c0f07ef4ba245a72d161d6276b4b52a03ae461cb4bc3aafd.png",
+        "alt": "LBH-EF601"
+      },
+      {
+        "src": "/media/b45b3aa22817e0f26d6ed5f26c292cd09888180edcf2fedf20b0f9825cb6b4c4.png",
+        "alt": "LBH-BD18"
+      },
+      {
+        "src": "/media/b26b2dc11524a4cc28ff7c59e039663d53c32ee50f6d6ca7d46c6c2fc019c7f9.png",
+        "alt": "LBH-BD15"
+      },
+      {
+        "src": "/media/25c26f5dc018c0b8f5bbd73c72fe811d50a593caf2dd133b1a9a30cdedd95213.png",
+        "alt": "LBH-BD13"
+      },
+      {
+        "src": "/media/5e6d52025648330208d85aa36ba39fe54bdc53d099710b3ace42e422ff7e4b14.png",
+        "alt": "LBH-3806"
+      },
+      {
+        "src": "/media/93f5e86da34eefcd3badafaa7f4772721de3810d318aac8a484fee9e0cd48932.png",
+        "alt": "LBH-3802"
       }
     ],
     "provenance": {
@@ -4757,6 +8580,26 @@ export const pages: SitePage[] = [
       {
         "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
         "alt": "图片展示"
+      },
+      {
+        "src": "/media/65560cc9e6e82cfddbcd5d049289a7fbe5ffa96c5ef8f5f2f32020e0ed85d36b.png",
+        "alt": "LBH-F19"
+      },
+      {
+        "src": "/media/e9f8a3b772451e212e7e41f5353d32a369deb45b61490da4e1294e61dde2a262.png",
+        "alt": "LBH-EF055"
+      },
+      {
+        "src": "/media/48ca9b3e7cf60d5be5c5c122b37e3966fddb3c872d4220fdaa8176aae3e4692f.png",
+        "alt": "LBH-3257W"
+      },
+      {
+        "src": "/media/2ab8d9e243061b1a67828acad50f691c7ba362745dee1d001925cf8258aea14d.png",
+        "alt": "LBH-3257"
+      },
+      {
+        "src": "/media/65eba49fc0ca871b68c5bbb7c82d2c7378e9a92559dc5cbbe8d369b970b094f9.png",
+        "alt": "LBH-001A"
       }
     ],
     "provenance": {
@@ -4807,6 +8650,26 @@ export const pages: SitePage[] = [
       {
         "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
         "alt": "图片展示"
+      },
+      {
+        "src": "/media/65560cc9e6e82cfddbcd5d049289a7fbe5ffa96c5ef8f5f2f32020e0ed85d36b.png",
+        "alt": "LBH-F19"
+      },
+      {
+        "src": "/media/e9f8a3b772451e212e7e41f5353d32a369deb45b61490da4e1294e61dde2a262.png",
+        "alt": "LBH-EF055"
+      },
+      {
+        "src": "/media/48ca9b3e7cf60d5be5c5c122b37e3966fddb3c872d4220fdaa8176aae3e4692f.png",
+        "alt": "LBH-3257W"
+      },
+      {
+        "src": "/media/2ab8d9e243061b1a67828acad50f691c7ba362745dee1d001925cf8258aea14d.png",
+        "alt": "LBH-3257"
+      },
+      {
+        "src": "/media/65eba49fc0ca871b68c5bbb7c82d2c7378e9a92559dc5cbbe8d369b970b094f9.png",
+        "alt": "LBH-001A"
       }
     ],
     "provenance": {
@@ -4981,6 +8844,34 @@ export const pages: SitePage[] = [
       {
         "src": "/media/11a221c8ebc9fd6f7d042b797fbec9ff37b3783a68f6f9021bdeb3684855870c.png",
         "alt": "LBH-WY605"
+      },
+      {
+        "src": "/media/708b501bf583e6305c53d016145758583ea980c51372658b698eb759b23b7007.png",
+        "alt": "LBH-WY602"
+      },
+      {
+        "src": "/media/fe544358ebd453b57b266fc5f4cc8c92efb03054b993fcd89defdebaab620644.png",
+        "alt": "LBH-HD020"
+      },
+      {
+        "src": "/media/60cf76f88a5a481435914f441464d18febd43f4155e8c625f508471b37c71165.png",
+        "alt": "LBH-EF488"
+      },
+      {
+        "src": "/media/3b77c881e64938b4ce34626b1b9ca91806e73898d05b3c637673699b93a83cd4.png",
+        "alt": "LBH-D1"
+      },
+      {
+        "src": "/media/08a2998c78903ca9bbd06b80901b6bf605682cf35f5faeaeb11850f4b3cf6af0.png",
+        "alt": "LBH-BD24"
+      },
+      {
+        "src": "/media/1f695af7c5a4a68f1b628735646b8680da53df89fc3b4f78630109d91ac94a93.png",
+        "alt": "LBH-956P"
+      },
+      {
+        "src": "/media/acb5ed4e5dd087d42777207f7c8d5e1db2859e306e283fedb590f0130f210478.png",
+        "alt": "LBH-919"
       }
     ],
     "provenance": {
@@ -5035,6 +8926,34 @@ export const pages: SitePage[] = [
       {
         "src": "/media/11a221c8ebc9fd6f7d042b797fbec9ff37b3783a68f6f9021bdeb3684855870c.png",
         "alt": "LBH-WY605"
+      },
+      {
+        "src": "/media/708b501bf583e6305c53d016145758583ea980c51372658b698eb759b23b7007.png",
+        "alt": "LBH-WY602"
+      },
+      {
+        "src": "/media/fe544358ebd453b57b266fc5f4cc8c92efb03054b993fcd89defdebaab620644.png",
+        "alt": "LBH-HD020"
+      },
+      {
+        "src": "/media/60cf76f88a5a481435914f441464d18febd43f4155e8c625f508471b37c71165.png",
+        "alt": "LBH-EF488"
+      },
+      {
+        "src": "/media/3b77c881e64938b4ce34626b1b9ca91806e73898d05b3c637673699b93a83cd4.png",
+        "alt": "LBH-D1"
+      },
+      {
+        "src": "/media/08a2998c78903ca9bbd06b80901b6bf605682cf35f5faeaeb11850f4b3cf6af0.png",
+        "alt": "LBH-BD24"
+      },
+      {
+        "src": "/media/1f695af7c5a4a68f1b628735646b8680da53df89fc3b4f78630109d91ac94a93.png",
+        "alt": "LBH-956P"
+      },
+      {
+        "src": "/media/acb5ed4e5dd087d42777207f7c8d5e1db2859e306e283fedb590f0130f210478.png",
+        "alt": "LBH-919"
       }
     ],
     "provenance": {
@@ -5330,7 +9249,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "立即报价",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -5339,7 +9259,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "索取完整产品目录",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -5360,7 +9281,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "今天加入我们",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -5439,7 +9361,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "联系我们",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -5856,7 +9779,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "立即报价",
-            "href": "/en/Contact_Us"
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -5865,7 +9789,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "索取完整产品目录",
-            "href": "/en/Contact_Us"
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -5886,7 +9811,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "今天加入我们",
-            "href": "/en/Contact_Us"
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -5965,7 +9891,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "联系我们",
-            "href": "/en/Contact_Us"
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -6707,7 +10634,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Request Full Product Catalog",
-            "href": "/en/Product_Catalogue"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -6749,7 +10677,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Get Product Catalog",
-            "href": "/en/Product_Catalogue"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -6906,6 +10835,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Color Options",
         "paragraphs": []
@@ -6914,6 +10850,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Customize colors based on the preferences of users in the target market to create the perfect color scheme.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -6926,6 +10869,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Control System",
         "paragraphs": []
@@ -6934,6 +10884,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Edit the mainboard program to enable the specified product's functional mode.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -6946,6 +10903,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Packaging Design",
         "paragraphs": []
@@ -6954,6 +10918,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Choosing eco-friendly packaging solutions demonstrates your commitment to sustainability and strengthens your brand image.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -7148,9 +11119,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Submit a request",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -7158,9 +11143,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Structural Design",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -7168,9 +11167,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Prototype Creation",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -7178,9 +11191,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Sample and Trial Order Production",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -7254,7 +11281,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Order Now",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -7267,6 +11295,39 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "paragraphs": [
           "In accordance with client requirements, the products undergo various technical certifications and tests—such as CCC, FCC, CE, IC, RoHS, UL, and ISO 9001—on an annual basis to ensure compliance with international standards for safety, quality, and efficiency."
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+            "alt": ""
+          }
         ]
       },
       {
@@ -7334,6 +11395,26 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
+          {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
           },
@@ -7342,6 +11423,13 @@ export const pages: SitePage[] = [
             "alt": ""
           }
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -7355,6 +11443,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "paragraphs": [
           "LBH is the most efficient team we have ever collaborated with. From our initial meeting to the final product delivery, the entire process took just over two months—a feat that would have been unimaginable in the past! More importantly, the development process for the new product was expertly managed to successfully avoid any potential patent issues. Consumers absolutely love our product's aesthetic, and since its launch, it has received excellent feedback from the market. We look forward to continuing our partnership in the future to develop even more innovative products. The LBH team gives us complete peace of mind!"
@@ -7364,6 +11459,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "—— Warren Steve",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -7403,7 +11505,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Inquire Now",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       }
@@ -7442,12 +11545,192 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/886ed787fdbac488879f4c0bc86e6e8484b8b84196517c55ddeff63d20f5ebc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/88e0f1373402b4e84cfdad31004d46fb20f776d2d6cda401cfd8606e12acfdb6.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/033013027eec11a34898233df95319a3e90db586d6a82fcc4600c03799805f2e.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/636bf9c08164e63305f5a8709358765bd34ed7f5a9948199db52dbfa336af55b.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/9c89d90e699c3e101e856aa79101e41a2348b92b1be26682275704e483dacfc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6a5de8494e57dcdff17cbadf31213fd0762f2fe41588572dffbf04d22ff5b7d2.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/839b2151336e3a578cfe8bd2ac64d0aeaecbf15edf5bcbc1d9f7840626e337c7.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6f93419b971b59ecd7e6e3fae8fe34a1c61b6dba33bedf797ff4d4a4b135dab3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/90f231701b6333e9dcc42814a18a68b0d78d384dc8ed2a76b797c973e4e038c3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/babdff2ceb5fe3e5d527d79c2f3d1c9012a147c1f112cf4cdaf2f4183da5e896.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/a6f40ce9067dd989c7fb521ff9f4be615be6708740a77e1ff3dbdb946ad8b77a.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e685b9ddf587d989e18854900009b517bcd5d31331a963996d5153c858648742.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/3dbea3c2d46b24799c4235949dd2be116f2ccc491fe6e0a31596c604bc3b37e8.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/07eb1d8feb841a58232c654bc3f6ee85fd4dcdde2cd75e4c7961804000ea93c6.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8a61a98dbf0ae01be1ec15c7296cb07f55e0c87384b3570330e15ec022859ec5.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/935443adf48853cd7cd18656677c845fe751adbf41632c9dd5b22d37d61a1131.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
       }
     ],
     "provenance": {
@@ -7677,7 +11960,42 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
+          "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
           "alt": "图片展示"
         }
       },
@@ -7692,12 +12010,128 @@ export const pages: SitePage[] = [
         "type": "media",
         "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
           "alt": "图片展示"
         }
       },
       {
         "type": "gallery",
         "images": [
+          {
+            "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
           {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
@@ -7711,9 +12145,90 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Get a Quick Quote",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "索取完整产品目录",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Get Product Catalog",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "立即询价",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Order Now",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Inquire Now",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
@@ -7750,12 +12265,192 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/886ed787fdbac488879f4c0bc86e6e8484b8b84196517c55ddeff63d20f5ebc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/88e0f1373402b4e84cfdad31004d46fb20f776d2d6cda401cfd8606e12acfdb6.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/033013027eec11a34898233df95319a3e90db586d6a82fcc4600c03799805f2e.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/636bf9c08164e63305f5a8709358765bd34ed7f5a9948199db52dbfa336af55b.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/9c89d90e699c3e101e856aa79101e41a2348b92b1be26682275704e483dacfc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6a5de8494e57dcdff17cbadf31213fd0762f2fe41588572dffbf04d22ff5b7d2.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/839b2151336e3a578cfe8bd2ac64d0aeaecbf15edf5bcbc1d9f7840626e337c7.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6f93419b971b59ecd7e6e3fae8fe34a1c61b6dba33bedf797ff4d4a4b135dab3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/90f231701b6333e9dcc42814a18a68b0d78d384dc8ed2a76b797c973e4e038c3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/babdff2ceb5fe3e5d527d79c2f3d1c9012a147c1f112cf4cdaf2f4183da5e896.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/a6f40ce9067dd989c7fb521ff9f4be615be6708740a77e1ff3dbdb946ad8b77a.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e685b9ddf587d989e18854900009b517bcd5d31331a963996d5153c858648742.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/3dbea3c2d46b24799c4235949dd2be116f2ccc491fe6e0a31596c604bc3b37e8.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/07eb1d8feb841a58232c654bc3f6ee85fd4dcdde2cd75e4c7961804000ea93c6.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8a61a98dbf0ae01be1ec15c7296cb07f55e0c87384b3570330e15ec022859ec5.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/935443adf48853cd7cd18656677c845fe751adbf41632c9dd5b22d37d61a1131.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
       }
     ],
     "provenance": {
@@ -7884,7 +12579,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Request Full Product Catalog",
-            "href": "/en/Product_Catalogue"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -7926,7 +12622,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Get Product Catalog",
-            "href": "/en/Product_Catalogue"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -8083,6 +12780,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Color Options",
         "paragraphs": []
@@ -8091,6 +12795,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Customize colors based on the preferences of users in the target market to create the perfect color scheme.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8103,6 +12814,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Control System",
         "paragraphs": []
@@ -8111,6 +12829,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Edit the mainboard program to enable the specified product's functional mode.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8123,6 +12848,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Packaging Design",
         "paragraphs": []
@@ -8131,6 +12863,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "Choosing eco-friendly packaging solutions demonstrates your commitment to sustainability and strengthens your brand image.",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8325,9 +13064,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Submit a request",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8335,9 +13088,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Structural Design",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8345,9 +13112,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Prototype Creation",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8355,9 +13136,23 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "heading": "Sample and Trial Order Production",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8431,7 +13226,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Order Now",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       },
@@ -8444,6 +13240,39 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "paragraphs": [
           "In accordance with client requirements, the products undergo various technical certifications and tests—such as CCC, FCC, CE, IC, RoHS, UL, and ISO 9001—on an annual basis to ensure compliance with international standards for safety, quality, and efficiency."
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+            "alt": ""
+          }
         ]
       },
       {
@@ -8511,6 +13340,26 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
+          {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
           },
@@ -8519,6 +13368,13 @@ export const pages: SitePage[] = [
             "alt": ""
           }
         ]
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8532,6 +13388,13 @@ export const pages: SitePage[] = [
         "paragraphs": []
       },
       {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
         "type": "rich-text",
         "paragraphs": [
           "LBH is the most efficient team we have ever collaborated with. From our initial meeting to the final product delivery, the entire process took just over two months—a feat that would have been unimaginable in the past! More importantly, the development process for the new product was expertly managed to successfully avoid any potential patent issues. Consumers absolutely love our product's aesthetic, and since its launch, it has received excellent feedback from the market. We look forward to continuing our partnership in the future to develop even more innovative products. The LBH team gives us complete peace of mind!"
@@ -8541,6 +13404,13 @@ export const pages: SitePage[] = [
         "type": "rich-text",
         "heading": "—— Warren Steve",
         "paragraphs": []
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
       },
       {
         "type": "rich-text",
@@ -8580,7 +13450,8 @@ export const pages: SitePage[] = [
         "actions": [
           {
             "label": "Inquire Now",
-            "href": "/en/Contact_Us"
+            "href": "/en/Contact_Us",
+            "action": "inquiry"
           }
         ]
       }
@@ -8619,12 +13490,192 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/886ed787fdbac488879f4c0bc86e6e8484b8b84196517c55ddeff63d20f5ebc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/88e0f1373402b4e84cfdad31004d46fb20f776d2d6cda401cfd8606e12acfdb6.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/033013027eec11a34898233df95319a3e90db586d6a82fcc4600c03799805f2e.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/636bf9c08164e63305f5a8709358765bd34ed7f5a9948199db52dbfa336af55b.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/9c89d90e699c3e101e856aa79101e41a2348b92b1be26682275704e483dacfc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6a5de8494e57dcdff17cbadf31213fd0762f2fe41588572dffbf04d22ff5b7d2.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/839b2151336e3a578cfe8bd2ac64d0aeaecbf15edf5bcbc1d9f7840626e337c7.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6f93419b971b59ecd7e6e3fae8fe34a1c61b6dba33bedf797ff4d4a4b135dab3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/90f231701b6333e9dcc42814a18a68b0d78d384dc8ed2a76b797c973e4e038c3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/babdff2ceb5fe3e5d527d79c2f3d1c9012a147c1f112cf4cdaf2f4183da5e896.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/a6f40ce9067dd989c7fb521ff9f4be615be6708740a77e1ff3dbdb946ad8b77a.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e685b9ddf587d989e18854900009b517bcd5d31331a963996d5153c858648742.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/3dbea3c2d46b24799c4235949dd2be116f2ccc491fe6e0a31596c604bc3b37e8.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/07eb1d8feb841a58232c654bc3f6ee85fd4dcdde2cd75e4c7961804000ea93c6.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8a61a98dbf0ae01be1ec15c7296cb07f55e0c87384b3570330e15ec022859ec5.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/935443adf48853cd7cd18656677c845fe751adbf41632c9dd5b22d37d61a1131.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
       }
     ],
     "provenance": {
@@ -8854,7 +13905,42 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
+          "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
           "alt": "图片展示"
         }
       },
@@ -8869,12 +13955,128 @@ export const pages: SitePage[] = [
         "type": "media",
         "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
           "alt": "图片展示"
         }
       },
       {
         "type": "gallery",
         "images": [
+          {
+            "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+            "alt": ""
+          }
+        ]
+      },
+      {
+        "type": "gallery",
+        "images": [
+          {
+            "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+            "alt": ""
+          },
+          {
+            "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+            "alt": ""
+          },
           {
             "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
             "alt": ""
@@ -8888,9 +14090,90 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
+          "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
+          "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+          "alt": "图片展示"
+        }
+      },
+      {
+        "type": "media",
+        "image": {
           "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Get a Quick Quote",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "索取完整产品目录",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Get Product Catalog",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "立即询价",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Order Now",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
+      },
+      {
+        "type": "cta",
+        "actions": [
+          {
+            "label": "Inquire Now",
+            "href": "/cn/Contact_Us",
+            "action": "inquiry"
+          }
+        ]
       }
     ],
     "images": [
@@ -8927,12 +14210,192 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
+        "src": "/media/edecf5a5610d501359e70cc9c2b9bf077452db6fafe6ded2a85d5b1968859bdb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/88e08886a1de2c332719cb6a4f326eaccaee33c45f5133192a6003d90949c559.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5977274af606de893808253e178d6380016e8bb5b51c792ebe0c183f04de2813.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/5b3c433aeb3f9d4e6c34034ff0a6c687815bf7e22200ecefbd8556f03c4de4f6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/29a9a08d8b896565256affc5000117dcb228ebcdde4cc6783a6f576bc2538fd5.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/976eb75c7bdeafe93591727e74a7d4846b527d248cc083665d88f9a3d386fab4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/886ed787fdbac488879f4c0bc86e6e8484b8b84196517c55ddeff63d20f5ebc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/88e0f1373402b4e84cfdad31004d46fb20f776d2d6cda401cfd8606e12acfdb6.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/033013027eec11a34898233df95319a3e90db586d6a82fcc4600c03799805f2e.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/636bf9c08164e63305f5a8709358765bd34ed7f5a9948199db52dbfa336af55b.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/9c89d90e699c3e101e856aa79101e41a2348b92b1be26682275704e483dacfc7.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6a5de8494e57dcdff17cbadf31213fd0762f2fe41588572dffbf04d22ff5b7d2.png",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e10a563775c179b30663143ac8dd790a47292c7279d16c5d7370566f2b94dffb.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/b2098946cf41787fdd0f932250a8b1355cff51e4923dd31ea88283751311d416.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d18c0728dae15d6b4962dfdb3dbafd6a1317e39d60b67295f678b3e62b0b51e6.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/ac36b71939549da5331d87fc84a48d2645167c695240204d853e0eda2ff6a0b2.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/afcd087e5f20192160c829166e5b4bf70a68454d367a69bad0d6ccde115c0bc4.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/91bb3ef6a0698e8ca57912d5f1be6c18539d16184d196212d6c60bc676689da7.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/18e8ffcf431e99edc1aa074016551736e7456c76ce13454cad122bf938336189.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c8d7510d60865abbb4ff61211fc0847e7851d9e39b488cb509eedd6098d293ec.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/839b2151336e3a578cfe8bd2ac64d0aeaecbf15edf5bcbc1d9f7840626e337c7.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6f93419b971b59ecd7e6e3fae8fe34a1c61b6dba33bedf797ff4d4a4b135dab3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/90f231701b6333e9dcc42814a18a68b0d78d384dc8ed2a76b797c973e4e038c3.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/babdff2ceb5fe3e5d527d79c2f3d1c9012a147c1f112cf4cdaf2f4183da5e896.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/a6f40ce9067dd989c7fb521ff9f4be615be6708740a77e1ff3dbdb946ad8b77a.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/e685b9ddf587d989e18854900009b517bcd5d31331a963996d5153c858648742.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/3dbea3c2d46b24799c4235949dd2be116f2ccc491fe6e0a31596c604bc3b37e8.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/07eb1d8feb841a58232c654bc3f6ee85fd4dcdde2cd75e4c7961804000ea93c6.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8a61a98dbf0ae01be1ec15c7296cb07f55e0c87384b3570330e15ec022859ec5.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/935443adf48853cd7cd18656677c845fe751adbf41632c9dd5b22d37d61a1131.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/7be1d0600211c8fbbdb89f4a0815d50ca8b053c19ac7dca5273f3bd3eefe91cf.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/14c7d78f8c1cefcc8b6e9298de9b30816471cb65a114ecb1697bbeab2e47bedd.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b26d94ea9cf83fe457d3a7042ae1ce49ea9929f98132c91ac53b604af05fc22d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/184626f1afe17ff8f98b0ae8f520e31906c389d30b3e9e5f081bcf8eca5da560.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/1b74c0bec9631f8085d3c05bb7d3109fafb8f90072ab07bf6fccf41ca87b7672.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2d7e3e85f6481278f5be3fe7952f1041acba64477645ee6ad53b1f8df714bd96.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8370f5bdec15dd83791501c00450a77bbc2110d36f4febe249d69d5dd6de3d6b.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/6bd928db12ad76c8d6cab59fbbbfc0c0b700e0c0f185e079d8e09b835ce49f9f.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/b5885b1fa5d2f5464fdecb5cfc68aeaabadce28396815d462a203e83f76402d2.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/c080bf953dfd2a2452d5d9e9a1a237f4e0876ce2b8c9f337e5757c37f05a6c4c.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/8155f2555d4f3d1a2a4a9d7615b4803b7f6587f6a90689ae586a726e070c4e9d.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/2cce82125804656e3ab9dcbe304e1671f0025549d651a23d62db231c82f2dcae.webp",
+        "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
         "src": "/media/b68aa3580ef11b4c4bfa454810931c5ed464be709f2c75f1800a2061fc9d280c.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
       },
       {
         "src": "/media/54df1835c4ccfd9bc5d6b6b37a2ad8ee05e1ed4bd51f8e614e973592bdf63ed5.jpg",
         "alt": "What Makes Our Personal Care Appliances Stand Out?"
+      },
+      {
+        "src": "/media/52171a781f336a73be0c96d9f12c0260808a1fa8d2dae47e5273331389cc736d.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/d65bd9b51fde825775b09a45711dc954fe6b8ec45f96da21121355d973eb3473.webp",
+        "alt": "图片展示"
+      },
+      {
+        "src": "/media/c6df9976ab900796b4ce0683aab328fde503d18dcd1263ff621f086e109f5796.webp",
+        "alt": "图片展示"
       }
     ],
     "provenance": {

@@ -82,3 +82,30 @@ it("localizes every milestone and retains homepage statistics in Chinese", () =>
   const stats = getPage("cn", [])!.blocks.filter((block) => block.type === "stats").flatMap((block) => block.items);
   expect(stats).toContainEqual({ value: "4800 +", label: "成功定制样品" });
 });
+
+it("retains all six captured certificate images despite unreliable MIME metadata", () => {
+  for (const locale of ["en", "cn"] as const) {
+    const page = getPage(locale, ["Certification_certificate"])!;
+    expect(page.images).toHaveLength(6);
+    const gallery = page.blocks.filter((block) => block.type === "gallery").flatMap((block) => block.images);
+    expect(gallery).toHaveLength(6);
+    expect(gallery.map((image) => image.src)).toContain("/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp");
+  }
+});
+
+it("preserves the homepage catalogue button's captured contact destination", () => {
+  const actions = getPage("en", [])!.blocks.filter((block) => block.type === "cta").flatMap((block) => block.actions);
+  expect(actions).toContainEqual({ label: "Request Full Product Catalog", href: "/en/Contact_Us", action: "inquiry" });
+});
+
+it("keeps Chinese catalogue inquiries and empty source contact links in Chinese", () => {
+  const homeActions = getPage("cn", [])!.blocks.filter((block) => block.type === "cta").flatMap((block) => block.actions);
+  expect(homeActions).toContainEqual({ label: "索取完整产品目录", href: "/cn/Contact_Us", action: "inquiry" });
+  const sourceActions = getPage("cn", ["Content", "3012462.html"])!.blocks.filter((block) => block.type === "cta").flatMap((block) => block.actions);
+  expect(sourceActions).toContainEqual({ label: "索取完整产品目录", href: "/cn/Contact_Us", action: "inquiry" });
+  for (const page of allPages.filter((page) => page.locale === "cn")) {
+    for (const block of page.blocks) {
+      if (block.type === "cta") expect(block.actions.every((action) => !action.href.startsWith("/en/"))).toBe(true);
+    }
+  }
+});

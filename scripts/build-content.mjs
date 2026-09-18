@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, copyFile } from "node:fs/promises";
+import { readFile, writeFile, mkdir, copyFile, open } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { JSDOM, VirtualConsole } from "jsdom";
@@ -73,11 +73,41 @@ const clean = (value) => (value ?? "").replace(/\s+/g, " ").trim();
 const unique = (values) => [...new Set(values)];
 const textOf = (node) => clean(node?.textContent);
 const idOf = (pathname) => pathname.split("/").pop().replace(/\.html$/, "") || "home";
+const ctaLabels = {
+  "Get a Quote Now": "立即询价",
+  "Request Full Product Catalog": "索取完整产品目录",
+  "Join us today": "今天加入我们",
+  "Contact Us": "联系我们",
+  "Consult with Home Appliance Experts": "咨询家电专家",
+};
+
+async function hasImageSignature(filename) {
+  const file = await open(filename, "r");
+  try {
+    const bytes = Buffer.alloc(32);
+    const { bytesRead } = await file.read(bytes, 0, bytes.length, 0);
+    if (bytesRead < 12) return false;
+    return bytes.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))
+      || bytes.subarray(0, 3).equals(Buffer.from([255, 216, 255]))
+      || /^(GIF87a|GIF89a)$/.test(bytes.toString("ascii", 0, 6))
+      || (bytes.toString("ascii", 0, 4) === "RIFF" && bytes.toString("ascii", 8, 12) === "WEBP")
+      || (bytes.toString("ascii", 4, 8) === "ftyp" && /^(avif|avis)$/.test(bytes.toString("ascii", 8, 12)))
+      || bytes.toString("ascii", 0, 2) === "BM";
+  } finally {
+    await file.close();
+  }
+}
 
 export async function buildContent({ source = "source-cache", output = "content", publicDir = "public" } = {}) {
   const manifest = JSON.parse(await readFile(path.join(source, "manifest.json"), "utf8"));
   const sourcePages = [...new Map(manifest.pages.map((page) => [page.pathname, page])).values()];
   const assetMap = new Map(manifest.assets.filter((asset) => asset.status === 200).map((asset) => [asset.sourceUrl, asset]));
+  const imageAssets = new Set();
+  for (const asset of assetMap.values()) {
+    if (asset.contentType?.startsWith("image/") || await hasImageSignature(path.join(source, asset.localPath))) {
+      imageAssets.add(asset.sourceUrl);
+    }
+  }
   const usedAssets = new Map();
   const docs = new Map();
   async function documentFor(page, locale) {
@@ -98,7 +128,7 @@ export async function buildContent({ source = "source-cache", output = "content"
     let url;
     try { url = new URL(raw, "https://gcdn.meidianbang.cn").href; } catch { return; }
     const asset = assetMap.get(url);
-    if (!asset || (!download && !asset.contentType?.startsWith("image/"))) return;
+    if (!asset || (!download && !imageAssets.has(asset.sourceUrl))) return;
     const destination = `/${download ? "downloads" : "media"}/${path.basename(asset.localPath)}`;
     usedAssets.set(destination, asset.localPath);
     return { src: destination, alt: clean(alt) };
@@ -125,18 +155,37 @@ export async function buildContent({ source = "source-cache", output = "content"
     const lines = nodes.length ? nodes.map(textOf) : [textOf(root)];
     return unique(lines.filter((text) => text && !text.includes("XX") && !/^Product$|^About$|^Touch$/.test(text)));
   }
-  function blocksFor(root) {
+  function sourceAction(anchor, locale, pageUrl) {
+    const text = textOf(anchor.querySelector(".ButtonText")) || textOf(anchor);
+    if (!text) return;
+    const label = locale === "cn" ? (ctaLabels[text] || text) : text;
+    const raw = clean(anchor.getAttribute("href"));
+    // Captured empty buttons have no navigation target. Offer the same explicit
+    // contact-inquiry fallback in either locale; do not infer paths from labels.
+    if (!raw) return { label, href: `/${locale}/Contact_Us`, action: "inquiry" };
+    let url;
+    try { url = new URL(raw, pageUrl); } catch { return; }
+    if (!['http:', 'https:', 'mailto:', 'tel:'].includes(url.protocol)) return;
+    if (url.hostname === "lbhappliances.com" || url.hostname === "www.lbhappliances.com") {
+      const pathname = url.pathname.replace(/^\/(en|cn)(?=\/|$)/, "") || "/";
+      const href = `/${locale}${pathname === "/" ? "" : pathname}${url.search}${url.hash}`;
+      return { label, href, ...(pathname === "/Contact_Us" ? { action: "inquiry" } : {}) };
+    }
+    return { label, href: url.href };
+  }
+  function blocksFor(root, locale = "en", pageUrl = "https://lbhappliances.com/", ctaOnly = false) {
     if (!root) return [];
     const blocks = [];
     const seen = new Set();
-    const modules = root.querySelectorAll(".ModuleImageTextContent,.ModuleDigitalIncreaseGiant,.ModuleButtonGiant,.ModuleSiteGalleryV2Giant,.ModuleImageGiant,.ModuleVideoGiant");
+    const modules = root.querySelectorAll(ctaOnly ? ".ModuleButtonGiant" : ".ModuleImageTextContent,.ModuleDigitalIncreaseGiant,.ModuleButtonGiant,.ModuleSiteGalleryV2Giant,.ModuleImageGiant,.ModuleVideoGiant");
     for (const node of modules) {
       const paragraphs = paragraphsFor(node), text = paragraphs.join(" ");
       if (text && seen.has(text)) continue;
       if (text) seen.add(text);
       const images = imagesFor(node);
       if (node.matches(".ModuleButtonGiant")) {
-        if (text) blocks.push({ type: "cta", actions: [{ label: text, href: /catalog/i.test(text) ? "/en/Product_Catalogue" : "/en/Contact_Us", ...(/quote|join|contact|consult/i.test(text) ? { action: "inquiry" } : {}) }] });
+        const actions = [...node.querySelectorAll("a")].map((anchor) => sourceAction(anchor, locale, pageUrl)).filter(Boolean);
+        if (actions.length) blocks.push({ type: "cta", actions });
       } else if (node.matches(".ModuleDigitalIncreaseGiant")) {
         const raw = textOf(node);
         const items = [...raw.matchAll(/(\d[\d,]*\s*\+?)\s*([^\d]+?)(?=\s*\d|$)/g)].map((match) => ({ value: clean(match[1]), label: clean(match[2]) }));
@@ -228,7 +277,7 @@ export async function buildContent({ source = "source-cache", output = "content"
       const category = categories.find((category) => category.legacyPath === page.pathname);
       const labels = category ? [category.title.en, category.title.cn, `探索 ${category.title.cn} 系列，查看产品型号、规格和定制选项。`] : pageLabels[page.pathname === "/" ? "/" : page.pathname.slice(1)] || (page.pathname.startsWith("/DownLoad/") ? ["Product Catalogue", "产品目录", "查看与下载产品目录。"] : ["News", "新闻资讯", "浏览最新文章与常见问题。"]);
       const images = imagesFor(root, labels[0]);
-      const englishBlocks = blocksFor(root);
+      const englishBlocks = blocksFor(root, "en", page.url);
       const description = englishBlocks.flatMap((block) => block.paragraphs || []).find((text) => text.length > 40 && !/[\u4e00-\u9fff]/.test(text)) || labels[0];
       const cnRoot = cnDoc.querySelector("#BodyMain1Zone") || cnDoc.body;
       const cnParagraphs = [...cnRoot.querySelectorAll(".ModuleImageTextContent")].flatMap(paragraphsFor);
@@ -236,7 +285,7 @@ export async function buildContent({ source = "source-cache", output = "content"
       const actualChinese = cnParagraphs.length > 2 && cnCount / cnParagraphs.length > 0.6;
       for (const locale of ["en", "cn"]) {
         const title = labels[locale === "en" ? 0 : 1];
-        let blocks = locale === "en" ? englishBlocks : actualChinese ? blocksFor(cnRoot) : [{ type: "rich-text", heading: title, paragraphs: [labels[2]] }, ...englishBlocks.filter((block) => block.type === "media" || block.type === "gallery")];
+        let blocks = locale === "en" ? englishBlocks : actualChinese ? blocksFor(cnRoot, locale, page.url) : [{ type: "rich-text", heading: title, paragraphs: [labels[2]] }, ...englishBlocks.filter((block) => block.type === "media" || block.type === "gallery"), ...blocksFor(cnRoot, locale, page.url, true)];
         if (locale === "cn" && page.pathname === "/") blocks.push({ type: "stats", items: [
           { value: "2 +", label: "全资自动化工厂" },
           { value: "10 +", label: "灵活付款方式" },
