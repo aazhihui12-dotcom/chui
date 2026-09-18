@@ -6,6 +6,7 @@ import { LanguageSwitch } from "./LanguageSwitch";
 import { MobileMenu } from "@/components/interactive/MobileMenu";
 import { Footer } from "./Footer";
 import { FloatingActions } from "./FloatingActions";
+import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
 
 export function Header({ locale }: { locale: Locale }) {
   const config = siteConfig[locale];
@@ -18,6 +19,7 @@ export function Header({ locale }: { locale: Locale }) {
       </a>
       <DesktopNav items={config.navigation} />
       <div className="site-header__actions">
+        <InquiryTrigger locale={locale} title={config.labels.inquiry} className="header-inquiry" label={locale === "cn" ? "询盘" : "Inquiry"}>✉</InquiryTrigger>
         <LanguageSwitch locale={locale} />
         <MobileMenu locale={locale} items={config.navigation} />
       </div>

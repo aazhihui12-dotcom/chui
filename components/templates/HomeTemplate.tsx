@@ -5,6 +5,7 @@ import { HeroCarousel } from "@/components/interactive/HeroCarousel";
 import { VideoModal } from "@/components/interactive/VideoModal";
 import { categories, products } from "@/content/products";
 import { homeCopy, manufacturingPoster, manufacturingVideo } from "@/content/home";
+import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
 
 export function HomeTemplate({ page }: { page: SitePage }) {
   const copy = homeCopy[page.locale];
@@ -35,7 +36,7 @@ export function HomeTemplate({ page }: { page: SitePage }) {
       <div className="home-products__grid">{categories.map((category, index) => <a className="product-category" key={category.id} href={`/${page.locale}${category.legacyPath}`}>
         <Media image={{ ...uniqueMedia[index], alt: "" }} /><h3>{category.title[page.locale]}<span aria-hidden="true">↗</span></h3>
       </a>)}</div>
-      <div className="button-row"><a className="lbh-button" href={contact}>{copy.quote} ↗</a><a className="lbh-button lbh-button--outline" href={contact}>{copy.catalogue} ↗</a></div>
+      <div className="button-row"><InquiryTrigger locale={page.locale} title={copy.quote}>{copy.quote} ↗</InquiryTrigger><InquiryTrigger locale={page.locale} title={copy.catalogue} className="lbh-button lbh-button--outline">{copy.catalogue} ↗</InquiryTrigger></div>
     </section>
 
     <section className="home-audiences" aria-label={page.locale === "cn" ? "合作机会" : "Partnership opportunities"}>
@@ -56,6 +57,6 @@ export function HomeTemplate({ page }: { page: SitePage }) {
 
     <section className="home-mission home-section"><Media image={{ ...uniqueMedia[13], alt: page.locale === "cn" ? "LBH研发与合作" : "LBH research and collaboration" }} /><div><p className="eyebrow">LBH APPLIANCES</p><h2>{copy.mission}</h2>{copy.missionParagraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<a className="text-link" href={contact}>{copy.customization} ↗</a></div></section>
 
-    <section className="home-final-cta"><Media image={{ ...uniqueMedia[14], alt: "" }} /><div className="home-section"><h2>{copy.finalHeading}</h2><a className="lbh-button" href={contact}>{copy.expert}</a></div></section>
+    <section className="home-final-cta"><Media image={{ ...uniqueMedia[14], alt: "" }} /><div className="home-section"><h2>{copy.finalHeading}</h2><InquiryTrigger locale={page.locale} title={copy.expert}>{copy.expert}</InquiryTrigger></div></section>
   </main>;
 }

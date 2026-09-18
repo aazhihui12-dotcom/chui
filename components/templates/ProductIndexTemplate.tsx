@@ -6,6 +6,7 @@ import { SectionRenderer } from "@/components/site/SectionRenderer";
 import { VideoModal } from "@/components/interactive/VideoModal";
 import { manufacturingPoster, manufacturingVideo } from "@/content/home";
 import { ProductIndexServices, ProductIndexAssembly, ProductIndexPartners } from "./ProductIndexProof";
+import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
 
 const source = pages.find((page) => page.kind === "product-index" && page.locale === "en")!;
 function sourceSection(heading: string, length: number) {
@@ -30,7 +31,7 @@ export function ProductIndexTemplate({ page }: { page: SitePage }) {
   return <main id="main-content" className="product-page product-index">
     <section className="product-index__catalog"><h1>{cn ? "我们的个护电器为何与众不同？" : heading}</h1><ProductCatalog products={products} categories={categories} locale={locale} filterable presentation="carousel" /></section>
     <section className="product-index__proof" aria-label={cn ? "制造优势" : "Manufacturing advantages"}>{[0, 1, 2, 3].map((index) => { const image = asImage(proof[index * 2]); return <article key={index}>{image && <img src={image.src} alt="" width="130" height="130" loading="lazy" />}<p>{cn ? proofText[index] : asText(proof[index * 2 + 1])}</p></article>; })}</section>
-    <div className="button-row"><a className="lbh-button" href={`/${locale}/Contact_Us`}>{cn ? "立即询价" : "Get a Quick Quote"}</a><a className="lbh-button lbh-button--outline" href={`/${locale}/Contact_Us`}>{cn ? "索取完整产品目录" : "Request Full Product Catalog"}</a></div>
+    <div className="button-row"><InquiryTrigger locale={locale} title={cn ? "立即询价" : "Get a Quick Quote"}>{cn ? "立即询价" : "Get a Quick Quote"}</InquiryTrigger><InquiryTrigger locale={locale} title={cn ? "索取完整产品目录" : "Request Full Product Catalog"} className="lbh-button lbh-button--outline">{cn ? "索取完整产品目录" : "Request Full Product Catalog"}</InquiryTrigger></div>
     <section className="product-index__categories" aria-label={cn ? "产品系列" : "Product ranges"}>{categories.map((category, index) => <a key={category.id} href={`/${locale}${category.legacyPath}`}>{categoriesMedia[index] && <img src={categoriesMedia[index].image.src} alt="" width="600" height="440" loading="lazy" />}<h2>{category.title[locale]} <span aria-hidden="true">↗</span></h2></a>)}</section>
     <section className="product-index__section product-index__customization"><h2>{cn ? "定制独特的小家电解决方案" : "Customized, Unique Small Appliance Solutions"}</h2><div className="product-index__options">{customTitles.map((title, index) => { const image = asImage(customization[index * 3]); return <article key={title}>{image && <img src={image.src} alt="" width="150" height="150" loading="lazy" />}<h3>{cn ? title : asText(customization[index * 3 + 1])}</h3><p>{cn ? customDescriptions[index] : asText(customization[index * 3 + 2])}</p></article>; })}</div></section>
     <section className="product-index__section"><h2>{cn ? "探索工厂品质之源" : "Discover the Source of Factory Quality"}</h2><p className="product-index__intro">{page.description}</p><VideoModal src={manufacturingVideo} poster={manufacturingPoster} locale={locale} /></section>
@@ -39,6 +40,6 @@ export function ProductIndexTemplate({ page }: { page: SitePage }) {
     <ProductIndexAssembly locale={locale} />
     <section className="product-index__section product-index__certifications"><h2>{cn ? "全球认可的品质认证" : "Globally Recognized Quality Certification"}</h2><p className="product-index__intro">{cn ? "根据客户要求，产品接受CCC、FCC、CE、IC、RoHS、UL及ISO 9001等技术认证与测试，以满足国际安全、质量和效率标准。" : asText(source.blocks[118])}</p><SectionRenderer blocks={source.blocks.filter((block) => block.type === "gallery").slice(0, 1)} /></section>
     <ProductIndexPartners locale={locale} />
-    <section className="product-index__cta"><h2>{cn ? "开启您的产品定制" : "Start your product customization"}</h2><a className="lbh-button" href={`/${locale}/Contact_Us`}>{cn ? "联系我们" : "Contact Us"} <span aria-hidden="true">↗</span></a></section>
+    <section className="product-index__cta"><h2>{cn ? "开启您的产品定制" : "Start your product customization"}</h2><InquiryTrigger locale={locale} title={cn ? "开启您的产品定制" : "Start your product customization"}>{cn ? "联系我们" : "Contact Us"} <span aria-hidden="true">↗</span></InquiryTrigger></section>
   </main>;
 }
