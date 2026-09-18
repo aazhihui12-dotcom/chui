@@ -56,6 +56,7 @@
 .product-card > span { align-self: end; color: #c43a02; margin-right: 18px; }
 .product-card:hover img { transform: scale(1.035); }
 .product-card:hover h2 { color: #c43a02; }
+.product-carousel .product-card:is(:hover, :focus-visible) h2 { color: white; }
 .product-index__proof { display: grid; gap: 20px; grid-template-columns: repeat(4, 1fr); padding-top: 0; text-align: center; }
 .product-index__proof img { aspect-ratio: 1.75; height: auto; object-fit: cover; width: 100%; }
 .product-index__proof p { color: #62594f; font-size: .88rem; line-height: 1.8; }

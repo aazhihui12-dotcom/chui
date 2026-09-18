@@ -1,5 +1,50 @@
 import { expect, test } from "@playwright/test";
 import { decodedImageFailures } from "../fixtures/decoded-images";
+import AxeBuilder from "@axe-core/playwright";
+
+test("carousel label contrast survives real hover and keyboard focus", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1200 });
+  await page.goto("/en/ProductIndex");
+  const card = page.locator(".product-carousel .product-card").first();
+  await card.hover();
+  await expect.soft(card.locator("h2")).toHaveCSS("color", "rgb(255, 255, 255)");
+  await expect(card.locator("h2")).toHaveCSS("background-color", "rgb(112, 112, 112)");
+  const hovered = await new AxeBuilder({ page }).include(".product-carousel").withRules(["color-contrast"]).analyze();
+  expect.soft(hovered.violations.map(({ id, nodes }) => ({ id, targets: nodes.map(node => node.target) }))).toEqual([]);
+  await page.mouse.move(1, 1);
+  await card.focus();
+  await expect(card).toBeFocused();
+  await expect(card.locator("h2")).toHaveCSS("color", "rgb(255, 255, 255)");
+  expect(await card.evaluate(node => getComputedStyle(node).outlineStyle)).not.toBe("none");
+  const focused = await new AxeBuilder({ page }).include(".product-carousel").withRules(["color-contrast"]).analyze();
+  expect(focused.violations).toEqual([]);
+});
+
+test("partial final carousel group marks the clamped desktop and mobile dot", async ({ page }) => {
+  await page.setViewportSize({ width: 1440, height: 1200 });
+  await page.goto("/en/ProductIndex");
+  await page.getByText("Filter products", { exact: true }).click();
+  await page.getByRole("button", { name: "Hair Straightener", exact: true }).click();
+  await page.getByText("Filter products", { exact: true }).click();
+  const carousel = page.getByRole("region", { name: "Product catalog" });
+  const second = carousel.getByRole("button", { name: "Go to product group 2", exact: true });
+  await second.click();
+  await expect(carousel.getByRole("status")).toHaveText("Products 3–5 of 5");
+  await expect(second).toHaveAttribute("aria-current", "true");
+  await expect(carousel.locator('.product-carousel__dots [aria-current="true"]')).toHaveCount(1);
+  await carousel.getByRole("button", { name: "Previous products", exact: true }).click();
+  await expect(carousel.getByRole("button", { name: "Go to product group 1", exact: true })).toHaveAttribute("aria-current", "true");
+  await carousel.getByRole("button", { name: "Next products", exact: true }).click();
+  await expect(second).toHaveAttribute("aria-current", "true");
+  await page.setViewportSize({ width: 390, height: 844 });
+  const third = carousel.getByRole("button", { name: "Go to product group 3", exact: true });
+  await third.click();
+  await expect(carousel.getByRole("status")).toHaveText("Products 4–5 of 5");
+  await expect(third).toHaveAttribute("aria-current", "true");
+  await page.setViewportSize({ width: 1440, height: 1200 });
+  await expect(carousel.getByRole("status")).toHaveText("Products 3–5 of 5");
+  await expect(second).toHaveAttribute("aria-current", "true");
+});
 
 test("visual image guard reports an intentionally broken displayed image", async ({ page }) => {
   await page.goto("/en/NewsDetail/6860217.html");
