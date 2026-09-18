@@ -8,12 +8,12 @@ export const products: Product[] = [
     "legacyPath": "/ProductDetail/11906944.html",
     "categoryId": "682974",
     "image": {
-      "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+      "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
       "alt": "LBH-3228"
     },
     "gallery": [
       {
-        "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+        "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
         "alt": "LBH-3228"
       },
       {
@@ -47,7 +47,7 @@ export const products: Product[] = [
             "title": "LBH-3228",
             "subtitle": "Curling Iron",
             "image": {
-              "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+              "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
               "alt": "LBH-3228"
             }
           },
@@ -55,7 +55,7 @@ export const products: Product[] = [
             "type": "gallery",
             "images": [
               {
-                "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+                "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
                 "alt": "LBH-3228"
               },
               {
@@ -75,7 +75,7 @@ export const products: Product[] = [
         ],
         "images": [
           {
-            "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+            "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
             "alt": "LBH-3228"
           },
           {
@@ -190,7 +190,7 @@ export const products: Product[] = [
             "title": "LBH-3228",
             "subtitle": "卷发棒",
             "image": {
-              "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+              "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
               "alt": "LBH-3228"
             }
           },
@@ -198,7 +198,7 @@ export const products: Product[] = [
             "type": "gallery",
             "images": [
               {
-                "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+                "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
                 "alt": "LBH-3228"
               },
               {
@@ -218,7 +218,7 @@ export const products: Product[] = [
         ],
         "images": [
           {
-            "src": "/media/58dfacc6fa58f2fcb8268f9874adc400af8139c43ce5eae69b63c311b6e3aefc.png",
+            "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
             "alt": "LBH-3228"
           },
           {
@@ -5228,12 +5228,12 @@ export const products: Product[] = [
     "legacyPath": "/ProductDetail/11906928.html",
     "categoryId": "682972",
     "image": {
-      "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+      "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
       "alt": "LBH-3802"
     },
     "gallery": [
       {
-        "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+        "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
         "alt": "LBH-3802"
       },
       {
@@ -5275,7 +5275,7 @@ export const products: Product[] = [
             "title": "LBH-3802",
             "subtitle": "Hair Dryer Brush",
             "image": {
-              "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+              "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
               "alt": "LBH-3802"
             }
           },
@@ -5283,7 +5283,7 @@ export const products: Product[] = [
             "type": "gallery",
             "images": [
               {
-                "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+                "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
                 "alt": "LBH-3802"
               },
               {
@@ -5311,7 +5311,7 @@ export const products: Product[] = [
         ],
         "images": [
           {
-            "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+            "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
             "alt": "LBH-3802"
           },
           {
@@ -5422,7 +5422,7 @@ export const products: Product[] = [
             "title": "LBH-3802",
             "subtitle": "热风梳",
             "image": {
-              "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+              "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
               "alt": "LBH-3802"
             }
           },
@@ -5430,7 +5430,7 @@ export const products: Product[] = [
             "type": "gallery",
             "images": [
               {
-                "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+                "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
                 "alt": "LBH-3802"
               },
               {
@@ -5458,7 +5458,7 @@ export const products: Product[] = [
         ],
         "images": [
           {
-            "src": "/media/cc97218813c0ac9a8d650c2a7b0d0a51f1f8f5d5015185d6f4cbc286626d741b.png",
+            "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
             "alt": "LBH-3802"
           },
           {
@@ -5560,12 +5560,12 @@ export const products: Product[] = [
     "legacyPath": "/ProductDetail/11906927.html",
     "categoryId": "682973",
     "image": {
-      "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+      "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
       "alt": "LBH-F19"
     },
     "gallery": [
       {
-        "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+        "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
         "alt": "LBH-F19"
       },
       {
@@ -5599,7 +5599,7 @@ export const products: Product[] = [
             "title": "LBH-F19",
             "subtitle": "Hair Straightener",
             "image": {
-              "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+              "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
               "alt": "LBH-F19"
             }
           },
@@ -5607,7 +5607,7 @@ export const products: Product[] = [
             "type": "gallery",
             "images": [
               {
-                "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+                "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
                 "alt": "LBH-F19"
               },
               {
@@ -5627,7 +5627,7 @@ export const products: Product[] = [
         ],
         "images": [
           {
-            "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+            "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
             "alt": "LBH-F19"
           },
           {
@@ -5738,7 +5738,7 @@ export const products: Product[] = [
             "title": "LBH-F19",
             "subtitle": "直发器",
             "image": {
-              "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+              "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
               "alt": "LBH-F19"
             }
           },
@@ -5746,7 +5746,7 @@ export const products: Product[] = [
             "type": "gallery",
             "images": [
               {
-                "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+                "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
                 "alt": "LBH-F19"
               },
               {
@@ -5766,7 +5766,7 @@ export const products: Product[] = [
         ],
         "images": [
           {
-            "src": "/media/ae7aea9bf196d1b7de76b8d2742453fb0c543645620fc8ab72889a55717c0db5.png",
+            "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
             "alt": "LBH-F19"
           },
           {

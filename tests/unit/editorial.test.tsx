@@ -99,7 +99,7 @@ it("shows factory assembly and motor images before statistics and browses the as
 
 it("keeps the laboratory's small test icons beside their labels instead of treating the extracted icon as a hero", async () => {
   const { container } = render(await ContentPage({ params: Promise.resolve({ locale: "en", slug: ["Product_Laboratory"] }) }));
-  const icons = container.querySelectorAll('img[src="/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png"]');
+  const icons = container.querySelectorAll('img[src="/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png"]');
   expect(icons).toHaveLength(4);
   expect(icons[0].closest(".editorial-test-item")).toHaveTextContent("New Design Concept Flexibility Test");
 });

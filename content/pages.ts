@@ -566,7 +566,7 @@ export const pages: SitePage[] = [
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
-        "src": "/media/74cfb11d067ad63182dd60d3232522857fb3336264b12897f00fcb5817750153.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
@@ -1074,7 +1074,7 @@ export const pages: SitePage[] = [
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
-        "src": "/media/74cfb11d067ad63182dd60d3232522857fb3336264b12897f00fcb5817750153.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "LBH Appliances — Saving You Time and Cost, Building Your Brand"
       },
       {
@@ -1833,7 +1833,7 @@ export const pages: SitePage[] = [
         "alt": "你有中国的制作团队"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "OEM Services"
       },
       {
@@ -2109,7 +2109,7 @@ export const pages: SitePage[] = [
         "alt": "你有中国的制作团队"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "OEM Services"
       },
       {
@@ -2921,7 +2921,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Design and Development"
       },
       {
@@ -3054,7 +3054,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Design and Development"
       },
       {
@@ -3219,7 +3219,7 @@ export const pages: SitePage[] = [
         "alt": "轻松了解每笔订单的进度"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Order Management"
       },
       {
@@ -3311,7 +3311,7 @@ export const pages: SitePage[] = [
         "alt": "轻松了解每笔订单的进度"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Order Management"
       },
       {
@@ -3924,7 +3924,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Product Warranty and After-Sales Service"
       },
       {
@@ -4016,7 +4016,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Product Warranty and After-Sales Service"
       },
       {
@@ -4048,7 +4048,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Company Introduction",
         "image": {
-          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "src": "/media/pages/company-introduction-background.webp",
           "alt": "图片展示"
         }
       },
@@ -4065,7 +4065,7 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "src": "/media/pages/company-introduction-background.webp",
           "alt": "图片展示"
         }
       },
@@ -4325,7 +4325,7 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
-        "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+        "src": "/media/pages/company-introduction-background.webp",
         "alt": "图片展示"
       },
       {
@@ -4409,7 +4409,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "公司介绍",
         "image": {
-          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "src": "/media/pages/company-introduction-background.webp",
           "alt": "图片展示"
         }
       },
@@ -4423,7 +4423,7 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+          "src": "/media/pages/company-introduction-background.webp",
           "alt": "图片展示"
         }
       },
@@ -4487,7 +4487,7 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
-        "src": "/media/b9aae565350c8a4159e4aa65dee3991581313a8687f8b8e2716bb46e0d6beaff.webp",
+        "src": "/media/pages/company-introduction-background.webp",
         "alt": "图片展示"
       },
       {
@@ -5774,7 +5774,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Product Lab",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+          "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
           "alt": "Product Lab"
         }
       },
@@ -5881,7 +5881,7 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Product Lab"
       },
       {
@@ -5937,7 +5937,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "产品实验室",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+          "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
           "alt": "Product Lab"
         }
       },
@@ -5986,7 +5986,7 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Product Lab"
       },
       {
@@ -8107,7 +8107,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "Contact Us",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+          "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
           "alt": "Contact Us"
         }
       },
@@ -8160,7 +8160,7 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Contact Us"
       }
     ],
@@ -8188,7 +8188,7 @@ export const pages: SitePage[] = [
         "type": "hero",
         "title": "联系我们",
         "image": {
-          "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+          "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
           "alt": "Contact Us"
         }
       },
@@ -8202,7 +8202,7 @@ export const pages: SitePage[] = [
     ],
     "images": [
       {
-        "src": "/media/9316b812398934d28d817fddee6da92989587072b7cba64db2a4852ae4cc2e8b.png",
+        "src": "/media/2b8b9aced379a4f3a34646551e39dae6075e71799edf612f4aa921ca4c8ae5aa.png",
         "alt": "Contact Us"
       }
     ],
@@ -9375,35 +9375,35 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
-            "src": "/media/ba2e1edec901ef61fefc0671bcaa58b71a681eba539748ab38050f5fd53b2ada.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
-            "src": "/media/aaaf8cb5ba2214b4d11219f15074ef6ce50ebb5571cccf481826a17994daa159.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
-            "src": "/media/bf96dab7aa1ebac1b83c9ae4625e26e892a251cd067fc8b6f468e01fac9b3f0d.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
-            "src": "/media/2b3892296bc01c9cfdec4b87021f816263130f236dabc161b82ccd544e1d431e.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
-            "src": "/media/36f54fd51eaa652c63c10eea80869553968561b4844d4a22e47353b1ed25addc.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
-            "src": "/media/36805e9e2affc7f8f9f4828a0cb0b486684f2fc08b3dad81984101b5fab19e1b.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
-            "src": "/media/d3117f883d12b8fcdd60bbafa75aced04434114e212c1d99167113aba49b8471.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
-            "src": "/media/d4daaf3bdbb66ef3be48e2fbd4f9d083dc9956de5b95fc457116e314c83d4ce8.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           }
         ]
@@ -9448,35 +9448,7 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
-            "src": "/media/630c0f76b890c0315beedb6acc6e79ce475c6d95f1ccc5a0ede56b05889e2ed5.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/6511b2a88424a1c8c988441d2b8d0702f431763580d76a553eb5747ad47725b2.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/de18db9575b7942c55506a987536d98d54ffcf4031dbfd0ad1d9f8266e25d9ea.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/b204a93c866142a36fdc91003ef6bd0b376728450fc9297729f95f0232e9eb52.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/24a95cdb2378e38568d009186439ee6088f46c5de663e7a4bff41c2d229e893e.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/175d39e28ee8b61114a288ac3a2631c1bf16e3c868eb3977715788cdc903b303.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/3a49976d84cf980dedd04904db947c984d7832a94f351079466587743b3d696c.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/57249dad4c23361a2d83f8c96ab02bf6ab055311a6952bba87b65e70dc4534c7.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
@@ -9484,7 +9456,35 @@ export const pages: SitePage[] = [
             "alt": ""
           },
           {
-            "src": "/media/81f388b4c729d5e03c590cd4c4e384e546fcfedb95d237ed92cf1d7956330766.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           }
         ]
@@ -9602,35 +9602,35 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/ba2e1edec901ef61fefc0671bcaa58b71a681eba539748ab38050f5fd53b2ada.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/aaaf8cb5ba2214b4d11219f15074ef6ce50ebb5571cccf481826a17994daa159.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/bf96dab7aa1ebac1b83c9ae4625e26e892a251cd067fc8b6f468e01fac9b3f0d.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/2b3892296bc01c9cfdec4b87021f816263130f236dabc161b82ccd544e1d431e.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/36f54fd51eaa652c63c10eea80869553968561b4844d4a22e47353b1ed25addc.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/36805e9e2affc7f8f9f4828a0cb0b486684f2fc08b3dad81984101b5fab19e1b.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/d3117f883d12b8fcdd60bbafa75aced04434114e212c1d99167113aba49b8471.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/d4daaf3bdbb66ef3be48e2fbd4f9d083dc9956de5b95fc457116e314c83d4ce8.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
@@ -9638,35 +9638,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/630c0f76b890c0315beedb6acc6e79ce475c6d95f1ccc5a0ede56b05889e2ed5.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/6511b2a88424a1c8c988441d2b8d0702f431763580d76a553eb5747ad47725b2.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/de18db9575b7942c55506a987536d98d54ffcf4031dbfd0ad1d9f8266e25d9ea.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/b204a93c866142a36fdc91003ef6bd0b376728450fc9297729f95f0232e9eb52.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/24a95cdb2378e38568d009186439ee6088f46c5de663e7a4bff41c2d229e893e.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/175d39e28ee8b61114a288ac3a2631c1bf16e3c868eb3977715788cdc903b303.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/3a49976d84cf980dedd04904db947c984d7832a94f351079466587743b3d696c.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/57249dad4c23361a2d83f8c96ab02bf6ab055311a6952bba87b65e70dc4534c7.jpg",
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
@@ -9674,7 +9646,35 @@ export const pages: SitePage[] = [
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/81f388b4c729d5e03c590cd4c4e384e546fcfedb95d237ed92cf1d7956330766.jpg",
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
@@ -9797,7 +9797,7 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b944c1f4ee8413d7538711bdf92ffd8a8d395fe4731866ef4cf607fa8888504c.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -9824,14 +9824,14 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b944c1f4ee8413d7538711bdf92ffd8a8d395fe4731866ef4cf607fa8888504c.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b944c1f4ee8413d7538711bdf92ffd8a8d395fe4731866ef4cf607fa8888504c.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -9848,14 +9848,14 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b944c1f4ee8413d7538711bdf92ffd8a8d395fe4731866ef4cf607fa8888504c.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b944c1f4ee8413d7538711bdf92ffd8a8d395fe4731866ef4cf607fa8888504c.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -9882,7 +9882,7 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/ed3b834451427d89a3a2656b285976afd0ac659a9cce925aee6695deeac643c8.jpg",
+          "src": "/media/1e519664a8b941e251cfb5fa7b4d47958ed6f9472d7a8bd7c6795a8dc2cbd700.jpg",
           "alt": "图片展示"
         }
       },
@@ -9905,27 +9905,7 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
-            "src": "/media/539a3ed589c79e1d0fcaca44f6363a39038773c1700056bbb9eb8d10a9233650.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/4f335ff591e9922ef4f7c1d8abe8b960f7ab14233ae4f21bf7d7fab44e6f8073.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/74966ca670d53cfe244e685dd87d72a14615ca6300d47fcde6da354bb30fcc11.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/761cc81b498f6adeb579b75becd434548907a05efc607a0ffbac1c412c11e608.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/f3ceab7061668787304b669eef48d230b7ab1d3b1fb041f7ff49305ca6313968.jpg",
-            "alt": ""
-          },
-          {
-            "src": "/media/f4551ff0aab10a3c8fe3eba041c0838ca8ea9a99617e54893d9759a2b4fb10c2.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           },
           {
@@ -9933,7 +9913,27 @@ export const pages: SitePage[] = [
             "alt": ""
           },
           {
-            "src": "/media/f22298c4f260bbf4067585ef6a03791ac9487fdf740dd2d9edd6f4cde9647385.jpg",
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
+            "alt": ""
+          },
+          {
+            "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
             "alt": ""
           }
         ]
@@ -9941,7 +9941,7 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/ef3ab74e09ddfaf9ac8b68c97936362ce5695d9f27e7f81f9233aef301cfbe17.png",
+          "src": "/media/2f9969a8f0e39ad89b6d3464a0d0b4358c59e555b3abfba007a8380cd0bc3fad.png",
           "alt": "图片展示"
         }
       },
@@ -9958,14 +9958,14 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/ef3ab74e09ddfaf9ac8b68c97936362ce5695d9f27e7f81f9233aef301cfbe17.png",
+          "src": "/media/2f9969a8f0e39ad89b6d3464a0d0b4358c59e555b3abfba007a8380cd0bc3fad.png",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/ef3ab74e09ddfaf9ac8b68c97936362ce5695d9f27e7f81f9233aef301cfbe17.png",
+          "src": "/media/2f9969a8f0e39ad89b6d3464a0d0b4358c59e555b3abfba007a8380cd0bc3fad.png",
           "alt": "图片展示"
         }
       },
@@ -9978,43 +9978,43 @@ export const pages: SitePage[] = [
         "type": "gallery",
         "images": [
           {
-            "src": "/media/ce355fa8679da575224a2b2ef5fb3bb52bde179c85dc374819ea6c36621399b3.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/f2cf8fcef5f4830349efbce8b1e3ecc10bf83c3e1f1fcaedb52a7c56b29c675b.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/59a9e8ddf5098826b80b4a6f4abc307cf27d93b6a14630bfa66f7f96248295e9.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/30834228a35cb81f971be630c7460b804122f7192b6de415ca4153121f669569.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/e55c6a4e432d9cd9ec9941206968222a390b92f9a549dd5652070bf2f2b18ff3.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/eacc9212dab0c941884502fb55a43fa1d32307ad73fc1ad8a502b6f4ff764f4c.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/66d22e9b34da6fa19da8d9af44249f9724056febd82da3781235dff526b7bba6.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/b3128f2f0c5cd555790d04d6172d8509ee40e5a987c2bc092d5acc823205db41.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/5c346dd2f02944b8695c6115e0a21d3ae828cef13c7dbd625004cb43679a6e36.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           },
           {
-            "src": "/media/eb436357c7be9f261ac8e375ad8d5ff2f2c27437a763cac58b4097a6bc51daff.jpg",
+            "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
             "alt": ""
           }
         ]
@@ -10052,7 +10052,7 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b944c1f4ee8413d7538711bdf92ffd8a8d395fe4731866ef4cf607fa8888504c.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -10132,35 +10132,35 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/ba2e1edec901ef61fefc0671bcaa58b71a681eba539748ab38050f5fd53b2ada.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/aaaf8cb5ba2214b4d11219f15074ef6ce50ebb5571cccf481826a17994daa159.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/bf96dab7aa1ebac1b83c9ae4625e26e892a251cd067fc8b6f468e01fac9b3f0d.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/2b3892296bc01c9cfdec4b87021f816263130f236dabc161b82ccd544e1d431e.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/36f54fd51eaa652c63c10eea80869553968561b4844d4a22e47353b1ed25addc.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/36805e9e2affc7f8f9f4828a0cb0b486684f2fc08b3dad81984101b5fab19e1b.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/d3117f883d12b8fcdd60bbafa75aced04434114e212c1d99167113aba49b8471.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/d4daaf3bdbb66ef3be48e2fbd4f9d083dc9956de5b95fc457116e314c83d4ce8.jpg",
+        "src": "/media/0753ddae578046eddc384723c7592650566e6fd719fe073687a0c38f4931dd7f.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
@@ -10168,35 +10168,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/630c0f76b890c0315beedb6acc6e79ce475c6d95f1ccc5a0ede56b05889e2ed5.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/6511b2a88424a1c8c988441d2b8d0702f431763580d76a553eb5747ad47725b2.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/de18db9575b7942c55506a987536d98d54ffcf4031dbfd0ad1d9f8266e25d9ea.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/b204a93c866142a36fdc91003ef6bd0b376728450fc9297729f95f0232e9eb52.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/24a95cdb2378e38568d009186439ee6088f46c5de663e7a4bff41c2d229e893e.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/175d39e28ee8b61114a288ac3a2631c1bf16e3c868eb3977715788cdc903b303.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/3a49976d84cf980dedd04904db947c984d7832a94f351079466587743b3d696c.jpg",
-        "alt": "Personal Care Appliance Solutions"
-      },
-      {
-        "src": "/media/57249dad4c23361a2d83f8c96ab02bf6ab055311a6952bba87b65e70dc4534c7.jpg",
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
@@ -10204,7 +10176,35 @@ export const pages: SitePage[] = [
         "alt": "Personal Care Appliance Solutions"
       },
       {
-        "src": "/media/81f388b4c729d5e03c590cd4c4e384e546fcfedb95d237ed92cf1d7956330766.jpg",
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
+        "alt": "Personal Care Appliance Solutions"
+      },
+      {
+        "src": "/media/00a3a5db7537efe1df47da7eba1287442b066f42560101c584297955f1df5bb3.jpg",
         "alt": "Personal Care Appliance Solutions"
       },
       {
@@ -10594,28 +10594,28 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -11529,7 +11529,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+        "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
       },
       {
@@ -11799,28 +11799,28 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -12249,7 +12249,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+        "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
       },
       {
@@ -12539,28 +12539,28 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -13474,7 +13474,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+        "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
       },
       {
@@ -13744,28 +13744,28 @@ export const pages: SitePage[] = [
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
       {
         "type": "media",
         "image": {
-          "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+          "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
           "alt": "图片展示"
         }
       },
@@ -14194,7 +14194,7 @@ export const pages: SitePage[] = [
         "alt": "图片展示"
       },
       {
-        "src": "/media/b91f450c0e0482219fb9844d33a1d590454e1a1e31665108058e9f460dcf2b3e.jpg",
+        "src": "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg",
         "alt": "图片展示"
       },
       {
