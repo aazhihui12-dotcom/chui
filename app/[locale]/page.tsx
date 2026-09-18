@@ -1,16 +1,18 @@
-import { locales } from "@/lib/i18n";
+import { locales, isLocale } from "@/lib/i18n";
+import { notFound } from "next/navigation";
+import { getPage } from "@/lib/content";
+import { HomeTemplate } from "@/components/templates/HomeTemplate";
 
-// Task 4 route fixture: Task 5 replaces this shell-only page with HomeTemplate.
 export const dynamicParams = false;
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export default function LocaleShellEntry() {
-  return (
-    <main id="main-content" tabIndex={-1}>
-      <span className="sr-only">LBH Appliances</span>
-    </main>
-  );
+export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  if (!isLocale(locale)) notFound();
+  const page = getPage(locale, []);
+  if (!page) notFound();
+  return <HomeTemplate page={page} />;
 }

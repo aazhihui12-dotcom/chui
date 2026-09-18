@@ -14801,3 +14801,5 @@ export const pages: SitePage[] = [
     "downloads": []
   }
 ];
+
+export const englishHome = pages.find((page) => page.id === "home" && page.locale === "en")!;
