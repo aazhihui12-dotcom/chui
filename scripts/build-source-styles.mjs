@@ -1,5 +1,6 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { JSDOM } from "jsdom";
+import { themeColor } from "./apower-colors.mjs";
 
 // Match rendered text to independently captured source text. Source typography is
 // scoped to the active route, so Next's retained styles cannot leak on navigation.
@@ -7,7 +8,7 @@ const routes = JSON.parse(await readFile("docs/page-correspondence/report.json",
 const fontKeys = ["fontFamily","fontSize","fontWeight","fontStyle","lineHeight","letterSpacing","textTransform","color"];
 const normal = t=>(t||"").normalize("NFKC").replace(/[\s\p{P}\p{S}]/gu,"").toLowerCase();
 const cssKey = key=>key.replace(/[A-Z]/g,s=>`-${s.toLowerCase()}`);
-const decl = (record,keys)=>keys.filter(k=>record?.[k]!==undefined).map(k=>`${cssKey(k)}:${record[k]} !important`).join(";");
+const decl = (record,keys,light=false)=>keys.filter(k=>record?.[k]!==undefined).map(k=>`${cssKey(k)}:${themeColor(cssKey(k),record[k],light)} !important`).join(";");
 const report=[];
 await mkdir("public/source-styles",{recursive:true});await mkdir("out/source-styles",{recursive:true});
 const captureCache = new Map();
@@ -70,7 +71,8 @@ for (const route of routes) {
       // state visible during the source capture.
       if(element.closest(".product-tabs__list,.product-category-nav"))delete metrics.color;
       const dynamicCard=element.matches("h2,h3")&&element.closest(".product-card,.home-featured-products a");
-      rules.push(`${selector(element)}{${decl(metrics,dynamicCard?fontKeys.filter(k=>k!=="color"):fontKeys)}${dynamicCard?`;--source-rest-color:${target.color}`:""}}`);
+      const lightPhoto=!!element.closest(".home-hero,.product-category-banner") || element.matches(".home-sustainability > .home-section > h2");
+      rules.push(`${selector(element)}{${decl(metrics,dynamicCard?fontKeys.filter(k=>k!=="color"):fontKeys,lightPhoto)}${dynamicCard?`;--source-rest-color:${themeColor('color',target.color)}`:""}}`);
       matched.push({selector:selector(element),text:value,sourceText:target.text,expected:Object.fromEntries(fontKeys.map(k=>[k,metrics[k]]))});
     }
     const home=await readCapture(route.startsWith("/cn")?"/cn":"/en",width);
@@ -95,7 +97,7 @@ for (const route of routes) {
       const keyList=["backgroundColor","borderRadius","borderTopWidth","borderTopStyle","borderTopColor","height","width","boxShadow"];
       rules.push(`${selector(element)}{${decl({...box,...font},[...fontKeys,...keyList])};max-width:100% !important}`);
       const hover=target.hover?.box||target.box;
-      rules.push(`${selector(element)}:hover{${decl(hover,["backgroundColor","boxShadow"])};color:${target.hover?.label?.color||target.label.color} !important}`);
+      rules.push(`${selector(element)}:hover{${decl(hover,["backgroundColor","boxShadow"])};color:${themeColor('color',target.hover?.label?.color||target.label.color)} !important}`);
       buttons.push({selector:selector(element),text:label,sourceText:target.text,expected:{...Object.fromEntries(fontKeys.map(k=>[k,font[k]])),...Object.fromEntries(keyList.map(k=>[k,box[k]]))}});
     }
     sheets.push(`@media (${width===1440?"min-width:768px":"max-width:767px"}){\n${rules.join("\n")}\n}`);

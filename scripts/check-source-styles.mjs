@@ -3,6 +3,9 @@ import { chromium } from "playwright";
 
 // Browser verification against independently captured source metrics, not CSS text.
 const pages=JSON.parse(await readFile("docs/source-styles/mapping.json","utf8"));
+// Theme changes intentionally differ from source colors; preserve raw captures.
+const typographyOnly=process.argv.includes("--typography-only");
+if(typographyOnly) for(const entry of pages) for(const item of [...entry.matched,...entry.buttons]) for(const key of ["color","backgroundColor","borderTopColor","boxShadow"]) delete item.expected[key];
 const browser=await chromium.launch({channel:"chrome"});
 const results=[];let next=0;
 try {
@@ -34,7 +37,7 @@ try {
   }));
 }finally{await browser.close();}
 results.sort((a,b)=>a.route.localeCompare(b.route)||b.width-a.width);
-await writeFile("docs/source-styles/verification.json",JSON.stringify(results,null,2)+"\n");
+await writeFile(typographyOnly ? "docs/source-styles/apower-typography-verification.json" : "docs/source-styles/verification.json",JSON.stringify(results,null,2)+"\n");
 const failed=results.filter(r=>r.status!==200||r.failures.length||r.overflow);
 console.log(JSON.stringify({pages:results.length,properties:results.reduce((n,r)=>n+r.compared,0),failed:failed.length,examples:failed.slice(0,8)},null,2));
 if(failed.length)process.exitCode=1;
