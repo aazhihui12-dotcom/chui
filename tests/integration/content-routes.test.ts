@@ -9,7 +9,7 @@ it("exports exactly 68 unique localized article detail paths, all included in st
   expect(params).toHaveLength(68);
   expect(new Set(params.map(p => `${p.locale}/${p.slug.join("/")}`)).size).toBe(68);
   expect(params).toContainEqual({ locale: "en", slug: ["NewsDetail", "6860206.html"] });
-  expect(params).toContainEqual({ locale: "cn", slug: ["NewsDetail", "6860195.html"] });
+  expect(params).toContainEqual({ locale: "cn", slug: ["NewsDetail", "6724244.html"] });
   for (const param of params) expect(generateStaticParams()).toContainEqual(param);
 });
 
@@ -37,8 +37,12 @@ it.each([
     expect(content.getPage(locale, slug)).toBeDefined();
     expect(generateStaticParams()).toContainEqual({ locale, slug });
     const html = renderToStaticMarkup(await ContentPage({ params: Promise.resolve({ locale, slug }) }));
-    expect(html).toContain(`class="${template}`);
-    expect(html.match(/<h1[ >]/g)).toHaveLength(1);
+    if (path === "Contact") {
+      expect(html).toMatch(/^<main[^>]*><\/main>$/);
+    } else {
+      expect(html).toContain(`class="${template}`);
+      expect(html.match(/<h1[ >]/g)).toHaveLength(1);
+    }
     if (path.startsWith("DownLoad")) {
       expect(html).toContain(locale === "cn" ? "暂无可下载文件" : "No downloadable files are currently available");
       expect(html).not.toContain("a=download");

@@ -67,9 +67,8 @@ it("renders full canonical Chinese OEM sections without a summary notice", async
 it("does not add a summary label or fabricated technical detail to sparse English pages", async () => {
   render(await ContentPage({ params: Promise.resolve({ locale: "en", slug: ["Ventilation_duct_technology"] }) }));
   expect(screen.queryByRole("note")).not.toBeInTheDocument();
-  expect(screen.getAllByRole("heading")).toHaveLength(1);
-  expect(screen.getByRole("heading", { name: "Air Duct Technology", level: 1 })).toBeVisible();
-  expect(screen.getAllByText("Air Duct Technology")).toHaveLength(1);
+  expect(screen.queryAllByRole("heading")).toHaveLength(0);
+  expect(screen.getByRole("main")).toBeEmptyDOMElement();
 });
 
 it("presents seven chronological milestones without repeating the year headings", async () => {

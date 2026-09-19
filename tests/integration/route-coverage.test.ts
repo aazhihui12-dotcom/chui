@@ -22,7 +22,7 @@ it("registers both locales of every unique captured source path", () => {
     ...generateStaticParams().map(({ locale, slug }) => `/${locale}/${slug.join("/")}`),
   ];
   expect(uniqueSourcePaths).toHaveLength(97);
-  expect(new Set(exportedPaths).size).toBe(194);
+  expect(new Set(exportedPaths).size).toBe(252);
   for (const sourcePath of uniqueSourcePaths) {
     for (const locale of ["en", "cn"]) expect(exportedPaths).toContain(`/${locale}${sourcePath === "/" ? "" : sourcePath}`);
   }

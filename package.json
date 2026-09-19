@@ -13,6 +13,7 @@
     "capture:regenerate": "node scripts/build-content.mjs",
     "capture:verify": "node scripts/check-source-manifest.mjs --cache source-cache && node scripts/check-assets.mjs --capture-integrity",
     "assets:manifest": "node scripts/update-shipped-assets.mjs",
+    "check:pages": "node scripts/check-page-correspondence.mjs",
     "test:e2e": "playwright test"
   },
   "dependencies": {

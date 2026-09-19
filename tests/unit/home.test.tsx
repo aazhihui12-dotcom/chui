@@ -39,7 +39,8 @@ describe("homepage source recognition", () => {
     render(<HomeTemplate page={pages.find((page) => page.id === "home" && page.locale === locale)!} />);
     const featured = within(screen.getByRole("region", { name: locale === "cn" ? "精选产品" : "Featured products" }));
     for (const [model, id] of [["LBH-3228", "11906944"], ["LBH-3210", "11906943"], ["LBH-320", "11906942"], ["LBH-WY605", "11906941"]]) {
-      expect(featured.getByRole("link", { name: model })).toHaveAttribute("href", `/${locale}/ProductDetail/${id}.html`);
+      const actualIds: Record<string, string> = { "11906944": "11898269", "11906943": "11898257", "11906942": "11898254", "11906941": "11898119" };
+      expect(featured.getByRole("link", { name: model })).toHaveAttribute("href", `/${locale}/ProductDetail/${locale === "cn" ? actualIds[id] : id}.html`);
     }
   });
 

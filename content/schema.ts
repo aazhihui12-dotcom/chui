@@ -26,6 +26,7 @@ export interface SitePage {
   title: string; description: string; seo: { title: string; description: string };
   blocks: ContentBlock[]; images: ImageAsset[]; provenance: Provenance;
   productId?: string; articleId?: string; categoryId?: string; downloads?: Action[];
+  sourceEmpty?: boolean;
 }
 export interface Specification { label: string; value: string }
 export interface ProductPage extends SitePage {

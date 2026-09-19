@@ -10,6 +10,7 @@ import { allPages } from "@/lib/content";
 import sitemap from "@/app/sitemap";
 import robots from "@/app/robots";
 import NotFound from "@/components/site/NotFound";
+import pairs from "@/content/route-correspondence.json";
 
 const navigation = vi.hoisted(() => ({ pathname: "/en/unknown" }));
 vi.mock("next/navigation", async (importOriginal) => ({
@@ -24,10 +25,10 @@ it.each(["en", "cn"] as const)("gives %s content a self canonical and both langu
   expect(result).toMatchObject({
     title: getPage(locale, ["ProductDetail", "11906944.html"])!.seo.title,
     alternates: {
-      canonical: `http://localhost:3000/${locale}/ProductDetail/11906944.html/`,
+      canonical: `http://localhost:3000/${locale}/ProductDetail/${locale === "cn" ? "11898269" : "11906944"}.html/`,
       languages: {
         en: "http://localhost:3000/en/ProductDetail/11906944.html/",
-        "zh-CN": "http://localhost:3000/cn/ProductDetail/11906944.html/",
+        "zh-CN": "http://localhost:3000/cn/ProductDetail/11898269.html/",
         "x-default": "http://localhost:3000/en/ProductDetail/11906944.html/",
       },
     },
@@ -52,12 +53,13 @@ it("lists all 194 locale pages once with their reciprocal language URLs", () => 
   expect(new Set(entries.map(entry => entry.url)).size).toBe(194);
   for (const page of allPages) {
     const pathname = page.legacyPath === "/" ? "" : page.legacyPath;
+    const pair = pairs.find(pair => pair.en === pathname || pair.cn === pathname);
     expect(entries).toContainEqual({
       url: `http://localhost:3000/${page.locale}${pathname}/`,
       alternates: { languages: {
-        en: `http://localhost:3000/en${pathname}/`,
-        "zh-CN": `http://localhost:3000/cn${pathname}/`,
-        "x-default": `http://localhost:3000/en${pathname}/`,
+        en: `http://localhost:3000/en${pair?.en ?? pathname}/`,
+        "zh-CN": `http://localhost:3000/cn${pair?.cn ?? pathname}/`,
+        "x-default": `http://localhost:3000/en${pair?.en ?? pathname}/`,
       } },
     });
   }

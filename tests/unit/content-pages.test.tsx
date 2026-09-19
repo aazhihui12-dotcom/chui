@@ -46,7 +46,7 @@ it("treats NewsList/2 as the FAQ category and honors legacy PageNo on load", asy
   window.history.replaceState({}, "", "/cn/NewsList/2.html?PageNo=2");
   render(await page("NewsList/2.html", "cn"));
   expect(screen.getAllByRole("article")).toHaveLength(11);
-  expect(screen.getByRole("link", { name: "你们的供货能力如何？" })).toHaveAttribute("href", "/cn/NewsDetail/6860206.html");
+  expect(screen.getByRole("link", { name: "你们的供货能力如何？" })).toHaveAttribute("href", "/cn/NewsDetail/6809208.html");
   expect(screen.getByRole("status")).toHaveTextContent("2 / 2");
 });
 

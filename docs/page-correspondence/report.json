@@ -1,0 +1,1754 @@
+{
+  "checkedAt": "2026-09-19T06:26:21.673Z",
+  "canonicalPages": 194,
+  "compatibilityPages": 58,
+  "errors": [],
+  "pages": [
+    {
+      "route": "/en",
+      "title": "LBH Appliances — Saving You Time and Cost, Building Your BrandYour Valued Partner in Personal Care and Home Appliances",
+      "sourceUrl": "https://www.lbhappliances.com/en",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn",
+      "title": "LBH电器 ,节省您的时间与成本并成就您的品牌您宝贵的个护家电合作伙伴",
+      "sourceUrl": "https://www.lbhappliances.com/cn",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Exclusive_sale",
+      "title": "Exclusive Sale",
+      "sourceUrl": "https://www.lbhappliances.com/en/Exclusive_sale",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Exclusive_sale",
+      "title": "独家销售",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Exclusive_sale",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Contract_manufacturing_service",
+      "title": "OEM Services",
+      "sourceUrl": "https://www.lbhappliances.com/en/Contract_manufacturing_service",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Contract_manufacturing_service",
+      "title": "代工服务",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Contract_manufacturing_service",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/PinZhiGuanLi",
+      "title": "Quality Management",
+      "sourceUrl": "https://www.lbhappliances.com/en/PinZhiGuanLi",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/PinZhiGuanLi",
+      "title": "品质管理",
+      "sourceUrl": "https://www.lbhappliances.com/cn/PinZhiGuanLi",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Design_and_Development",
+      "title": "Design and Development",
+      "sourceUrl": "https://www.lbhappliances.com/en/Design_and_Development",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Design_and_Development",
+      "title": "设计与开发",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Design_and_Development",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Order_Management",
+      "title": "Order Management",
+      "sourceUrl": "https://www.lbhappliances.com/en/Order_Management",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Order_Management",
+      "title": "订单管理",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Order_Management",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product_manufacturing",
+      "title": "Product Manufacturing",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product_manufacturing",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product_manufacturing",
+      "title": "产品制造",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_manufacturing",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product_Warranty_and_After-Sales_Service",
+      "title": "Product Warranty and After-Sales Service",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product_Warranty_and_After-Sales_Service",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product_Warranty_and_After-Sales_Service",
+      "title": "产品保修与售后服务",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_Warranty_and_After-Sales_Service",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Company_Introduction",
+      "title": "Company Introduction",
+      "sourceUrl": "https://www.lbhappliances.com/en/Company_Introduction",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Company_Introduction",
+      "title": "公司介绍",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Company_Introduction",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Lead_the_team",
+      "title": "Leadership Team",
+      "sourceUrl": "https://www.lbhappliances.com/en/Lead_the_team",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Lead_the_team",
+      "title": "领导团队",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Lead_the_team",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Factory_tour",
+      "title": "Factory Tour",
+      "sourceUrl": "https://www.lbhappliances.com/en/Factory_tour",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Factory_tour",
+      "title": "工厂参观",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Factory_tour",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Milestone",
+      "title": "Milestone",
+      "sourceUrl": "https://www.lbhappliances.com/en/Milestone",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Milestone",
+      "title": "发展历程",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Milestone",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Certification_certificate",
+      "title": "LBH Product Certification",
+      "sourceUrl": "https://www.lbhappliances.com/en/Certification_certificate",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Certification_certificate",
+      "title": "LBH 产品认证",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Certification_certificate",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Sustainable_Development",
+      "title": "Sustainable Development",
+      "sourceUrl": "https://www.lbhappliances.com/en/Sustainable_Development",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Sustainable_Development",
+      "title": "可持续发展",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Sustainable_Development",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product_Laboratory",
+      "title": "Product Lab",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product_Laboratory",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product_Laboratory",
+      "title": "产品实验室",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_Laboratory",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductIndex",
+      "title": "What makes our personal care appliances stand out?",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductIndex",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductIndex",
+      "title": "是什么让我们的个护家电产品脱颖而出？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductIndex",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Contact_Us",
+      "title": "Let us take on your new personal care and home appliance project!",
+      "sourceUrl": "https://www.lbhappliances.com/en/Contact_Us",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Contact_Us",
+      "title": "让我们来承接您新的个护家电项目吧！",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Contact_Us",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/FAQ",
+      "title": "Frequently Asked Questions",
+      "sourceUrl": "https://www.lbhappliances.com/en/FAQ",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/FAQ",
+      "title": "常见问题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/FAQ",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product/682971.html",
+      "title": "High Speed Hair Multi-Styler",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product/682971.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product/682971.html",
+      "title": "高速多功能美发器",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682971.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product/682972.html",
+      "title": "Hair Dryer Brush",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product/682972.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product/682972.html",
+      "title": "造型梳系列",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682972.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product/682973.html",
+      "title": "Hair Straightener",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product/682973.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product/682973.html",
+      "title": "直发器系列",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682973.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product/682974.html",
+      "title": "Curling Iron",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product/682974.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product/682974.html",
+      "title": "卷发器系列",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682974.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product/682975.html",
+      "title": "Hair Dryer",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product/682975.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product/682975.html",
+      "title": "吹风机系列",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product/682975.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/We_are_here_to_offer_assistance",
+      "title": "We Are Here to Help | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/en/We_are_here_to_offer_assistance",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/We_are_here_to_offer_assistance",
+      "title": "我们为您提供帮助 | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/cn/We_are_here_to_offer_assistance",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/About_us",
+      "title": "About Us | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/en/About_us",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/About_us",
+      "title": "关于我们 | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/cn/About_us",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Contact",
+      "title": "Contact | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/en/Contact",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Contact",
+      "title": "联系 | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Contact",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Content/3012462.html",
+      "title": "Personal Care Appliance Solutions",
+      "sourceUrl": "https://www.lbhappliances.com/en/Content/3012462.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Content/3012462.html",
+      "title": "个护小家电解决方案",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Content/3012462.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Product_Catalogue",
+      "title": "Product Catalogue",
+      "sourceUrl": "https://www.lbhappliances.com/en/Product_Catalogue",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Product_Catalogue",
+      "title": "产品目录",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Product_Catalogue",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Blog",
+      "title": "Blog",
+      "sourceUrl": "https://www.lbhappliances.com/en/Blog",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Blog",
+      "title": "博客",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Blog",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Why_choose_LHB_hair_dryer_products",
+      "title": "Why Choose LHB Hair Dryer Products | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/en/Why_choose_LHB_hair_dryer_products",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Why_choose_LHB_hair_dryer_products",
+      "title": "为什么选择LHB吹风机产品 | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Why_choose_LHB_hair_dryer_products",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Ventilation_duct_technology",
+      "title": "Air Duct Technology | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/en/Ventilation_duct_technology",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Ventilation_duct_technology",
+      "title": "风道技术 | LBH APPLIANCES",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Ventilation_duct_technology",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Content/3022032.html",
+      "title": "What Makes Our Personal Care Appliances Stand Out?",
+      "sourceUrl": "https://www.lbhappliances.com/en/Content/3022032.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Content/3022032.html",
+      "title": "我们的个护电器有何不同？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Content/3022032.html",
+      "sourceStatus": 404,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/Content/3022033.html",
+      "title": "What Makes Our Personal Care Appliances Stand Out?",
+      "sourceUrl": "https://www.lbhappliances.com/en/Content/3022033.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/Content/3022033.html",
+      "title": "我们的个护电器有何不同？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/Content/3022033.html",
+      "sourceStatus": 404,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906944.html",
+      "title": "LBH-3228",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906944.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898269.html",
+      "title": "LBH-3228",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898269.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906943.html",
+      "title": "LBH-3210",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906943.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898257.html",
+      "title": "LBH-3210",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898257.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906942.html",
+      "title": "LBH-320",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906942.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898254.html",
+      "title": "LBH-320",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898254.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906941.html",
+      "title": "LBH-WY605",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906941.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898119.html",
+      "title": "LBH-WY605",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898119.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906940.html",
+      "title": "LBH-WY602",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906940.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898116.html",
+      "title": "LBH-WY602",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898116.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906939.html",
+      "title": "LBH-HD020",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906939.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898103.html",
+      "title": "LBH-HD020",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898103.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906938.html",
+      "title": "LBH-EF488",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906938.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898099.html",
+      "title": "LBH-EF488",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898099.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906937.html",
+      "title": "LBH-D1",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906937.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898095.html",
+      "title": "LBH-D1",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898095.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906936.html",
+      "title": "LBH-BD24",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906936.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898094.html",
+      "title": "LBH-BD24",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898094.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906935.html",
+      "title": "LBH-956P",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906935.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898044.html",
+      "title": "LBH-956P",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898044.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906934.html",
+      "title": "LBH-919",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906934.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11898043.html",
+      "title": "LBH-919",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898043.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906933.html",
+      "title": "LBH-EF601",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906933.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897580.html",
+      "title": "LBH-EF601",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897580.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906932.html",
+      "title": "LBH-BD18",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906932.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897556.html",
+      "title": "LBH-BD18",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897556.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906931.html",
+      "title": "LBH-BD15",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906931.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897552.html",
+      "title": "LBH-BD15",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897552.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906930.html",
+      "title": "LBH-BD13",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906930.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897550.html",
+      "title": "LBH-BD13",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897550.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906929.html",
+      "title": "LBH-3806",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906929.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897545.html",
+      "title": "LBH-3806",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897545.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906928.html",
+      "title": "LBH-3802",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906928.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897540.html",
+      "title": "LBH-3802",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897540.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906927.html",
+      "title": "LBH-F19",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906927.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897537.html",
+      "title": "LBH-F19",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897537.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906926.html",
+      "title": "LBH-EF055",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906926.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897536.html",
+      "title": "LBH-EF055",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897536.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906925.html",
+      "title": "LBH-3257W",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906925.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897534.html",
+      "title": "LBH-3257W",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897534.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906924.html",
+      "title": "LBH-3257",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906924.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897531.html",
+      "title": "LBH-3257",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897531.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906923.html",
+      "title": "LBH-001A",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906923.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897529.html",
+      "title": "LBH-001A",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897529.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906922.html",
+      "title": "LBH-BD22",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906922.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897027.html",
+      "title": "LBH-BD22",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897027.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/ProductDetail/11906921.html",
+      "title": "LBH-3808",
+      "sourceUrl": "https://www.lbhappliances.com/en/ProductDetail/11906921.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/ProductDetail/11897013.html",
+      "title": "LBH-3808",
+      "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897013.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsList/1.html",
+      "title": "News",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsList/1.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsList/1.html",
+      "title": "新闻资讯",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsList/1.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsList/2.html",
+      "title": "News",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsList/2.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsList/2.html",
+      "title": "新闻资讯",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsList/2.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860206.html",
+      "title": "What is your supply capacity?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860206.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809208.html",
+      "title": "你们的供货能力如何？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809208.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860207.html",
+      "title": "What are your main products?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860207.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809209.html",
+      "title": "你们主要产品是什么？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809209.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860208.html",
+      "title": "Who are the partners?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860208.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809210.html",
+      "title": "有哪些合作伙伴？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809210.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860209.html",
+      "title": "How strong are your company's R&D capabilities?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860209.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809211.html",
+      "title": "贵公司研发实力如何？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809211.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860210.html",
+      "title": "What material are your products made of?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860210.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809212.html",
+      "title": "你们产品的材质是什麽？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809212.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860211.html",
+      "title": "What is your power range?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860211.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809213.html",
+      "title": "你的功率范围在多少？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809213.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860212.html",
+      "title": "Could you send me a free sample?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860212.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809214.html",
+      "title": "可以免费寄给我样品吗？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809214.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860213.html",
+      "title": "What is your minimum order quantity?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860213.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809215.html",
+      "title": "你的最小起订量是多少？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809215.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860214.html",
+      "title": "What colors can I choose?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860214.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809216.html",
+      "title": "我可以选择什麽颜色？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809216.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860215.html",
+      "title": "Can I print my own logo?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860215.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809217.html",
+      "title": "我可以列印自己的LOGO吗？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809217.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860216.html",
+      "title": "Can I customize the outer packaging boxes?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860216.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809218.html",
+      "title": "我可以订制外包装箱吗？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809218.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860217.html",
+      "title": "What certificates do you have?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860217.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809219.html",
+      "title": "你有什麽证书？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809219.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860218.html",
+      "title": "How long is your warranty period?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860218.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809220.html",
+      "title": "你的保固期多长",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809220.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860219.html",
+      "title": "What is the proportion of defective products?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860219.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809221.html",
+      "title": "劣质产品的比例是多少？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809221.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860220.html",
+      "title": "Do your products use proprietary molds?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860220.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809224.html",
+      "title": "你们的产品使用私人模具吗？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809224.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860221.html",
+      "title": "If I need a sample, could you make just one for me?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860221.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809228.html",
+      "title": "我若需要样品，你能只为我做一个吗？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809228.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860222.html",
+      "title": "If I place a small order first, followed by a larger order, could you offer me a discount?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860222.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809232.html",
+      "title": "如果我先下小订单，然后再下大订单，你们能给我折扣吗？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809232.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860223.html",
+      "title": "What is the difference between a traditional hair dryer and a high-speed hair dryer?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860223.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809236.html",
+      "title": "传统吹风机和高速吹风机有什么区别？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809236.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860224.html",
+      "title": "Is the shipping cost high?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860224.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809242.html",
+      "title": "运费高？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809242.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860225.html",
+      "title": "I have other quotes that are even lower.",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860225.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809247.html",
+      "title": "我还有其他报价更低的报价。",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809247.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860226.html",
+      "title": "Can I ship via FedEx?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860226.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809255.html",
+      "title": "可以寄联邦快递吗？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809255.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860227.html",
+      "title": "Which mode of transportation do you use?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860227.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809259.html",
+      "title": "您使用哪一种交通方式？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809259.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860228.html",
+      "title": "What is your standard delivery lead time?",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860228.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6809266.html",
+      "title": "你们日常交货周期一般是多长？",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809266.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860201.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860201.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724250.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724250.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860200.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860200.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724249.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724249.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860199.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860199.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724248.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724248.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860197.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860197.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724246.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724246.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860196.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860196.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724245.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724245.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860195.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860195.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724244.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724244.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860198.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860198.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724247.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724247.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860205.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860205.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724255.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724255.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860202.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860202.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724252.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724252.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860203.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860203.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724253.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724253.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/NewsDetail/6860204.html",
+      "title": "Title",
+      "sourceUrl": "https://www.lbhappliances.com/en/NewsDetail/6860204.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/NewsDetail/6724254.html",
+      "title": "标题",
+      "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724254.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/DownLoad/261891.html",
+      "title": "Product Catalogue",
+      "sourceUrl": "https://www.lbhappliances.com/en/DownLoad/261891.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/DownLoad/261891.html",
+      "title": "产品目录",
+      "sourceUrl": "https://www.lbhappliances.com/cn/DownLoad/261891.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/DownLoad/261890.html",
+      "title": "Product Catalogue",
+      "sourceUrl": "https://www.lbhappliances.com/en/DownLoad/261890.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/DownLoad/261890.html",
+      "title": "产品目录",
+      "sourceUrl": "https://www.lbhappliances.com/cn/DownLoad/261890.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/DownLoad/261889.html",
+      "title": "Product Catalogue",
+      "sourceUrl": "https://www.lbhappliances.com/en/DownLoad/261889.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/DownLoad/261889.html",
+      "title": "产品目录",
+      "sourceUrl": "https://www.lbhappliances.com/cn/DownLoad/261889.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/en/DownLoad/261888.html",
+      "title": "Product Catalogue",
+      "sourceUrl": "https://www.lbhappliances.com/en/DownLoad/261888.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    },
+    {
+      "route": "/cn/DownLoad/261888.html",
+      "title": "产品目录",
+      "sourceUrl": "https://www.lbhappliances.com/cn/DownLoad/261888.html",
+      "sourceStatus": 200,
+      "status": "PASS",
+      "failures": [],
+      "visual": "尚未逐像素验收"
+    }
+  ]
+}

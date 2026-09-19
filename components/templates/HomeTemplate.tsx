@@ -27,7 +27,7 @@ export function HomeTemplate({ page }: { page: SitePage }) {
         <SectionRenderer blocks={stats} />
       </div>
       <section className="home-featured-products" aria-label={page.locale === "cn" ? "精选产品" : "Featured products"}>
-        {featured.map((product, index) => <a href={`/${page.locale}${product.legacyPath}`} key={product.id}>
+        {featured.map((product, index) => <a href={`/${page.locale}${product.locales[page.locale].legacyPath}`} key={product.id}>
           <Media image={{ ...page.images[index + 3], alt: "" }} /><h3>{product.model}</h3>
         </a>)}
       </section>

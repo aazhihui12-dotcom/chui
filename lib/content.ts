@@ -2,6 +2,7 @@ import { pages } from "@/content/pages";
 import { products } from "@/content/products";
 import { articles } from "@/content/articles";
 import type { Locale, SitePage } from "@/content/schema";
+import { localizedLegacyPath } from "@/lib/locale-path";
 
 export const allPages: SitePage[] = [
   ...pages,
@@ -10,7 +11,7 @@ export const allPages: SitePage[] = [
 ];
 
 export function getPage(locale: Locale, slug: string[]): SitePage | undefined {
-  const key = `/${slug.join("/")}`;
+  const key = localizedLegacyPath(`/${slug.join("/")}`, locale);
   return allPages.find((page) => page.locale === locale && page.legacyPath === key);
 }
 

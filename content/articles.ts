@@ -44,28 +44,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860206",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860206.html",
+        "legacyPath": "/NewsDetail/6809208.html",
         "kind": "news-detail",
         "title": "你们的供货能力如何？",
-        "description": "日产能为 5,000 件，年出货量为 150 万至 200 万件。",
+        "description": "日均产能5000台，一年出货150万至200万台",
         "seo": {
           "title": "你们的供货能力如何？ | LBH APPLIANCES",
-          "description": "日产能为 5,000 件，年出货量为 150 万至 200 万件。"
+          "description": "日均产能5000台，一年出货150万至200万台"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "日产能为 5,000 件，年出货量为 150 万至 200 万件。"
+              "日均产能5000台，一年出货150万至200万台"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860206.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809208.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860206",
@@ -117,28 +117,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860207",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860207.html",
+        "legacyPath": "/NewsDetail/6809209.html",
         "kind": "news-detail",
-        "title": "你们的主要产品有哪些？",
-        "description": "涵盖不同细分市场的高速吹风机、多功能空气造型工具、空气衣物护理产品，以及不同档次的个人护理与造型工具。",
+        "title": "你们主要产品是什么？",
+        "description": "不同定位的高速吹风机、多合一空气造型夹板、空气衣物护理产品、以及不同等级的个护造型工具",
         "seo": {
-          "title": "你们的主要产品有哪些？ | LBH APPLIANCES",
-          "description": "涵盖不同细分市场的高速吹风机、多功能空气造型工具、空气衣物护理产品，以及不同档次的个人护理与造型工具。"
+          "title": "你们主要产品是什么？ | LBH APPLIANCES",
+          "description": "不同定位的高速吹风机、多合一空气造型夹板、空气衣物护理产品、以及不同等级的个护造型工具"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "涵盖不同细分市场的高速吹风机、多功能空气造型工具、空气衣物护理产品，以及不同档次的个人护理与造型工具。"
+              "不同定位的高速吹风机、多合一空气造型夹板、空气衣物护理产品、以及不同等级的个护造型工具"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860207.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809209.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860207",
@@ -190,28 +190,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860208",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860208.html",
+        "legacyPath": "/NewsDetail/6809210.html",
         "kind": "news-detail",
-        "title": "你们有哪些合作伙伴？",
-        "description": "合作伙伴包括 Radialight、VODANA、Sinbo、LIPWEL、VINTIS 等。",
+        "title": "有哪些合作伙伴？",
+        "description": "Radialight、VODANA、Sinbo、LIPWEL、VINTIS等",
         "seo": {
-          "title": "你们有哪些合作伙伴？ | LBH APPLIANCES",
-          "description": "合作伙伴包括 Radialight、VODANA、Sinbo、LIPWEL、VINTIS 等。"
+          "title": "有哪些合作伙伴？ | LBH APPLIANCES",
+          "description": "Radialight、VODANA、Sinbo、LIPWEL、VINTIS等"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "合作伙伴包括 Radialight、VODANA、Sinbo、LIPWEL、VINTIS 等。"
+              "Radialight、VODANA、Sinbo、LIPWEL、VINTIS等"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860208.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809210.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860208",
@@ -263,28 +263,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860209",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860209.html",
+        "legacyPath": "/NewsDetail/6809211.html",
         "kind": "news-detail",
-        "title": "你们公司的研发能力如何？",
-        "description": "我们拥有多年小型空气电器研发与商业化经验，具备独立的风道和电机技术，拥有多项发明与实用新型专利，每年推出四款新产品。",
+        "title": "贵公司研发实力如何？",
+        "description": "我们具备多年在空气小家电领域研发落地经验，拥有自主的风道与电机技术版图，拥有发明专利、实用新型专利，我们每年会推出4款新品",
         "seo": {
-          "title": "你们公司的研发能力如何？ | LBH APPLIANCES",
-          "description": "我们拥有多年小型空气电器研发与商业化经验，具备独立的风道和电机技术，拥有多项发明与实用新型专利，每年推出四款新产品。"
+          "title": "贵公司研发实力如何？ | LBH APPLIANCES",
+          "description": "我们具备多年在空气小家电领域研发落地经验，拥有自主的风道与电机技术版图，拥有发明专利、实用新型专利，我们每年会推出4款新品"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "我们拥有多年小型空气电器研发与商业化经验，具备独立的风道和电机技术，拥有多项发明与实用新型专利，每年推出四款新产品。"
+              "我们具备多年在空气小家电领域研发落地经验，拥有自主的风道与电机技术版图，拥有发明专利、实用新型专利，我们每年会推出4款新品"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860209.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809211.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860209",
@@ -336,28 +336,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860210",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860210.html",
+        "legacyPath": "/NewsDetail/6809212.html",
         "kind": "news-detail",
-        "title": "产品采用哪些材料？",
-        "description": "材料包括 PP、PC、铝合金等。",
+        "title": "你们产品的材质是什麽？",
+        "description": "PP、PC、铝合金等",
         "seo": {
-          "title": "产品采用哪些材料？ | LBH APPLIANCES",
-          "description": "材料包括 PP、PC、铝合金等。"
+          "title": "你们产品的材质是什麽？ | LBH APPLIANCES",
+          "description": "PP、PC、铝合金等"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "材料包括 PP、PC、铝合金等。"
+              "PP、PC、铝合金等"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860210.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809212.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860210",
@@ -409,28 +409,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860211",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860211.html",
+        "legacyPath": "/NewsDetail/6809213.html",
         "kind": "news-detail",
-        "title": "产品的功率范围是多少？",
-        "description": "功率范围为 1300W-2000W。",
+        "title": "你的功率范围在多少？",
+        "description": "1300W-2000W",
         "seo": {
-          "title": "产品的功率范围是多少？ | LBH APPLIANCES",
-          "description": "功率范围为 1300W-2000W。"
+          "title": "你的功率范围在多少？ | LBH APPLIANCES",
+          "description": "1300W-2000W"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "功率范围为 1300W-2000W。"
+              "1300W-2000W"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860211.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809213.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860211",
@@ -482,28 +482,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860212",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860212.html",
+        "legacyPath": "/NewsDetail/6809214.html",
         "kind": "news-detail",
-        "title": "可以寄送免费样品吗？",
-        "description": "可以，但需要您承担运费。如果您随后下单，这笔费用将全额退还。",
+        "title": "可以免费寄给我样品吗？",
+        "description": "是的，但是您介意支付运费吗？如果您下订单，费用将全额退还。",
         "seo": {
-          "title": "可以寄送免费样品吗？ | LBH APPLIANCES",
-          "description": "可以，但需要您承担运费。如果您随后下单，这笔费用将全额退还。"
+          "title": "可以免费寄给我样品吗？ | LBH APPLIANCES",
+          "description": "是的，但是您介意支付运费吗？如果您下订单，费用将全额退还。"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "可以，但需要您承担运费。如果您随后下单，这笔费用将全额退还。"
+              "是的，但是您介意支付运费吗？如果您下订单，费用将全额退还。"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860212.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809214.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860212",
@@ -555,28 +555,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860213",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860213.html",
+        "legacyPath": "/NewsDetail/6809215.html",
         "kind": "news-detail",
-        "title": "最低起订量是多少？",
-        "description": "我们支持的最低起订量（MOQ）为 500 件。",
+        "title": "你的最小起订量是多少？",
+        "description": "我们支持500MOQ最小起订量",
         "seo": {
-          "title": "最低起订量是多少？ | LBH APPLIANCES",
-          "description": "我们支持的最低起订量（MOQ）为 500 件。"
+          "title": "你的最小起订量是多少？ | LBH APPLIANCES",
+          "description": "我们支持500MOQ最小起订量"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "我们支持的最低起订量（MOQ）为 500 件。"
+              "我们支持500MOQ最小起订量"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860213.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809215.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860213",
@@ -628,28 +628,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860214",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860214.html",
+        "legacyPath": "/NewsDetail/6809216.html",
         "kind": "news-detail",
-        "title": "可以选择哪些颜色？",
-        "description": "可以根据您的要求生产任何颜色。只需提供色号，其余工作由我们完成。",
+        "title": "我可以选择什麽颜色？",
+        "description": "我们可以根据您的需求制作任何颜色。只需提供颜色编号，我们将处理其馀的事情。",
         "seo": {
-          "title": "可以选择哪些颜色？ | LBH APPLIANCES",
-          "description": "可以根据您的要求生产任何颜色。只需提供色号，其余工作由我们完成。"
+          "title": "我可以选择什麽颜色？ | LBH APPLIANCES",
+          "description": "我们可以根据您的需求制作任何颜色。只需提供颜色编号，我们将处理其馀的事情。"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "可以根据您的要求生产任何颜色。只需提供色号，其余工作由我们完成。"
+              "我们可以根据您的需求制作任何颜色。只需提供颜色编号，我们将处理其馀的事情。"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860214.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809216.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860214",
@@ -701,28 +701,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860215",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860215.html",
+        "legacyPath": "/NewsDetail/6809217.html",
         "kind": "news-detail",
-        "title": "可以印制自己的标志吗？",
-        "description": "可以，前提是订单数量超过我们的最低起订量（MOQ）。",
+        "title": "我可以列印自己的LOGO吗？",
+        "description": "是的，如果订单数量超过我们的最小起订量",
         "seo": {
-          "title": "可以印制自己的标志吗？ | LBH APPLIANCES",
-          "description": "可以，前提是订单数量超过我们的最低起订量（MOQ）。"
+          "title": "我可以列印自己的LOGO吗？ | LBH APPLIANCES",
+          "description": "是的，如果订单数量超过我们的最小起订量"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "可以，前提是订单数量超过我们的最低起订量（MOQ）。"
+              "是的，如果订单数量超过我们的最小起订量"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860215.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809217.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860215",
@@ -774,28 +774,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860216",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860216.html",
+        "legacyPath": "/NewsDetail/6809218.html",
         "kind": "news-detail",
-        "title": "可以定制外包装盒吗？",
-        "description": "可以，但有最低起订量要求。我们可以发送样图供您确认。",
+        "title": "我可以订制外包装箱吗？",
+        "description": "当然。但必须满足最小起订量。我们可以向您发送样品图片以供您确认",
         "seo": {
-          "title": "可以定制外包装盒吗？ | LBH APPLIANCES",
-          "description": "可以，但有最低起订量要求。我们可以发送样图供您确认。"
+          "title": "我可以订制外包装箱吗？ | LBH APPLIANCES",
+          "description": "当然。但必须满足最小起订量。我们可以向您发送样品图片以供您确认"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "可以，但有最低起订量要求。我们可以发送样图供您确认。"
+              "当然。但必须满足最小起订量。我们可以向您发送样品图片以供您确认"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860216.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809218.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860216",
@@ -847,28 +847,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860217",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860217.html",
+        "legacyPath": "/NewsDetail/6809219.html",
         "kind": "news-detail",
-        "title": "你们有哪些认证？",
-        "description": "包括 ISO 9001、FCC、CE、UL、KC、PSE、UKCA 等，可满足全球绝大多数国家的认证要求。",
+        "title": "你有什麽证书？",
+        "description": "ISO9001、FCC、CE、UL、KC、PSE、UKCA等，满足全球绝大部分国家认证需求",
         "seo": {
-          "title": "你们有哪些认证？ | LBH APPLIANCES",
-          "description": "包括 ISO 9001、FCC、CE、UL、KC、PSE、UKCA 等，可满足全球绝大多数国家的认证要求。"
+          "title": "你有什麽证书？ | LBH APPLIANCES",
+          "description": "ISO9001、FCC、CE、UL、KC、PSE、UKCA等，满足全球绝大部分国家认证需求"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "包括 ISO 9001、FCC、CE、UL、KC、PSE、UKCA 等，可满足全球绝大多数国家的认证要求。"
+              "ISO9001、FCC、CE、UL、KC、PSE、UKCA等，满足全球绝大部分国家认证需求"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860217.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809219.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860217",
@@ -920,28 +920,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860218",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860218.html",
+        "legacyPath": "/NewsDetail/6809220.html",
         "kind": "news-detail",
-        "title": "保修期有多长？",
-        "description": "标准期限为一年。",
+        "title": "你的保固期多长",
+        "description": "标准是1年保质期",
         "seo": {
-          "title": "保修期有多长？ | LBH APPLIANCES",
-          "description": "标准期限为一年。"
+          "title": "你的保固期多长 | LBH APPLIANCES",
+          "description": "标准是1年保质期"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "标准期限为一年。"
+              "标准是1年保质期"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860218.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809220.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860218",
@@ -993,28 +993,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860219",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860219.html",
+        "legacyPath": "/NewsDetail/6809221.html",
         "kind": "news-detail",
-        "title": "不良品比例是多少？",
-        "description": "售后率低于千分之五。",
+        "title": "劣质产品的比例是多少？",
+        "description": "每1000台售后率不到千分之五",
         "seo": {
-          "title": "不良品比例是多少？ | LBH APPLIANCES",
-          "description": "售后率低于千分之五。"
+          "title": "劣质产品的比例是多少？ | LBH APPLIANCES",
+          "description": "每1000台售后率不到千分之五"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "售后率低于千分之五。"
+              "每1000台售后率不到千分之五"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860219.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809221.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860219",
@@ -1066,28 +1066,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860220",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860220.html",
+        "legacyPath": "/NewsDetail/6809224.html",
         "kind": "news-detail",
-        "title": "产品采用私模吗？",
-        "description": "是的，所有产品均由我们自主设计和开发，采用独立模具。",
+        "title": "你们的产品使用私人模具吗？",
+        "description": "是的，均为我们自主设计研发的私模产品",
         "seo": {
-          "title": "产品采用私模吗？ | LBH APPLIANCES",
-          "description": "是的，所有产品均由我们自主设计和开发，采用独立模具。"
+          "title": "你们的产品使用私人模具吗？ | LBH APPLIANCES",
+          "description": "是的，均为我们自主设计研发的私模产品"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "是的，所有产品均由我们自主设计和开发，采用独立模具。"
+              "是的，均为我们自主设计研发的私模产品"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860220.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809224.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860220",
@@ -1139,28 +1139,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860221",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860221.html",
+        "legacyPath": "/NewsDetail/6809228.html",
         "kind": "news-detail",
-        "title": "如果需要样品，可以只制作一件吗？",
-        "description": "当然可以。我们也希望建立长期合作关系，以便为您专门预留样品。",
+        "title": "我若需要样品，你能只为我做一个吗？",
+        "description": "当然，我们也希望有长期合作，这样您就可以只为您保留样品。",
         "seo": {
-          "title": "如果需要样品，可以只制作一件吗？ | LBH APPLIANCES",
-          "description": "当然可以。我们也希望建立长期合作关系，以便为您专门预留样品。"
+          "title": "我若需要样品，你能只为我做一个吗？ | LBH APPLIANCES",
+          "description": "当然，我们也希望有长期合作，这样您就可以只为您保留样品。"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "当然可以。我们也希望建立长期合作关系，以便为您专门预留样品。"
+              "当然，我们也希望有长期合作，这样您就可以只为您保留样品。"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860221.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809228.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860221",
@@ -1212,28 +1212,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860222",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860222.html",
+        "legacyPath": "/NewsDetail/6809232.html",
         "kind": "news-detail",
-        "title": "先下小订单，再下大订单，可以优惠吗？",
-        "description": "我们期待长期合作，会在您的第二次订单中提供优惠。",
+        "title": "如果我先下小订单，然后再下大订单，你们能给我折扣吗？",
+        "description": "我们期待长期合作，第二次订单我们将提供一定的折扣。",
         "seo": {
-          "title": "先下小订单，再下大订单，可以优惠吗？ | LBH APPLIANCES",
-          "description": "我们期待长期合作，会在您的第二次订单中提供优惠。"
+          "title": "如果我先下小订单，然后再下大订单，你们能给我折扣吗？ | LBH APPLIANCES",
+          "description": "我们期待长期合作，第二次订单我们将提供一定的折扣。"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "我们期待长期合作，会在您的第二次订单中提供优惠。"
+              "我们期待长期合作，第二次订单我们将提供一定的折扣。"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860222.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809232.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860222",
@@ -1285,28 +1285,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860223",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860223.html",
+        "legacyPath": "/NewsDetail/6809236.html",
         "kind": "news-detail",
-        "title": "传统吹风机与高速吹风机有什么区别？",
-        "description": "主要区别在于电机、风速、温度和附加功能。高速吹风机通常采用无刷电机，转速和风速更高，并常配备负离子等护发功能。传统吹风机多采用碳刷电机，风速较低，也更容易造成头发损伤。",
+        "title": "传统吹风机和高速吹风机有什么区别？",
+        "description": "传统吹风机和高速吹风机的主要区别在于电机、风速、温度和附加功能。高速吹风机通常采用无刷电机，转速更快，风速更高，且通常带有负离子等护发功能，而传统吹风机多采用碳刷电机，风速较低，且容易造成头发损伤。",
         "seo": {
-          "title": "传统吹风机与高速吹风机有什么区别？ | LBH APPLIANCES",
-          "description": "主要区别在于电机、风速、温度和附加功能。高速吹风机通常采用无刷电机，转速和风速更高，并常配备负离子等护发功能。传统吹风机多采用碳刷电机，风速较低，也更容易造成头发损伤。"
+          "title": "传统吹风机和高速吹风机有什么区别？ | LBH APPLIANCES",
+          "description": "传统吹风机和高速吹风机的主要区别在于电机、风速、温度和附加功能。高速吹风机通常采用无刷电机，转速更快，风速更高，且通常带有负离子等护发功能，而传统吹风机多采用碳刷电机，风速较低，且容易造成头发损伤。"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "主要区别在于电机、风速、温度和附加功能。高速吹风机通常采用无刷电机，转速和风速更高，并常配备负离子等护发功能。传统吹风机多采用碳刷电机，风速较低，也更容易造成头发损伤。"
+              "传统吹风机和高速吹风机的主要区别在于电机、风速、温度和附加功能。高速吹风机通常采用无刷电机，转速更快，风速更高，且通常带有负离子等护发功能，而传统吹风机多采用碳刷电机，风速较低，且容易造成头发损伤。"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860223.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809236.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860223",
@@ -1358,28 +1358,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860224",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860224.html",
+        "legacyPath": "/NewsDetail/6809242.html",
         "kind": "news-detail",
-        "title": "运费高吗？",
-        "description": "运费会持续波动。我们有 5–6 家货运代理可供选择，可以为您筛选合适的方案。",
+        "title": "运费高？",
+        "description": "运费不断变化。但我们有 5-6 家货运代理可供选择，因此我们可以为您筛选最佳选择。",
         "seo": {
-          "title": "运费高吗？ | LBH APPLIANCES",
-          "description": "运费会持续波动。我们有 5–6 家货运代理可供选择，可以为您筛选合适的方案。"
+          "title": "运费高？ | LBH APPLIANCES",
+          "description": "运费不断变化。但我们有 5-6 家货运代理可供选择，因此我们可以为您筛选最佳选择。"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "运费会持续波动。我们有 5–6 家货运代理可供选择，可以为您筛选合适的方案。"
+              "运费不断变化。但我们有 5-6 家货运代理可供选择，因此我们可以为您筛选最佳选择。"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860224.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809242.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860224",
@@ -1431,28 +1431,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860225",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860225.html",
+        "legacyPath": "/NewsDetail/6809247.html",
         "kind": "news-detail",
-        "title": "我收到过更低的报价。",
-        "description": "我们可以尝试匹配您的目标价格，但更低的价格可能意味着更低的质量，这并非双方所期待的结果。",
+        "title": "我还有其他报价更低的报价。",
+        "description": "我们可以尝试匹配您的目标费率。但较低的价格意味着较低的质量，我相信我们都不会看到这种情况发生。",
         "seo": {
-          "title": "我收到过更低的报价。 | LBH APPLIANCES",
-          "description": "我们可以尝试匹配您的目标价格，但更低的价格可能意味着更低的质量，这并非双方所期待的结果。"
+          "title": "我还有其他报价更低的报价。 | LBH APPLIANCES",
+          "description": "我们可以尝试匹配您的目标费率。但较低的价格意味着较低的质量，我相信我们都不会看到这种情况发生。"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "我们可以尝试匹配您的目标价格，但更低的价格可能意味着更低的质量，这并非双方所期待的结果。"
+              "我们可以尝试匹配您的目标费率。但较低的价格意味着较低的质量，我相信我们都不会看到这种情况发生。"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860225.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809247.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860225",
@@ -1504,28 +1504,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860226",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860226.html",
+        "legacyPath": "/NewsDetail/6809255.html",
         "kind": "news-detail",
-        "title": "可以通过 FedEx 发货吗？",
-        "description": "可以，我们也有更节省成本的选项。",
+        "title": "可以寄联邦快递吗？",
+        "description": "可以的，我们有更多节省成本的选择",
         "seo": {
-          "title": "可以通过 FedEx 发货吗？ | LBH APPLIANCES",
-          "description": "可以，我们也有更节省成本的选项。"
+          "title": "可以寄联邦快递吗？ | LBH APPLIANCES",
+          "description": "可以的，我们有更多节省成本的选择"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "可以，我们也有更节省成本的选项。"
+              "可以的，我们有更多节省成本的选择"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860226.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809255.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860226",
@@ -1577,28 +1577,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860227",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860227.html",
+        "legacyPath": "/NewsDetail/6809259.html",
         "kind": "news-detail",
-        "title": "采用哪些运输方式？",
-        "description": "可以海运或空运。我们与多家货运代理和快递服务商有合作协议。",
+        "title": "您使用哪一种交通方式？",
+        "description": "透过海运或空运。我们与许多货运代理和快递提供者有合约",
         "seo": {
-          "title": "采用哪些运输方式？ | LBH APPLIANCES",
-          "description": "可以海运或空运。我们与多家货运代理和快递服务商有合作协议。"
+          "title": "您使用哪一种交通方式？ | LBH APPLIANCES",
+          "description": "透过海运或空运。我们与许多货运代理和快递提供者有合约"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "可以海运或空运。我们与多家货运代理和快递服务商有合作协议。"
+              "透过海运或空运。我们与许多货运代理和快递提供者有合约"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860227.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809259.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860227",
@@ -1650,28 +1650,28 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860228",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860228.html",
+        "legacyPath": "/NewsDetail/6809266.html",
         "kind": "news-detail",
-        "title": "标准交货周期是多久？",
-        "description": "收到定金后，标准交期约为 30–35 个工作日。根据原料供应情况，部分型号和颜色的发货周期可缩短至 25 天或更少。",
+        "title": "你们日常交货周期一般是多长？",
+        "description": "我们的常规交货时间是收到押金后 30-35 个工作天左右，根据原材料储备情况，有的型号与颜色出货周期不超过25天",
         "seo": {
-          "title": "标准交货周期是多久？ | LBH APPLIANCES",
-          "description": "收到定金后，标准交期约为 30–35 个工作日。根据原料供应情况，部分型号和颜色的发货周期可缩短至 25 天或更少。"
+          "title": "你们日常交货周期一般是多长？ | LBH APPLIANCES",
+          "description": "我们的常规交货时间是收到押金后 30-35 个工作天左右，根据原材料储备情况，有的型号与颜色出货周期不超过25天"
         },
         "blocks": [
           {
             "type": "rich-text",
             "paragraphs": [
-              "收到定金后，标准交期约为 30–35 个工作日。根据原料供应情况，部分型号和颜色的发货周期可缩短至 25 天或更少。"
+              "我们的常规交货时间是收到押金后 30-35 个工作天左右，根据原材料储备情况，有的型号与颜色出货周期不超过25天"
             ]
           }
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860228.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6809266.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "articleId": "6860228",
@@ -1723,7 +1723,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860201",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860201.html",
+        "legacyPath": "/NewsDetail/6724250.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -1741,10 +1741,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860201.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724250.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860201",
@@ -1796,7 +1796,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860200",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860200.html",
+        "legacyPath": "/NewsDetail/6724249.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -1814,10 +1814,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860200.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724249.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860200",
@@ -1869,7 +1869,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860199",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860199.html",
+        "legacyPath": "/NewsDetail/6724248.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -1887,10 +1887,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860199.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724248.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860199",
@@ -1942,7 +1942,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860197",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860197.html",
+        "legacyPath": "/NewsDetail/6724246.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -1960,10 +1960,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860197.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724246.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860197",
@@ -2015,7 +2015,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860196",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860196.html",
+        "legacyPath": "/NewsDetail/6724245.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -2033,10 +2033,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860196.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724245.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860196",
@@ -2088,7 +2088,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860195",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860195.html",
+        "legacyPath": "/NewsDetail/6724244.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -2106,10 +2106,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860195.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724244.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860195",
@@ -2161,7 +2161,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860198",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860198.html",
+        "legacyPath": "/NewsDetail/6724247.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -2179,10 +2179,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860198.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724247.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860198",
@@ -2234,7 +2234,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860205",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860205.html",
+        "legacyPath": "/NewsDetail/6724255.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -2252,10 +2252,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860205.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724255.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860205",
@@ -2307,7 +2307,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860202",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860202.html",
+        "legacyPath": "/NewsDetail/6724252.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -2325,10 +2325,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860202.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724252.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860202",
@@ -2380,7 +2380,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860203",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860203.html",
+        "legacyPath": "/NewsDetail/6724253.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -2398,10 +2398,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860203.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724253.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860203",
@@ -2453,7 +2453,7 @@ export const articles: Article[] = [
       "cn": {
         "id": "6860204",
         "locale": "cn",
-        "legacyPath": "/NewsDetail/6860204.html",
+        "legacyPath": "/NewsDetail/6724254.html",
         "kind": "news-detail",
         "title": "标题",
         "description": "内容介绍",
@@ -2471,10 +2471,10 @@ export const articles: Article[] = [
         ],
         "images": [],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/NewsDetail/6860204.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/NewsDetail/6724254.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "source-placeholder"
         },
         "articleId": "6860204",

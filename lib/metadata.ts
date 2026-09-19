@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import type { SitePage, Locale } from "@/content/schema";
+import { localizedLegacyPath } from "@/lib/locale-path";
 
 // Set the deployment origin before building; static exports bake these URLs into HTML.
 export function siteOrigin(): string {
@@ -9,6 +10,7 @@ export function siteOrigin(): string {
 }
 
 export function pageUrl(locale: Locale, legacyPath: string): string {
+  legacyPath = localizedLegacyPath(legacyPath, locale);
   return `${siteOrigin()}/${locale}${legacyPath === "/" ? "" : legacyPath.replace(/\/$/, "")}/`;
 }
 

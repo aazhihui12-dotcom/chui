@@ -6847,19 +6847,19 @@ export const pages: SitePage[] = [
     "locale": "cn",
     "legacyPath": "/Certification_certificate",
     "kind": "content",
-    "title": "产品认证",
+    "title": "LBH 产品认证",
     "description": "查看 LBH电器的产品认证与证书。",
     "seo": {
-      "title": "产品认证 | LBH APPLIANCES",
+      "title": "LBH 产品认证 | LBH APPLIANCES",
       "description": "查看 LBH电器的产品认证与证书。"
     },
     "blocks": [
       {
         "type": "hero",
-        "title": "产品认证",
+        "title": "LBH 产品认证",
         "image": {
           "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
-          "alt": "产品认证"
+          "alt": "LBH 产品认证"
         }
       },
       {
@@ -6900,27 +6900,27 @@ export const pages: SitePage[] = [
     "images": [
       {
         "src": "/media/890c21701bc0f9c2b752e3b892b8a74630a3fc4c70da6dd8cf62b62da4ccd558.webp",
-        "alt": "产品认证"
+        "alt": "LBH 产品认证"
       },
       {
         "src": "/media/c4984a232a2ddb061458b37da80d06bcd2e1eb6d23f2f5cad30cbc4f13178168.webp",
-        "alt": "产品认证"
+        "alt": "LBH 产品认证"
       },
       {
         "src": "/media/c558fa4fdf88947f8dd7c0bd4c3ed6a43d1cb094fb5903360473301762903d9a.webp",
-        "alt": "产品认证"
+        "alt": "LBH 产品认证"
       },
       {
         "src": "/media/f6124f0cc4ba43dc77d79a047f1d0f80db31396ddd587e6f6337219499a53078.webp",
-        "alt": "产品认证"
+        "alt": "LBH 产品认证"
       },
       {
         "src": "/media/11cf65c880125085602a495ec5c283d5d2b8a562c333376c6826ea34ed475213.webp",
-        "alt": "产品认证"
+        "alt": "LBH 产品认证"
       },
       {
         "src": "/media/13e82ab8ab6eff721d016f749077f5f91086b6bb46ff7de21ec1cc48c4eeb537.webp",
-        "alt": "产品认证"
+        "alt": "LBH 产品认证"
       }
     ],
     "provenance": {
@@ -10381,16 +10381,16 @@ export const pages: SitePage[] = [
     "locale": "cn",
     "legacyPath": "/Product/682971.html",
     "kind": "product-category",
-    "title": "高速多功能美发造型器",
-    "description": "探索 高速多功能美发造型器 系列，查看产品型号、规格和定制选项。",
+    "title": "高速多功能美发器",
+    "description": "探索 高速多功能美发器 系列，查看产品型号、规格和定制选项。",
     "seo": {
-      "title": "高速多功能美发造型器 | LBH APPLIANCES",
-      "description": "探索 高速多功能美发造型器 系列，查看产品型号、规格和定制选项。"
+      "title": "高速多功能美发器 | LBH APPLIANCES",
+      "description": "探索 高速多功能美发器 系列，查看产品型号、规格和定制选项。"
     },
     "blocks": [
       {
         "type": "hero",
-        "title": "高速多功能美发造型器",
+        "title": "高速多功能美发器",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
@@ -10510,16 +10510,16 @@ export const pages: SitePage[] = [
     "locale": "cn",
     "legacyPath": "/Product/682972.html",
     "kind": "product-category",
-    "title": "热风梳",
-    "description": "探索 热风梳 系列，查看产品型号、规格和定制选项。",
+    "title": "造型梳系列",
+    "description": "探索 造型梳系列 系列，查看产品型号、规格和定制选项。",
     "seo": {
-      "title": "热风梳 | LBH APPLIANCES",
-      "description": "探索 热风梳 系列，查看产品型号、规格和定制选项。"
+      "title": "造型梳系列 | LBH APPLIANCES",
+      "description": "探索 造型梳系列 系列，查看产品型号、规格和定制选项。"
     },
     "blocks": [
       {
         "type": "hero",
-        "title": "热风梳",
+        "title": "造型梳系列",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
@@ -10651,16 +10651,16 @@ export const pages: SitePage[] = [
     "locale": "cn",
     "legacyPath": "/Product/682973.html",
     "kind": "product-category",
-    "title": "直发器",
-    "description": "探索 直发器 系列，查看产品型号、规格和定制选项。",
+    "title": "直发器系列",
+    "description": "探索 直发器系列 系列，查看产品型号、规格和定制选项。",
     "seo": {
-      "title": "直发器 | LBH APPLIANCES",
-      "description": "探索 直发器 系列，查看产品型号、规格和定制选项。"
+      "title": "直发器系列 | LBH APPLIANCES",
+      "description": "探索 直发器系列 系列，查看产品型号、规格和定制选项。"
     },
     "blocks": [
       {
         "type": "hero",
-        "title": "直发器",
+        "title": "直发器系列",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
@@ -10780,16 +10780,16 @@ export const pages: SitePage[] = [
     "locale": "cn",
     "legacyPath": "/Product/682974.html",
     "kind": "product-category",
-    "title": "卷发棒",
-    "description": "探索 卷发棒 系列，查看产品型号、规格和定制选项。",
+    "title": "卷发器系列",
+    "description": "探索 卷发器系列 系列，查看产品型号、规格和定制选项。",
     "seo": {
-      "title": "卷发棒 | LBH APPLIANCES",
-      "description": "探索 卷发棒 系列，查看产品型号、规格和定制选项。"
+      "title": "卷发器系列 | LBH APPLIANCES",
+      "description": "探索 卷发器系列 系列，查看产品型号、规格和定制选项。"
     },
     "blocks": [
       {
         "type": "hero",
-        "title": "卷发棒",
+        "title": "卷发器系列",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
@@ -10921,16 +10921,16 @@ export const pages: SitePage[] = [
     "locale": "cn",
     "legacyPath": "/Product/682975.html",
     "kind": "product-category",
-    "title": "吹风机",
-    "description": "探索 吹风机 系列，查看产品型号、规格和定制选项。",
+    "title": "吹风机系列",
+    "description": "探索 吹风机系列 系列，查看产品型号、规格和定制选项。",
     "seo": {
-      "title": "吹风机 | LBH APPLIANCES",
-      "description": "探索 吹风机 系列，查看产品型号、规格和定制选项。"
+      "title": "吹风机系列 | LBH APPLIANCES",
+      "description": "探索 吹风机系列 系列，查看产品型号、规格和定制选项。"
     },
     "blocks": [
       {
         "type": "hero",
-        "title": "吹风机",
+        "title": "吹风机系列",
         "image": {
           "src": "/media/3982200a66f5bc1607917628b96d7f0c092cece21c8bb7b8892f76b8355b155b.jpg",
           "alt": "图片展示"
@@ -11027,7 +11027,8 @@ export const pages: SitePage[] = [
       "languageVerified": false,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "We_are_here_to_offer_assistance",
@@ -11059,7 +11060,8 @@ export const pages: SitePage[] = [
       "languageVerified": true,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "About_us",
@@ -11091,7 +11093,8 @@ export const pages: SitePage[] = [
       "languageVerified": false,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "About_us",
@@ -11123,13 +11126,14 @@ export const pages: SitePage[] = [
       "languageVerified": true,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "Contact",
     "locale": "en",
     "legacyPath": "/Contact",
-    "kind": "contact",
+    "kind": "content",
     "title": "Contact",
     "description": "Contact",
     "seo": {
@@ -11155,13 +11159,14 @@ export const pages: SitePage[] = [
       "languageVerified": false,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "Contact",
     "locale": "cn",
     "legacyPath": "/Contact",
-    "kind": "contact",
+    "kind": "content",
     "title": "联系",
     "description": "联系 LBH电器团队，讨论您的产品与合作需求。",
     "seo": {
@@ -11187,7 +11192,8 @@ export const pages: SitePage[] = [
       "languageVerified": true,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "3012462",
@@ -12447,7 +12453,8 @@ export const pages: SitePage[] = [
       "languageVerified": false,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "Why_choose_LHB_hair_dryer_products",
@@ -12479,7 +12486,8 @@ export const pages: SitePage[] = [
       "languageVerified": true,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "Ventilation_duct_technology",
@@ -12511,7 +12519,8 @@ export const pages: SitePage[] = [
       "languageVerified": false,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "Ventilation_duct_technology",
@@ -12543,7 +12552,8 @@ export const pages: SitePage[] = [
       "languageVerified": true,
       "translation": "none",
       "coverage": "full"
-    }
+    },
+    "sourceEmpty": true
   },
   {
     "id": "3022032",

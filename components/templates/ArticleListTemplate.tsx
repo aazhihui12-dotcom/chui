@@ -10,7 +10,7 @@ export function ArticleListTemplate({ page, articles }: { page: SitePage; articl
   // The source Blog supplies a shared placeholder thumbnail on its list,
   // while the article detail records correctly contain no body images.
   const placeholderThumbnail = page.legacyPath === "/Blog" ? page.images[0] : undefined;
-  const size = page.legacyPath === "/NewsList/2.html" ? 12 : 8;
+  const size = page.legacyPath === "/Blog" ? 8 : 12;
   const count = Math.max(1, Math.ceil(articles.length / size));
   const [current, setCurrent] = useState(1);
   useEffect(() => {

@@ -176,19 +176,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906944",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906944.html",
+        "legacyPath": "/ProductDetail/11898269.html",
         "kind": "product-detail",
         "title": "LBH-3228",
-        "description": "LBH-3228 卷发棒。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-3228 卷发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-3228 | LBH APPLIANCES",
-          "description": "LBH-3228 卷发棒。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-3228 卷发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-3228",
-            "subtitle": "卷发棒",
+            "subtitle": "卷发器系列",
             "image": {
               "src": "/media/28a39b2b65f866014761e107f12e10a9ecf94b9808510fc3c74f719ebca704f0.png",
               "alt": "LBH-3228"
@@ -235,10 +235,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906944.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898269.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906944",
@@ -246,51 +246,43 @@ export const products: Product[] = [
         "categoryId": "682974",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-3228"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "86W"
           },
           {
-            "label": "面板材料",
+            "label": "Plate material",
             "value": "PC plastic/Alum Alloy"
           },
           {
-            "label": "面板涂层",
+            "label": "Plate coating",
             "value": "Ceramic or Titanium"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "PTC"
           },
           {
-            "label": "温度设置",
-            "value": "8-speed"
+            "label": "Temp Setting",
+            "value": "8-speed 160-170-180-190-200-210-220-230°C 320-340-360-380-390-410-430-450°F"
           },
           {
-            "label": "温度范围",
-            "value": "160-170-180-190-200-210-220-230°C"
-          },
-          {
-            "label": "温度范围",
-            "value": "320-340-360-380-390-410-430-450°F"
-          },
-          {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Oval 32×168mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "463g(With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "2m"
           }
         ],
@@ -488,19 +480,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906943",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906943.html",
+        "legacyPath": "/ProductDetail/11898257.html",
         "kind": "product-detail",
         "title": "LBH-3210",
-        "description": "LBH-3210 卷发棒。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-3210 卷发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-3210 | LBH APPLIANCES",
-          "description": "LBH-3210 卷发棒。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-3210 卷发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-3210",
-            "subtitle": "卷发棒",
+            "subtitle": "卷发器系列",
             "image": {
               "src": "/media/3f331dc67203bbae0390d520fc60edb9e549e1e8f726b98afde8969d158a3347.png",
               "alt": "LBH-3210"
@@ -547,10 +539,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906943.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898257.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906943",
@@ -558,51 +550,47 @@ export const products: Product[] = [
         "categoryId": "682974",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-3210"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "76W"
           },
           {
-            "label": "面板材料",
+            "label": "Plate material",
             "value": "PC plastic/Alum Alloy"
           },
           {
-            "label": "面板涂层",
+            "label": "Plate coating",
             "value": "Ceramic or Titanium"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "PTC"
           },
           {
-            "label": "温度设置",
-            "value": "8-speed"
+            "label": "Temp Setting",
+            "value": "8-speed 80-100-120-140-160-180-200-220°C"
           },
           {
-            "label": "温度范围",
-            "value": "80-100-120-140-160-180-200-220°C"
-          },
-          {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "345×40×48mm"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Round 32×106mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "374g(With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "2m"
           }
         ],
@@ -788,19 +776,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906942",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906942.html",
+        "legacyPath": "/ProductDetail/11898254.html",
         "kind": "product-detail",
         "title": "LBH-320",
-        "description": "LBH-320 卷发棒。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-320 卷发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-320 | LBH APPLIANCES",
-          "description": "LBH-320 卷发棒。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-320 卷发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-320",
-            "subtitle": "卷发棒",
+            "subtitle": "卷发器系列",
             "image": {
               "src": "/media/b016a2b7b3619d17ccb83f3d926f3d36bc35ea043818a8f57b0ee5eec89e04e8.png",
               "alt": "LBH-320"
@@ -847,10 +835,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906942.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898254.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906942",
@@ -858,43 +846,39 @@ export const products: Product[] = [
         "categoryId": "682974",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-320"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "85W"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "PTC"
           },
           {
-            "label": "温度设置",
-            "value": "5-speed"
+            "label": "Temp Setting",
+            "value": "5-speed 160-170-180-190-200°C"
           },
           {
-            "label": "温度范围",
-            "value": "160-170-180-190-200°C"
-          },
-          {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "φ57×335mm"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Round 45*135mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "410g(With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "2m"
           }
         ],
@@ -1098,19 +1082,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906941",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906941.html",
+        "legacyPath": "/ProductDetail/11898119.html",
         "kind": "product-detail",
         "title": "LBH-WY605",
-        "description": "LBH-WY605 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-WY605 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-WY605 | LBH APPLIANCES",
-          "description": "LBH-WY605 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-WY605 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-WY605",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/fdc23cb0a3f8c15519049cab1f6572a389361aa7eda5e6fcae16e03fc734b5be.png",
               "alt": "LBH-WY605"
@@ -1157,10 +1141,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906941.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898119.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906941",
@@ -1168,51 +1152,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-WY605"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "800W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "风量",
+            "label": "Wind Volume",
             "value": "2.15m³/min"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "200million"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<55dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/Medium/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "199×65.3×74mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "298g"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -1438,19 +1422,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906940",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906940.html",
+        "legacyPath": "/ProductDetail/11898116.html",
         "kind": "product-detail",
         "title": "LBH-WY602",
-        "description": "LBH-WY602 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-WY602 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-WY602 | LBH APPLIANCES",
-          "description": "LBH-WY602 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-WY602 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-WY602",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/1549aeab495585f56d0daec3ebd812a49a68fcba903a4f76aeb3136c4d7c3147.png",
               "alt": "LBH-WY602"
@@ -1505,10 +1489,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906940.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898116.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906940",
@@ -1516,51 +1500,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-WY602"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "220V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1500W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "风速",
+            "label": "Wind Speed",
             "value": "20m/s"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "200million"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<55dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/Medium/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "275×100×78mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "600g"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -1778,19 +1762,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906939",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906939.html",
+        "legacyPath": "/ProductDetail/11898103.html",
         "kind": "product-detail",
         "title": "LBH-HD020",
-        "description": "LBH-HD020 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-HD020 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-HD020 | LBH APPLIANCES",
-          "description": "LBH-HD020 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-HD020 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-HD020",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/ecb8adcfc2681a89110e0fc10b45a752e4502c190f5afbb4a67e2490da81664a.png",
               "alt": "LBH-HD020"
@@ -1837,10 +1821,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906939.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898103.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906939",
@@ -1848,51 +1832,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-HD020"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "120V/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1200W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC motor",
             "value": "110000RPM"
           },
           {
-            "label": "风速",
+            "label": "Wind Speed",
             "value": "17m/s"
           },
           {
-            "label": "等离子发生器",
+            "label": "Plasma Generator",
             "value": "30million/cm³"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<80dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp setting",
             "value": "50℃/60℃/70℃"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product size",
             "value": ""
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": ""
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.7m"
           }
         ],
@@ -2122,19 +2106,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906938",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906938.html",
+        "legacyPath": "/ProductDetail/11898099.html",
         "kind": "product-detail",
         "title": "LBH-EF488",
-        "description": "LBH-EF488 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-EF488 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-EF488 | LBH APPLIANCES",
-          "description": "LBH-EF488 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-EF488 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-EF488",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/bd7750e05a4ae240b3fe6f7fc2b522c64faf1155f3ca2808b7c1b05fa7bdc1ab.png",
               "alt": "LBH-EF488"
@@ -2189,10 +2173,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906938.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898099.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906938",
@@ -2200,51 +2184,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-EF488"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1000-1600W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC motor",
             "value": "110000RPM"
           },
           {
-            "label": "风速",
+            "label": "Wind Speed",
             "value": "16.5m/s"
           },
           {
-            "label": "等离子发生器",
+            "label": "Plasma Generator",
             "value": "40million/cm³"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<80dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp setting",
             "value": "Cool-60-90-120℃ / Cool-140-195-250℉"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product size",
             "value": "214×201×45mm (fold)"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "330g (without power cord)"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -2434,19 +2418,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906937",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906937.html",
+        "legacyPath": "/ProductDetail/11898095.html",
         "kind": "product-detail",
         "title": "LBH-D1",
-        "description": "LBH-D1 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-D1 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-D1 | LBH APPLIANCES",
-          "description": "LBH-D1 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-D1 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-D1",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/90243a27b3aef69c8edc75d37557a4e0de24c71beb4b614c8289232b3df7e3d8.png",
               "alt": "LBH-D1"
@@ -2477,10 +2461,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906937.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898095.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906937",
@@ -2488,51 +2472,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-D1"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "220V, 50Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1600W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "风量",
+            "label": "Wind Volume",
             "value": "2.8m³/min"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "200million"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<55dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "20-Level Speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/Medium/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "250×75.6×97mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "396g"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -2758,19 +2742,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906936",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906936.html",
+        "legacyPath": "/ProductDetail/11898094.html",
         "kind": "product-detail",
         "title": "LBH-BD24",
-        "description": "LBH-BD24 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-BD24 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-BD24 | LBH APPLIANCES",
-          "description": "LBH-BD24 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-BD24 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-BD24",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/2549d085d1a3b68598e6e990de18777089087c6dcfede5ef4c58fe86d2b5a767.png",
               "alt": "LBH-BD24"
@@ -2825,10 +2809,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906936.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898094.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906936",
@@ -2836,51 +2820,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-BD24"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "125V/60Hz; 220-240V/50Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1500W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC motor",
             "value": "100000RPM"
           },
           {
-            "label": "风速",
+            "label": "Wind Speed",
             "value": "35m/s"
           },
           {
-            "label": "等离子发生器",
+            "label": "Plasma Generator",
             "value": "100 million/cm³"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<85dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp setting",
             "value": "Cool/Low/Medium/High/Auto"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product size",
             "value": "195×250×50mm (unfold)"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "480g±20g"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.7m"
           }
         ],
@@ -3110,19 +3094,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906935",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906935.html",
+        "legacyPath": "/ProductDetail/11898044.html",
         "kind": "product-detail",
         "title": "LBH-956P",
-        "description": "LBH-956P 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-956P 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-956P | LBH APPLIANCES",
-          "description": "LBH-956P 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-956P 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-956P",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/6191860e70237936ffdffb8900aae7a6fab0a95a2a073fc041b5bc776e02a73b.png",
               "alt": "LBH-956P"
@@ -3177,10 +3161,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906935.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898044.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906935",
@@ -3188,51 +3172,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-956P"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1300W/1600W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "风量",
+            "label": "Wind Volume",
             "value": "2.5m³/min"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "3billion"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<68dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Two-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/Medium/High/Auto"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "245×73×96mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "270g"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -3466,19 +3450,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906934",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906934.html",
+        "legacyPath": "/ProductDetail/11898043.html",
         "kind": "product-detail",
         "title": "LBH-919",
-        "description": "LBH-919 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-919 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-919 | LBH APPLIANCES",
-          "description": "LBH-919 吹风机。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-919 吹风机系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-919",
-            "subtitle": "吹风机",
+            "subtitle": "吹风机系列",
             "image": {
               "src": "/media/c0b382019d111fa1164ae112dbc8a9fd194bf5d4254d0b56de973c6263b1cb58.png",
               "alt": "LBH-919"
@@ -3533,10 +3517,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906934.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11898043.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906934",
@@ -3544,51 +3528,51 @@ export const products: Product[] = [
         "categoryId": "682975",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-919"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1300W/1600W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "风量",
+            "label": "Wind Volume",
             "value": "2.5m³/min"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "3billion"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "<68dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Two-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/Medium/High/Auto"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "245×73×96mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "300g"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -3812,19 +3796,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906933",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906933.html",
+        "legacyPath": "/ProductDetail/11897580.html",
         "kind": "product-detail",
         "title": "LBH-EF601",
-        "description": "LBH-EF601 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-EF601 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-EF601 | LBH APPLIANCES",
-          "description": "LBH-EF601 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-EF601 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-EF601",
-            "subtitle": "热风梳",
+            "subtitle": "造型梳系列",
             "image": {
               "src": "/media/6abb3d105a41c6ef1d103e7c5247039f3a82ac9240a3a241dad31aab901e7a7b.png",
               "alt": "LBH-EF601"
@@ -3887,10 +3871,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906933.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897580.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906933",
@@ -3898,39 +3882,39 @@ export const products: Product[] = [
         "categoryId": "682972",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-EF601"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1000W"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "345×72mm"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Oval 72×115mm"
           },
           {
-            "label": "卷筒涂层",
+            "label": "Barrel Coating",
             "value": "Ceramic"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "584g (With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -4144,19 +4128,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906932",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906932.html",
+        "legacyPath": "/ProductDetail/11897556.html",
         "kind": "product-detail",
         "title": "LBH-BD18",
-        "description": "LBH-BD18 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-BD18 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-BD18 | LBH APPLIANCES",
-          "description": "LBH-BD18 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-BD18 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-BD18",
-            "subtitle": "热风梳",
+            "subtitle": "造型梳系列",
             "image": {
               "src": "/media/20da90ff4d7b464ef5c45c94b2272d76dc3156b0bcdc6641ab90237144b0fe14.png",
               "alt": "LBH-BD18"
@@ -4219,10 +4203,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906932.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897556.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906932",
@@ -4230,39 +4214,39 @@ export const products: Product[] = [
         "categoryId": "682972",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-BD18"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "125V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1200W"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "300,000 ions"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "346×91×69mm"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Oval 60×110mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "493g (With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -4452,19 +4436,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906931",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906931.html",
+        "legacyPath": "/ProductDetail/11897552.html",
         "kind": "product-detail",
         "title": "LBH-BD15",
-        "description": "LBH-BD15 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-BD15 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-BD15 | LBH APPLIANCES",
-          "description": "LBH-BD15 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-BD15 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-BD15",
-            "subtitle": "热风梳",
+            "subtitle": "造型梳系列",
             "image": {
               "src": "/media/c4a47e9fe63ee95ac72b1fa2d1ec8e7489001dd83342fe46d100227ad1988cb5.png",
               "alt": "LBH-BD15"
@@ -4511,10 +4495,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906931.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897552.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906931",
@@ -4522,39 +4506,39 @@ export const products: Product[] = [
         "categoryId": "682972",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-BD15"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "125V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1200W"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "300,000 ions"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "φ60×200mm (handle)"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Oval 70×115mm, 60×115mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "392g"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -4764,19 +4748,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906930",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906930.html",
+        "legacyPath": "/ProductDetail/11897550.html",
         "kind": "product-detail",
         "title": "LBH-BD13",
-        "description": "LBH-BD13 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-BD13 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-BD13 | LBH APPLIANCES",
-          "description": "LBH-BD13 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-BD13 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-BD13",
-            "subtitle": "热风梳",
+            "subtitle": "造型梳系列",
             "image": {
               "src": "/media/4a2114dd7e98c5e53113b9ecb0d2180d5ad5cc27f9b833723e33e23a583b5f5e.png",
               "alt": "LBH-BD13"
@@ -4839,10 +4823,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906930.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897550.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906930",
@@ -4850,39 +4834,39 @@ export const products: Product[] = [
         "categoryId": "682972",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-BD13"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1200W"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "338×110×80.3mm"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Oval 60×106mm"
           },
           {
-            "label": "卷筒涂层",
+            "label": "Barrel Coating",
             "value": "Ceramic"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "560g (With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -5084,19 +5068,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906929",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906929.html",
+        "legacyPath": "/ProductDetail/11897545.html",
         "kind": "product-detail",
         "title": "LBH-3806",
-        "description": "LBH-3806 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-3806 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-3806 | LBH APPLIANCES",
-          "description": "LBH-3806 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-3806 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-3806",
-            "subtitle": "热风梳",
+            "subtitle": "造型梳系列",
             "image": {
               "src": "/media/2ded7a4cd33f3803bf05d79fca735b005fa5f9f887c6db1b733532d4736efad5.png",
               "alt": "LBH-3806"
@@ -5159,10 +5143,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906929.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897545.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906929",
@@ -5170,36 +5154,36 @@ export const products: Product[] = [
         "categoryId": "682972",
         "specifications": [
           {
-            "label": "型号",
+            "label": "'Model",
             "value": "LBH-3806"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "800W"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "290×65×52mm"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Oval 62×106mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "560g (With power cord )"
           },
           {
-            "label": "电源线长度",
-            "value": "1.8m"
+            "label": "Power Cord Length",
+            "value": "1.8m '"
           }
         ],
         "features": [
@@ -5408,19 +5392,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906928",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906928.html",
+        "legacyPath": "/ProductDetail/11897540.html",
         "kind": "product-detail",
         "title": "LBH-3802",
-        "description": "LBH-3802 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-3802 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-3802 | LBH APPLIANCES",
-          "description": "LBH-3802 热风梳。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-3802 造型梳系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-3802",
-            "subtitle": "热风梳",
+            "subtitle": "造型梳系列",
             "image": {
               "src": "/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png",
               "alt": "LBH-3802"
@@ -5483,10 +5467,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906928.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897540.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906928",
@@ -5494,39 +5478,39 @@ export const products: Product[] = [
         "categoryId": "682972",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-3802"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1200W"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "3-speed and Cool-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Low/Medium/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "350×95×75mm"
           },
           {
-            "label": "卷筒尺寸",
+            "label": "Barrel Size",
             "value": "Oval 60×110mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "500g (With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -5724,19 +5708,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906927",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906927.html",
+        "legacyPath": "/ProductDetail/11897537.html",
         "kind": "product-detail",
         "title": "LBH-F19",
-        "description": "LBH-F19 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-F19 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-F19 | LBH APPLIANCES",
-          "description": "LBH-F19 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-F19 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-F19",
-            "subtitle": "直发器",
+            "subtitle": "直发器系列",
             "image": {
               "src": "/media/28cbf9f78304c0328c7a09338a97d9614a25384ff24cb7376cddcb4abdf2c485.png",
               "alt": "LBH-F19"
@@ -5783,10 +5767,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906927.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897537.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906927",
@@ -5794,47 +5778,47 @@ export const products: Product[] = [
         "categoryId": "682973",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-F19"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1400W"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "200 million"
           },
           {
-            "label": "面板材料",
+            "label": "Plate material",
             "value": "PC plastic/Alum Alloy"
           },
           {
-            "label": "面板涂层",
+            "label": "Plate coating",
             "value": "Ceramic or Titanium"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "PCT"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "50°C/70°C/100°C"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "330×50×52mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "647g(With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "2m"
           }
         ],
@@ -6060,19 +6044,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906926",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906926.html",
+        "legacyPath": "/ProductDetail/11897536.html",
         "kind": "product-detail",
         "title": "LBH-EF055",
-        "description": "LBH-EF055 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-EF055 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-EF055 | LBH APPLIANCES",
-          "description": "LBH-EF055 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-EF055 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-EF055",
-            "subtitle": "直发器",
+            "subtitle": "直发器系列",
             "image": {
               "src": "/media/2cedfd17178b7b927d0716c66e80b7cb189c04af7552c3b99097cb447d9a03a0.png",
               "alt": "LBH-EF055"
@@ -6135,10 +6119,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906926.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897536.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906926",
@@ -6146,51 +6130,43 @@ export const products: Product[] = [
         "categoryId": "682973",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-EF055"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "55W"
           },
           {
-            "label": "面板材料",
+            "label": "Plate material",
             "value": "Aluminum"
           },
           {
-            "label": "面板涂层",
+            "label": "Plate coating",
             "value": "Ceramic or Titanium"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "MCH"
           },
           {
-            "label": "温度设置",
-            "value": "11-speed"
+            "label": "Temp Setting",
+            "value": "11-speed 130-140-150-160-170-180-190-200-210-220-230°C 265-285-300-320-340-355-375-395-410-430-450°F"
           },
           {
-            "label": "温度范围",
-            "value": "130-140-150-160-170-180-190-200-210-220-230°C"
-          },
-          {
-            "label": "温度范围",
-            "value": "265-285-300-320-340-355-375-395-410-430-450°F"
-          },
-          {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "100×25.4mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "410g(With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "2m"
           }
         ],
@@ -6388,19 +6364,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906925",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906925.html",
+        "legacyPath": "/ProductDetail/11897534.html",
         "kind": "product-detail",
         "title": "LBH-3257W",
-        "description": "LBH-3257W 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-3257W 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-3257W | LBH APPLIANCES",
-          "description": "LBH-3257W 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-3257W 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-3257W",
-            "subtitle": "直发器",
+            "subtitle": "直发器系列",
             "image": {
               "src": "/media/c1b7e0160d390dd31832be9af215b1a2d5451f08ce713191c6066db3d44fc2c2.png",
               "alt": "LBH-3257W"
@@ -6447,10 +6423,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906925.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897534.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906925",
@@ -6458,52 +6434,44 @@ export const products: Product[] = [
         "categoryId": "682973",
         "specifications": [
           {
-            "label": "型号",
+            "label": "'Model",
             "value": "LBH-3257W"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "70W"
           },
           {
-            "label": "面板材料",
+            "label": "Plate material",
             "value": "PC plastic/Alum Alloy"
           },
           {
-            "label": "面板涂层",
+            "label": "Plate coating",
             "value": "Ceramic or Titanium"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "PTC"
           },
           {
-            "label": "温度设置",
-            "value": "9-speed"
+            "label": "Temp Setting",
+            "value": "9-speed 160-170-180-190-200-210-220-230-240°C 320-340-360-380-390-410-430-450-460°F"
           },
           {
-            "label": "温度范围",
-            "value": "160-170-180-190-200-210-220-230-240°C"
-          },
-          {
-            "label": "温度范围",
-            "value": "320-340-360-380-390-410-430-450-460°F"
-          },
-          {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "330×51×45mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "460g(With power cord )"
           },
           {
-            "label": "电源线长度",
-            "value": "2m"
+            "label": "Power Cord Length",
+            "value": "2m '"
           }
         ],
         "features": [
@@ -6696,19 +6664,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906924",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906924.html",
+        "legacyPath": "/ProductDetail/11897531.html",
         "kind": "product-detail",
         "title": "LBH-3257",
-        "description": "LBH-3257 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-3257 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-3257 | LBH APPLIANCES",
-          "description": "LBH-3257 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-3257 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-3257",
-            "subtitle": "直发器",
+            "subtitle": "直发器系列",
             "image": {
               "src": "/media/2ac8a1d227d28e21011db0deea273f74623d3c0a0e9269343aa5ca63f108a76f.png",
               "alt": "LBH-3257"
@@ -6755,10 +6723,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906924.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897531.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906924",
@@ -6766,51 +6734,43 @@ export const products: Product[] = [
         "categoryId": "682973",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-3257"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "100-120V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "55W"
           },
           {
-            "label": "面板材料",
+            "label": "Plate material",
             "value": "PC plastic/Alum Alloy"
           },
           {
-            "label": "面板涂层",
+            "label": "Plate coating",
             "value": "Ceramic or Titanium"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "PTC"
           },
           {
-            "label": "温度设置",
-            "value": "9-speed"
+            "label": "Temp Setting",
+            "value": "9-speed 160-170-180-190-200-210-220-230-240°C 320-340-360-380-390-410-430-450-460°F"
           },
           {
-            "label": "温度范围",
-            "value": "160-170-180-190-200-210-220-230-240°C"
-          },
-          {
-            "label": "温度范围",
-            "value": "320-340-360-380-390-410-430-450-460°F"
-          },
-          {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "330×31×45mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "410g(With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "2m"
           }
         ],
@@ -7024,19 +6984,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906923",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906923.html",
+        "legacyPath": "/ProductDetail/11897529.html",
         "kind": "product-detail",
         "title": "LBH-001A",
-        "description": "LBH-001A 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-001A 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-001A | LBH APPLIANCES",
-          "description": "LBH-001A 直发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-001A 直发器系列。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-001A",
-            "subtitle": "直发器",
+            "subtitle": "直发器系列",
             "image": {
               "src": "/media/37f3c27d137c7c04f2161fcfa90e4ef7ae4ed54cedf7a7618a2f91dd023f8e74.png",
               "alt": "LBH-001A"
@@ -7099,10 +7059,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906923.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897529.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906923",
@@ -7110,43 +7070,43 @@ export const products: Product[] = [
         "categoryId": "682973",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-001A"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "70W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "发热体",
+            "label": "Heater",
             "value": "PCT"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "180-200-230°C/350-400-450°F"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "319.5×48.9×46.4mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "504g(With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -7338,19 +7298,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906922",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906922.html",
+        "legacyPath": "/ProductDetail/11897027.html",
         "kind": "product-detail",
         "title": "LBH-BD22",
-        "description": "LBH-BD22 高速多功能美发造型器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-BD22 高速多功能美发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-BD22 | LBH APPLIANCES",
-          "description": "LBH-BD22 高速多功能美发造型器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-BD22 高速多功能美发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-BD22",
-            "subtitle": "高速多功能美发造型器",
+            "subtitle": "高速多功能美发器",
             "image": {
               "src": "/media/1850ecea35f28fb0cbbfd7180b28d49ee5a0c20d300d9429edc4daa831bf8316.png",
               "alt": "LBH-BD22"
@@ -7389,10 +7349,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906922.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897027.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906922",
@@ -7400,43 +7360,43 @@ export const products: Product[] = [
         "categoryId": "682971",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-BD22"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "125V/220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1400W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "负离子",
+            "label": "Negative Ions",
             "value": "100 million/cm³"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/Medium/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "245×43×43mm(handle)"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "376g (With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -7654,19 +7614,19 @@ export const products: Product[] = [
       "cn": {
         "id": "11906921",
         "locale": "cn",
-        "legacyPath": "/ProductDetail/11906921.html",
+        "legacyPath": "/ProductDetail/11897013.html",
         "kind": "product-detail",
         "title": "LBH-3808",
-        "description": "LBH-3808 高速多功能美发造型器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
+        "description": "LBH-3808 高速多功能美发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。",
         "seo": {
           "title": "LBH-3808 | LBH APPLIANCES",
-          "description": "LBH-3808 高速多功能美发造型器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
+          "description": "LBH-3808 高速多功能美发器。查看产品规格、功能与可选配件，联系团队获取定制与报价信息。"
         },
         "blocks": [
           {
             "type": "hero",
             "title": "LBH-3808",
-            "subtitle": "高速多功能美发造型器",
+            "subtitle": "高速多功能美发器",
             "image": {
               "src": "/media/6c77bebbdd6d6c8e8b11af3c057fc54cab4acbb374972d87834a827fe7286626.png",
               "alt": "LBH-3808"
@@ -7713,10 +7673,10 @@ export const products: Product[] = [
           }
         ],
         "provenance": {
-          "sourceUrl": "https://lbhappliances.com/en/ProductDetail/11906921.html",
-          "sourceLocale": "en",
-          "languageVerified": false,
-          "translation": "authored",
+          "sourceUrl": "https://www.lbhappliances.com/cn/ProductDetail/11897013.html",
+          "sourceLocale": "cn",
+          "languageVerified": true,
+          "translation": "none",
           "coverage": "full"
         },
         "productId": "11906921",
@@ -7724,47 +7684,47 @@ export const products: Product[] = [
         "categoryId": "682971",
         "specifications": [
           {
-            "label": "型号",
+            "label": "Model",
             "value": "LBH-3808"
           },
           {
-            "label": "电压",
+            "label": "Voltage",
             "value": "220-240V, 50/60Hz"
           },
           {
-            "label": "功率",
+            "label": "Wattage",
             "value": "1300W"
           },
           {
-            "label": "无刷电机",
+            "label": "BLDC Motor",
             "value": "110000RPM"
           },
           {
-            "label": "风速",
+            "label": "Wind Speed",
             "value": "10m/s"
           },
           {
-            "label": "噪声",
+            "label": "Noise Level",
             "value": "≤82dB"
           },
           {
-            "label": "风速设置",
+            "label": "Wind Control Setting",
             "value": "Three-speed"
           },
           {
-            "label": "温度设置",
+            "label": "Temp Setting",
             "value": "Cool/Low/Medium/High"
           },
           {
-            "label": "产品尺寸",
+            "label": "Product Size",
             "value": "Φ44×216mm"
           },
           {
-            "label": "产品重量",
+            "label": "Product Weight",
             "value": "388g (With power cord )"
           },
           {
-            "label": "电源线长度",
+            "label": "Power Cord Length",
             "value": "1.8m"
           }
         ],
@@ -7810,7 +7770,7 @@ export const categories: Category[] = [
     "legacyPath": "/Product/682971.html",
     "title": {
       "en": "High Speed Hair Multi-Styler",
-      "cn": "高速多功能美发造型器"
+      "cn": "高速多功能美发器"
     },
     "productIds": [
       "11906922",
@@ -7826,7 +7786,7 @@ export const categories: Category[] = [
     "legacyPath": "/Product/682972.html",
     "title": {
       "en": "Hair Dryer Brush",
-      "cn": "热风梳"
+      "cn": "造型梳系列"
     },
     "productIds": [
       "11906933",
@@ -7846,7 +7806,7 @@ export const categories: Category[] = [
     "legacyPath": "/Product/682973.html",
     "title": {
       "en": "Hair Straightener",
-      "cn": "直发器"
+      "cn": "直发器系列"
     },
     "productIds": [
       "11906927",
@@ -7865,7 +7825,7 @@ export const categories: Category[] = [
     "legacyPath": "/Product/682974.html",
     "title": {
       "en": "Curling Iron",
-      "cn": "卷发棒"
+      "cn": "卷发器系列"
     },
     "productIds": [
       "11906944",
@@ -7882,7 +7842,7 @@ export const categories: Category[] = [
     "legacyPath": "/Product/682975.html",
     "title": {
       "en": "Hair Dryer",
-      "cn": "吹风机"
+      "cn": "吹风机系列"
     },
     "productIds": [
       "11906941",

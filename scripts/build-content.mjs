@@ -17,7 +17,7 @@ const pageLabels = {
   Lead_the_team: ["Leadership Team", "领导团队", "以专业、热情和对高品质个护家电解决方案的投入，真诚地与每一位客户合作，建立长期联系。"],
   Factory_tour: ["Factory Tour", "工厂参观", "走进通过 ISO 9001:2000 认证的制造工厂，了解组装现场、电机工厂、专用生产车间、制造设备和经过校准的检测工具。"],
   Milestone: ["Milestone", "发展历程", "从 2020 年创立到持续完善研发、供应链和制造体系，回顾 LBH电器的发展历程。"],
-  Certification_certificate: ["LBH Product Certification", "产品认证", "查看 LBH电器的产品认证与证书。"],
+  Certification_certificate: ["LBH Product Certification", "LBH 产品认证", "查看 LBH电器的产品认证与证书。"],
   Sustainable_Development: ["Sustainable Development", "可持续发展", "生态优先，利润其次。通过先进设备和专业人才减少能耗与废弃物，发展高效电机产品、环保包装和可持续生产，并关注员工与社区的长期发展。"],
   Product_Laboratory: ["Product Lab", "产品实验室", "在产品开发各阶段严格把控质量，开展设计灵活性、采购零件、完整样机和成品抽检等测试。专业团队与先进检测设备共同保障产品质量。"],
   ProductIndex: ["Products", "产品中心", "探索高速多功能造型器、热风梳、直发器、卷发棒与吹风机系列。"],
@@ -35,11 +35,11 @@ const pageLabels = {
   "Content/3022033.html": ["What Makes Our Personal Care Appliances Stand Out?", "我们的个护电器有何不同？", "一体成型外壳兼顾无缝外观和耐用性。紧凑设计减少 10% 运输体积，每个集装箱可多装 500 件；自主模具与高效性能帮助客户控制成本。"],
 };
 const categoryLabels = {
-  "682971": ["High Speed Hair Multi-Styler", "高速多功能美发造型器"],
-  "682972": ["Hair Dryer Brush", "热风梳"],
-  "682973": ["Hair Straightener", "直发器"],
-  "682974": ["Curling Iron", "卷发棒"],
-  "682975": ["Hair Dryer", "吹风机"],
+  "682971": ["High Speed Hair Multi-Styler", "高速多功能美发器"],
+  "682972": ["Hair Dryer Brush", "造型梳系列"],
+  "682973": ["Hair Straightener", "直发器系列"],
+  "682974": ["Curling Iron", "卷发器系列"],
+  "682975": ["Hair Dryer", "吹风机系列"],
 };
 const faqTranslations = {
   "6860206": ["你们的供货能力如何？", "日产能为 5,000 件，年出货量为 150 万至 200 万件。"],
@@ -104,6 +104,7 @@ async function hasImageSignature(filename) {
 }
 
 export async function buildContent({ source = "source-cache", output = "content", publicDir = "public" } = {}) {
+  const chineseDetails = JSON.parse(await readFile(new URL("../content/chinese-details.json", import.meta.url), "utf8"));
   const assetAliases = JSON.parse(await readFile(new URL("../content/asset-aliases.json", import.meta.url), "utf8"));
   // Rewrite after layout extraction: identical files may occupy separate source gallery positions.
   const localize = (_key, value) => typeof value === "string" ? assetAliases[value] || value : value;
@@ -278,6 +279,16 @@ export async function buildContent({ source = "source-cache", output = "content"
         const blocks = [{ type: "hero", title: model, subtitle: category.title[locale], image: gallery[0] }, ...(gallery.length ? [{ type: "gallery", images: gallery }] : [])];
         locales[locale] = { ...basePage(page, locale, model, description, blocks, gallery), productId: id, model, categoryId: category.id, specifications: specifications.map((row) => ({ ...row, label: locale === "cn" ? (specLabels[row.label.toLowerCase()] || row.label) : row.label })), features, accessories, inquiryTitle: locale === "cn" ? `${model} 产品询盘` : `${model} Inquiry` };
       }
+      const translatedSource = chineseDetails[page.pathname];
+      if (!translatedSource?.gallery?.length) throw new Error(`Missing canonical Chinese product: ${model}`);
+      const tabBlocks = tab => tab ? [...(tab.text ? [{ type: "rich-text", paragraphs: [tab.text] }] : []), ...(tab.images.length ? [{ type: "gallery", images: tab.images }] : [])] : [];
+      Object.assign(locales.cn, {
+        legacyPath: translatedSource.legacyPath, images: translatedSource.gallery,
+        blocks: [{ type: "hero", title: model, subtitle: category.title.cn, image: translatedSource.gallery[0] }, { type: "gallery", images: translatedSource.gallery }],
+        specifications: translatedSource.specifications,
+        features: tabBlocks(translatedSource.tabs[0]), accessories: tabBlocks(translatedSource.tabs[1]),
+        provenance: { sourceUrl: translatedSource.sourceUrl, sourceLocale: "cn", languageVerified: true, translation: "none", coverage: "full" },
+      });
       products.push({ id, model, legacyPath: page.pathname, categoryId: category.id, image: gallery[0], gallery, locales });
     } else if (page.kind === "news-detail") {
       const sourceTitle = textOf(doc.querySelector(".newsDetailTitle"));
@@ -296,6 +307,16 @@ export async function buildContent({ source = "source-cache", output = "content"
         const blocks = [{ type: "rich-text", paragraphs: content }, ...(images.length ? [{ type: "gallery", images }] : [])];
         locales[locale] = { ...basePage(page, locale, title, content[0] || title, blocks, images, isPlaceholder ? "source-placeholder" : "full"), articleId: id, publishedAt, author, category };
       }
+      const translatedSource = chineseDetails[page.pathname];
+      if (!translatedSource?.title) throw new Error(`Missing canonical Chinese article: ${page.pathname}`);
+      Object.assign(locales.cn, {
+        legacyPath: translatedSource.legacyPath, title: translatedSource.title,
+        description: translatedSource.paragraphs[0] || translatedSource.title,
+        seo: { title: `${translatedSource.title} | LBH APPLIANCES`, description: translatedSource.paragraphs[0] || translatedSource.title },
+        blocks: [{ type: "rich-text", paragraphs: translatedSource.paragraphs }],
+        publishedAt: translatedSource.publishedAt || publishedAt, author: translatedSource.author || author,
+        provenance: { sourceUrl: translatedSource.sourceUrl, sourceLocale: "cn", languageVerified: true, translation: "none", coverage: isPlaceholder ? "source-placeholder" : "full" },
+      });
       articles.push({ id, legacyPath: page.pathname, publishedAt, author, category, locales });
     } else {
       const category = categories.find((category) => category.legacyPath === page.pathname);
@@ -322,7 +343,8 @@ export async function buildContent({ source = "source-cache", output = "content"
         const desc = locale === "cn" ? blocks.flatMap(block => block.paragraphs || []).find(text => /[\u4e00-\u9fff]/.test(text)) || labels[2] : description;
         const record = basePage(page, locale, title, desc, [{ type: "hero", title, image: localizedImages[0] }, ...blocks], localizedImages, locale === "cn" && !actualChinese ? "localized-summary" : "full", locale === "cn" && actualChinese ? "cn" : "en");
         if (category) record.categoryId = category.id;
-        if (/^\/(Contact|Contact_Us)$/.test(page.pathname)) record.kind = "contact";
+        if (page.pathname === "/Contact_Us") record.kind = "contact";
+        if (!textOf(locale === "cn" && actualChinese ? cnRoot : root) && !localizedImages.length) record.sourceEmpty = true;
         if (page.pathname.startsWith("/DownLoad/") || page.pathname === "/Product_Catalogue") {
           record.kind = "download";
           record.downloads = [...root.querySelectorAll("a[href]")].flatMap((node) => { const file = localAsset(node.getAttribute("href"), "", true); return file && !/\.(png|jpe?g|webp|gif)$/i.test(file.src) ? [{ label: textOf(node) || title, href: file.src, action: "download" }] : []; });

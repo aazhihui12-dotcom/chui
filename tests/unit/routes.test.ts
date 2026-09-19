@@ -1,8 +1,8 @@
 import { getAlternatePath } from "@/lib/routes";
 
-it("switches a product detail to the same identifier in the other language", () => {
+it("switches a product detail to the same model at its actual locale identifier", () => {
   expect(getAlternatePath("en", ["ProductDetail", "11906944.html"]))
-    .toBe("/cn/ProductDetail/11906944.html");
+    .toBe("/cn/ProductDetail/11898269.html");
   expect(getAlternatePath("cn", ["ProductDetail", "11906944.html"]))
     .toBe("/en/ProductDetail/11906944.html");
 });

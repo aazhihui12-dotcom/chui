@@ -15,7 +15,7 @@ export function ProductCatalog({ products, categories, locale, filterable = fals
     </div></details>}
     <p className={`product-count${presentation === "carousel" ? " sr-only" : ""}`} role="status">{cn ? `${shown.length} 款产品` : `${shown.length} products`}</p>
     {presentation === "carousel" ? <ProductCarousel key={category} products={shown} locale={locale} /> : <section className="product-grid" aria-label={cn ? "产品目录" : "Product catalog"}>
-      {shown.map((product) => <a href={`/${locale}${product.legacyPath}`} className="product-card" key={product.id} aria-label={product.model}>
+      {shown.map((product) => <a href={`/${locale}${product.locales[locale].legacyPath}`} className="product-card" key={product.id} aria-label={product.model}>
         {product.image && <img src={product.image.src} alt="" width="400" height="400" loading="lazy" />}
         <h2>{product.model}</h2><span aria-hidden="true">↗</span>
       </a>)}

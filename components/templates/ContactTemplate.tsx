@@ -7,10 +7,10 @@ export function ContactTemplate({ page }: { page: SitePage }) {
   const cn = page.locale === "cn";
   const { contact, labels } = siteConfig[page.locale];
   return <main id="main-content" className="contact-page support-page">
-    <header className="contact-hero"><h1>{cn ? "让我们承接您的个护与家用电器新项目！" : "Let us take on your new personal care and home appliance project!"}</h1></header>
+    <header className="contact-hero"><h1>{cn ? "让我们来承接您新的个护家电项目吧！" : "Let us take on your new personal care and home appliance project!"}</h1></header>
     <h2 className="contact-heading">{cn ? "立即联系我们" : "Contact Us Now"}</h2>
     <div className="support-container contact-layout">
-      <section className="contact-details"><h2>{cn ? "中国办公室" : "China Office"}</h2>
+      <section className="contact-details"><h2>{cn ? "中国办事处" : "China Office"}</h2>
         <dl className="contact-checklist">
           <div><dt>{cn ? "公司名称" : "Company Name"}</dt><dd className="contact-company">{contact.company}</dd></div>
           <div><dt>{cn ? "公司地址" : "Company Address"}</dt><dd><address>{contact.address}</address></dd></div>

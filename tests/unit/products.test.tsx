@@ -127,7 +127,7 @@ describe("product pages", () => {
 
   it.each(["en", "cn"] as const)("keeps customization, manufacturing and certification sections in %s", (locale) => {
     render(<ProductIndexTemplate page={pages.find((page) => page.locale === locale && page.kind === "product-index")!} />);
-    for (const name of locale === "en" ? ["Customized, Unique Small Appliance Solutions", "Maximize Product Performance with Our Customized Solutions", "Globally Recognized Quality Certification", "Differentiated Services: Precisely Meeting Your Business Needs", "Ensure that every order is produced on time and meets quality standards.", "Our Valued Partners"] : ["定制独特的小家电解决方案", "通过定制方案提升产品性能", "全球认可的质量认证", "差异化服务：精准满足您业务需求", "确保每份订单都能按时生产，并保证质量", "我们宝贵的合作伙伴"]) expect(screen.getByRole("heading", { name })).toBeVisible();
+    for (const name of locale === "en" ? ["Customized, Unique Small Appliance Solutions", "Maximize Product Performance with Our Customized Solutions", "Globally Recognized Quality Certification", "Differentiated Services: Precisely Meeting Your Business Needs", "Ensure that every order is produced on time and meets quality standards.", "Our Valued Partners"] : ["定制化的独特小家电解决方案", "利用我们的定制化解决方案，最大限度地提高产品效能", "全球认可的质量认证", "差异化服务：精准满足您业务需求", "确保每份订单都能按时生产，并保证质量", "我们宝贵的合作伙伴"]) expect(screen.getByRole("heading", { name })).toBeVisible();
   });
 
   it.each([[0, 2], [1, 6], [2, 5], [3, 3], [4, 8]])("keeps category %i scoped to its source products", (index, count) => {
@@ -140,7 +140,7 @@ describe("product pages", () => {
 
   it("includes every current non-home route and dispatches product detail rendering", async () => {
     const params = generateStaticParams();
-    expect(params).toHaveLength(192);
+    expect(params).toHaveLength(250);
     expect(params).toContainEqual({ locale: "en", slug: ["Company_Introduction"] });
     expect(params.some(({ slug }) => !slug.length)).toBe(false);
     render(await ContentPage({ params: Promise.resolve({ locale: "en", slug: ["ProductDetail", "11906944.html"] }) }));

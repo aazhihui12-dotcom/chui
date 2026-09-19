@@ -25,7 +25,7 @@ test.describe("shared navigation shell", () => {
     await page.goto("/cn");
 
     await page.getByRole("button", { name: "Open 产品 menu" }).click();
-    await expect(page.getByRole("banner").getByRole("link", { name: "吹风机", exact: true })).toBeVisible();
+    await expect(page.getByRole("banner").getByRole("link", { name: "吹风机系列", exact: true })).toBeVisible();
     await expect(page.getByRole("link", { name: "English", exact: true })).toHaveAttribute("href", "/en");
     await expect(page.getByRole("contentinfo").getByRole("link", { name: "联系我们" })).toHaveAttribute("href", "/cn/Contact_Us");
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
@@ -43,7 +43,7 @@ test.describe("shared navigation shell", () => {
     await expect(drawer).toBeVisible();
     await expect(menuButton).toHaveAttribute("aria-expanded", "true");
     await page.getByRole("button", { name: "Open 产品 menu" }).click();
-    await expect(drawer.getByRole("link", { name: "吹风机", exact: true })).toBeVisible();
+    await expect(drawer.getByRole("link", { name: "吹风机系列", exact: true })).toBeVisible();
     await page.mouse.click(8, 400);
     await expect(drawer).toBeHidden();
     await expect(menuButton).toBeFocused();

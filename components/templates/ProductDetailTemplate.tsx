@@ -14,7 +14,7 @@ export function ProductDetailTemplate({ product, locale }: { product: Product; l
   return <main id="main-content" className="product-page product-detail">
     <nav className="product-breadcrumb" aria-label={cn ? "面包屑导航" : "Breadcrumb"}><a href={`/${locale}/ProductIndex`}>{labels.products}</a><span aria-hidden="true">/</span><a href={`/${locale}${category.legacyPath}`}>{category.title[locale]}</a><span aria-hidden="true">/</span><span aria-current="page">{product.model}</span></nav>
     <div className="product-detail__top">
-      <ProductGallery images={product.gallery} model={product.model} locale={locale} />
+      <ProductGallery images={page.images} model={product.model} locale={locale} />
       <section className="product-summary"><p className="eyebrow">{category.title[locale]}</p><h1>{product.model}</h1>
         <table className="product-specifications" aria-label={`${product.model} ${labels.specifications}`}><tbody>{page.specifications.map((spec, index) => <tr key={index}><th scope="row">{spec.label}</th><td>{spec.value}</td></tr>)}</tbody></table>
         <ProductInquiry context={{ locale, productId: product.id, model: product.model, title: page.inquiryTitle }} label={labels.inquiry} />

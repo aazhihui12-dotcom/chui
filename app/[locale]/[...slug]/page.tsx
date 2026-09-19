@@ -16,12 +16,13 @@ import { FaqTemplate } from "@/components/templates/FaqTemplate";
 import { ContactTemplate } from "@/components/templates/ContactTemplate";
 import { DownloadsTemplate } from "@/components/templates/DownloadsTemplate";
 import { pageMetadata } from "@/lib/metadata";
+import { compatibilityParams } from "@/lib/locale-path";
 
 type Props = { params: Promise<{ locale: string; slug: string[] }> };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return [...productStaticParams(), ...articleStaticParams(), ...allPages.filter((page) => page.kind !== "home" && page.kind !== "news-detail" && !page.kind.startsWith("product-")).map((page) => ({ locale: page.locale, slug: page.legacyPath.split("/").filter(Boolean) }))];
+  return [...compatibilityParams, ...productStaticParams(), ...articleStaticParams(), ...allPages.filter((page) => page.kind !== "home" && page.kind !== "news-detail" && !page.kind.startsWith("product-")).map((page) => ({ locale: page.locale, slug: page.legacyPath.split("/").filter(Boolean) }))];
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
@@ -37,6 +38,7 @@ export default async function ContentPage({ params }: Props) {
   if (!isLocale(locale)) notFound();
   const page = getPage(locale, slug);
   if (!page) notFound();
+  if (page.sourceEmpty) return <main id="main-content" aria-label={page.title} />;
   if (page.kind === "product-index") return <ProductIndexTemplate page={page} />;
   if (page.kind === "product-category") {
     const category = categories.find((item) => item.id === page.categoryId);

@@ -3,6 +3,7 @@ import { articles } from "@/content/articles";
 import { allPages, getPage } from "@/lib/content";
 import { isLocale } from "@/lib/i18n";
 import manifest from "@/source-cache/manifest.json";
+import chineseDetails from "@/content/chinese-details.json";
 
 it("accepts only supported route locales", () => {
   expect(isLocale("en")).toBe(true);
@@ -17,7 +18,8 @@ it("retains every product and article in both languages", () => {
   for (const record of [...products, ...articles]) {
     expect(record.locales.en.locale).toBe("en");
     expect(record.locales.cn.locale).toBe("cn");
-    expect(record.locales.cn.description).toMatch(/[\u4e00-\u9fff]/);
+    expect(record.locales.cn.provenance.sourceLocale).toBe("cn");
+    expect(record.locales.cn.legacyPath).not.toBe(record.locales.en.legacyPath);
   }
 });
 
@@ -36,18 +38,18 @@ it("preserves source model and specification values through localization", () =>
   const product = products.find((item) => item.id === "11906944")!;
   expect(product.model).toBe("LBH-3228");
   expect(product.locales.en.specifications).toContainEqual({ label: "Wattage", value: "86W" });
-  expect(product.locales.cn.specifications).toContainEqual({ label: "功率", value: "86W" });
+  expect(product.locales.cn.specifications).toContainEqual({ label: "Wattage", value: "86W" });
   expect(product.locales.cn.specifications.map((item) => item.value))
-    .toEqual(product.locales.en.specifications.map((item) => item.value));
+    .toEqual(chineseDetails["/ProductDetail/11906944.html"].specifications.map((item) => item.value));
 });
 
-it("records generated Chinese translations without claiming verified Chinese source", () => {
+it("records verified Chinese source at the real CMS address", () => {
   for (const slug of [["ProductDetail", "11906944.html"], ["NewsDetail", "6860195.html"]]) {
     const page = getPage("cn", slug)!;
-    expect(page.provenance.sourceLocale).toBe("en");
-    expect(page.provenance.translation).toBe("authored");
-    expect(page.provenance.languageVerified).toBe(false);
-    expect(page.description).toMatch(/[\u4e00-\u9fff]/);
+    expect(page.provenance.sourceLocale).toBe("cn");
+    expect(page.provenance.translation).toBe("none");
+    expect(page.provenance.languageVerified).toBe(true);
+    expect(page.provenance.sourceUrl).toContain(`/cn${page.legacyPath}`);
   }
 });
 
@@ -63,7 +65,7 @@ it("publishes structured safe blocks and local media instead of source markup", 
 
 it("retains table-based specifications and each product's captured category", () => {
   const product = products.find((item) => item.id === "11906927")!;
-  expect(product.locales.cn.specifications).toContainEqual({ label: "功率", value: "1400W" });
+  expect(product.locales.cn.specifications).toContainEqual({ label: "Wattage", value: "1400W" });
   expect(product.locales.en.specifications).toContainEqual({ label: "Heater", value: "PCT" });
   expect(products.every((product) => product.categoryId && product.gallery.length > 0)).toBe(true);
 });
