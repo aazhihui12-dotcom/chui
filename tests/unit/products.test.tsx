@@ -70,11 +70,11 @@ describe("product pages", () => {
     const listener = (event: Event) => { detail = (event as CustomEvent).detail; event.preventDefault(); };
     window.addEventListener("lbh:inquiry", listener);
     try {
-      fireEvent.click(screen.getByRole("link", { name: "立即询价" }));
+      fireEvent.click(screen.getByRole("link", { name: "立即询盘" }));
       expect(detail).toEqual({ locale: "cn", productId: "11906944", model: "LBH-3228", title: "LBH-3228 产品询盘" });
     } finally { window.removeEventListener("lbh:inquiry", listener); }
     expect(screen.getByRole("tab", { name: "规格参数" })).toBeVisible();
-    expect(screen.getByRole("link", { name: "立即询价" })).toHaveAttribute("href", "/cn/Contact_Us?product=LBH-3228");
+    expect(screen.getByRole("link", { name: "立即询盘" })).toHaveAttribute("href", "/cn/Contact_Us?product=LBH-3228");
   });
 
   it("filters the full overview by category and restores all models", () => {

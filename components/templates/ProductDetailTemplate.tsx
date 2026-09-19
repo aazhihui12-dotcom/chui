@@ -17,7 +17,7 @@ export function ProductDetailTemplate({ product, locale }: { product: Product; l
       <ProductGallery images={page.images} model={product.model} locale={locale} />
       <section className="product-summary"><p className="eyebrow">{category.title[locale]}</p><h1>{product.model}</h1>
         <table className="product-specifications" aria-label={`${product.model} ${labels.specifications}`}><tbody>{page.specifications.map((spec, index) => <tr key={index}><th scope="row">{spec.label}</th><td>{spec.value}</td></tr>)}</tbody></table>
-        <ProductInquiry context={{ locale, productId: product.id, model: product.model, title: page.inquiryTitle }} label={labels.inquiry} />
+        <ProductInquiry context={{ locale, productId: product.id, model: product.model, title: page.inquiryTitle }} label={cn ? "立即询盘" : "Inquiry"} />
       </section>
     </div>
     <div id="product-details"><ProductTabs labels={[labels.specifications, labels.features, labels.accessories]} initialIndex={1}>

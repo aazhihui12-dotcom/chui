@@ -1,5 +1,6 @@
 "use client";
 import type { Action } from "@/content/schema";
+import { SourceButtonLabel } from "./SourceButtonLabel";
 
 /** Typed actions keep their source destination if the singleton dialog is unavailable. */
 export function ContentAction({ action }: { action: Action }) {
@@ -8,5 +9,5 @@ export function ContentAction({ action }: { action: Action }) {
     const locale = /^\/cn(?:\/|$)/.test(action.href) ? "cn" : "en";
     const request = new CustomEvent("lbh:inquiry", { detail: { locale, title: action.label }, cancelable: true });
     if (!window.dispatchEvent(request)) event.preventDefault();
-  }}>{action.label}<span aria-hidden="true"> ↗</span></a>;
+  }}><SourceButtonLabel>{action.label}</SourceButtonLabel></a>;
 }

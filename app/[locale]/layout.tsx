@@ -1,10 +1,12 @@
 import type { ReactNode } from "react";
 import "../globals.css";
+import "../source-ui.css";
 export { metadata } from "../(entry)/layout";
 import { notFound } from "next/navigation";
 import { SiteShell } from "@/components/site/Header";
 import { isLocale, locales } from "@/lib/i18n";
 import { InquiryDialog } from "@/components/interactive/InquiryDialog";
+import { SourceStyles } from "@/components/site/SourceStyles";
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
@@ -17,5 +19,5 @@ export default async function LocaleLayout({
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
 
-  return <html lang={locale === "cn" ? "zh-CN" : "en"}><body><SiteShell locale={locale}>{children}<InquiryDialog locale={locale} /></SiteShell></body></html>;
+  return <html lang={locale === "cn" ? "zh-CN" : "en"}><body><SiteShell locale={locale}><SourceStyles />{children}<InquiryDialog locale={locale} /></SiteShell></body></html>;
 }

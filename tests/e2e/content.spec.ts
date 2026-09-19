@@ -28,7 +28,7 @@ for (const width of [1440, 390]) {
     await expect(heading).toHaveCSS("color", "rgb(255, 255, 255)");
     await expect(heading).toHaveCSS("text-align", "center");
     await expect(heading).toHaveCSS("font-size", width === 1440 ? "40px" : "22px");
-    await expect(heading).toHaveCSS("line-height", width === 1440 ? "60px" : "39px");
+    await expect(heading).toHaveCSS("line-height", width === 1440 ? "60px" : "33px");
     await expect(heading.locator("..")).toHaveCSS("background-color", "rgb(26, 26, 26)");
     await expect(page.getByRole("heading", { name: "Contact Us Now" })).toBeVisible();
   });

@@ -23,7 +23,7 @@ it("leads contact with the source project headline, followed by contact details 
   const heading = screen.getByRole("heading", { level: 1, name: "Let us take on your new personal care and home appliance project!" });
   expect(heading.closest("header")).not.toBeNull();
   expect(screen.getByRole("heading", { level: 2, name: "Contact Us Now" })).toBeVisible();
-  expect(screen.getByRole("button", { name: "Submit", exact: true })).toBeVisible();
+  expect(screen.getByRole("button", { name: "Send Message", exact: true })).toBeVisible();
   expect(document.querySelectorAll("form")).toHaveLength(1);
   expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
 });

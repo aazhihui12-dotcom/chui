@@ -78,7 +78,7 @@ for (const locale of ["en", "cn"] as const) {
       await expect(page.getByRole("tabpanel").locator("img").first()).toBeVisible();
       await page.keyboard.press("End");
       await expect(page.getByRole("tab", { name: cn ? "可选配件" : "Optional Accessories" })).toBeFocused();
-      await expect(page.getByRole("link", { name: cn ? "立即询价" : "Get a Quote Now", exact: true })).toHaveAttribute("href", `/${locale}/Contact_Us?product=${model}`);
+      await expect(page.getByRole("main").getByRole("link", { name: cn ? "立即询盘" : "Inquiry", exact: true })).toHaveAttribute("href", `/${locale}/Contact_Us?product=${model}`);
     }
     expect(errors).toEqual([]);
   });

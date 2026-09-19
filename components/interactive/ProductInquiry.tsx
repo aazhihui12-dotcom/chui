@@ -10,5 +10,5 @@ export function ProductInquiry({ context, label }: { context: ProductInquiryCont
   return <a className="lbh-button product-inquiry" href={`/${context.locale}/Contact_Us?product=${encodeURIComponent(context.model)}`} onClick={(event) => {
     const request = new CustomEvent<ProductInquiryContext>("lbh:inquiry", { detail: context, cancelable: true });
     if (!window.dispatchEvent(request)) event.preventDefault();
-  }}>{label}<span aria-hidden="true">↗</span></a>;
+  }}><svg className="product-inquiry__icon" aria-hidden="true" viewBox="0 0 24 24" width="18" height="18" fill="none"><path d="M4 4h16v13h-8l-4 4v-4H4z" stroke="currentColor" strokeWidth="1.3" /><path d="M8 10h1m3 0h1m3 0h1" stroke="currentColor" strokeWidth="1.5" /></svg>{label}</a>;
 }

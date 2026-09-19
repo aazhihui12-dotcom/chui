@@ -1,0 +1,43 @@
+/* Shared controls measured from the source; page-specific typography is generated. */
+@font-face { font-family: Poppins; src: url('/fonts/Poppins-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+body { font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif; }
+body .desktop-nav__item > a { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; font-weight: 400; letter-spacing: normal; }
+body .desktop-nav__menu a, body .language-switch { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 14px; font-weight: 400; letter-spacing: normal; }
+body .mobile-nav__row > a, body .mobile-nav__submenu a { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; }
+body .site-footer__inner nav a { font-weight: 400; font-size: 12px; line-height: 35px; color: #7f7f7f; }
+body .site-footer__inner nav:nth-of-type(odd) a { font-family: Poppins; }
+body .site-footer__inner nav:nth-of-type(even) a { font-family: serir; }
+body .site-footer__inner nav .site-footer__heading { font-family: Poppins; font-size: 16px; line-height: 24px; color: white; }
+body .site-footer__inner nav:first-of-type .site-footer__heading { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+body .site-footer__inner > section { font-family: Poppins; font-size: 14px; line-height: 28px; color: #bfbfbf; }
+body .site-footer__inner > section > a { color: inherit; }
+body .site-footer__bottom { font-size: 14px; line-height: 21px; color: #696969; }
+html[lang=zh-CN] .site-footer__inner nav a { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 14px; }
+html[lang=zh-CN] .site-footer__inner nav .site-footer__heading { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; }
+html[lang=zh-CN] .site-footer__inner > section { font-family: inherit; font-size: 16px; line-height: 32px; }
+#main-content .lbh-button, .inquiry-dialog .lbh-button { background: rgb(220,68,5); border: 0; border-radius: 50px; color: white; display: inline-flex; align-items: center; justify-content: center; gap: 12px; font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; font-weight: 400; letter-spacing: normal; line-height: 24px; min-height: 0; height: 55px; padding: 0 18px; width: 220px; max-width: 100%; text-decoration: none; flex-shrink: 0; }
+#main-content .lbh-button:hover, .inquiry-dialog .lbh-button:hover { background: rgb(220,68,5); color: white; }
+#main-content .lbh-button--outline { background: rgb(226,192,112); border: 0; color: white; }
+#main-content .source-button__label { color: inherit; font: inherit; }
+#main-content .source-button__arrow { align-items: center; border-radius: 50%; display: inline-flex; flex: 0 0 32px; height: 32px; justify-content: center; padding: 0; width: 32px; }
+#main-content .source-button__arrow svg { display: block; }
+#main-content .product-inquiry { background: rgb(224,65,3); border: 0; border-radius: 0; font-family: Poppins; font-size: 12px; line-height: 48px; width: auto; height: 48px; padding: 0 18px; gap: 7px; }
+#main-content .product-inquiry:hover { background: rgb(224,65,3); }
+#main-content .product-inquiry { min-width: 0; }
+#main-content .product-inquiry__icon { flex: 0 0 18px; }
+#main-content.product-detail .product-summary h1 { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; line-height: 36px; color: #b3b3b3; }
+#main-content.product-detail .product-specifications { color: #afafaf; font-family: Poppins; font-size: 16px; line-height: 24px; }
+#main-content.product-detail .product-specifications th, #main-content.product-detail .product-specifications td { color: inherit; }
+#main-content .product-tabs__list button { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; border-bottom-width: 0; font-size: 16px; line-height: 22.8571px; color: #afafaf; }
+#main-content .product-tabs__list button[aria-selected=true] { color: #e04103; }
+#main-content .product-card h2, #main-content .home-featured-products a h3 { color: var(--source-rest-color, inherit); }
+#main-content .product-card:is(:hover,:focus-visible) h2, #main-content .home-featured-products a:is(:hover,:focus-visible) h3 { color: #c43a02; }
+#main-content .product-carousel .product-card:is(:hover,:focus-visible) h2 { color: white; }
+#main-content .inquiry-submit, .inquiry-dialog .inquiry-submit { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; width: 100%; height: 50px; border-radius: 100px; }
+@media (max-width: 767px) {
+  #main-content .lbh-button { width: 200px; height: 50px; font-size: 14px; line-height: 21px; }
+  #main-content .lbh-button--outline { font-size: 12px; }
+  #main-content .product-inquiry { font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif; font-size: 14px; width: 100%; height: 50px; border-radius: 0; }
+  #main-content .product-inquiry__icon { display: none; }
+  #main-content .inquiry-submit { width: 100%; }
+}

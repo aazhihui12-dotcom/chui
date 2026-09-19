@@ -7,6 +7,7 @@ import { categories, products } from "@/content/products";
 import { homeCopy, manufacturingPoster, manufacturingVideo } from "@/content/home";
 import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
 import { PartnerCarousel } from "@/components/interactive/PartnerCarousel";
+import { SourceButtonLabel } from "@/components/site/SourceButtonLabel";
 
 export function HomeTemplate({ page }: { page: SitePage }) {
   const copy = homeCopy[page.locale];
@@ -43,11 +44,11 @@ export function HomeTemplate({ page }: { page: SitePage }) {
 
     <section className="home-audiences" aria-label={page.locale === "cn" ? "合作机会" : "Partnership opportunities"}>
       <div className="home-section home-audiences__grid">{copy.audiences.map((heading, index) => <article key={heading} className="audience-card">
-        <Media image={{ ...uniqueMedia[index + 5], alt: "" }} /><div><h2>{heading}</h2>{index === 4 && <p>{copy.agents}</p>}<a href={contact}>{copy.join} <span aria-hidden="true">↗</span></a></div>
+        <Media image={{ ...uniqueMedia[index + 5], alt: "" }} /><div><h2>{heading}</h2>{index === 4 && <p>{copy.agents}</p>}<a className="lbh-button" href={contact}><SourceButtonLabel>{copy.join}</SourceButtonLabel></a></div>
       </article>)}</div>
     </section>
 
-    <section className="home-welcome home-section"><div><p className="eyebrow">LBH APPLIANCES</p><h2>{copy.welcome}</h2>{copy.welcomeParagraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<a className="lbh-button" href={contact}>{copy.contact} ↗</a></div><Media image={{ src: manufacturingPoster, alt: page.locale === "cn" ? "LBH生产与装配现场" : "LBH production and assembly facility", width: 1280, height: 720 }} /></section>
+    <section className="home-welcome home-section"><div><p className="eyebrow">LBH APPLIANCES</p><h2>{copy.welcome}</h2>{copy.welcomeParagraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<a className="lbh-button" href={contact}><SourceButtonLabel>{copy.contact}</SourceButtonLabel></a></div><Media image={{ src: manufacturingPoster, alt: page.locale === "cn" ? "LBH生产与装配现场" : "LBH production and assembly facility", width: 1280, height: 720 }} /></section>
 
     <section className="home-partners home-section"><h2>{copy.partners}</h2>{galleries[0] && <PartnerCarousel images={galleries[0].images} label={copy.partners} locale={page.locale} />}
       <div className="testimonials">{copy.testimonials.map((quote, index) => <figure key={quote}><Media image={{ ...uniqueMedia[index + 10], alt: "" }} /><blockquote>{quote}</blockquote><figcaption>{["Jeff Deng", "Warren Steve", "María Emilia"][index]}</figcaption></figure>)}</div>

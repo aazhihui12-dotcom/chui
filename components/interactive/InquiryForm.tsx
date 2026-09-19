@@ -61,7 +61,7 @@ export function InquiryForm({ locale, product = "", queryProduct = false }: { lo
           {errors[field] && <p className="inquiry-error" id={`${id}-${field}-error`}>{cn ? chineseErrors[field] : errors[field]}</p>}
         </div>;
       })}
-      <button className="lbh-button inquiry-submit" type="submit">{state === "pending" ? cn ? "提交中…" : "Submitting…" : cn ? "提交" : "Submit"}</button>
+      <button className="lbh-button inquiry-submit" type="submit">{state === "pending" ? cn ? "提交中…" : "Submitting…" : queryProduct ? cn ? "发送留言" : "Send Message" : cn ? "提交" : "Submit"}</button>
     </fieldset>
     {state === "failed" && <p className="inquiry-error" role="alert">{cn ? "提交失败，请重试。" : "Submission failed. Please try again."}</p>}
   </form>;

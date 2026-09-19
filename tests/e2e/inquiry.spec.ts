@@ -48,7 +48,7 @@ for (const locale of ["en", "cn"] as const) {
     await expect(page.locator("form")).toHaveCount(1);
     await expect(page.getByRole("dialog")).toHaveCount(0);
     const name = panel.getByLabel(cn ? "姓名" : "Name", { exact: true });
-    await panel.getByRole("button", { name: cn ? "提交" : "Submit", exact: true }).click();
+    await panel.getByRole("button", { name: cn ? "发送留言" : "Send Message", exact: true }).click();
     await expect(name).toHaveAttribute("aria-invalid", "true");
     await expect(name).toBeFocused();
     await name.fill("Contact buyer");
@@ -59,7 +59,7 @@ for (const locale of ["en", "cn"] as const) {
     await page.keyboard.press("Escape");
     await expect(name).toHaveValue("Contact buyer");
     await expect(page.locator("form")).toHaveCount(1);
-    await panel.getByRole("button", { name: cn ? "提交" : "Submit", exact: true }).click();
+    await panel.getByRole("button", { name: cn ? "发送留言" : "Send Message", exact: true }).click();
     await expect(panel.getByRole("status")).toHaveText(cn ? "谢谢，我们会尽快与您联系。" : "Thank you. We will contact you soon.");
     await expect(page.getByRole("dialog")).toHaveCount(0);
   });

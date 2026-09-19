@@ -1,0 +1,35 @@
+{
+  "route": "/cn/Content/3022032.html",
+  "width": 1440,
+  "sourceUrl": "https://www.lbhappliances.com/cn/Content/3022032.html",
+  "capturedAt": "2026-09-19T08:10:28.868Z",
+  "status": 404,
+  "body": {
+    "fontFamily": "Times",
+    "fontSize": "16px",
+    "fontWeight": "400",
+    "fontStyle": "normal",
+    "lineHeight": "normal",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(0, 0, 0)"
+  },
+  "text": [
+    {
+      "text": "Page 3022032 Not Exists",
+      "tag": "BODY",
+      "cls": "",
+      "main": false,
+      "fontFamily": "Times",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "fontStyle": "normal",
+      "lineHeight": "normal",
+      "letterSpacing": "normal",
+      "textTransform": "none",
+      "color": "rgb(0, 0, 0)"
+    }
+  ],
+  "buttons": [],
+  "fonts": []
+}
