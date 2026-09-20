@@ -70,10 +70,12 @@ for (const route of routes) {
       // Active and hovered states must remain interactive, not frozen to the
       // state visible during the source capture.
       if(element.closest(".product-tabs__list,.product-category-nav"))delete metrics.color;
+      // Feature backgrounds change at the mobile breakpoint; CSS owns their foreground.
+      if(element.closest('.editorial-section--feature'))delete metrics.color;
       const dynamicCard=element.matches("h2,h3")&&element.closest(".product-card,.home-featured-products a");
-      const lightPhoto=!!element.closest(".product-category-banner") || element.matches(".home-sustainability > .home-section > h2");
-      const dark=!!element.closest('.product-detail,.editorial-section--dark,.editorial-section--feature,.home-manufacturing__media,.article-banner,.contact-hero,.product-index__banner');
-      const context=element.closest('.home-hero')?'dark-hero':lightPhoto?'photo':dark?'dark':element.closest('h1,h2,h3,h4')?'heading':'content';
+      const onImage=!!element.closest('.home-hero,.home-manufacturing__media,.product-category-banner,.home-final-cta,.editorial-banner') || element.matches('.home-sustainability > .home-section > h2');
+      const dark=!!element.closest('.editorial-section--dark,.editorial-section--feature,.article-banner,.contact-hero,.product-index__banner,.source-video');
+      const context=onImage?'on-image':dark?'dark':element.closest('h1,h2,h3,h4')?'heading':'content';
       rules.push(`${selector(element)}{${decl(metrics,dynamicCard?fontKeys.filter(k=>k!=="color"):fontKeys,context)}${dynamicCard?`;--source-rest-color:${themeColor('color',target.color,context)}`:""}}`);
       matched.push({selector:selector(element),text:value,sourceText:target.text,expected:Object.fromEntries(fontKeys.map(k=>[k,metrics[k]]))});
     }

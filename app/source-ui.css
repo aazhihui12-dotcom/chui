@@ -5,38 +5,38 @@ body { font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, "Microsoft YaHei
 body .desktop-nav__item > a { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; font-weight: 400; letter-spacing: normal; }
 body .desktop-nav__menu a, body .language-switch { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 14px; font-weight: 400; letter-spacing: normal; }
 body .mobile-nav__row > a, body .mobile-nav__submenu a { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; }
-body .site-footer__inner nav a { font-weight: 400; font-size: 12px; line-height: 35px; color: #c5c5d0; }
+body .site-footer__inner nav a { font-weight: 400; font-size: 12px; line-height: 35px; color: var(--text-on-dark-muted); }
 body .site-footer__inner nav:nth-of-type(odd) a { font-family: Poppins; }
 body .site-footer__inner nav:nth-of-type(even) a { font-family: serir; }
 body .site-footer__inner nav .site-footer__heading { font-family: Poppins; font-size: 16px; line-height: 24px; color: #ffffff; }
 body .site-footer__inner nav:first-of-type .site-footer__heading { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
-body .site-footer__inner > section { font-family: Poppins; font-size: 14px; line-height: 28px; color: #c5c5d0; }
+body .site-footer__inner > section { font-family: Poppins; font-size: 14px; line-height: 28px; color: var(--text-on-dark-muted); }
 body .site-footer__inner > section > a { color: inherit; }
-body .site-footer__bottom { font-size: 14px; line-height: 21px; color: #c5c5d0; }
+body .site-footer__bottom { font-size: 14px; line-height: 21px; color: var(--text-on-dark-muted); }
 html[lang=zh-CN] .site-footer__inner nav a { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 14px; }
 html[lang=zh-CN] .site-footer__inner nav .site-footer__heading { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; }
 html[lang=zh-CN] .site-footer__inner > section { font-family: inherit; font-size: 16px; line-height: 32px; }
-#main-content .lbh-button, .inquiry-dialog .lbh-button { background: #165dcc; border: 0; border-radius: 50px; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; gap: 12px; font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; font-weight: 400; letter-spacing: normal; line-height: 24px; min-height: 0; height: 55px; padding: 0 18px; width: 220px; max-width: 100%; text-decoration: none; flex-shrink: 0; }
-#main-content .lbh-button:hover, .inquiry-dialog .lbh-button:hover { background: #104aa6; color: #ffffff; }
-#main-content .lbh-button--outline { background: transparent; border: 0; color: #165dcc; box-shadow: inset 0 0 0 1px #165dcc; }
-#main-content .lbh-button--outline:is(:hover,:focus-visible) { background: #eef4ff; color: #104aa6; }
+#main-content .lbh-button, .inquiry-dialog .lbh-button { background: var(--brand-blue); border: 0; border-radius: 50px; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; gap: 12px; font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; font-weight: 400; letter-spacing: normal; line-height: 24px; min-height: 0; height: 55px; padding: 0 18px; width: 220px; max-width: 100%; text-decoration: none; flex-shrink: 0; }
+#main-content .lbh-button:hover, .inquiry-dialog .lbh-button:hover { background: var(--brand-blue-hover); color: #ffffff; }
+#main-content .lbh-button--outline { background: transparent; border: 0; color: var(--brand-blue); box-shadow: inset 0 0 0 1px var(--brand-blue); }
+#main-content .lbh-button--outline:is(:hover,:focus-visible) { background: #eef4ff; color: var(--brand-blue-hover); }
 #main-content .source-button__label { color: inherit; font: inherit; }
 #main-content .source-button__arrow { align-items: center; border-radius: 50%; display: inline-flex; flex: 0 0 32px; height: 32px; justify-content: center; padding: 0; width: 32px; }
 #main-content .source-button__arrow svg { display: block; }
-#main-content .product-inquiry { background: #165dcc; border: 0; border-radius: 0; font-family: Poppins; font-size: 12px; line-height: 48px; width: auto; height: 48px; padding: 0 18px; gap: 7px; }
-#main-content .product-inquiry:hover { background: #165dcc; }
+#main-content .product-inquiry { background: var(--brand-blue); border: 0; border-radius: 0; font-family: Poppins; font-size: 12px; line-height: 48px; width: auto; height: 48px; padding: 0 18px; gap: 7px; }
+#main-content .product-inquiry:hover { background: var(--brand-blue); }
 #main-content .product-inquiry { min-width: 0; }
 #main-content .product-inquiry__icon { flex: 0 0 18px; }
-#main-content.product-detail .product-summary h1 { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; line-height: 36px; color: #c5c5d0; }
-#main-content.product-detail .product-specifications { color: #c5c5d0; font-family: Poppins; font-size: 16px; line-height: 24px; }
+#main-content.product-detail .product-summary h1 { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; line-height: 36px; color: var(--text-primary); }
+#main-content.product-detail .product-specifications { color: var(--text-primary); font-family: Poppins; font-size: 16px; line-height: 24px; }
 #main-content.product-detail .product-specifications th, #main-content.product-detail .product-specifications td { color: inherit; }
-#main-content .product-tabs__list button { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; border-bottom-width: 0; font-size: 16px; line-height: 22.8571px; color: #666570; }
-#main-content .product-tabs__list button[aria-selected=true] { color: #165dcc; }
-#main-content.product-detail .product-tabs__list button { color: #c5c5d0; }
-#main-content.product-detail .product-tabs__list button[aria-selected=true] { color: #9fc5ff; }
+#main-content .product-tabs__list button { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; border-bottom-width: 0; font-size: 16px; line-height: 22.8571px; color: var(--text-secondary); }
+#main-content .product-tabs__list button[aria-selected=true] { color: var(--brand-blue); }
+#main-content.product-detail .product-tabs__list button { color: var(--text-secondary); }
+#main-content.product-detail .product-tabs__list button[aria-selected=true] { color: var(--brand-blue); }
 #main-content .product-card h2, #main-content .home-featured-products a h3 { color: var(--source-rest-color, inherit); }
-#main-content .product-card:is(:hover,:focus-visible) h2, #main-content .home-featured-products a:is(:hover,:focus-visible) h3 { color: #25242d; }
-#main-content .product-carousel .product-card:is(:hover,:focus-visible) h2 { color: #25242d; }
+#main-content .product-card:is(:hover,:focus-visible) h2, #main-content .home-featured-products a:is(:hover,:focus-visible) h3 { color: var(--text-primary); }
+#main-content .product-carousel .product-card:is(:hover,:focus-visible) h2 { color: #ffffff; }
 #main-content .inquiry-submit, .inquiry-dialog .inquiry-submit { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; width: 100%; height: 50px; border-radius: 100px; }
 @media (max-width: 767px) {
   #main-content .lbh-button { width: 200px; height: 50px; font-size: 14px; line-height: 21px; }

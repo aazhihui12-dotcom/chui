@@ -14076,8 +14076,7 @@
           "fontStyle": "normal",
           "lineHeight": "60px",
           "letterSpacing": "normal",
-          "textTransform": "none",
-          "color": "rgb(255, 255, 255)"
+          "textTransform": "none"
         }
       },
       {
@@ -14488,8 +14487,7 @@
           "fontStyle": "normal",
           "lineHeight": "33px",
           "letterSpacing": "normal",
-          "textTransform": "none",
-          "color": "rgb(0, 0, 0)"
+          "textTransform": "none"
         }
       },
       {
@@ -14966,8 +14964,7 @@
           "fontStyle": "normal",
           "lineHeight": "60px",
           "letterSpacing": "normal",
-          "textTransform": "none",
-          "color": "rgb(255, 255, 255)"
+          "textTransform": "none"
         }
       },
       {
@@ -15439,8 +15436,7 @@
           "fontStyle": "normal",
           "lineHeight": "39px",
           "letterSpacing": "normal",
-          "textTransform": "none",
-          "color": "rgb(0, 0, 0)"
+          "textTransform": "none"
         }
       },
       {

@@ -45,9 +45,39 @@ for (const locale of ['en', 'cn']) for (const width of [1440, 390]) {
     await expect(secondary).toHaveCSS('color', 'rgb(16, 74, 166)');
     expect((await secondary.boundingBox())?.width).toBe(secondaryBox?.width);
     expect((await primary.boundingBox())?.height).toBe(primaryBox?.height);
-    await expect(page.locator('.site-header')).toHaveCSS('background-color', 'rgb(23, 24, 32)');
+    await expect(page.locator('.site-header')).toHaveCSS('background-color', 'rgb(16, 39, 70)');
     await page.goto(`/${locale}/Contact_Us`);
     await expect(page.locator('.contact-inquiry-panel input').first()).toHaveCSS('background-color', 'rgb(255, 255, 255)');
-    await expect(page.locator('.contact-details h2')).toHaveCSS('color', 'rgb(37, 36, 45)');
+    await expect(page.locator('.contact-details h2')).toHaveCSS('color', 'rgb(23, 50, 77)');
+  });
+
+  test(`${locale} ${width}: video statistics stay readable and dark card states use white text`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 1000 });
+    await page.goto(`/${locale}`);
+    const video = page.locator('.home-manufacturing__media');
+    for (const text of await video.locator('.stats-grid dd, .stats-grid dt').all()) {
+      await expect.soft(text).toHaveCSS('color', 'rgb(255, 255, 255)');
+    }
+    const overlay = await video.evaluate(e => {
+      const style = getComputedStyle(e, '::after');
+      return { background: style.backgroundColor, pointerEvents: style.pointerEvents, content: style.content };
+    });
+    expect.soft(overlay.background).toBe('rgba(16, 39, 70, 0.7)');
+    expect.soft(overlay.pointerEvents).toBe('none');
+    expect.soft(overlay.content).not.toBe('none');
+    await page.goto(`/${locale}/Company_Introduction`);
+    await expect.soft(page.locator('.editorial-banner h1')).toHaveCSS('color', 'rgb(255, 255, 255)');
+    if (width === 390) {
+      await expect.soft(page.locator('.editorial-section--feature h2').first()).toHaveCSS('color', 'rgb(23, 50, 77)');
+    }
+    await page.goto(`/${locale}/ProductIndex`);
+    const card = page.locator('.product-carousel .product-card').first();
+    await card.hover();
+    await expect.soft(card.locator('h2')).toHaveCSS('color', 'rgb(255, 255, 255)');
+    await page.mouse.move(0, 0);
+    await card.focus();
+    await expect.soft(card.locator('h2')).toHaveCSS('color', 'rgb(255, 255, 255)');
+    await page.goto(`/${locale}/Product/682971.html`);
+    await expect(page.locator('.product-category-nav h2')).toHaveCSS('color', 'rgb(255, 255, 255)');
   });
 }
