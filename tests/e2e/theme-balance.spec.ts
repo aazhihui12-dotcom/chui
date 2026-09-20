@@ -12,9 +12,14 @@ for (const locale of ['en', 'cn']) for (const width of [1440, 390]) {
     const secondary = page.locator('.home-products .lbh-button--outline').first();
     const primaryBox = await primary.boundingBox();
     const secondaryBox = await secondary.boundingBox();
+    await expect(primary).toHaveCSS('background-color', 'rgb(22, 93, 204)');
+    await primary.hover();
+    await expect(primary).toHaveCSS('background-color', 'rgb(16, 74, 166)');
+    await expect(secondary).toHaveCSS('color', 'rgb(22, 93, 204)');
     await expect(secondary).toHaveCSS('background-color', 'rgba(0, 0, 0, 0)');
     expect(await secondary.evaluate(e => getComputedStyle(e).boxShadow)).not.toBe('none');
     await secondary.hover();
+    await expect(secondary).toHaveCSS('color', 'rgb(16, 74, 166)');
     expect((await secondary.boundingBox())?.width).toBe(secondaryBox?.width);
     expect((await primary.boundingBox())?.height).toBe(primaryBox?.height);
     await expect(page.locator('.site-header')).toHaveCSS('background-color', 'rgb(23, 24, 32)');

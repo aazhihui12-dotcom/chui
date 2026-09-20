@@ -16,24 +16,24 @@ body .site-footer__bottom { font-size: 14px; line-height: 21px; color: #c5c5d0; 
 html[lang=zh-CN] .site-footer__inner nav a { font-family: 微软雅黑,"Microsoft YaHei"; font-size: 14px; }
 html[lang=zh-CN] .site-footer__inner nav .site-footer__heading { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; }
 html[lang=zh-CN] .site-footer__inner > section { font-family: inherit; font-size: 16px; line-height: 32px; }
-#main-content .lbh-button, .inquiry-dialog .lbh-button { background: #6546b5; border: 0; border-radius: 50px; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; gap: 12px; font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; font-weight: 400; letter-spacing: normal; line-height: 24px; min-height: 0; height: 55px; padding: 0 18px; width: 220px; max-width: 100%; text-decoration: none; flex-shrink: 0; }
-#main-content .lbh-button:hover, .inquiry-dialog .lbh-button:hover { background: #513793; color: #ffffff; }
-#main-content .lbh-button--outline { background: transparent; border: 0; color: #6546b5; box-shadow: inset 0 0 0 1px #6546b5; }
-#main-content .lbh-button--outline:is(:hover,:focus-visible) { background: #eee9f7; color: #513793; }
+#main-content .lbh-button, .inquiry-dialog .lbh-button { background: #165dcc; border: 0; border-radius: 50px; color: #ffffff; display: inline-flex; align-items: center; justify-content: center; gap: 12px; font-family: 微软雅黑,"Microsoft YaHei"; font-size: 16px; font-weight: 400; letter-spacing: normal; line-height: 24px; min-height: 0; height: 55px; padding: 0 18px; width: 220px; max-width: 100%; text-decoration: none; flex-shrink: 0; }
+#main-content .lbh-button:hover, .inquiry-dialog .lbh-button:hover { background: #104aa6; color: #ffffff; }
+#main-content .lbh-button--outline { background: transparent; border: 0; color: #165dcc; box-shadow: inset 0 0 0 1px #165dcc; }
+#main-content .lbh-button--outline:is(:hover,:focus-visible) { background: #eef4ff; color: #104aa6; }
 #main-content .source-button__label { color: inherit; font: inherit; }
 #main-content .source-button__arrow { align-items: center; border-radius: 50%; display: inline-flex; flex: 0 0 32px; height: 32px; justify-content: center; padding: 0; width: 32px; }
 #main-content .source-button__arrow svg { display: block; }
-#main-content .product-inquiry { background: #6546b5; border: 0; border-radius: 0; font-family: Poppins; font-size: 12px; line-height: 48px; width: auto; height: 48px; padding: 0 18px; gap: 7px; }
-#main-content .product-inquiry:hover { background: #6546b5; }
+#main-content .product-inquiry { background: #165dcc; border: 0; border-radius: 0; font-family: Poppins; font-size: 12px; line-height: 48px; width: auto; height: 48px; padding: 0 18px; gap: 7px; }
+#main-content .product-inquiry:hover { background: #165dcc; }
 #main-content .product-inquiry { min-width: 0; }
 #main-content .product-inquiry__icon { flex: 0 0 18px; }
 #main-content.product-detail .product-summary h1 { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; line-height: 36px; color: #c5c5d0; }
 #main-content.product-detail .product-specifications { color: #c5c5d0; font-family: Poppins; font-size: 16px; line-height: 24px; }
 #main-content.product-detail .product-specifications th, #main-content.product-detail .product-specifications td { color: inherit; }
 #main-content .product-tabs__list button { font-family: 微软雅黑,"Microsoft YaHei"; font-weight: 400; border-bottom-width: 0; font-size: 16px; line-height: 22.8571px; color: #666570; }
-#main-content .product-tabs__list button[aria-selected=true] { color: #6546b5; }
+#main-content .product-tabs__list button[aria-selected=true] { color: #165dcc; }
 #main-content.product-detail .product-tabs__list button { color: #c5c5d0; }
-#main-content.product-detail .product-tabs__list button[aria-selected=true] { color: #c1adf5; }
+#main-content.product-detail .product-tabs__list button[aria-selected=true] { color: #9fc5ff; }
 #main-content .product-card h2, #main-content .home-featured-products a h3 { color: var(--source-rest-color, inherit); }
 #main-content .product-card:is(:hover,:focus-visible) h2, #main-content .home-featured-products a:is(:hover,:focus-visible) h3 { color: #25242d; }
 #main-content .product-carousel .product-card:is(:hover,:focus-visible) h2 { color: #25242d; }

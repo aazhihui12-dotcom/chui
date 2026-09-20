@@ -2,7 +2,7 @@
 // Only color tokens are changed. Typography, geometry, URLs and alpha stay intact.
 export const palette = {
   ink: '#171820', surface: '#f4f3f7', raised: '#ffffff',
-  violet: '#6546b5', accent: '#c1adf5',
+  primary: '#165dcc', accent: '#9fc5ff',
   gold: '#b79565', white: '#ffffff', text: '#25242d',
   muted: '#666570', darkMuted: '#c5c5d0', border: '#dcdbe3',
 };
@@ -36,12 +36,12 @@ export function themeColor(property, value, context = 'light') {
     else if (foreground) {
       if (context === 'photo') result = palette.text;
       else if (context === 'heading') result = palette.text;
-      else if (orange || gold || colored) result = context === 'dark' ? palette.accent : palette.violet;
+      else if (orange || gold || colored) result = context === 'dark' ? palette.accent : palette.primary;
       else if (context === 'dark') result = level<80 || level>220 ? palette.white : palette.darkMuted;
       else result = level>240 ? (context==='content'?palette.text:palette.white) : level<80 ? palette.text : palette.muted;
     }
-    else if (border) result = orange ? palette.violet : context==='dark' ? '#51515f' : palette.border;
-    else result = orange ? palette.violet : level<170 ? palette.ink : level<250 ? palette.surface : palette.white;
+    else if (border) result = orange ? palette.primary : context==='dark' ? '#51515f' : palette.border;
+    else result = orange ? palette.primary : level<170 ? palette.ink : level<250 ? palette.surface : palette.white;
     if(alpha===1) return result;
     return `rgb(${[1,3,5].map(i=>parseInt(result.slice(i,i+2),16)).join(' ')} / ${Number(alpha.toFixed(5))})`;
   });

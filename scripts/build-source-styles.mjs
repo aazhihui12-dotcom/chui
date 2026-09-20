@@ -102,8 +102,8 @@ for (const route of routes) {
       rules.push(`${selector(element)}:hover{${decl(hover,["backgroundColor","boxShadow"])};color:${themeColor('color',target.hover?.label?.color||target.label.color)} !important}`);
       // Paint hierarchy separately from source dimensions; inset stroke adds no size.
       const outline=element.classList.contains('lbh-button--outline');
-      rules.push(`${selector(element)}{background-color:${outline?'transparent':'#6546b5'} !important;color:${outline?'#6546b5':'#ffffff'} !important;box-shadow:${outline?'inset 0 0 0 1px #6546b5':'none'} !important}`);
-      rules.push(`${selector(element)}:is(:hover,:focus-visible){background-color:${outline?'#eee9f7':'#513793'} !important;color:${outline?'#513793':'#ffffff'} !important}`);
+      rules.push(`${selector(element)}{background-color:${outline?'transparent':'#165dcc'} !important;color:${outline?'#165dcc':'#ffffff'} !important;box-shadow:${outline?'inset 0 0 0 1px #165dcc':'none'} !important}`);
+      rules.push(`${selector(element)}:is(:hover,:focus-visible){background-color:${outline?'#eef4ff':'#104aa6'} !important;color:${outline?'#104aa6':'#ffffff'} !important}`);
       buttons.push({selector:selector(element),text:label,sourceText:target.text,expected:{...Object.fromEntries(fontKeys.map(k=>[k,font[k]])),...Object.fromEntries(keyList.map(k=>[k,box[k]]))}});
     }
     sheets.push(`@media (${width===1440?"min-width:768px":"max-width:767px"}){\n${rules.join("\n")}\n}`);
