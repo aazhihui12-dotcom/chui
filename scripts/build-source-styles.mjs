@@ -8,7 +8,7 @@ const routes = JSON.parse(await readFile("docs/page-correspondence/report.json",
 const fontKeys = ["fontFamily","fontSize","fontWeight","fontStyle","lineHeight","letterSpacing","textTransform","color"];
 const normal = t=>(t||"").normalize("NFKC").replace(/[\s\p{P}\p{S}]/gu,"").toLowerCase();
 const cssKey = key=>key.replace(/[A-Z]/g,s=>`-${s.toLowerCase()}`);
-const decl = (record,keys,light=false)=>keys.filter(k=>record?.[k]!==undefined).map(k=>`${cssKey(k)}:${themeColor(cssKey(k),record[k],light)} !important`).join(";");
+const decl = (record,keys,context='light')=>keys.filter(k=>record?.[k]!==undefined).map(k=>`${cssKey(k)}:${themeColor(cssKey(k),record[k],context)} !important`).join(";");
 const report=[];
 await mkdir("public/source-styles",{recursive:true});await mkdir("out/source-styles",{recursive:true});
 const captureCache = new Map();
@@ -72,7 +72,9 @@ for (const route of routes) {
       if(element.closest(".product-tabs__list,.product-category-nav"))delete metrics.color;
       const dynamicCard=element.matches("h2,h3")&&element.closest(".product-card,.home-featured-products a");
       const lightPhoto=!!element.closest(".home-hero,.product-category-banner") || element.matches(".home-sustainability > .home-section > h2");
-      rules.push(`${selector(element)}{${decl(metrics,dynamicCard?fontKeys.filter(k=>k!=="color"):fontKeys,lightPhoto)}${dynamicCard?`;--source-rest-color:${themeColor('color',target.color)}`:""}}`);
+      const dark=!!element.closest('.product-detail,.editorial-section--dark,.editorial-section--feature,.home-manufacturing__media,.article-banner,.contact-hero,.product-index__banner');
+      const context=lightPhoto?'photo':dark?'dark':element.closest('h1,h2,h3,h4')?'heading':'content';
+      rules.push(`${selector(element)}{${decl(metrics,dynamicCard?fontKeys.filter(k=>k!=="color"):fontKeys,context)}${dynamicCard?`;--source-rest-color:${themeColor('color',target.color,context)}`:""}}`);
       matched.push({selector:selector(element),text:value,sourceText:target.text,expected:Object.fromEntries(fontKeys.map(k=>[k,metrics[k]]))});
     }
     const home=await readCapture(route.startsWith("/cn")?"/cn":"/en",width);
@@ -98,6 +100,10 @@ for (const route of routes) {
       rules.push(`${selector(element)}{${decl({...box,...font},[...fontKeys,...keyList])};max-width:100% !important}`);
       const hover=target.hover?.box||target.box;
       rules.push(`${selector(element)}:hover{${decl(hover,["backgroundColor","boxShadow"])};color:${themeColor('color',target.hover?.label?.color||target.label.color)} !important}`);
+      // Paint hierarchy separately from source dimensions; inset stroke adds no size.
+      const outline=element.classList.contains('lbh-button--outline');
+      rules.push(`${selector(element)}{background-color:${outline?'transparent':'#6546b5'} !important;color:${outline?'#6546b5':'#ffffff'} !important;box-shadow:${outline?'inset 0 0 0 1px #6546b5':'none'} !important}`);
+      rules.push(`${selector(element)}:is(:hover,:focus-visible){background-color:${outline?'#eee9f7':'#513793'} !important;color:${outline?'#513793':'#ffffff'} !important}`);
       buttons.push({selector:selector(element),text:label,sourceText:target.text,expected:{...Object.fromEntries(fontKeys.map(k=>[k,font[k]])),...Object.fromEntries(keyList.map(k=>[k,box[k]]))}});
     }
     sheets.push(`@media (${width===1440?"min-width:768px":"max-width:767px"}){\n${rules.join("\n")}\n}`);

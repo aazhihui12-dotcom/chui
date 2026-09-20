@@ -1,12 +1,13 @@
-// APOWER 2025: ink navy, electric violet, cobalt, champagne and white.
+// APOWER-inspired accents on light product surfaces; dark brand sections remain.
 // Only color tokens are changed. Typography, geometry, URLs and alpha stay intact.
 export const palette = {
-  ink: '#050711', surface: '#101426', raised: '#202640',
-  violet: '#8020ed', blue: '#4164dc', accent: '#bc95ff',
-  gold: '#d6b386', white: '#f5f4ff', muted: '#bcc0d4', border: '#424962',
+  ink: '#171820', surface: '#f4f3f7', raised: '#ffffff',
+  violet: '#6546b5', accent: '#c1adf5',
+  gold: '#b79565', white: '#ffffff', text: '#25242d',
+  muted: '#666570', darkMuted: '#c5c5d0', border: '#dcdbe3',
 };
 const originalVars = {black:'#1f1b19', orange:'#ef4b00', warm:'#dbc6b7', white:'#ffffff', text:'#4e4844', muted:'#a89d96'};
-export function themeColor(property, value, lightPhoto = false) {
+export function themeColor(property, value, context = 'light') {
   if (!/^(color|background.*|border.*|outline.*|fill|stroke|.*shadow|--source-rest-color|--lbh-.*)$/.test(property)) return value;
   const foreground = /^(color|fill|stroke|--source-rest-color|--lbh-(text|muted))$/.test(property);
   const border = /border|outline/.test(property);
@@ -32,9 +33,15 @@ export function themeColor(property, value, lightPhoto = false) {
     const colored = Math.max(...channels)-Math.min(...channels)>45;
     let result;
     if (/shadow/.test(property)) result = level>200 ? palette.white : palette.ink;
-    else if (foreground) result = orange ? (lightPhoto?'#6226ac':palette.accent) : gold ? (lightPhoto?'#72501f':palette.gold) : colored ? (lightPhoto?'#294b9d':'#94b0ff') : lightPhoto ? (level>220?palette.white:level<80?'#18142b':'#46405b') : level<80||level>220 ? palette.white : palette.muted;
-    else if (border) result = orange ? palette.accent : gold ? palette.gold : palette.border;
-    else result = orange ? palette.violet : gold&&level<210 ? palette.blue : level<65 ? palette.ink : level<170 ? palette.raised : level<250 ? palette.surface : '#080b16';
+    else if (foreground) {
+      if (context === 'photo') result = palette.text;
+      else if (context === 'heading') result = palette.text;
+      else if (orange || gold || colored) result = context === 'dark' ? palette.accent : palette.violet;
+      else if (context === 'dark') result = level<80 || level>220 ? palette.white : palette.darkMuted;
+      else result = level>240 ? (context==='content'?palette.text:palette.white) : level<80 ? palette.text : palette.muted;
+    }
+    else if (border) result = orange ? palette.violet : context==='dark' ? '#51515f' : palette.border;
+    else result = orange ? palette.violet : level<170 ? palette.ink : level<250 ? palette.surface : palette.white;
     if(alpha===1) return result;
     return `rgb(${[1,3,5].map(i=>parseInt(result.slice(i,i+2),16)).join(' ')} / ${Number(alpha.toFixed(5))})`;
   });
