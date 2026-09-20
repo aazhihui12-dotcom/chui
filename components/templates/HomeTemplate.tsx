@@ -19,7 +19,7 @@ export function HomeTemplate({ page }: { page: SitePage }) {
   const featured = ["11906944", "11906943", "11906942", "11906941"].map((id) => products.find((product) => product.id === id)!);
   return <main id="main-content" tabIndex={-1} className="home-page">
     <HeroCarousel locale={page.locale} slides={[
-      { title: page.locale === "cn" ? "LBH电器 ,节省您的时间与成本并成就您的品牌" : page.title, subtitle: copy.partner, image: { ...page.images[0], src: "/media/home-desktop-technology-blue.webp" }, bullets: copy.bullets },
+      { title: page.locale === "cn" ? "LBH电器 ,节省您的时间与成本并成就您的品牌" : page.title, subtitle: copy.partner, image: { ...page.images[0], src: "/media/home-desktop-ice-blue.webp" }, bullets: copy.bullets },
     ]} />
     <section className="home-manufacturing" aria-labelledby="manufacturing-title">
       <h2 id="manufacturing-title">{copy.manufacturing}</h2>{copy.why && <p>{copy.why}</p>}<p>{copy.video}</p>
