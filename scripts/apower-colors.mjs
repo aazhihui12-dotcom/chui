@@ -34,7 +34,8 @@ export function themeColor(property, value, context = 'light') {
     let result;
     if (/shadow/.test(property)) result = level>200 ? palette.white : palette.ink;
     else if (foreground) {
-      if (context === 'photo') result = palette.text;
+      if (context === 'dark-hero') result = palette.white;
+      else if (context === 'photo') result = palette.text;
       else if (context === 'heading') result = palette.text;
       else if (orange || gold || colored) result = context === 'dark' ? palette.accent : palette.primary;
       else if (context === 'dark') result = level<80 || level>220 ? palette.white : palette.darkMuted;

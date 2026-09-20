@@ -6,17 +6,23 @@ for (const locale of ['en', 'cn']) for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto(`/${locale}`);
     const hero = page.locator('.home-hero');
+    for (const selector of ['h1', 'h1 span', 'li', 'li span', '.hero-counter']) {
+      for (const element of await hero.locator(selector).all()) {
+        await expect(element).toHaveCSS('color', 'rgb(255, 255, 255)');
+      }
+    }
+    await expect(hero).toHaveCSS('background-color', 'rgb(16, 39, 70)');
     const heroImage = hero.locator('img');
-    await expect(heroImage).toHaveAttribute('src', '/media/home-desktop-ice-blue.webp');
+    await expect(heroImage).toHaveAttribute('src', '/media/home-desktop-deep-blue.webp');
     expect(await heroImage.evaluate(async (image: HTMLImageElement) => {
       await image.decode();
       return [image.naturalWidth, image.naturalHeight];
     })).toEqual([1920, 800]);
     if (width === 390) {
-      await expect(hero).toHaveCSS('background-image', /home-mobile-ice-blue\.webp/);
+      await expect(hero).toHaveCSS('background-image', /home-mobile-deep-blue\.webp/);
       expect(await hero.evaluate(async () => {
         const image = new Image();
-        image.src = '/media/home-mobile-ice-blue.webp';
+        image.src = '/media/home-mobile-deep-blue.webp';
         await image.decode();
         return [image.naturalWidth, image.naturalHeight];
       })).toEqual([1308, 1816]);

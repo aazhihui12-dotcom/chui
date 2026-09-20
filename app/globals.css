@@ -299,13 +299,13 @@ button, a { -webkit-tap-highlight-color: transparent; }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 1ms !important; } }
 
 .home-page { color: #25242d; }
-.home-hero { background: #f4f3f7; min-height: 600px; position: relative; }
+.home-hero { background: #102746; color: #ffffff; min-height: 600px; position: relative; }
 .home-hero__image { height: 100%; inset: 0; object-fit: cover; object-position: center; position: absolute; width: 100%; }
 .home-hero__inner { margin: 0 auto; max-width: var(--content-wide); padding: 48px 24px 70px; position: relative; }
-.home-hero h1 { color: #25242d; font-size: clamp(1.8rem, 2.3vw, 2.3rem); font-weight: 500; line-height: 1.32; margin: 0 0 34px; max-width: 650px; }
+.home-hero h1 { color: #ffffff; font-size: clamp(1.8rem, 2.3vw, 2.3rem); font-weight: 500; line-height: 1.32; margin: 0 0 34px; max-width: 650px; }
 .home-hero ul { display: grid; gap: 24px; list-style: none; margin: 0; max-width: 470px; padding: 0; }
 .home-hero li { align-items: flex-start; display: flex; font-size: 16px; gap: 15px; line-height: 1.5; }
-.home-hero li span { color: #25242d; font-size: 23px; font-weight: 700; line-height: 1; }
+.home-hero li span { color: #ffffff; font-size: 23px; font-weight: 700; line-height: 1; }
 .home-section { margin: 0 auto; max-width: var(--content-wide); padding: 65px 24px; }
 .home-section h2 { font-size: clamp(1.7rem, 3vw, 2.5rem); font-weight: 500; line-height: 1.25; margin: 0 0 25px; }
 .home-manufacturing { text-align: center; }
@@ -340,11 +340,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
   .home-hero[data-locale="cn"] .home-hero__inner { padding: 50px 32px 180px; }
   .home-hero[data-locale="cn"] h1 { font-size: 20px; line-height: 1.5; }
   html[lang="zh-CN"] .home-manufacturing > h2 { font-size: 26px; line-height: 1.5; padding: 100px 10px 12px; }
-  .home-hero { background: #f4f3f7 url('/media/home-mobile-ice-blue.webp') center / cover no-repeat; }
+  .home-hero { background: #102746 url('/media/home-mobile-deep-blue.webp') center / cover no-repeat; }
   .home-hero[data-locale="cn"] { background-position: center bottom; background-size: auto 117%; }
   .hero-slide:not(.hero-slide--product) > .home-hero__image { visibility: hidden; }
   .home-hero__inner { padding: 50px 32px 260px; }
-  .home-hero h1 { color: #25242d; font-size: 14px; line-height: 2.14; margin-bottom: 12px; }
+  .home-hero h1 { color: #ffffff; font-size: 14px; line-height: 2.14; margin-bottom: 12px; }
   .home-hero ul { gap: 12px; }
   .home-hero li { font-size: 14px; }
   .home-section { padding: 45px 22px; }

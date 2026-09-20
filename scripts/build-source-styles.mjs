@@ -71,9 +71,9 @@ for (const route of routes) {
       // state visible during the source capture.
       if(element.closest(".product-tabs__list,.product-category-nav"))delete metrics.color;
       const dynamicCard=element.matches("h2,h3")&&element.closest(".product-card,.home-featured-products a");
-      const lightPhoto=!!element.closest(".home-hero,.product-category-banner") || element.matches(".home-sustainability > .home-section > h2");
+      const lightPhoto=!!element.closest(".product-category-banner") || element.matches(".home-sustainability > .home-section > h2");
       const dark=!!element.closest('.product-detail,.editorial-section--dark,.editorial-section--feature,.home-manufacturing__media,.article-banner,.contact-hero,.product-index__banner');
-      const context=lightPhoto?'photo':dark?'dark':element.closest('h1,h2,h3,h4')?'heading':'content';
+      const context=element.closest('.home-hero')?'dark-hero':lightPhoto?'photo':dark?'dark':element.closest('h1,h2,h3,h4')?'heading':'content';
       rules.push(`${selector(element)}{${decl(metrics,dynamicCard?fontKeys.filter(k=>k!=="color"):fontKeys,context)}${dynamicCard?`;--source-rest-color:${themeColor('color',target.color,context)}`:""}}`);
       matched.push({selector:selector(element),text:value,sourceText:target.text,expected:Object.fromEntries(fontKeys.map(k=>[k,metrics[k]]))});
     }
