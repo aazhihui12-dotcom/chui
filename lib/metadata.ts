@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { SitePage, Locale } from "@/content/schema";
 import { localizedLegacyPath } from "@/lib/locale-path";
 import { apowerSeo } from '@/content/apower';
+import { sitePath } from '@/lib/site-path';
 
 // Set the deployment origin before building; static exports bake these URLs into HTML.
 export function siteOrigin(): string {
@@ -12,7 +13,7 @@ export function siteOrigin(): string {
 
 export function pageUrl(locale: Locale, legacyPath: string): string {
   legacyPath = localizedLegacyPath(legacyPath, locale);
-  return `${siteOrigin()}/${locale}${legacyPath === "/" ? "" : legacyPath.replace(/\/$/, "")}/`;
+  return `${siteOrigin()}${sitePath(`/${locale}${legacyPath === "/" ? "" : legacyPath.replace(/\/$/, "")}/`)}`;
 }
 
 export function languageAlternates(legacyPath: string): Record<string, string> {

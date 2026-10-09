@@ -10,7 +10,8 @@ const normal = t=>(t||"").normalize("NFKC").replace(/[\s\p{P}\p{S}]/gu,"").toLow
 const cssKey = key=>key.replace(/[A-Z]/g,s=>`-${s.toLowerCase()}`);
 const decl = (record,keys,context='light')=>keys.filter(k=>record?.[k]!==undefined).map(k=>`${cssKey(k)}:${themeColor(cssKey(k),record[k],context)} !important`).join(";");
 const report=[];
-await mkdir("public/source-styles",{recursive:true});await mkdir("out/source-styles",{recursive:true});
+const output = process.env.NEXT_EXPORT_DIR || "out";
+await mkdir("public/source-styles",{recursive:true});await mkdir(`${output}/source-styles`,{recursive:true});
 const captureCache = new Map();
 const readCapture=async(route,width)=>{
   const key=`${route}-${width}`;
@@ -25,7 +26,7 @@ const aliases = {
   "Get a Quote Now":["Inquiry"],"立即询盘":["立即询价"],"索取完整产品目录":["获取产品目录"],
 };
 for (const route of routes) {
-  const dom=new JSDOM(await readFile(`out${route}/index.html`,"utf8"));
+  const dom=new JSDOM(await readFile(`${output}${route}/index.html`,"utf8"));
   const doc=dom.window.document, main=doc.querySelector("#main-content");
   // Replacement homepage copy no longer matches the source strings reliably.
   // Explicit responsive role styles own its metrics, including button states.
@@ -34,7 +35,7 @@ for (const route of routes) {
     const name=route.slice(1).replaceAll("/","_")+".css";
     const css='/* Homepage metrics are owned by home-desktop.css and home-responsive.css. */\n';
     await writeFile(`public/source-styles/${name}`,css);
-    await writeFile(`out/source-styles/${name}`,css);
+    await writeFile(`${output}/source-styles/${name}`,css);
     continue;
   }
   const prefix=`:root:has([data-source-page="${route}"]) #main-content`;
@@ -128,7 +129,7 @@ for (const route of routes) {
   }
   const css=`/* Generated from captured source typography; run build-source-styles.mjs after export. */\n${sheets.join("\n")}\n`;
   const name=route.slice(1).replaceAll("/","_")+".css";
-  await writeFile(`public/source-styles/${name}`,css);await writeFile(`out/source-styles/${name}`,css);dom.window.close();
+  await writeFile(`public/source-styles/${name}`,css);await writeFile(`${output}/source-styles/${name}`,css);dom.window.close();
 }
 await writeFile("docs/source-styles/mapping.json",JSON.stringify(report,null,2)+"\n");
 console.log(`Source styles: ${routes.length} pages; ${report.reduce((n,r)=>n+(r.matched?.length||0),0)} text matches; ${report.reduce((n,r)=>n+(r.buttons?.length||0),0)} button matches; ${report.filter(r=>r.error).length} pending captures.`);

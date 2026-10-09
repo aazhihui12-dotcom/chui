@@ -6,10 +6,11 @@ const argument = (name, fallback) => {
   const index = process.argv.indexOf(name);
   return index === -1 ? fallback : process.argv[index + 1];
 };
-const output = path.resolve(argument("--output", "out"));
+const output = path.resolve(argument("--output", process.env.NEXT_EXPORT_DIR || "out"));
 const manifest = JSON.parse(await readFile(argument("--manifest", "source-cache/manifest.json"), "utf8"));
 const sourcePaths = [...new Set(manifest.sitemapUrls.map(url => new URL(url).pathname.replace(/\/$/, "") || "/"))];
-const targetPath = sourcePath => `/en${sourcePath === "/" ? "" : sourcePath}/`;
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
+const targetPath = sourcePath => `${basePath}/en${sourcePath === "/" ? "" : sourcePath}/`;
 const htmlFile = pathname => path.join(output, pathname, "index.html");
 const existsAsFile = async filename => {
   try { return (await stat(filename)).isFile(); } catch { return false; }
@@ -67,7 +68,7 @@ const baseOrigin = new URL(process.env.NEXT_PUBLIC_SITE_URL || "http://localhost
 const resolutionCache = new Map();
 for await (const filename of htmlFiles(output)) {
   const relativeFile = path.relative(output, filename).split(path.sep).join("/");
-  const pagePath = `/${relativeFile.replace(/index\.html$/, "")}`;
+  const pagePath = `${basePath}/${relativeFile.replace(/index\.html$/, "")}`;
   const dom = new JSDOM(await readFile(filename, "utf8"));
   for (const link of dom.window.document.querySelectorAll("a[href]")) {
     const href = link.getAttribute("href");
@@ -82,6 +83,7 @@ for await (const filename of htmlFiles(output)) {
       errors.push(`Invalid path in ${pagePath}: ${href}`);
       continue;
     }
+    if (basePath && (pathname === basePath || pathname.startsWith(`${basePath}/`))) pathname = pathname.slice(basePath.length) || "/";
     if (!resolutionCache.has(pathname)) {
       const direct = path.resolve(output, `.${pathname}`);
       const insideOutput = direct === output || direct.startsWith(`${output}${path.sep}`);

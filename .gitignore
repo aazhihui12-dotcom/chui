@@ -2,6 +2,7 @@
 node_modules/
 .next/
 out/
+out-pages/
 playwright-report/
 test-results/
 .sites-runtime/

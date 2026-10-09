@@ -1,5 +1,7 @@
 "use client";
 
+import { sitePath } from "@/lib/site-path";
+
 import { useEffect, useId, useState } from "react";
 import type { Locale } from "@/lib/i18n";
 
@@ -23,7 +25,7 @@ export function ArticleSharing({ locale, title }: { locale: Locale; title: strin
     <span className="article-sharing__label">{cn ? "分享到：" : "Share To:"}</span>
     <button className="article-sharing__toggle" type="button" aria-label={cn ? "分享文章" : "Share article"} aria-expanded={expanded} aria-controls={menuId} onClick={() => setExpanded(!expanded)}>↗ {cn ? "分享" : "share"}</button>
     <div id={menuId} className={`article-sharing__services${expanded ? " is-expanded" : ""}`}>
-    {services.map(([name, mark, href]) => <a key={name} href={href} target="_blank" rel="noopener noreferrer" aria-label={cn ? `分享到${name}` : `Share on ${name}`}>{mark}</a>)}
+    {services.map(([name, mark, href]) => <a key={name} href={sitePath(href)} target="_blank" rel="noopener noreferrer" aria-label={cn ? `分享到${name}` : `Share on ${name}`}>{mark}</a>)}
     <button aria-label={cn ? "复制文章链接" : "Copy article link"} type="button" onClick={async () => {
       try { await navigator.clipboard.writeText(window.location.href); setStatus(cn ? "链接已复制" : "Link copied"); }
       catch { setStatus(cn ? "无法复制，请复制浏览器地址。" : "Could not copy. Please copy the browser address."); }

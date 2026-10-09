@@ -1,5 +1,7 @@
 "use client";
 
+import { sitePath } from "@/lib/site-path";
+
 import { useRef, useState } from "react";
 import type { NavigationItem } from "@/content/schema";
 
@@ -27,7 +29,7 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
                 setOpenLabel(null);
               }}
             >
-              <a href={item.href}>{item.label}</a>
+              <a href={sitePath(item.href)}>{item.label}</a>
               {hasChildren ? (
                 <button
                   aria-controls={`desktop-menu-${index}`}
@@ -61,7 +63,7 @@ export function DesktopNav({ items }: { items: NavigationItem[] }) {
               {hasChildren && expanded ? (
                 <ul className="desktop-nav__menu" id={`desktop-menu-${index}`}>
                   {item.children?.map((child) => (
-                    <li key={child.href}><a href={child.href}>{child.label}</a></li>
+                    <li key={child.href}><a href={sitePath(child.href)}>{child.label}</a></li>
                   ))}
                 </ul>
               ) : null}

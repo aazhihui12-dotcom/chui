@@ -1,5 +1,7 @@
 "use client";
 
+import { sitePath } from "@/lib/site-path";
+
 import { useState } from "react";
 import type { ImageAsset, Locale } from "@/content/schema";
 import { Media } from "@/components/site/Media";
@@ -16,7 +18,7 @@ export function HeroCarousel({ slides, locale }: { slides: HeroSlide[]; locale: 
       <div className="home-hero__inner">
         {index === 0 ? <h1 id="home-title">{slide.title}<br /><span>{slide.subtitle}</span></h1> : <><p className="eyebrow">APOWER TECH</p><h2>{slide.title}</h2><p className="hero-slide__subtitle">{slide.subtitle}</p></>}
         {slide.bullets && <ul>{slide.bullets.map((bullet) => <li key={bullet}><span aria-hidden="true">✓</span>{bullet}</li>)}</ul>}
-        {slide.href && <a className="lbh-button" href={slide.href}>{cn ? "探索产品" : "Explore product"}<span aria-hidden="true"> ↗</span></a>}
+        {slide.href && <a className="lbh-button" href={sitePath(slide.href)}>{cn ? "探索产品" : "Explore product"}<span aria-hidden="true"> ↗</span></a>}
       </div>
     </div>)}
     {slides.length === 1 ? <div className="hero-controls hero-counter">01 / 01</div> : <div className="hero-controls">

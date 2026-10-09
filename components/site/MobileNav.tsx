@@ -1,5 +1,7 @@
 "use client";
 
+import { sitePath } from "@/lib/site-path";
+
 import { useState } from "react";
 import type { NavigationItem } from "@/content/schema";
 
@@ -15,7 +17,7 @@ export function MobileNav({ items, onNavigate }: { items: NavigationItem[]; onNa
           return (
             <li key={item.href} className="mobile-nav__item">
               <div className="mobile-nav__row">
-                <a href={item.href} onClick={onNavigate}>{item.label}</a>
+                <a href={sitePath(item.href)} onClick={onNavigate}>{item.label}</a>
                 {hasChildren ? (
                   <button
                     aria-controls={`mobile-menu-${index}`}
@@ -31,7 +33,7 @@ export function MobileNav({ items, onNavigate }: { items: NavigationItem[]; onNa
               {hasChildren && isExpanded ? (
                 <ul id={`mobile-menu-${index}`} className="mobile-nav__submenu">
                   {item.children?.map((child) => (
-                    <li key={child.href}><a href={child.href} onClick={onNavigate}>{child.label}</a></li>
+                    <li key={child.href}><a href={sitePath(child.href)} onClick={onNavigate}>{child.label}</a></li>
                   ))}
                 </ul>
               ) : null}

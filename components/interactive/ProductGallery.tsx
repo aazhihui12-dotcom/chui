@@ -1,5 +1,7 @@
 "use client";
 
+import { sitePath } from "@/lib/site-path";
+
 import { useEffect, useId, useRef, useState } from "react";
 import type { ImageAsset, Locale } from "@/content/schema";
 import { useCarouselMotion } from "./useCarouselMotion";
@@ -33,16 +35,16 @@ export function ProductGallery({ images, model, locale }: { images: ImageAsset[]
   if (!image) return null;
   return <div {...motion.bindings} className="product-gallery">
     <button ref={trigger} className="product-gallery__main" aria-label={cn ? `放大${model}图片` : `Enlarge ${model} image`} onClick={() => setOpen(true)}>
-      <img src={image.src} alt={image.alt} width="700" height="700" fetchPriority="high" />
+      <img src={sitePath(image.src)} alt={image.alt} width="700" height="700" fetchPriority="high" />
       <span className="product-gallery__zoom" aria-hidden="true">＋</span>
     </button>
     <a className="product-gallery__graphic" href="#product-details">{cn ? "图文详情" : "Graphic Detail"}</a>
     <div className="product-gallery__thumbnails" aria-label={cn ? "产品图片" : "Product images"}>
-      {images.map((item, index) => <button key={`${item.src}-${index}`} aria-label={cn ? `查看${model}第${index + 1}张图片` : `View image ${index + 1} of ${model}`} aria-pressed={selected === index} onClick={() => setSelected(index)}><img src={item.src} alt="" width="90" height="90" loading="lazy" /></button>)}
+      {images.map((item, index) => <button key={`${item.src}-${index}`} aria-label={cn ? `查看${model}第${index + 1}张图片` : `View image ${index + 1} of ${model}`} aria-pressed={selected === index} onClick={() => setSelected(index)}><img src={sitePath(item.src)} alt="" width="90" height="90" loading="lazy" /></button>)}
     </div>
     {open && <dialog ref={dialog} className="product-lightbox" aria-modal="true" aria-labelledby={titleId} onCancel={() => setOpen(false)} onClick={(event) => { if (event.target === event.currentTarget) setOpen(false); }}>
       <div className="product-lightbox__header"><h2 id={titleId}>{cn ? `${model}图片库` : `${model} gallery`}</h2><button ref={closeButton} aria-label={cn ? "关闭图片" : "Close image"} onClick={() => setOpen(false)}>×</button></div>
-      <img src={image.src} alt={image.alt} width="1000" height="1000" />
+      <img src={sitePath(image.src)} alt={image.alt} width="1000" height="1000" />
       <div className="product-lightbox__controls"><button aria-label={cn ? "上一张图片" : "Previous image"} onClick={() => setSelected((selected - 1 + images.length) % images.length)}>←</button><span aria-live="polite">{selected + 1} / {images.length}</span><button aria-label={cn ? "下一张图片" : "Next image"} onClick={() => setSelected((selected + 1) % images.length)}>→</button></div>
     </dialog>}
   </div>;

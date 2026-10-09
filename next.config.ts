@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || "",
+  // Keep an isolated deployment export so the existing local out/ preview stays live.
+  distDir: process.env.NEXT_EXPORT_DIR || ".next",
   output: "export",
   experimental: { globalNotFound: true },
   trailingSlash: true,

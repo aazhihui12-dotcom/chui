@@ -1,5 +1,7 @@
 "use client";
 
+import { sitePath } from "@/lib/site-path";
+
 import { usePathname } from "next/navigation";
 import { useSyncExternalStore } from "react";
 import { BrandLogo } from "./BrandLogo";
@@ -18,7 +20,7 @@ export default function NotFound() {
       <p className="not-found-page__code">404</p>
       <h1>{chinese ? "页面未找到" : "Page not found"}</h1>
       <p>{chinese ? "您访问的页面不存在或已被移动。" : "The page you are looking for does not exist or has moved."}</p>
-      <a className="button-primary" href={chinese ? "/cn" : "/en"}>{chinese ? "返回首页" : "Back to home"}</a>
+      <a className="button-primary" href={sitePath(chinese ? "/cn" : "/en")}>{chinese ? "返回首页" : "Back to home"}</a>
     </main>
   );
 }

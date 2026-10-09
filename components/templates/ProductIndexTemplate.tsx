@@ -1,3 +1,4 @@
+import { sitePath } from "@/lib/site-path";
 import { pages } from '@/content/pages';
 import { apowerCategories as categories, apowerProducts as products, text, splitCopy, overviewVideo, apowerFaq } from '@/content/apower';
 import type { SitePage } from '@/content/schema';
@@ -11,14 +12,14 @@ const source=pages.find(p=>p.locale==='cn' && p.kind==='product-index')!;
 const photo=(index:number)=>{const b=source.blocks[index];return b?.type==='media'?b.image:undefined;};
 export function ProductIndexTemplate({page}:{page:SitePage}) {
  const locale=page.locale, cn=locale==='cn', t=(id:number)=>text(id,locale), copy=homeCopy[locale];
- const img=(index:number)=>{const image=photo(index);return image&&<img src={image.src} alt="" width="600" height="440" loading="lazy"/>;};
+ const img=(index:number)=>{const image=photo(index);return image&&<img src={sitePath(image.src)} alt="" width="600" height="440" loading="lazy"/>;};
  const pair=(id:number)=>splitCopy(id,locale);
  return <main id="main-content" className="product-page product-index">
   <header className="product-index__banner"><h1>{t(37)}</h1></header>
   <section className="product-index__catalog"><ProductCatalog products={products} categories={categories} locale={locale} filterable presentation="carousel"/></section>
   <section className="product-index__proof" aria-label={cn?'制造优势':'Manufacturing advantages'}>{[69,80,14,81].map((id,i)=><article key={id}>{img(2+i*2)}<p>{t(id)}</p></article>)}</section>
   <div className="button-row"><InquiryTrigger locale={locale} title={copy.quote}>{copy.quote}</InquiryTrigger><InquiryTrigger locale={locale} title={copy.catalogue} className="lbh-button lbh-button--outline">{copy.catalogue}</InquiryTrigger></div>
-  <section className="product-index__categories" aria-label={cn?'产品系列':'Product ranges'}>{categories.map(c=><a key={c.id} href={`/${locale}${c.legacyPath}`}><img src={c.image!.src} alt="" width="600" height="440" loading="lazy"/><h2>{c.title[locale]} ↗</h2></a>)}</section>
+  <section className="product-index__categories" aria-label={cn?'产品系列':'Product ranges'}>{categories.map(c=><a key={c.id} href={sitePath(`/${locale}${c.legacyPath}`)}><img src={sitePath(c.image!.src)} alt="" width="600" height="440" loading="lazy"/><h2>{c.title[locale]} ↗</h2></a>)}</section>
   <section className="product-index__section product-index__customization"><h2>{t(38)}</h2><div className="product-index__options">{[39,40,41,42,43,44].map((id,i)=><article key={id}>{img(33+i*3)}<h3>{pair(id).heading}</h3><p>{pair(id).body}</p></article>)}</div></section>
   <section className="product-index__section"><h2>{t(45)}</h2><p className="product-index__intro">{t(46)}</p><SourceVideo video={overviewVideo} locale={locale}/></section>
   <section className="product-index__section"><h2>{t(47)}</h2><div className="product-index__services">{[48,52,56].map((id,i)=><article key={id}>{img(55+i*8)}<div><h3>{t(id)}</h3>{[1,2,3].map(j=><section key={j}><h4>{pair(id+j).heading}</h4><p>{pair(id+j).body}</p></section>)}</div></article>)}</div></section>
@@ -28,7 +29,7 @@ export function ProductIndexTemplate({page}:{page:SitePage}) {
   <section className="product-index__section product-index__certifications"><h2>{t(27)}</h2><p className="product-index__intro">{t(81)}</p><SectionRenderer blocks={source.blocks.filter(b=>b.type==='gallery').slice(0,1)}/></section>
   <section className="product-index__section" aria-label={cn?'品质实力':'Quality in numbers'}><SectionRenderer blocks={[{type:'stats',items:[82,83,84,85].map(id=>{const p=pair(id);const match=p.heading.match(/^(\d+[%+]?)\s*(.*)$/)!;return {value:match[1],label:match[2]};})}]}/>{[82,83,84,85].map(id=><p key={id}>{pair(id).body}</p>)}</section>
   <section className="product-index__section"><h2>{t(23)}</h2><SectionRenderer blocks={[source.blocks[128]]}/><div className="testimonials">{copy.testimonials.map((quote,i)=><figure key={i}>{img(129+i*3)}<blockquote>{quote}</blockquote><figcaption>{['Jeff Deng','Warren Steve','María Emilia'][i]}</figcaption></figure>)}</div></section>
-  <section className="product-index__section product-index__faq"><h2>{cn?'常见问题':'FAQ'}</h2>{apowerFaq(locale).slice(0,4).map(f=><details key={f.id}><summary>{f.question}</summary><p>{f.answer}</p></details>)}<a className="text-link" href={`/${locale}/FAQ`}>{cn?'查看全部常见问题':'View all frequently asked questions'} →</a></section>
+  <section className="product-index__section product-index__faq"><h2>{cn?'常见问题':'FAQ'}</h2>{apowerFaq(locale).slice(0,4).map(f=><details key={f.id}><summary>{f.question}</summary><p>{f.answer}</p></details>)}<a className="text-link" href={sitePath(`/${locale}/FAQ`)}>{cn?'查看全部常见问题':'View all frequently asked questions'} →</a></section>
   <section className="product-index__cta"><h2>{t(35)}</h2><InquiryTrigger locale={locale} title={copy.contact}>{copy.contact} ↗</InquiryTrigger></section>
  </main>;
 }

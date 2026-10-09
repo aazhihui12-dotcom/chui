@@ -1,3 +1,4 @@
+import { sitePath } from "@/lib/site-path";
 import type { Locale, Product } from "@/content/schema";
 import { categories as legacyCategories } from "@/content/products";
 import { apowerCategories } from '@/content/apower';
@@ -14,7 +15,7 @@ export function ProductDetailTemplate({ product, locale }: { product: Product; l
   const labels = siteConfig[locale].labels;
   const cn = locale === "cn";
   return <main id="main-content" className="product-page product-detail">
-    <nav className="product-breadcrumb" aria-label={cn ? "面包屑导航" : "Breadcrumb"}><a href={`/${locale}/ProductIndex`}>{labels.products}</a><span aria-hidden="true">/</span><a href={`/${locale}${category.legacyPath}`}>{category.title[locale]}</a><span aria-hidden="true">/</span><span aria-current="page">{product.model}</span></nav>
+    <nav className="product-breadcrumb" aria-label={cn ? "面包屑导航" : "Breadcrumb"}><a href={sitePath(`/${locale}/ProductIndex`)}>{labels.products}</a><span aria-hidden="true">/</span><a href={sitePath(`/${locale}${category.legacyPath}`)}>{category.title[locale]}</a><span aria-hidden="true">/</span><span aria-current="page">{product.model}</span></nav>
     <div className="product-detail__top">
       <ProductGallery images={page.images} model={product.model} locale={locale} />
       <section className="product-summary"><p className="eyebrow">{category.title[locale]}</p><h1>{product.model}</h1>
@@ -29,6 +30,6 @@ export function ProductDetailTemplate({ product, locale }: { product: Product; l
         page.accessories.length ? <SectionRenderer key="accessories" blocks={page.accessories} /> : <p key="accessories">{cn ? "联系我们，了解可选配件与定制方案。" : "Contact us for available accessories and customization options."}</p>,
       ]}
     </ProductTabs></div>
-    <a className="product-back" href={`/${locale}${category.legacyPath}`}>← {cn ? "返回" : "Back to"} {category.title[locale]}</a>
+    <a className="product-back" href={sitePath(`/${locale}${category.legacyPath}`)}>← {cn ? "返回" : "Back to"} {category.title[locale]}</a>
   </main>;
 }

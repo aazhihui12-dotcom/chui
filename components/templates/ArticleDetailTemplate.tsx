@@ -1,3 +1,4 @@
+import { sitePath } from "@/lib/site-path";
 import type { ArticlePage } from "@/content/schema";
 import { SectionRenderer } from "@/components/site/SectionRenderer";
 import { ArticleSharing } from "@/components/interactive/ArticleSharing";
@@ -21,10 +22,10 @@ export function ArticleDetailTemplate({ page }: { page: ArticlePage }) {
       <SectionRenderer blocks={page.blocks} />
       <ArticleSharing locale={page.locale} title={page.title} />
       <nav className="article-neighbors" aria-label={cn ? "相邻文章" : "Adjacent articles"}>
-        {previous ? <a href={`/${page.locale}${previous.legacyPath}`}>{cn ? "上一篇" : "Prev"} : {previous.title}</a> : <span />}
-        {next ? <a href={`/${page.locale}${next.legacyPath}`}>{cn ? "下一篇" : "Next"} : {next.title}</a> : <span />}
+        {previous ? <a href={sitePath(`/${page.locale}${previous.legacyPath}`)}>{cn ? "上一篇" : "Prev"} : {previous.title}</a> : <span />}
+        {next ? <a href={sitePath(`/${page.locale}${next.legacyPath}`)}>{cn ? "下一篇" : "Next"} : {next.title}</a> : <span />}
       </nav>
-      <a className="article-back" href={`/${page.locale}/${faq ? "FAQ" : "Blog"}`}>{faq ? (cn ? "返回常见问题" : "Back to FAQ") : (cn ? "返回博客" : "Back to Blog")}</a>
+      <a className="article-back" href={sitePath(`/${page.locale}/${faq ? "FAQ" : "Blog"}`)}>{faq ? (cn ? "返回常见问题" : "Back to FAQ") : (cn ? "返回博客" : "Back to Blog")}</a>
     </article>
   </main>;
 }

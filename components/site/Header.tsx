@@ -1,3 +1,4 @@
+import { sitePath } from "@/lib/site-path";
 import type { ReactNode } from "react";
 import type { Locale } from "@/lib/i18n";
 import { siteConfig } from "@/content/site";
@@ -14,7 +15,7 @@ export function Header({ locale }: { locale: Locale }) {
 
   return (
     <header className="site-header">
-      <a className="site-brand" href={`/${locale}`} aria-label="APOWER home">
+      <a className="site-brand" href={sitePath(`/${locale}`)} aria-label="APOWER home">
         <BrandLogo />
       </a>
       <DesktopNav items={config.navigation} />

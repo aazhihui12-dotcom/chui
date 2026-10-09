@@ -1,5 +1,8 @@
 "use client";
 
+import { sitePath } from "@/lib/site-path";
+
+
 import { useEffect, useState } from "react";
 import type { ArticlePage, SitePage } from "@/content/schema";
 import { Media } from "@/components/site/Media";
@@ -32,15 +35,15 @@ export function ArticleListTemplate({ page, articles }: { page: SitePage; articl
     <header className="support-banner"><h1>{page.title}</h1></header>
     <div className="support-container">
       <nav className="support-links" aria-label={cn ? "文章分类" : "Article categories"}>
-        <a href={`/${page.locale}/Blog`} aria-current={page.legacyPath !== "/NewsList/2.html" ? "page" : undefined}>{cn ? "博客与新闻" : "Blog & News"}</a>
-        <a href={`/${page.locale}/NewsList/2.html`} aria-current={page.legacyPath === "/NewsList/2.html" ? "page" : undefined}>{cn ? "常见问题" : "FAQ"}</a>
+        <a href={sitePath(`/${page.locale}/Blog`)} aria-current={page.legacyPath !== "/NewsList/2.html" ? "page" : undefined}>{cn ? "博客与新闻" : "Blog & News"}</a>
+        <a href={sitePath(`/${page.locale}/NewsList/2.html`)} aria-current={page.legacyPath === "/NewsList/2.html" ? "page" : undefined}>{cn ? "常见问题" : "FAQ"}</a>
       </nav>
       <div className="article-grid">{articles.slice((current - 1) * size, current * size).map((article) => {
         const thumbnail = article.images[0] ?? (article.provenance.coverage === "source-placeholder" ? placeholderThumbnail : undefined);
         return <article className="article-card" key={article.id}>
         {thumbnail && <Media image={{ ...thumbnail, alt: cn ? "原站文章缩略图" : "Source article thumbnail" }} />}
         <time dateTime={article.publishedAt.replace(" ", "T")}>{article.publishedAt.slice(0, 10)}</time>
-        <h2><a href={`/${page.locale}${article.legacyPath}`}>{article.title}{article.provenance.coverage === "source-placeholder" && <span className="sr-only"> — {article.id}</span>}</a></h2>
+        <h2><a href={sitePath(`/${page.locale}${article.legacyPath}`)}>{article.title}{article.provenance.coverage === "source-placeholder" && <span className="sr-only"> — {article.id}</span>}</a></h2>
         <p>{article.description}</p>
         {article.provenance.coverage === "source-placeholder" && <small>{cn ? "原站占位内容" : "Source placeholder"}</small>}
       </article>;

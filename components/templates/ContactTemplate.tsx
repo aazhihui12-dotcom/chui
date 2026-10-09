@@ -1,3 +1,4 @@
+import { sitePath } from "@/lib/site-path";
 import type { SitePage } from "@/content/schema";
 import { siteConfig } from "@/content/site";
 import { InquiryForm } from "@/components/interactive/InquiryForm";
@@ -15,9 +16,9 @@ export function ContactTemplate({ page }: { page: SitePage }) {
         <dl className="contact-checklist">
           <div><dt>{cn ? "公司名称" : "Company Name"}</dt><dd className="contact-company">{contact.company}</dd></div>
           <div><dt>{cn ? "公司地址" : "Company Address"}</dt><dd><address>{contact.address}</address></dd></div>
-          <div><dt>{cn ? "电子邮箱" : "Email"}</dt><dd><a href={`mailto:${contact.email}`}>{contact.email}</a></dd></div>
-          <div><dt>{cn ? "联系电话" : "Phone"}</dt><dd><a href={`tel:${contact.phone.replace(/\s/g, "")}`}>{contact.phone}</a></dd></div>
-          <div><dt>WhatsApp</dt><dd><a aria-label="WhatsApp" href={`https://wa.me/${contact.whatsapp.replace("+", "")}`}>{contact.phone}</a></dd></div>
+          <div><dt>{cn ? "电子邮箱" : "Email"}</dt><dd><a href={sitePath(`mailto:${contact.email}`)}>{contact.email}</a></dd></div>
+          <div><dt>{cn ? "联系电话" : "Phone"}</dt><dd><a href={sitePath(`tel:${contact.phone.replace(/\s/g, "")}`)}>{contact.phone}</a></dd></div>
+          <div><dt>WhatsApp</dt><dd><a aria-label="WhatsApp" href={sitePath(`https://wa.me/${contact.whatsapp.replace("+", "")}`)}>{contact.phone}</a></dd></div>
           <div><dt>{cn ? "工厂地址" : "Factory Address"}</dt><dd>{text(233,page.locale).replace(/^(1 号厂地址：|Factory 1: )/,'')}</dd></div>
         </dl>
       </section>
