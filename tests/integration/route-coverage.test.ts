@@ -10,6 +10,9 @@ import { generateStaticParams as homeParams } from "@/app/[locale]/page";
 
 const temporaryDirectories: string[] = [];
 const uniqueSourcePaths = [...new Set(manifest.sitemapUrls.map(url => new URL(url).pathname.replace(/\/$/, "") || "/"))];
+// Each fixture writes 194 pages and runs two full export audits. Allow slower
+// hosted CI disks without weakening the route/error assertions below.
+const exportAuditTimeout = 60_000;
 const command = (output: string, ...args: string[]) => spawnSync(process.execPath, ["scripts/check-routes.mjs", "--output", output, "--manifest", "source-cache/manifest.json", ...args], { encoding: "utf8" });
 
 afterEach(async () => {
@@ -56,7 +59,7 @@ it("writes usable static legacy redirects for all 97 paths and passes route vali
   const checked = command(output);
   expect(checked.status, checked.stderr).toBe(0);
   expect(checked.stdout).toContain("194 localized pages, 97 legacy redirects");
-}, 15000);
+}, exportAuditTimeout);
 
 it("fails for a missing localized export, a corrupt redirect, and a broken internal link", async () => {
   const output = await exportedFixture();
@@ -69,7 +72,7 @@ it("fails for a missing localized export, a corrupt redirect, and a broken inter
   expect(checked.stderr).toContain("/cn/FAQ");
   expect(checked.stderr).toContain("/Contact");
   expect(checked.stderr).toContain("/en/missing-page/");
-}, 15000);
+}, exportAuditTimeout);
 
 it("rejects English document language on a Chinese static export", async () => {
   const output = await exportedFixture();
@@ -78,4 +81,4 @@ it("rejects English document language on a Chinese static export", async () => {
   const checked = command(output);
   expect(checked.status).toBe(1);
   expect(checked.stderr).toContain("Incorrect document language: /cn/FAQ");
-}, 15000);
+}, exportAuditTimeout);
