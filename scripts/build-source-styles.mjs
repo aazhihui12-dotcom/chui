@@ -27,6 +27,16 @@ const aliases = {
 for (const route of routes) {
   const dom=new JSDOM(await readFile(`out${route}/index.html`,"utf8"));
   const doc=dom.window.document, main=doc.querySelector("#main-content");
+  // Replacement homepage copy no longer matches the source strings reliably.
+  // Explicit responsive role styles own its metrics, including button states.
+  // Keep text-matched typography for all other routes only.
+  if(main.classList.contains('home-page')) {
+    const name=route.slice(1).replaceAll("/","_")+".css";
+    const css='/* Homepage metrics are owned by home-desktop.css and home-responsive.css. */\n';
+    await writeFile(`public/source-styles/${name}`,css);
+    await writeFile(`out/source-styles/${name}`,css);
+    continue;
+  }
   const prefix=`:root:has([data-source-page="${route}"]) #main-content`;
   const selector=e=>{
     const parts=[];while(e&&e!==main){const tag=e.tagName.toLowerCase(), siblings=[...e.parentElement.children].filter(n=>n.tagName===e.tagName);parts.unshift(`${tag}:nth-of-type(${siblings.indexOf(e)+1})`);e=e.parentElement;}
@@ -73,7 +83,9 @@ for (const route of routes) {
       // Feature backgrounds change at the mobile breakpoint; CSS owns their foreground.
       if(element.closest('.editorial-section--feature'))delete metrics.color;
       const dynamicCard=element.matches("h2,h3")&&element.closest(".product-card,.home-featured-products a");
-      const onImage=!!element.closest('.home-hero,.home-manufacturing__media,.product-category-banner,.home-final-cta,.editorial-banner') || element.matches('.home-sustainability > .home-section > h2');
+      // The workbook's replacement banners have light artwork; their foreground is owned by apower.css.
+      if(element.closest('.home-hero')) delete metrics.color;
+      const onImage=!!element.closest('.home-manufacturing__media,.product-category-banner,.home-final-cta,.editorial-banner') || element.matches('.home-sustainability > .home-section > h2');
       const dark=!!element.closest('.editorial-section--dark,.editorial-section--feature,.article-banner,.contact-hero,.product-index__banner,.source-video');
       const context=onImage?'on-image':dark?'dark':element.closest('h1,h2,h3,h4')?'heading':'content';
       rules.push(`${selector(element)}{${decl(metrics,dynamicCard?fontKeys.filter(k=>k!=="color"):fontKeys,context)}${dynamicCard?`;--source-rest-color:${themeColor('color',target.color,context)}`:""}}`);
@@ -104,11 +116,14 @@ for (const route of routes) {
       rules.push(`${selector(element)}:hover{${decl(hover,["backgroundColor","boxShadow"])};color:${themeColor('color',target.hover?.label?.color||target.label.color)} !important}`);
       // Paint hierarchy separately from source dimensions; inset stroke adds no size.
       const outline=element.classList.contains('lbh-button--outline');
-      rules.push(`${selector(element)}{background-color:${outline?'transparent':'#165dcc'} !important;color:${outline?'#165dcc':'#ffffff'} !important;box-shadow:${outline?'inset 0 0 0 1px #165dcc':'none'} !important}`);
-      rules.push(`${selector(element)}:is(:hover,:focus-visible){background-color:${outline?'#eef4ff':'#104aa6'} !important;color:${outline?'#104aa6':'#ffffff'} !important}`);
+      rules.push(`${selector(element)}{background-color:${outline?'transparent':'var(--brand-blue)'} !important;color:${outline?'var(--brand-blue)':'#ffffff'} !important;box-shadow:${outline?'inset 0 0 0 1px var(--brand-blue)':'none'} !important}`);
+      rules.push(`${selector(element)}:is(:hover,:focus-visible){background-color:${outline?'var(--surface-muted)':'var(--brand-blue-hover)'} !important;color:${outline?'var(--brand-blue-hover)':'var(--brand-accent)'} !important}`);
       buttons.push({selector:selector(element),text:label,sourceText:target.text,expected:{...Object.fromEntries(fontKeys.map(k=>[k,font[k]])),...Object.fromEntries(keyList.map(k=>[k,box[k]]))}});
     }
-    sheets.push(`@media (${width===1440?"min-width:768px":"max-width:767px"}){\n${rules.join("\n")}\n}`);
+    // Desktop home geometry/typography is explicitly mapped to the Chinese
+    // reference in home-desktop.css; text matching must not override it.
+    const media=width===1440?(main.classList.contains('home-page')?'min-width:768px) and (max-width:1023px':'min-width:768px'):'max-width:767px';
+    sheets.push(`@media (${media}){\n${rules.join("\n")}\n}`);
     report.push({route,width,matched,unmatched,buttons});
   }
   const css=`/* Generated from captured source typography; run build-source-styles.mjs after export. */\n${sheets.join("\n")}\n`;

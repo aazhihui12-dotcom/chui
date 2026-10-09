@@ -13,19 +13,19 @@ afterEach(cleanup);
 describe("product route coverage", () => {
   it("exports both locales for the overview, five categories and 24 models only", () => {
     const routes = productStaticParams();
-    expect(routes).toHaveLength(60);
+    expect(routes).toHaveLength(74);
     expect(routes).toContainEqual({ locale: "en", slug: ["ProductDetail", "11906944.html"] });
     expect(routes).toContainEqual({ locale: "cn", slug: ["Product", "682975.html"] });
     expect(routes).toContainEqual({ locale: "cn", slug: ["ProductIndex"] });
-    expect(new Set(routes.map(({ locale, slug }) => `${locale}/${slug.join("/")}`)).size).toBe(60);
-    expect(routes.filter(({ slug }) => slug[0] === "ProductDetail")).toHaveLength(48);
+    expect(new Set(routes.map(({ locale, slug }) => `${locale}/${slug.join("/")}`)).size).toBe(74);
+    expect(routes.filter(({ slug }) => slug[0] === "ProductDetail")).toHaveLength(60);
   });
 });
 
 describe("product pages", () => {
   it("renders canonical Chinese overview details without abridging customization and factory text", () => {
     render(<ProductIndexTemplate page={pages.find(page => page.kind === "product-index" && page.locale === "cn")!} />);
-    expect(screen.getByText("选择环保包装方案，体现您对可持续发展的承诺，并强化您的品牌形象。")).toBeVisible();
+    expect(screen.getByText("选择环保包装方案，体现您对可持续发展的承诺，并强化品牌形象。")).toBeVisible();
     expect(screen.getByText(/我们对品质的承诺不仅体现在设计上/)).toBeVisible();
   });
   it("shows only captured product gallery photos, without loading graphics or feature posters", () => {
@@ -80,12 +80,12 @@ describe("product pages", () => {
   it("filters the full overview by category and restores all models", () => {
     render(<ProductIndexTemplate page={pages.find((page) => page.locale === "en" && page.kind === "product-index")!} />);
     const grid = () => within(screen.getByRole("region", { name: "Product catalog" }));
-    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(24);
-    fireEvent.click(screen.getByRole("button", { name: "Hair Straightener" }));
-    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(5);
+    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(6);
+    fireEvent.click(screen.getByRole("button", { name: "Hair Straighteners" }));
+    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(1);
     expect(grid().queryByRole("link", { name: "LBH-3228" })).not.toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Show All" }));
-    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(24);
+    expect(grid().getAllByRole("link", { hidden: true })).toHaveLength(6);
   });
 
   it("presents three overview slides and browses every product in source order", () => {
@@ -94,40 +94,40 @@ describe("product pages", () => {
     expect(catalog).toHaveAttribute("aria-roledescription", "carousel");
     const carousel = within(catalog);
     const names = () => carousel.getAllByRole("link").map((link) => link.getAttribute("aria-label"));
-    expect(names()).toEqual(["LBH-3228", "LBH-3210", "LBH-320"]);
+    expect(names()).toEqual(["AP-G1", "AP-G3", "AP-G11"]);
     expect(carousel.getAllByRole("group")).toHaveLength(3);
     const previous = carousel.getByRole("button", { name: "Previous products" });
     const next = carousel.getByRole("button", { name: "Next products" });
     expect(previous).toBeDisabled();
     const seen = new Set(names());
-    for (let index = 0; index < 21; index++) {
+    for (let index = 0; index < 3; index++) {
       fireEvent.click(next);
       names().forEach((name) => seen.add(name));
     }
-    expect(seen.size).toBe(24);
-    expect(names()).toEqual(["LBH-001A", "LBH-BD22", "LBH-3808"]);
+    expect(seen.size).toBe(6);
+    expect(names()).toEqual(["AP-S1", "AP-H1", "AP-AR01"]);
     expect(next).toBeDisabled();
     fireEvent.click(previous);
-    expect(names()).toEqual(["LBH-3257", "LBH-001A", "LBH-BD22"]);
-    expect(carousel.getByRole("status")).toHaveTextContent("Products 21–23 of 24");
+    expect(names()).toEqual(["AP-G11", "AP-S1", "AP-H1"]);
+    expect(carousel.getByRole("status")).toHaveTextContent("Products 3–5 of 6");
   });
 
   it("resets the carousel when filtering and keeps a short category fully visible", () => {
     render(<ProductIndexTemplate page={pages.find((page) => page.locale === "en" && page.kind === "product-index")!} />);
     const carousel = () => within(screen.getByRole("region", { name: "Product catalog" }));
     fireEvent.click(carousel().getByRole("button", { name: "Next products" }));
-    fireEvent.click(screen.getByRole("button", { name: "High Speed Hair Multi-Styler" }));
-    expect(carousel().getAllByRole("link").map((link) => link.getAttribute("aria-label"))).toEqual(["LBH-BD22", "LBH-3808"]);
+    fireEvent.click(screen.getByRole("button", { name: "High-Speed Multi-Stylers" }));
+    expect(carousel().getAllByRole("link").map((link) => link.getAttribute("aria-label"))).toEqual(["AP-S1"]);
     expect(carousel().getByRole("button", { name: "Previous products" })).toBeDisabled();
     expect(carousel().getByRole("button", { name: "Next products" })).toBeDisabled();
     fireEvent.click(screen.getByRole("button", { name: "Show All" }));
-    expect(carousel().getByRole("link", { name: "LBH-3228" })).toBeVisible();
+    expect(carousel().getByRole("link", { name: "AP-G1" })).toBeVisible();
     expect(carousel().getByRole("button", { name: "Previous products" })).toBeDisabled();
   });
 
   it.each(["en", "cn"] as const)("keeps customization, manufacturing and certification sections in %s", (locale) => {
     render(<ProductIndexTemplate page={pages.find((page) => page.locale === locale && page.kind === "product-index")!} />);
-    for (const name of locale === "en" ? ["Customized, Unique Small Appliance Solutions", "Maximize Product Performance with Our Customized Solutions", "Globally Recognized Quality Certification", "Differentiated Services: Precisely Meeting Your Business Needs", "Ensure that every order is produced on time and meets quality standards.", "Our Valued Partners"] : ["定制化的独特小家电解决方案", "利用我们的定制化解决方案，最大限度地提高产品效能", "全球认可的质量认证", "差异化服务：精准满足您业务需求", "确保每份订单都能按时生产，并保证质量", "我们宝贵的合作伙伴"]) expect(screen.getByRole("heading", { name })).toBeVisible();
+    for (const name of locale === "en" ? ["Distinctive Small Appliance Solutions, Customized for You", "Maximize Product Performance with Our Customized Solutions", "APOWER TECH Product Certifications", "Differentiated Services: Precisely Tailored to Your Business", "Ensuring every order is produced on time and to the required quality.", "Valued Partners"] : ["定制化的独特小家电解决方案", "借助定制化解决方案，最大化产品效能", "APOWER 电器的产品认证", "差异化服务：精准满足您的业务需求", "确保每批订单按时生产，并保证质量。", "宝贵的合作伙伴"]) expect(screen.getByRole("heading", { name })).toBeVisible();
   });
 
   it.each([[0, 2], [1, 6], [2, 5], [3, 3], [4, 8]])("keeps category %i scoped to its source products", (index, count) => {
@@ -140,7 +140,7 @@ describe("product pages", () => {
 
   it("includes every current non-home route and dispatches product detail rendering", async () => {
     const params = generateStaticParams();
-    expect(params).toHaveLength(250);
+    expect(params).toHaveLength(264);
     expect(params).toContainEqual({ locale: "en", slug: ["Company_Introduction"] });
     expect(params.some(({ slug }) => !slug.length)).toBe(false);
     render(await ContentPage({ params: Promise.resolve({ locale: "en", slug: ["ProductDetail", "11906944.html"] }) }));

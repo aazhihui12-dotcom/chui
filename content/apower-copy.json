@@ -1,0 +1,1586 @@
+[
+  {
+    "id": 0,
+    "label": "用途",
+    "cn": "本文档为 APOWER TECH 官方网站文案的中英文对照版。中文为优化润色稿，英文为面向海外客户的商业语境译文，可直接用于官网中英文页面。",
+    "en": "This document provides the bilingual (Chinese–English) website copy for APOWER TECH. The Chinese column is the polished version; the English column is rendered for an overseas B2B audience and is ready for use on the official website."
+  },
+  {
+    "id": 1,
+    "label": "数据口径",
+    "cn": "本版已对原文数据口径进行统一修正（成立年份、经验年限、研发投入、产能、ISO9001 版本等），具体修订内容见文末「修订记录」。",
+    "en": "Figures in this version have been standardized (founding year, years of experience, R&D investment, production capacity, and the ISO9001 version). See \"Revision Notes\" at the end for details."
+  },
+  {
+    "id": 2,
+    "label": "主标题",
+    "cn": "APOWER 电器：为您节省时间与成本，成就您的品牌",
+    "en": "APOWER TECH: Saving You Time and Cost While Building Your Brand"
+  },
+  {
+    "id": 3,
+    "label": "副标题",
+    "cn": "您值得信赖的个护家电合作伙伴",
+    "en": "Your Trusted Partner in Personal Care Appliances"
+  },
+  {
+    "id": 4,
+    "label": "数据点 1",
+    "cn": "5 条自动化生产线",
+    "en": "5 Automated Production Lines"
+  },
+  {
+    "id": 5,
+    "label": "数据点 2",
+    "cn": "6 年个护家电研发制造经验",
+    "en": "6 Years of R&D and Manufacturing Experience in Personal Care Appliances"
+  },
+  {
+    "id": 6,
+    "label": "数据点 3",
+    "cn": "55 个成功的联合品牌案例",
+    "en": "55 Successful Co-Branding Cases"
+  },
+  {
+    "id": 7,
+    "label": "数据点 4",
+    "cn": "提供创新的个护家电设计研发方案",
+    "en": "Innovative Design and R&D Solutions for Personal Care Appliances"
+  },
+  {
+    "id": 8,
+    "label": "板块标题",
+    "cn": "为什么众多知名品牌信赖 APOWER 电器的个护家电解决方案？",
+    "en": "Why Leading Brands Trust APOWER TECH for Personal Care Appliance Solutions"
+  },
+  {
+    "id": 9,
+    "label": "图标文字 1",
+    "cn": "5 座自有自动化工厂",
+    "en": "5 In-House Automated Facilities"
+  },
+  {
+    "id": 10,
+    "label": "图标文字 2",
+    "cn": "10 种灵活付款方式",
+    "en": "10 Flexible Payment Terms"
+  },
+  {
+    "id": 11,
+    "label": "图标文字 3",
+    "cn": "20+ 全球知名品牌合作",
+    "en": "20+ Global Brand Partnerships"
+  },
+  {
+    "id": 12,
+    "label": "图标文字 4",
+    "cn": "750 个成功的客制样品",
+    "en": "750 Successful Custom Samples"
+  },
+  {
+    "id": 13,
+    "label": "行动号召",
+    "cn": "立即选择有竞争力的产品",
+    "en": "Choose Your Competitive Products Today"
+  },
+  {
+    "id": 14,
+    "label": "差异化说明",
+    "cn": "与大多数供应商不同，我们只专注于打造具备竞争壁垒、私模客制化、高门槛认证的优质产品。",
+    "en": "Unlike most suppliers, we focus exclusively on premium products with genuine competitive barriers, private-mold customization, and stringent certifications."
+  },
+  {
+    "id": 15,
+    "label": "受众分流标题",
+    "cn": "您属于哪一类合作伙伴？",
+    "en": "Which Partner Are You?"
+  },
+  {
+    "id": 16,
+    "label": "受众 1",
+    "cn": "您是经销商或批发商？",
+    "en": "Are you a distributor or wholesaler?"
+  },
+  {
+    "id": 17,
+    "label": "受众 2",
+    "cn": "您是品牌客制化客户？",
+    "en": "Are you a brand seeking custom/OEM solutions?"
+  },
+  {
+    "id": 18,
+    "label": "受众 3",
+    "cn": "您是工程师或设计师？",
+    "en": "Are you an engineer or designer?"
+  },
+  {
+    "id": 19,
+    "label": "受众 4",
+    "cn": "您是网络品牌企业主？",
+    "en": "Are you an online brand owner?"
+  },
+  {
+    "id": 20,
+    "label": "推荐合作",
+    "cn": "经纪人/推荐伙伴专用：如果您与家电行业的品牌采购人士有联系，我们诚邀您成为 APOWER 电器的宝贵合作伙伴。",
+    "en": "For Referral Partners: If you are connected with brand procurement professionals in the home appliance industry, we welcome you to become a valued APOWER TECH partner."
+  },
+  {
+    "id": 21,
+    "label": "欢迎语标题",
+    "cn": "欢迎加入 APOWER 电器大家庭",
+    "en": "Welcome to the APOWER TECH Family"
+  },
+  {
+    "id": 22,
+    "label": "欢迎语正文",
+    "cn": "在 APOWER 电器，我们深知您的业务需要的不仅是一款个护家电产品，更是助力品牌成功的创新解决方案。多年的行业积累，锤炼了我们在个护家电研发设计领域的专业能力，使我们能够提供满足乃至超越您期望的产品。我们深入挖掘每一款设计的潜力，确保解决方案提升您的品牌调性与消费者认知。选择 APOWER 电器，您选择的是一家致力于推动您业务发展与增长的优质制造商。",
+    "en": "At APOWER TECH, we understand that your business needs more than a personal care appliance — it needs innovative solutions that drive your brand’s success. Years of industry experience have sharpened our expertise in R&D and design, enabling us to deliver products that meet and exceed your expectations. We explore the full potential of every design, ensuring our solutions elevate your brand positioning and consumer perception. With APOWER TECH, you partner with a quality manufacturer committed to the growth and success of your business."
+  },
+  {
+    "id": 23,
+    "label": "板块标题（证言）",
+    "cn": "宝贵的合作伙伴",
+    "en": "Valued Partners"
+  },
+  {
+    "id": 24,
+    "label": "证言 1",
+    "cn": "APOWER 电器为我们定制的高速吹风机，在设计与技术上均处于领先地位。面对激烈的市场竞争，凭借独特的产品差异化与卓越的用户体验，我们在短时间内迅速赢得了可观的市场份额。APOWER 团队兑现了最初的承诺。如今，我们已成功开拓新的国内市场，与 APOWER 的深度合作仍在继续。感谢 APOWER 团队的辛勤付出。—— Jeff Deng",
+    "en": "The high-speed hair dryer APOWER TECH custom-built for us leads the market in both design and technology. Facing intense competition, the distinctive differentiation and outstanding user experience allowed us to capture substantial market share in a short time. The APOWER team delivered exactly what they promised. We have since opened up new domestic markets, and our deep partnership continues. We sincerely thank the APOWER team for their dedication. — Jeff Deng"
+  },
+  {
+    "id": 25,
+    "label": "证言 2",
+    "cn": "APOWER 电器是我们合作过效率最高的团队。从第一次会议到最终产品交付，仅用了两个多月，这在以前难以想象。更重要的是，新产品开发过程妥善规避了专利风险。消费者非常喜爱我们的产品风格，上市后也获得了良好的市场反馈。未来我们将继续携手开发更多创新产品。APOWER 团队让我们非常安心！—— Warren Steve",
+    "en": "APOWER TECH is the most efficient team we have ever worked with. From our first meeting to final delivery, it took just over two months — something we once considered impossible. More importantly, the development process carefully addressed patent risks. Consumers love the product style, and market feedback has been excellent. We will continue to develop more innovative products together. The APOWER team gives us complete confidence. — Warren Steve"
+  },
+  {
+    "id": 26,
+    "label": "证言 3",
+    "cn": "根据我们的经验，APOWER 电器始终提供卓越的个护小家电解决方案。其产品拥有独特的设计语言与技术支持，能够实现显著差异化，在市场中脱颖而出——这对我们的品牌运营至关重要。APOWER 赢得了我们的信任，并满足了我们在特定市场的业务需求。未来三年，我们计划与 APOWER 合作开发多款新产品，为拓展新市场做好准备！—— María Emilia",
+    "en": "In our experience, APOWER TECH consistently delivers outstanding personal care appliance solutions. Their products combine a distinctive design language with strong technical support, enabling meaningful differentiation that stands out in the market — essential to our brand operations. APOWER has earned our trust and met our business needs in specific markets. Over the next three years, we plan to co-develop several new products with them in preparation for new markets. — María Emilia"
+  },
+  {
+    "id": 27,
+    "label": "认证板块标题",
+    "cn": "APOWER 电器的产品认证",
+    "en": "APOWER TECH Product Certifications"
+  },
+  {
+    "id": 28,
+    "label": "可持续标题",
+    "cn": "为下一代的永续发展而努力",
+    "en": "Our Commitment to a Sustainable Future for the Next Generation"
+  },
+  {
+    "id": 29,
+    "label": "可持续 1",
+    "cn": "再生能源",
+    "en": "Renewable Energy"
+  },
+  {
+    "id": 30,
+    "label": "可持续 2",
+    "cn": "可持续材料",
+    "en": "Sustainable Materials"
+  },
+  {
+    "id": 31,
+    "label": "可持续 3",
+    "cn": "环保包装",
+    "en": "Eco-Friendly Packaging"
+  },
+  {
+    "id": 32,
+    "label": "可持续 4",
+    "cn": "节能产品",
+    "en": "Energy-Efficient Products"
+  },
+  {
+    "id": 33,
+    "label": "我们的使命标题",
+    "cn": "我们的使命",
+    "en": "Our Mission"
+  },
+  {
+    "id": 34,
+    "label": "使命正文",
+    "cn": "与国外多家专业研究机构的多年合作，让我们把握了个护家电产业未来的研发趋势与方向；同时，我们扎根客户市场，安排工程师团队深入了解当地消费者的实际使用情况与售后反馈。通过对这些数据的分析，我们不断优化产品设计。我们的使命，是理解客户所想、做好客户所需；坚定地与品牌合作伙伴同行，打造满足用户需求的高品质产品。",
+    "en": "Years of collaboration with leading international research institutions keep us aligned with the future R&D trends of the personal care appliance industry. At the same time, we stay rooted in our customers’ markets, deploying our engineering teams to study real-world usage and after-sales feedback from local consumers. Analyzing this data allows us to continuously refine our designs. Our mission is to understand what customers want and deliver what they need — standing firmly with our brand partners to build high-quality products that meet users’ needs."
+  },
+  {
+    "id": 35,
+    "label": "行动号召",
+    "cn": "立即联系 APOWER 电器，开启您的产品定制之旅！",
+    "en": "Contact APOWER TECH today and start your custom product journey!"
+  },
+  {
+    "id": 36,
+    "label": "尾板",
+    "cn": "让我们今天就取得联系，找到正确的解决方案！【与家电专家交流】",
+    "en": "Let’s connect today and find the right solution. [Speak with an Appliance Expert]"
+  },
+  {
+    "id": 37,
+    "label": "页面标题",
+    "cn": "是什么让我们的个护家电产品脱颖而出？",
+    "en": "What Makes Our Personal Care Appliances Stand Out?"
+  },
+  {
+    "id": 38,
+    "label": "副标题",
+    "cn": "定制化的独特小家电解决方案",
+    "en": "Distinctive Small Appliance Solutions, Customized for You"
+  },
+  {
+    "id": 39,
+    "label": "定制维度 1",
+    "cn": "颜色选择：根据目标市场用户的偏好定制颜色，打造完美配色方案。",
+    "en": "Color Options: Customize colors to match the preferences of your target market and create the perfect color scheme."
+  },
+  {
+    "id": 40,
+    "label": "定制维度 2",
+    "cn": "电源选择：适配电源，调整电压与功率等级，以满足不同国家/地区的要求与设置。",
+    "en": "Power Options: Adapt power supply, voltage, and wattage ratings to meet the requirements and settings of different countries and regions."
+  },
+  {
+    "id": 41,
+    "label": "定制维度 3",
+    "cn": "控制系统：编写主板程序，以实现指定产品的功能模式。",
+    "en": "Control System: Program the mainboard to deliver the specified functional modes."
+  },
+  {
+    "id": 42,
+    "label": "定制维度 4",
+    "cn": "品牌标识：添加您的品牌标志及其他个性化元素，提升品牌知名度。",
+    "en": "Brand Identity: Add your logo and other personalized elements to strengthen brand recognition."
+  },
+  {
+    "id": 43,
+    "label": "定制维度 5",
+    "cn": "包装设计：选择环保包装方案，体现您对可持续发展的承诺，并强化品牌形象。",
+    "en": "Packaging Design: Choose eco-friendly packaging that reflects your commitment to sustainability and reinforces your brand image."
+  },
+  {
+    "id": 44,
+    "label": "定制维度 6",
+    "cn": "外观设计：选用符合您审美与功能需求的材料和饰面，带来显著的差异化效果。",
+    "en": "Exterior Design: Select materials and finishes that meet your aesthetic and functional requirements for meaningful differentiation."
+  },
+  {
+    "id": 45,
+    "label": "板块标题",
+    "cn": "探索制造工厂，直探高品质产品之源",
+    "en": "Explore the Factory: The Source of High-Quality Products"
+  },
+  {
+    "id": 46,
+    "label": "板块正文",
+    "cn": "在 APOWER 电器，我们深知信任建立在高品质产品之上。我们对品质的承诺不仅体现在设计上，更贯穿于生产流程的每一个环节。欢迎莅临参观我们的工厂——在这里，尖端科技、精密工程与严格的质量控制体系完美融合，为您提供值得信赖的个护家电定制解决方案，满足您的业务需求。",
+    "en": "At APOWER TECH, we know that trust is built on high-quality products. Our commitment to quality is reflected not only in design but at every stage of production. We welcome you to visit our factory, where cutting-edge technology, precision engineering, and strict quality control come together to deliver reliable, customized personal care appliance solutions for your business."
+  },
+  {
+    "id": 47,
+    "label": "板块标题",
+    "cn": "差异化服务：精准满足您的业务需求",
+    "en": "Differentiated Services: Precisely Tailored to Your Business"
+  },
+  {
+    "id": 48,
+    "label": "线下客户标题",
+    "cn": "针对线下客户",
+    "en": "For Offline Customers"
+  },
+  {
+    "id": 49,
+    "label": "线下 1",
+    "cn": "独家区域代理权与定价支持：品牌授权，确保您在市场中拥有竞争优势。",
+    "en": "Exclusive regional distribution rights and pricing support: brand authorization that secures your competitive edge."
+  },
+  {
+    "id": 50,
+    "label": "线下 2",
+    "cn": "研发资源：最快 30 天提供 3D 手板，研发能力强劲。",
+    "en": "R&D resources: 3D prototypes delivered within 30 days, backed by strong engineering capabilities."
+  },
+  {
+    "id": 51,
+    "label": "线下 3",
+    "cn": "30 天快速交货：高效生产，原材料备齐后最快 30 天即可发货。",
+    "en": "30-day fast delivery: efficient production enables shipment in as few as 30 days once materials are ready."
+  },
+  {
+    "id": 52,
+    "label": "线上客户标题",
+    "cn": "面向线上客户",
+    "en": "For Online Customers"
+  },
+  {
+    "id": 53,
+    "label": "线上 1",
+    "cn": "灵活的交货时间：可靠的交货计划与仓储支持。",
+    "en": "Flexible lead times: reliable delivery schedules and warehousing support."
+  },
+  {
+    "id": 54,
+    "label": "线上 2",
+    "cn": "高性价比：极具竞争力的定价，最大化整体价值。",
+    "en": "Strong value for money: competitive pricing that maximizes overall value."
+  },
+  {
+    "id": 55,
+    "label": "线上 3",
+    "cn": "丰富的产品选择：多种选择，满足所有细分市场的需求。",
+    "en": "Wide product range: diverse options covering every market segment."
+  },
+  {
+    "id": 56,
+    "label": "品牌伙伴标题",
+    "cn": "品牌合作伙伴",
+    "en": "For Brand Partners"
+  },
+  {
+    "id": 57,
+    "label": "伙伴 1",
+    "cn": "最低订购量：灵活的最低订购量与产品组合选项。",
+    "en": "Low minimum order quantities: flexible MOQs and product-mix options."
+  },
+  {
+    "id": 58,
+    "label": "伙伴 2",
+    "cn": "定制标志：支持小批量个性化 LOGO 定制。",
+    "en": "Custom logos: personalized logo customization supported even for small batches."
+  },
+  {
+    "id": 59,
+    "label": "伙伴 3",
+    "cn": "一站式营销方案：提供高质量图片与视频，助力提升销售收入。",
+    "en": "One-stop marketing support: high-quality images and videos to help boost sales."
+  },
+  {
+    "id": 60,
+    "label": "板块标题",
+    "cn": "APOWER 电器一站式服务，为您节省时间、精力与成本",
+    "en": "APOWER TECH One-Stop Service: Save Time, Effort, and Cost"
+  },
+  {
+    "id": 61,
+    "label": "流程 1",
+    "cn": "1. 了解您的市场与客户的真实需求",
+    "en": "1. Understand your market and the real needs of your customers"
+  },
+  {
+    "id": 62,
+    "label": "流程 2",
+    "cn": "2. 设计与创新畅销的独特个护家电",
+    "en": "2. Design and innovate distinctive, best-selling personal care appliances"
+  },
+  {
+    "id": 63,
+    "label": "流程 3",
+    "cn": "3. 以最具竞争力的价格实现绝妙创意",
+    "en": "3. Bring great ideas to life at the most competitive prices"
+  },
+  {
+    "id": 64,
+    "label": "流程 4",
+    "cn": "4. 展现最佳品质，维护品牌形象",
+    "en": "4. Deliver the highest quality and protect your brand image"
+  },
+  {
+    "id": 65,
+    "label": "流程 5",
+    "cn": "5. 持续主导并推进项目直至完成",
+    "en": "5. Lead and drive the project through to completion"
+  },
+  {
+    "id": 66,
+    "label": "流程 6",
+    "cn": "6. 助您成为当地市场的独家卖家",
+    "en": "6. Help you become the exclusive seller in your local market"
+  },
+  {
+    "id": 67,
+    "label": "板块标题",
+    "cn": "借助定制化解决方案，最大化产品效能",
+    "en": "Maximize Product Performance with Our Customized Solutions"
+  },
+  {
+    "id": 68,
+    "label": "定制流程",
+    "cn": "提出需求 → 确定数量 → 结构设计 → 构建 3D 模型 → 原型制作 → 功能调试 → 样品试订单 → 正式生产",
+    "en": "Submit Request → Confirm Quantity → Structural Design → Build 3D Model → Prototyping → Functional Debugging → Sample/Trial Order → Mass Production"
+  },
+  {
+    "id": 69,
+    "label": "承诺",
+    "cn": "确保每批订单按时生产，并保证质量。",
+    "en": "Ensuring every order is produced on time and to the required quality."
+  },
+  {
+    "id": 70,
+    "label": "步骤 1",
+    "cn": "步骤 1：物料清单核对——确认所有核心部件齐全：高速无刷电机、PCB 控制板、加热元件、温度传感器等。",
+    "en": "Step 1: BOM Verification — Confirm all core components are present: high-speed brushless motor, PCB control board, heating element, temperature sensor, and more."
+  },
+  {
+    "id": 71,
+    "label": "步骤 2",
+    "cn": "步骤 2：PCB 控制板安装——采用 SMT 表面贴装焊接工艺，将 MCU、MOSFET 及其他元件焊接至电路板；通电后检查电压输出与 PWM 信号反馈是否正常。",
+    "en": "Step 2: PCB Assembly — Using SMT (Surface Mount Technology), solder the MCU, MOSFETs, and other components onto the board. After powering on, verify voltage output and PWM signal feedback."
+  },
+  {
+    "id": 72,
+    "label": "步骤 3",
+    "cn": "步骤 3：高速电机模块组装——将无刷电机嵌入专用支架，把电机三相线固定焊接在 PCB 板上，并用热缩管绝缘。",
+    "en": "Step 3: High-Speed Motor Module Assembly — Seat the brushless motor in its dedicated bracket, solder the three-phase wires to the PCB, and insulate with heat-shrink tubing."
+  },
+  {
+    "id": 73,
+    "label": "步骤 4",
+    "cn": "步骤 4：加热元件安装——将 PTC 发热片固定在云母支架上，两侧覆盖云母绝缘层。",
+    "en": "Step 4: Heating Element Installation — Fix the PTC heating elements to the mica brackets and cover both sides with mica insulation."
+  },
+  {
+    "id": 74,
+    "label": "步骤 5",
+    "cn": "步骤 5：风管系统集成——将叶轮与电机轴对齐，按压至卡入槽内；安装导风罩，并确保风道内无毛刺。",
+    "en": "Step 5: Air Duct System Integration — Align the impeller with the motor shaft and press until it locks into the groove. Install the air guide cover and ensure the air duct is free of burrs."
+  },
+  {
+    "id": 75,
+    "label": "步骤 6",
+    "cn": "步骤 6：外壳预安装——前壳组件嵌入滤光片；后壳组件安装电源线与模式开关。",
+    "en": "Step 6: Housing Pre-Assembly — Insert the light filter into the front housing; install the power cord and mode switch in the rear housing."
+  },
+  {
+    "id": 76,
+    "label": "步骤 7",
+    "cn": "步骤 7：密封与封装——上下壳体对齐，采用超声波焊接与耐高温扣锁，并进行气密性测试。",
+    "en": "Step 7: Sealing and Enclosure — Align the upper and lower housings, join them using ultrasonic welding and heat-resistant latches, then perform an airtightness test."
+  },
+  {
+    "id": 77,
+    "label": "步骤 8",
+    "cn": "步骤 8：各项测试——冷风模式全速运行 5 分钟；热风模式持续运行 40 分钟，并检测温度梯度。",
+    "en": "Step 8: Testing — Run at full speed in cool-air mode for 5 minutes; run in hot-air mode continuously for 40 minutes while monitoring the temperature gradient."
+  },
+  {
+    "id": 78,
+    "label": "步骤 9",
+    "cn": "步骤 9：纸箱包装——产品采用坚固纸箱包装，以便安全搬运与运输。",
+    "en": "Step 9: Carton Packaging — Pack products in sturdy cartons for safe handling and transport."
+  },
+  {
+    "id": 79,
+    "label": "步骤 10",
+    "cn": "步骤 10：集装箱装载——为确保长途运输中的额外保护，将产品妥善装入航空/货运箱。",
+    "en": "Step 10: Container Loading — For added protection during long-haul transport, place products securely in shipping cases."
+  },
+  {
+    "id": 80,
+    "label": "原则",
+    "cn": "APOWER 电器绝不会把问题留给客户解决——这是我们坚定不移的原则！",
+    "en": "APOWER TECH never leaves problems for the customer to solve — this is our unwavering principle."
+  },
+  {
+    "id": 81,
+    "label": "认证说明",
+    "cn": "根据客户要求，产品每年均接受各类技术认证与测试，如 CCC、FCC、CE、IC、RoHS、UL、ISO9001 等，以确保符合国际安全、质量与效率标准。",
+    "en": "As required by customers, products undergo a range of technical certifications and tests each year — including CCC, FCC, CE, IC, RoHS, UL, and ISO9001 — to ensure compliance with international safety, quality, and efficiency standards."
+  },
+  {
+    "id": 82,
+    "label": "数据 1",
+    "cn": "45+ 已获认证的专利：我们为每项技术申请专利保护，以确保法律保护与市场独占权。",
+    "en": "45+ Certified Patents: We seek patent protection for every technology to ensure legal protection and market exclusivity."
+  },
+  {
+    "id": 83,
+    "label": "数据 2",
+    "cn": "35+ 生产设备：相关生产流程与新设备采购已升级至国际标准。",
+    "en": "35+ Production Equipment Sets: Production processes and new equipment procurement have been upgraded to international standards."
+  },
+  {
+    "id": 84,
+    "label": "数据 3",
+    "cn": "17% 新增研发费用：每年公司将利润的 17% 投入产品的持续创新。",
+    "en": "17% Additional R&D Investment: Each year the company reinvests 17% of its profits in continuous innovation."
+  },
+  {
+    "id": 85,
+    "label": "数据 4",
+    "cn": "17+ 检验程序：每日记录材料与产品的缺陷率，通过测试后方可交付。",
+    "en": "17+ Inspection Procedures: Defect rates of materials and products are recorded daily; products are delivered only after passing all tests."
+  },
+  {
+    "id": 86,
+    "label": "标题",
+    "cn": "我们珍视您的商业机会",
+    "en": "We Value Your Business Opportunities"
+  },
+  {
+    "id": 87,
+    "label": "正文 1",
+    "cn": "APOWER 电器专为您的品牌推荐独特的创新产品。将差异化产品引入您的市场，可让您的品牌在竞争中占据独特优势。",
+    "en": "APOWER TECH recommends distinctive, innovative products tailored to your brand. Bringing differentiated products to your market gives your brand a unique competitive advantage."
+  },
+  {
+    "id": 88,
+    "label": "正文 2",
+    "cn": "我们为您的品牌提供所在地区的独家销售权。借此，APOWER 电器可根据您的品牌形象与目标打造独特、创新的设计，帮助您提升品牌影响力。",
+    "en": "We offer your brand exclusive sales rights in your region. In this way, APOWER TECH creates unique, innovative designs aligned with your brand image and goals, helping you expand brand influence."
+  },
+  {
+    "id": 89,
+    "label": "行动号召",
+    "cn": "如果您正在寻找绝佳机会，欢迎联络我们！",
+    "en": "If you are looking for an outstanding opportunity, contact us today!"
+  },
+  {
+    "id": 90,
+    "label": "受益标题",
+    "cn": "从我们的服务中受益",
+    "en": "Benefit from Our Services"
+  },
+  {
+    "id": 91,
+    "label": "受益正文",
+    "cn": "我们捕捉您独特的创意，并将其转化为兼具市场竞争力与实效的家电解决方案，推动您的品牌迈向更高的高度。",
+    "en": "We capture your unique ideas and turn them into competitive, effective appliance solutions — taking your brand to the next level."
+  },
+  {
+    "id": 92,
+    "label": "优势 1",
+    "cn": "1. 避免价格战：无需与同行在创新产品的价格上竞争。",
+    "en": "1. Avoid price wars: no need to compete with rivals on the price of innovative products."
+  },
+  {
+    "id": 93,
+    "label": "优势 2",
+    "cn": "2. 更忠诚的客户：以满足消费者需求的创新产品赢得用户的尊重与忠诚。",
+    "en": "2. More loyal customers: earn respect and loyalty with innovative products that meet consumer needs."
+  },
+  {
+    "id": 94,
+    "label": "优势 3",
+    "cn": "3. 独特的品牌识别：我们的创新与卓越方法让您的品牌脱颖而出。",
+    "en": "3. Distinctive brand identity: our innovative, excellence-driven approach sets your brand apart."
+  },
+  {
+    "id": 95,
+    "label": "标题",
+    "cn": "您将拥有一支体系化的中国生产团队",
+    "en": "You Gain a Systematic Production Team in China"
+  },
+  {
+    "id": 96,
+    "label": "正文 1",
+    "cn": "APOWER 电器还提供强大的 OEM 服务，助您打造品牌。我们丰富的个护家电产品、经过市场认证的生产设施，以及团队的专业技能与经验，将助您在目标市场脱颖而出。",
+    "en": "APOWER TECH also provides robust OEM services to help you build your brand. Our extensive product range, market-proven facilities, and the skill and experience of our team will help you stand out in your target market."
+  },
+  {
+    "id": 97,
+    "label": "正文 2",
+    "cn": "凭借先进的生产设备，我们能够在保证产品质量的前提下，快速交付您的个护家电订单。",
+    "en": "With advanced production equipment, we deliver your personal care appliance orders quickly — without compromising quality."
+  },
+  {
+    "id": 98,
+    "label": "事实标题",
+    "cn": "了解事实",
+    "en": "The Facts"
+  },
+  {
+    "id": 99,
+    "label": "事实 1",
+    "cn": "最小起订量 1,000 台起",
+    "en": "MOQ starting from 1,000 units"
+  },
+  {
+    "id": 100,
+    "label": "事实 2",
+    "cn": "ISO9001:2015 认证工厂",
+    "en": "ISO9001:2015-Certified Factory"
+  },
+  {
+    "id": 101,
+    "label": "事实 3",
+    "cn": "35–40 天交货期",
+    "en": "35–40 day lead time"
+  },
+  {
+    "id": 102,
+    "label": "事实 4",
+    "cn": "量大优惠",
+    "en": "Volume discounts available"
+  },
+  {
+    "id": 103,
+    "label": "合作标题",
+    "cn": "我们如何合作？",
+    "en": "How We Work Together"
+  },
+  {
+    "id": 104,
+    "label": "合作引言",
+    "cn": "自始至终，我们经验丰富、资质过硬的工程师都将与您密切合作，寻找符合您业务需求的个护家电解决方案。",
+    "en": "From start to finish, our experienced, qualified engineers work closely with you to find personal care appliance solutions that fit your business."
+  },
+  {
+    "id": 105,
+    "label": "合作 1",
+    "cn": "1. 发送您的设计：通过平台展示您的产品设计理念，并可提供大致规格，如功率输出与模式。",
+    "en": "1. Send your design: present your product concept through our platform, along with approximate specifications such as power output and modes."
+  },
+  {
+    "id": 106,
+    "label": "合作 2",
+    "cn": "2. 审核：设计团队将仔细审查您的设计或规格说明，并就如何改进方案提出建议。",
+    "en": "2. Review: Our design team carefully reviews your design or specifications and recommends ways to improve the solution."
+  },
+  {
+    "id": 107,
+    "label": "合作 3",
+    "cn": "3. 样品类型：依据最终设计图制作您定制小家电的模具，我们确保模具完全符合您的规格要求。",
+    "en": "3. Tooling: We build the molds for your custom appliance based on the final design, ensuring they fully meet your specifications."
+  },
+  {
+    "id": 108,
+    "label": "合作 4",
+    "cn": "4. 样品制作：您的小家电样品将在 7 周内制作完成并交付；在投入批量生产前，您可亲自确认效果。",
+    "en": "4. Sampling: Your appliance samples are produced and delivered within 7 weeks, so you can review them before mass production."
+  },
+  {
+    "id": 109,
+    "label": "合作 5",
+    "cn": "5. 试订单：您可按需订购少量产品进行测试。试订单让您安心，确保所有产品都符合您的标准。",
+    "en": "5. Trial order: Order a small quantity for testing. A trial order gives you confidence that all products meet your standards."
+  },
+  {
+    "id": 110,
+    "label": "合作 6",
+    "cn": "6. 合作合同：签订合同，确保在订单生产前确认产品的结构与质量。",
+    "en": "6. Contract: A contract confirms the structure and quality of the product before production begins."
+  },
+  {
+    "id": 111,
+    "label": "合作 7",
+    "cn": "7. 批量生产：合同签订后，我们将利用最先进的生产设备，在预期时间内生产您订购的家电产品。",
+    "en": "7. Mass production: After signing, we use state-of-the-art equipment to produce your appliances within the agreed timeline."
+  },
+  {
+    "id": 112,
+    "label": "合作 8",
+    "cn": "8. 物流与配送：所有成品均采用定制包装并装入货运集装箱，确保安全准时送达。",
+    "en": "8. Logistics & delivery: All finished goods are packed in custom packaging and loaded into shipping containers for safe, on-time delivery."
+  },
+  {
+    "id": 113,
+    "label": "分担标题",
+    "cn": "把负担交给我们",
+    "en": "Let Us Take the Burden Off Your Shoulders"
+  },
+  {
+    "id": 114,
+    "label": "分担引言",
+    "cn": "作为一家大型吹风机元件与电机开发商和生产商，APOWER 电器已运用先进技术建立起完善的生产能力，让您无需操心任何环节。",
+    "en": "As a major developer and manufacturer of hair dryer components and motors, APOWER TECH has built comprehensive production capabilities using advanced technology — so you can focus on your business."
+  },
+  {
+    "id": 115,
+    "label": "分担 1",
+    "cn": "1. 原材料采购：凭借成熟的供应链，我们从可靠供应商处以最优价格采购塑料及其他必需材料，使产品价格极具竞争力。",
+    "en": "1. Raw material sourcing: Through our established supply chain, we procure plastics and other materials from reliable suppliers at the best prices, keeping our products highly competitive."
+  },
+  {
+    "id": 116,
+    "label": "分担 2",
+    "cn": "2. 零部件制造与组装：关键部件（驱动器、芯片及其他组件）可自行生产，为您节省资金与厂房空间。",
+    "en": "2. Component manufacturing and assembly: Key parts (drivers, chips, and other components) are produced in-house, saving you capital and factory space."
+  },
+  {
+    "id": 117,
+    "label": "分担 3",
+    "cn": "3. 进一步处理：APOWER 电器还提供品牌标识丝网印刷、电镀等服务，满足您目标市场的需求。",
+    "en": "3. Further processing: We offer logo screen printing, electroplating, and other services to meet the needs of your target market."
+  },
+  {
+    "id": 118,
+    "label": "分担 4",
+    "cn": "4. 包装材料：请将您的品牌包装图稿或设计稿发给我们，我们将为您制作；专业设计师团队可确保包装质量。",
+    "en": "4. Packaging materials: Send us your brand packaging artwork or designs and we will produce them; our professional designers ensure packaging quality."
+  },
+  {
+    "id": 119,
+    "label": "标题",
+    "cn": "以 ISO9001 为指导原则",
+    "en": "Guided by ISO9001"
+  },
+  {
+    "id": 120,
+    "label": "正文 1",
+    "cn": "APOWER 电器工厂已通过 ISO9001 认证，并以此原则指导日常生产流程。",
+    "en": "Our factory is ISO9001-certified, and these principles guide our daily production processes."
+  },
+  {
+    "id": 121,
+    "label": "正文 2",
+    "cn": "我们与众多知名电器品牌合作，产品质量获得客户认可。",
+    "en": "We work with many well-known appliance brands, and our product quality has earned their recognition."
+  },
+  {
+    "id": 122,
+    "label": "正文 3",
+    "cn": "从原材料检验到半成品检验，从零部件到成品测试，我们始终信赖标准化流程的力量。",
+    "en": "From incoming-material inspection to semi-finished product checks, and from components to finished-product testing, we rely on the power of standardized processes."
+  },
+  {
+    "id": 123,
+    "label": "部件标题",
+    "cn": "从每一个部件开始精益求精",
+    "en": "Precision, Starting with Every Component"
+  },
+  {
+    "id": 124,
+    "label": "部件引言",
+    "cn": "我们高度重视吹风机品质，对构成一台完美吹风机的每一个部件都精益求精，注重每一处细节。",
+    "en": "We take hair dryer quality seriously, refining every component and detail that makes an outstanding product."
+  },
+  {
+    "id": 125,
+    "label": "部件 1",
+    "cn": "自主研发的驱动模块：我们使用经各国强制认证的驱动器，每个组件都必须正确放置与焊接，确保产品在特定最大功率、正确温度与准确功率数据下运行。",
+    "en": "In-house drive modules: We use drivers certified to mandatory standards in each country. Every component must be correctly placed and soldered to ensure the product operates at the specified maximum power, correct temperature, and accurate power ratings."
+  },
+  {
+    "id": 126,
+    "label": "部件 2",
+    "cn": "高速电机的精益制造：核心电机的制造需要专业技术与细致工序。从扇叶精密加工，到检查主板位置与外壳引线拼接，我们对每个检验步骤都遵循详细标准，确保 100% 排除任何存在缺陷的电机。",
+    "en": "Lean manufacturing of high-speed motors: Building the core motor demands specialized skill and careful processes. From precision machining of the fan blades to checking mainboard placement and wiring, we follow detailed standards at every step to ensure 100% of defective motors are eliminated."
+  },
+  {
+    "id": 127,
+    "label": "部件 3",
+    "cn": "CNC 模具雕刻：吹风机的外观是第一印象，我们绝不放过任何细微缺陷——无论是铸造或注塑中的毛刺、铝层电镀不均，还是尺寸或规格偏差。我们绝不允许任何缺陷产品进入下一工序。",
+    "en": "CNC mold engraving: The exterior is the first impression, and we overlook no defect — whether burrs from casting or injection molding, uneven aluminum plating, or dimensional deviations. No defective product is allowed to proceed to the next stage."
+  },
+  {
+    "id": 128,
+    "label": "样品测试标题",
+    "cn": "样品测试：确保批量生产质量",
+    "en": "Sample Testing: Ensuring Mass Production Quality"
+  },
+  {
+    "id": 129,
+    "label": "样品正文",
+    "cn": "样品是优质组件与高质量批量生产之间的桥梁。在 APOWER 电器，我们的独特做法是在最严苛条件下反复测试样品，确保所有组件正常工作、性能可靠。样品通过测试后，质检团队将记录其规格，并为批量生产提供物料清单。",
+    "en": "Samples bridge quality components and high-quality mass production. At APOWER TECH, we repeatedly test samples under the most stringent conditions to ensure all components function correctly and perform reliably. Once a sample passes, the QC team records its specifications and provides the BOM for mass production."
+  },
+  {
+    "id": 130,
+    "label": "电性能标题",
+    "cn": "电子性能测试：为安全应用保驾护航",
+    "en": "Electronic Performance Testing: Engineered for Safety"
+  },
+  {
+    "id": 131,
+    "label": "电性能 1",
+    "cn": "1. 电压频率抗扰度测试：模拟不同环境下使用不同规格的电压发生器，测试吹风机能否正常使用，以及过载保护功能是否有效。",
+    "en": "1. Voltage and frequency immunity testing: Simulating voltage generators of various specifications under different environments to verify normal operation and the effectiveness of overload protection."
+  },
+  {
+    "id": 132,
+    "label": "电性能 2",
+    "cn": "2. 壳料熔点试验：提高吹风机样品加热丝温度并调整外壳防火材料比例，测试内壳材料的极限熔点。",
+    "en": "2. Housing melting-point testing: Raising the heating wire temperature and adjusting the proportion of fire-resistant material to determine the ultimate melting point of the inner housing."
+  },
+  {
+    "id": 133,
+    "label": "电性能 3",
+    "cn": "3. 电气参数测试：将产品连接至直流电源，获取精确的电气参数，包括电源效率、电压、电流、瓦特数及功率数据等。",
+    "en": "3. Electrical parameter testing: Connecting the product to a DC power supply to obtain precise parameters, including power efficiency, voltage, current, wattage, and power data."
+  },
+  {
+    "id": 134,
+    "label": "电性能 4",
+    "cn": "4. 跌落与振动测试：将样品从离地 1.5 米高处跌落，再置于振动架上，测试其能否承受冲击并正常工作。",
+    "en": "4. Drop and vibration testing: Dropping samples from a height of 1.5 meters and then placing them on a vibration rack to verify they withstand impact and continue to function."
+  },
+  {
+    "id": 135,
+    "label": "装配标题",
+    "cn": "装配控制与严格检验",
+    "en": "Assembly Control and Rigorous Inspection"
+  },
+  {
+    "id": 136,
+    "label": "装配正文",
+    "cn": "正确的组装能够确保吹风机正常运转，保障最终用户的安全。APOWER 电器特别注重组装流程，对每位工人的操作严格把控。我们严格的质量控制体现在每个流程的方法论与标准化上，从细节入手剔除不合格产品，确保您收到的产品完美无瑕。",
+    "en": "Correct assembly ensures the hair dryer operates properly and protects end-user safety. APOWER TECH places special emphasis on the assembly process and strictly controls each worker’s operations. Our rigorous quality control is embedded in the methodology and standardization of every process, eliminating non-conforming products at the detail level so that what you receive is flawless."
+  },
+  {
+    "id": 137,
+    "label": "标题",
+    "cn": "品牌销售引擎",
+    "en": "The Engine Behind Brand Sales"
+  },
+  {
+    "id": 138,
+    "label": "副标题",
+    "cn": "专注的团队与设计态度",
+    "en": "A Dedicated Team and a Design-Driven Mindset"
+  },
+  {
+    "id": 139,
+    "label": "正文 1",
+    "cn": "APOWER 电器的研发部门由创始人 ARON 领导，汇聚了一批杰出的工程师与设计师。我们致力于高质量研发与卓越成果，成立 5 年内便获得了 40 多项专利。",
+    "en": "Our R&D department, led by founder ARON, brings together outstanding engineers and designers. Committed to high-quality research and exceptional results, we obtained over 40 patents within our first five years."
+  },
+  {
+    "id": 140,
+    "label": "正文 2",
+    "cn": "我们团队的目标，是为您带来市场上最优质的新产品。好的设计始于您的想法与建议，我们以此为基础明确需求，并运用制造经验为您提供精准的解决方案。",
+    "en": "Our goal is to bring you the finest new products on the market. Great design begins with your ideas and suggestions; on that foundation we define your needs and apply our manufacturing experience to deliver precise solutions."
+  },
+  {
+    "id": 141,
+    "label": "引言",
+    "cn": "“每次开始设计一款新的个护家电产品时，我们都会清空思绪，打破既定的思维模式。”——首席设计师 Jakey",
+    "en": "“Every time we design a new personal care appliance, we clear our minds and break away from established patterns.” — Jakey, Chief Designer"
+  },
+  {
+    "id": 142,
+    "label": "设施标题",
+    "cn": "我们的设施与设备，兼顾形式与功能",
+    "en": "Our Facilities and Equipment: Where Form Meets Function"
+  },
+  {
+    "id": 143,
+    "label": "设施正文",
+    "cn": "我们开发新产品的方法源于多年的行业经验与成功项目。制作原型时，我们关注每一个细节——从尺寸、形状到生产成本与时间。之后，我们依据最终设计制作模具，既展现产品的精确形态，又确保在生产中实现其功能性。",
+    "en": "Our approach to new products grows from years of experience and successful projects. When prototyping, we attend to every detail — from size and shape to production cost and timing. We then build molds based on the final design, capturing the precise form while ensuring functional performance in production."
+  },
+  {
+    "id": 144,
+    "label": "关注点 1",
+    "cn": "1. 模具灵活性",
+    "en": "1. Mold flexibility"
+  },
+  {
+    "id": 145,
+    "label": "关注点 2",
+    "cn": "2. 制造速度与成本",
+    "en": "2. Manufacturing speed and cost"
+  },
+  {
+    "id": 146,
+    "label": "关注点 3",
+    "cn": "3. 结构稳定性",
+    "en": "3. Structural stability"
+  },
+  {
+    "id": 147,
+    "label": "三步法标题",
+    "cn": "我们的三步法，助您保持领先优势",
+    "en": "Our Three-Step Process Keeps You Ahead"
+  },
+  {
+    "id": 148,
+    "label": "三步 1",
+    "cn": "1. 15 天内将您的想法转化为草图。咨询：我们的专家提供坦诚务实的建议，帮助您将产品创意变为现实，并在项目启动后为您带来成功。工程及报价：为保持工作透明，我们提供详细的开发定价，并说明如何依据最终设计开发新的个护家电。",
+    "en": "1. Turn your idea into sketches within 15 days. Consultation: our experts provide honest, practical advice to turn your product ideas into reality and drive success once the project begins. Engineering & quotation: for full transparency, we provide detailed development pricing and explain how the new appliance will be engineered from the final design."
+  },
+  {
+    "id": 149,
+    "label": "三步 2",
+    "cn": "2. 模具设计与加工在 45 天内完成。估算与分析：研究您的设计与想法后，我们估算所需的精力与时间，制定清晰的时间表，并让您随时了解最新进展。模具制造：在我们的模具注塑工厂，依据精确尺寸调整模具并创建新模型，以实现快速生产。",
+    "en": "2. Complete mold design and machining within 45 days. Estimation & analysis: after reviewing your design and ideas, we estimate the effort and time required, build a clear schedule, and keep you updated. Mold making: at our in-house mold and injection facility, we adjust molds to precise dimensions and create new models for rapid production."
+  },
+  {
+    "id": 150,
+    "label": "三步 3",
+    "cn": "3. 原型制作在 60 天内完成。原型制作与审批：利用 3D 技术提供 3D 图纸，并制作手板样品供您检验，确认设计是否符合您的规格要求。修改并完成：研发部门与您合作，测试并修改原型，使其满足要求并做好批量生产准备。",
+    "en": "3. Complete prototyping within 60 days. Prototyping & approval: using 3D technology, we provide 3D drawings and produce prototype samples for your inspection to confirm the design meets your specifications. Revision & finalization: our R&D team works with you to test and refine the prototype until it meets your requirements and is ready for mass production."
+  },
+  {
+    "id": 151,
+    "label": "标题",
+    "cn": "因为您的产品上市时间至关重要",
+    "en": "Because Your Time to Market Is Critical"
+  },
+  {
+    "id": 152,
+    "label": "正文",
+    "cn": "APOWER 电器深知时间对您的业务至关重要，也明白及时了解生产流程对您的品牌决策意义重大。因此，您下单后，我们将为您配备专属项目经理，随时汇报定制新产品项目的进展。",
+    "en": "APOWER TECH understands that time is critical to your business and that timely visibility into production is essential for your brand decisions. That is why, once you place an order, we assign a dedicated project manager to keep you updated on the progress of your custom product."
+  },
+  {
+    "id": 153,
+    "label": "进度标题",
+    "cn": "轻松掌握每笔订单的进度",
+    "en": "Stay Informed on Every Order, Effortlessly"
+  },
+  {
+    "id": 154,
+    "label": "进度 1",
+    "cn": "1. 从专属联系人处获取反馈：密切关注合同进展，定期获得反馈，以便对进行中及未来的项目进行调整与实施。",
+    "en": "1. Feedback from your dedicated contact: we keep a close watch on contract progress and provide regular feedback so ongoing and future projects can be adjusted and executed."
+  },
+  {
+    "id": 155,
+    "label": "进度 2",
+    "cn": "2. 获取生产进度通知：项目经理将根据您的要求提供最新通知，让您随时了解项目进展。",
+    "en": "2. Production progress notifications: your project manager provides the latest updates as you request, keeping you informed at every stage."
+  },
+  {
+    "id": 156,
+    "label": "进度 3",
+    "cn": "3. 提出您的建议：通过您宝贵的见解与建议，帮助我们在产品项目中追求卓越的制造工艺，打造专业的个护家电产品。",
+    "en": "3. Share your suggestions: your valuable insights help us pursue manufacturing excellence and build professional personal care appliances."
+  },
+  {
+    "id": 157,
+    "label": "标题",
+    "cn": "见证产品从零件到成品的全过程",
+    "en": "Witness the Complete Journey from Parts to Finished Product"
+  },
+  {
+    "id": 158,
+    "label": "引言",
+    "cn": "了解 APOWER 电器如何管理吹风机的整个生产流程，并按时、按预算分批完成您的订单。",
+    "en": "See how APOWER TECH manages the entire hair dryer production process and completes your orders in batches, on time and on budget."
+  },
+  {
+    "id": 159,
+    "label": "主板标题",
+    "cn": "主板驱动制造",
+    "en": "Mainboard Driver Manufacturing"
+  },
+  {
+    "id": 160,
+    "label": "主板正文",
+    "cn": "驱动主板是吹风机的核心组件，决定了产品的各项功能参数、不同模式下的温度、工作电压及其他关键数据。APOWER 电器自主设计、制造并测试吹风机驱动器，确保产品具备始终如一的卓越品质与性能。驱动器制造过程极其严谨，工人必须按照设计将所有组件精准安装与连接；完成后进行功能测试，确保驱动器正常工作。",
+    "en": "The driver mainboard is the core component of a hair dryer, determining functional parameters, temperatures across modes, operating voltage, and other key data. APOWER TECH designs, manufactures, and tests its drivers in-house to ensure consistent, outstanding quality and performance. The process is highly rigorous: workers must precisely install and connect every component according to design, followed by functional testing to confirm the driver works properly."
+  },
+  {
+    "id": 161,
+    "label": "电机标题",
+    "cn": "高速电机制造：电机生产全过程",
+    "en": "High-Speed Motor Manufacturing: The Full Process"
+  },
+  {
+    "id": 162,
+    "label": "电机正文",
+    "cn": "APOWER 电器拥有独立的高速电机研发与生产部门，掌握了电机生产核心工艺中的“高精度转子设计”。我们掌控了从“高精度转子设计”“定子绕组制造及热管理”“轴承系统设计及安装”到电机“动平衡及振动控制”的整个流程，攻克了高速电机在材料强度、散热效率、支撑稳定性与振动抑制等方面的核心难题，确保电机高效可靠运行。",
+    "en": "APOWER TECH has an independent R&D and production department for high-speed motors, mastering the core process of high-precision rotor design. We control the entire process — from high-precision rotor design, stator winding and thermal management, and bearing system design and installation, to dynamic balancing and vibration control. This allows us to solve the core challenges of material strength, heat dissipation, support stability, and vibration suppression, ensuring efficient, reliable motor performance."
+  },
+  {
+    "id": 163,
+    "label": "注塑标题",
+    "cn": "产品壳料注塑：模具设计",
+    "en": "Housing Injection Molding: Mold Design"
+  },
+  {
+    "id": 164,
+    "label": "注塑正文 1",
+    "cn": "基于对制造灵活性的深入分析，APOWER 电器与领先的模具设计机构合作，共同打造吹风机外壳。精心设计的模具确保成型工艺高效、安全。我们采用先进的数控机床与水刀切割机，生产精度高达 0.01 毫米以内的高精度模具，打造完美成型的外壳。",
+    "en": "Based on in-depth analysis of manufacturing flexibility, APOWER TECH partners with leading mold design institutions to develop hair dryer housings. Carefully designed molds ensure efficient, safe molding. Using advanced CNC machines and water-jet cutters, we produce high-precision molds with accuracy within 0.01 mm for perfectly formed housings."
+  },
+  {
+    "id": 165,
+    "label": "注塑正文 2",
+    "cn": "外壳注塑成型：我们从泰国采购塑料颗粒，确保以最优价格获得最佳原材料；采用世界一流的 YIZUMI（伊之密）注塑机，使注塑过程可靠、精准。",
+    "en": "Injection molding: we source plastic pellets from Thailand to secure the best raw materials at the best prices, and we use world-class YIZUMI injection molding machines for a reliable, precise process."
+  },
+  {
+    "id": 166,
+    "label": "总装标题",
+    "cn": "高速吹风机制造：所有部件的组装",
+    "en": "High-Speed Hair Dryer Manufacturing: Assembly of All Components"
+  },
+  {
+    "id": 167,
+    "label": "总装正文",
+    "cn": "驱动器、电机与外壳准备就绪后，所有部件被送往装配车间进行组装。APOWER 电器遵循标准化装配流程，并为每款型号提供物料清单，详细说明正确的装配方法与标准。所有工人必须严格按照物料清单完成装配。",
+    "en": "Once the drivers, motors, and housings are ready, all components move to the assembly workshop. APOWER TECH follows standardized assembly procedures and provides a BOM for each model detailing the correct assembly methods and standards. All workers must complete assembly strictly according to the BOM."
+  },
+  {
+    "id": 168,
+    "label": "测试包装",
+    "cn": "测试与包装：组装好的产品应进行 110V 至 220V 电压下 40 分钟老化测试，合格后方可送至包装线装箱。",
+    "en": "Testing and packaging: assembled products undergo a 40-minute burn-in test at 110V–220V. Only qualified units move to the packaging line for carton packing."
+  },
+  {
+    "id": 169,
+    "label": "标题",
+    "cn": "所有产品均享有一年保修",
+    "en": "All Products Backed by a One-Year Warranty"
+  },
+  {
+    "id": 170,
+    "label": "正文 1",
+    "cn": "为证明我们对产品的信心，从仓库发出的每一件产品都享有一年质保。该质保涵盖我们研发与生产产品出现的任何问题，并在需要时提供快速更换服务。",
+    "en": "To demonstrate our confidence in our products, every unit shipped from our warehouse carries a one-year warranty. It covers any issues arising in the products we develop and manufacture, with prompt replacement when needed."
+  },
+  {
+    "id": 171,
+    "label": "正文 2",
+    "cn": "售后团队提供 7/24/365 全天候支持：APOWER 电器的支持服务不会在产品交付后结束，我们拥有响应迅速的售后团队。联系后 8 小时内即可提供有效解决方案，更换服务快速且免费，无需提供质量问题证明。",
+    "en": "7/24/365 after-sales support: our service does not end at delivery, and our responsive team is always available. An effective solution is provided within 8 hours of contact, and replacement is fast and free — with no proof of quality issues required."
+  },
+  {
+    "id": 172,
+    "label": "要点 1",
+    "cn": "8 小时内响应，有效解决您的问题",
+    "en": "Response within 8 hours to effectively resolve your issues"
+  },
+  {
+    "id": 173,
+    "label": "要点 2",
+    "cn": "免费更换或后期补货",
+    "en": "Free replacement or replenishment in subsequent orders"
+  },
+  {
+    "id": 174,
+    "label": "标题",
+    "cn": "如何定义 APOWER 电器？",
+    "en": "How Do We Define APOWER TECH?"
+  },
+  {
+    "id": 175,
+    "label": "副标题",
+    "cn": "个护家电创新产品的潮流引领者",
+    "en": "A Trendsetter in Innovative Personal Care Appliances"
+  },
+  {
+    "id": 176,
+    "label": "正文",
+    "cn": "APOWER 电器的创业之旅始于 2020 年，是一家专注于高速电机应用、集个护小家电设计、开发、制造与销售于一体的科技公司。我们不仅追求产品的技术领先，更注重设计美学与用户体验，力求让每一款产品都能在市场中占据主导地位。自成立以来，APOWER 电器始终引领个护家电的设计潮流与技术应用创新，致力于打造极致的产品体验——未来也将继续如此。",
+    "en": "APOWER TECH began its journey in 2020 as a technology company focused on high-speed motor applications, integrating the design, development, manufacturing, and sales of personal care appliances. We pursue not only technological leadership but also design aesthetics and user experience, striving to make every product a market leader. Since our founding, we have continued to lead design trends and technological innovation in personal care appliances, committed to delivering the ultimate product experience — and we will keep doing so."
+  },
+  {
+    "id": 177,
+    "label": "伙伴标题",
+    "cn": "顶级品牌合作伙伴",
+    "en": "Top-Tier Brand Partnerships"
+  },
+  {
+    "id": 178,
+    "label": "伙伴正文",
+    "cn": "我们已与供应商建立战略合作关系，充分利用供应链优势，为客户提供更优质的服务。APOWER 电器已与众多世界知名品牌建立长期合作关系。展望未来，我们始终秉承“唯有走在市场前沿，才能获得无可比拟的优势”的理念，这使我们成为众多品牌的最佳合作伙伴。",
+    "en": "We have built strategic partnerships with suppliers, leveraging supply-chain advantages to deliver better service to our customers. APOWER TECH has established long-term relationships with many world-renowned brands. Looking ahead, we hold to the belief that only by staying at the forefront of the market can we gain an unmatched advantage — making us the ideal partner for leading brands."
+  },
+  {
+    "id": 179,
+    "label": "差异标题",
+    "cn": "我们有何不同？",
+    "en": "What Makes Us Different?"
+  },
+  {
+    "id": 180,
+    "label": "文化核心",
+    "cn": "APOWER 电器文化的核心：相信，才能看见。",
+    "en": "At the heart of APOWER TECH culture: believe, and you will see."
+  },
+  {
+    "id": 181,
+    "label": "文化 1",
+    "cn": "1. 永不止步地追求卓越：永不满足于已取得的成就，保持市场领先需要团队每一位成员全力以赴。当有机会做得更好时，我们没有理由拒绝付出额外的努力。",
+    "en": "1. Relentlessly pursue excellence: never settle for what has been achieved. Staying ahead demands the full commitment of every team member. When there is an opportunity to do better, there is no reason to hold back the extra effort."
+  },
+  {
+    "id": 182,
+    "label": "文化 2",
+    "cn": "2. 做好迎接任何挑战的准备：我们每天都面临挑战，生活中的挑战无法预料，我们能做的是做好心理与情感上的准备。遇到障碍时，运用智慧将其分解，然后采取行动。",
+    "en": "2. Be ready for any challenge: we face challenges every day, and they are unpredictable. What we can do is prepare mentally and emotionally. When obstacles arise, use wisdom to break them down — then act."
+  },
+  {
+    "id": 183,
+    "label": "文化 3",
+    "cn": "3. 思考并尝试新事物：我们深知，没有失败就没有创新与创造。探索未知的海洋，不仅需要勇敢的团队，更需要敢于探索未知海岸的勇气。在 APOWER 电器，我们珍视创新，并乐于接受充满建设性碰撞的过程。",
+    "en": "3. Think and do new things: we know that without failure there is no innovation or creativity. Exploring uncharted waters requires not only a courageous crew but the courage to discover unknown shores. At APOWER TECH, we value innovation and embrace constructive challenge."
+  },
+  {
+    "id": 184,
+    "label": "文化 4",
+    "cn": "4. 聚焦才能看到光明：没有人会闭着眼睛瞄准目标。无论何时想达成目标，都要睁大眼睛、集中注意力，确保清楚自己想要什么。专注于目标，像激光束一样聚焦——最终，我们所关注的事物会成长。",
+    "en": "4. Focus to see the light: no one aims at a target with closed eyes. Whenever you want to reach a goal, keep your eyes open and your attention focused, and be clear about what you want. Focus on your goal like a laser beam — ultimately, what we focus on grows."
+  },
+  {
+    "id": 185,
+    "label": "使命标题",
+    "cn": "我们的使命",
+    "en": "Our Mission"
+  },
+  {
+    "id": 186,
+    "label": "使命 1",
+    "cn": "为优秀员工创建一个平台：APOWER 电器是一家愿意为员工成长贡献力量、分享成长机会的公司。只要有进修与成长的机会，我们都会竭尽全力去实现。",
+    "en": "Create a platform for outstanding employees: APOWER TECH is a company willing to invest in employee growth and share opportunities. Whenever there is a chance to learn and develop, we do our utmost to make it happen."
+  },
+  {
+    "id": 187,
+    "label": "使命 2",
+    "cn": "为我们信赖的客户创造价值：客户利益高于一切。APOWER 电器始终从客户角度思考，不断提升客户满意度，致力于建立长期、互信且富有意义的客户关系。",
+    "en": "Create value for the customers we serve: customer interests come first. We always think from the customer’s perspective, continuously improve satisfaction, and strive to build long-term, trusting, and meaningful relationships."
+  },
+  {
+    "id": 188,
+    "label": "使命 3",
+    "cn": "为行业与社会进步做出贡献：我们致力于通过持续创新，不断提升个护家电行业标准。我们的贡献包括更优质的产品体验、更先进的制造技术与更多就业机会。",
+    "en": "Contribute to industry and social progress: through continuous innovation, we work to raise the standards of the personal care appliance industry — through better product experiences, more advanced manufacturing technology, and more employment opportunities."
+  },
+  {
+    "id": 189,
+    "label": "领导团队标题",
+    "cn": "领导团队：与客户持续同行",
+    "en": "Leadership Team: Continuously Partnering with Our Customers"
+  },
+  {
+    "id": 190,
+    "label": "领导团队正文",
+    "cn": "我们真诚地与每位客户互动，致力于建立有意义的联结。APOWER 电器团队以专业、热情，以及对提供高品质个护家电解决方案的不懈承诺而著称。",
+    "en": "We engage genuinely with every customer, committed to building meaningful connections. The APOWER TECH team is known for its professionalism, passion, and unwavering commitment to delivering high-quality personal care appliance solutions."
+  },
+  {
+    "id": 191,
+    "label": "团队数据 1",
+    "cn": "100+ 主要员工",
+    "en": "100+ Key Employees"
+  },
+  {
+    "id": 192,
+    "label": "团队数据 2",
+    "cn": "10+ 主要部门",
+    "en": "10+ Core Departments"
+  },
+  {
+    "id": 193,
+    "label": "工厂参观标题",
+    "cn": "工厂参观",
+    "en": "Factory Tour"
+  },
+  {
+    "id": 194,
+    "label": "工厂参观副标题",
+    "cn": "探秘我们通过 ISO9001 认证的工厂，现在即可轻松游览",
+    "en": "Explore our ISO9001-certified factory — a virtual tour is just a click away"
+  },
+  {
+    "id": 195,
+    "label": "工厂参观正文",
+    "cn": "探索 APOWER 电器优质的制造设施，了解我们如何以速度、卓越与精准完成项目。我们的工厂拥有独立的生产车间，配备最新的生产设备与经过校准的测试工具，确保整个制造过程始终保持最高标准。",
+    "en": "Explore the quality manufacturing facilities of APOWER TECH and see how we complete projects with speed, excellence, and precision. Our factory has independent production workshops equipped with the latest equipment and calibrated testing tools, ensuring the highest standards throughout the manufacturing process."
+  },
+  {
+    "id": 196,
+    "label": "数据标题",
+    "cn": "数字不会说谎：让年度数据证明我们在个护家电行业的竞争力",
+    "en": "Numbers Don’t Lie: Our Annual Data Demonstrates Our Competitiveness"
+  },
+  {
+    "id": 197,
+    "label": "年度数据 1",
+    "cn": "15,000 平方米 专业化工厂",
+    "en": "15,000 m² Specialized Factory"
+  },
+  {
+    "id": 198,
+    "label": "年度数据 2",
+    "cn": "5 条 专业生产线",
+    "en": "5 Professional Production Lines"
+  },
+  {
+    "id": 199,
+    "label": "年度数据 3",
+    "cn": "150,000 月度产能",
+    "en": "150,000 Monthly Production Capacity"
+  },
+  {
+    "id": 200,
+    "label": "年度数据 4",
+    "cn": "55+ 信赖品牌",
+    "en": "55+ Trusted Brands"
+  },
+  {
+    "id": 201,
+    "label": "设施标题",
+    "cn": "我们的设施：专业精神成就完美品质",
+    "en": "Our Facilities: Professionalism Achieves Perfect Quality"
+  },
+  {
+    "id": 202,
+    "label": "设施正文",
+    "cn": "我们拥有专门负责小家电制造各个环节的车间，使团队能够同时专注于多个环节。精通产品的每一个环节，确保每件成品小家电的质量与性能都达到最佳状态。",
+    "en": "We have dedicated workshops for every stage of small-appliance manufacturing, allowing our team to focus on multiple stages simultaneously. Mastering every part of the process ensures the quality and performance of each finished appliance are at their best."
+  },
+  {
+    "id": 203,
+    "label": "2020",
+    "cn": "2020 满怀激情的创业：创始人 ARON 看到高速电机在家电领域革新的增长机会，创办 APOWER 电器，组建团队研发并落地第一款高速吹风机，正式启动业务。",
+    "en": "2020 — A Passionate Start: Founder ARON recognized the growth opportunity presented by high-speed motors in home appliances and founded APOWER TECH, assembling a team to develop and launch the first high-speed hair dryer."
+  },
+  {
+    "id": 204,
+    "label": "2021",
+    "cn": "2021 挫折与教训：艰难前行中，产品尚不成熟，首批产品上市后，客户反馈在温度与各项模式上缺少选择。这给我们上了一课——加大研发投入，是在竞争中生存的唯一途径。",
+    "en": "2021 — Setbacks and Lessons: Products were not yet mature, and after the first batch reached the market, customers reported limited temperature and mode options. It taught us a vital lesson: greater R&D investment is the only way to survive in a competitive market."
+  },
+  {
+    "id": 205,
+    "label": "2022",
+    "cn": "2022 从挫折中反弹：组建更系统的专家团队，对供应商采用严格筛选流程，完善供应体系。APOWER 也研究新兴市场，优化升级产品、完善品质控制体系，并建立稳固的企业文化。全新一代高速吹风机落地并实现量产。",
+    "en": "2022 — Bouncing Back: We built a more systematic expert team and applied strict supplier screening to strengthen our supply system. We also studied emerging markets, upgraded products, refined quality control, and established a strong culture. A new generation of high-speed hair dryers was launched and entered mass production."
+  },
+  {
+    "id": 206,
+    "label": "2023",
+    "cn": "2023 强劲的前进步伐：完成了生产制造、营销、质量测评、知识产权等供应链体系；建立内部研发中心，确立自身产品定位；销售团队快速发展，设立了五场销售 PK 赛。",
+    "en": "2023 — Strong Momentum: We completed our supply-chain systems covering manufacturing, marketing, quality evaluation, and intellectual property; established an in-house R&D center and defined our product positioning; and the sales team grew rapidly, launching five internal sales competitions."
+  },
+  {
+    "id": 207,
+    "label": "2024",
+    "cn": "2024 效能飙升：APOWER 全力开拓北美市场，成功对接北美最知名的品牌之一。在该品牌销量前十供应商的竞标中，APOWER 电器成为 2024 年度的获胜者，营业额突破 5,000 万元。",
+    "en": "2024 — Soaring Performance: APOWER committed fully to the North American market and connected with one of its best-known brands. In a competitive bid among the brand’s top ten suppliers, APOWER TECH was selected as the 2024 winner, with turnover exceeding RMB 50 million."
+  },
+  {
+    "id": 208,
+    "label": "2025",
+    "cn": "2025 快速进步：第一季度销售额突破 2,000 万元，同时开展个护家电新品的研发落地与品类扩充，进行多项测试。APOWER 也与顶级供应商建立长期业务关系，以改善供应链与运营。",
+    "en": "2025 — Rapid Progress: First-quarter sales exceeded RMB 20 million, while we developed and launched new personal care products, expanded categories, and conducted extensive testing. We also established long-term relationships with top-tier suppliers to improve the supply chain and operations."
+  },
+  {
+    "id": 209,
+    "label": "2026",
+    "cn": "2026 持续探索、寻求突破：在欧洲与中东地区开启新市场拓展，计划同时落地 2–3 款颠覆性个护家电产品，拓展全球本土化品牌合作伙伴。2026 年，我们将持续投入个护小家电研发，并在未来继续坚持。",
+    "en": "2026 — Exploring for Breakthroughs: We are opening new markets in Europe and the Middle East, planning to launch 2–3 disruptive products simultaneously and expanding localized brand partnerships worldwide. We will continue to invest in R&D in 2026 and beyond."
+  },
+  {
+    "id": 210,
+    "label": "标题",
+    "cn": "生态第一，利润第二",
+    "en": "Ecology First, Profit Second"
+  },
+  {
+    "id": 211,
+    "label": "正文 1",
+    "cn": "与盈利能力相比，环境保护是 APOWER 电器的首要任务。为实现可持续生产，我们投资了先进的生产设备，并聘请高素质员工。",
+    "en": "Environmental protection comes before profitability at APOWER TECH. To achieve sustainable production, we have invested in advanced equipment and hired highly qualified people."
+  },
+  {
+    "id": 212,
+    "label": "正文 2",
+    "cn": "这些举措使我们能够降低能耗与废物排放，从而减少碳足迹。",
+    "en": "These measures allow us to reduce energy consumption and waste emissions, shrinking our carbon footprint."
+  },
+  {
+    "id": 213,
+    "label": "板块标题",
+    "cn": "你好，高速电机；再见，碳刷电机",
+    "en": "Hello, High-Speed Motors; Goodbye, Carbon-Brush Motors"
+  },
+  {
+    "id": 214,
+    "label": "板块正文",
+    "cn": "通过广泛的市场调研与对技术趋势的密切关注，我们致力于打造用户体验更佳、能耗更低的个护家电产品。APOWER 电器可帮助您以更低能耗实现目标用户所需的风量，从而降低能源成本、保护环境。",
+    "en": "Through extensive market research and close attention to technology trends, we build personal care appliances with better user experiences and lower energy consumption. APOWER TECH helps you deliver the airflow your users need while using less energy — reducing energy costs and protecting the environment."
+  },
+  {
+    "id": 215,
+    "label": "人才标题",
+    "cn": "人才：长期发展的驱动力",
+    "en": "People: The Driving Force of Long-Term Development"
+  },
+  {
+    "id": 216,
+    "label": "人才正文",
+    "cn": "APOWER 电器聘用年轻而充满活力的优秀人才，并通过培训项目帮助他们成长，内容涵盖可持续行业实践与社区建设参与等。我们为员工创造的价值，确保他们有能力在未来找到有效的可持续解决方案。",
+    "en": "APOWER TECH hires young, energetic talent and develops them through training programs covering sustainable industry practices and community engagement. The value we provide equips them to find effective, sustainable solutions in the future."
+  },
+  {
+    "id": 217,
+    "label": "实验室标题",
+    "cn": "产品实验室：投资研发，提升您的产品质量",
+    "en": "Product Lab: Investing in R&D to Enhance Your Product Quality"
+  },
+  {
+    "id": 218,
+    "label": "实验室正文",
+    "cn": "APOWER 电器在产品开发的每一步都严格控制品质。实验室进行数百次测试，致力于在最重要的市场提供合适的产品。",
+    "en": "APOWER TECH controls quality at every stage of product development. Our lab conducts hundreds of tests, dedicated to delivering the right product in the markets that matter most."
+  },
+  {
+    "id": 219,
+    "label": "实验室 1",
+    "cn": "1. 新设计理念的灵活性测试",
+    "en": "1. Flexibility testing of new design concepts"
+  },
+  {
+    "id": 220,
+    "label": "实验室 2",
+    "cn": "2. 采购产品组件的测试",
+    "en": "2. Testing of purchased components"
+  },
+  {
+    "id": 221,
+    "label": "实验室 3",
+    "cn": "3. 完整样品的测试",
+    "en": "3. Testing of complete samples"
+  },
+  {
+    "id": 222,
+    "label": "实验室 4",
+    "cn": "4. 成品随机抽检",
+    "en": "4. Random inspection of finished products"
+  },
+  {
+    "id": 223,
+    "label": "队伍标题",
+    "cn": "我们的队伍：深厚的产品知识与高度的责任感",
+    "en": "Our Team: Deep Product Knowledge and a Strong Sense of Responsibility"
+  },
+  {
+    "id": 224,
+    "label": "队伍正文",
+    "cn": "先进的检测设备：从核心组件到家电成品，APOWER 电器大量投入硬件设施，使用精密的机器与设备进行严格测试，确保产品的最高品质。",
+    "en": "Advanced testing equipment: from core components to finished appliances, APOWER TECH invests heavily in hardware, using precision machinery and equipment for rigorous testing to ensure the highest quality."
+  },
+  {
+    "id": 225,
+    "label": "标题",
+    "cn": "让我们承接您新的个护家电项目！",
+    "en": "Let Us Take On Your New Personal Care Appliance Project!"
+  },
+  {
+    "id": 226,
+    "label": "行动号召",
+    "cn": "立即联系我们",
+    "en": "Contact Us Today"
+  },
+  {
+    "id": 227,
+    "label": "中国办事处",
+    "cn": "中国办事处",
+    "en": "China Office"
+  },
+  {
+    "id": 228,
+    "label": "公司名称",
+    "cn": "公司名称：佛山市空气力量科技有限公司",
+    "en": "Company: Foshan APOWER Technology Co., Ltd."
+  },
+  {
+    "id": 229,
+    "label": "公司地址",
+    "cn": "公司地址：广东省佛山市顺德区北滘镇设计城社区陈大滘工业小区创业一路1号太火鸟顺德 DESTECH 设计科技联合加速基地 C 座 6 楼 608 室",
+    "en": "Address: Room 608, 6/F, Block C, Taihuoniao Shunde DESTECH Design & Technology Joint Acceleration Base, No. 1 Chuangye 1st Road, Chendajiao Industrial Zone, Shejicheng Community, Beijiao Town, Shunde District, Foshan, Guangdong, China"
+  },
+  {
+    "id": 230,
+    "label": "邮箱",
+    "cn": "公司邮箱：kalman_chen@apowertechs.com",
+    "en": "Email: kalman_chen@apowertechs.com"
+  },
+  {
+    "id": 231,
+    "label": "手机",
+    "cn": "手机号码：+86 188 4266 5006",
+    "en": "Mobile: +86 188 4266 5006"
+  },
+  {
+    "id": 232,
+    "label": "WhatsApp",
+    "cn": "WhatsApp：+86 188 4266 5006",
+    "en": "WhatsApp: +86 188 4266 5006"
+  },
+  {
+    "id": 233,
+    "label": "1号厂",
+    "cn": "1 号厂地址：中山市南头镇晋合路 33 号",
+    "en": "Factory 1: No. 33 Jinhe Road, Nantou Town, Zhongshan City, Guangdong, China"
+  },
+  {
+    "id": 234,
+    "label": "1. 你们的供货能力如何？",
+    "cn": "日均产能 5,000 台，年出货 150 万至 200 万台。",
+    "en": "1. What is your production capacity?  Daily output is 5,000 units, with annual shipments of 1.5–2 million units."
+  },
+  {
+    "id": 235,
+    "label": "2. 你们的主要产品是什么？",
+    "cn": "不同定位的高速吹风机、多合一空气造型夹板、空气衣物护理产品，以及不同规格的美发个护造型工具。",
+    "en": "2. What are your main products?  High-speed hair dryers at various positioning levels, all-in-one air stylers, garment care appliances, and a range of hair styling tools in different specifications."
+  },
+  {
+    "id": 236,
+    "label": "3. 有哪些合作伙伴？",
+    "cn": "Radialight、VODANA、Sinbo、LIPWEL、VINTIS 等。",
+    "en": "3. Who are your partners?  Radialight, VODANA, Sinbo, LIPWEL, VINTIS, and others."
+  },
+  {
+    "id": 237,
+    "label": "4. 贵公司研发实力如何？",
+    "cn": "我们具备多年个护家电领域研发落地经验，拥有自主的风道与电机技术版图，拥有 20 项以上发明专利与实用新型专利，坚持每年推出 4 款新品。",
+    "en": "4. What are your R&D capabilities?  With years of hands-on R&D experience, we hold proprietary airflow and motor technology, more than 20 invention and utility-model patents, and we launch four new products every year."
+  },
+  {
+    "id": 238,
+    "label": "5. 产品的材质是什么？",
+    "cn": "PP、PC、铝合金等。",
+    "en": "5. What materials are used?  PP, PC, aluminum alloy, and others."
+  },
+  {
+    "id": 239,
+    "label": "6. 功率范围是多少？",
+    "cn": "1000W–2000W。",
+    "en": "6. What is the power range?  1000W–2000W."
+  },
+  {
+    "id": 240,
+    "label": "7. 可以免费寄样品吗？",
+    "cn": "可以，但您是否介意承担运费？若您后续下单，运费将全额退还。",
+    "en": "7. Can you send free samples?  Yes, though we kindly ask you to cover the shipping cost. The freight will be fully refunded once you place an order."
+  },
+  {
+    "id": 241,
+    "label": "8. 最小起订量是多少？",
+    "cn": "我们支持 1,000 台起订。",
+    "en": "8. What is your MOQ?  Our MOQ is 1,000 units."
+  },
+  {
+    "id": 242,
+    "label": "9. 可以选择什么颜色？",
+    "cn": "我们可根据您的需求制作任何颜色，只需提供潘通（Pantone）色号，其余由我们处理。",
+    "en": "9. What colors can I choose?  We can produce any color to your requirements. Simply provide the Pantone code and we will handle the rest."
+  },
+  {
+    "id": 243,
+    "label": "10. 可以印刷自己的 LOGO 吗？",
+    "cn": "可以，订单数量达到最小起订量即可进行定制化打样与生产。",
+    "en": "10. Can I print my own logo?  Yes. Once the order meets the MOQ, custom sampling and production can proceed."
+  },
+  {
+    "id": 244,
+    "label": "11. 可以订制外包装箱吗？",
+    "cn": "当然，但须满足最小起订量；我们可向您发送样品图片供确认。",
+    "en": "11. Can I customize the outer cartons?  Certainly, subject to the MOQ. We can send sample images for your confirmation."
+  },
+  {
+    "id": 245,
+    "label": "12. 你们有哪些证书？",
+    "cn": "ISO9001、FCC、CE、UL、IC、PSE、UKCA 等，满足全球绝大多数国家的认证需求。",
+    "en": "12. What certifications do you hold?  ISO9001, FCC, CE, UL, IC, PSE, UKCA, and more, covering the certification requirements of most countries worldwide."
+  },
+  {
+    "id": 246,
+    "label": "13. 保修期多长？",
+    "cn": "标准为 1 年保修期。",
+    "en": "13. How long is the warranty?  The standard warranty is one year."
+  },
+  {
+    "id": 247,
+    "label": "14. 不良品比例是多少？",
+    "cn": "每 1,000 台售后率不到千分之五。",
+    "en": "14. What is the defect rate?  The after-sales rate is below 0.5% (fewer than 5 units per 1,000)."
+  },
+  {
+    "id": 248,
+    "label": "15. 产品使用独立开发的模具吗？",
+    "cn": "是的，产品均为我们自主设计研发的独立模具。",
+    "en": "15. Do you use independently developed molds?  Yes. All products use proprietary molds designed and developed in-house."
+  },
+  {
+    "id": 249,
+    "label": "16. 若需要样品，能只为我做一个吗？",
+    "cn": "当然，我们也期待长期合作，这样便可为您保留专属样品。",
+    "en": "16. If I need a sample, can you make one exclusively for me?  Certainly. We also seek long-term partnerships, and an exclusive sample can be reserved for you."
+  },
+  {
+    "id": 250,
+    "label": "17. 先下小订单、再下大订单，能给折扣吗？",
+    "cn": "我们期待长期合作，第二次订单将提供一定折扣。",
+    "en": "17. If I start with a small order and then place a larger one, can I get a discount?  We value long-term partnerships and will offer a discount on your second order."
+  },
+  {
+    "id": 251,
+    "label": "18. 传统吹风机和高速吹风机有什么区别？",
+    "cn": "主要区别在于电机、风速、温度与附加功能。高速吹风机通常采用无刷电机，转速更快、风速更高，且多带负离子等护发功能；传统吹风机多采用碳刷电机，风速较低，容易损伤头发。",
+    "en": "18. What is the difference between a conventional and a high-speed hair dryer?  The main differences lie in the motor, airflow speed, temperature, and added features. High-speed dryers typically use brushless motors for faster rotation and higher airflow, often with ionic hair-care features. Conventional dryers use carbon-brush motors, produce lower airflow, and are more likely to damage hair."
+  },
+  {
+    "id": 252,
+    "label": "19. 运费偏高怎么办？",
+    "cn": "运费不断变化，但我们有 5–6 家货运代理可供选择，可为您筛选最佳方案，降低物流成本。",
+    "en": "19. What if shipping costs are high?  Freight rates fluctuate, but we work with 5–6 forwarders and can select the best option to reduce your logistics cost."
+  },
+  {
+    "id": 253,
+    "label": "20. 我有其他报价更低的方案。",
+    "cn": "我们可以尝试匹配您的目标价格，但更低的价格往往意味着更低的质量，相信这是双方都不愿看到的。",
+    "en": "20. I have another quote at a lower price.  We can try to match your target price, but a lower price generally means lower quality — an outcome we believe neither of us wants."
+  },
+  {
+    "id": 254,
+    "label": "21. 可以寄联邦快递（FedEx）吗？",
+    "cn": "可以，我们也有更多节省成本的选择。",
+    "en": "21. Can you ship via FedEx?  Yes, and we also offer additional cost-saving options."
+  },
+  {
+    "id": 255,
+    "label": "22. 你们采用哪种运输方式？",
+    "cn": "海运或空运，部分地区支持陆运。我们与众多货运代理和快递供应商签有长期合约。",
+    "en": "22. What shipping methods do you use?  By sea or air, and by land in some regions. We have long-term contracts with many forwarders and express carriers."
+  },
+  {
+    "id": 256,
+    "label": "23. 常规交货周期多长？",
+    "cn": "常规交货时间为收到订金后 30–35 个工作日左右；根据原材料储备情况，部分型号与颜色出货周期不超过 30 天。",
+    "en": "23. What is your standard lead time?  Standard lead time is around 30–35 working days after receipt of deposit. Depending on material availability, some models and colors can ship within 30 days."
+  },
+  {
+    "id": 257,
+    "label": "修订",
+    "cn": "成立年份：统一为 2020 年（「关于我们」与「里程碑」一致）。",
+    "en": "Founding year standardized to 2020 (aligned across \"About Us\" and \"Milestones\")."
+  },
+  {
+    "id": 258,
+    "label": "修订",
+    "cn": "经验年限：由 8 年修正为 6 年（2020 年至 2026 年）。",
+    "en": "Years of experience corrected from 8 to 6 (2020–2026)."
+  },
+  {
+    "id": 259,
+    "label": "修订",
+    "cn": "专利数量：以当前累计 45+ 为对外口径；R&D 页「成立 5 年内 40+」为历史累计，FAQ「20+ 发明专利与实用新型」为其中的发明/实用新型口径，三者不再冲突。",
+    "en": "Patent count: 45+ is the current cumulative figure; the R&D \"40+ within the first five years\" is historical, and the FAQ \"20+ invention and utility-model patents\" is a subset. The three no longer conflict."
+  },
+  {
+    "id": 260,
+    "label": "修订",
+    "cn": "研发投入：统一为 17%（标题与正文一致）。",
+    "en": "R&D investment standardized to 17% (heading and body aligned)."
+  },
+  {
+    "id": 261,
+    "label": "修订",
+    "cn": "产能口径：月产能由 50,000 修正为 150,000 台，与「日均 5,000 台」及年出货 150 万至 200 万台一致。",
+    "en": "Capacity: monthly capacity corrected from 50,000 to 150,000 units, consistent with the daily output of 5,000 and annual shipments of 1.5–2 million."
+  },
+  {
+    "id": 262,
+    "label": "修订",
+    "cn": "品牌数量：「20+ 全球知名品牌合作」为知名品牌口径，「55 个联合品牌案例 / 55+ 信赖品牌」为全部合作口径，二者为包含关系，不再冲突。",
+    "en": "Brand figures: \"20+ global brand partnerships\" refers to well-known brands, while \"55 co-branding cases / 55+ trusted brands\" covers all partners; the two are inclusive and no longer conflict."
+  },
+  {
+    "id": 263,
+    "label": "修订",
+    "cn": "质量体系：ISO9001:2000 统一更新为现行有效版本 ISO9001:2015。",
+    "en": "Quality management system: ISO9001:2000 updated to the current ISO9001:2015."
+  }
+]

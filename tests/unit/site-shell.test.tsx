@@ -2,6 +2,16 @@ import { fireEvent, render, screen, within } from "@testing-library/react";
 import { SiteShell } from "@/components/site/Header";
 
 describe("SiteShell", () => {
+  it("uses the supplied APOWER logo in both shared chrome and the mobile drawer", () => {
+    render(<SiteShell locale="en"><main>Page</main></SiteShell>);
+    for (const region of [screen.getByRole("banner"), screen.getByRole("contentinfo")]) {
+      expect(within(region).getByRole("img", { name: "APOWER" })).toHaveAttribute("src", "/media/apower-logo.png");
+    }
+    expect(screen.getByRole("link", { name: "APOWER home" })).toHaveAttribute("href", "/en");
+    fireEvent.click(screen.getByRole("button", { name: "Menu" }));
+    expect(within(screen.getByRole("dialog", { name: "Menu" })).getByRole("img", { name: "APOWER" })).toHaveAttribute("src", "/media/apower-logo.png");
+  });
+
   it("renders the localized primary navigation, language destination, and contact footer", () => {
     render(
       <SiteShell locale="en">
@@ -14,7 +24,7 @@ describe("SiteShell", () => {
     // Catches language switches that drop users on the wrong locale home route.
     expect(screen.getByRole("link", { name: "中文" })).toHaveAttribute("href", "/cn");
     // Catches footer shells that omit the site contact channel.
-    expect(screen.getByRole("contentinfo")).toHaveTextContent("tina.fang@linknove.com");
+    expect(screen.getByRole("contentinfo")).toHaveTextContent("kalman_chen@apowertechs.com");
   });
 
   it("opens and closes a desktop submenu with keyboard controls", () => {
@@ -28,7 +38,7 @@ describe("SiteShell", () => {
     fireEvent.click(toggle);
 
     expect(toggle).toHaveAttribute("aria-expanded", "true");
-    expect(screen.getByRole("link", { name: "Hair Dryer" })).toHaveAttribute("href", "/en/Product/682975.html");
+    expect(screen.getByRole("link", { name: "Hair Dryers" })).toHaveAttribute("href", "/en/Product/682975.html");
 
     fireEvent.keyDown(toggle, { key: "Escape" });
     expect(toggle).toHaveAttribute("aria-expanded", "false");
@@ -48,7 +58,7 @@ describe("SiteShell", () => {
 
     // Catches a pointer/focus pre-open being immediately inverted by the click handler.
     expect(toggle).toHaveAttribute("aria-expanded", "true");
-    expect(screen.getByRole("link", { name: "Hair Dryer" })).toBeVisible();
+    expect(screen.getByRole("link", { name: "Hair Dryers" })).toBeVisible();
   });
 
   it("closes a desktop submenu when its expanded toggle is clicked again", () => {
@@ -66,7 +76,7 @@ describe("SiteShell", () => {
 
     // Catches a menu toggle that can open but leaves pointer-only users unable to dismiss it.
     expect(toggle).toHaveAttribute("aria-expanded", "false");
-    expect(screen.queryByRole("link", { name: "Hair Dryer" })).not.toBeInTheDocument();
+    expect(screen.queryByRole("link", { name: "Hair Dryers" })).not.toBeInTheDocument();
   });
 
   it("does not move focus to the closed mobile-menu trigger on mount", () => {

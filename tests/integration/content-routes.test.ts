@@ -22,7 +22,7 @@ it("dispatches all 68 existing detail records with their own metadata and a sing
     expect(html, page.legacyPath).toContain('class="article-detail');
     expect(html.match(/<h1[ >]/g)).toHaveLength(1);
     expect(html).toContain("LBH APPLIANCES");
-    expect(await generateMetadata({ params })).toMatchObject({ title: page.seo.title, description: page.seo.description });
+    expect(await generateMetadata({ params })).toMatchObject({ title: page.seo.title.replace(/LBH Appliances|LBH APPLIANCES|LBH电器|LHB|LBH/g, 'APOWER TECH'), description: page.seo.description.replace(/LBH Appliances|LBH APPLIANCES|LBH电器|LHB|LBH/g, 'APOWER TECH') });
   }
 });
 

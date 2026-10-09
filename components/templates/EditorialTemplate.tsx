@@ -6,10 +6,13 @@ import { EditorialGallery } from "@/components/interactive/EditorialGallery";
 import { Media } from "@/components/site/Media";
 import { SourceVideo } from "@/components/interactive/SourceVideo";
 import "./editorial.css";
+import { apowerEditorial } from '@/content/apower-editorial';
+import { factoryVideo, text } from '@/content/apower';
 
 export function EditorialTemplate({ page }: { page: SitePage }) {
+  page=apowerEditorial(page);
   const isSummary = page.provenance.coverage === "localized-summary";
-  const sections = (page.locale === "cn" ? chineseEditorialSections : editorialSections)[page.legacyPath as (typeof editorialPaths)[number]];
+  const sections = chineseEditorialSections[page.legacyPath as (typeof editorialPaths)[number]];
   const blocks = page.blocks.map((block): ContentBlock => {
     if (block.type !== "gallery" || !["/Company_Introduction", "/Certification_certificate"].includes(page.legacyPath)) return block;
     return { ...block, images: block.images.map((image, index) => ({ ...image, alt: image.alt || `${page.locale === "cn" ? "产品认证证书" : "Product certificate"} ${index + 1}` })) };
@@ -29,7 +32,7 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
   const renderEntry = (entry: EditorialEntry) => {
     if (typeof entry === "number") return renderBlock(blocks[entry]);
     if ("media" in entry) return renderSourceGallery(entry);
-    if ("video" in entry) return <SourceVideo video={entry.video} locale={page.locale} />;
+    if ("video" in entry) return <SourceVideo video={page.legacyPath==='/Factory_tour'?factoryVideo:entry.video} locale={page.locale} />;
     return <div className="editorial-test-item"><Media image={{ ...page.images[entry.icon], alt: "" }} />{renderBlock(blocks[entry.block])}</div>;
   };
   // Summaries have fewer text blocks, so do not reuse English block indices.
@@ -52,6 +55,7 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
       className={`editorial-section editorial-section--${section.layout}${section.tone ? ` editorial-section--${section.tone}` : ""}`}
       key={index}
     >
+      {page.legacyPath==='/Contract_manufacturing_service' && index===1 && <h2 className="editorial-facts-title">{text(98,page.locale)}</h2>}
       <div className="editorial-section__inner">{section.groups.map((indices, groupIndex) => <div className="editorial-section__group" key={groupIndex}>
         {indices.map((entry, entryIndex) => <Fragment key={entryIndex}>{renderEntry(entry)}</Fragment>)}
       </div>)}</div>

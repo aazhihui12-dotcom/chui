@@ -11,10 +11,10 @@ export function HeroCarousel({ slides, locale }: { slides: HeroSlide[]; locale: 
   const cn = locale === "cn";
   const change = (direction: number) => setActive((index) => (index + direction + slides.length) % slides.length);
   return <section className="home-hero" data-locale={locale} aria-label={cn ? "产品与品牌展示" : "Products and brand highlights"} aria-roledescription="carousel">
-    {slides.map((slide, index) => <div key={slide.title} hidden={index !== active} className={index ? "hero-slide hero-slide--product" : "hero-slide"} role="group" aria-roledescription="slide" aria-label={`${index + 1} / ${slides.length}`}>
+    {slides.map((slide, index) => <div key={slide.title} hidden={index !== active} className={index ? "hero-slide hero-slide--product" : "hero-slide hero-slide--brand"} role="group" aria-roledescription="slide" aria-label={`${index + 1} / ${slides.length}`}>
       <Media image={{ ...slide.image, width: index ? 900 : 1920, height: 800, alt: index ? slide.title : "" }} priority={index === 0} className="home-hero__image" />
       <div className="home-hero__inner">
-        {index === 0 ? <h1 id="home-title">{slide.title}<br /><span>{slide.subtitle}</span></h1> : <><p className="eyebrow">LBH APPLIANCES</p><h2>{slide.title}</h2><p className="hero-slide__subtitle">{slide.subtitle}</p></>}
+        {index === 0 ? <h1 id="home-title">{slide.title}<br /><span>{slide.subtitle}</span></h1> : <><p className="eyebrow">APOWER TECH</p><h2>{slide.title}</h2><p className="hero-slide__subtitle">{slide.subtitle}</p></>}
         {slide.bullets && <ul>{slide.bullets.map((bullet) => <li key={bullet}><span aria-hidden="true">✓</span>{bullet}</li>)}</ul>}
         {slide.href && <a className="lbh-button" href={slide.href}>{cn ? "探索产品" : "Explore product"}<span aria-hidden="true"> ↗</span></a>}
       </div>

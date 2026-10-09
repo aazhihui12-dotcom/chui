@@ -5,9 +5,9 @@ import { siteOrigin } from "@/lib/metadata";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteOrigin()),
-  title: "LBH Appliances",
-  description: "LBH Appliances product catalogue.",
-  applicationName: "LBH Appliances",
+  title: "APOWER TECH",
+  description: "APOWER TECH personal care appliances.",
+  applicationName: "APOWER TECH",
 };
 
 export default function RootLayout({

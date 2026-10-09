@@ -1,0 +1,42 @@
+/* Retained LBH root homepage, modules 724143437–440:
+   1920×406 photograph, 1200px title container, 1089px four-icon row.
+   This module intentionally follows the original, not the prior white-card draft. */
+.home-page .home-sustainability {
+  position:relative;
+  width:100%;
+  container-type:inline-size;
+  background:url('/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp') center/cover no-repeat;
+  text-align:center;
+}
+.home-page .home-sustainability .home-section { max-width:1200px; padding:0; margin:0 auto; }
+.home-page .home-sustainability h2 { color:#fff; max-width:none; margin:0 auto; font-size:40px; line-height:60px; font-weight:400; }
+html[lang=en] .home-page .home-sustainability h2 { font:700 32px/48px Poppins; }
+.home-page .sustainability-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:1px; width:99%; max-width:1089px; margin:0 auto; }
+.home-page .sustainability-grid a { display:flex; flex-direction:column; align-items:center; justify-content:flex-start; min-width:0; min-height:0; aspect-ratio:auto; background:transparent; padding:0 15px; border:0; box-shadow:none; }
+.home-page .sustainability-grid img { width:45%; height:auto; padding:0 15px; object-fit:contain; }
+.home-page .sustainability-grid h3 { color:#fff; width:100%; font-family:微软雅黑; font-size:18px; line-height:23.994px; font-weight:700; margin:18px 0 0; }
+html[lang=en] .home-page .sustainability-grid h3 { font:700 20px/30px Poppins; }
+.home-page .sustainability-grid a:focus-visible { outline:2px solid #fff; outline-offset:4px; }
+@media (min-width:768px) {
+  .home-page .home-sustainability { aspect-ratio:1920/406; }
+  .home-page .home-sustainability .home-section { position:absolute; inset:0; width:100%; height:100%; }
+  .home-page .home-sustainability h2 { position:absolute; left:10px; right:10px; top:calc(min(100cqw,1200px)*0.06177 + 10px); }
+  .home-page .sustainability-grid { position:absolute; left:50%; top:calc(100% - 10.9718cqw); transform:translateX(-50%); }
+  html[lang=zh-CN] .home-page .sustainability-grid a:nth-child(-n+2) h3 { font-size:20px; }
+}
+@media (min-width:768px) and (max-width:1199px) {
+  /* Keep longer supplied APOWER copy clear of the source icon row on tablets. */
+  .home-page .home-sustainability { min-height:320px; }
+}
+@media (max-width:767px) {
+  .home-page .home-sustainability .home-section { width:100%; padding:11.5274cqw 0; }
+  .home-page .home-sustainability h2 { padding:10px; font-size:26px; line-height:39px; }
+  /* Source outer 26px span creates a 39px line box around the 22px EN text. */
+  html[lang=en] .home-page .home-sustainability h2 { font-size:22px; line-height:39px; font-weight:400; }
+  .home-page .sustainability-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:1px; width:99%; margin-top:0; }
+  .home-page .sustainability-grid a { padding:0 15px 20px; }
+  .home-page .sustainability-grid h3 { font-family:inherit; font-size:16px; line-height:23.994px; }
+  html[lang=en] .home-page .sustainability-grid h3 { font-size:14px; line-height:21px; }
+  html[lang=en] .home-page .sustainability-grid a:nth-child(1) h3 { font-family:inherit; }
+  html[lang=en] .home-page .sustainability-grid a:nth-child(2) h3 { font-family:Verdana; }
+}

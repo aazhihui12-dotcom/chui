@@ -82,7 +82,7 @@ export const editorialSections: Partial<Record<(typeof editorialPaths)[number], 
     { layout: "split", groups: [[52], [53, 54, 55]], tone: "muted" },
   ],
   "/PinZhiGuanLi": [
-    { layout: "split", groups: [[2], [sourceGallery([0, 1], "ISO 9001:2000 quality management", "ISO 9001:2000 品质管理")]] },
+    { layout: "split", groups: [[2], [sourceGallery([0, 1], "ISO 9001:2015 quality management", "ISO 9001:2015 品质管理")]] },
     { layout: "split", groups: [[sourceGallery([2, 3], "Quality in every component", "零部件品质管理")], [3, 4]], tone: "dark" },
     { layout: "split", groups: [[sourceGallery([4, 5], "Independently developed drive module", "自主研发驱动模块")], [5, 6]], tone: "muted" },
     { layout: "split", groups: [[7, 8], [sourceGallery([6, 7, 8], "High-speed motor manufacturing", "高速电机制造")]] },

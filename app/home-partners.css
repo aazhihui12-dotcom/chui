@@ -1,0 +1,51 @@
+/* Supplied partner reference: a light grey surface, five desktop logos and
+   three white testimonial cards. Source-timed sliding and mobile coverflow. */
+.home-page .home-partners { background:#f8f9fb; padding:60px 0; text-align:center; }
+.home-page .home-partners__inner { width:calc(100% - 40px); max-width:1200px; margin:0 auto; }
+.home-page .home-partners h2 { font-size:40px; line-height:60px; font-weight:400; text-align:center; margin:0 0 30px; }
+.home-page .home-partners .partner-carousel { --partner-step:20%; --partner-origin:0%; --partner-duration:2s; }
+.home-page .home-partners .partner-carousel__track { position:relative; transform:translateX(calc(var(--partner-origin) - var(--partner-step)*var(--partner-progress))); }
+.home-page .home-partners .partner-carousel__track>div { flex:0 0 var(--partner-step); min-width:0; padding:0 10px; }
+.home-page .home-partners .partner-carousel__track>.partner-carousel__previous { position:absolute; left:calc(var(--partner-index)*var(--partner-step)); top:0; width:var(--partner-step); }
+.home-page .home-partners .partner-carousel--moving .partner-carousel__track,
+.home-page .home-partners .partner-carousel--moving .partner-carousel__track>div { transition:transform var(--partner-duration) ease; }
+.home-page .home-partners .partner-carousel__track img { display:block; width:100%; height:145px; object-fit:contain; background:#fff; }
+.home-page .home-partners .partner-carousel__controls {
+  position:absolute; inset:0; display:block; pointer-events:none; opacity:0;
+  transition:opacity var(--motion-fast);
+}
+.home-page .home-partners .partner-carousel:is(:hover,:focus-within) .partner-carousel__controls { opacity:1; }
+.home-page .home-partners .partner-carousel__controls button { position:absolute; pointer-events:auto; width:36px; height:36px; }
+.home-page .home-partners .partner-carousel__controls button:nth-of-type(1) { left:0; top:50%; transform:translateY(-50%); }
+.home-page .home-partners .partner-carousel__controls button:nth-of-type(2) { right:0; top:50%; transform:translateY(-50%); }
+.home-page .home-partners .partner-carousel__controls button:nth-of-type(3) { left:50%; bottom:5px; transform:translateX(-50%); }
+.home-page .home-partners .testimonials { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px; margin:40px 0 0; }
+.home-page .home-partners .testimonials figure { display:flex; flex-direction:column; min-width:0; margin:0; padding:0 0 30px; border-radius:20px; overflow:hidden; background:#fff; text-align:left; }
+.home-page .home-partners .testimonials img { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:contain; border-radius:0; background:#fff; }
+.home-page .home-partners .testimonials blockquote { flex:1; padding:0; margin:20px 20px 25px; color:var(--text-primary); font-size:14px; line-height:28px; text-align:left; }
+.home-page .home-partners .testimonials figcaption { padding:0 20px; margin:0; color:var(--text-primary); font-size:20px; line-height:30px; font-weight:400; }
+.home-page .home-partners .testimonials figcaption::before { content:'— — '; }
+@media (max-width:767px) {
+  .home-page .home-partners { padding:60px 0; }
+  .home-page .home-partners__inner { width:calc(100% - 30px); }
+  .home-page .home-partners h2 { font-size:var(--home-heading-size); line-height:var(--home-heading-line); }
+  .home-page .home-partners .partner-carousel { --partner-step:66.6667%; --partner-origin:16.66665%; --partner-duration:1s; }
+  .home-page .home-partners .partner-carousel__viewport { perspective:1200px; }
+  .home-page .home-partners .partner-carousel__track { transform-style:preserve-3d; }
+  .home-page .home-partners .partner-carousel__track>div {
+    --partner-relative:calc(var(--partner-index) - var(--partner-progress));
+    --partner-distance:max(var(--partner-relative),calc(-1*var(--partner-relative)));
+    transform:translate3d(calc(-165px*var(--partner-relative)),0,calc(-195px*var(--partner-distance)));
+    z-index:calc(100 - var(--partner-distance));
+    transform-style:preserve-3d;
+  }
+  .home-page .home-partners .partner-carousel__controls { opacity:1; }
+  .home-page .home-partners .testimonials { grid-template-columns:1fr; gap:30px; }
+  .home-page .home-partners .testimonials blockquote { line-height:26px; }
+  .home-page .home-partners .testimonials figcaption { font-size:18px; line-height:27px; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .home-page .home-partners .partner-carousel__controls { transition:none; }
+  .home-page .home-partners .partner-carousel--moving .partner-carousel__track,
+  .home-page .home-partners .partner-carousel--moving .partner-carousel__track>div { transition:none; }
+}

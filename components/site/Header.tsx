@@ -7,14 +7,15 @@ import { MobileMenu } from "@/components/interactive/MobileMenu";
 import { Footer } from "./Footer";
 import { FloatingActions } from "./FloatingActions";
 import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
+import { BrandLogo } from "./BrandLogo";
 
 export function Header({ locale }: { locale: Locale }) {
   const config = siteConfig[locale];
 
   return (
     <header className="site-header">
-      <a className="site-brand" href={`/${locale}`} aria-label={`${config.name} home`}>
-        <img src="/media/02c18594ff75b4cec3a7b5913466afc8c03f83ebd36105841df28808f49e93df.webp" alt="LBH APPLIANCES" width="132" height="24" />
+      <a className="site-brand" href={`/${locale}`} aria-label="APOWER home">
+        <BrandLogo />
       </a>
       <DesktopNav items={config.navigation} />
       <div className="site-header__actions">

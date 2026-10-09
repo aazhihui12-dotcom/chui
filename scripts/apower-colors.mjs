@@ -1,10 +1,10 @@
-// APOWER-inspired accents on light product surfaces; dark brand sections remain.
+// MOVA-inspired monochrome surfaces with restrained champagne accents.
 // Only color tokens are changed. Typography, geometry, URLs and alpha stay intact.
 export const palette = {
-  ink: '#102746', surface: '#f3f6fa', raised: '#ffffff',
-  primary: '#165dcc', accent: '#b6d4ff',
-  gold: '#b79565', white: '#ffffff', text: '#17324d',
-  muted: '#526579', darkMuted: '#cbd5e1', border: '#ccd8e5',
+  ink: '#333232', surface: '#f2f1ed', raised: '#ffffff',
+  primary: '#000000', accent: '#c9b498',
+  gold: '#c9b498', white: '#ffffff', text: '#000000',
+  muted: '#62605c', darkMuted: '#dedbd6', border: '#dad9d9',
 };
 const originalVars = {black:'#1f1b19', orange:'#ef4b00', warm:'#dbc6b7', white:'#ffffff', text:'#4e4844', muted:'#a89d96'};
 export function themeColor(property, value, context = 'light') {
@@ -41,7 +41,7 @@ export function themeColor(property, value, context = 'light') {
       else if (context === 'dark') result = level<80 || level>220 ? palette.white : palette.darkMuted;
       else result = level>240 ? (context==='content'?palette.text:palette.white) : level<80 ? palette.text : palette.muted;
     }
-    else if (border) result = orange ? palette.primary : context==='dark' ? '#4f6680' : palette.border;
+    else if (border) result = orange ? palette.primary : context==='dark' ? '#77736d' : palette.border;
     else result = orange ? palette.primary : level<170 ? palette.ink : level<250 ? palette.surface : palette.white;
     if(alpha===1) return result;
     return `rgb(${[1,3,5].map(i=>parseInt(result.slice(i,i+2),16)).join(' ')} / ${Number(alpha.toFixed(5))})`;

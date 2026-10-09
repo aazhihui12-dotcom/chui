@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { allPages, getPage, productStaticParams, articleStaticParams } from "@/lib/content";
 import { isLocale } from "@/lib/i18n";
 import { categories, products } from "@/content/products";
+import { apowerCategories, apowerProducts } from '@/content/apower';
 import { ProductIndexTemplate } from "@/components/templates/ProductIndexTemplate";
 import { ProductCategoryTemplate } from "@/components/templates/ProductCategoryTemplate";
 import { ProductDetailTemplate } from "@/components/templates/ProductDetailTemplate";
@@ -41,12 +42,12 @@ export default async function ContentPage({ params }: Props) {
   if (page.sourceEmpty) return <main id="main-content" aria-label={page.title} />;
   if (page.kind === "product-index") return <ProductIndexTemplate page={page} />;
   if (page.kind === "product-category") {
-    const category = categories.find((item) => item.id === page.categoryId);
+    const category = [...apowerCategories,...categories].find((item) => item.id === page.categoryId);
     if (!category) notFound();
     return <ProductCategoryTemplate category={category} locale={locale} />;
   }
   if (page.kind === "product-detail") {
-    const product = products.find((item) => item.id === page.productId);
+    const product = [...apowerProducts,...products].find((item) => item.id === page.productId);
     if (!product) notFound();
     return <ProductDetailTemplate product={product} locale={locale} />;
   }

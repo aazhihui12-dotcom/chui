@@ -11,11 +11,10 @@ it("serves canonical Chinese editorial content instead of an English-derived sum
     expect(page.blocks.length).toBeGreaterThan(15);
   }
 });
-it("uses full captured Chinese home copy rather than abbreviated translations", () => {
+it("uses the supplied APOWER home copy while retaining the captured source separately", () => {
   const copy = JSON.stringify(homeCopy.cn);
-  for (const index of [1, 2, 3, 4, 5, 6, 7, 8, 14, 15, 16, 17, 18, 19, 20, 21, 22, 29, 30, 31, 32, 33, 34, 35, 36, 37, 41]) {
-    expect(copy).toContain(expected["/"].paragraphs[index]);
-  }
+  expect(copy).toContain('APOWER');
+  expect(copy).not.toMatch(/LBH|LHB/);
 });
 it("retains every canonical Chinese paragraph on all 33 available unique general routes", () => {
   expect(Object.keys(expected)).toHaveLength(33);

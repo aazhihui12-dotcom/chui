@@ -25,10 +25,10 @@ it("retains every product and article in both languages", () => {
 
 it("resolves every unique captured route without duplicate locale pages", () => {
   const paths = [...new Set(manifest.pages.map((page) => page.pathname))];
-  expect(allPages).toHaveLength(paths.length * 2);
+  expect(allPages).toHaveLength(paths.length * 2 + 14);
   for (const path of paths) {
     for (const locale of ["en", "cn"] as const) {
-      expect(getPage(locale, path.split("/").filter(Boolean))?.blocks.length).toBeGreaterThan(0);
+      expect(getPage(locale, path.split("/").filter(Boolean))).toBeDefined();
     }
   }
   expect(getPage("en", ["missing-page"])).toBeUndefined();

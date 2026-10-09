@@ -1,0 +1,5 @@
+/* Only hydration arms source entrances; no-JS HTML never hides its content. */
+.home-page [data-home-motion-state=pending] { opacity:0; }
+@media (prefers-reduced-motion:reduce) {
+  .home-page [data-home-motion-state] { opacity:1!important; translate:none!important; }
+}

@@ -9,8 +9,8 @@
       "route": "/cn",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -20,8 +20,8 @@
       "route": "/cn",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -31,8 +31,8 @@
       "route": "/cn/About_us",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -42,8 +42,8 @@
       "route": "/cn/About_us",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -53,8 +53,8 @@
       "route": "/cn/Blog",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -64,8 +64,8 @@
       "route": "/cn/Blog",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -75,8 +75,8 @@
       "route": "/cn/Certification_certificate",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -86,8 +86,8 @@
       "route": "/cn/Certification_certificate",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -97,8 +97,8 @@
       "route": "/cn/Company_Introduction",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -108,8 +108,8 @@
       "route": "/cn/Company_Introduction",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -119,8 +119,8 @@
       "route": "/cn/Contact",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -130,8 +130,8 @@
       "route": "/cn/Contact",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -141,8 +141,8 @@
       "route": "/cn/Contact_Us",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -152,8 +152,8 @@
       "route": "/cn/Contact_Us",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -163,8 +163,8 @@
       "route": "/cn/Content/3012462.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -174,8 +174,8 @@
       "route": "/cn/Content/3012462.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -185,8 +185,8 @@
       "route": "/cn/Content/3022032.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -196,8 +196,8 @@
       "route": "/cn/Content/3022032.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -207,8 +207,8 @@
       "route": "/cn/Content/3022033.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -218,8 +218,8 @@
       "route": "/cn/Content/3022033.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -229,8 +229,8 @@
       "route": "/cn/Contract_manufacturing_service",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -240,8 +240,8 @@
       "route": "/cn/Contract_manufacturing_service",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -251,8 +251,8 @@
       "route": "/cn/Design_and_Development",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -262,8 +262,8 @@
       "route": "/cn/Design_and_Development",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -273,8 +273,8 @@
       "route": "/cn/DownLoad/261888.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -284,8 +284,8 @@
       "route": "/cn/DownLoad/261888.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -295,8 +295,8 @@
       "route": "/cn/DownLoad/261889.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -306,8 +306,8 @@
       "route": "/cn/DownLoad/261889.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -317,8 +317,8 @@
       "route": "/cn/DownLoad/261890.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -328,8 +328,8 @@
       "route": "/cn/DownLoad/261890.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -339,8 +339,8 @@
       "route": "/cn/DownLoad/261891.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -350,8 +350,8 @@
       "route": "/cn/DownLoad/261891.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -361,8 +361,8 @@
       "route": "/cn/Exclusive_sale",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -372,8 +372,8 @@
       "route": "/cn/Exclusive_sale",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -383,8 +383,8 @@
       "route": "/cn/Factory_tour",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -394,8 +394,8 @@
       "route": "/cn/Factory_tour",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -405,8 +405,8 @@
       "route": "/cn/FAQ",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -416,8 +416,8 @@
       "route": "/cn/FAQ",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -427,8 +427,8 @@
       "route": "/cn/Lead_the_team",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -438,8 +438,8 @@
       "route": "/cn/Lead_the_team",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -449,8 +449,8 @@
       "route": "/cn/Milestone",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -460,8 +460,8 @@
       "route": "/cn/Milestone",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -471,8 +471,8 @@
       "route": "/cn/NewsDetail/6724244.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -482,8 +482,8 @@
       "route": "/cn/NewsDetail/6724244.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -493,8 +493,8 @@
       "route": "/cn/NewsDetail/6724245.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -504,8 +504,8 @@
       "route": "/cn/NewsDetail/6724245.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -515,8 +515,8 @@
       "route": "/cn/NewsDetail/6724246.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -526,8 +526,8 @@
       "route": "/cn/NewsDetail/6724246.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -537,8 +537,8 @@
       "route": "/cn/NewsDetail/6724247.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -548,8 +548,8 @@
       "route": "/cn/NewsDetail/6724247.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -559,8 +559,8 @@
       "route": "/cn/NewsDetail/6724248.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -570,8 +570,8 @@
       "route": "/cn/NewsDetail/6724248.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -581,8 +581,8 @@
       "route": "/cn/NewsDetail/6724249.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -592,8 +592,8 @@
       "route": "/cn/NewsDetail/6724249.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -603,8 +603,8 @@
       "route": "/cn/NewsDetail/6724250.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -614,8 +614,8 @@
       "route": "/cn/NewsDetail/6724250.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -625,8 +625,8 @@
       "route": "/cn/NewsDetail/6724252.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -636,8 +636,8 @@
       "route": "/cn/NewsDetail/6724252.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -647,8 +647,8 @@
       "route": "/cn/NewsDetail/6724253.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -658,8 +658,8 @@
       "route": "/cn/NewsDetail/6724253.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -669,8 +669,8 @@
       "route": "/cn/NewsDetail/6724254.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -680,8 +680,8 @@
       "route": "/cn/NewsDetail/6724254.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -691,8 +691,8 @@
       "route": "/cn/NewsDetail/6724255.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -702,8 +702,8 @@
       "route": "/cn/NewsDetail/6724255.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -713,8 +713,8 @@
       "route": "/cn/NewsDetail/6809208.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -724,8 +724,8 @@
       "route": "/cn/NewsDetail/6809208.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -735,8 +735,8 @@
       "route": "/cn/NewsDetail/6809209.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -746,8 +746,8 @@
       "route": "/cn/NewsDetail/6809209.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -757,8 +757,8 @@
       "route": "/cn/NewsDetail/6809210.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -768,8 +768,8 @@
       "route": "/cn/NewsDetail/6809210.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -779,8 +779,8 @@
       "route": "/cn/NewsDetail/6809211.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -790,8 +790,8 @@
       "route": "/cn/NewsDetail/6809211.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -801,8 +801,8 @@
       "route": "/cn/NewsDetail/6809212.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -812,8 +812,8 @@
       "route": "/cn/NewsDetail/6809212.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -823,8 +823,8 @@
       "route": "/cn/NewsDetail/6809213.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -834,8 +834,8 @@
       "route": "/cn/NewsDetail/6809213.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -845,8 +845,8 @@
       "route": "/cn/NewsDetail/6809214.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -856,8 +856,8 @@
       "route": "/cn/NewsDetail/6809214.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -867,8 +867,8 @@
       "route": "/cn/NewsDetail/6809215.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -878,8 +878,8 @@
       "route": "/cn/NewsDetail/6809215.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -889,8 +889,8 @@
       "route": "/cn/NewsDetail/6809216.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -900,8 +900,8 @@
       "route": "/cn/NewsDetail/6809216.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -911,8 +911,8 @@
       "route": "/cn/NewsDetail/6809217.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -922,8 +922,8 @@
       "route": "/cn/NewsDetail/6809217.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -933,8 +933,8 @@
       "route": "/cn/NewsDetail/6809218.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -944,8 +944,8 @@
       "route": "/cn/NewsDetail/6809218.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -955,8 +955,8 @@
       "route": "/cn/NewsDetail/6809219.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -966,8 +966,8 @@
       "route": "/cn/NewsDetail/6809219.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -977,8 +977,8 @@
       "route": "/cn/NewsDetail/6809220.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -988,8 +988,8 @@
       "route": "/cn/NewsDetail/6809220.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -999,8 +999,8 @@
       "route": "/cn/NewsDetail/6809221.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1010,8 +1010,8 @@
       "route": "/cn/NewsDetail/6809221.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1021,8 +1021,8 @@
       "route": "/cn/NewsDetail/6809224.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1032,8 +1032,8 @@
       "route": "/cn/NewsDetail/6809224.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1043,8 +1043,8 @@
       "route": "/cn/NewsDetail/6809228.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1054,8 +1054,8 @@
       "route": "/cn/NewsDetail/6809228.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1065,8 +1065,8 @@
       "route": "/cn/NewsDetail/6809232.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1076,8 +1076,8 @@
       "route": "/cn/NewsDetail/6809232.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1087,8 +1087,8 @@
       "route": "/cn/NewsDetail/6809236.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1098,8 +1098,8 @@
       "route": "/cn/NewsDetail/6809236.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1109,8 +1109,8 @@
       "route": "/cn/NewsDetail/6809242.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1120,8 +1120,8 @@
       "route": "/cn/NewsDetail/6809242.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1131,8 +1131,8 @@
       "route": "/cn/NewsDetail/6809247.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1142,8 +1142,8 @@
       "route": "/cn/NewsDetail/6809247.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1153,8 +1153,8 @@
       "route": "/cn/NewsDetail/6809255.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1164,8 +1164,8 @@
       "route": "/cn/NewsDetail/6809255.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1175,8 +1175,8 @@
       "route": "/cn/NewsDetail/6809259.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1186,8 +1186,8 @@
       "route": "/cn/NewsDetail/6809259.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1197,8 +1197,8 @@
       "route": "/cn/NewsDetail/6809266.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1208,8 +1208,8 @@
       "route": "/cn/NewsDetail/6809266.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1219,8 +1219,8 @@
       "route": "/cn/NewsList/1.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1230,8 +1230,8 @@
       "route": "/cn/NewsList/1.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1241,8 +1241,8 @@
       "route": "/cn/NewsList/2.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1252,8 +1252,8 @@
       "route": "/cn/NewsList/2.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1263,8 +1263,8 @@
       "route": "/cn/Order_Management",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1274,8 +1274,8 @@
       "route": "/cn/Order_Management",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1285,8 +1285,8 @@
       "route": "/cn/PinZhiGuanLi",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1296,8 +1296,8 @@
       "route": "/cn/PinZhiGuanLi",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1307,8 +1307,8 @@
       "route": "/cn/Product_Catalogue",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1318,8 +1318,8 @@
       "route": "/cn/Product_Catalogue",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1329,8 +1329,8 @@
       "route": "/cn/Product_Laboratory",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1340,8 +1340,8 @@
       "route": "/cn/Product_Laboratory",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1351,8 +1351,8 @@
       "route": "/cn/Product_manufacturing",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1362,8 +1362,8 @@
       "route": "/cn/Product_manufacturing",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1373,8 +1373,8 @@
       "route": "/cn/Product_Warranty_and_After-Sales_Service",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1384,8 +1384,8 @@
       "route": "/cn/Product_Warranty_and_After-Sales_Service",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1395,8 +1395,8 @@
       "route": "/cn/Product/682971.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1406,8 +1406,8 @@
       "route": "/cn/Product/682971.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1417,8 +1417,8 @@
       "route": "/cn/Product/682972.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1428,8 +1428,8 @@
       "route": "/cn/Product/682972.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1439,8 +1439,8 @@
       "route": "/cn/Product/682973.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1450,8 +1450,8 @@
       "route": "/cn/Product/682973.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1461,8 +1461,8 @@
       "route": "/cn/Product/682974.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1472,8 +1472,8 @@
       "route": "/cn/Product/682974.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1483,8 +1483,8 @@
       "route": "/cn/Product/682975.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1494,8 +1494,8 @@
       "route": "/cn/Product/682975.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1505,8 +1505,8 @@
       "route": "/cn/ProductDetail/11897013.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1516,8 +1516,8 @@
       "route": "/cn/ProductDetail/11897013.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1527,8 +1527,8 @@
       "route": "/cn/ProductDetail/11897027.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1538,8 +1538,8 @@
       "route": "/cn/ProductDetail/11897027.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1549,8 +1549,8 @@
       "route": "/cn/ProductDetail/11897529.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1560,8 +1560,8 @@
       "route": "/cn/ProductDetail/11897529.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1571,8 +1571,8 @@
       "route": "/cn/ProductDetail/11897531.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1582,8 +1582,8 @@
       "route": "/cn/ProductDetail/11897531.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1593,8 +1593,8 @@
       "route": "/cn/ProductDetail/11897534.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1604,8 +1604,8 @@
       "route": "/cn/ProductDetail/11897534.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1615,8 +1615,8 @@
       "route": "/cn/ProductDetail/11897536.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1626,8 +1626,8 @@
       "route": "/cn/ProductDetail/11897536.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1637,8 +1637,8 @@
       "route": "/cn/ProductDetail/11897537.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1648,8 +1648,8 @@
       "route": "/cn/ProductDetail/11897537.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1659,8 +1659,8 @@
       "route": "/cn/ProductDetail/11897540.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1670,8 +1670,8 @@
       "route": "/cn/ProductDetail/11897540.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1681,8 +1681,8 @@
       "route": "/cn/ProductDetail/11897545.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1692,8 +1692,8 @@
       "route": "/cn/ProductDetail/11897545.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1703,8 +1703,8 @@
       "route": "/cn/ProductDetail/11897550.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1714,8 +1714,8 @@
       "route": "/cn/ProductDetail/11897550.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1725,8 +1725,8 @@
       "route": "/cn/ProductDetail/11897552.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1736,8 +1736,8 @@
       "route": "/cn/ProductDetail/11897552.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1747,8 +1747,8 @@
       "route": "/cn/ProductDetail/11897556.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1758,8 +1758,8 @@
       "route": "/cn/ProductDetail/11897556.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1769,8 +1769,8 @@
       "route": "/cn/ProductDetail/11897580.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1780,8 +1780,8 @@
       "route": "/cn/ProductDetail/11897580.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1791,8 +1791,8 @@
       "route": "/cn/ProductDetail/11898043.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1802,8 +1802,8 @@
       "route": "/cn/ProductDetail/11898043.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1813,8 +1813,8 @@
       "route": "/cn/ProductDetail/11898044.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1824,8 +1824,8 @@
       "route": "/cn/ProductDetail/11898044.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1835,8 +1835,8 @@
       "route": "/cn/ProductDetail/11898094.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1846,8 +1846,8 @@
       "route": "/cn/ProductDetail/11898094.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1857,8 +1857,8 @@
       "route": "/cn/ProductDetail/11898095.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1868,8 +1868,8 @@
       "route": "/cn/ProductDetail/11898095.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1879,8 +1879,8 @@
       "route": "/cn/ProductDetail/11898099.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1890,8 +1890,8 @@
       "route": "/cn/ProductDetail/11898099.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1901,8 +1901,8 @@
       "route": "/cn/ProductDetail/11898103.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1912,8 +1912,8 @@
       "route": "/cn/ProductDetail/11898103.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1923,8 +1923,8 @@
       "route": "/cn/ProductDetail/11898116.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1934,8 +1934,8 @@
       "route": "/cn/ProductDetail/11898116.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1945,8 +1945,8 @@
       "route": "/cn/ProductDetail/11898119.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1956,8 +1956,8 @@
       "route": "/cn/ProductDetail/11898119.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1967,8 +1967,8 @@
       "route": "/cn/ProductDetail/11898254.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1978,8 +1978,8 @@
       "route": "/cn/ProductDetail/11898254.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -1989,8 +1989,8 @@
       "route": "/cn/ProductDetail/11898257.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2000,8 +2000,8 @@
       "route": "/cn/ProductDetail/11898257.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2011,8 +2011,8 @@
       "route": "/cn/ProductDetail/11898269.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2022,8 +2022,8 @@
       "route": "/cn/ProductDetail/11898269.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2033,8 +2033,8 @@
       "route": "/cn/ProductIndex",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2044,8 +2044,8 @@
       "route": "/cn/ProductIndex",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2055,8 +2055,8 @@
       "route": "/cn/Sustainable_Development",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2066,8 +2066,8 @@
       "route": "/cn/Sustainable_Development",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2077,8 +2077,8 @@
       "route": "/cn/Ventilation_duct_technology",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2088,8 +2088,8 @@
       "route": "/cn/Ventilation_duct_technology",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2099,8 +2099,8 @@
       "route": "/cn/We_are_here_to_offer_assistance",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2110,8 +2110,8 @@
       "route": "/cn/We_are_here_to_offer_assistance",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2121,8 +2121,8 @@
       "route": "/cn/Why_choose_LHB_hair_dryer_products",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2132,8 +2132,8 @@
       "route": "/cn/Why_choose_LHB_hair_dryer_products",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2143,8 +2143,8 @@
       "route": "/en",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2154,8 +2154,8 @@
       "route": "/en",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2165,8 +2165,8 @@
       "route": "/en/About_us",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2176,8 +2176,8 @@
       "route": "/en/About_us",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2187,8 +2187,8 @@
       "route": "/en/Blog",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2198,8 +2198,8 @@
       "route": "/en/Blog",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2209,8 +2209,8 @@
       "route": "/en/Certification_certificate",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2220,8 +2220,8 @@
       "route": "/en/Certification_certificate",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2231,8 +2231,8 @@
       "route": "/en/Company_Introduction",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2242,8 +2242,8 @@
       "route": "/en/Company_Introduction",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2253,8 +2253,8 @@
       "route": "/en/Contact",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2264,8 +2264,8 @@
       "route": "/en/Contact",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2275,8 +2275,8 @@
       "route": "/en/Contact_Us",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2286,8 +2286,8 @@
       "route": "/en/Contact_Us",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2297,8 +2297,8 @@
       "route": "/en/Content/3012462.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2308,8 +2308,8 @@
       "route": "/en/Content/3012462.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2319,8 +2319,8 @@
       "route": "/en/Content/3022032.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2330,8 +2330,8 @@
       "route": "/en/Content/3022032.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2341,8 +2341,8 @@
       "route": "/en/Content/3022033.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2352,8 +2352,8 @@
       "route": "/en/Content/3022033.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2363,8 +2363,8 @@
       "route": "/en/Contract_manufacturing_service",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2374,8 +2374,8 @@
       "route": "/en/Contract_manufacturing_service",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2385,8 +2385,8 @@
       "route": "/en/Design_and_Development",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2396,8 +2396,8 @@
       "route": "/en/Design_and_Development",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2407,8 +2407,8 @@
       "route": "/en/DownLoad/261888.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2418,8 +2418,8 @@
       "route": "/en/DownLoad/261888.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2429,8 +2429,8 @@
       "route": "/en/DownLoad/261889.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2440,8 +2440,8 @@
       "route": "/en/DownLoad/261889.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2451,8 +2451,8 @@
       "route": "/en/DownLoad/261890.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2462,8 +2462,8 @@
       "route": "/en/DownLoad/261890.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2473,8 +2473,8 @@
       "route": "/en/DownLoad/261891.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2484,8 +2484,8 @@
       "route": "/en/DownLoad/261891.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2495,8 +2495,8 @@
       "route": "/en/Exclusive_sale",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2506,8 +2506,8 @@
       "route": "/en/Exclusive_sale",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2517,8 +2517,8 @@
       "route": "/en/Factory_tour",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2528,8 +2528,8 @@
       "route": "/en/Factory_tour",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2539,8 +2539,8 @@
       "route": "/en/FAQ",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2550,8 +2550,8 @@
       "route": "/en/FAQ",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2561,8 +2561,8 @@
       "route": "/en/Lead_the_team",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2572,8 +2572,8 @@
       "route": "/en/Lead_the_team",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2583,8 +2583,8 @@
       "route": "/en/Milestone",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2594,8 +2594,8 @@
       "route": "/en/Milestone",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2605,8 +2605,8 @@
       "route": "/en/NewsDetail/6860195.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2616,8 +2616,8 @@
       "route": "/en/NewsDetail/6860195.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2627,8 +2627,8 @@
       "route": "/en/NewsDetail/6860196.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2638,8 +2638,8 @@
       "route": "/en/NewsDetail/6860196.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2649,8 +2649,8 @@
       "route": "/en/NewsDetail/6860197.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2660,8 +2660,8 @@
       "route": "/en/NewsDetail/6860197.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2671,8 +2671,8 @@
       "route": "/en/NewsDetail/6860198.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2682,8 +2682,8 @@
       "route": "/en/NewsDetail/6860198.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2693,8 +2693,8 @@
       "route": "/en/NewsDetail/6860199.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2704,8 +2704,8 @@
       "route": "/en/NewsDetail/6860199.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2715,8 +2715,8 @@
       "route": "/en/NewsDetail/6860200.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2726,8 +2726,8 @@
       "route": "/en/NewsDetail/6860200.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2737,8 +2737,8 @@
       "route": "/en/NewsDetail/6860201.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2748,8 +2748,8 @@
       "route": "/en/NewsDetail/6860201.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2759,8 +2759,8 @@
       "route": "/en/NewsDetail/6860202.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2770,8 +2770,8 @@
       "route": "/en/NewsDetail/6860202.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2781,8 +2781,8 @@
       "route": "/en/NewsDetail/6860203.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2792,8 +2792,8 @@
       "route": "/en/NewsDetail/6860203.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2803,8 +2803,8 @@
       "route": "/en/NewsDetail/6860204.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2814,8 +2814,8 @@
       "route": "/en/NewsDetail/6860204.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2825,8 +2825,8 @@
       "route": "/en/NewsDetail/6860205.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2836,8 +2836,8 @@
       "route": "/en/NewsDetail/6860205.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2847,8 +2847,8 @@
       "route": "/en/NewsDetail/6860206.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2858,8 +2858,8 @@
       "route": "/en/NewsDetail/6860206.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2869,8 +2869,8 @@
       "route": "/en/NewsDetail/6860207.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2880,8 +2880,8 @@
       "route": "/en/NewsDetail/6860207.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2891,8 +2891,8 @@
       "route": "/en/NewsDetail/6860208.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2902,8 +2902,8 @@
       "route": "/en/NewsDetail/6860208.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2913,8 +2913,8 @@
       "route": "/en/NewsDetail/6860209.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2924,8 +2924,8 @@
       "route": "/en/NewsDetail/6860209.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2935,8 +2935,8 @@
       "route": "/en/NewsDetail/6860210.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2946,8 +2946,8 @@
       "route": "/en/NewsDetail/6860210.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2957,8 +2957,8 @@
       "route": "/en/NewsDetail/6860211.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2968,8 +2968,8 @@
       "route": "/en/NewsDetail/6860211.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2979,8 +2979,8 @@
       "route": "/en/NewsDetail/6860212.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -2990,8 +2990,8 @@
       "route": "/en/NewsDetail/6860212.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3001,8 +3001,8 @@
       "route": "/en/NewsDetail/6860213.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3012,8 +3012,8 @@
       "route": "/en/NewsDetail/6860213.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3023,8 +3023,8 @@
       "route": "/en/NewsDetail/6860214.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3034,8 +3034,8 @@
       "route": "/en/NewsDetail/6860214.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3045,8 +3045,8 @@
       "route": "/en/NewsDetail/6860215.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3056,8 +3056,8 @@
       "route": "/en/NewsDetail/6860215.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3067,8 +3067,8 @@
       "route": "/en/NewsDetail/6860216.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3078,8 +3078,8 @@
       "route": "/en/NewsDetail/6860216.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3089,8 +3089,8 @@
       "route": "/en/NewsDetail/6860217.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3100,8 +3100,8 @@
       "route": "/en/NewsDetail/6860217.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3111,8 +3111,8 @@
       "route": "/en/NewsDetail/6860218.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3122,8 +3122,8 @@
       "route": "/en/NewsDetail/6860218.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3133,8 +3133,8 @@
       "route": "/en/NewsDetail/6860219.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3144,8 +3144,8 @@
       "route": "/en/NewsDetail/6860219.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3155,8 +3155,8 @@
       "route": "/en/NewsDetail/6860220.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3166,8 +3166,8 @@
       "route": "/en/NewsDetail/6860220.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3177,8 +3177,8 @@
       "route": "/en/NewsDetail/6860221.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3188,8 +3188,8 @@
       "route": "/en/NewsDetail/6860221.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3199,8 +3199,8 @@
       "route": "/en/NewsDetail/6860222.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3210,8 +3210,8 @@
       "route": "/en/NewsDetail/6860222.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3221,8 +3221,8 @@
       "route": "/en/NewsDetail/6860223.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3232,8 +3232,8 @@
       "route": "/en/NewsDetail/6860223.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3243,8 +3243,8 @@
       "route": "/en/NewsDetail/6860224.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3254,8 +3254,8 @@
       "route": "/en/NewsDetail/6860224.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3265,8 +3265,8 @@
       "route": "/en/NewsDetail/6860225.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3276,8 +3276,8 @@
       "route": "/en/NewsDetail/6860225.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3287,8 +3287,8 @@
       "route": "/en/NewsDetail/6860226.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3298,8 +3298,8 @@
       "route": "/en/NewsDetail/6860226.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3309,8 +3309,8 @@
       "route": "/en/NewsDetail/6860227.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3320,8 +3320,8 @@
       "route": "/en/NewsDetail/6860227.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3331,8 +3331,8 @@
       "route": "/en/NewsDetail/6860228.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3342,8 +3342,8 @@
       "route": "/en/NewsDetail/6860228.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3353,8 +3353,8 @@
       "route": "/en/NewsList/1.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3364,8 +3364,8 @@
       "route": "/en/NewsList/1.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3375,8 +3375,8 @@
       "route": "/en/NewsList/2.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3386,8 +3386,8 @@
       "route": "/en/NewsList/2.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3397,8 +3397,8 @@
       "route": "/en/Order_Management",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3408,8 +3408,8 @@
       "route": "/en/Order_Management",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3419,8 +3419,8 @@
       "route": "/en/PinZhiGuanLi",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3430,8 +3430,8 @@
       "route": "/en/PinZhiGuanLi",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3441,8 +3441,8 @@
       "route": "/en/Product_Catalogue",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3452,8 +3452,8 @@
       "route": "/en/Product_Catalogue",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3463,8 +3463,8 @@
       "route": "/en/Product_Laboratory",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3474,8 +3474,8 @@
       "route": "/en/Product_Laboratory",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3485,8 +3485,8 @@
       "route": "/en/Product_manufacturing",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3496,8 +3496,8 @@
       "route": "/en/Product_manufacturing",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3507,8 +3507,8 @@
       "route": "/en/Product_Warranty_and_After-Sales_Service",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3518,8 +3518,8 @@
       "route": "/en/Product_Warranty_and_After-Sales_Service",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3529,8 +3529,8 @@
       "route": "/en/Product/682971.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3540,8 +3540,8 @@
       "route": "/en/Product/682971.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3551,8 +3551,8 @@
       "route": "/en/Product/682972.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3562,8 +3562,8 @@
       "route": "/en/Product/682972.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3573,8 +3573,8 @@
       "route": "/en/Product/682973.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3584,8 +3584,8 @@
       "route": "/en/Product/682973.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3595,8 +3595,8 @@
       "route": "/en/Product/682974.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3606,8 +3606,8 @@
       "route": "/en/Product/682974.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3617,8 +3617,8 @@
       "route": "/en/Product/682975.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3628,8 +3628,8 @@
       "route": "/en/Product/682975.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3639,8 +3639,8 @@
       "route": "/en/ProductDetail/11906921.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3650,8 +3650,8 @@
       "route": "/en/ProductDetail/11906921.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3661,8 +3661,8 @@
       "route": "/en/ProductDetail/11906922.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3672,8 +3672,8 @@
       "route": "/en/ProductDetail/11906922.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3683,8 +3683,8 @@
       "route": "/en/ProductDetail/11906923.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3694,8 +3694,8 @@
       "route": "/en/ProductDetail/11906923.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3705,8 +3705,8 @@
       "route": "/en/ProductDetail/11906924.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3716,8 +3716,8 @@
       "route": "/en/ProductDetail/11906924.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3727,8 +3727,8 @@
       "route": "/en/ProductDetail/11906925.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3738,8 +3738,8 @@
       "route": "/en/ProductDetail/11906925.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3749,8 +3749,8 @@
       "route": "/en/ProductDetail/11906926.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3760,8 +3760,8 @@
       "route": "/en/ProductDetail/11906926.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3771,8 +3771,8 @@
       "route": "/en/ProductDetail/11906927.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3782,8 +3782,8 @@
       "route": "/en/ProductDetail/11906927.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3793,8 +3793,8 @@
       "route": "/en/ProductDetail/11906928.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3804,8 +3804,8 @@
       "route": "/en/ProductDetail/11906928.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3815,8 +3815,8 @@
       "route": "/en/ProductDetail/11906929.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3826,8 +3826,8 @@
       "route": "/en/ProductDetail/11906929.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3837,8 +3837,8 @@
       "route": "/en/ProductDetail/11906930.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3848,8 +3848,8 @@
       "route": "/en/ProductDetail/11906930.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3859,8 +3859,8 @@
       "route": "/en/ProductDetail/11906931.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3870,8 +3870,8 @@
       "route": "/en/ProductDetail/11906931.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3881,8 +3881,8 @@
       "route": "/en/ProductDetail/11906932.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3892,8 +3892,8 @@
       "route": "/en/ProductDetail/11906932.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3903,8 +3903,8 @@
       "route": "/en/ProductDetail/11906933.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3914,8 +3914,8 @@
       "route": "/en/ProductDetail/11906933.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3925,8 +3925,8 @@
       "route": "/en/ProductDetail/11906934.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3936,8 +3936,8 @@
       "route": "/en/ProductDetail/11906934.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3947,8 +3947,8 @@
       "route": "/en/ProductDetail/11906935.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3958,8 +3958,8 @@
       "route": "/en/ProductDetail/11906935.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3969,8 +3969,8 @@
       "route": "/en/ProductDetail/11906936.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3980,8 +3980,8 @@
       "route": "/en/ProductDetail/11906936.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -3991,8 +3991,8 @@
       "route": "/en/ProductDetail/11906937.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4002,8 +4002,8 @@
       "route": "/en/ProductDetail/11906937.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4013,8 +4013,8 @@
       "route": "/en/ProductDetail/11906938.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4024,8 +4024,8 @@
       "route": "/en/ProductDetail/11906938.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4035,8 +4035,8 @@
       "route": "/en/ProductDetail/11906939.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4046,8 +4046,8 @@
       "route": "/en/ProductDetail/11906939.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4057,8 +4057,8 @@
       "route": "/en/ProductDetail/11906940.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4068,8 +4068,8 @@
       "route": "/en/ProductDetail/11906940.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4079,8 +4079,8 @@
       "route": "/en/ProductDetail/11906941.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4090,8 +4090,8 @@
       "route": "/en/ProductDetail/11906941.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4101,8 +4101,8 @@
       "route": "/en/ProductDetail/11906942.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4112,8 +4112,8 @@
       "route": "/en/ProductDetail/11906942.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4123,8 +4123,8 @@
       "route": "/en/ProductDetail/11906943.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4134,8 +4134,8 @@
       "route": "/en/ProductDetail/11906943.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4145,8 +4145,8 @@
       "route": "/en/ProductDetail/11906944.html",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4156,8 +4156,8 @@
       "route": "/en/ProductDetail/11906944.html",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4167,8 +4167,8 @@
       "route": "/en/ProductIndex",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4178,8 +4178,8 @@
       "route": "/en/ProductIndex",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4189,8 +4189,8 @@
       "route": "/en/Sustainable_Development",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4200,8 +4200,8 @@
       "route": "/en/Sustainable_Development",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4211,8 +4211,8 @@
       "route": "/en/Ventilation_duct_technology",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4222,8 +4222,8 @@
       "route": "/en/Ventilation_duct_technology",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4233,8 +4233,8 @@
       "route": "/en/We_are_here_to_offer_assistance",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4244,8 +4244,8 @@
       "route": "/en/We_are_here_to_offer_assistance",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4255,8 +4255,8 @@
       "route": "/en/Why_choose_LHB_hair_dryer_products",
       "width": 390,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],
@@ -4266,8 +4266,8 @@
       "route": "/en/Why_choose_LHB_hair_dryer_products",
       "width": 1440,
       "surfaces": {
-        "header": "rgb(16, 39, 70)",
-        "footer": "rgb(16, 39, 70)",
+        "header": "rgb(51, 50, 50)",
+        "footer": "rgb(51, 50, 50)",
         "body": "rgb(255, 255, 255)"
       },
       "violations": [],

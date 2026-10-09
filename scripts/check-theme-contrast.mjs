@@ -47,7 +47,7 @@ const report = {
   checkedCases: results.length,
   contrastFailures: results.reduce((sum, r) => sum + (r.violations?.length || 0), 0),
   errors: results.filter(r => r.error).length,
-  surfaceFailures: results.filter(r => r.surfaces && (r.surfaces.header !== 'rgb(16, 39, 70)' || r.surfaces.footer !== 'rgb(16, 39, 70)' || r.surfaces.body !== 'rgb(255, 255, 255)')).length,
+  surfaceFailures: results.filter(r => r.surfaces && (r.surfaces.header !== 'rgb(51, 50, 50)' || r.surfaces.footer !== 'rgb(51, 50, 50)' || r.surfaces.body !== 'rgb(255, 255, 255)')).length,
   note: 'Automated solid-color checks; image/video backgrounds and interactive states also require visual and interaction tests.',
   results,
 };

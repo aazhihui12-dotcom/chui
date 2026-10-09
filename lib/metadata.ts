@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { SitePage, Locale } from "@/content/schema";
 import { localizedLegacyPath } from "@/lib/locale-path";
+import { apowerSeo } from '@/content/apower';
 
 // Set the deployment origin before building; static exports bake these URLs into HTML.
 export function siteOrigin(): string {
@@ -24,8 +25,7 @@ export function languageAlternates(legacyPath: string): Record<string, string> {
 
 export function pageMetadata(page: SitePage): Metadata {
   return {
-    title: page.seo.title,
-    description: page.seo.description,
+    ...apowerSeo(page),
     alternates: {
       canonical: pageUrl(page.locale, page.legacyPath),
       languages: languageAlternates(page.legacyPath),

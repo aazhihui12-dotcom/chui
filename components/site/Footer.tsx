@@ -1,5 +1,6 @@
 import type { Locale } from "@/lib/i18n";
 import { siteConfig } from "@/content/site";
+import { BrandLogo } from "./BrandLogo";
 
 export function Footer({ locale }: { locale: Locale }) {
   const config = siteConfig[locale];
@@ -7,8 +8,8 @@ export function Footer({ locale }: { locale: Locale }) {
   return (
     <footer className="site-footer">
       <div className="site-footer__inner">
-        <section aria-label={config.name}>
-          <img className="site-footer__logo" src="/media/02c18594ff75b4cec3a7b5913466afc8c03f83ebd36105841df28808f49e93df.webp" alt="LBH APPLIANCES" width="230" height="27" />
+        <section aria-label="APOWER">
+          <BrandLogo className="site-footer__logo" width={230} />
           <a href={`tel:${config.contact.phone.replace(/\s/g, "")}`}>{locale === "cn" ? "电话" : "Phone"}: {config.contact.phone}</a>
           <a href={`mailto:${config.contact.email}`}>{locale === "cn" ? "邮箱" : "Email"}: {config.contact.email}</a>
           <address>{locale === "cn" ? "地址" : "Address"}: {config.contact.address}</address>
@@ -20,7 +21,7 @@ export function Footer({ locale }: { locale: Locale }) {
           </ul>
         </nav>)}
       </div>
-      <div className="site-footer__bottom">© {new Date().getFullYear()} LBH APPLIANCES</div>
+      <div className="site-footer__bottom">© {new Date().getFullYear()} APOWER TECH</div>
     </footer>
   );
 }

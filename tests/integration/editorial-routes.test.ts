@@ -21,7 +21,7 @@ it.each(expectedEditorialPaths)("exports, dispatches and preserves metadata for 
     expect(page).toBeDefined();
     expect(generateStaticParams()).toContainEqual({ locale, slug });
     const params = Promise.resolve({ locale, slug });
-    expect(await generateMetadata({ params })).toMatchObject({ title: page!.seo.title, description: page!.seo.description });
+    expect(await generateMetadata({ params })).toMatchObject({ title: page!.seo.title.replace(/LBH Appliances|LBH APPLIANCES|LBH电器|LHB|LBH/g, 'APOWER TECH'), description: page!.seo.description.replace(/LBH Appliances|LBH APPLIANCES|LBH电器|LHB|LBH/g, 'APOWER TECH') });
     const html = renderToStaticMarkup(await ContentPage({ params }));
     if (["Ventilation_duct_technology", "We_are_here_to_offer_assistance"].includes(path)) {
       expect(html).toMatch(/^<main[^>]*><\/main>$/);

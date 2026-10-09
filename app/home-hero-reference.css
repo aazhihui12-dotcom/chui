@@ -1,0 +1,54 @@
+/* First frame only. Retained LBH CN/EN sliders use centered 1700/1800px
+   containers and percentage-height anchors, not fixed viewport-left padding.
+   Flow-sized grid rows also allow longer APOWER copy to wrap safely. */
+html body .home-page .home-hero[data-locale] .hero-slide--brand h1 { text-wrap:balance; }
+@media (min-width:1280px) {
+  html body .home-page .home-hero[data-locale] .hero-slide--brand .home-hero__inner {
+    width:100%; max-width:1700px; height:100%; padding:calc(100vw * 5 / 12 * .17 + 10px) 0 0;
+    display:grid; grid-template-rows:minmax(min-content,calc(100vw * 5 / 12 * .21 - 10px)) auto;
+    align-content:start; justify-items:start;
+  }
+  html body .home-page .home-hero[data-locale=en] .hero-slide--brand .home-hero__inner {
+    max-width:1800px; padding-top:calc(100vw * 5 / 12 * .11 + 10px);
+    grid-template-rows:minmax(min-content,calc(100vw * 5 / 12 * .30 - 10px)) auto;
+  }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand h1 {
+    width:calc(100% - 20px);
+    max-width:calc(48vw - max(0px,(100vw - 1700px) / 2) - 10px); margin:0 0 8px 10px;
+    font-size:36px!important; line-height:54px!important; font-weight:400;
+  }
+  html body .home-page .home-hero[data-locale=en] .hero-slide--brand h1 {
+    width:calc(69% - 20px); max-width:calc(48vw - max(0px,(100vw - 1800px) / 2) - 10px);
+  }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand h1 span { font-size:36px!important; line-height:54px!important; }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand ul { width:60%; max-width:none; margin:0; gap:20px; }
+  html body .home-page .home-hero[data-locale=en] .hero-slide--brand ul { width:33%; }
+  html body .home-page .home-hero[data-locale=en] .hero-slide--brand li { font-size:16px!important; line-height:24px!important; }
+}
+
+/* The reference's tablet page-wide zoom is not applied to the rest of this
+   site. Scale the first-frame column instead, keeping products unobstructed. */
+@media (min-width:768px) and (max-width:1279px) {
+  html body .home-page .home-hero[data-locale] .hero-slide--brand .home-hero__inner {
+    width:100%; max-width:none; padding:60px 24px 30px;
+  }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand h1,
+  html body .home-page .home-hero[data-locale] .hero-slide--brand h1 span {
+    font-size:clamp(24px,2.5vw,32px)!important; line-height:1.5!important; font-weight:400;
+  }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand h1 { max-width:calc(48vw - 24px); margin:0 0 24px; }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand ul { width:calc(48vw - 24px); max-width:none; gap:16px; }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand li { font-size:16px!important; line-height:24px!important; }
+}
+
+@media (max-width:767px) {
+  html body .home-page .home-hero[data-locale] .hero-slide--brand .home-hero__inner {
+    padding:calc(11.4943vw + 10px) calc(5.7471vw + 10px) 230px;
+    max-width:none; width:100%;
+  }
+  html body .home-page .home-hero[data-locale=en] .hero-slide--brand .home-hero__inner { padding-bottom:290px; }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand h1 { max-width:100%; margin:0 0 12px; }
+  html body .home-page .home-hero[data-locale] .hero-slide--brand ul {
+    max-width:none; margin-left:calc(2.8984vw - 10px); gap:10px;
+  }
+}

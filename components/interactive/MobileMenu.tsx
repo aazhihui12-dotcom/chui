@@ -5,6 +5,7 @@ import type { Locale } from "@/lib/i18n";
 import type { NavigationItem } from "@/content/schema";
 import { siteConfig } from "@/content/site";
 import { MobileNav } from "@/components/site/MobileNav";
+import { BrandLogo } from "@/components/site/BrandLogo";
 
 export function MobileMenu({ locale, items }: { locale: Locale; items: NavigationItem[] }) {
   const [open, setOpen] = useState(false);
@@ -73,7 +74,7 @@ export function MobileMenu({ locale, items }: { locale: Locale; items: Navigatio
           <button aria-label={`${labels.close} menu`} className="mobile-menu__backdrop" onClick={close} type="button" />
           <section aria-label={labels.menu} aria-modal="true" className="mobile-menu__drawer" id="mobile-menu-drawer" ref={drawerRef} role="dialog">
             <div className="mobile-menu__topline">
-              <p>LBH APPLIANCES</p>
+              <BrandLogo className="mobile-menu__logo" />
               <button aria-label={`${labels.close} menu`} onClick={close} ref={closeRef} type="button">×</button>
             </div>
             <MobileNav items={items} onNavigate={close} />

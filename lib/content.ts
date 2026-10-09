@@ -3,12 +3,15 @@ import { products } from "@/content/products";
 import { articles } from "@/content/articles";
 import type { Locale, SitePage } from "@/content/schema";
 import { localizedLegacyPath } from "@/lib/locale-path";
+import { apowerCategoryPages, apowerProducts, apowerSeo } from '@/content/apower';
 
 export const allPages: SitePage[] = [
-  ...pages,
+  ...apowerCategoryPages,
+  ...pages.filter(p=>!apowerCategoryPages.some(a=>a.locale===p.locale && a.legacyPath===p.legacyPath)),
+  ...apowerProducts.flatMap(p=>[p.locales.en,p.locales.cn]),
   ...products.flatMap((product) => [product.locales.en, product.locales.cn]),
   ...articles.flatMap((article) => [article.locales.en, article.locales.cn]),
-];
+].map(page=>({...page,seo:apowerSeo(page)}));
 
 export function getPage(locale: Locale, slug: string[]): SitePage | undefined {
   const key = localizedLegacyPath(`/${slug.join("/")}`, locale);

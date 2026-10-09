@@ -1,5 +1,7 @@
 import type { Category, Locale } from "@/content/schema";
-import { categories, products } from "@/content/products";
+import { products as legacyProducts } from "@/content/products";
+import { apowerCategories as categories, apowerProducts } from '@/content/apower';
+const products=[...apowerProducts,...legacyProducts];
 import { ProductCatalog } from "@/components/interactive/ProductCatalog";
 
 export function ProductCategoryTemplate({ category, locale }: { category: Category; locale: Locale }) {

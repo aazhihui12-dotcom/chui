@@ -1,6 +1,15 @@
 import type { ReactNode } from "react";
 import "../globals.css";
 import "../source-ui.css";
+import "../apower.css";
+import "../home-desktop.css";
+import "../home-responsive.css";
+import "../home-sustainability.css";
+import "../home-welcome.css";
+import "../home-partners.css";
+import "../home-motion.css";
+import "../home-hover.css";
+import "../home-hero-reference.css";
 export { metadata } from "../(entry)/layout";
 import { notFound } from "next/navigation";
 import { SiteShell } from "@/components/site/Header";

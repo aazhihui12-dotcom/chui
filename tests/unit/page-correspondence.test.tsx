@@ -19,6 +19,6 @@ it("retains old Chinese links as compatibility entry points to the same article"
 
 it("renders the captured Chinese Contact headings verbatim", () => {
   const html = renderToStaticMarkup(<ContactTemplate page={getPage("cn", ["Contact_Us"])!} />);
-  expect(html).toContain("让我们来承接您新的个护家电项目吧！");
+  expect(html).toContain("让我们承接您新的个护家电项目！");
   expect(html).toContain("中国办事处");
 });

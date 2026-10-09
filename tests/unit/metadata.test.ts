@@ -23,7 +23,7 @@ afterEach(() => vi.unstubAllEnvs());
 it.each(["en", "cn"] as const)("gives %s content a self canonical and both language equivalents", async (locale) => {
   const result = await generateMetadata({ params: Promise.resolve({ locale, slug: ["ProductDetail", "11906944.html"] }) });
   expect(result).toMatchObject({
-    title: getPage(locale, ["ProductDetail", "11906944.html"])!.seo.title,
+    title: getPage(locale, ["ProductDetail", "11906944.html"])!.seo.title.replace(/LBH Appliances|LBH APPLIANCES|LBH电器|LHB|LBH/g, 'APOWER TECH'),
     alternates: {
       canonical: `http://localhost:3000/${locale}/ProductDetail/${locale === "cn" ? "11898269" : "11906944"}.html/`,
       languages: {
@@ -40,8 +40,8 @@ it("gives each home page its own content metadata and canonical", async () => {
   for (const locale of ["en", "cn"] as const) {
     const result = await home.generateMetadata({ params: Promise.resolve({ locale }) });
     expect(result).toMatchObject({
-      title: getPage(locale, [])!.seo.title,
-      description: getPage(locale, [])!.seo.description,
+      title: getPage(locale, [])!.seo.title.replace(/LBH Appliances|LBH APPLIANCES|LBH电器|LHB|LBH/g, 'APOWER TECH'),
+      description: getPage(locale, [])!.seo.description.replace(/LBH Appliances|LBH APPLIANCES|LBH电器|LHB|LBH/g, 'APOWER TECH'),
       alternates: { canonical: `http://localhost:3000/${locale}/` },
     });
   }
@@ -49,8 +49,8 @@ it("gives each home page its own content metadata and canonical", async () => {
 
 it("lists all 194 locale pages once with their reciprocal language URLs", () => {
   const entries = sitemap();
-  expect(entries).toHaveLength(194);
-  expect(new Set(entries.map(entry => entry.url)).size).toBe(194);
+  expect(entries).toHaveLength(208);
+  expect(new Set(entries.map(entry => entry.url)).size).toBe(208);
   for (const page of allPages) {
     const pathname = page.legacyPath === "/" ? "" : page.legacyPath;
     const pair = pairs.find(pair => pair.en === pathname || pair.cn === pathname);

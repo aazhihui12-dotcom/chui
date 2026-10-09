@@ -1,0 +1,62 @@
+/* Captured homepage: gallery 109 (.5s inset frame, .3s magnifier),
+   button 109 (.4s arrow/circle), video 101 (.6s play), product 104 (.3s).
+   Scope to home, retaining the approved APOWER palette and resting geometry. */
+.home-page .home-gallery__image {
+  position:relative; display:block; overflow:hidden; width:100%; padding:0;
+  border:0; border-radius:0; background:transparent; cursor:pointer; line-height:0;
+}
+.home-page .home-gallery__frame {
+  position:absolute; left:-10px; top:-10px; width:calc(100% + 20px); height:calc(100% + 20px);
+  border:1px solid #fff; pointer-events:none; transition:all .5s ease;
+}
+.home-page .home-gallery__icon {
+  position:absolute; left:50%; top:50%; margin-left:-25px; margin-top:0;
+  width:50px; height:50px; background:rgba(0,0,0,.5); opacity:0;
+  pointer-events:none; transition:opacity .3s ease-out,margin-top .3s ease-out;
+}
+.home-page .home-gallery__icon::before {
+  content:''; position:absolute; border-radius:50%; width:15px; height:15px;
+  border:1px solid #fff; top:43%; left:43%; transform:translate(-50%,-50%);
+}
+.home-page .home-gallery__icon::after {
+  content:''; position:absolute; width:2px; height:10px; background:#fff;
+  transform:rotate(125deg); top:52%; left:63%;
+}
+.home-page .home-gallery__image:is(:hover,:focus-visible) .home-gallery__frame {
+  left:10px; top:10px; width:calc(100% - 22px); height:calc(100% - 22px);
+}
+.home-page .home-gallery__image:is(:hover,:focus-visible) .home-gallery__icon { opacity:1; margin-top:-25px; }
+.home-page .home-certifications .content-gallery>div>.home-gallery__image { width:180px; max-width:calc((100% - 100px)/6); flex-shrink:0; }
+.home-page .home-certifications .home-gallery__image img { max-width:none; width:100%; }
+.home-page :is(.home-partners,.home-certifications) .home-gallery__dialog>img { width:100%; max-width:100%; height:min(68dvh,700px); aspect-ratio:auto; object-fit:contain; }
+.home-page :is(.home-partners,.home-certifications) .home-gallery__dialog h2 { margin:0; font-size:16px; line-height:24px; text-align:left; }
+
+#main-content.home-page :is(.home-audiences,.home-welcome) .source-button__arrow { position:relative; }
+#main-content.home-page :is(.home-audiences,.home-welcome) .source-button__arrow::after {
+  content:''; position:absolute; inset:0; border-radius:50%; background:#fff;
+  opacity:0; transform:scale(0); transition:transform .4s,opacity .4s;
+}
+#main-content.home-page :is(.home-audiences,.home-welcome) .source-button__arrow svg {
+  position:relative; z-index:1; transform:rotate(0deg); transition:transform .4s,color .4s;
+}
+#main-content.home-page :is(.home-audiences,.home-welcome) .lbh-button:is(:hover,:focus-visible) .source-button__arrow::after { opacity:1; transform:scale(1); }
+#main-content.home-page :is(.home-audiences,.home-welcome) .lbh-button:is(:hover,:focus-visible) .source-button__arrow svg { transform:rotate(-45deg); color:var(--text-primary); }
+.home-page .home-manufacturing .video-preview__play { transform:scale(1); transition:transform .6s cubic-bezier(.215,.61,.355,1); }
+.home-page .home-manufacturing .video-preview:is(:hover,:focus-visible) .video-preview__play { transform:scale(1.4); }
+.home-page .home-product-image { display:block; overflow:hidden; }
+.home-page :is(.product-category,.home-featured-products a) { transition:box-shadow .3s ease-out; }
+.home-page :is(.product-category,.home-featured-products a) img { transform:scale(1); transition:transform .3s linear; }
+.home-page :is(.product-category,.home-featured-products a):is(:hover,:focus-visible) img { transform:scale(1.1); }
+.home-page :is(.product-category,.home-featured-products a):is(:hover,:focus-visible) { box-shadow:0 15px 30px rgba(0,0,0,.1); }
+@media(max-width:767px) {
+  .home-page .home-gallery__frame,.home-page .home-gallery__icon { display:none; }
+  .home-page .home-certifications .content-gallery>div>.home-gallery__image { width:100%; max-width:none; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .home-page .home-gallery__frame,.home-page .home-gallery__icon,
+  #main-content.home-page :is(.home-audiences,.home-welcome) .source-button__arrow::after,
+  #main-content.home-page :is(.home-audiences,.home-welcome) .source-button__arrow svg,
+  .home-page .home-manufacturing .video-preview__play,
+  .home-page :is(.product-category,.home-featured-products a),
+  .home-page :is(.product-category,.home-featured-products a) img { transition:none !important; }
+}

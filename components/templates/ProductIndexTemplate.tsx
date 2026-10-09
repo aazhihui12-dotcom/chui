@@ -1,58 +1,34 @@
-import { pages } from "@/content/pages";
-import { categories, products } from "@/content/products";
-import type { SitePage, ImageAsset } from "@/content/schema";
-import { ProductCatalog } from "@/components/interactive/ProductCatalog";
-import { SectionRenderer } from "@/components/site/SectionRenderer";
-import { VideoModal } from "@/components/interactive/VideoModal";
-import { manufacturingPoster, manufacturingVideo } from "@/content/home";
-import { ProductIndexServices, ProductIndexAssembly, ProductIndexPartners } from "./ProductIndexProof";
-import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
+import { pages } from '@/content/pages';
+import { apowerCategories as categories, apowerProducts as products, text, splitCopy, overviewVideo, apowerFaq } from '@/content/apower';
+import type { SitePage } from '@/content/schema';
+import { ProductCatalog } from '@/components/interactive/ProductCatalog';
+import { SourceVideo } from '@/components/interactive/SourceVideo';
+import { SectionRenderer } from '@/components/site/SectionRenderer';
+import { InquiryTrigger } from '@/components/interactive/InquiryTrigger';
+import { homeCopy } from '@/content/home';
 
-const source = pages.find((page) => page.kind === "product-index" && page.locale === "en")!;
-function sourceSection(heading: string, pattern: string[], source: SitePage = pages.find(page => page.kind === "product-index" && page.locale === "en")!) {
-  const index = source.blocks.findIndex((block) => block.type === "rich-text" && block.heading === heading);
-  if (index < 0) throw new Error(`Missing product overview section: ${heading}`);
-  const blocks = source.blocks.slice(index + 1, index + 1 + pattern.length);
-  if (blocks.length !== pattern.length || blocks.some((block, position) => block.type !== pattern[position])) {
-    throw new Error(`Unexpected product overview structure: ${heading}`);
-  }
-  return blocks;
-}
-const heading = "What makes our personal care appliances stand out?";
-const categoriesMedia = categories.map((category) => {
-  const titleIndex = source.blocks.findIndex((block) => block.type === "rich-text" && block.heading === category.title.en);
-  const image = source.blocks[titleIndex - 1];
-  if (image?.type !== "media") throw new Error(`Missing category artwork: ${category.title.en}`);
-  return image;
-});
-const asText = (block: typeof source.blocks[number]) => block.type === "rich-text" ? block.heading ?? block.paragraphs.join(" ") : "";
-const asImage = (block: typeof source.blocks[number]): ImageAsset | undefined => block.type === "media" ? block.image : undefined;
-
-export function ProductIndexTemplate({ page }: { page: SitePage }) {
-  const locale = page.locale;
-  const cn = locale === "cn";
-  const customization = sourceSection(cn ? "定制化的独特小家电解决方案" : "Customized, Unique Small Appliance Solutions", Array(6).fill(["media", "rich-text", "rich-text"]).flat(), page);
-  const production = sourceSection(cn ? "利用我们的定制化解决方案，最大限度地提高产品效能" : "Maximize Product Performance with", Array(8).fill(["media", "rich-text"]).flat(), page);
-  const proof = sourceSection(cn ? "是什么让我们的个护家电产品脱颖而出？" : heading, Array(4).fill(["media", "rich-text"]).flat(), page);
-  const certification = sourceSection(cn ? "全球认可的质量认证" : "Globally Recognized Quality Certification", ["rich-text"], page)[0];
-  const factory = sourceSection(cn ? "探索工厂品质之源" : "Discover the Source of Factory Quality", ["rich-text"], page)[0];
-  const customTitles = Array.from({ length: 6 }, (_, index) => asText(customization[index * 3 + 1]));
-  const customDescriptions = Array.from({ length: 6 }, (_, index) => asText(customization[index * 3 + 2]));
-  const productionTitles = Array.from({ length: 8 }, (_, index) => asText(production[index * 2 + 1]));
-  const proofText = Array.from({ length: 4 }, (_, index) => asText(proof[index * 2 + 1]));
-  return <main id="main-content" className="product-page product-index">
-    <header className="product-index__banner"><h1>{cn ? "是什么让我们的个护家电产品脱颖而出？" : heading}</h1></header>
-    <section className="product-index__catalog"><ProductCatalog products={products} categories={categories} locale={locale} filterable presentation="carousel" /></section>
-    <section className="product-index__proof" aria-label={cn ? "制造优势" : "Manufacturing advantages"}>{[0, 1, 2, 3].map((index) => { const image = asImage(proof[index * 2]); return <article key={index}>{image && <img src={image.src} alt="" width="130" height="130" loading="lazy" />}<p>{cn ? proofText[index] : asText(proof[index * 2 + 1])}</p></article>; })}</section>
-    <div className="button-row"><InquiryTrigger locale={locale} title={cn ? "立即询价" : "Get a Quick Quote"}>{cn ? "立即询价" : "Get a Quick Quote"}</InquiryTrigger><InquiryTrigger locale={locale} title={cn ? "索取完整产品目录" : "Request Full Product Catalog"} className="lbh-button lbh-button--outline">{cn ? "索取完整产品目录" : "Request Full Product Catalog"}</InquiryTrigger></div>
-    <section className="product-index__categories" aria-label={cn ? "产品系列" : "Product ranges"}>{categories.map((category, index) => <a key={category.id} href={`/${locale}${category.legacyPath}`}>{categoriesMedia[index] && <img src={categoriesMedia[index].image.src} alt="" width="600" height="440" loading="lazy" />}<h2>{category.title[locale]} <span aria-hidden="true">↗</span></h2></a>)}</section>
-    <section className="product-index__section product-index__customization"><h2>{cn ? "定制化的独特小家电解决方案" : "Customized, Unique Small Appliance Solutions"}</h2><div className="product-index__options">{customTitles.map((title, index) => { const image = asImage(customization[index * 3]); return <article key={title}>{image && <img src={image.src} alt="" width="150" height="150" loading="lazy" />}<h3>{cn ? title : asText(customization[index * 3 + 1])}</h3><p>{cn ? customDescriptions[index] : asText(customization[index * 3 + 2])}</p></article>; })}</div></section>
-    <section className="product-index__section"><h2>{cn ? "探索工厂品质之源" : "Discover the Source of Factory Quality"}</h2><p className="product-index__intro">{asText(factory)}</p><VideoModal src={manufacturingVideo} poster={manufacturingPoster} locale={locale} /></section>
-    <ProductIndexServices locale={locale} />
-    <section className="product-index__section product-index__manufacturing"><h2>{cn ? "利用我们的定制化解决方案，最大限度地提高产品效能" : "Maximize Product Performance with Our Customized Solutions"}</h2><ol className="product-index__steps">{productionTitles.map((title, index) => { const image = asImage(production[index * 2]); return <li key={title}>{image && <img src={image.src} alt="" width="200" height="150" loading="lazy" />}<span>{String(index + 1).padStart(2, "0")}</span><h3>{cn ? title : asText(production[index * 2 + 1])}</h3></li>; })}</ol></section>
-    <ProductIndexAssembly locale={locale} />
-    <section className="product-index__section product-index__certifications"><h2>{cn ? "全球认可的质量认证" : "Globally Recognized Quality Certification"}</h2><p className="product-index__intro">{asText(certification)}</p><SectionRenderer blocks={page.blocks.filter((block) => block.type === "gallery").slice(0, 1)} /></section>
-    <ProductIndexPartners locale={locale} />
-    <section className="product-index__cta"><h2>{cn ? "开启您的产品定制" : "Start your product customization"}</h2><InquiryTrigger locale={locale} title={cn ? "开启您的产品定制" : "Start your product customization"}>{cn ? "联系我们" : "Contact Us"} <span aria-hidden="true">↗</span></InquiryTrigger></section>
-  </main>;
+const source=pages.find(p=>p.locale==='cn' && p.kind==='product-index')!;
+const photo=(index:number)=>{const b=source.blocks[index];return b?.type==='media'?b.image:undefined;};
+export function ProductIndexTemplate({page}:{page:SitePage}) {
+ const locale=page.locale, cn=locale==='cn', t=(id:number)=>text(id,locale), copy=homeCopy[locale];
+ const img=(index:number)=>{const image=photo(index);return image&&<img src={image.src} alt="" width="600" height="440" loading="lazy"/>;};
+ const pair=(id:number)=>splitCopy(id,locale);
+ return <main id="main-content" className="product-page product-index">
+  <header className="product-index__banner"><h1>{t(37)}</h1></header>
+  <section className="product-index__catalog"><ProductCatalog products={products} categories={categories} locale={locale} filterable presentation="carousel"/></section>
+  <section className="product-index__proof" aria-label={cn?'制造优势':'Manufacturing advantages'}>{[69,80,14,81].map((id,i)=><article key={id}>{img(2+i*2)}<p>{t(id)}</p></article>)}</section>
+  <div className="button-row"><InquiryTrigger locale={locale} title={copy.quote}>{copy.quote}</InquiryTrigger><InquiryTrigger locale={locale} title={copy.catalogue} className="lbh-button lbh-button--outline">{copy.catalogue}</InquiryTrigger></div>
+  <section className="product-index__categories" aria-label={cn?'产品系列':'Product ranges'}>{categories.map(c=><a key={c.id} href={`/${locale}${c.legacyPath}`}><img src={c.image!.src} alt="" width="600" height="440" loading="lazy"/><h2>{c.title[locale]} ↗</h2></a>)}</section>
+  <section className="product-index__section product-index__customization"><h2>{t(38)}</h2><div className="product-index__options">{[39,40,41,42,43,44].map((id,i)=><article key={id}>{img(33+i*3)}<h3>{pair(id).heading}</h3><p>{pair(id).body}</p></article>)}</div></section>
+  <section className="product-index__section"><h2>{t(45)}</h2><p className="product-index__intro">{t(46)}</p><SourceVideo video={overviewVideo} locale={locale}/></section>
+  <section className="product-index__section"><h2>{t(47)}</h2><div className="product-index__services">{[48,52,56].map((id,i)=><article key={id}>{img(55+i*8)}<div><h3>{t(id)}</h3>{[1,2,3].map(j=><section key={j}><h4>{pair(id+j).heading}</h4><p>{pair(id+j).body}</p></section>)}</div></article>)}</div></section>
+  <section className="product-index__section product-index__benefits"><h2>{t(60)}</h2><ol>{[61,62,63,64,65,66].map((id,i)=><li key={id}><span aria-hidden="true">{String(i+1).padStart(2,'0')}</span>{t(id).replace(/^\d+\.\s*/,'')}</li>)}</ol></section>
+  <section className="product-index__section product-index__manufacturing"><h2>{t(67)}</h2><ol className="product-index__steps">{t(68).split(' → ').map((title,i)=><li key={title}>{img(87+i*2)}<span>{String(i+1).padStart(2,'0')}</span><h3>{title}</h3></li>)}</ol></section>
+  <section className="product-index__section product-index__assembly"><h2>{t(69)}</h2><ol>{Array.from({length:10},(_,i)=><li key={i}><span aria-hidden="true">{String(i+1).padStart(2,'0')}</span><div><h3>{pair(70+i).heading.replace(/^(步骤\s*\d+：|Step \d+: )/,'')}</h3><p>{pair(70+i).body}</p></div></li>)}</ol><p className="product-index__pledge">{t(80)}</p></section>
+  <section className="product-index__section product-index__certifications"><h2>{t(27)}</h2><p className="product-index__intro">{t(81)}</p><SectionRenderer blocks={source.blocks.filter(b=>b.type==='gallery').slice(0,1)}/></section>
+  <section className="product-index__section" aria-label={cn?'品质实力':'Quality in numbers'}><SectionRenderer blocks={[{type:'stats',items:[82,83,84,85].map(id=>{const p=pair(id);const match=p.heading.match(/^(\d+[%+]?)\s*(.*)$/)!;return {value:match[1],label:match[2]};})}]}/>{[82,83,84,85].map(id=><p key={id}>{pair(id).body}</p>)}</section>
+  <section className="product-index__section"><h2>{t(23)}</h2><SectionRenderer blocks={[source.blocks[128]]}/><div className="testimonials">{copy.testimonials.map((quote,i)=><figure key={i}>{img(129+i*3)}<blockquote>{quote}</blockquote><figcaption>{['Jeff Deng','Warren Steve','María Emilia'][i]}</figcaption></figure>)}</div></section>
+  <section className="product-index__section product-index__faq"><h2>{cn?'常见问题':'FAQ'}</h2>{apowerFaq(locale).slice(0,4).map(f=><details key={f.id}><summary>{f.question}</summary><p>{f.answer}</p></details>)}<a className="text-link" href={`/${locale}/FAQ`}>{cn?'查看全部常见问题':'View all frequently asked questions'} →</a></section>
+  <section className="product-index__cta"><h2>{t(35)}</h2><InquiryTrigger locale={locale} title={copy.contact}>{copy.contact} ↗</InquiryTrigger></section>
+ </main>;
 }

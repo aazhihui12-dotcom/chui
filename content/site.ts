@@ -1,5 +1,5 @@
 import type { Locale, NavigationItem, SiteConfig } from "./schema";
-import { categories } from "./products";
+import { apowerCategories as categories, text } from "./apower";
 
 const serviceLinks = [
   ["Exclusive_sale", "Exclusive Sale", "独家销售"],
@@ -23,7 +23,7 @@ function createConfig(locale: Locale): SiteConfig {
   const cn = locale === "cn";
   const links = (items: string[][]): NavigationItem[] => items.map(([path, en, zh]) => ({ label: cn ? zh : en, href: `/${locale}/${path}` }));
   return {
-    name: "LBH APPLIANCES", locale,
+    name: "APOWER TECH", locale,
     navigation: [
       { label: cn ? "产品" : "Product", href: `/${locale}/ProductIndex`, children: categories.map((category) => ({ label: category.title[locale], href: `/${locale}${category.legacyPath}` })) },
       { label: cn ? "我们为您提供帮助" : "We are here to help", href: `/${locale}/We_are_here_to_offer_assistance`, children: links(serviceLinks) },
@@ -31,9 +31,9 @@ function createConfig(locale: Locale): SiteConfig {
       { label: cn ? "联系" : "Touch", href: `/${locale}/Contact`, children: links([["Contact_Us", "Contact Us", "联系我们"], ["FAQ", "FAQ", "常见问题"]]) },
     ],
     contact: {
-      phone: "+86 137 0306 7387", email: "tina.fang@linknove.com", whatsapp: "+8613703067387",
-      company: cn ? "佛山朗必豪电器有限公司" : "Foshan LBH Appliances Co.,ltd.",
-      address: cn ? "广东省佛山市顺德区容桂街道南区社区兴南路9号广意智能装备园3栋1006室" : "Room 1006, Building 3, Guangyi Intelligent Equipment Park, No. 9 Xingnan Road, Nanqu Community, Ronggui Subdistrict, Shunde District, Foshan City, Guangdong Province",
+      phone: "+86 188 4266 5006", email: "kalman_chen@apowertechs.com", whatsapp: "+8618842665006",
+      company: cn ? "佛山市空气力量科技有限公司" : "Foshan APOWER Technology Co., Ltd.",
+      address: text(229,locale).replace(/^(公司地址：|Address: )/,''),
     },
     labels: cn ? {
       inquiry: "立即询价", catalogue: "索取完整产品目录", contact: "联系我们", menu: "菜单", close: "关闭", backToTop: "返回顶部", products: "产品", news: "新闻", specifications: "规格参数", features: "产品功能", accessories: "可选配件",

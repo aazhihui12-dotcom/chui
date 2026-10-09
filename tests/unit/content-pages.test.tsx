@@ -20,7 +20,7 @@ it("retains the captured Blog thumbnail on placeholder cards across pagination",
 
 it("leads contact with the source project headline, followed by contact details and one inline inquiry form", async () => {
   render(await page("Contact_Us"));
-  const heading = screen.getByRole("heading", { level: 1, name: "Let us take on your new personal care and home appliance project!" });
+  const heading = screen.getByRole("heading", { level: 1, name: "Let Us Take On Your New Personal Care Appliance Project!" });
   expect(heading.closest("header")).not.toBeNull();
   expect(screen.getByRole("heading", { level: 2, name: "Contact Us Now" })).toBeVisible();
   expect(screen.getByRole("button", { name: "Send Message", exact: true })).toBeVisible();
@@ -69,7 +69,7 @@ it.each(["en", "cn"])("keeps placeholder %s metadata and identifies unavailable 
 
 it("expands and collapses FAQ answers with labeled, connected buttons and localized detail links", async () => {
   render(await page("FAQ"));
-  const question = screen.getByRole("button", { name: "What is your supply capacity?" });
+  const question = screen.getByRole("button", { name: "What is your production capacity?" });
   expect(screen.getAllByRole("button", { expanded: false })).toHaveLength(23);
   expect(question).toHaveAttribute("aria-expanded", "false");
   const answer = document.getElementById(question.getAttribute("aria-controls")!)!;
@@ -78,17 +78,17 @@ it("expands and collapses FAQ answers with labeled, connected buttons and locali
   expect(question).toHaveAttribute("aria-expanded", "true");
   expect(answer).toBeVisible();
   expect(answer).toHaveAttribute("aria-labelledby", question.id);
-  expect(within(answer).getByRole("link", { name: "Read more" })).toHaveAttribute("href", "/en/NewsDetail/6860206.html");
+  expect(answer).toHaveTextContent("Daily output is 5,000 units");
   fireEvent.click(question);
   expect(answer).not.toBeVisible();
 });
 
 it("renders real contact channels and the Chinese inline inquiry fields", async () => {
   render(await page("Contact_Us", "cn"));
-  expect(screen.getByRole("link", { name: "tina.fang@linknove.com" })).toHaveAttribute("href", "mailto:tina.fang@linknove.com");
-  expect(screen.getByRole("link", { name: "+86 137 0306 7387" })).toHaveAttribute("href", "tel:+8613703067387");
-  expect(screen.getByRole("link", { name: "WhatsApp" })).toHaveAttribute("href", "https://wa.me/8613703067387");
-  expect(screen.getByText(/兴南路9号/)).toBeVisible();
+  expect(screen.getByRole("link", { name: "kalman_chen@apowertechs.com" })).toHaveAttribute("href", "mailto:kalman_chen@apowertechs.com");
+  expect(screen.getByRole("link", { name: "+86 188 4266 5006" })).toHaveAttribute("href", "tel:+8618842665006");
+  expect(screen.getByRole("link", { name: "WhatsApp" })).toHaveAttribute("href", "https://wa.me/8618842665006");
+  expect(screen.getByText(/创业一路1号/)).toBeVisible();
   expect(screen.getByLabelText("姓名")).toBeVisible();
   expect(screen.getByLabelText("电子邮箱")).toBeVisible();
   expect(screen.getByLabelText("留言")).toBeVisible();

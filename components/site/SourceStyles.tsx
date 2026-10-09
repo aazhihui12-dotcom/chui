@@ -10,5 +10,6 @@ export function SourceStyles() {
   if (locale !== "en" && locale !== "cn") return null;
   const path = localizedLegacyPath(`/${slug.join("/")}`, locale);
   const route = `/${locale}${path === "/" ? "" : path}`;
+  if (/\/ProductDetail\/AP-|\/Product\/garment-steamers/.test(route)) return null;
   return <><span hidden data-source-page={route} /><link rel="stylesheet" href={`/source-styles/${route.slice(1).replaceAll("/", "_")}.css`} precedence="source" /></>;
 }

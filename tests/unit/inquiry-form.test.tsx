@@ -22,7 +22,7 @@ describe("inquiry form", () => {
     rerender(<ContactTemplate page={page} />);
     expect(input).toHaveValue("My custom model");
     expect(document.querySelectorAll("form")).toHaveLength(1);
-    if (locale === "cn") expect(screen.getByText("佛山朗必豪电器有限公司")).toBeVisible();
+    if (locale === "cn") expect(screen.getByText("佛山市空气力量科技有限公司")).toBeVisible();
     window.history.replaceState({}, "", "/");
   });
   it("links field errors to invalid inputs and focuses the first error", () => {
