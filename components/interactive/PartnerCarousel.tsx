@@ -59,7 +59,7 @@ export function PartnerCarousel({ images, locale, label }: { images: ImageAsset[
   const pointerDown=(event:PointerEvent<HTMLDivElement>)=>{
     suppressClick.current=false;
     if(event.button!==0 || images.length<2 || current.current.target!==null ||
-      (event.target instanceof Element && event.target.closest('.partner-carousel__controls,dialog'))) return;
+      (event.target instanceof Element && event.target.closest('.partner-carousel__controls,.motion-control,dialog'))) return;
     drag.current={id:event.pointerId,x:event.clientX,y:event.clientY,horizontal:false};
   };
   const pointerMove=(event:PointerEvent<HTMLDivElement>)=>{
@@ -119,7 +119,7 @@ export function PartnerCarousel({ images, locale, label }: { images: ImageAsset[
       <button aria-label={cn ? "上一组合作伙伴" : "Previous partners"} onClick={() => { motion.interaction(); change(-1); }}>←</button>
       <span className="sr-only" role="status" aria-live={motion.playing ? "off" : "polite"}>{images.length ? active + 1 : 0} / {images.length}</span>
       <button aria-label={cn ? "下一组合作伙伴" : "Next partners"} onClick={() => { motion.interaction(); change(1); }}>→</button>
-      {!motion.reduced && <button aria-label={cn ? (motion.paused ? "继续轮播" : "暂停轮播") : (motion.paused ? "Resume slideshow" : "Pause slideshow")} onClick={motion.toggle}>{motion.paused ? "▶" : "Ⅱ"}</button>}
     </div>
+    {!motion.reduced && <button className="motion-control sr-only" onClick={motion.toggle}>{cn ? (motion.paused ? "继续轮播" : "暂停轮播") : (motion.paused ? "Resume slideshow" : "Pause slideshow")}</button>}
   </div>;
 }

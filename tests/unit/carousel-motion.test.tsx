@@ -5,6 +5,13 @@ import { products } from "@/content/products";
 import { PartnerCarousel } from "@/components/interactive/PartnerCarousel";
 afterEach(() => { cleanup(); vi.useRealTimers(); vi.unstubAllGlobals(); });
 const images = [{ src: "/media/one.webp", alt: "One" }, { src: "/media/two.webp", alt: "Two" }];
+it.each(["en", "cn"] as const)("keeps %s partner pause accessible without the circular overlay", (locale) => {
+  const { container } = render(<PartnerCarousel images={images} locale={locale} label="Partners" />);
+  const pause = screen.getByRole("button", { name: locale === "cn" ? "暂停轮播" : "Pause slideshow" });
+  expect(pause).toHaveClass("sr-only");
+  expect(container.querySelector(".partner-carousel__controls")).not.toContainElement(pause);
+  expect(container.querySelector(".partner-carousel__controls")?.querySelectorAll("button")).toHaveLength(2);
+});
 it("advances the source partner-logo carousel every four seconds and supports pausing", () => {
   vi.useFakeTimers(); render(<PartnerCarousel images={images} locale="en" label="Partners" />);
   expect(screen.getByRole("status")).toHaveTextContent("1 / 2");

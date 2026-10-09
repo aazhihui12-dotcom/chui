@@ -38,14 +38,19 @@ for(const locale of ['cn','en']) {
     await expect(button).toHaveAttribute('href',`/${locale}/Contact_Us`);
   });
 
-  test(`${locale}: manufacturing play button grows and returns on mouse leave`,async({page})=>{
+  test(`${locale}: manufacturing stays clickable without circular overlays on hover`,async({page})=>{
     await page.goto(`/${locale}/`);
     const button=page.locator('.home-manufacturing .video-preview');
-    const play=button.locator('.video-preview__play');
     await button.hover();
-    await expect(play).toHaveCSS('transform','matrix(1.4, 0, 0, 1.4, 0, 0)');
+    await expect(button.locator('.video-preview__play')).toHaveCount(0);
+    await expect(page.locator('.background-video-toggle')).toHaveCount(0);
+    const pause=page.locator('.home-manufacturing .motion-control');
+    await expect(pause).toHaveCSS('clip','rect(0px, 0px, 0px, 0px)');
     await page.mouse.move(0,0);
-    await expect(play).toHaveCSS('transform','matrix(1, 0, 0, 1, 0, 0)');
+    await button.click();
+    await expect(page.getByRole('dialog')).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(page.getByRole('dialog')).toHaveCount(0);
   });
 
   test(`${locale}: certificate hover opens the corresponding image and Escape returns focus`,async({page})=>{

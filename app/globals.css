@@ -233,6 +233,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .skip-link { background: #ffffff; color: var(--text-primary); left: 1rem; padding: .65rem 1rem; position: fixed; top: -4rem; transition: top var(--motion-fast) ease; z-index: 100; }
 .skip-link:focus { top: 1rem; }
 .sr-only { height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; clip: rect(0, 0, 0, 0); white-space: nowrap; }
+.motion-control:focus-visible { clip: auto; height: auto; width: auto; margin: 0; padding: 8px 12px; left: 12px; top: 12px; z-index: 5; background: #fff; color: #111; border: 1px solid #111; border-radius: 4px; }
 
 .site-header { align-items: center; background: var(--brand-navy); border-bottom: 2px solid var(--brand-accent); color: #ffffff; display: flex; height: var(--header-height); justify-content: space-between; padding: 0 2.3%; position: relative; z-index: 20; }
 .site-brand { align-items: baseline; display: inline-flex; flex: 0 0 auto; gap: .5rem; letter-spacing: .08em; }

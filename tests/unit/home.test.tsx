@@ -55,6 +55,16 @@ describe("homepage source recognition", () => {
     expect(trigger).toHaveFocus();
   });
 
+  it.each(["en", "cn"] as const)("removes %s manufacturing circular overlays while keeping the video clickable", (locale) => {
+    const { container } = render(<HomeTemplate page={pages.find(page => page.id === "home" && page.locale === locale)!} />);
+    const trigger = screen.getByRole("button", { name: locale === "cn" ? "播放制造视频" : "Play manufacturing video" });
+    expect(trigger.querySelector(".video-preview__play")).toBeNull();
+    expect(container.querySelector(".background-video-toggle")).toBeNull();
+    expect(screen.getByRole("button", { name: locale === "cn" ? "播放背景视频" : "Play background video" })).toHaveClass("sr-only");
+    fireEvent.click(trigger);
+    expect(screen.getByRole("dialog", { name: locale === "cn" ? "我们的制造体系" : "Our manufacturing system" })).toBeVisible();
+  });
+
   it("renders real manufacturing figures and category destinations", () => {
     render(<HomeTemplate page={englishHome} />);
     expect(screen.getByText("750", { selector: '[aria-hidden="true"]' })).toBeVisible();
