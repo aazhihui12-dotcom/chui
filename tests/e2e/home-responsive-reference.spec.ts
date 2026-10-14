@@ -20,7 +20,7 @@ for (const locale of ['cn', 'en']) for (const width of [320, 390, 430, 768]) {
       await expect(page.locator('.home-manufacturing > h2')).toHaveCSS('line-height', locale === 'cn' ? '39px' : '33px');
       await expect(page.locator('.home-manufacturing__media .stats-grid dd').first()).toHaveCSS('font-size', '50px');
       await expect(page.locator('.home-manufacturing__media .stats-grid dt').first()).toHaveCSS('font-size', '14px');
-      await expect(page.locator('.home-manufacturing__media .stats-grid dt').first()).toHaveCSS('color', 'rgb(0, 0, 0)');
+      await expect(page.locator('.home-manufacturing__media .stats-grid dt').first()).toHaveCSS('color', 'rgb(34, 34, 34)');
       const video = await page.locator('.home-manufacturing__media .video-preview').boundingBox();
       const stats = await page.locator('.home-manufacturing__media .stats-grid').boundingBox();
       expect(stats!.y).toBeGreaterThanOrEqual(video!.y + video!.height);

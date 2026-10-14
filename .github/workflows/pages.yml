@@ -23,7 +23,9 @@ jobs:
           cache: npm
       - run: npm ci
       - name: Test
-        run: npm test
+        # Asset integration tests create/remove a temporary public download.
+        # Keep file-level workers serial so parallel audits never observe it halfway.
+        run: npm test -- --maxWorkers=1
       - name: Build project-path export
         env:
           NEXT_PUBLIC_BASE_PATH: /chui

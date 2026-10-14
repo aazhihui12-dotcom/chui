@@ -10,6 +10,7 @@ import "../home-partners.css";
 import "../home-motion.css";
 import "../home-hover.css";
 import "../home-hero-reference.css";
+import "../apower-v3.css";
 export { metadata } from "../(entry)/layout";
 import { notFound } from "next/navigation";
 import { SiteShell } from "@/components/site/Header";

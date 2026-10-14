@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import "../globals.css";
+import "../apower-v3.css";
 import { siteOrigin } from "@/lib/metadata";
 
 export const metadata: Metadata = {

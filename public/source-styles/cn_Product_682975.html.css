@@ -1,10 +1,1 @@
-/* Generated from captured source typography; run build-source-styles.mjs after export. */
-@media (min-width:768px){
-:root:has([data-source-page="/cn/Product/682975.html"]) #main-content > div:nth-of-type(1) > h1:nth-of-type(1){font-family:Poppins !important;font-size:16px !important;font-weight:400 !important;font-style:normal !important;line-height:40px !important;letter-spacing:normal !important;text-transform:none !important;color:#ffffff !important}
-:root:has([data-source-page="/cn/Product/682975.html"]) #main-content > div:nth-of-type(2) > nav:nth-of-type(1) > a:nth-of-type(2){font-family:Poppins !important;font-size:16px !important;font-weight:400 !important;font-style:normal !important;line-height:40px !important;letter-spacing:normal !important;text-transform:none !important}
-:root:has([data-source-page="/cn/Product/682975.html"]) #main-content > div:nth-of-type(2) > nav:nth-of-type(1) > a:nth-of-type(3){font-family:Poppins !important;font-size:16px !important;font-weight:400 !important;font-style:normal !important;line-height:40px !important;letter-spacing:normal !important;text-transform:none !important}
-:root:has([data-source-page="/cn/Product/682975.html"]) #main-content > div:nth-of-type(2) > nav:nth-of-type(1) > a:nth-of-type(5){font-family:Poppins !important;font-size:16px !important;font-weight:400 !important;font-style:normal !important;line-height:40px !important;letter-spacing:normal !important;text-transform:none !important}
-}
-@media (max-width:767px){
-
-}
+/* Approved APOWER metrics are owned by the responsive role styles and apower-v3.css. */

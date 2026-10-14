@@ -18,9 +18,10 @@ describe("inquiry form", () => {
     const { rerender } = render(<ContactTemplate page={page} />);
     const input = screen.getByLabelText(locale === "cn" ? "产品" : "Product");
     expect(input).toHaveValue("LBH-3228");
-    fireEvent.change(input, { target: { value: "My custom model" } });
+    const draft=locale==='cn'?'高速吹风机系列':'Hair Dryers';
+    fireEvent.change(input, { target: { value: draft } });
     rerender(<ContactTemplate page={page} />);
-    expect(input).toHaveValue("My custom model");
+    expect(input).toHaveValue(draft);
     expect(document.querySelectorAll("form")).toHaveLength(1);
     if (locale === "cn") expect(screen.getByText("佛山市空气力量科技有限公司")).toBeVisible();
     window.history.replaceState({}, "", "/");

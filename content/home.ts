@@ -2,7 +2,7 @@ import { text } from './apower';
 import type { Locale } from './schema';
 const make=(locale:Locale)=>({
  title:text(2,locale),partner:text(3,locale),bullets:[4,5,6,7].map(i=>text(i,locale)),
- manufacturing:text(8,locale),why:'',video:locale==='cn'?'了解我们的生产制造体系':'Explore our manufacturing system',
+ manufacturing:locale==='cn'?'为什么选择 APOWER TECH 的个护家电解决方案？':"Why choose APOWER TECH's personal care appliance solutions?",why:'',video:locale==='cn'?'了解我们的生产制造体系':'Explore our manufacturing system',
  products:text(13,locale),productDescription:text(14,locale),
  audiences:[16,17,18,19].map(i=>text(i,locale)).concat(locale==='cn'?'经纪人 / 推荐伙伴':'Referral Partners'),agents:text(20,locale),
  join:locale==='cn'?'今天加入我们':'Join us today',quote:locale==='cn'?'立即询价':'Get a Quote Now',catalogue:locale==='cn'?'索取完整产品目录':'Request Full Product Catalog',contact:locale==='cn'?'联系我们':'Contact Us',

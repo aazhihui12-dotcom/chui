@@ -56,9 +56,8 @@ for (const locale of ['en', 'cn']) for (const width of [1440, 390]) {
     await page.setViewportSize({ width, height: 1000 });
     await page.goto(`/${locale}`);
     const video = page.locator('.home-manufacturing__media');
-    for (const text of await video.locator('.stats-grid dd, .stats-grid dt').all()) {
-      await expect.soft(text).toHaveCSS('color', width === 390 ? 'rgb(0, 0, 0)' : 'rgb(255, 255, 255)');
-    }
+    for (const text of await video.locator('.stats-grid dd').all()) await expect.soft(text).toHaveCSS('color','rgb(217, 70, 75)');
+    for (const text of await video.locator('.stats-grid dt').all()) await expect.soft(text).toHaveCSS('color', width === 390 ? 'rgb(34, 34, 34)' : 'rgb(255, 255, 255)');
     const overlay = await video.evaluate(e => {
       const style = getComputedStyle(e, '::after');
       return { background: style.backgroundColor, pointerEvents: style.pointerEvents, content: style.content };
@@ -70,7 +69,7 @@ for (const locale of ['en', 'cn']) for (const width of [1440, 390]) {
     await page.goto(`/${locale}/Company_Introduction`);
     await expect.soft(page.locator('.editorial-banner h1')).toHaveCSS('color', 'rgb(255, 255, 255)');
     if (width === 390) {
-      await expect.soft(page.locator('.editorial-section--feature h2').first()).toHaveCSS('color', 'rgb(0, 0, 0)');
+      await expect.soft(page.locator('.editorial-section--feature h2').first()).toHaveCSS('color', 'rgb(34, 34, 34)');
     }
     await page.goto(`/${locale}/ProductIndex`);
     const card = page.locator('.product-carousel .product-card').first();

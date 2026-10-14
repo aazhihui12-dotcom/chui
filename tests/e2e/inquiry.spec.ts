@@ -52,6 +52,8 @@ for (const locale of ["en", "cn"] as const) {
     await expect(name).toHaveAttribute("aria-invalid", "true");
     await expect(name).toBeFocused();
     await name.fill("Contact buyer");
+    await panel.getByLabel(cn ? "公司" : "Company", { exact: true }).fill("Buyer Ltd");
+    await panel.getByLabel(cn ? "电话" : "Phone", { exact: true }).fill("+86 13800000000");
     await panel.getByLabel(cn ? "电子邮箱" : "Email", { exact: true }).fill("buyer@example.com");
     await panel.getByLabel(cn ? "留言" : "Message", { exact: true }).fill("Please send the catalogue.");
     await page.locator(".site-header .inquiry-trigger").click();

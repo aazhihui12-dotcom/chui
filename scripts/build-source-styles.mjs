@@ -31,9 +31,9 @@ for (const route of routes) {
   // Replacement homepage copy no longer matches the source strings reliably.
   // Explicit responsive role styles own its metrics, including button states.
   // Keep text-matched typography for all other routes only.
-  if(main.classList.contains('home-page')) {
+  if(main.classList.contains('home-page')||main.classList.contains('apower-v3')) {
     const name=route.slice(1).replaceAll("/","_")+".css";
-    const css='/* Homepage metrics are owned by home-desktop.css and home-responsive.css. */\n';
+    const css='/* Approved APOWER metrics are owned by the responsive role styles and apower-v3.css. */\n';
     await writeFile(`public/source-styles/${name}`,css);
     await writeFile(`${output}/source-styles/${name}`,css);
     continue;

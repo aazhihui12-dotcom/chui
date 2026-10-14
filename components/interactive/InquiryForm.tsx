@@ -9,16 +9,18 @@ const labels = {
   en: { name: "Name", email: "Email", company: "Company", phone: "Phone", product: "Product", message: "Message" },
   cn: { name: "姓名", email: "电子邮箱", company: "公司", phone: "电话", product: "产品", message: "留言" },
 };
-const chineseErrors: Record<string, string> = { name: "请输入姓名", email: "请输入有效的电子邮箱", message: "请输入留言" };
+const chineseErrors: Record<string, string> = { name: "请输入姓名", email: "请输入有效的电子邮箱", company: "请输入公司名称", phone: "请输入联系电话", message: "请输入留言" };
 
 export function InquiryForm({ locale, product = "", queryProduct = false }: { locale: Locale; product?: string; queryProduct?: boolean }) {
   const formRef = useRef<HTMLFormElement>(null);
+  const [selectedProduct,setSelectedProduct]=useState(product);
   useEffect(() => {
-    const input = formRef.current?.elements.namedItem("product") as HTMLInputElement | null;
-    if (queryProduct && input && !input.value) input.value = new URLSearchParams(window.location.search).get("product") ?? "";
+    if(queryProduct)setSelectedProduct(previous=>previous||new URLSearchParams(window.location.search).get('product')||'');
   }, [queryProduct]);
   const id = useId();
   const cn = locale === "cn";
+  const productChoices=cn?['高速吹风机系列','直发器系列','多功能美发器系列','吸附挂烫机系列']:['Hair Dryers','Hair Straighteners','High Speed Hair Multi-Stylers','Suction Garment Steamers'];
+  const requirements=cn?['小家电设计','OEM / ODM 服务','策略与咨询','用户研究','其他']:['Small Appliance Design','OEM / ODM Services','Strategy & Consulting','User Research','Other'];
   const [errors, setErrors] = useState<Record<string, string>>({});
   const [state, setState] = useState<"idle" | "pending" | "success" | "failed">("idle");
   const submitting = useRef(false);
@@ -30,7 +32,12 @@ export function InquiryForm({ locale, product = "", queryProduct = false }: { lo
     const value = (key: string) => String(data.get(key) ?? "").trim();
     const payload: InquiryPayload = { name: value("name"), email: value("email"), message: value("message"), locale };
     for (const key of ["company", "phone", "product"] as const) if (value(key)) payload[key] = value(key);
+    if(queryProduct)payload.requirements=data.getAll('requirements').map(String);
     const nextErrors = validateInquiry(payload);
+    if(queryProduct){
+      if(!payload.company)nextErrors.company='Company is required';
+      if(!payload.phone)nextErrors.phone='Phone is required';
+    }
     setErrors(nextErrors);
     if (Object.keys(nextErrors).length) {
       setState("idle");
@@ -52,12 +59,13 @@ export function InquiryForm({ locale, product = "", queryProduct = false }: { lo
   return <form ref={formRef} className="inquiry-form" noValidate onSubmit={submit} aria-busy={state === "pending"}>
     <p className="inquiry-required">{cn ? "标有 * 的字段为必填项。" : "Fields marked * are required."}</p>
     <fieldset disabled={state === "pending"}>
-      {fields.map((field) => {
-        const required = field === "name" || field === "email" || field === "message";
+      {(queryProduct?['name','company','email','phone','product','message'] as const:fields).map((field) => {
+        const required = field === "name" || field === "email" || field === "message" || queryProduct && (field === "company" || field === "phone");
         const props = { id: `${id}-${field}`, name: field, required, "aria-invalid": errors[field] ? true : undefined, "aria-describedby": errors[field] ? `${id}-${field}-error` : undefined };
-        return <div key={field} className={`inquiry-field${field === "message" ? " inquiry-field--wide" : ""}`}>
+        return <div key={field} className={`inquiry-field${field === "message"||queryProduct&&field==='product' ? " inquiry-field--wide" : ""}`}>
           <label htmlFor={props.id}>{labels[locale][field]}{required && <span aria-hidden="true" className="inquiry-asterisk" />}</label>
-          {field === "message" ? <textarea {...props} rows={4} /> : <input {...props} type={field === "email" ? "email" : field === "phone" ? "tel" : "text"} autoComplete={{ name: "name", email: "email", company: "organization", phone: "tel", product: "off" }[field]} defaultValue={field === "product" ? product : ""} />}
+          {field === "product"&&queryProduct?<select {...props} value={selectedProduct} onChange={e=>setSelectedProduct(e.target.value)}><option value="">{cn?'请选择产品系列':'Select a product range'}</option>{selectedProduct&&!productChoices.includes(selectedProduct)&&<option value={selectedProduct}>{selectedProduct}</option>}{productChoices.map(choice=><option key={choice}>{choice}</option>)}</select>:field === "message" ? <><span className="inquiry-assistance-label">{queryProduct?(cn?'您需要我们提供什么协助？':'What assistance do you need from us?'):''}</span><textarea {...props} rows={4} /></> : <input {...props} type={field === "email" ? "email" : field === "phone" ? "tel" : "text"} autoComplete={{ name: "name", email: "email", company: "organization", phone: "tel", product: "off" }[field]} defaultValue={field === "product" ? product : ""} />}
+          {queryProduct&&field==='product'&&<div className="inquiry-requirements" role="group" aria-label={cn?'您的需求是什么？':'What are your requirements?'}><p>{cn?'您的需求是什么？':'What are your requirements?'}</p>{requirements.map(label=><label key={label}><input type="checkbox" name="requirements" value={label}/>{label}</label>)}</div>}
           {errors[field] && <p className="inquiry-error" id={`${id}-${field}-error`}>{cn ? chineseErrors[field] : errors[field]}</p>}
         </div>;
       })}

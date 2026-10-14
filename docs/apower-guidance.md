@@ -1,5 +1,76 @@
 # APOWER content update — 2026-10-08
 
+## Detail guidance / replacement artwork 3.0 — 2026-10-14
+
+The current revision uses `APOWER TECH网站指导【文字大小与图片问题】.xlsx`
+and `APOWER TECH图片补充与替换3.0.zip`. The workbook has 17 sheets.
+All 29 supplied display images match the workbook's embedded originals by
+SHA-256; three repeated icon images reduce the shipped set to 26 unique WebPs.
+The ZIP is supplementary: unchanged 2.5 product/brand artwork, parameters,
+the approved palette and archived destinations are retained.
+
+The user's later instruction makes **all editable site text Medium (500)**,
+overriding the guidance's isolated Regular/SemiBold choices. Official Inter
+Medium is self-hosted. Inter has no Chinese glyph set, so Chinese uses a
+weight-500 subset derived from Source Han Sans SC and renamed **APOWER Han**
+in accordance with the upstream reserved-font-name clause. Both OFL licenses
+are shipped. All 1,057 current source Chinese characters are present in the
+subset; text baked into photographs/product graphics and logos is unchanged.
+
+- Home: 64px English desktop headlines, 20px lists, shorter manufacturing
+  headline, enlarged red numbers with smaller labels, supplied mission photo,
+  larger white logo and social placeholders without invented account URLs.
+- Product overview: four supplied assurance paragraphs and image-triggered
+  upward descriptions; dark four-category surface; gray customization cards;
+  overview video left/copy right; service titles above photos; supplied white
+  benefit icons; larger production photos; ten illustrated, numbered assembly
+  cards; gray certificates and aligned red quality figures; larger partner logos.
+- Active category banners show the full supplied artwork without overlay.
+  AP product information uses a dark surface with explicitly white table
+  headings **and values**, without changing specifications or gallery content.
+- Service pages: requested title/paragraph adjustments, OEM support-image
+  descriptions, Exclusive testing photo/icons, centered dark Design facilities,
+  separate 15/45/60-day phase paragraphs, five manufacturing photos and the
+  existing factory video, distinct testing heading, separate warranty coverage
+  and three numbered support promises. Requested closing contact strips are
+  standalone; Exclusive retains its specified preceding image/copy module.
+- About: brighter billboard, six desktop certificates, full mountain/value
+  section with a contrast-safe text scrim, mission icons and partner typography;
+  team photo left/copy and two figures right; two-paragraph factory introduction
+  with video right, dark red-number statistics and titles above facilities photos.
+  Certificates, sustainability and laboratory typography follow the same roles.
+- Contact: Name/Company then Email/Phone, with the four reference-required
+  fields; a catalog-based product selector, five requirement checkboxes and
+  assistance prompt. Inquiry payloads retain requirement choices. Email transport
+  remains a simulation, not a live submission or email backend.
+
+`scripts/import-apower-v3.py` stores source hashes/dimensions in
+`content/apower-v3-assets.json`. `scripts/import-apower-fonts.py` downloads
+the official licensed fonts and builds the Chinese subset (fontTools required).
+Role-based `app/apower-v3.css` owns revised page metrics; generated text-match
+CSS is intentionally skipped on these routes so unrelated original strings
+cannot override the new copy. Non-revised archived routes keep their captured
+geometry; the global Medium font instruction still applies to them.
+
+Verification includes full unit/integration tests, root and `/chui` exports,
+route/asset validation, real Chrome font loading, CN/EN desktop/mobile route
+checks, 320–1920px three-slide containment, keyboard/backdrop descriptions,
+product-gallery/inquiry flows, hover and partner travel, scroll entrances and
+inspected desktop/mobile module screenshots. Old `products.spec.ts` and one
+desktop `navigation.spec.ts` assertion still target the superseded 24-product
+LBH/five-category catalog; the exploratory broader run exposed those five
+stale checks. They were not modified or reported as successful. Current APOWER
+catalog coverage is in `apower-guidance.spec.ts` and `apower-v2.spec.ts`.
+
+Final local verification on 2026-10-14: **221/221 unit/integration tests** and
+**92/92 focused Chrome checks** passed. TypeScript, root asset audit and both
+production exports pass. A separately mounted `/chui` export passes all 72
+language/viewport page visits, actual font-face loading, supplied-image decode,
+description focus restoration and contact selectors. CI now runs unit files
+serially to avoid the temporary-download/asset-audit race. Reuse
+`node scripts/verify-apower-release.mjs https://aazhihui12-dotcom.github.io/chui/ public`
+to verify the deployed release without submitting an inquiry or changing it.
+
 ## Website Guidance 2.0 / Materials 2.5 — 2026-10-14
 
 This update uses the supplied five-sheet `APOWER TECH网站指导 2.0.xlsx`

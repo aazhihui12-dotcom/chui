@@ -9,7 +9,7 @@ import { factoryAddress } from '@/content/apower-v2';
 export function ContactTemplate({ page }: { page: SitePage }) {
   const cn = page.locale === "cn";
   const { contact, labels } = siteConfig[page.locale];
-  return <main id="main-content" className="contact-page support-page">
+  return <main id="main-content" className="contact-page support-page apower-v3">
     <header className="contact-hero"><h1>{text(225,page.locale)}</h1></header>
     <h2 className="contact-heading">{cn ? "立即联系我们" : "Contact Us Now"}</h2>
     <div className="support-container contact-layout">

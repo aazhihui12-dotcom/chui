@@ -10,7 +10,7 @@ describe("homepage source recognition", () => {
     render(<HomeTemplate page={englishHome} />);
     expect(screen.getByRole("heading", { name: /Saving You Time and Cost/ })).toBeVisible();
     expect(screen.getByText("5 Automated Production Lines")).toBeVisible();
-    expect(screen.getByRole("heading", { name: /Why Leading Brands Trust APOWER/ })).toBeVisible();
+    expect(screen.getByRole("heading", { name: "Why choose APOWER TECH's personal care appliance solutions?" })).toBeVisible();
     expect(screen.getByRole("main")).toHaveAttribute("id", "main-content");
   });
 

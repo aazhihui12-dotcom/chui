@@ -21,7 +21,7 @@ export function HomeTemplate({ page }: { page: SitePage }) {
   const galleries = page.blocks.filter((block) => block.type === "gallery");
   const stats = [{type: 'stats' as const,items:[9,10,11,12].map(id=>{const value=text(id,page.locale);const match=value.match(/^(\d+\+?)\s*(.*)$/)!;return {value:match[1],label:match[2]};})}];
   const featured = products.slice(0,4);
-  return <main id="main-content" tabIndex={-1} className="home-page">
+  return <main id="main-content" tabIndex={-1} className="home-page apower-v3">
     <HomeMotion locale={page.locale} />
     <HeroCarousel locale={page.locale} slides={[
       { title: copy.title, subtitle: copy.partner, image: artwork('hero-brand'), bullets: copy.bullets },
@@ -77,7 +77,7 @@ export function HomeTemplate({ page }: { page: SitePage }) {
       </a>)}</div>
     </div></section>
 
-    <section className="home-mission home-section"><Media image={artwork('logo-white','APOWER')} /><div><p className="eyebrow">APOWER TECH</p><h2>{copy.mission}</h2>{copy.missionParagraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<a className="text-link" href={sitePath(contact)}>{copy.customization} ↗</a></div></section>
+    <section className="home-mission home-section"><Media image={artwork('home-mission','APOWER')} /><div><p className="eyebrow">APOWER TECH</p><h2>{copy.mission}</h2>{copy.missionParagraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}<a className="text-link" href={sitePath(contact)}>{copy.customization} ↗</a></div></section>
 
     <section className="home-customization"><Media image={artwork('logo-white','APOWER')} /><h2>{copy.customization}</h2><div className="button-row"><InquiryTrigger locale={page.locale} title={copy.quote}>{copy.quote} ↗</InquiryTrigger><InquiryTrigger locale={page.locale} title={copy.catalogue} className="lbh-button lbh-button--outline">{copy.catalogue} ↗</InquiryTrigger></div></section>
 

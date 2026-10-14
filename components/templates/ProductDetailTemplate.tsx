@@ -14,7 +14,7 @@ export function ProductDetailTemplate({ product, locale }: { product: Product; l
   const category = categories.find((category) => category.id === product.categoryId)!;
   const labels = siteConfig[locale].labels;
   const cn = locale === "cn";
-  return <main id="main-content" className="product-page product-detail">
+  return <main id="main-content" className={`product-page product-detail${product.model.startsWith('AP-')?' apower-v3':''}`}>
     <nav className="product-breadcrumb" aria-label={cn ? "面包屑导航" : "Breadcrumb"}><a href={sitePath(`/${locale}/ProductIndex`)}>{labels.products}</a><span aria-hidden="true">/</span><a href={sitePath(`/${locale}${category.legacyPath}`)}>{category.title[locale]}</a><span aria-hidden="true">/</span><span aria-current="page">{product.model}</span></nav>
     <div className="product-detail__top">
       <ProductGallery images={page.images} model={product.model} locale={locale} />

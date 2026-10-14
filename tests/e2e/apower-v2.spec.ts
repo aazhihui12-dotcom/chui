@@ -63,9 +63,10 @@ for (const locale of ['cn', 'en']) for (const width of [1440, 390]) {
   });
 }
 
-test('renamed Factory 1 address retains captured typography', async ({ page }) => {
+test('Factory 1 address uses the approved Medium weight and uniform contact label metrics', async ({ page }) => {
   await page.goto('/en/Contact_Us/');
   const label = page.locator('dt').filter({ hasText: /^Factory 1 Address$/ });
-  await expect(label).toHaveCSS('font-weight', '700');
-  await expect(label).toHaveCSS('line-height', '21.328px');
+  await expect(label).toHaveCSS('font-weight', '500');
+  await expect(label).toHaveCSS('font-size', '16px');
+  await expect(label).toHaveCSS('line-height', '30.4px');
 });

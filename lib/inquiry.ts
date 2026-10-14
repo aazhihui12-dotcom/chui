@@ -1,6 +1,6 @@
 import type { Locale } from "@/content/schema";
 
-export type InquiryPayload = { name: string; email: string; company?: string; phone?: string; message: string; product?: string; locale: Locale };
+export type InquiryPayload = { name: string; email: string; company?: string; phone?: string; message: string; product?: string; requirements?: string[]; locale: Locale };
 export function validateInquiry(payload: Partial<InquiryPayload>): Record<string, string> {
   const errors: Record<string, string> = {};
   if (!payload.name?.trim()) errors.name = "Name is required";

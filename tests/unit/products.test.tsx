@@ -25,7 +25,9 @@ describe("product route coverage", () => {
 describe("product pages", () => {
   it("renders canonical Chinese overview details without abridging customization and factory text", () => {
     render(<ProductIndexTemplate page={pages.find(page => page.kind === "product-index" && page.locale === "cn")!} />);
+    fireEvent.click(screen.getByRole('button',{name:'包装设计',exact:true}));
     expect(screen.getByText("选择环保包装方案，体现您对可持续发展的承诺，并强化品牌形象。")).toBeVisible();
+    fireEvent.keyDown(document,{key:'Escape'});
     expect(screen.getByText(/我们对品质的承诺不仅体现在设计上/)).toBeVisible();
   });
   it("shows only captured product gallery photos, without loading graphics or feature posters", () => {
