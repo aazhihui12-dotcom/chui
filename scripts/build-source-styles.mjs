@@ -56,6 +56,9 @@ for (const route of routes) {
       const value=own||element.textContent.trim(),key=normal(value);
       if(!key||key.length<2||!own&&element.querySelector("h1,h2,h3,p,a,button,li,dt,dd"))continue;
       let target=reference.get(key);
+      // Guidance 2.0 identifies Factory 1 explicitly; retain the captured
+      // address-label typography even though its visible wording changed.
+      if(!target&&route==='/en/Contact_Us'&&element.tagName==='DT'&&value==='Factory 1 Address')target=texts.find(t=>/^Factory Address:/.test(t.text));
       if(element.closest(".article-card")) {
         if(element.matches("h2,h2 > a"))target=texts.find(t=>/news-title|laout-110-title/.test(t.cls))||target;
         else if(element.matches("p"))target=texts.find(t=>/news-desc/.test(t.cls)||t.text==="内容介绍")||target;

@@ -1,0 +1,570 @@
+{
+  "company-billboard": {
+    "src": "/media/apower/v2/company-billboard.webp",
+    "width": 1920,
+    "height": 1047,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/关于/公司介绍/海报.png",
+    "sourceSha256": "3d20e090a9882270410587adfeae95bad12df283dbf428dc88af6a6f0015794a"
+  },
+  "order-status": {
+    "src": "/media/apower/v2/order-status.webp",
+    "width": 1400,
+    "height": 1378,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/我们在这里提供帮助-【订单管理板块】/1-01.png",
+    "sourceSha256": "af222e2af0568c708b689e5bc07259e6bb97473041ab96237f98fe38366f74e4"
+  },
+  "order-phone": {
+    "src": "/media/apower/v2/order-phone.webp",
+    "width": 965,
+    "height": 906,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/我们在这里提供帮助-【订单管理板块】/2.jpg",
+    "sourceSha256": "ed1098ca862a99d1deb3df701d60d405cbf36db32649f8377fea6d2c96e43a8b"
+  },
+  "partner-distributor": {
+    "src": "/media/apower/v2/partner-distributor.webp",
+    "width": 1200,
+    "height": 675,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/首页/2.指引板块/1.您是经销商或者批发商？/1.png",
+    "sourceSha256": "ab2fce33f3b4a90c56939a12a73261b4bfea0dd93843d4701439ce34122a27fc"
+  },
+  "partner-brand": {
+    "src": "/media/apower/v2/partner-brand.webp",
+    "width": 1200,
+    "height": 675,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/首页/2.指引板块/2.您是品牌定制客户？/2.png",
+    "sourceSha256": "3a57205fe9d29c97dd0c7717e2ecbc294f69333c57e84db4d0be146f7d443e61"
+  },
+  "partner-engineer": {
+    "src": "/media/apower/v2/partner-engineer.webp",
+    "width": 1200,
+    "height": 675,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/首页/2.指引板块/3.您是工程师或设计师？/3.png",
+    "sourceSha256": "33a9c91a3d42db4407e204dac86b10d02e3b80331741b52f80d21bbddbe3d814"
+  },
+  "partner-online": {
+    "src": "/media/apower/v2/partner-online.webp",
+    "width": 1200,
+    "height": 675,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/首页/2.指引板块/4.您是网络品牌企业主？/4.png",
+    "sourceSha256": "71f53c0204681b3497646300a031017df79f7e35559299b3f867725e7fc1d7c5"
+  },
+  "partner-referral": {
+    "src": "/media/apower/v2/partner-referral.webp",
+    "width": 1200,
+    "height": 675,
+    "sourceArchive": "1.图片更替.zip",
+    "sourcePath": "1.图片更替/首页/2.指引板块/5.经纪人专用/5.png",
+    "sourceSha256": "cfb5e55df0fd5037cdfa43b3374b0fec2f6f4736ac870800ab3917e039af8981"
+  },
+  "ap-ar01-detail-1": {
+    "src": "/media/apower/v2/ap-ar01-detail-1.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/详情图/1.png",
+    "sourceSha256": "08e51db5a6c6ca72de514705d9d2b0e99f959fac1fe46f1de769b9f860bee11f"
+  },
+  "ap-ar01-detail-2": {
+    "src": "/media/apower/v2/ap-ar01-detail-2.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/详情图/2.png",
+    "sourceSha256": "386ce656c66fb0f4f4e35f1818d6c4d6c3eb22b111d2d2bb8ca30dafd3dfe876"
+  },
+  "ap-ar01-detail-3": {
+    "src": "/media/apower/v2/ap-ar01-detail-3.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/详情图/3.png",
+    "sourceSha256": "8ab948618790562bbeabf79c82c16a53be74e24d854ac4b94fa0ff660aebd023"
+  },
+  "ap-ar01-detail-4": {
+    "src": "/media/apower/v2/ap-ar01-detail-4.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/详情图/4.png",
+    "sourceSha256": "768810ee64f026e59edcae39f72a79342c92ca6f51cebdf12106787ec6a23520"
+  },
+  "ap-ar01-color-1": {
+    "src": "/media/apower/v2/ap-ar01-color-1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/配色图/山樱粉.PNG",
+    "sourceSha256": "d14d54471d70523ba7bb5c5c5c65a94f83bfdc03d5d064357f68366853c5321d"
+  },
+  "ap-ar01-color-2": {
+    "src": "/media/apower/v2/ap-ar01-color-2.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/配色图/普鲁士蓝.PNG",
+    "sourceSha256": "ef0756bf6fc17c531b33d257211d8866a39e4681a517968330e8afecda330a2c"
+  },
+  "ap-ar01-color-3": {
+    "src": "/media/apower/v2/ap-ar01-color-3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/配色图/珍珠白.PNG",
+    "sourceSha256": "bbf355661e7bf90b8ab74e0a56001551a051d4b97e90be3bf28ea0c301a9db09"
+  },
+  "ap-ar01-color-4": {
+    "src": "/media/apower/v2/ap-ar01-color-4.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/配色图/香槟色.png",
+    "sourceSha256": "bcc5f1fff6b15230bb29e731ba6a1db385c9170cf758e13868f77e6fa0d34d77"
+  },
+  "product-ar01": {
+    "src": "/media/apower/v2/product-ar01.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/首图/AR01.png",
+    "sourceSha256": "2aa9939a6e9c88a0e102788cf419de3f8308d4ff0be1f3197ac7ff4485d7f8a6"
+  },
+  "ap-g1-detail-1": {
+    "src": "/media/apower/v2/ap-g1-detail-1.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/详情图/1.png",
+    "sourceSha256": "f460617dfcab2080af4b06d47a2b3ed699c2387d76d38293da91d1d22181db75"
+  },
+  "ap-g1-detail-2": {
+    "src": "/media/apower/v2/ap-g1-detail-2.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/详情图/2.png",
+    "sourceSha256": "bbeb381517b63cc9fbde69b1aa7b072b07fba252eb1c3ce5fb96e3aeb3f182df"
+  },
+  "ap-g1-detail-3": {
+    "src": "/media/apower/v2/ap-g1-detail-3.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/详情图/3.png",
+    "sourceSha256": "aab0695e6622577a3c9ed6839f15554146b1f895dd0fd8437a82b11686a43acb"
+  },
+  "ap-g1-color-1": {
+    "src": "/media/apower/v2/ap-g1-color-1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/配色图/PNG/G1-哑光白.png",
+    "sourceSha256": "4d1cf714ce8a64285b42d206ee7d11e28c3053143c385475872cdfa025f04990"
+  },
+  "ap-g1-color-2": {
+    "src": "/media/apower/v2/ap-g1-color-2.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/配色图/PNG/G1-莫兰迪灰.png",
+    "sourceSha256": "50c95d87e76ea0219b1cbfe79545a55d6dd8e1f4c5a658a798140dd74744ed6f"
+  },
+  "ap-g1-color-3": {
+    "src": "/media/apower/v2/ap-g1-color-3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/配色图/PNG/G1-钛灰色.png",
+    "sourceSha256": "54cec7884bc88bf5b50f2938f8e24d997efcb233d389af4c94bb0d00151bf1eb"
+  },
+  "ap-g1-color-4": {
+    "src": "/media/apower/v2/ap-g1-color-4.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/配色图/PNG/G1-飘雪银.png",
+    "sourceSha256": "253fb898a3c498f1c4cfeb228b02637e42f88f96da0f0cdecde53a15acdf9a61"
+  },
+  "ap-g1-color-5": {
+    "src": "/media/apower/v2/ap-g1-color-5.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/配色图/PNG/G1_飘雪银.png",
+    "sourceSha256": "43da67e4d3f3f6aa08874648f5a0870f25889981f3491fe27ac48d6b4314b118"
+  },
+  "product-g1": {
+    "src": "/media/apower/v2/product-g1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/首图/AP-G1.png",
+    "sourceSha256": "d3f05e2a1ff5390952e96bc24f609598010dd03f024745e39df5112fb437c1f0"
+  },
+  "ap-g11-detail-1": {
+    "src": "/media/apower/v2/ap-g11-detail-1.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/详情图/1.png",
+    "sourceSha256": "ced6f8eb79e480bf11de3fb83ae0ea9926ab34682d7c0ea4229827d6fb380dad"
+  },
+  "ap-g11-detail-2": {
+    "src": "/media/apower/v2/ap-g11-detail-2.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/详情图/2.png",
+    "sourceSha256": "da14d01bc681c80801734a7969b7e048ed93f03c681df90d3eba12dc2ea52177"
+  },
+  "ap-g11-detail-3": {
+    "src": "/media/apower/v2/ap-g11-detail-3.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/详情图/3.png",
+    "sourceSha256": "c9309e70ee949ebc963c1d8be5d60f56a2bef2600ed94fdcbf038dff90651579"
+  },
+  "ap-g11-color-1": {
+    "src": "/media/apower/v2/ap-g11-color-1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/配色图/G11-兰迪白.png",
+    "sourceSha256": "4c69834572ec27ffcc751328872bf9da4c87064f6e5c6139b1e5c71dd2aa24b9"
+  },
+  "ap-g11-color-2": {
+    "src": "/media/apower/v2/ap-g11-color-2.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/配色图/G11-哑光白.png",
+    "sourceSha256": "53de2573aa47749f9909587b6f43659db062e2fa9249a0a42e076e618e2179ab"
+  },
+  "ap-g11-color-3": {
+    "src": "/media/apower/v2/ap-g11-color-3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/配色图/G11-莫兰迪灰.png",
+    "sourceSha256": "28b86e73b14c4b22d08928534c5576ceb17569e9f380764867a080131056723a"
+  },
+  "ap-g11-color-4": {
+    "src": "/media/apower/v2/ap-g11-color-4.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/配色图/G11-钛灰色.png",
+    "sourceSha256": "76b10a52a05fa952f9bedbc5eda575dd6c85693c8def1394452d894297c81730"
+  },
+  "ap-g11-color-5": {
+    "src": "/media/apower/v2/ap-g11-color-5.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/配色图/G11-飘雪银.png",
+    "sourceSha256": "8f4f00b919ac3c7cbaf3702f1fb37aee141ed38623669bef1e42be823aa01e35"
+  },
+  "ap-g11-color-6": {
+    "src": "/media/apower/v2/ap-g11-color-6.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/配色图/G11-香槟色.png",
+    "sourceSha256": "0460e7568e26e465fac705ffb51a2debcc8d8da62169f24350753cfbb078661e"
+  },
+  "product-g11": {
+    "src": "/media/apower/v2/product-g11.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G11/首图/AP-G11.png",
+    "sourceSha256": "b74a400390e7ac313985c0f36507a6a55b52829d62d19683442c4eff09754c5f"
+  },
+  "ap-g3-detail-1": {
+    "src": "/media/apower/v2/ap-g3-detail-1.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/详情图/1.png",
+    "sourceSha256": "c5db1387892cc59e894c3c21371c94259086fbb7471ac529dd4f217918ff7eba"
+  },
+  "ap-g3-detail-2": {
+    "src": "/media/apower/v2/ap-g3-detail-2.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/详情图/2.png",
+    "sourceSha256": "fe21b9a642093c793ba211ecac0df1d26968ae8630a912072ffc1de42d0e44fb"
+  },
+  "ap-g3-detail-3": {
+    "src": "/media/apower/v2/ap-g3-detail-3.webp",
+    "width": 1920,
+    "height": 810,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/详情图/3.png",
+    "sourceSha256": "8e6e0c4a6c1092bdb26f992c4292ca816eeea5410526f73057c70412ef28180b"
+  },
+  "ap-g3-color-1": {
+    "src": "/media/apower/v2/ap-g3-color-1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/配色图/G3_哑白色.png",
+    "sourceSha256": "2e5ab3261eb03a36cea5f37c37e925d3373022cef645eb24f708ce38c491146f"
+  },
+  "ap-g3-color-2": {
+    "src": "/media/apower/v2/ap-g3-color-2.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/配色图/G3_炭黑色.png",
+    "sourceSha256": "103fbac4d2906f084f95497c2b95ffe4f0b051c85f9a33d676486003cbed0486"
+  },
+  "ap-g3-color-3": {
+    "src": "/media/apower/v2/ap-g3-color-3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/配色图/G3_金属白.png",
+    "sourceSha256": "12388b4df1bebe38ac672fbb96c8acd66c4dd4df7b5c02fc60c373e565e12873"
+  },
+  "ap-g3-color-4": {
+    "src": "/media/apower/v2/ap-g3-color-4.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/配色图/G3_银紫色.png",
+    "sourceSha256": "e8a1f71e323ea943640f18d84ed8fd9172bd31340e545554f2e0d4c3510ffbf2"
+  },
+  "ap-g3-color-5": {
+    "src": "/media/apower/v2/ap-g3-color-5.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/配色图/G3_香槟色.png",
+    "sourceSha256": "eac32269ec6be2fba55b29a6eb7483523933d4885b05e9fcc85ca7a82f3cf6bf"
+  },
+  "product-g3": {
+    "src": "/media/apower/v2/product-g3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G3/首图/AP-G3.png",
+    "sourceSha256": "96720a6e5f4168c495484264c389ab2f47bc1b6119f0a5adb4b28a42999c01b9"
+  },
+  "ap-h1-detail-1": {
+    "src": "/media/apower/v2/ap-h1-detail-1.webp",
+    "width": 1920,
+    "height": 822,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/详情图/1.png",
+    "sourceSha256": "cf1846bbae67fa13fa2ef8a62a5860ca77d35dcd5a2df08759f178b1516a7663"
+  },
+  "ap-h1-detail-2": {
+    "src": "/media/apower/v2/ap-h1-detail-2.webp",
+    "width": 1920,
+    "height": 822,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/详情图/2.png",
+    "sourceSha256": "8199ea1ff8ae9c45a392887b45346180c9e57be44de99317964b2f3294f44c8e"
+  },
+  "ap-h1-detail-3": {
+    "src": "/media/apower/v2/ap-h1-detail-3.webp",
+    "width": 1920,
+    "height": 822,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/详情图/3.png",
+    "sourceSha256": "1489549dc162a96ecb327753dbc0f2fa9c401a27873269b8f3539ea8868bab2c"
+  },
+  "ap-h1-color-1": {
+    "src": "/media/apower/v2/ap-h1-color-1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/配色图/H1-丝绒红.png",
+    "sourceSha256": "ed5139f049a498cc5640a5416a233d1f2edf7d69cc5d44b776091cc1d9f748a1"
+  },
+  "ap-h1-color-2": {
+    "src": "/media/apower/v2/ap-h1-color-2.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/配色图/H1-墨绿色.png",
+    "sourceSha256": "6fb3c84709e1b731fe64eafbeef167d26c3d70baf493b283fc9a1881657b36aa"
+  },
+  "ap-h1-color-3": {
+    "src": "/media/apower/v2/ap-h1-color-3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/配色图/H1-梅紫色.png",
+    "sourceSha256": "fb8673bc562911a601c89f7774e63e2adf4396fb9e6441da313b8c6eb3b84a34"
+  },
+  "ap-h1-color-4": {
+    "src": "/media/apower/v2/ap-h1-color-4.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/配色图/H1-罗兰白.png",
+    "sourceSha256": "1f409217e33c75ef907a9be18ba250a83713edfe7badb4af9075826deb337232"
+  },
+  "ap-h1-color-5": {
+    "src": "/media/apower/v2/ap-h1-color-5.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/配色图/H1-铂金灰.png",
+    "sourceSha256": "bbe33e7047ca45714bd5c925c4275ecc7c10b5783911d827890377328d7ab73b"
+  },
+  "product-h1": {
+    "src": "/media/apower/v2/product-h1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/首图/H1-首图.png",
+    "sourceSha256": "ca8ed29c7aeeddc61e7c88f8c77f57c25599892142bc47f8327bffcc33b8262a"
+  },
+  "ap-s1-detail-1": {
+    "src": "/media/apower/v2/ap-s1-detail-1.webp",
+    "width": 1920,
+    "height": 822,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/详情图/产品详情banner-1【S1】.png",
+    "sourceSha256": "785edb7ad64bfadd944379f1f9ce2f89545d05720616500b973b9b900b6d9858"
+  },
+  "ap-s1-detail-2": {
+    "src": "/media/apower/v2/ap-s1-detail-2.webp",
+    "width": 1920,
+    "height": 822,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/详情图/产品详情banner-2【S1】.png",
+    "sourceSha256": "bc505720ae8cd3b6528b35fb8312fd97b9e083d039a6edfa842da060a1223cea"
+  },
+  "ap-s1-detail-3": {
+    "src": "/media/apower/v2/ap-s1-detail-3.webp",
+    "width": 1920,
+    "height": 822,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/详情图/产品详情banner-3【S1】.png",
+    "sourceSha256": "29f6694ba0160389b173ca8496a6994f32685d64099fabf39262766d2d72faa5"
+  },
+  "ap-s1-color-1": {
+    "src": "/media/apower/v2/ap-s1-color-1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/配色图/哑白色.png",
+    "sourceSha256": "86938431d6d7917b8aa4762e9e8d781a932a937667b71b7c537829bc0067066b"
+  },
+  "ap-s1-color-2": {
+    "src": "/media/apower/v2/ap-s1-color-2.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/配色图/梅粉色.324.png",
+    "sourceSha256": "393c7ac9655d1728af5d7ec3d60198b740fb8edda5f4ff7fe1ab133532dbf4ea"
+  },
+  "ap-s1-color-3": {
+    "src": "/media/apower/v2/ap-s1-color-3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/配色图/钛灰色.png",
+    "sourceSha256": "e2b81e08157d36987337597084acbcf394ffbabf46c3a9e783108f0fadd4b541"
+  },
+  "ap-s1-color-4": {
+    "src": "/media/apower/v2/ap-s1-color-4.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/配色图/飘雪银（UV).png",
+    "sourceSha256": "cbb35c507623ea15650e6a128a642affc3d07183f9aa295c1fe29b1e013d4ec1"
+  },
+  "ap-s1-color-5": {
+    "src": "/media/apower/v2/ap-s1-color-5.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/配色图/香槟色.327.png",
+    "sourceSha256": "dc05010714c3e2d2f59bc5f00d7ae58b6626b2487dbfa86931fd74fad2d336ed"
+  },
+  "product-s1": {
+    "src": "/media/apower/v2/ap-s1-color-3.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/高速多功能美发器/AP-S1/首图/钛灰色.png",
+    "sourceSha256": "e2b81e08157d36987337597084acbcf394ffbabf46c3a9e783108f0fadd4b541"
+  },
+  "product-range-banner": {
+    "src": "/media/apower/v2/product-range-banner.webp",
+    "width": 2400,
+    "height": 794,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/首页banner/纯净版/产品页/产品页banner-1.png",
+    "sourceSha256": "9ca31b2a212b2a4b72e76d9a9d7eb1b9c92e04e8be6576d3e38466c59429f85c"
+  },
+  "hero-brand": {
+    "src": "/media/apower/v2/hero-brand.webp",
+    "width": 2400,
+    "height": 1029,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/首页banner/纯净版/首页/首页banner-1.png",
+    "sourceSha256": "7e59be6b2e384723d9bdec742192867d4ed7eda7bcf23ddc13d5b6b7b16ac36f"
+  },
+  "hero-g1": {
+    "src": "/media/apower/v2/hero-g1.webp",
+    "width": 2400,
+    "height": 1028,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/首页banner/纯净版/首页/首页banner-2.png",
+    "sourceSha256": "cae567a2cd2a145c931d6aabd092d377709d82ce2afc53bd0cf2197fdb1e5fc5"
+  },
+  "hero-ar01": {
+    "src": "/media/apower/v2/hero-ar01.webp",
+    "width": 2400,
+    "height": 1028,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/首页banner/纯净版/首页/首页banner-3.png",
+    "sourceSha256": "33ad85849841b579ab60f202ec68eb6517cf5d753f61e854f4c052cb038f136f"
+  },
+  "factory-5s": {
+    "src": "/media/apower/v2/factory-5s.webp",
+    "width": 1400,
+    "height": 1102,
+    "sourceArchive": "APOWER TECH网站指导 2.0.xlsx",
+    "sourcePath": "关于!A89 / xl/media/image103.jpg",
+    "sourceSha256": "906d3b9852f36d4132bc0d616b42f21a0b03e6b098e3b3374bc56b004fb544b8"
+  },
+  "range-dryers": {
+    "src": "/media/apower/v2/product-g1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吹风机系列/AP-G1/首图/AP-G1.png",
+    "sourceSha256": "d3f05e2a1ff5390952e96bc24f609598010dd03f024745e39df5112fb437c1f0"
+  },
+  "range-straighteners": {
+    "src": "/media/apower/v2/product-h1.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/直发器系列/AP-H1/首图/H1-首图.png",
+    "sourceSha256": "ca8ed29c7aeeddc61e7c88f8c77f57c25599892142bc47f8327bffcc33b8262a"
+  },
+  "range-steamers": {
+    "src": "/media/apower/v2/product-ar01.webp",
+    "width": 1000,
+    "height": 1000,
+    "sourceArchive": "2.APOWER TECH网站物料.zip",
+    "sourcePath": "2.APOWER TECH网站物料/产品页/吸附式挂烫机/AR-01/首图/AR01.png",
+    "sourceSha256": "2aa9939a6e9c88a0e102788cf419de3f8308d4ff0be1f3197ac7ff4485d7f8a6"
+  }
+}

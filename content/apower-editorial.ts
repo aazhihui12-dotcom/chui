@@ -31,7 +31,7 @@ export function apowerEditorial(page:SitePage):SitePage {
    h(2,137,[138]);p(3,139,140);p(6,141);h(7,142);p(8,143);[144,145,146].forEach((id,i)=>p(9+i,id));h(13,147);
    [148,149,150].forEach((id,i)=>{const value=t(id).replace(/^\d+\.\s*/,'');const split=value.match(/^(.+?[。.])\s*([\s\S]*)$/);result.blocks[14+i*6]={type:'rich-text',heading:split?.[1]||value,paragraphs:split?.[2]?[split[2]]:[]};});break;
   case '/Order_Management':
-   h(2,151,[152]);h(5,153);[154,155,156].forEach((id,i)=>p(6+i,id));break;
+   h(2,151,[152]);result.blocks[3]={type:'media',image:artwork('order-status','APOWER')};result.blocks[4]={type:'media',image:artwork('order-phone','APOWER')};h(5,153);[154,155,156].forEach((id,i)=>p(6+i,id));break;
   case '/Product_manufacturing':
    h(2,157);p(3,158);[159,161,163,166].forEach((id,i)=>h(4+i,id));label(8,'测试与包装','Testing and Packaging');
    h(9,159);p(10,160);h(11,161);p(12,162);h(13,163);p(14,164,165);h(15,166);p(16,167);p(17,168);
@@ -47,7 +47,7 @@ export function apowerEditorial(page:SitePage):SitePage {
    h(2,194);label(3,'组装现场','Assembly Site');label(4,'电机工厂','Motor Factory');h(5,193,[195]);h(6,196);
    result.blocks[7]={type:'stats',items:[197,198,199,200].map(id=>{const m=t(id).match(/^([\d,+]+)\s*(.*)$/)!;return {value:m[1],label:m[2]};})};h(8,201);p(9,202);
    [['原材料储存','Raw Material Storage'],['模具铸造车间','Mold Workshop'],['注塑成型车间','Injection Molding'],['打磨车间','Polishing Workshop'],['装配车间','Assembly Workshop'],['包装车间','Packaging Workshop'],['质量检验车间','Quality Inspection'],['成品存储车间','Finished Goods Storage']].forEach(([cn,en],i)=>label(10+i*2,cn,en));
-   label(26,'精益管理——基于 5S 原则','Lean Management — The 5S Principles');break;
+   label(26,'精益管理——基于 5S 原则','Lean Management — The 5S Principles');result.blocks[27]={type:'media',image:artwork('factory-5s',locale==='cn'?'APOWER 5S 精益管理':'APOWER 5S lean management')};break;
   case '/Milestone':
    result.blocks[16]={type:'timeline',items:Array.from({length:7},(_,i)=>{const s=t(203+i);const year=s.slice(0,4);const value=s.slice(4).replace(/^[\s—]+/,'');const m=value.match(/^(.+?)[：:]\s*([\s\S]*)$/)!;return {year,title:m[1],description:m[2]};})};break;
   case '/Certification_certificate':result.title=t(27);break;

@@ -22,7 +22,7 @@ for (const locale of ['en', 'cn']) for (const width of [1440, 390]) {
     }
     await expect(hero).toHaveCSS('background-color', 'rgb(233, 223, 210)');
     const heroImage = hero.locator('.hero-slide:not([hidden]) img');
-    await expect(heroImage).toHaveAttribute('src', '/media/apower/hero-brand.webp');
+    await expect(heroImage).toHaveAttribute('src', '/media/apower/v2/hero-brand.webp');
     expect(await heroImage.evaluate(async (image: HTMLImageElement) => {
       await image.decode();
       return image.naturalWidth;

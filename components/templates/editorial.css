@@ -95,7 +95,7 @@ html[lang="zh-CN"] .editorial-page p { color: inherit; font-size: 16px; line-hei
 .editorial-page .content-gallery > div { gap: 24px; }
 .editorial-page .content-gallery:not(.content-gallery--hover) img { height: auto; max-height: 350px; object-fit: contain; width: min(45%, 500px); }
 .editorial-section--certificates .content-gallery img { height: 300px; width: 100%; }
-.editorial-section--feature { background: linear-gradient(rgb(51 50 50 / .7), rgb(51 50 50 / .7)), var(--brand-navy) url('/media/apower/company-billboard.webp') center / cover no-repeat; color: #ffffff; min-height: min(52vw, 780px); padding-top: 50px; }
+.editorial-section--feature { background: linear-gradient(rgb(51 50 50 / .7), rgb(51 50 50 / .7)), var(--brand-navy) url('/media/apower/v2/company-billboard.webp') center / cover no-repeat; color: #ffffff; min-height: min(52vw, 780px); padding-top: 50px; }
 .editorial-section--feature h2 { color: inherit; text-align: center; text-shadow: 0 1px 12px var(--brand-navy); }
 .editorial-section--feature .content-media { display: none; }
 .editorial-section--timeline .editorial-section__inner { max-width: 980px; }

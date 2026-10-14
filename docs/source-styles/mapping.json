@@ -11767,7 +11767,7 @@
       },
       {
         "selector": ":root:has([data-source-page=\"/en/Contact_Us\"]) #main-content > div:nth-of-type(1) > section:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(6) > dt:nth-of-type(1)",
-        "text": "Factory Address",
+        "text": "Factory 1 Address",
         "sourceText": "Factory Address: Zhigu Industrial Park, Zhongxing Bay (Wusha), Deliang, Shunde District, Foshan City, Guangdong Province",
         "expected": {
           "fontFamily": "Poppins",
@@ -12001,7 +12001,7 @@
       },
       {
         "selector": ":root:has([data-source-page=\"/en/Contact_Us\"]) #main-content > div:nth-of-type(1) > section:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(6) > dt:nth-of-type(1)",
-        "text": "Factory Address",
+        "text": "Factory 1 Address",
         "sourceText": "Factory Address: Zhigu Industrial Park, Zhongxing Bay (Wusha), Deliang, Shunde District, Foshan City, Guangdong Province",
         "expected": {
           "fontFamily": "Poppins",
@@ -12260,7 +12260,7 @@
         "selector": ":root:has([data-source-page=\"/cn/Contact_Us\"]) #main-content > div:nth-of-type(1) > section:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(5) > dd:nth-of-type(1) > a:nth-of-type(1)"
       },
       {
-        "text": "中山市南头镇晋合路 33 号",
+        "text": "中山市南头镇晋合路33号",
         "selector": ":root:has([data-source-page=\"/cn/Contact_Us\"]) #main-content > div:nth-of-type(1) > section:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(6) > dd:nth-of-type(1)"
       },
       {
@@ -12400,7 +12400,7 @@
         "selector": ":root:has([data-source-page=\"/cn/Contact_Us\"]) #main-content > div:nth-of-type(1) > section:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(5) > dd:nth-of-type(1) > a:nth-of-type(1)"
       },
       {
-        "text": "中山市南头镇晋合路 33 号",
+        "text": "中山市南头镇晋合路33号",
         "selector": ":root:has([data-source-page=\"/cn/Contact_Us\"]) #main-content > div:nth-of-type(1) > section:nth-of-type(1) > dl:nth-of-type(1) > div:nth-of-type(6) > dd:nth-of-type(1)"
       },
       {

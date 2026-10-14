@@ -54,6 +54,24 @@ it("audits real content, source provenance, and component/CSS references with ze
   expect(report.requiredPaths).toContain("/fonts/Poppins-Regular.woff2");
 });
 
+it("audits imported JSON media without treating shipping hashes as usage references", async () => {
+  const root = await mkdtemp(path.join(tmpdir(), "lbh-json-assets-test-")); directories.push(root);
+  await mkdir(path.join(root, "public/media"), { recursive: true });
+  await mkdir(path.join(root, "content"));
+  const png = readFileSync("public/media/af0e40020b2752722aa03ed905dc909a09da480116f7a157659283eae6632ada.png");
+  const data = path.join(root, "content/data.json");
+  await writeFile(path.join(root, "public/media/data.png"), png);
+  await writeFile(path.join(root, "content/shipped-assets.json"), JSON.stringify({"/media/data.png":sha(png)}));
+  await writeFile(path.join(root, "manifest.json"), '{"assets":[]}');
+  await writeFile(data, JSON.stringify({picture:{src:"/media/data.png",sourceUrl:"https://source.example/photo.png"}}));
+  const args = ["--public",path.join(root,"public"),"--content",path.join(root,"content"),"--source-roots",path.join(root,"content"),"--manifest",path.join(root,"manifest.json"),"--json"];
+  expect(run(...args).status).toBe(0);
+  await writeFile(data, JSON.stringify({picture:{src:"/media/missing.png"}}));
+  const errors = JSON.parse(run(...args).stdout).errors;
+  expect(errors).toContain("missing asset: /media/missing.png");
+  expect(errors).toContain("unused published media: /media/data.png");
+});
+
 it("rejects missing, empty, mislabeled, tampered, duplicate, traversal and remote dependencies", async () => {
   const root = await mkdtemp(path.join(tmpdir(), "lbh-assets-test-")); directories.push(root);
   await mkdir(path.join(root, "public/media"), { recursive: true });

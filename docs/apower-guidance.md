@@ -1,5 +1,52 @@
 # APOWER content update — 2026-10-08
 
+## Website Guidance 2.0 / Materials 2.5 — 2026-10-14
+
+This update uses the supplied five-sheet `APOWER TECH网站指导 2.0.xlsx`
+and the two archives under `APOWER TECH物料整理 2.5`. Unspecified module
+geometry, typography, motion and the approved site palette remain unchanged.
+
+- Three clean homepage banners retain localized HTML copy. Four canonical
+  category pages use the supplied shared range banner; archived categories
+  retain their previous artwork.
+- AP-G1, AP-G3, AP-G11, AP-S1, AP-H1 and AP-AR01 receive the supplied model
+  parameters, ordered main/color galleries and 19 graphical detail images.
+  AP-G3's `Model: AP-G1` typo is corrected with explicit user confirmation;
+  its remaining supplied parameters are retained. AP-H1's supplied `PCT`
+  spelling and 430×240×170mm dimensions are not silently reinterpreted.
+- Gallery images are deduplicated by their actual shipped URL; AP-S1's
+  default titanium-gray image is also one of its five color images, not a
+  separate duplicate thumbnail.
+- Five audience photos, the company billboard, the APOWER order-status
+  diagram, order-management phone image and supplied APOWER 5S artwork
+  replace their corresponding images. The old pending-5S note below is
+  superseded by the actual new artwork at `关于!A89`.
+- Contacts retain the supplied company, email, phone, WhatsApp and office
+  address. Factory 1 remains No. 33 Jinhe Road, Nantou Town, Zhongshan.
+- All imagery is local. The 67 unique optimized WebP files total about
+  3.66 MiB. Source hashes/dimensions are preserved in
+  `content/apower-v2-assets.json`; the importer deliberately excludes RAW,
+  PSD, reference screenshots and unrelated archive materials. Text baked
+  into supplied product images stays as supplied; HTML labels and parameters
+  are localized. No email delivery backend is added in this update.
+
+Re-import with the bundled Python/Pillow runtime using
+`scripts/import-apower-v2.py MATERIAL_DIRECTORY GUIDANCE_XLSX`, then run
+`node scripts/update-shipped-assets.mjs`. Asset validation now scans JSON
+media fields as well as TS/JS, while shipping-checksum keys do not count as
+usage references. The regression test proves missing/unused JSON media
+still fails validation.
+
+Verification on 2026-10-14: 209 unit/integration tests and 96 focused browser
+checks passed. Browser coverage includes both languages, all six new product
+galleries/specifications/detail images, 320–2560px homepage breakpoints,
+hover/motion, contrast, inquiry dialogs and preserved video IDs. Root and
+`/chui` exports build successfully; root asset audit passes. The English
+Factory 1 label retains its captured typography, and the laptop product
+slide's existing 35px top spacing now correctly overrides the general hero
+rule so the longer supplied copy remains inside the banner. Large lazy-image
+preview captures await decode and a rendered frame before saving.
+
 ## Source of truth
 
 - Layout and supplied artwork: `APOWER TECH网站指导.xlsx` (首页、产品、关于).

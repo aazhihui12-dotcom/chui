@@ -1,3 +1,4 @@
+import v2 from './apower-v2-assets.json';
 // Workbook image filenames are explicit so the shipped-asset audit can validate every reference.
 export const apowerMedia: Record<string,string> = {
   'hero-brand': '/media/apower/hero-brand.webp',
@@ -19,4 +20,6 @@ export const apowerMedia: Record<string,string> = {
   'product-ar01': '/media/apower/product-ar01.webp',
   'company-billboard': '/media/apower/company-billboard.webp',
   'logo-white': '/media/apower/logo-white.webp',
+  ...Object.fromEntries(Object.entries(v2).map(([key, image]) => [key, image.src])),
 };
+export const apowerAssetDetails: Record<string, {src: string; width: number; height: number}> = v2;

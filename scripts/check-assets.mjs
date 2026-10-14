@@ -40,6 +40,16 @@ function referencesFrom(filename) {
   const add = value => { if (value) references.push({ value, filename }); };
   if (filename.endsWith(".css")) {
     for (const match of text.matchAll(/url\(\s*["']?([^\s)'";]+)["']?\s*\)/g)) add(match[1]);
+  } else if (filename.endsWith(".json")) {
+    const visit = (value, key = "", parent = null) => {
+      if (typeof value === "string") {
+        if (/^(src|poster|videoUrl|manufacturingVideo|manufacturingPoster)$/.test(key)
+          || (key === "href" && parent?.action === "download")) add(value);
+      } else if (Array.isArray(value)) value.forEach(item => visit(item, key, parent));
+      else if (value && typeof value === "object")
+        Object.entries(value).forEach(([field, item]) => visit(item, field, value));
+    };
+    visit(JSON.parse(text));
   } else if (/\.[jt]sx?$/.test(filename)) {
     for (const literal of text.matchAll(/(["'`])((?:\\.|(?!\1)[^\\])*?)\1/g)) {
       const value = literal[2];
@@ -99,7 +109,7 @@ export function auditAssets({ publicDir = "public", contentDir = "content", sour
   } else if (path.resolve(contentDir) === path.resolve("content")) errors.push("missing committed shipped-assets.json");
   const references = [...new Set([...[contentDir, ...sourceRoots].flatMap(filesUnder),
     ...(output ? filesUnder(output).filter(file => /\.(html|css)$/.test(file)) : [])])]
-    .filter(file => /\.(?:[jt]sx?|css|html)$/.test(file)).flatMap(referencesFrom);
+    .filter(file => /\.(?:[jt]sx?|css|html|json)$/.test(file)).flatMap(referencesFrom);
   const requiredPaths = [...new Set(references.map(reference => reference.value))].sort();
   const files = [];
   for (const value of requiredPaths) {

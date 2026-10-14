@@ -1,5 +1,6 @@
 import copy from './apower-copy.json';
-import { apowerMedia } from './apower-media';
+import { apowerMedia, apowerAssetDetails } from './apower-media';
+import { apowerSpecifications } from './apower-v2';
 import type { Locale, ImageAsset, Category, Product, ProductPage, SitePage } from './schema';
 
 /** Verbatim copy from the user's 2026 bilingual Word document, keyed by table index. */
@@ -7,8 +8,11 @@ export const text = (id: number, locale: Locale) => copy[id][locale];
 export const artwork = (name: string, alt = ''): ImageAsset => {
  const src=apowerMedia[name];
  if(!src) throw new Error(`Unknown APOWER artwork: ${name}`);
- return {src,alt};
+ return {...apowerAssetDetails[name],src,alt};
 };
+const productArtwork = (model: string, group: 'color' | 'detail', locale: Locale): ImageAsset[] =>
+ Object.keys(apowerAssetDetails).filter(key=>key.startsWith(`${model.toLowerCase()}-${group}-`))
+  .sort((a,b)=>a.localeCompare(b,'en',{numeric:true})).map((key,index)=>artwork(key,`${model} ${locale==='cn'?(group==='color'?'配色图':'产品详情'):(group==='color'?'color option':'product detail')} ${index+1}`));
 export const overviewVideo = 'uGqOG4NfbZQ';
 export const factoryVideo = 'bx1R2NQPTxw';
 export function apowerSeo(page:SitePage) {
@@ -30,16 +34,17 @@ export const apowerCategories: Category[] = [
 export const apowerProducts: Product[] = ['AP-G1','AP-G3','AP-G11','AP-S1','AP-H1','AP-AR01'].map(model=>{
  const category=apowerCategories.find(c=>c.productIds.includes(model))!;
  const image=artwork('product-'+model.slice(3).toLowerCase(),model);
+ const gallery=(locale:Locale)=>[...new Map([image,...productArtwork(model,'color',locale)].map(asset=>[asset.src,asset])).values()];
  const legacyPath=`/ProductDetail/${model}.html`;
  const localized=(locale:Locale):ProductPage=>({
   id:model,productId:model,model,categoryId:category.id,locale,legacyPath,kind:'product-detail',title:model,
   description:`${model} · ${category.title[locale]}`,seo:{title:`${model} | APOWER TECH`,description:category.title[locale]},
-  images:[image],blocks:[],specifications:model==='AP-AR01'?[{label:locale==='cn'?'吸附力':'Adsorption capacity',value:'5500 Pa'},{label:locale==='cn'?'最高转速':'Maximum speed',value:'95000 RPM'}]:[],
-  features:model==='AP-G1'?[{type:'rich-text',heading:locale==='cn'?'微雾精华护理':'Micro-Mist Essence Care',paragraphs:[locale==='cn'?'微雾精华吹护，让秀发更强韧、更有光泽。支持 1,000 台起订，可定制包装与丝印。':'Micro-Mist Essence Drying for Stronger, Shinier Hair. Minimum order quantity of 1,000 units; custom packaging and screen printing available.']}]:[],
+  images:gallery(locale),blocks:[],specifications:apowerSpecifications(model,locale),
+  features:productArtwork(model,'detail',locale).map(image=>({type:'media',image})),
   accessories:[],inquiryTitle:`${model} ${locale==='cn'?'产品询盘':'Product inquiry'}`,
-  provenance:{sourceUrl:'APOWER TECH网站指导.xlsx',sourceLocale:locale,languageVerified:true,translation:'authored',coverage:'full'},
+  provenance:{sourceUrl:'APOWER TECH网站指导 2.0.xlsx',sourceLocale:locale,languageVerified:true,translation:'authored',coverage:'full'},
  });
- return {id:model,model,legacyPath,categoryId:category.id,image,gallery:[image],locales:{cn:localized('cn'),en:localized('en')}};
+ return {id:model,model,legacyPath,categoryId:category.id,image,gallery:gallery('en'),locales:{cn:localized('cn'),en:localized('en')}};
 });
 export const apowerCategoryPages:SitePage[]=apowerCategories.flatMap(c=>(['en','cn'] as const).map(locale=>({
  id:c.id,categoryId:c.id,locale,legacyPath:c.legacyPath,kind:'product-category',title:c.title[locale],description:c.title[locale],

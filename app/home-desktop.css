@@ -72,7 +72,7 @@
 /* The supplied English product copy is longer than the original single banner.
    Preserve its type size without allowing it to run into the next section. */
 @media (min-width:1024px) and (max-width:1399px) {
-  html body .home-page .hero-slide--product .home-hero__inner { padding-top:35px; }
+  html body .home-page .home-hero[data-locale] .hero-slide--product .home-hero__inner { padding-top:35px; }
   html body .home-page .hero-slide--product h2 { max-width:55%; margin-bottom:16px; }
   html body .home-page .hero-slide--product ul,
   html body .home-page .hero-slide--product .hero-slide__subtitle { max-width:55%; }

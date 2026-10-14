@@ -4,6 +4,7 @@ import { siteConfig } from "@/content/site";
 import { InquiryForm } from "@/components/interactive/InquiryForm";
 import "./content-pages.css";
 import { text } from '@/content/apower';
+import { factoryAddress } from '@/content/apower-v2';
 
 export function ContactTemplate({ page }: { page: SitePage }) {
   const cn = page.locale === "cn";
@@ -19,7 +20,7 @@ export function ContactTemplate({ page }: { page: SitePage }) {
           <div><dt>{cn ? "电子邮箱" : "Email"}</dt><dd><a href={sitePath(`mailto:${contact.email}`)}>{contact.email}</a></dd></div>
           <div><dt>{cn ? "联系电话" : "Phone"}</dt><dd><a href={sitePath(`tel:${contact.phone.replace(/\s/g, "")}`)}>{contact.phone}</a></dd></div>
           <div><dt>WhatsApp</dt><dd><a aria-label="WhatsApp" href={sitePath(`https://wa.me/${contact.whatsapp.replace("+", "")}`)}>{contact.phone}</a></dd></div>
-          <div><dt>{cn ? "工厂地址" : "Factory Address"}</dt><dd>{text(233,page.locale).replace(/^(1 号厂地址：|Factory 1: )/,'')}</dd></div>
+          <div><dt>{cn ? "1号厂地址" : "Factory 1 Address"}</dt><dd>{factoryAddress[page.locale]}</dd></div>
         </dl>
       </section>
       <section className="contact-inquiry-panel" aria-label={labels.inquiry}>

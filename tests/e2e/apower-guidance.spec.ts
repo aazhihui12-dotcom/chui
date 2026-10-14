@@ -27,7 +27,7 @@ for(const locale of ['en','cn']) for(const width of [1440,390]) {
   await page.locator('.product-filter-disclosure summary').click();
   await page.getByRole('link',{name:'AP-AR01',exact:true}).click();
   await expect(page.getByRole('heading',{level:1})).toHaveText('AP-AR01');
-  await expect(page.locator('.product-summary')).toContainText('5500 Pa');
+  await expect(page.locator('.product-summary')).toContainText('930W');
   await page.locator('.product-summary').getByRole('link',{name:locale==='cn'?'立即询盘':'Inquiry',exact:true}).click();
   await expect(page.getByRole('dialog')).toBeVisible();
   await page.keyboard.press('Escape');
@@ -38,7 +38,7 @@ test('company desktop background uses the supplied APOWER billboard',async({page
  await page.setViewportSize({width:1440,height:900});
  for(const locale of ['en','cn']){
   await page.goto(`/${locale}/Company_Introduction/`);
-  await expect(page.locator('.editorial-section--feature')).toHaveCSS('background-image',/apower\/company-billboard\.webp/);
+  await expect(page.locator('.editorial-section--feature')).toHaveCSS('background-image',/apower\/v2\/company-billboard\.webp/);
  }
 });
 test('the supplied video IDs and all bilingual new detail routes are available',async({page})=>{

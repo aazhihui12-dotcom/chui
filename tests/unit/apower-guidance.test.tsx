@@ -11,7 +11,7 @@ afterEach(cleanup);
 it('places the current company story and supplied billboard in the existing company layout',()=>{
  render(<EditorialTemplate page={pages.find(p=>p.locale==='en'&&p.legacyPath==='/Company_Introduction')!}/>);
  expect(screen.getByText(/APOWER TECH began its journey in 2020/)).toBeVisible();
- expect(screen.getByRole('img',{name:'APOWER TECH'})).toHaveAttribute('src','/media/apower/company-billboard.webp');
+ expect(screen.getByRole('img',{name:'APOWER TECH'})).toHaveAttribute('src','/media/apower/v2/company-billboard.webp');
 });
 it('keeps OEM descriptions with their correct step and preserves the last delivery paragraph',()=>{
  const {container}=render(<EditorialTemplate page={pages.find(p=>p.locale==='en'&&p.legacyPath==='/Contract_manufacturing_service')!}/>);
