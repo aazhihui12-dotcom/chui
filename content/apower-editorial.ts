@@ -33,7 +33,8 @@ export function apowerEditorial(page:SitePage):SitePage {
   case '/PinZhiGuanLi':
    h(2,119,[120,121,122]);h(3,123);p(4,124);[125,126,127].forEach((id,i)=>pair(5+i*2,6+i*2,id));h(11,128);p(12,129);h(13,130);[131,132,133,134].forEach((id,i)=>pair(15+i*3,16+i*3,id));h(26,135);p(27,136);break;
   case '/Design_and_Development':
-   h(2,137,[138]);p(3,139,140);p(6,141);h(7,142);p(8,143);[144,145,146].forEach((id,i)=>p(9+i,id));h(13,147);
+   result.blocks[2]={type:'rich-text',heading:`${t(137)}${locale==='cn'?'：':': '}${t(138)}`,paragraphs:[]};
+   p(3,139,140);p(6,141);h(7,142);p(8,143);[144,145,146].forEach((id,i)=>p(9+i,id));h(13,147);
    [148,149,150].forEach((id,i)=>{
      const value=t(id).replace(/^\d+\.\s*/,''),split=value.match(/^(.+?[。.])\s*([\s\S]*)$/),start=14+i*6;
      const labels=locale==='cn'?[['咨询','工程及报价'],['估算与分析','模具制造'],['原型制作与审批','修改并完成']][i]:[['Consultation','Engineering & quotation'],['Estimation & analysis','Mold making'],['Prototyping & approval','Revision & finalization']][i];
