@@ -1,4 +1,6 @@
 import type { Locale } from './schema';
+export const productManufacturingPoster = '/media/apower/production-video-poster.webp';
+export const factoryTourPoster = '/media/apower/factory-tour-video-poster.webp';
 export const manufacturingLabels = {
   en: ['Driver motherboard','High speed motor','Shell material injection molding','Hair dryer manufacturing','Testing and packaging'],
   cn: ['驱动主板','高速电机','壳料注塑','吹风机制造','测试与包装'],

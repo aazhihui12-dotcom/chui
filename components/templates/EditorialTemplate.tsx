@@ -8,7 +8,7 @@ import { SourceVideo } from "@/components/interactive/SourceVideo";
 import "./editorial.css";
 import { apowerEditorial } from '@/content/apower-editorial';
 import { factoryVideo, text, artwork } from '@/content/apower';
-import { manufacturingLabels, stripPaths } from '@/content/apower-v3';
+import { factoryTourPoster, manufacturingLabels, productManufacturingPoster, stripPaths } from '@/content/apower-v3';
 import { ContactStrip } from '@/components/site/ContactStrip';
 import { ImageDescription } from '@/components/interactive/ImageDescription';
 import { sitePath } from '@/lib/site-path';
@@ -58,7 +58,7 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
       return <>{(exclusiveIcon||missionIcon)&&<Media image={artwork((exclusiveIcon||missionIcon)!)} className="v3-benefit-icon"/>}{renderBlock(blocks[entry])}</>;
     }
     if ("media" in entry) return renderSourceGallery(entry);
-    if ("video" in entry) return <SourceVideo video={page.legacyPath==='/Factory_tour'?factoryVideo:entry.video} locale={page.locale} poster={sitePath(manufacturingPoster)} />;
+    if ("video" in entry) return <SourceVideo video={page.legacyPath==='/Factory_tour'?factoryVideo:entry.video} locale={page.locale} poster={sitePath(page.legacyPath==='/Factory_tour'?factoryTourPoster:manufacturingPoster)} />;
     return <div className="editorial-test-item"><Media image={{ ...page.images[entry.icon], alt: "" }} />{renderBlock(blocks[entry.block])}</div>;
   };
   // Summaries have fewer text blocks, so do not reuse English block indices.
@@ -94,7 +94,7 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
           return image?.type==='media'&&<ImageDescription image={image.image} locale={page.locale} title={copy.find(b=>b?.type==='rich-text'&&b.heading)?.heading||''} description={copy.flatMap(b=>b?.type==='rich-text'?b.paragraphs:[]).join('\n\n')}/>;
         })():indices.filter(entry=>!(page.legacyPath==='/Design_and_Development'&&index===3&&entry===7)).map((entry, entryIndex) => <Fragment key={entryIndex}>{renderEntry(entry)}</Fragment>)}
       </div>)}</div>}
-      {page.legacyPath==='/Product_manufacturing'&&index===0&&<SourceVideo video={factoryVideo} locale={page.locale} poster={sitePath(manufacturingPoster)}/>}
+      {page.legacyPath==='/Product_manufacturing'&&index===0&&<SourceVideo video={factoryVideo} locale={page.locale} poster={sitePath(productManufacturingPoster)}/>}
     </section>)}
     {hasStrip&&<ContactStrip locale={page.locale}/>}
   </main>;
