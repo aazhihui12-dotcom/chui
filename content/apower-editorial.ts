@@ -20,7 +20,11 @@ export function apowerEditorial(page:SitePage):SitePage {
  });
  switch(page.legacyPath){
   case '/Exclusive_sale':
-   h(2,86);h(3,87,[88,89]);h(5,90);p(6,91);[92,93,94].forEach((id,i)=>pair(7+i*2,8+i*2,id));result.blocks[13]={type:'media',image:artwork('exclusive-testing')};break;
+   {
+    const introduction=t(87).match(/^(.+?[。.])\s*([\s\S]*)$/)!;
+    h(2,86);result.blocks[3]={type:'rich-text',paragraphs:[introduction[1],introduction[2],t(88),t(89)]};
+    h(5,90);p(6,91);[92,93,94].forEach((id,i)=>pair(7+i*2,8+i*2,id));result.blocks[13]={type:'media',image:artwork('exclusive-testing')};
+   }break;
   case '/Contract_manufacturing_service':
    h(2,95,[96,97]);[99,100,101,102].forEach((id,i)=>p(4+i,id));h(8,103);p(9,104);
    [105,106,107,108,109,110,111,112].forEach((id,i)=>{if(i===1){const s=splitCopy(id,locale);result.blocks[14]={type:'rich-text',heading:s.heading,paragraphs:[s.body]};}else {const offset=i>=2?-1:0;pair(11+i*3+offset,12+i*3+offset,id);}});

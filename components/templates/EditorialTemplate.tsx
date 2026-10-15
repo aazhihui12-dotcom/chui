@@ -20,8 +20,12 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
   const originalSections = chineseEditorialSections[page.legacyPath as (typeof editorialPaths)[number]];
   let sections = originalSections?.map(section=>({...section,groups:section.groups.map(group=>[...group])}));
   const hasStrip=stripPaths.includes(page.legacyPath);
+  const isExclusive=page.legacyPath==='/Exclusive_sale';
   if(sections&&hasStrip&&page.legacyPath!=='/Exclusive_sale')sections=sections.slice(0,-1);
-  if(sections&&page.legacyPath==='/Exclusive_sale')sections[sections.length-1]={layout:'split',groups:[[13],[14]]};
+  if(sections&&isExclusive){
+    sections[0]={...sections[0],groups:[[3],[4]]};
+    sections[sections.length-1]={layout:'split',groups:[[13],[14]]};
+  }
   if(sections&&page.legacyPath==='/Lead_the_team')sections=[{layout:'split',groups:[[2],[3,4,5,6]]}];
   if(sections&&page.legacyPath==='/Factory_tour'){
     sections[0]={layout:'split',groups:[[2],[{video:factoryVideo}]]};
@@ -75,9 +79,11 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
       {summaryMedia}
       <SectionRenderer blocks={summaryBlocks.filter((block) => block.type === "cta")} />
     </> : <SectionRenderer blocks={summaryBlocks} />}</div> : sections.map((section, index) => <section
-      className={`editorial-section editorial-section--${section.layout}${section.tone ? ` editorial-section--${section.tone}` : ""}${page.legacyPath==='/Company_Introduction'&&index===3?' v3-company-values':''}${page.legacyPath==='/Design_and_Development'&&index===3?' v3-design-facilities':''}`}
+      className={`editorial-section editorial-section--${section.layout}${section.tone ? ` editorial-section--${section.tone}` : ""}${page.legacyPath==='/Company_Introduction'&&index===3?' v3-company-values':''}${page.legacyPath==='/Design_and_Development'&&index===3?' v3-design-facilities':''}${isExclusive&&index===0?' v3-exclusive-intro':''}`}
+      id={isExclusive&&index===0?'exclusive-opportunities':undefined}
       key={index}
     >
+      {isExclusive&&index===0&&renderBlock(blocks[2])}
       {page.legacyPath==='/Contract_manufacturing_service' && index===1 && <h2 className="editorial-facts-title">{text(98,page.locale)}</h2>}
       {page.legacyPath==='/Design_and_Development'&&index===3&&renderBlock(blocks[7])}
       {page.legacyPath==='/Product_manufacturing'&&index===1?<div className="v3-manufacturing-stages">{manufacturingLabels[page.locale].map((label,i)=><article key={label}><Media image={artwork(`manufacturing-${i+1}`,label)}/><h3>{label}</h3></article>)}</div>:
