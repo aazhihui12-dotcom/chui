@@ -14,23 +14,8 @@ for (const locale of ["en", "cn"] as const) {
     await play.click();
     const dialog = page.getByRole("dialog");
     await expect(dialog).toBeVisible();
-    await expect(dialog.locator("video")).toHaveAttribute("src", /^\/media\/.*\.mp4$/);
-    await expect.poll(() => dialog.locator("video").evaluate((video: HTMLVideoElement) => video.videoWidth)).toBe(1280);
-    // Native media controls live in the browser's shadow tree. Verify an actual
-    // inner control is reachable and changes playback state, not just its host.
-    const accessibility = await page.context().newCDPSession(page);
-    await accessibility.send("Accessibility.enable");
-    let reachedMute = false;
-    for (let index = 0; index < 10; index++) {
-      await page.keyboard.press("Tab");
-      const tree = await accessibility.send("Accessibility.getFullAXTree");
-      reachedMute = tree.nodes.some((node) => /^(mute|静音)$/i.test(String(node.name?.value)) && node.properties?.some((property) => property.name === "focused" && property.value.value === true));
-      if (reachedMute) break;
-    }
-    expect(reachedMute).toBe(true);
-    await page.keyboard.press("Space");
-    await expect.poll(() => dialog.locator("video").evaluate((video: HTMLVideoElement) => video.muted)).toBe(true);
-    await accessibility.detach();
+    await expect(dialog.locator("iframe")).toHaveAttribute("src", 'https://www.youtube-nocookie.com/embed/bx1R2NQPTxw?autoplay=1');
+    await expect(dialog.getByRole("link", { name: cn ? "在 YouTube 打开视频" : "Open video on YouTube" })).toHaveAttribute("href", 'https://www.youtube.com/watch?v=bx1R2NQPTxw');
     await page.keyboard.press("Escape");
     await expect(dialog).toHaveCount(0);
     await expect(play).toBeFocused();

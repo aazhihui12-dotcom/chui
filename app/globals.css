@@ -398,6 +398,8 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .video-dialog__top h2 { font-size: 1.2rem; margin: 0; }
 .video-dialog__top button { background: transparent; border: 1px solid var(--border-soft); color: #ffffff; cursor: pointer; font-size: 28px; height: 44px; width: 44px; }
 .video-dialog video { aspect-ratio: 16/9; display: block; width: 100%; }
+.video-dialog iframe { aspect-ratio: 16/9; border: 0; display: block; height: auto; width: 100%; }
+.video-dialog__keyboard-close:focus { background: transparent; border: 1px solid currentColor; clip: auto; color: inherit; height: auto; margin: 12px 0; overflow: visible; padding: 8px 12px; position: static; white-space: normal; width: auto; }
 .video-dialog a { text-decoration: underline; }
 .stats-grid { display: grid; gap: 25px; grid-template-columns: repeat(4, 1fr); margin: 45px 0 0; }
 .home-featured-products { display: grid; gap: 24px; grid-template-columns: repeat(4, 1fr); margin-top: 36px; }

@@ -13,7 +13,7 @@ const make=(locale:Locale)=>({
  finalHeading:locale==='cn'?'让我们今天就取得联系，找到正确的解决方案！':'Let’s connect today and find the right solution.',expert:locale==='cn'?'与家电专家交流':'Speak with an Appliance Expert',
 });
 export const homeCopy={cn:make('cn'),en:make('en')};
-export const manufacturingVideo='/media/b2826cd9475f31b7fff671709db2d4909cb86c72e6c196c73f0109d0039ef959.mp4';
+export const manufacturingVideo='/media/apower/home-manufacturing-preview.mp4';
 export const manufacturingPoster='/media/manufacturing-poster.jpg';
 // The retained LBH homepage's transparent white icon artwork, in source order.
 export const sustainabilityIcons = [

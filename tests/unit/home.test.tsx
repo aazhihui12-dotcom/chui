@@ -49,10 +49,20 @@ describe("homepage source recognition", () => {
     trigger.focus();
     fireEvent.click(trigger);
     expect(screen.getByRole("dialog", { name: "Our manufacturing system" })).toBeVisible();
-    expect(screen.getByLabelText("Manufacturing video")).toHaveAttribute("src", expect.stringMatching(/^\/media\/.*\.mp4$/));
+    expect(screen.getByTitle("APOWER TECH · Manufacturing video")).toHaveAttribute("src", "https://www.youtube-nocookie.com/embed/bx1R2NQPTxw?autoplay=1");
+    expect(screen.getByRole("link", { name: "Open video on YouTube" })).toHaveAttribute("href", "https://www.youtube.com/watch?v=bx1R2NQPTxw");
     fireEvent.keyDown(document, { key: "Escape" });
     expect(screen.queryByRole("dialog")).not.toBeInTheDocument();
     expect(trigger).toHaveFocus();
+  });
+
+  it.each(["en", "cn"] as const)("uses APOWER footage and cover instead of the legacy factory video on the %s homepage", (locale) => {
+    const { container } = render(<HomeTemplate page={pages.find(page => page.id === "home" && page.locale === locale)!} />);
+    const preview = container.querySelector('.home-manufacturing .video-preview video');
+    expect(preview).toHaveAttribute('src', '/media/apower/home-manufacturing-preview.mp4');
+    expect(preview).toHaveAttribute('poster', '/media/apower/factory-tour-video-poster.webp');
+    expect(container.querySelector('.home-manufacturing')).not.toHaveTextContent('LBH');
+    expect(container.querySelector('iframe')).toBeNull();
   });
 
   it.each(["en", "cn"] as const)("removes %s manufacturing circular overlays while keeping the video clickable", (locale) => {

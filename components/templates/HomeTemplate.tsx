@@ -4,7 +4,8 @@ import { Media } from "@/components/site/Media";
 import { SectionRenderer } from "@/components/site/SectionRenderer";
 import { HeroCarousel } from "@/components/interactive/HeroCarousel";
 import { VideoModal } from "@/components/interactive/VideoModal";
-import { apowerCategories as categories, apowerProducts as products, artwork, text, overviewVideo } from "@/content/apower";
+import { apowerCategories as categories, apowerProducts as products, artwork, text, overviewVideo, factoryVideo } from "@/content/apower";
+import { factoryTourPoster } from "@/content/apower-v3";
 import { SourceVideo } from "@/components/interactive/SourceVideo";
 import { homeCopy, manufacturingPoster, manufacturingVideo, sustainabilityIcons } from "@/content/home";
 import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
@@ -31,7 +32,7 @@ export function HomeTemplate({ page }: { page: SitePage }) {
     <section className="home-manufacturing" aria-labelledby="manufacturing-title">
       <h2 id="manufacturing-title">{copy.manufacturing}</h2>{copy.why && <p>{copy.why}</p>}<p>{copy.video}</p>
       <div className="home-manufacturing__media">
-        <VideoModal src={sitePath(manufacturingVideo)} poster={sitePath("/media/manufacturing-opening.webp")} locale={page.locale} background />
+        <VideoModal src={sitePath(manufacturingVideo)} videoId={factoryVideo} poster={sitePath(factoryTourPoster)} locale={page.locale} background />
         <SectionRenderer blocks={stats} />
       </div>
     </section>
