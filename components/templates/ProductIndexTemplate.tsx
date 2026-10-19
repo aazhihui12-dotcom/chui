@@ -6,10 +6,10 @@ import { ProductCatalog } from '@/components/interactive/ProductCatalog';
 import { SourceVideo } from '@/components/interactive/SourceVideo';
 import { SectionRenderer } from '@/components/site/SectionRenderer';
 import { InquiryTrigger } from '@/components/interactive/InquiryTrigger';
-import { homeCopy, manufacturingPoster } from '@/content/home';
+import { homeCopy } from '@/content/home';
 import { ImageDescription } from '@/components/interactive/ImageDescription';
 import { Media } from '@/components/site/Media';
-import { proofCopy } from '@/content/apower-v3';
+import { productOverviewPoster, proofCopy } from '@/content/apower-v3';
 
 const source=pages.find(p=>p.locale==='cn' && p.kind==='product-index')!;
 const photo=(index:number)=>{const b=source.blocks[index];return b?.type==='media'?b.image:undefined;};
@@ -24,7 +24,7 @@ export function ProductIndexTemplate({page}:{page:SitePage}) {
   <div className="button-row"><InquiryTrigger locale={locale} title={copy.quote}>{copy.quote}</InquiryTrigger><InquiryTrigger locale={locale} title={copy.catalogue} className="lbh-button lbh-button--outline">{copy.catalogue}</InquiryTrigger></div>
   <section className="product-index__categories" aria-label={cn?'产品系列':'Product ranges'}>{categories.map(c=><a key={c.id} href={sitePath(`/${locale}${c.legacyPath}`)}><img src={sitePath(c.image!.src)} alt="" width="600" height="440" loading="lazy"/><h2>{c.title[locale]}</h2></a>)}</section>
   <section className="product-index__section product-index__customization"><h2>{t(38)}</h2><div className="product-index__options">{[39,40,41,42,43,44].map((id,i)=><ImageDescription key={id} image={photo(33+i*3)!} title={pair(id).heading} description={pair(id).body} locale={locale}/>)}</div></section>
-  <section className="product-index__section v3-product-overview"><h2>{t(45)}</h2><div><SourceVideo video={overviewVideo} locale={locale} poster={sitePath(manufacturingPoster)}/><p className="product-index__intro">{t(46)}</p></div></section>
+  <section className="product-index__section v3-product-overview"><h2>{t(45)}</h2><div><SourceVideo video={overviewVideo} locale={locale} poster={sitePath(productOverviewPoster)}/><p className="product-index__intro">{t(46)}</p></div></section>
   <section className="product-index__section"><h2>{t(47)}</h2><div className="product-index__services">{[48,52,56].map((id,i)=><article key={id}><h3>{t(id)}</h3>{img(55+i*8)}<div>{[1,2,3].map(j=><section key={j}><h4>{pair(id+j).heading}</h4><p>{pair(id+j).body}</p></section>)}</div></article>)}</div></section>
   <section className="product-index__section product-index__benefits"><h2>{t(60)}</h2><ol>{[61,62,63,64,65,66].map((id,i)=><li key={id}><Media image={artwork(['icon-people','icon-dryer','icon-coupon','icon-medal','icon-check','icon-approval'][i])}/><p>{t(id).replace(/^\d+\.\s*/,'')}</p></li>)}</ol></section>
   <section className="product-index__section product-index__manufacturing"><h2>{t(67)}</h2><ol className="product-index__steps">{t(68).split(' → ').map((title,i)=><li key={title}>{img(87+i*2)}<h3>{title}</h3></li>)}</ol></section>

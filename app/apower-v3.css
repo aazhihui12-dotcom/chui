@@ -42,6 +42,11 @@
 @keyframes v3-slide-up{from{opacity:0;transform:translateY(100px)}to{opacity:1;transform:translateY(0)}}
 #main-content.apower-v3 .v3-product-overview{background:#333232;color:#fff;max-width:none;padding:65px max(24px,calc((100vw - 1200px)/2))}
 #main-content.apower-v3 .v3-product-overview>h2{color:#fff}.v3-product-overview>div{display:grid;grid-template-columns:1fr 1fr;gap:45px;align-items:center}#main-content.apower-v3 .v3-product-overview p{color:#fff;margin:0;text-align:left;font-size:17px;line-height:1.85}
+#main-content.apower-v3.product-index .v3-product-overview .source-video button{padding:0}
+#main-content.apower-v3.product-index .v3-product-overview .source-video img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+#main-content.apower-v3.product-index .v3-product-overview .source-video strong{display:none}
+#main-content.apower-v3.product-index .v3-product-overview .source-video button>span{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);display:grid;place-items:center;width:68px;height:48px;border-radius:8px;background:#111c}
+#main-content.apower-v3.product-index .v3-product-overview .source-video button:focus-visible{outline:3px solid #fff;outline-offset:-6px}
 #main-content.apower-v3 .product-index__services article{display:flex;flex-direction:column;min-width:0}#main-content.apower-v3 .product-index__services article>h3{font-size:23px;min-height:64px;text-align:center;margin:0 0 18px}#main-content.apower-v3 .product-index__services article>div{width:100%}
 #main-content.apower-v3 .product-index__benefits{background:#333232;color:#fff;max-width:none;padding:60px max(24px,calc((100vw - 1200px)/2))}#main-content.apower-v3 .product-index__benefits>h2{color:#fff}
 #main-content.apower-v3 .product-index__benefits ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:40px;list-style:none;padding:0}#main-content.apower-v3 .product-index__benefits li{display:flex;flex-direction:column;text-align:center;align-items:center;padding:20px;min-width:0}
@@ -100,12 +105,25 @@ html[lang=zh-CN] #main-content.apower-v3.editorial-page .v3-exclusive-intro .edi
  html[lang=en] body #main-content.apower-v3 .hero-slide__subtitle{font-size:20px;max-width:52%;margin-bottom:24px;line-height:1.5}
 }
 @media(max-width:1023px){.v3-manufacturing-stages{grid-template-columns:repeat(3,minmax(0,1fr))}#main-content.apower-v3 .product-index__assembly ol{grid-template-columns:1fr}#main-content.apower-v3 .v3-company-values .editorial-section__inner{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:900px){
+ #main-content.apower-v3.product-index .product-index__banner{height:auto;padding:28px 20px}
+ #main-content.apower-v3.product-index .product-index__banner h1{font-size:28px;line-height:1.35;max-width:28ch;text-transform:none;text-wrap:balance}
+ #main-content.apower-v3.product-index .product-index__section>h2{font-size:28px;line-height:1.4}
+ #main-content.apower-v3.product-index .product-index__catalog{padding:16px 72px 24px}
+ #main-content.apower-v3.product-index .product-filter-disclosure{position:relative;top:auto;right:auto;width:fit-content;margin:0 16px 16px auto}
+ #main-content.apower-v3.product-index .product-filter-disclosure summary{display:flex;align-items:center;min-height:40px}
+ #main-content.apower-v3.product-index .product-index__proof{padding-top:24px}
+}
 @media(max-width:767px){
  #main-content.apower-v3 .home-manufacturing__media .stats-grid dt{color:#222!important;font-size:14px;line-height:21px}#main-content.apower-v3 .home-manufacturing__media .stats-grid dd{font-size:50px}
  #main-content.apower-v3 .home-customization>img{width:240px;height:90px}#main-content.apower-v3 .home-mission>img{object-fit:cover}
  #main-content.apower-v3 .product-index__options,#main-content.apower-v3 .product-index__categories,#main-content.apower-v3 .product-index__benefits ol,.v3-quality-grid{grid-template-columns:1fr}
  #main-content.apower-v3 .product-index__categories{padding:40px 24px}#main-content.apower-v3 .product-index__categories img{max-height:350px}
- #main-content.apower-v3 .product-index__section>h2{font-size:25px;line-height:1.45}.v3-product-overview>div{grid-template-columns:1fr;gap:25px}#main-content.apower-v3 .product-index__services article>h3{min-height:0}
+ #main-content.apower-v3.product-index .product-index__banner h1{font-size:clamp(22px,6vw,24px);line-height:1.4}
+ #main-content.apower-v3.product-index .product-index__section>h2{font-size:24px;line-height:1.4;margin-bottom:24px}.v3-product-overview>div{grid-template-columns:1fr;gap:25px}#main-content.apower-v3 .product-index__services article>h3{min-height:0}
+ #main-content.apower-v3.product-index .v3-product-overview{padding:40px 20px}
+ #main-content.apower-v3.product-index .v3-product-overview p{font-size:16px;line-height:1.75}
+ #main-content.apower-v3.product-index .v3-product-overview .source-video{border-radius:20px}
  #main-content.apower-v3 .product-index__assembly li{grid-template-columns:1fr;padding:20px}#main-content.apower-v3 .product-index__assembly li>img{height:240px}
  #main-content.apower-v3 .product-index__certifications .content-gallery>div{grid-template-columns:repeat(7,120px);gap:20px}.v3-quality-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.v3-quality-grid h3{font-size:16px}.v3-quality-grid h3 span{font-size:40px}
  .v3-description-dialog[open]{grid-template-columns:1fr;padding:55px 24px 30px}.v3-description-dialog h2{font-size:24px}
@@ -127,4 +145,5 @@ html[lang=zh-CN] #main-content.apower-v3.editorial-page .v3-exclusive-intro .edi
  #main-content.apower-v3 .testimonials img{height:auto;aspect-ratio:16/9}
  .inquiry-requirements>label{width:100%}
 }
+@media(max-width:700px){#main-content.apower-v3.product-index .product-index__catalog{padding-right:0;padding-left:0}}
 @media(prefers-reduced-motion:reduce){.v3-description-dialog[open]{animation:none}.v3-image-description>button>span{transition:none}}
