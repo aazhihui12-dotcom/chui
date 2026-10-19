@@ -104,6 +104,11 @@ html[lang=zh-CN] #main-content.apower-v3.editorial-page .v3-exclusive-intro .edi
  html[lang=en] body #main-content.apower-v3 .home-hero .eyebrow{font-size:28px;letter-spacing:.03em;margin:0 0 22px}
  html[lang=en] body #main-content.apower-v3 .hero-slide__subtitle{font-size:20px;max-width:52%;margin-bottom:24px;line-height:1.5}
 }
+/* The detail page already owns the centered viewport gutters; do not apply them twice. */
+@media(min-width:1024px){
+ #main-content.apower-v3.product-detail .product-detail__top{padding:60px 24px}
+ #main-content.apower-v3.product-detail .product-summary h1{color:#fff}
+}
 @media(max-width:1023px){.v3-manufacturing-stages{grid-template-columns:repeat(3,minmax(0,1fr))}#main-content.apower-v3 .product-index__assembly ol{grid-template-columns:1fr}#main-content.apower-v3 .v3-company-values .editorial-section__inner{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:900px){
  #main-content.apower-v3.product-index .product-index__banner{height:auto;padding:28px 20px}
