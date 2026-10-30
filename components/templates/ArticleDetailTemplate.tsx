@@ -1,14 +1,14 @@
 import { sitePath } from "@/lib/site-path";
-import type { ArticlePage } from "@/content/schema";
+import type { ArticlePage,Article } from "@/content/schema";
 import { SectionRenderer } from "@/components/site/SectionRenderer";
 import { ArticleSharing } from "@/components/interactive/ArticleSharing";
 import { articles } from "@/content/articles";
 import "./content-pages.css";
 
-export function ArticleDetailTemplate({ page }: { page: ArticlePage }) {
+export function ArticleDetailTemplate({ page, catalogArticles=articles }: { page: ArticlePage; catalogArticles?:Article[] }) {
   const cn = page.locale === "cn";
   const faq = page.category === "faq";
-  const siblings = articles.filter((article) => article.category === page.category);
+  const siblings = catalogArticles.filter((article) => article.category === page.category);
   const index = siblings.findIndex((article) => article.id === page.id);
   const previous = siblings[index - 1]?.locales[page.locale];
   const next = siblings[index + 1]?.locales[page.locale];

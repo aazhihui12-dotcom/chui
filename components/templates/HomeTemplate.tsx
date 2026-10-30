@@ -1,5 +1,5 @@
 import { sitePath } from "@/lib/site-path";
-import type { SitePage } from "@/content/schema";
+import type { SitePage, Product } from "@/content/schema";
 import { Media } from "@/components/site/Media";
 import { SectionRenderer } from "@/components/site/SectionRenderer";
 import { HeroCarousel } from "@/components/interactive/HeroCarousel";
@@ -14,20 +14,21 @@ import { SourceButtonLabel } from "@/components/site/SourceButtonLabel";
 import { HomeMotion } from "@/components/interactive/HomeMotion";
 import { HomeGalleryImage } from "@/components/interactive/HomeGalleryImage";
 
-export function HomeTemplate({ page }: { page: SitePage }) {
+export function HomeTemplate({ page, catalogProducts = products }: { page: SitePage; catalogProducts?: Product[] }) {
   const copy = homeCopy[page.locale];
   const contact = `/${page.locale}/Contact_Us`;
   const media = page.blocks.filter((block) => block.type === "media");
   const uniqueMedia = [...new Map(media.map((block) => [block.image.src, block.image])).values()];
   const galleries = page.blocks.filter((block) => block.type === "gallery");
   const stats = [{type: 'stats' as const,items:[9,10,11,12].map(id=>{const value=text(id,page.locale);const match=value.match(/^(\d+\+?)\s*(.*)$/)!;return {value:match[1],label:match[2]};})}];
-  const featured = products.slice(0,4);
+  const featured = catalogProducts.slice(0,4);
+  const liveProductPath=(id:string)=>catalogProducts.some(p=>p.id===id)?`/${page.locale}/ProductDetail/${id}.html`:undefined;
   return <main id="main-content" tabIndex={-1} className="home-page apower-v3">
     <HomeMotion locale={page.locale} />
     <HeroCarousel locale={page.locale} slides={[
       { title: copy.title, subtitle: copy.partner, image: artwork('hero-brand'), bullets: copy.bullets },
-      {title:page.locale==='cn'?'Miracle Essence · G1 高速吹风机':'Miracle Essence · G1-High-Speed Hair Dryer', subtitle:page.locale==='cn'?'微雾精华吹护，让秀发更强韧、更有光泽':'Micro-Mist Essence Drying for Stronger, Shinier Hair',image:artwork('hero-g1'),bullets:page.locale==='cn'?['完整的专利布局，拥有美国、英国及欧盟专利认证','支持小批量定制：1,000 台起订，可定制包装与丝印']:['Comprehensive patent portfolio — Holds patent certifications from the US, the UK, and the EU.','Supports small-batch customization — Minimum order quantity of 1,000 units; custom packaging and screen printing available.'],href:`/${page.locale}/ProductDetail/AP-G1.html`},
-      {title:'AR01',subtitle:page.locale==='cn'?'手持式吸附挂烫机，重新定义衣物护理':'HANDHELD STEAM GARMENT STEAMER — REDEFINING THE SUCTION-STYLE GARMENT STEAMER',image:artwork('hero-ar01'),bullets:page.locale==='cn'?['吸附力 5500 Pa','最高转速 95000 RPM']:['Adsorption capacity: 5500 Pa','Maximum speed: 95000 RPM'],href:`/${page.locale}/ProductDetail/AP-AR01.html`},
+      {title:page.locale==='cn'?'Miracle Essence · G1 高速吹风机':'Miracle Essence · G1-High-Speed Hair Dryer', subtitle:page.locale==='cn'?'微雾精华吹护，让秀发更强韧、更有光泽':'Micro-Mist Essence Drying for Stronger, Shinier Hair',image:artwork('hero-g1'),bullets:page.locale==='cn'?['完整的专利布局，拥有美国、英国及欧盟专利认证','支持小批量定制：1,000 台起订，可定制包装与丝印']:['Comprehensive patent portfolio — Holds patent certifications from the US, the UK, and the EU.','Supports small-batch customization — Minimum order quantity of 1,000 units; custom packaging and screen printing available.'],href:liveProductPath('AP-G1')},
+      {title:'AR01',subtitle:page.locale==='cn'?'手持式吸附挂烫机，重新定义衣物护理':'HANDHELD STEAM GARMENT STEAMER — REDEFINING THE SUCTION-STYLE GARMENT STEAMER',image:artwork('hero-ar01'),bullets:page.locale==='cn'?['吸附力 5500 Pa','最高转速 95000 RPM']:['Adsorption capacity: 5500 Pa','Maximum speed: 95000 RPM'],href:liveProductPath('AP-AR01')},
     ]} />
     <section className="home-manufacturing" aria-labelledby="manufacturing-title">
       <h2 id="manufacturing-title">{copy.manufacturing}</h2>{copy.why && <p>{copy.why}</p>}<p>{copy.video}</p>

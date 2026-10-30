@@ -1,34 +1,467 @@
-'use client';
-import {useEffect,useState,type FormEvent} from 'react';
-import type { CmsUser } from '@/lib/cms/store';
-import type { CmsKind,CmsRecord } from '@/lib/cms/content';
-import { api,ApiFailure } from './api-client';
-import { ContentEditor } from './ContentEditor';
-import { UsersPanel } from './UsersPanel';
-import './admin.css';
+"use client";
+import { useEffect, useState, type FormEvent } from "react";
+import type { CmsUser } from "@/lib/cms/store";
+import type { CmsKind, CmsRecord } from "@/lib/cms/content";
+import { api, ApiFailure } from "./api-client";
+import { ContentEditor } from "./ContentEditor";
+import { UsersPanel } from "./UsersPanel";
+import "./admin.css";
 
-const statusName={draft:'草稿',published:'已发布',archived:'已下架'};
-export function AdminApp(){
- const [user,setUser]=useState<CmsUser|null>(null),[loading,setLoading]=useState(true),[busy,setBusy]=useState(false),[error,setError]=useState(''),[notice,setNotice]=useState(''),[section,setSection]=useState<CmsKind|'users'|'password'>('product'),[records,setRecords]=useState<CmsRecord[]>([]),[query,setQuery]=useState(''),[deleted,setDeleted]=useState(false),[editing,setEditing]=useState<CmsRecord|'new'|null>(null);
- const load=()=>api<{records:CmsRecord[]}>(`content/${section}${deleted?'?deleted=1':''}`).then(r=>setRecords(r.records));
- const failure=(err:unknown)=>{if(err instanceof ApiFailure&&err.status===401)setUser(null);setError(err instanceof Error?err.message:'操作失败，请重试');};
- useEffect(()=>{api<{user:CmsUser}>('session').then(r=>setUser(r.user)).catch(e=>{if(!(e instanceof ApiFailure&&e.status===401))failure(e);}).finally(()=>setLoading(false));},[]);
- useEffect(()=>{if(user&&!user.mustChangePassword&&(section==='product'||section==='article')){setLoading(true);setError('');load().catch(failure).finally(()=>setLoading(false));}},[user,section,deleted]);
- async function login(e:FormEvent<HTMLFormElement>){e.preventDefault();setBusy(true);setError('');try{const r=await api<{user:CmsUser}>('login','POST',Object.fromEntries(new FormData(e.currentTarget)));setUser(r.user);setNotice('');}catch(e){failure(e);}finally{setBusy(false);}}
- async function password(e:FormEvent<HTMLFormElement>){e.preventDefault();const data=Object.fromEntries(new FormData(e.currentTarget));setError('');if(data.password!==data.confirm){setError('两次新密码不一致');return;}setBusy(true);try{await api('password','POST',data);setUser(null);setNotice('密码已修改，请使用新密码重新登录。');setSection('product');}catch(e){failure(e);}finally{setBusy(false);}}
- async function logout(){try{await api('logout','POST',{});setUser(null);setRecords([]);setEditing(null);setError('');}catch(e){failure(e);}}
- const logo=<img className="cms-logo" src="/media/apower/logo-white.webp" alt="APOWER TECH"/>;
- if(!user)return <main className="cms-app cms-login"><div className="cms-login-brand">{logo}<div><p>APOWER TECH</p><h1>内容管理中心</h1><span>让产品与品牌故事，持续被看见。</span></div><small>官网运营 · 产品管理 · 资讯发布</small></div><section className="cms-login-panel"><p className="cms-eyebrow">WELCOME BACK</p><h2>登录管理后台</h2><p className="cms-muted">使用分配给你的独立账号登录。</p>{notice&&<p className="cms-success" role="status">{notice}</p>}{error&&<p className="cms-alert" role="alert">{error}</p>}<form onSubmit={login}><label>账号<input name="username" autoComplete="username" required maxLength={60}/></label><label>密码<input name="password" type="password" autoComplete="current-password" required maxLength={128}/></label><button className="cms-primary" disabled={busy||loading}>{loading?'检查登录状态…':busy?'登录中…':'登录后台'}</button></form><a href="/en/">返回官网 ↗</a></section></main>;
- const passwordForm=<section className="cms-password cms-card"><h2>{user.mustChangePassword?'首次登录，请修改初始密码':'修改密码'}</h2><p>请设置 12–128 位、不与其他账号重复使用的密码。修改后需要重新登录。</p><form onSubmit={password}><label>当前密码<input name="oldPassword" type="password" required autoComplete="current-password" maxLength={128}/></label><label>新密码<input name="password" type="password" required autoComplete="new-password" minLength={12} maxLength={128}/></label><label>确认新密码<input name="confirm" type="password" required autoComplete="new-password" minLength={12} maxLength={128}/></label><button className="cms-primary" disabled={busy}>{busy?'修改中…':'更新密码'}</button></form></section>;
- return <div className="cms-app cms-shell"><aside className="cms-sidebar"><a href="/en/" target="_blank" rel="noreferrer">{logo}</a><p className="cms-sidebar-caption">网站运营管理</p><nav>{([['product','产品管理'],['article','资讯管理'],...(user.role==='admin'?[['users','账号管理']]:[]),['password','修改密码']] as const).map(([key,title])=><button key={key} aria-current={section===key?'page':undefined} disabled={user.mustChangePassword&&key!=='password'} onClick={()=>{setSection(key as typeof section);setEditing(null);setDeleted(false);setQuery('');setError('');}}>{title}</button>)}</nav><div className="cms-sidebar-bottom"><a href="/en/" target="_blank" rel="noreferrer">查看官网 ↗</a>{user.role==='admin'&&!user.mustChangePassword&&<a href="/api/cms/backup" download>下载内容备份</a>}<small>图片另有服务器定时备份</small></div></aside>
-  <div className="cms-workspace"><header className="cms-topbar"><span>APOWER TECH / 内容管理</span><div><span>{user.username} · {user.role==='admin'?'管理员':'运营'}</span><button onClick={()=>void logout()}>退出登录</button></div></header><main className="cms-main">
-   {error&&<p className="cms-alert" role="alert">{error}</p>}
-   {user.mustChangePassword||section==='password'?passwordForm:section==='users'?<UsersPanel/>:editing?<ContentEditor key={editing==='new'?'new':editing.id} kind={section} record={editing==='new'?undefined:editing} onClose={()=>{setEditing(null);void load().catch(failure);}} onSave={async data=>{const exists=editing!=='new';const r=await api<{record:CmsRecord}>(`content/${section}${exists?'/'+editing.id:''}`,exists?'PATCH':'POST',data);setEditing(r.record);return r.record;}}/>:<>
-    <div className="cms-section-heading"><div><p className="cms-eyebrow">CONTENT MANAGEMENT</p><h1>{section==='product'?'产品管理':'资讯管理'}</h1><p className="cms-muted">管理中英文内容，发布后同步显示在官网。</p></div><button className="cms-primary" onClick={()=>setEditing('new')}>＋ 新增{section==='product'?'产品':'资讯'}</button></div>
-    <div className="cms-stats">{(['published','draft','archived'] as const).map(status=><div key={status}><span>{statusName[status]}</span><strong>{records.filter(r=>r.status===status).length}</strong></div>)}</div>
-    <div className="cms-toolbar"><label className="cms-search"><span className="cms-sr-only">搜索内容</span><input placeholder="搜索型号、标题或关键词" value={query} onChange={e=>setQuery(e.target.value)}/></label><button aria-pressed={!deleted} onClick={()=>setDeleted(false)}>全部内容</button><button aria-pressed={deleted} onClick={()=>setDeleted(true)}>回收站</button></div>
-    <div className="cms-card cms-table-wrap">{loading?<p className="cms-empty" role="status">加载中…</p>:<table><thead><tr><th>{section==='product'?'产品':'标题'}</th><th>状态</th><th>最后修改</th><th>操作</th></tr></thead><tbody>{records.filter(r=>JSON.stringify([r.id,r.payload.locales.cn.title,r.payload.locales.en.title]).toLowerCase().includes(query.toLowerCase())).map(r=><tr key={r.id}><td><div className="cms-content-title">{r.payload.locales.en.images[0]&&<img src={r.payload.locales.en.images[0].src} alt=""/>}<div><strong>{r.payload.locales.cn.title}</strong><small>{r.payload.locales.en.title}</small></div></div></td><td><span className={`cms-tag cms-tag--${r.status}`}>{deleted?'已删除':statusName[r.status]}</span></td><td><time dateTime={r.updatedAt}>{new Date(r.updatedAt).toLocaleString('zh-CN',{hour12:false})}</time></td><td className="cms-row-actions">{deleted?<button onClick={async()=>{try{await api(`content/${section}/${r.id}/restore`,'POST',{});await load();}catch(e){failure(e);}}}>恢复为草稿</button>:<><button onClick={()=>setEditing(r)}>编辑</button>{r.status==='published'&&<a href={`/en${r.payload.locales.en.legacyPath}/`} target="_blank" rel="noreferrer">查看 ↗</a>}<button className="cms-danger" onClick={async()=>{if(!confirm(`确认删除“${r.payload.locales.cn.title}”？删除后可从回收站恢复。`))return;try{await api(`content/${section}/${r.id}`,'DELETE',{version:r.version});await load();}catch(e){failure(e);}}}>删除</button></>}</td></tr>)}</tbody></table>}{!loading&&!records.length&&<p className="cms-empty">{deleted?'回收站为空':'暂无内容，点击右上角新增。'}</p>}</div>
-   </>}
-  </main><footer className="cms-footer">APOWER TECH 内容管理中心 · 数据保存在自有服务器</footer></div>
- </div>;
+const statusName = { draft: "草稿", published: "已发布", archived: "已下架" };
+export function AdminApp() {
+  const [user, setUser] = useState<CmsUser | null>(null),
+    [loading, setLoading] = useState(true),
+    [busy, setBusy] = useState(false),
+    [error, setError] = useState(""),
+    [notice, setNotice] = useState(""),
+    [section, setSection] = useState<CmsKind | "users" | "password">("product"),
+    [records, setRecords] = useState<CmsRecord[]>([]),
+    [query, setQuery] = useState(""),
+    [deleted, setDeleted] = useState(false),
+    [editing, setEditing] = useState<CmsRecord | "new" | null>(null);
+  const load = () =>
+    api<{ records: CmsRecord[] }>(
+      `content/${section}${deleted ? "?deleted=1" : ""}`,
+    ).then((r) => setRecords(r.records));
+  const failure = (err: unknown) => {
+    if (err instanceof ApiFailure && err.status === 401) setUser(null);
+    setError(err instanceof Error ? err.message : "操作失败，请重试");
+  };
+  useEffect(() => {
+    api<{ user: CmsUser }>("session")
+      .then((r) => setUser(r.user))
+      .catch((e) => {
+        if (!(e instanceof ApiFailure && e.status === 401)) failure(e);
+      })
+      .finally(() => setLoading(false));
+  }, []);
+  useEffect(() => {
+    if (
+      user &&
+      !user.mustChangePassword &&
+      (section === "product" || section === "article")
+    ) {
+      setLoading(true);
+      setError("");
+      load()
+        .catch(failure)
+        .finally(() => setLoading(false));
+    }
+  }, [user, section, deleted]);
+  async function login(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setBusy(true);
+    setError("");
+    try {
+      const r = await api<{ user: CmsUser }>(
+        "login",
+        "POST",
+        Object.fromEntries(new FormData(e.currentTarget)),
+      );
+      setUser(r.user);
+      setNotice("");
+    } catch (e) {
+      failure(e);
+    } finally {
+      setBusy(false);
+    }
+  }
+  async function password(e: FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(e.currentTarget));
+    setError("");
+    if (data.password !== data.confirm) {
+      setError("两次新密码不一致");
+      return;
+    }
+    setBusy(true);
+    try {
+      await api("password", "POST", data);
+      setUser(null);
+      setNotice("密码已修改，请使用新密码重新登录。");
+      setSection("product");
+    } catch (e) {
+      failure(e);
+    } finally {
+      setBusy(false);
+    }
+  }
+  async function logout() {
+    try {
+      await api("logout", "POST", {});
+      setUser(null);
+      setRecords([]);
+      setEditing(null);
+      setError("");
+    } catch (e) {
+      failure(e);
+    }
+  }
+  const logo = (
+    <img
+      className="cms-logo"
+      src="/media/apower/logo-white.webp"
+      alt="APOWER TECH"
+    />
+  );
+  if (!user)
+    return (
+      <main className="cms-app cms-login">
+        <div className="cms-login-brand">
+          {logo}
+          <div>
+            <p>APOWER TECH</p>
+            <h1>内容管理中心</h1>
+            <span>让产品与品牌故事，持续被看见。</span>
+          </div>
+          <small>官网运营 · 产品管理 · 资讯发布</small>
+        </div>
+        <section className="cms-login-panel">
+          <p className="cms-eyebrow">WELCOME BACK</p>
+          <h2>登录管理后台</h2>
+          <p className="cms-muted">使用分配给你的独立账号登录。</p>
+          {notice && (
+            <p className="cms-success" role="status">
+              {notice}
+            </p>
+          )}
+          {error && (
+            <p className="cms-alert" role="alert">
+              {error}
+            </p>
+          )}
+          <form onSubmit={login}>
+            <label>
+              账号
+              <input
+                name="username"
+                autoComplete="username"
+                required
+                maxLength={60}
+              />
+            </label>
+            <label>
+              密码
+              <input
+                name="password"
+                type="password"
+                autoComplete="current-password"
+                required
+                maxLength={128}
+              />
+            </label>
+            <button className="cms-primary" disabled={busy || loading}>
+              {loading ? "检查登录状态…" : busy ? "登录中…" : "登录后台"}
+            </button>
+          </form>
+          <a href="/en/">返回官网 ↗</a>
+        </section>
+      </main>
+    );
+  const passwordForm = (
+    <section className="cms-password cms-card">
+      <h2>
+        {user.mustChangePassword ? "首次登录，请修改初始密码" : "修改密码"}
+      </h2>
+      <p>请设置 12–128 位、不与其他账号重复使用的密码。修改后需要重新登录。</p>
+      <form onSubmit={password}>
+        <label>
+          当前密码
+          <input
+            name="oldPassword"
+            type="password"
+            required
+            autoComplete="current-password"
+            maxLength={128}
+          />
+        </label>
+        <label>
+          新密码
+          <input
+            name="password"
+            type="password"
+            required
+            autoComplete="new-password"
+            minLength={12}
+            maxLength={128}
+          />
+        </label>
+        <label>
+          确认新密码
+          <input
+            name="confirm"
+            type="password"
+            required
+            autoComplete="new-password"
+            minLength={12}
+            maxLength={128}
+          />
+        </label>
+        <button className="cms-primary" disabled={busy}>
+          {busy ? "修改中…" : "更新密码"}
+        </button>
+      </form>
+    </section>
+  );
+  return (
+    <div className="cms-app cms-shell">
+      <aside className="cms-sidebar">
+        <a href="/en/" target="_blank" rel="noreferrer">
+          {logo}
+        </a>
+        <p className="cms-sidebar-caption">网站运营管理</p>
+        <nav>
+          {(
+            [
+              ["product", "产品管理"],
+              ["article", "资讯管理"],
+              ...(user.role === "admin" ? [["users", "账号管理"]] : []),
+              ["password", "修改密码"],
+            ] as const
+          ).map(([key, title]) => (
+            <button
+              key={key}
+              aria-current={section === key ? "page" : undefined}
+              disabled={user.mustChangePassword && key !== "password"}
+              onClick={() => {
+                setSection(key as typeof section);
+                setEditing(null);
+                setDeleted(false);
+                setQuery("");
+                setError("");
+              }}
+            >
+              {title}
+            </button>
+          ))}
+        </nav>
+        <div className="cms-sidebar-bottom">
+          <a href="/en/" target="_blank" rel="noreferrer">
+            查看官网 ↗
+          </a>
+          {user.role === "admin" && !user.mustChangePassword && (
+            <a href="/api/cms/backup" download>
+              下载内容备份
+            </a>
+          )}
+          <small>图片另有服务器定时备份</small>
+        </div>
+      </aside>
+      <div className="cms-workspace">
+        <header className="cms-topbar">
+          <span>APOWER TECH / 内容管理</span>
+          <div>
+            <span>
+              {user.username} · {user.role === "admin" ? "管理员" : "运营"}
+            </span>
+            <button onClick={() => void logout()}>退出登录</button>
+          </div>
+        </header>
+        <main className="cms-main">
+          {error && (
+            <p className="cms-alert" role="alert">
+              {error}
+            </p>
+          )}
+          {user.mustChangePassword || section === "password" ? (
+            passwordForm
+          ) : section === "users" ? (
+            <UsersPanel />
+          ) : editing ? (
+            <ContentEditor
+              kind={section}
+              record={editing === "new" ? undefined : editing}
+              onClose={() => {
+                setEditing(null);
+                void load().catch(failure);
+              }}
+              onSave={async (data) => {
+                const exists = editing !== "new";
+                const r = await api<{ record: CmsRecord }>(
+                  `content/${section}${exists ? "/" + editing.id : ""}`,
+                  exists ? "PATCH" : "POST",
+                  data,
+                );
+                setEditing(r.record);
+                return r.record;
+              }}
+            />
+          ) : (
+            <>
+              <div className="cms-section-heading">
+                <div>
+                  <p className="cms-eyebrow">CONTENT MANAGEMENT</p>
+                  <h1>{section === "product" ? "产品管理" : "资讯管理"}</h1>
+                  <p className="cms-muted">
+                    管理中英文内容，发布后同步显示在官网。
+                  </p>
+                </div>
+                <button
+                  className="cms-primary"
+                  onClick={() => setEditing("new")}
+                >
+                  ＋ 新增{section === "product" ? "产品" : "资讯"}
+                </button>
+              </div>
+              <div className="cms-stats">
+                {(["published", "draft", "archived"] as const).map((status) => (
+                  <div key={status}>
+                    <span>{statusName[status]}</span>
+                    <strong>
+                      {records.filter((r) => r.status === status).length}
+                    </strong>
+                  </div>
+                ))}
+              </div>
+              <div className="cms-toolbar">
+                <label className="cms-search">
+                  <span className="cms-sr-only">搜索内容</span>
+                  <input
+                    placeholder="搜索型号、标题或关键词"
+                    value={query}
+                    onChange={(e) => setQuery(e.target.value)}
+                  />
+                </label>
+                <button
+                  aria-pressed={!deleted}
+                  onClick={() => setDeleted(false)}
+                >
+                  全部内容
+                </button>
+                <button aria-pressed={deleted} onClick={() => setDeleted(true)}>
+                  回收站
+                </button>
+              </div>
+              <div className="cms-card cms-table-wrap">
+                {loading ? (
+                  <p className="cms-empty" role="status">
+                    加载中…
+                  </p>
+                ) : (
+                  <table>
+                    <thead>
+                      <tr>
+                        <th>{section === "product" ? "产品" : "标题"}</th>
+                        <th>状态</th>
+                        <th>最后修改</th>
+                        <th>操作</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {records
+                        .filter((r) =>
+                          JSON.stringify([
+                            r.id,
+                            r.payload.locales.cn.title,
+                            r.payload.locales.en.title,
+                          ])
+                            .toLowerCase()
+                            .includes(query.toLowerCase()),
+                        )
+                        .map((r) => (
+                          <tr key={r.id}>
+                            <td>
+                              <div className="cms-content-title">
+                                {r.payload.locales.en.images[0] && (
+                                  <img
+                                    src={r.payload.locales.en.images[0].src}
+                                    alt=""
+                                  />
+                                )}
+                                <div>
+                                  <strong>{r.payload.locales.cn.title}</strong>
+                                  <small>{r.payload.locales.en.title}</small>
+                                </div>
+                              </div>
+                            </td>
+                            <td>
+                              <span className={`cms-tag cms-tag--${r.status}`}>
+                                {deleted ? "已删除" : statusName[r.status]}
+                              </span>
+                            </td>
+                            <td>
+                              <time dateTime={r.updatedAt}>
+                                {new Date(r.updatedAt).toLocaleString("zh-CN", {
+                                  hour12: false,
+                                })}
+                              </time>
+                            </td>
+                            <td className="cms-row-actions">
+                              {deleted ? (
+                                <button
+                                  onClick={async () => {
+                                    try {
+                                      await api(
+                                        `content/${section}/${r.id}/restore`,
+                                        "POST",
+                                        {},
+                                      );
+                                      await load();
+                                    } catch (e) {
+                                      failure(e);
+                                    }
+                                  }}
+                                >
+                                  恢复为草稿
+                                </button>
+                              ) : (
+                                <>
+                                  <button onClick={() => setEditing(r)}>
+                                    编辑
+                                  </button>
+                                  {r.status === "published" && (
+                                    <a
+                                      href={`/en${r.payload.locales.en.legacyPath}/`}
+                                      target="_blank"
+                                      rel="noreferrer"
+                                    >
+                                      查看 ↗
+                                    </a>
+                                  )}
+                                  <button
+                                    className="cms-danger"
+                                    onClick={async () => {
+                                      if (
+                                        !confirm(
+                                          `确认删除“${r.payload.locales.cn.title}”？删除后可从回收站恢复。`,
+                                        )
+                                      )
+                                        return;
+                                      try {
+                                        await api(
+                                          `content/${section}/${r.id}`,
+                                          "DELETE",
+                                          { version: r.version },
+                                        );
+                                        await load();
+                                      } catch (e) {
+                                        failure(e);
+                                      }
+                                    }}
+                                  >
+                                    删除
+                                  </button>
+                                </>
+                              )}
+                            </td>
+                          </tr>
+                        ))}
+                    </tbody>
+                  </table>
+                )}
+                {!loading && !records.length && (
+                  <p className="cms-empty">
+                    {deleted ? "回收站为空" : "暂无内容，点击右上角新增。"}
+                  </p>
+                )}
+              </div>
+            </>
+          )}
+        </main>
+        <footer className="cms-footer">
+          APOWER TECH 内容管理中心 · 数据保存在自有服务器
+        </footer>
+      </div>
+    </div>
+  );
 }

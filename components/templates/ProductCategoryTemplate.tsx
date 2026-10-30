@@ -1,11 +1,11 @@
 import { sitePath } from "@/lib/site-path";
-import type { Category, Locale } from "@/content/schema";
+import type { Category, Locale, Product } from "@/content/schema";
 import { products as legacyProducts } from "@/content/products";
 import { apowerCategories as categories, apowerProducts, artwork } from '@/content/apower';
 const products=[...apowerProducts,...legacyProducts];
 import { ProductCatalog } from "@/components/interactive/ProductCatalog";
 
-export function ProductCategoryTemplate({ category, locale }: { category: Category; locale: Locale }) {
+export function ProductCategoryTemplate({ category, locale, catalogProducts=products }: { category: Category; locale: Locale; catalogProducts?:Product[] }) {
   const cn = locale === "cn";
   const banner = categories.some(item => item.id === category.id) ? artwork('product-range-banner') : category.image;
   return <main id="main-content" className={`product-page product-category-page${categories.some(item=>item.id===category.id)?' apower-v3':''}`}>
@@ -16,7 +16,7 @@ export function ProductCategoryTemplate({ category, locale }: { category: Catego
         <h2>{cn ? "产品分类" : "Product category"}</h2>
         {categories.map((item) => <a key={item.id} href={sitePath(`/${locale}${item.legacyPath}`)} aria-current={item.id === category.id ? "page" : undefined}>{item.title[locale]}</a>)}
       </nav>
-      <div className="product-category-results"><ProductCatalog products={category.productIds.flatMap((id) => products.find((product) => product.id === id) ?? [])} categories={categories} locale={locale} /></div>
+      <div className="product-category-results"><ProductCatalog products={category.productIds.flatMap((id) => catalogProducts.find((product) => product.id === id) ?? [])} categories={categories} locale={locale} /></div>
     </div>
   </main>;
 }
