@@ -1,9 +1,10 @@
 import { randomBytes, scrypt, scryptSync, timingSafeEqual, createHash } from 'node:crypto';
 import { promisify } from 'node:util';
+import { CmsError } from './content';
 
 const derive = promisify(scrypt);
 export function checkPassword(password: unknown): asserts password is string {
-  if (typeof password !== 'string' || password.length < 12 || password.length > 128) throw new Error('密码须为 12–128 个字符');
+  if (typeof password !== 'string' || password.length < 12 || password.length > 128) throw new CmsError('密码须为 12–128 个字符');
 }
 export function hashPassword(password: unknown) {
   checkPassword(password);
