@@ -1,0 +1,14 @@
+[Unit]
+Description=APOWER consistent database and uploads backup
+After=apower.service
+
+[Service]
+Type=oneshot
+ExecStart=/opt/node24/bin/node /opt/apower/current/scripts/cms-backup.mjs /var/lib/apower /var/backups/apower
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/backups/apower
+ReadOnlyPaths=/var/lib/apower

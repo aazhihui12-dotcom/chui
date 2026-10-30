@@ -1,0 +1,27 @@
+[Unit]
+Description=APOWER TECH website and content manager
+After=network.target
+
+[Service]
+Type=simple
+User=apower
+Group=apower
+WorkingDirectory=/opt/apower/current
+EnvironmentFile=/etc/apower.env
+Environment=NODE_ENV=production
+Environment=PATH=/opt/node24/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+Environment=NEXT_TELEMETRY_DISABLED=1
+ExecStart=/opt/node24/bin/node node_modules/next/dist/bin/next start runtime --hostname 127.0.0.1 --port 3100
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+UMask=0027
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectHome=true
+ProtectSystem=strict
+ReadWritePaths=/var/lib/apower
+MemoryMax=1200M
+
+[Install]
+WantedBy=multi-user.target

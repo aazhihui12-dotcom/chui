@@ -103,7 +103,12 @@ test("an operator can upload, draft, publish, edit, unpublish, delete and restor
   await page
     .getByLabel("英文正文", { exact: true })
     .fill("Updated body is visible immediately.");
-  const updated=page.waitForResponse(r=>r.url().includes('/api/cms/content/article/')&&r.request().method()==='PATCH'&&r.status()===200);
+  const updated = page.waitForResponse(
+    (r) =>
+      r.url().includes("/api/cms/content/article/") &&
+      r.request().method() === "PATCH" &&
+      r.status() === 200,
+  );
   await page.getByRole("button", { name: "保存修改", exact: true }).click();
   await updated;
   await visitor.goto("/en" + articlePath);
@@ -181,7 +186,9 @@ test("new product is published across catalog/category/detail without altering p
     visitor.getByRole("link", { name: "AP-CMSTEST", exact: true }),
   ).toBeVisible();
   await visitor.goto("/cn/ProductIndex/");
-  await visitor.getByRole('button',{name:'转到第3组产品',exact:true}).click();
+  await visitor
+    .getByRole("button", { name: "转到第3组产品", exact: true })
+    .click();
   await expect(
     visitor.getByRole("link", { name: "AP-CMSTEST", exact: true }),
   ).toHaveCount(1);
@@ -202,7 +209,9 @@ test("new product is published across catalog/category/detail without altering p
     .filter({ hasText: "AP-CMSTEST" })
     .getByRole("button", { name: "删除", exact: true })
     .click();
-  await expect(page.getByRole('row').filter({hasText:'AP-CMSTEST'})).toHaveCount(0);
+  await expect(
+    page.getByRole("row").filter({ hasText: "AP-CMSTEST" }),
+  ).toHaveCount(0);
   expect((await visitor.goto("/en" + productPath))!.status()).toBe(404);
   await anon.close();
 });
