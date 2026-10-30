@@ -5,7 +5,7 @@
 ## 意图与边界
 
 - 保留现有 Next.js 官网、持久数据库、上传、账号、IP HTTPS 及 GitHub Pages 测试站。
-- 域名在阿里云，服务器177.5.75.237；当前权威 DNS 是Cloudflare。阿里云dns17/dns18.hichina.com已返回正确两条A记录，但尚未被注册商委派。
+- 域名在阿里云，服务器177.5.75.237；设计时权威DNS为Cloudflare，阿里云dns17/dns18.hichina.com已准备两条A记录。2026-10-30用户完成委派切换，公网核实后已上线阶段2（详见`docs/domain-cutover.md`）。
 - 不修改用户DNS，不索取/保存DNS账号或API密钥，不创建轮询或自动切换任务。
 
 ## 接入方式

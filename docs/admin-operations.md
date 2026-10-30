@@ -2,7 +2,7 @@
 
 ## 地址和账号
 
-- 官网：`https://177.5.75.237/en/`、`/cn/`；后台：`https://177.5.75.237/admin/`。
+- 官网：`https://apowertech.net/en/`、`https://apowertech.net/cn/`；后台：`https://apowertech.net/admin/`。www及HTTP自动转主域HTTPS，旧IP后台入口自动转正式后台。
 - 初始管理员账号 `admin`，随机初始密码通过本地私密凭据文件交付，不在此文档或 Git 中保存。
 - 第一次登录必须修改密码。管理员可以在“账号管理”新增独立运营账号、停用账号、重置临时密码。
 - 运营可以管理产品和资讯，但不能管理账号、下载内容备份。改密、退出或停用立即撤销相应会话。
@@ -24,12 +24,12 @@
 - 账号等环境配置：`/etc/apower.env`（root 仅可读，初始账号建好后移除 bootstrap 密码）。
 - 服务：`apower.service`，非 root 用户 `apower`，仅监听 `127.0.0.1:3100`；Nginx 代理 80/443。
 - 首次复制现有六款 APOWER 产品、资讯与当前 23 条 APOWER 问答，之后数据库为权威来源，删除内容不会从代码回填。
-- 现有静态站仍使用 `npm run build`；服务器版使用 `npm run live:build`，本地编译后部署，不在 2GB 服务器上编译。
+- 现有静态站仍使用 `npm run build`；服务器版使用 `NEXT_PUBLIC_SITE_URL=https://apowertech.net NEXT_PUBLIC_BASE_PATH= npm run live:build`，本地编译后部署，不在 2GB 服务器上编译。运行配置`APOWER_PUBLIC_ORIGIN=https://apowertech.net`，只接受正式后台来源。
 - 本地管理闭环测试：先 `npm run live:build`，再 `npx playwright test --config playwright.live.config.ts`。测试在独立临时库和 3110 端口运行，不操作生产数据。
 
 ## HTTPS 与日志
 
-IP 使用 Let's Encrypt 短期证书，每天自动检查两次续期，成功后重载 Nginx。HTTP 自动跳 HTTPS。
+域名使用覆盖apowertech.net及www的Let's Encrypt证书，IP保留独立短期证书；每天自动检查两次续期，成功后重载 Nginx。HTTP 自动跳 HTTPS。
 
 ```
 systemctl status apower nginx
@@ -38,7 +38,7 @@ systemctl list-timers apower-certbot.timer apower-backup.timer
 /opt/certbot/bin/certbot certificates
 ```
 
-不要关闭自动续期；IP 变更需要重新签发证书。正式域名可后续添加 DNS 和域名证书。不在日志中记录密码或会话令牌。
+不要关闭自动续期；IP 变更需要重新签发IP证书并更新DNS。正式域名已经启用，详见`docs/domain-cutover.md`的复测和回退流程。不在日志中记录密码或会话令牌。
 
 ## 备份与恢复
 
