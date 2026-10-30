@@ -95,6 +95,100 @@ const article = () => ({
 });
 
 describe("admin request boundary", () => {
+  it("revalidates a session after a delayed body and before saving", async () => {
+    await login();
+    let control!: ReadableStreamDefaultController<Uint8Array>;
+    const stream = new ReadableStream<Uint8Array>({
+      start(c) {
+        control = c;
+      },
+    });
+    const pending = handleCmsRequest(
+      new Request(origin + "/api/cms/content/article", {
+        method: "POST",
+        headers: {
+          origin,
+          cookie: `apower_session=${token}`,
+          "content-type": "application/json",
+        },
+        body: stream,
+        duplex: "half",
+      } as RequestInit),
+      store,
+      { origin, uploadDir: join(dir, "uploads"), secure: true },
+    );
+    store.logout(token);
+    control.enqueue(Buffer.from(JSON.stringify(article())));
+    control.close();
+    expect((await pending).status).toBe(401);
+    expect(store.list("article")).toHaveLength(0);
+  });
+  it("revalidates administrator identity after reading account request data", async () => {
+    await login();
+    let control!: ReadableStreamDefaultController<Uint8Array>;
+    const pending = handleCmsRequest(
+      new Request(origin + "/api/cms/users", {
+        method: "POST",
+        headers: {
+          origin,
+          cookie: `apower_session=${token}`,
+          "content-type": "application/json",
+        },
+        body: new ReadableStream<Uint8Array>({
+          start(c) {
+            control = c;
+          },
+        }),
+        duplex: "half",
+      } as RequestInit),
+      store,
+      { origin, uploadDir: join(dir, "uploads"), secure: true },
+    );
+    store.logout(token);
+    control.enqueue(
+      Buffer.from(
+        JSON.stringify({
+          username: "intruder",
+          password: "IntruderPassword!123",
+          role: "admin",
+        }),
+      ),
+    );
+    control.close();
+    expect((await pending).status).toBe(401);
+    expect(store.users()).toHaveLength(1);
+  });
+  it("does not write an upload after the account session has been revoked", async () => {
+    await login();
+    const png = await sharp({
+      create: { width: 1200, height: 1200, channels: 3, background: "#123456" },
+    })
+      .png()
+      .toBuffer();
+    const pending = call("uploads", "POST", png, {
+      "content-type": "image/png",
+    });
+    await new Promise<void>((resolve) =>
+      setImmediate(() => {
+        store.logout(token);
+        resolve();
+      }),
+    );
+    expect((await pending).status).toBe(401);
+    expect(() => readdirSync(join(dir, "uploads"))).toThrow();
+  });
+  it("cannot finish password change using a session revoked during the request", async () => {
+    await login();
+    const pending = call("password", "POST", {
+      oldPassword: "ChangedPassword!456",
+      password: "AnotherPassword!789",
+    });
+    store.logout(token);
+    expect((await pending).status).toBe(401);
+    expect(
+      await store.login("admin", "ChangedPassword!456", "after"),
+    ).toBeTruthy();
+  });
   it("denies anonymous reads/writes and cross-origin requests including login", async () => {
     expect((await call("content/product")).status).toBe(401);
     expect((await call("content/article", "POST", article())).status).toBe(401);

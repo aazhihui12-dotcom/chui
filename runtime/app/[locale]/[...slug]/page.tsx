@@ -33,9 +33,22 @@ export default async function Page({ params }: Props) {
   if (!page) notFound();
   if (page.sourceEmpty)
     return <main id="main-content" aria-label={page.title} />;
-  const { products, categories, articles } = getCatalog();
+  const { products, categories, articles, legacyArticles, faqs } = getCatalog();
+  const faqEntries = faqs.map((a) => ({
+    id: a.id,
+    question: a.locales[locale].title,
+    answer: a.locales[locale].blocks
+      .flatMap((b) => (b.type === "rich-text" ? b.paragraphs : []))
+      .join("\n\n"),
+  }));
   if (page.kind === "product-index")
-    return <ProductIndexTemplate page={page} catalogProducts={products} />;
+    return (
+      <ProductIndexTemplate
+        page={page}
+        catalogProducts={products}
+        catalogFaq={faqEntries}
+      />
+    );
   if (page.kind === "product-category") {
     const category = [...categories, ...legacyCategories].find(
       (c) => c.id === page.categoryId,
@@ -57,7 +70,9 @@ export default async function Page({ params }: Props) {
     return <ProductDetailTemplate product={product} locale={locale} />;
   }
   if (page.kind === "news-detail") {
-    const article = articles.find((a) => a.id === page.articleId);
+    const article = [...articles, ...legacyArticles].find(
+      (a) => a.id === page.articleId,
+    );
     if (!article) notFound();
     return (
       <ArticleDetailTemplate
@@ -81,6 +96,7 @@ export default async function Page({ params }: Props) {
     return (
       <FaqTemplate
         page={page}
+        faqEntries={faqEntries}
         articles={articles
           .filter((a) => a.category === "faq")
           .map((a) => a.locales[locale])}

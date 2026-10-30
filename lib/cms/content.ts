@@ -11,6 +11,15 @@ import type {
 export type CmsKind = "product" | "article";
 export type CmsStatus = "draft" | "published" | "archived";
 export type CmsPayload = Product | Article;
+// The current APOWER answers replace these reference-site FAQs in the editor,
+// but their historic detail URLs remain readable for compatibility.
+export function isLegacyFaq(payload: CmsPayload): boolean {
+  return (
+    "category" in payload &&
+    payload.category === "faq" &&
+    !payload.locales.en.provenance.sourceUrl.startsWith("APOWER")
+  );
+}
 export interface CmsRecord {
   id: string;
   kind: CmsKind;
@@ -183,12 +192,10 @@ export function normalizeContent(
             type: "rich-text",
             paragraphs: body.split(/\n\s*\n/).filter(Boolean),
           },
-          ...gallery
-            .slice(1)
-            .map((image) => ({
-              type: "media" as const,
-              image: { ...image, alt: title },
-            })),
+          ...gallery.slice(1).map((image) => ({
+            type: "media" as const,
+            image: { ...image, alt: title },
+          })),
         ],
         provenance: {
           sourceUrl: "APOWER CMS",

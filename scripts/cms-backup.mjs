@@ -1,4 +1,5 @@
 import { DatabaseSync, backup } from "node:sqlite";
+import { realpathSync } from "node:fs";
 import {
   mkdir,
   mkdtemp,
@@ -66,7 +67,7 @@ export async function backupCms(dataDir, backupDir) {
 }
 if (
   process.argv[1] &&
-  resolve(process.argv[1]) === fileURLToPath(import.meta.url)
+  realpathSync(process.argv[1]) === fileURLToPath(import.meta.url)
 ) {
   const [dataDir, backupDir] = process.argv.slice(2);
   if (!dataDir || !backupDir) {

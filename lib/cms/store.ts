@@ -72,7 +72,7 @@ export class CmsStore {
       CREATE TABLE IF NOT EXISTS audit(id INTEGER PRIMARY KEY,actor TEXT NOT NULL,action TEXT NOT NULL,target TEXT NOT NULL,at TEXT NOT NULL);
     `);
   }
-  seed(products: Product[], articles: Article[]) {
+  seed(products: Product[], articles: Article[], faqs?: Article[]) {
     this.db.exec("BEGIN IMMEDIATE");
     try {
       if (
@@ -97,6 +97,26 @@ export class CmsStore {
               now,
             );
         this.db.prepare("INSERT INTO meta VALUES(?,?)").run("seed-v1", "1");
+      }
+      if (
+        faqs &&
+        !this.db.prepare("SELECT value FROM meta WHERE key=?").get("faq-v1")
+      ) {
+        const now = new Date().toISOString();
+        const add = this.db.prepare(
+          "INSERT OR IGNORE INTO content VALUES(?,?,?,?,?,?,?,NULL)",
+        );
+        for (const entry of faqs)
+          add.run(
+            "article",
+            entry.id,
+            "published",
+            1,
+            JSON.stringify(entry),
+            now,
+            now,
+          );
+        this.db.prepare("INSERT INTO meta VALUES(?,?)").run("faq-v1", "1");
       }
       this.db.exec("COMMIT");
     } catch (e) {
@@ -308,7 +328,12 @@ export class CmsStore {
       .prepare("DELETE FROM sessions WHERE token_hash=?")
       .run(tokenHash(token));
   }
-  async changePassword(id: string, oldPassword: string, newPassword: unknown) {
+  async changePassword(
+    id: string,
+    oldPassword: string,
+    newPassword: unknown,
+    authorize?: () => unknown,
+  ) {
     const r = this.db
       .prepare("SELECT * FROM users WHERE id=? AND active=1")
       .get(id) as unknown as RawUser | undefined;
@@ -316,9 +341,14 @@ export class CmsStore {
       throw new CmsError("原密码不正确", 403);
     if (newPassword === oldPassword)
       throw new CmsError("新密码不能与原密码相同");
-    this.db
-      .prepare("UPDATE users SET password_hash=?,must_change=0 WHERE id=?")
-      .run(hashPassword(newPassword), id);
+    authorize?.();
+    const changed = this.db
+      .prepare(
+        "UPDATE users SET password_hash=?,must_change=0 WHERE id=? AND password_hash=? AND active=1",
+      )
+      .run(hashPassword(newPassword), id, r.password_hash);
+    if (!changed.changes)
+      throw new CmsError("账号或密码已被管理员变更，请重新登录", 409);
     this.db.prepare("DELETE FROM sessions WHERE user_id=?").run(id);
     this.audit(id, "user.password", id);
   }

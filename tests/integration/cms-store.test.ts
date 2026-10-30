@@ -162,6 +162,22 @@ describe("authoritative content storage", () => {
 });
 
 describe("identities and sessions", () => {
+  it("does not let a stale password change overwrite an administrator reset", async () => {
+    const u = store.createUser("editor", "Password123!X", "editor");
+    const pending = store.changePassword(
+      u.id,
+      "Password123!X",
+      "AttackerPassword!123",
+    );
+    store.updateUser(u.id, { password: "ResetPassword!123" });
+    await expect(pending).rejects.toThrow();
+    expect(
+      await store.login("editor", "ResetPassword!123", "office"),
+    ).toBeTruthy();
+    expect(
+      await store.login("editor", "AttackerPassword!123", "office"),
+    ).toBeUndefined();
+  });
   it("hashes passwords and session tokens, rejects weak passwords, and revokes on password change", async () => {
     expect(() => store.createUser("admin", "123", "admin")).toThrow();
     const user = store.createUser("admin", "FirstPassword!123", "admin");

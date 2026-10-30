@@ -1,5 +1,5 @@
 import type { CmsStore } from "./store";
-import { CmsError, object, text, type CmsKind } from "./content";
+import { CmsError, isLegacyFaq, object, text, type CmsKind } from "./content";
 import { limitedBody, uploadImage } from "./uploads";
 
 export interface CmsOptions {
@@ -78,8 +78,17 @@ export async function handleCmsRequest(
         .map((s) => s.trim())
         .find((s) => s.startsWith("apower_session="))
         ?.slice("apower_session=".length) ?? "";
-    const user = store.session(token);
-    if (!user) throw new CmsError("登录已失效，请重新登录", 401);
+    // Recheck after asynchronous work: revocation must also stop in-flight writes.
+    const authorize = (admin = false, allowPasswordChange = false) => {
+      const current = store.session(token);
+      if (!current) throw new CmsError("登录已失效，请重新登录", 401);
+      if (!allowPasswordChange && current.mustChangePassword)
+        throw new CmsError("首次登录请先修改密码", 403);
+      if (admin && current.role !== "admin")
+        throw new CmsError("仅管理员可以执行此操作", 403);
+      return current;
+    };
+    const user = authorize(false, true);
     if (resource === "session" && method === "GET") return json({ user });
     if (resource === "logout" && method === "POST") {
       store.logout(token);
@@ -93,6 +102,7 @@ export async function handleCmsRequest(
         user.id,
         passwordValue(data.oldPassword),
         data.password,
+        () => authorize(false, true),
       );
       return json({ ok: true, reauthenticate: true }, 200, {
         "set-cookie": cookie("", options.secure, 0),
@@ -104,13 +114,19 @@ export async function handleCmsRequest(
       if (kindOrId !== "product" && kindOrId !== "article")
         throw new CmsError("内容类型不正确", 404);
       const kind: CmsKind = kindOrId;
+      const managed = (record: ReturnType<CmsStore["get"]>) =>
+        record && !(kind === "article" && isLegacyFaq(record.payload));
+      if (id && !managed(store.get(kind, id)))
+        throw new CmsError("内容不存在或属于只读历史页面", 404);
       if (method === "GET" && !id)
         return json({
-          records: store.list(
-            kind,
-            undefined,
-            new URL(request.url).searchParams.get("deleted") === "1",
-          ),
+          records: store
+            .list(
+              kind,
+              undefined,
+              new URL(request.url).searchParams.get("deleted") === "1",
+            )
+            .filter(managed),
         });
       if (method === "GET" && id) {
         const record = store.get(kind, id);
@@ -119,16 +135,19 @@ export async function handleCmsRequest(
       }
       if (method === "POST" && !id) {
         const data = await body(request);
+        authorize();
         if (data.id !== undefined)
           throw new CmsError("新增内容不能指定已有记录");
         return json({ record: store.save(kind, data, user.id) }, 201);
       }
       if (method === "PATCH" && id && !action) {
         const data = await body(request);
+        authorize();
         return json({ record: store.save(kind, { ...data, id }, user.id) });
       }
       if (method === "DELETE" && id && !action) {
         const data = await body(request);
+        authorize();
         store.remove(kind, id, Number(data.version), user.id);
         return json({ ok: true });
       }
@@ -138,7 +157,9 @@ export async function handleCmsRequest(
       }
     }
     if (resource === "uploads" && method === "POST") {
-      const image = await uploadImage(request, options.uploadDir);
+      const image = await uploadImage(request, options.uploadDir, () =>
+        authorize(),
+      );
       store.audit(user.id, "image.upload", image.src);
       return json({ image }, 201);
     }
@@ -149,6 +170,7 @@ export async function handleCmsRequest(
         return json({ users: store.users() });
       if (resource === "users" && method === "POST") {
         const data = await body(request);
+        authorize(true);
         const created = store.createUser(
           data.username,
           data.password,
@@ -159,6 +181,7 @@ export async function handleCmsRequest(
       }
       if (resource === "users" && method === "PATCH" && kindOrId) {
         const data = await body(request);
+        authorize(true);
         if (data.active !== undefined && typeof data.active !== "boolean")
           throw new CmsError("账号状态不正确");
         store.updateUser(kindOrId, {

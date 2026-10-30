@@ -5,6 +5,7 @@ out/
 out-pages/
 playwright-report/
 test-results/
+test-results-live/
 .sites-runtime/
 tsconfig.tsbuildinfo
 source-cache/pages/

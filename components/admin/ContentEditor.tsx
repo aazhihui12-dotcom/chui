@@ -1,5 +1,5 @@
 "use client";
-import { useState, type FormEvent } from "react";
+import { useCallback, useState, type FormEvent } from "react";
 import type { Product, Article, Locale, ImageAsset } from "@/content/schema";
 import type { CmsKind, CmsRecord, CmsStatus } from "@/lib/cms/content";
 import { api } from "./api-client";
@@ -32,9 +32,7 @@ function initial(kind: CmsKind, record?: CmsRecord): EditorInput {
     model: kind === "product" ? (product?.model ?? "AP-") : "",
     categoryId: product?.categoryId ?? "682975",
     category: article?.category ?? "news",
-    publishedAt:
-      article?.publishedAt?.slice(0, 10) ??
-      new Date().toISOString().slice(0, 10),
+    publishedAt: article?.publishedAt ?? new Date().toISOString().slice(0, 10),
     locales: Object.fromEntries(
       (["cn", "en"] as const).map((locale) => {
         const p = record?.payload.locales[locale];
@@ -76,11 +74,13 @@ function UploadList({
   paths,
   onChange,
   onError,
+  onBusyChange,
 }: {
   label: string;
   paths: string[];
   onChange: (p: string[]) => void;
   onError: (s: string) => void;
+  onBusyChange: (busy: boolean) => void;
 }) {
   const [busy, setBusy] = useState(false);
   return (
@@ -125,6 +125,7 @@ function UploadList({
             e.target.value = "";
             if (!files.length) return;
             setBusy(true);
+            onBusyChange(true);
             const next = [...paths];
             try {
               for (const file of files) {
@@ -142,6 +143,7 @@ function UploadList({
               onError(error instanceof Error ? error.message : "上传失败");
             } finally {
               setBusy(false);
+              onBusyChange(false);
             }
           }}
         />
@@ -166,9 +168,15 @@ export function ContentEditor({
   const [value, setValue] = useState(() => initial(kind, record)),
     [locale, setLocale] = useState<Locale>("cn"),
     [busy, setBusy] = useState(false),
+    [uploads, setUploads] = useState(0),
     [error, setError] = useState(""),
     [message, setMessage] = useState("");
-  const change = (key: keyof Localized, data: string | string[]) =>
+  const onBusyChange = useCallback((pending: boolean) => {
+    setUploads((count) => count + (pending ? 1 : -1));
+    if (pending) setMessage("");
+  }, []);
+  const change = (key: keyof Localized, data: string | string[]) => {
+    setMessage("");
     setValue((v) => ({
       ...v,
       locales: {
@@ -176,11 +184,17 @@ export function ContentEditor({
         [locale]: { ...v.locales[locale], [key]: data },
       },
     }));
+  };
+  const changeShared = (data: Partial<EditorInput>) => {
+    setMessage("");
+    setValue((v) => ({ ...v, ...data }));
+  };
   const isProduct = kind === "product",
     language = locale === "cn" ? "中文" : "英文",
     local = value.locales[locale];
   const submit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (busy || uploads > 0) return;
     setError("");
     setMessage("");
     setBusy(true);
@@ -270,7 +284,7 @@ export function ContentEditor({
                   readOnly={!!record}
                   maxLength={60}
                   onChange={(e) =>
-                    setValue({ ...value, model: e.target.value.toUpperCase() })
+                    changeShared({ model: e.target.value.toUpperCase() })
                   }
                 />
                 <small>AP- 开头；创建后型号和网址保持不变。</small>
@@ -279,9 +293,7 @@ export function ContentEditor({
                 产品分类
                 <select
                   value={value.categoryId}
-                  onChange={(e) =>
-                    setValue({ ...value, categoryId: e.target.value })
-                  }
+                  onChange={(e) => changeShared({ categoryId: e.target.value })}
                 >
                   {categories.map(([id, name]) => (
                     <option key={id} value={id}>
@@ -297,9 +309,7 @@ export function ContentEditor({
                 资讯分类
                 <select
                   value={value.category}
-                  onChange={(e) =>
-                    setValue({ ...value, category: e.target.value })
-                  }
+                  onChange={(e) => changeShared({ category: e.target.value })}
                 >
                   <option value="news">博客与新闻</option>
                   <option value="faq">常见问题</option>
@@ -309,9 +319,9 @@ export function ContentEditor({
                 发布时间
                 <input
                   type="date"
-                  value={value.publishedAt}
+                  value={value.publishedAt.slice(0, 10)}
                   onChange={(e) =>
-                    setValue({ ...value, publishedAt: e.target.value })
+                    changeShared({ publishedAt: e.target.value })
                   }
                 />
               </label>
@@ -387,6 +397,7 @@ export function ContentEditor({
             paths={local.images}
             onChange={(paths) => change("images", paths)}
             onError={setError}
+            onBusyChange={onBusyChange}
           />
           {isProduct && (
             <UploadList
@@ -394,11 +405,14 @@ export function ContentEditor({
               paths={local.detailImages}
               onChange={(paths) => change("detailImages", paths)}
               onError={setError}
+              onBusyChange={onBusyChange}
             />
           )}
           <button
             type="button"
-            onClick={() =>
+            disabled={busy || uploads > 0}
+            onClick={() => {
+              setMessage("");
               setValue((v) => ({
                 ...v,
                 locales: {
@@ -409,8 +423,8 @@ export function ContentEditor({
                     detailImages: [...local.detailImages],
                   },
                 },
-              }))
-            }
+              }));
+            }}
           >
             将本语言图片复制到{locale === "cn" ? "英文" : "中文"}
           </button>
@@ -419,7 +433,7 @@ export function ContentEditor({
           <button
             type="submit"
             value={record?.status ?? "draft"}
-            disabled={busy}
+            disabled={busy || uploads > 0}
           >
             {busy ? "保存中…" : "保存修改"}
           </button>
@@ -427,15 +441,19 @@ export function ContentEditor({
             className="cms-primary"
             type="submit"
             value="published"
-            disabled={busy}
+            disabled={busy || uploads > 0}
           >
             保存并发布
           </button>
-          <button type="submit" value="draft" disabled={busy}>
+          <button type="submit" value="draft" disabled={busy || uploads > 0}>
             {record?.status === "published" ? "转为草稿（下线）" : "保存草稿"}
           </button>
           {record?.status === "published" && (
-            <button type="submit" value="archived" disabled={busy}>
+            <button
+              type="submit"
+              value="archived"
+              disabled={busy || uploads > 0}
+            >
               下架
             </button>
           )}

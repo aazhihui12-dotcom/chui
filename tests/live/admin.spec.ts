@@ -9,6 +9,7 @@ async function login(page: import("@playwright/test").Page) {
   await page.getByLabel("账号", { exact: true }).fill("admin");
   await page.getByLabel("密码", { exact: true }).fill(password);
   await page.getByRole("button", { name: "登录后台", exact: true }).click();
+  await expect(page.getByRole("heading", {name:/^(产品管理|首次登录，请修改初始密码)$/})).toBeVisible();
 }
 test("initial sign in forces password change, and the admin dashboard is usable", async ({
   page,
@@ -213,6 +214,61 @@ test("new product is published across catalog/category/detail without altering p
     page.getByRole("row").filter({ hasText: "AP-CMSTEST" }),
   ).toHaveCount(0);
   expect((await visitor.goto("/en" + productPath))!.status()).toBe(404);
+  await anon.close();
+});
+test("managed FAQs stay synchronized on FAQ and product overview in both languages", async ({
+  page,
+  context,
+}) => {
+  await login(page);
+  const mutate = (path: string, method: string, data: unknown) =>
+    page.evaluate(
+      async ({ path, method, data }) => {
+        const r = await fetch(`/api/cms/${path}/`, {
+          method,
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify(data),
+        });
+        if (!r.ok) throw new Error(`CMS ${r.status}: ${await r.text()}`);
+        return r.json();
+      },
+      { path, method, data },
+    );
+  const input = {
+    status: "published",
+    category: "faq",
+    publishedAt: "2026-10-31",
+    locales: {
+      cn: { title: "后台 FAQ 同步验证", body: "当前中文答案。", images: [] },
+      en: {
+        title: "Managed FAQ synchronization?",
+        body: "The current answer.",
+        images: [],
+      },
+    },
+  };
+  let { record } = await mutate("content/article", "POST", input);
+  const anon = await context.browser()!.newContext();
+  const visitor = await anon.newPage();
+  for (const locale of ["en", "cn"])
+    for (const path of ["FAQ", "ProductIndex"]) {
+      await visitor.goto(`/${locale}/${path}/`);
+      await expect(visitor.locator(path === 'FAQ' ? '.faq-item button' : '.product-index__faq summary').filter({hasText:input.locales[locale as "en" | "cn"].title})).toBeVisible();
+    }
+  input.locales.en.title = "Edited managed answer?";
+  ({ record } = await mutate(`content/article/${record.id}`, "PATCH", {
+    ...input,
+    version: record.version,
+  }));
+  await visitor.goto("/en/FAQ/");
+  await expect(visitor.getByRole('button',{name:'Edited managed answer?',exact:true})).toBeVisible();
+  await mutate(`content/article/${record.id}`, "DELETE", {
+    version: record.version,
+  });
+  for (const path of ["FAQ", "ProductIndex"]) {
+    await visitor.goto(`/en/${path}/`);
+    await expect(visitor.locator(path === 'FAQ' ? '.faq-item button' : '.product-index__faq summary').filter({hasText:'Edited managed answer?'})).toHaveCount(0);
+  }
   await anon.close();
 });
 test("anonymous writes are rejected and admin login fits a phone viewport", async ({

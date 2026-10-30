@@ -13,7 +13,7 @@ import { productOverviewPoster, proofCopy } from '@/content/apower-v3';
 
 const source=pages.find(p=>p.locale==='cn' && p.kind==='product-index')!;
 const photo=(index:number)=>{const b=source.blocks[index];return b?.type==='media'?b.image:undefined;};
-export function ProductIndexTemplate({page,catalogProducts=products}:{page:SitePage;catalogProducts?:Product[]}) {
+export function ProductIndexTemplate({page,catalogProducts=products,catalogFaq=apowerFaq(page.locale)}:{page:SitePage;catalogProducts?:Product[];catalogFaq?:import('./FaqTemplate').FaqEntry[]}) {
  const locale=page.locale, cn=locale==='cn', t=(id:number)=>text(id,locale), copy=homeCopy[locale];
  const img=(index:number)=>{const image=photo(index);return image&&<img src={sitePath(image.src)} alt="" width="600" height="440" loading="lazy"/>;};
  const pair=(id:number)=>splitCopy(id,locale);
@@ -32,7 +32,7 @@ export function ProductIndexTemplate({page,catalogProducts=products}:{page:SiteP
   <section className="product-index__section product-index__certifications" id="product-certifications"><h2>{t(27)}</h2><p className="product-index__intro">{t(81)}</p><div className="product-index__certification-strip" role="region" aria-label={cn?'产品认证标识':'Product certification marks'} tabIndex={0}><SectionRenderer blocks={source.blocks.filter(b=>b.type==='gallery').slice(0,1)}/></div></section>
   <section className="product-index__section v3-quality-numbers" aria-label={cn?'品质实力':'Quality in numbers'}><div className="v3-quality-grid">{[82,83,84,85].map(id=>{const p=pair(id),m=p.heading.match(/^(\d+[%+]?)\s*(.*)$/)!;return <article key={id}><h3><span>{m[1]}</span>{m[2]}</h3><p>{p.body}</p></article>;})}</div></section>
   <section className="product-index__section"><h2>{t(23)}</h2><SectionRenderer blocks={[source.blocks[128]]}/><div className="testimonials">{copy.testimonials.map((quote,i)=><figure key={i}>{img(129+i*3)}<blockquote>{quote}</blockquote><figcaption>—— {['Jeff Deng','Warren Steve','María Emilia'][i]}</figcaption></figure>)}</div></section>
-  <section className="product-index__section product-index__faq"><h2>{cn?'常见问题':'FAQ'}</h2>{apowerFaq(locale).slice(0,4).map(f=><details key={f.id}><summary>{f.question}</summary><p>{f.answer}</p></details>)}<a className="text-link" href={sitePath(`/${locale}/FAQ`)}>{cn?'查看全部常见问题':'View all frequently asked questions'} →</a></section>
+  <section className="product-index__section product-index__faq"><h2>{cn?'常见问题':'FAQ'}</h2>{catalogFaq.slice(0,4).map(f=><details key={f.id}><summary>{f.question}</summary><p>{f.answer}</p></details>)}<a className="text-link" href={sitePath(`/${locale}/FAQ`)}>{cn?'查看全部常见问题':'View all frequently asked questions'} →</a></section>
   <section className="product-index__cta"><h2>{t(35)}</h2><InquiryTrigger locale={locale} title={copy.contact}>{copy.contact} ↗</InquiryTrigger></section>
  </main>;
 }

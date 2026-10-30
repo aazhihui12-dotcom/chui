@@ -1,5 +1,5 @@
 import { randomUUID } from "node:crypto";
-import { mkdir, writeFile } from "node:fs/promises";
+import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import sharp from "sharp";
 import { CmsError } from "./content";
@@ -26,7 +26,11 @@ export async function limitedBody(
   }
   return Buffer.concat(chunks);
 }
-export async function uploadImage(request: Request, directory: string) {
+export async function uploadImage(
+  request: Request,
+  directory: string,
+  authorize: () => unknown,
+) {
   if (
     !["image/jpeg", "image/png", "image/webp"].includes(
       request.headers.get("content-type")?.split(";")[0] ?? "",
@@ -57,9 +61,10 @@ export async function uploadImage(request: Request, directory: string) {
       })
       .webp({ quality: 90 })
       .toBuffer({ resolveWithObject: true });
-    await mkdir(directory, { recursive: true, mode: 0o750 });
+    authorize();
+    mkdirSync(directory, { recursive: true, mode: 0o750 });
     const name = `${randomUUID()}.webp`;
-    await writeFile(join(directory, name), data, { flag: "wx", mode: 0o640 });
+    writeFileSync(join(directory, name), data, { flag: "wx", mode: 0o640 });
     return {
       src: `/uploads/${name}`,
       width: info.width,

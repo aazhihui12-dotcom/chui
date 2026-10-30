@@ -8,9 +8,12 @@ import {
   utimes,
   stat,
   rm,
+  symlink,
+  readdir,
 } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
+import { resolve } from "node:path";
 import { execFile } from "node:child_process";
 import { promisify } from "node:util";
 import { CmsStore } from "@/lib/cms/store";
@@ -20,6 +23,15 @@ const exec = promisify(execFile);
 let directory: string;
 afterEach(async () => {
   if (directory) await rm(directory, { recursive: true, force: true });
+});
+it('executes backups when the release is launched through the current symlink',async()=>{
+ directory=await mkdtemp(join(tmpdir(),'apower-backup-cli-'));
+ const data=join(directory,'data'),backups=join(directory,'backups');
+ const store=new CmsStore(join(data,'cms.sqlite'));store.seed(apowerProducts,[]);
+ const link=join(directory,'current');await symlink(resolve('.'),link,'dir');
+ await exec(process.execPath,[join(link,'scripts/cms-backup.mjs'),data,backups]);
+ expect((await readdir(backups)).filter(name=>name.endsWith('.tar.gz'))).toHaveLength(1);
+ store.db.close();
 });
 it("creates a consistent restorable database and upload archive, pruning only expired owned backups", async () => {
   directory = await mkdtemp(join(tmpdir(), "apower-backup-test-"));
