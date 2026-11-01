@@ -25,14 +25,14 @@
 
 ### Task 1: Demand-loaded identical fonts
 
-Files: scripts/split-han-font.py, app/han-fonts.css, app/apower-v3.css, app/[locale]/layout.tsx, public/fonts, tests/live/server-speed.spec.ts.
+Files: scripts/split-han-font.py, app/han-fonts.css, app/apower-v3.css, app/[locale]/layout.tsx, public/fonts, tests/live/font-speed.spec.ts.
 
 Interfaces: consume original APOWER-Han-Medium.woff; produce disjoint UI/body WOFF2 fonts and unicode-range CSS. Original remains.
 
-- [ ] Add browser test: English loads <20KB Han data; Chinese loads the body shard; original/candidate canvas metrics match.
-- [ ] Run test against original build and confirm expected failure.
-- [ ] Implement deterministic split (non-CJK + 中文 in UI), retaining all original glyphs and license metadata. Keep Inter unchanged.
-- [ ] Verify cmap/glyph outlines/metrics union and browser font decode, then run full suite; commit.
+- [x] Add browser test: English loads <20KB Han data; Chinese loads the body shard; original/candidate canvas metrics match.
+- [x] Run test against original build and confirm expected failure.
+- [x] Implement deterministic split (non-CJK + 中文 in UI), retaining all original glyphs and license metadata. Keep Inter unchanged.
+- [x] Verify cmap/glyph outlines/metrics union and browser font decode, then run full suite; commit.
 
 ### Task 2: Lightweight alternate-path lookup
 
@@ -40,18 +40,18 @@ Files: scripts/build-route-index.mjs, content/route-index.json, content/apower-m
 
 Interfaces: preserve getAlternatePath(locale, slug):string, localizedLegacyPath and unknown-home fallback. Path index is generated from literal exported content arrays, plus shared APOWER models and garment category. No article bodies in client lookup.
 
-- [ ] Add failure proving route lookup works without importing lib/content and exhaustive correspondence against server getPage.
-- [ ] Observe failure; implement generated index and generation in build commands, preserving every path.
-- [ ] Full tests and production build; verify public client JS shrinks and language switch/menu/inquiry still work; commit.
+- [x] Add failure proving route lookup works without importing lib/content and exhaustive correspondence against server getPage.
+- [x] Observe failure; implement generated index and generation in build commands, preserving every path.
+- [x] Full tests and production build; verify public client JS shrinks and language switch/menu/inquiry still work; commit.
 
 ### Task 3: Meaningful visibility and release
 
-Files: components/interactive/VideoModal.tsx, tests/unit/media-loading.test.tsx, tests/live/server-speed.spec.ts, docs/media-performance.md.
+Files: components/interactive/VideoModal.tsx, tests/unit/media-loading.test.tsx, tests/live/video-visibility.spec.ts, docs/media-performance.md.
 
 Interfaces: backgroundVisible only at intersectionRatio >=0.5; existing no-observer fallback unchanged.
 
-- [ ] Add partial visibility failing tests including CN 390x900 and mobile 844 tall.
-- [ ] Observe failure; change threshold/check; verify scroll playback/manual pause/reduced motion.
-- [ ] Full suite, type check, production build, all live tests; fresh final review and fix important findings RED→GREEN.
-- [ ] Stage new release without changing current; test locally on server; backup, atomic switch with rollback and health checks.
+- [x] Add partial visibility failing tests including CN 390x900 and mobile 844 tall.
+- [x] Observe failure; change threshold/check; verify scroll playback/manual pause/reduced motion.
+- [x] Full suite, type check, production build, all live tests; fresh final review (no Critical/Important findings; two Minor deferred in results).
+- [x] Stage new release without changing current; test locally on server; backup, atomic switch with rollback and health checks.
 - [ ] Sequential cold/warm Chrome measurements; document actual results and server limitations; push server branch only.
