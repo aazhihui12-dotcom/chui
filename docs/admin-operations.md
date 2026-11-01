@@ -27,6 +27,14 @@
 - 现有静态站仍使用 `npm run build`；服务器版使用 `NEXT_PUBLIC_SITE_URL=https://apowertech.net NEXT_PUBLIC_BASE_PATH= npm run live:build`，本地编译后部署，不在 2GB 服务器上编译。运行配置`APOWER_PUBLIC_ORIGIN=https://apowertech.net`，只接受正式后台来源。
 - 本地管理闭环测试：先 `npm run live:build`，再 `npx playwright test --config playwright.live.config.ts`。测试在独立临时库和 3110 端口运行，不操作生产数据。
 
+## 图片、字体与视频加载
+
+- 首页背景视频只在进入可视区域且未启用“减少动态效果”时开始下载和播放，离开视野暂停；海报、点击播放、原有画面及动画保留。
+- `/media/` 和 `/fonts/` 的成功静态文件响应缓存 24 小时，不使用 immutable。部署时若替换同名素材，请更换文件名或 URL 版本参数，避免访客继续使用旧图/字体。
+- 后台上传图片仍使用每次生成的唯一文件名，因此上传替换可立即使用新地址，不受上述同名文件缓存影响。运营内容列表、详情页和 CMS API 不增加公共缓存。
+- 可持续发展背景照片与原图一致，改为原生 lazy 图片；在靠近该模块时下载，不与首屏资源竞争。无 JavaScript 也可显示。
+- 2Mbps 套餐及访问线路仍限制传输速度；本次不购买 CDN、不升级带宽，也不修改 DNS。
+
 ## HTTPS 与日志
 
 域名使用覆盖apowertech.net及www的Let's Encrypt证书，IP保留独立短期证书；每天自动检查两次续期，成功后重载 Nginx。HTTP 自动跳 HTTPS。
