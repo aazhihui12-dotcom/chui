@@ -1,4 +1,5 @@
 import copy from './apower-copy.json';
+import models from './apower-models.json';
 import { apowerMedia, apowerAssetDetails } from './apower-media';
 import { apowerSpecifications } from './apower-v2';
 import type { Locale, ImageAsset, Category, Product, ProductPage, SitePage } from './schema';
@@ -31,7 +32,7 @@ export const apowerCategories: Category[] = [
  {id:'garment-steamers',legacyPath:'/Product/garment-steamers.html',title:{cn:'吸附挂烫机系列',en:'Suction Garment Steamers'},productIds:['AP-AR01'],image:artwork('range-steamers')},
  {id:'682971',legacyPath:'/Product/682971.html',title:{cn:'高速多功能美发器',en:'High-Speed Multi-Stylers'},productIds:['AP-S1'],image:artwork('product-s1')},
 ];
-export const apowerProducts: Product[] = ['AP-G1','AP-G3','AP-G11','AP-S1','AP-H1','AP-AR01'].map(model=>{
+export const apowerProducts: Product[] = models.map(model=>{
  const category=apowerCategories.find(c=>c.productIds.includes(model))!;
  const image=artwork('product-'+model.slice(3).toLowerCase(),model);
  const gallery=(locale:Locale)=>[...new Map([image,...productArtwork(model,'color',locale)].map(asset=>[asset.src,asset])).values()];

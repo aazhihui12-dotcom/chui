@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "next dev",
-    "build": "next build && node scripts/build-source-styles.mjs && node scripts/check-routes.mjs --generate-legacy --manifest source-cache/manifest.json",
+    "build": "node scripts/build-route-index.mjs && next build && node scripts/build-source-styles.mjs && node scripts/check-routes.mjs --generate-legacy --manifest source-cache/manifest.json",
     "start": "http-server out -c-1",
     "live:dev": "node scripts/prepare-runtime.mjs && next dev runtime --hostname 127.0.0.1 --port 3100",
-    "live:build": "node scripts/prepare-runtime.mjs && next build runtime && node scripts/build-source-styles.mjs",
+    "live:build": "node scripts/prepare-runtime.mjs && node scripts/build-route-index.mjs && next build runtime && node scripts/build-source-styles.mjs",
     "live:start": "next start runtime --hostname 127.0.0.1 --port 3100",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -16,6 +16,7 @@
     "capture:regenerate": "node scripts/build-content.mjs",
     "capture:verify": "node scripts/check-source-manifest.mjs --cache source-cache && node scripts/check-assets.mjs --capture-integrity",
     "assets:manifest": "node scripts/update-shipped-assets.mjs",
+    "routes:index": "node scripts/build-route-index.mjs",
     "check:pages": "node scripts/check-page-correspondence.mjs",
     "test:e2e": "playwright test"
   },
