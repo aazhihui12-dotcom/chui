@@ -9,6 +9,10 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
   const [open, setOpen] = useState(false);
   const [failed, setFailed] = useState(false);
   const [backgroundPaused, setBackgroundPaused] = useState(true);
+  const [backgroundVisible, setBackgroundVisible] = useState(false);
+  const [backgroundLoaded, setBackgroundLoaded] = useState(false);
+  const [motionAllowed, setMotionAllowed] = useState(false);
+  const manuallyPaused = useRef(false);
   const backgroundId = useId();
   const trigger = useRef<HTMLButtonElement>(null);
   const dialog = useRef<HTMLDialogElement>(null);
@@ -16,18 +20,32 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
   const backgroundVideo = useRef<HTMLVideoElement>(null);
   const cn = locale === "cn";
   useEffect(() => {
-    if (!background || typeof window.matchMedia !== "function") return;
-    const preference = window.matchMedia("(prefers-reduced-motion: reduce)");
-    const update = () => {
-      const video = backgroundVideo.current;
-      if (!video) return;
-      if (preference.matches) video.pause();
-      else void video.play().catch(() => {});
-    };
+    if (!background) return;
+    const preference = window.matchMedia?.("(prefers-reduced-motion: reduce)");
+    const update = () => setMotionAllowed(preference ? !preference.matches : false);
     update();
-    preference.addEventListener("change", update);
-    return () => preference.removeEventListener("change", update);
+    preference?.addEventListener("change", update);
+    const observer = typeof window.IntersectionObserver === "function"
+      ? new IntersectionObserver(([entry]) => setBackgroundVisible(entry.isIntersecting), { threshold: 0.01 })
+      : undefined;
+    if (observer && trigger.current) observer.observe(trigger.current);
+    else setBackgroundVisible(true); // Compatible autoplay fallback for older browsers.
+    return () => {
+      observer?.disconnect();
+      preference?.removeEventListener("change", update);
+    };
   }, [background]);
+  useEffect(() => {
+    if (!background) return;
+    if (!backgroundVisible || !motionAllowed || open) {
+      backgroundVideo.current?.pause();
+      return;
+    }
+    // preload="none" alone does not help when play() is called on mount.
+    // Keep the source out of the DOM until the preview is actually in view.
+    if (!backgroundLoaded) { setBackgroundLoaded(true); return; }
+    if (!manuallyPaused.current) void backgroundVideo.current?.play().catch(() => {});
+  }, [background, backgroundVisible, backgroundLoaded, motionAllowed, open]);
   useEffect(() => {
     if (!open) return;
     const node = dialog.current!;
@@ -46,13 +64,14 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
   }, [open]);
   return <>
     <button ref={trigger} className="video-preview" aria-label={cn ? "播放制造视频" : "Play manufacturing video"} onClick={() => { setFailed(false); setOpen(true); }}>
-      {background ? <video id={backgroundId} ref={backgroundVideo} src={sitePath(src)} poster={sitePath(poster)} muted loop playsInline preload="none" aria-hidden="true" tabIndex={-1} onPause={() => setBackgroundPaused(true)} onPlay={() => setBackgroundPaused(false)} /> : <img src={sitePath(poster)} alt="" width="1280" height="720" loading="lazy" />}
+      {background && backgroundLoaded ? <video id={backgroundId} ref={backgroundVideo} src={sitePath(src)} poster={sitePath(poster)} muted loop playsInline preload="none" aria-hidden="true" tabIndex={-1} onPause={() => setBackgroundPaused(true)} onPlay={() => setBackgroundPaused(false)} /> : <img src={sitePath(poster)} alt="" width="1280" height="720" loading="lazy" decoding="async" />}
       {!background && <span className="video-preview__play" aria-hidden="true">▶</span>}
       <span className="video-preview__caption">{cn ? "走进 APOWER TECH 制造体系" : "Inside APOWER TECH manufacturing"}</span>
     </button>
-    {background && <button className="motion-control sr-only" type="button" aria-controls={backgroundId} onClick={() => {
+    {background && backgroundLoaded && <button className="motion-control sr-only" type="button" aria-controls={backgroundId} onClick={() => {
       const video = backgroundVideo.current;
       if (!video) return;
+      manuallyPaused.current = !video.paused;
       if (video.paused) void video.play().catch(() => {});
       else video.pause();
     }}>{backgroundPaused ? (cn ? "播放背景视频" : "Play background video") : (cn ? "暂停背景视频" : "Pause background video")}</button>}

@@ -15,6 +15,7 @@ const make=(locale:Locale)=>({
 export const homeCopy={cn:make('cn'),en:make('en')};
 export const manufacturingVideo='/media/apower/home-manufacturing-preview.mp4';
 export const manufacturingPoster='/media/manufacturing-poster.jpg';
+export const sustainabilityBackground='/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp';
 // The retained LBH homepage's transparent white icon artwork, in source order.
 export const sustainabilityIcons = [
  '/media/f5b922de341d5afcd094a78d59bc785b13401fb2841f2800f75cee5742715b84.png',

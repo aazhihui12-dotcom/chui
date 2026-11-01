@@ -7,7 +7,7 @@ import { VideoModal } from "@/components/interactive/VideoModal";
 import { apowerCategories as categories, apowerProducts as products, artwork, text, overviewVideo, factoryVideo } from "@/content/apower";
 import { factoryTourPoster } from "@/content/apower-v3";
 import { SourceVideo } from "@/components/interactive/SourceVideo";
-import { homeCopy, manufacturingPoster, manufacturingVideo, sustainabilityIcons } from "@/content/home";
+import { homeCopy, manufacturingPoster, manufacturingVideo, sustainabilityBackground, sustainabilityIcons } from "@/content/home";
 import { InquiryTrigger } from "@/components/interactive/InquiryTrigger";
 import { PartnerCarousel } from "@/components/interactive/PartnerCarousel";
 import { SourceButtonLabel } from "@/components/site/SourceButtonLabel";
@@ -71,7 +71,7 @@ export function HomeTemplate({ page, catalogProducts = products }: { page: SiteP
 
     <section className="home-certifications home-section"><h2>{copy.certification}</h2>{galleries.at(-1) && <section className="content-gallery">{galleries.at(-1)!.heading && <h2>{galleries.at(-1)!.heading}</h2>}<div>{galleries.at(-1)!.images.map((image,index)=><HomeGalleryImage key={`${image.src}-${index}`} image={image} locale={page.locale} label={image.alt || `${copy.certification} ${index+1}`}/>)}</div></section>}</section>
 
-    <section className="home-sustainability" id="sustainability"><div className="home-section">
+    <section className="home-sustainability" id="sustainability"><Media image={{src:sustainabilityBackground,alt:'',width:1920,height:406}} className="home-sustainability__background" /><div className="home-section">
       <h2>{copy.sustainability}</h2>
       <div className="sustainability-grid">{[0,3,2,1].map((copyIndex, index) => <a href={sitePath(`/${page.locale}/Sustainable_Development`)} key={copyIndex}>
         <Media image={{ src:sustainabilityIcons[index], alt:'', width:200, height:200 }} />

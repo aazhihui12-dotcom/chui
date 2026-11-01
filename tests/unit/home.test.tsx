@@ -56,11 +56,11 @@ describe("homepage source recognition", () => {
     expect(trigger).toHaveFocus();
   });
 
-  it.each(["en", "cn"] as const)("uses APOWER footage and cover instead of the legacy factory video on the %s homepage", (locale) => {
+  it.each(["en", "cn"] as const)("uses the APOWER cover before loading background footage on the %s homepage", (locale) => {
     const { container } = render(<HomeTemplate page={pages.find(page => page.id === "home" && page.locale === locale)!} />);
-    const preview = container.querySelector('.home-manufacturing .video-preview video');
-    expect(preview).toHaveAttribute('src', '/media/apower/home-manufacturing-preview.mp4');
-    expect(preview).toHaveAttribute('poster', '/media/apower/factory-tour-video-poster.webp');
+    const preview = container.querySelector('.home-manufacturing .video-preview img');
+    expect(preview).toHaveAttribute('src', '/media/apower/factory-tour-video-poster.webp');
+    expect(container.querySelector('.home-manufacturing video[src]')).toBeNull();
     expect(container.querySelector('.home-manufacturing')).not.toHaveTextContent('LBH');
     expect(container.querySelector('iframe')).toBeNull();
   });
@@ -70,7 +70,7 @@ describe("homepage source recognition", () => {
     const trigger = screen.getByRole("button", { name: locale === "cn" ? "播放制造视频" : "Play manufacturing video" });
     expect(trigger.querySelector(".video-preview__play")).toBeNull();
     expect(container.querySelector(".background-video-toggle")).toBeNull();
-    expect(screen.getByRole("button", { name: locale === "cn" ? "播放背景视频" : "Play background video" })).toHaveClass("sr-only");
+    expect(container.querySelector('.motion-control:not(.sr-only)')).toBeNull();
     fireEvent.click(trigger);
     expect(screen.getByRole("dialog", { name: locale === "cn" ? "我们的制造体系" : "Our manufacturing system" })).toBeVisible();
   });

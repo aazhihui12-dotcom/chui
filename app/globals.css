@@ -450,7 +450,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .testimonials figcaption { color: var(--brand-blue); font-weight: 700; }
 .home-certifications { border-top: 1px solid var(--border-soft); }
 .home-certifications .content-gallery img { height: 135px; width: min(150px, 25%); }
-.home-sustainability { background: linear-gradient(rgb(51 50 50 / .7), rgb(51 50 50 / .7)), url('/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp') center/cover; text-align: center; }
+.home-sustainability { background: #333232; text-align: center; }
 .home-sustainability > .home-section > h2 { color: #ffffff; }
 .home-sustainability h2 { margin-left: auto; margin-right: auto; max-width: 800px; }
 .sustainability-grid { display: grid; gap: 25px; grid-template-columns: repeat(4, 1fr); margin-top: 50px; }
