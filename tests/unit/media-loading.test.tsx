@@ -4,7 +4,7 @@ import { VideoModal } from '@/components/interactive/VideoModal';
 import { HomeTemplate } from '@/components/templates/HomeTemplate';
 import { pages } from '@/content/pages';
 
-let intersect: (visible: boolean) => void;
+let intersect: (visible: boolean, ratio?: number) => void;
 let changeMotion: (reduced: boolean) => void;
 
 beforeEach(() => {
@@ -20,7 +20,7 @@ beforeEach(() => {
   vi.stubGlobal('matchMedia', () => preference);
   vi.stubGlobal('IntersectionObserver', class {
     constructor(callback: IntersectionObserverCallback) {
-      intersect = visible => callback([{ isIntersecting: visible } as IntersectionObserverEntry], this as unknown as IntersectionObserver);
+      intersect = (visible, ratio = visible ? 1 : 0) => callback([{ isIntersecting: visible, intersectionRatio: ratio } as IntersectionObserverEntry], this as unknown as IntersectionObserver);
     }
     observe() {}
     disconnect() {}
@@ -52,6 +52,18 @@ it('mounts the background video on entry and retains its source after leaving', 
   expect(video).toHaveAttribute('poster', '/media/poster.webp');
   expect(video.muted).toBe(true);
   act(() => intersect(false));
+  expect(container.querySelector('video')).toBe(video);
+});
+
+it('keeps a partially visible preview static until half its area is in view', () => {
+  const {container}=player();
+  act(()=>intersect(true,.49));
+  expect(container.querySelector('video[src]')).toBeNull();
+  act(()=>intersect(true,.5));
+  const video=container.querySelector('video')!;
+  expect(video).toHaveAttribute('src','/media/preview.mp4');
+  act(()=>intersect(true,.49));
+  expect(HTMLMediaElement.prototype.pause).toHaveBeenCalled();
   expect(container.querySelector('video')).toBe(video);
 });
 

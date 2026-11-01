@@ -26,7 +26,7 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
     update();
     preference?.addEventListener("change", update);
     const observer = typeof window.IntersectionObserver === "function"
-      ? new IntersectionObserver(([entry]) => setBackgroundVisible(entry.isIntersecting), { threshold: 0.01 })
+      ? new IntersectionObserver(([entry]) => setBackgroundVisible(entry.isIntersecting && entry.intersectionRatio >= 0.5), { threshold: 0.5 })
       : undefined;
     if (observer && trigger.current) observer.observe(trigger.current);
     else setBackgroundVisible(true); // Compatible autoplay fallback for older browsers.
@@ -42,7 +42,7 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
       return;
     }
     // preload="none" alone does not help when play() is called on mount.
-    // Keep the source out of the DOM until the preview is actually in view.
+    // Keep the source out of the DOM until at least half the preview is in view.
     if (!backgroundLoaded) { setBackgroundLoaded(true); return; }
     if (!manuallyPaused.current) void backgroundVideo.current?.play().catch(() => {});
   }, [background, backgroundVisible, backgroundLoaded, motionAllowed, open]);
