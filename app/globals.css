@@ -333,6 +333,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .home-manufacturing__media .video-preview__play, .home-manufacturing__media .background-video-toggle { z-index: 3; }
 .home-manufacturing__media .video-preview { height: 100%; margin: 0; max-width: none; width: 100%; }
 .home-manufacturing__media .video-preview video { display: block; height: 100%; object-fit: cover; width: 100%; }
+.home-manufacturing__media .video-preview .video-preview__background-poster { display:block; height:100%; width:100%; aspect-ratio:auto; object-fit:cover; filter:none; }
 .home-manufacturing__media .video-preview__play { height: 44px; left: auto; right: 24px; top: 24px; transform: none; width: 44px; }
 .home-manufacturing__media .video-preview__caption { display: none; }
 .background-video-toggle { background: var(--brand-navy); border: 1px solid var(--border-soft); border-radius: 50%; color: #ffffff; cursor: pointer; font-size: 20px; height: 44px; position: absolute; right: 80px; top: 24px; width: 44px; }

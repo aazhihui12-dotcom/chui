@@ -64,7 +64,7 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
   }, [open]);
   return <>
     <button ref={trigger} className="video-preview" aria-label={cn ? "播放制造视频" : "Play manufacturing video"} onClick={() => { setFailed(false); setOpen(true); }}>
-      {background && backgroundLoaded ? <video id={backgroundId} ref={backgroundVideo} src={sitePath(src)} poster={sitePath(poster)} muted loop playsInline preload="none" aria-hidden="true" tabIndex={-1} onPause={() => setBackgroundPaused(true)} onPlay={() => setBackgroundPaused(false)} /> : <img src={sitePath(poster)} alt="" width="1280" height="720" loading="lazy" decoding="async" />}
+      {background && backgroundLoaded ? <video id={backgroundId} ref={backgroundVideo} src={sitePath(src)} poster={sitePath(poster)} muted loop playsInline preload="none" aria-hidden="true" tabIndex={-1} onPause={() => setBackgroundPaused(true)} onPlay={() => setBackgroundPaused(false)} /> : <img className={background ? "video-preview__background-poster" : undefined} src={sitePath(poster)} alt="" width="1280" height="720" loading="lazy" decoding="async" />}
       {!background && <span className="video-preview__play" aria-hidden="true">▶</span>}
       <span className="video-preview__caption">{cn ? "走进 APOWER TECH 制造体系" : "Inside APOWER TECH manufacturing"}</span>
     </button>

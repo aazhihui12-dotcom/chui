@@ -53,6 +53,21 @@ for (const width of [1440, 390]) {
     await expect(section.locator('.sustainability-grid a')).toHaveCount(4);
     await section.screenshot({ path: `test-results-live/media-background-${width}.png` });
   });
+
+  test(`${width}: static background poster keeps the original video crop and brightness`, async ({ page }) => {
+    await page.setViewportSize({ width, height: 844 });
+    await page.emulateMedia({ reducedMotion: 'reduce' });
+    await page.goto('/en/');
+    const preview = page.locator('.home-manufacturing .video-preview');
+    await preview.scrollIntoViewIfNeeded();
+    const poster = preview.locator('img');
+    await expect(poster).toHaveCSS('filter', 'none');
+    await expect(poster).toHaveCSS('object-fit', 'cover');
+    const frame = (await preview.boundingBox())!;
+    const image = (await poster.boundingBox())!;
+    expect(image.width).toBeCloseTo(frame.width, 0);
+    expect(image.height).toBeCloseTo(frame.height, 0);
+  });
 }
 
 test('reduced motion keeps the poster and live changes pause an activated video', async ({ page }) => {
@@ -74,11 +89,20 @@ test('public file caching does not leak into missing files, pages or CMS respons
     expect(response.status()).toBe(200);
     expect(response.headers()['cache-control']).toBe('public, max-age=86400');
   }
-  for (const path of ['/en/', '/admin/', '/media/apower/definitely-missing-performance.webp']) {
+  for (const path of ['/en/', '/admin/', '/media/apower/definitely-missing-performance.webp', '/media/apower/v2/HERO-BRAND.webp', '/MEDIA/apower/v2/hero-brand.webp', '/fonts/INTER-MEDIUM.woff2']) {
     const response = await request.get(path);
     expect(response.headers()['cache-control']).not.toContain('max-age=86400');
   }
   const unauthorized = await request.get('/api/cms/content/product/');
   expect(unauthorized.status()).toBe(401);
   expect(unauthorized.headers()['cache-control']).toContain('no-store');
+});
+
+test('case-sensitive asset headers retain existing bilingual routes and slash redirects', async ({ request }) => {
+  for (const path of ['/en/ProductIndex/', '/cn/Design_and_Development/', '/en/ProductDetail/AP-G1.html', '/cn/Factory_tour/']) {
+    expect((await request.get(path)).status()).toBe(200);
+  }
+  const redirect = await request.get('/en', { maxRedirects: 0 });
+  expect(redirect.status()).toBe(308);
+  expect(redirect.headers().location).toBe('/en/');
 });

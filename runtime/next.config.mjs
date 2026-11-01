@@ -3,7 +3,8 @@ import { join, relative, resolve, sep } from "node:path";
 const root = resolve(import.meta.dirname, "..");
 export default {
   trailingSlash: true,
-  experimental: { globalNotFound: true },
+  // Public files are case-sensitive; their cache-header matching must be too.
+  experimental: { globalNotFound: true, caseSensitiveRoutes: true },
   outputFileTracingRoot: root,
   turbopack: { root },
   images: { unoptimized: true },
