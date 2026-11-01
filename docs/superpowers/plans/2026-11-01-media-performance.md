@@ -59,4 +59,4 @@
 - [x] Package the built runtime, copy existing dependencies/public into a new release, and health-check on an alternate local port.
 - [x] Switch the release link and restart; roll back if trusted-TLS route checks fail.
 - [x] Run read-only domain checks, cold/warm Chrome media measurements, visible video and original layout checks; record timings and unresolved DNS limitations without claiming global DNS repair.
-- [ ] Push only the existing server branch, not main; leave a concise handoff.
+- [x] Push only the existing server branch, not main; leave a concise handoff.
