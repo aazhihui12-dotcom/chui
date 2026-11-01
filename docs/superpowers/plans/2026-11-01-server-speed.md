@@ -54,4 +54,4 @@ Interfaces: backgroundVisible only at intersectionRatio >=0.5; existing no-obser
 - [x] Observe failure; change threshold/check; verify scroll playback/manual pause/reduced motion.
 - [x] Full suite, type check, production build, all live tests; fresh final review (no Critical/Important findings; two Minor deferred in results).
 - [x] Stage new release without changing current; test locally on server; backup, atomic switch with rollback and health checks.
-- [ ] Sequential cold/warm Chrome measurements; document actual results and server limitations; push server branch only.
+- [x] Sequential cold/warm Chrome measurements; document actual results and server limitations; push server branch only (0f06e9f, main unchanged).
