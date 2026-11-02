@@ -1,6 +1,6 @@
 import type { ContentBlock, SitePage } from "@/content/schema";
 import { editorialSections, chineseEditorialSections, type editorialPaths, type EditorialEntry, type EditorialSourceGallery } from "@/content/editorial";
-import { Fragment } from "react";
+import { Fragment, type CSSProperties } from "react";
 import { SectionRenderer, renderBlock } from "@/components/site/SectionRenderer";
 import { EditorialGallery } from "@/components/interactive/EditorialGallery";
 import { Media } from "@/components/site/Media";
@@ -12,6 +12,7 @@ import { factoryTourPoster, manufacturingLabels, productManufacturingPoster, str
 import { ContactStrip } from '@/components/site/ContactStrip';
 import { ImageDescription } from '@/components/interactive/ImageDescription';
 import { sitePath } from '@/lib/site-path';
+import { mediaPath } from '@/lib/media-path';
 import { manufacturingPoster } from '@/content/home';
 
 export function EditorialTemplate({ page }: { page: SitePage }) {
@@ -71,7 +72,10 @@ export function EditorialTemplate({ page }: { page: SitePage }) {
   }) : null;
 
   const v3=hasStrip||['/Company_Introduction','/Factory_tour','/Certification_certificate','/Sustainable_Development','/Product_Laboratory'].includes(page.legacyPath);
-  return <main id="main-content" data-editorial-path={page.legacyPath} className={`editorial-page${v3?' apower-v3':''}${isSummary ? " editorial-page--summary" : ""}`}>
+  return <main id="main-content" data-editorial-path={page.legacyPath} className={`editorial-page${v3?' apower-v3':''}${isSummary ? " editorial-page--summary" : ""}`} style={{
+    '--company-billboard-image': `url("${mediaPath(artwork('company-billboard').src)}")`,
+    '--company-values-image': `url("${mediaPath('/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp')}")`,
+  } as CSSProperties}>
     <header className="editorial-banner"><h1>{page.title}</h1></header>
     {isSummary && <aside role="note" className="editorial-summary-note">{page.locale === "cn" ? "本页为英文资料的中文摘要，非已核验的中文原文。" : "This page is a localized summary of the English material, not a verified source-language page."}</aside>}
     {isSummary || !sections ? <div className="editorial-summary">{summaryMedia ? <>

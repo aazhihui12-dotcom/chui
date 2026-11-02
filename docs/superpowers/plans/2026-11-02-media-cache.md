@@ -32,9 +32,9 @@
 
 **Interfaces:** `mediaPath(src: string): string` consumes a raw or base-prefixed source; returns the stable, prefixed, versioned image URL when under `/media/`, otherwise its normal sitePath value.
 
-- [ ] Write browser test priming original category URLs with real-cacheable 404s; run and observe four images fail before implementation.
-- [ ] Write component boundary tests for media/basePath/query/hash/idempotency/external/upload inputs and preserve lazy/eager attributes; observe missing version failure.
-- [ ] Implement helper and use it at built-in image rendering boundaries; update original-image assertions for unchanged pathname plus version query.
-- [ ] Run `npm test`, `npx tsc --noEmit`, production live build and full local live browser suite; require all pass, document pre-existing build warning.
+- [x] Write browser test priming original category URLs with real-cacheable 404s; run and observe four images fail before implementation.
+- [x] Write component boundary tests for media/basePath/query/hash/idempotency/external/upload inputs and preserve lazy/eager attributes; observe missing version failure.
+- [x] Implement helper and use it at built-in image rendering boundaries; update original-image assertions for unchanged pathname plus version query.
+- [x] Run `npm test`, `npx tsc --noEmit`, production live build and full local live browser suite; require all pass, document pre-existing build warning.
 - [ ] Commit and obtain fresh review of this task range; fix Important findings with RED→GREEN tests.
 - [ ] Document cache evidence and publish staged server-only release, preserving persistent state; verify production category images and cache regression, then record actual release and results.

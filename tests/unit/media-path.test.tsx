@@ -1,6 +1,8 @@
 import { cleanup, render } from '@testing-library/react';
 import { afterEach, expect, it, vi } from 'vitest';
 import { Media } from '@/components/site/Media';
+import { EditorialTemplate } from '@/components/templates/EditorialTemplate';
+import { pages } from '@/content/pages';
 
 afterEach(()=>{cleanup();vi.unstubAllEnvs();});
 function image(src:string,priority=false){
@@ -45,4 +47,17 @@ it('keeps dimensions, decoding, lazy loading and the eager hero priority',()=>{
   const eager=image('/media/hero.webp',true);
   expect(eager).toHaveAttribute('loading','eager');
   expect(eager).toHaveAttribute('fetchpriority','high');
+});
+
+it.each(['','/chui'])('versions visible company backgrounds at the CSS boundary with basePath %s',base=>{
+  vi.stubEnv('NEXT_PUBLIC_BASE_PATH',base);
+  const {container}=render(<EditorialTemplate page={pages.find(p=>p.locale==='en'&&p.legacyPath==='/Company_Introduction')!}/>);
+  const main=container.querySelector('main')!;
+  for(const [property,path] of [['--company-billboard-image','/media/apower/v2/company-billboard.webp'],['--company-values-image','/media/5310cd9c08714627280f68db4d03d84c30285090ee0faab7a2ac6b389c3fd17b.webp']]){
+    const value=main.style.getPropertyValue(property);
+    expect(value).toMatch(/^url\(".+"\)$/);
+    const url=new URL(value.slice(5,-2),'https://example.test');
+    expect(url.pathname).toBe(base+path);
+    expect(url.searchParams.get('apower_v')??'').toMatch(/^\d{8}$/);
+  }
 });
