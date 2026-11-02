@@ -36,5 +36,11 @@
 - [x] Write component boundary tests for media/basePath/query/hash/idempotency/external/upload inputs and preserve lazy/eager attributes; observe missing version failure.
 - [x] Implement helper and use it at built-in image rendering boundaries; update original-image assertions for unchanged pathname plus version query.
 - [x] Run `npm test`, `npx tsc --noEmit`, production live build and full local live browser suite; require all pass, document pre-existing build warning.
-- [ ] Commit and obtain fresh review of this task range; fix Important findings with RED→GREEN tests.
-- [ ] Document cache evidence and publish staged server-only release, preserving persistent state; verify production category images and cache regression, then record actual release and results.
+- [x] Commit and obtain fresh review of this task range; fix Important findings with RED→GREEN tests.
+- [x] Document cache evidence and publish staged server-only release, preserving persistent state; verify production category images and cache regression, then record actual release and results.
+
+## Completed release
+
+Code: `78c6fc4` plus review fix `1bc25b4`. Active server release: `/opt/apower/releases/20261102-image-cache-2`; rollback retained: `20261101-speed-1`. Final archive SHA256: `a657443fc1944e6d8a89e4b67252028845650b28541541afdbf6ac9aa5f372f6`.
+
+279/279 unit/integration; type check and live build; 20/20 local browser; 15/15 staged read-only browser; production real-negative-cache recovery passed for four category images and two CSS backgrounds. Additional production ordinary/cached/1Mbps Chrome, CN mobile and WebKit runs all decode four originals at 1000px, with no failed requests, HTTP errors or image error events. Environment byte comparison unchanged, SQLite quick_check ok, apower/nginx active and backup/certificate timers retained.
