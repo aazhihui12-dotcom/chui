@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, expect, it } from "vitest";
 import ContentPage from "@/app/[locale]/[...slug]/page";
@@ -11,7 +12,7 @@ it("retains the captured Blog thumbnail on placeholder cards across pagination",
   render(await page("Blog"));
   const source = "/media/41ec23ad17142394e482f3a2afb2a0be8af1c40d2c904b99afd8e1df396f32a7.jpg";
   for (const card of screen.getAllByRole("article")) {
-    expect(within(card).getByRole("img")).toHaveAttribute("src", source);
+    expect(imageSourcePath(within(card).getByRole("img"))).toBe(source);
     expect(card).toHaveTextContent("Source placeholder");
   }
   fireEvent.click(screen.getByRole("button", { name: "Next page" }));

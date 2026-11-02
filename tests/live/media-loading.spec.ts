@@ -84,12 +84,12 @@ test('reduced motion keeps the poster and live changes pause an activated video'
 });
 
 test('public file caching does not leak into missing files, pages or CMS responses', async ({ request }) => {
-  for (const path of ['/media/apower/v2/hero-brand.webp', '/fonts/Inter-Medium.woff2']) {
+  for (const path of ['/media/apower/v2/hero-brand.webp', '/media/apower/v2/hero-brand.webp?apower_v=20261102', '/fonts/Inter-Medium.woff2']) {
     const response = await request.get(path);
     expect(response.status()).toBe(200);
     expect(response.headers()['cache-control']).toBe('public, max-age=86400');
   }
-  for (const path of ['/en/', '/admin/', '/media/apower/definitely-missing-performance.webp', '/media/apower/v2/HERO-BRAND.webp', '/MEDIA/apower/v2/hero-brand.webp', '/fonts/INTER-MEDIUM.woff2']) {
+  for (const path of ['/en/', '/admin/', '/media/apower/definitely-missing-performance.webp', '/media/apower/definitely-missing-performance.webp?apower_v=20261102', '/media/apower/v2/HERO-BRAND.webp', '/MEDIA/apower/v2/hero-brand.webp', '/fonts/INTER-MEDIUM.woff2']) {
     const response = await request.get(path);
     expect(response.headers()['cache-control']).not.toContain('max-age=86400');
   }

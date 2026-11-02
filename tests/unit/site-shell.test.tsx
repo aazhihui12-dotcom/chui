@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { fireEvent, render, screen, within } from "@testing-library/react";
 import { SiteShell } from "@/components/site/Header";
 
@@ -5,11 +6,11 @@ describe("SiteShell", () => {
   it("uses the supplied APOWER logo in both shared chrome and the mobile drawer", () => {
     render(<SiteShell locale="en"><main>Page</main></SiteShell>);
     for (const region of [screen.getByRole("banner"), screen.getByRole("contentinfo")]) {
-      expect(within(region).getByRole("img", { name: "APOWER" })).toHaveAttribute("src", "/media/apower-logo.png");
+      expect(imageSourcePath(within(region).getByRole("img", { name: "APOWER" }))).toBe("/media/apower-logo.png");
     }
     expect(screen.getByRole("link", { name: "APOWER home" })).toHaveAttribute("href", "/en");
     fireEvent.click(screen.getByRole("button", { name: "Menu" }));
-    expect(within(screen.getByRole("dialog", { name: "Menu" })).getByRole("img", { name: "APOWER" })).toHaveAttribute("src", "/media/apower-logo.png");
+    expect(imageSourcePath(within(screen.getByRole("dialog", { name: "Menu" })).getByRole("img", { name: "APOWER" }))).toBe("/media/apower-logo.png");
   });
 
   it("renders the localized primary navigation, language destination, and contact footer", () => {

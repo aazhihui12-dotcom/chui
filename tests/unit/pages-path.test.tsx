@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { render, screen, cleanup } from '@testing-library/react';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import { BrandLogo } from '@/components/site/BrandLogo';
@@ -9,7 +10,7 @@ describe('GitHub Pages project paths', () => {
   it('loads the logo inside the project instead of the account root', () => {
     vi.stubEnv('NEXT_PUBLIC_BASE_PATH', '/chui');
     render(<BrandLogo />);
-    expect(screen.getByAltText('APOWER')).toHaveAttribute('src', '/chui/media/apower-logo.png');
+    expect(imageSourcePath(screen.getByAltText('APOWER'))).toBe('/chui/media/apower-logo.png');
   });
 
   it('switches the language without interpreting the project name as a locale', () => {
@@ -22,6 +23,6 @@ describe('GitHub Pages project paths', () => {
   it('retains root paths for local builds', () => {
     vi.stubEnv('NEXT_PUBLIC_BASE_PATH', '');
     render(<BrandLogo />);
-    expect(screen.getByAltText('APOWER')).toHaveAttribute('src', '/media/apower-logo.png');
+    expect(imageSourcePath(screen.getByAltText('APOWER'))).toBe('/media/apower-logo.png');
   });
 });

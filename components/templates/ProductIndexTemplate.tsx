@@ -1,4 +1,5 @@
 import { sitePath } from "@/lib/site-path";
+import { mediaPath } from "@/lib/media-path";
 import { pages } from '@/content/pages';
 import { apowerCategories as categories, apowerProducts as products, text, splitCopy, overviewVideo, apowerFaq, artwork } from '@/content/apower';
 import type { SitePage,Product } from '@/content/schema';
@@ -15,14 +16,14 @@ const source=pages.find(p=>p.locale==='cn' && p.kind==='product-index')!;
 const photo=(index:number)=>{const b=source.blocks[index];return b?.type==='media'?b.image:undefined;};
 export function ProductIndexTemplate({page,catalogProducts=products,catalogFaq=apowerFaq(page.locale)}:{page:SitePage;catalogProducts?:Product[];catalogFaq?:import('./FaqTemplate').FaqEntry[]}) {
  const locale=page.locale, cn=locale==='cn', t=(id:number)=>text(id,locale), copy=homeCopy[locale];
- const img=(index:number)=>{const image=photo(index);return image&&<img src={sitePath(image.src)} alt="" width="600" height="440" loading="lazy"/>;};
+ const img=(index:number)=>{const image=photo(index);return image&&<img src={mediaPath(image.src)} alt="" width="600" height="440" loading="lazy"/>;};
  const pair=(id:number)=>splitCopy(id,locale);
  return <main id="main-content" className="product-page product-index apower-v3">
   <header className="product-index__banner"><h1>{t(37)}</h1></header>
   <section className="product-index__catalog"><ProductCatalog products={catalogProducts} categories={categories} locale={locale} filterable presentation="carousel"/></section>
   <section className="product-index__proof" aria-label={cn?'制造优势':'Manufacturing advantages'}>{proofCopy(locale).map((description,i)=><ImageDescription key={i} image={photo(2+i*2)!} title={(cn?['按时生产','严格品质检验','竞争力价格','国际认证与专利']:['On-Time Production','Strict Quality Inspection','Competitive Pricing','International Certifications & Patents'])[i]} description={description} locale={locale}/>)}</section>
   <div className="button-row"><InquiryTrigger locale={locale} title={copy.quote}>{copy.quote}</InquiryTrigger><InquiryTrigger locale={locale} title={copy.catalogue} className="lbh-button lbh-button--outline">{copy.catalogue}</InquiryTrigger></div>
-  <section className="product-index__categories" aria-label={cn?'产品系列':'Product ranges'}>{categories.map(c=><a key={c.id} href={sitePath(`/${locale}${c.legacyPath}`)}><img src={sitePath(c.image!.src)} alt="" width="600" height="440" loading="lazy"/><h2>{c.title[locale]}</h2></a>)}</section>
+  <section className="product-index__categories" aria-label={cn?'产品系列':'Product ranges'}>{categories.map(c=><a key={c.id} href={sitePath(`/${locale}${c.legacyPath}`)}><img src={mediaPath(c.image!.src)} alt="" width="600" height="440" loading="lazy"/><h2>{c.title[locale]}</h2></a>)}</section>
   <section className="product-index__section product-index__customization"><h2>{t(38)}</h2><div className="product-index__options">{[39,40,41,42,43,44].map((id,i)=><ImageDescription key={id} image={photo(33+i*3)!} title={pair(id).heading} description={pair(id).body} locale={locale}/>)}</div></section>
   <section className="product-index__section v3-product-overview"><h2>{t(45)}</h2><div><SourceVideo video={overviewVideo} locale={locale} poster={sitePath(productOverviewPoster)}/><p className="product-index__intro">{t(46)}</p></div></section>
   <section className="product-index__section"><h2>{t(47)}</h2><div className="product-index__services">{[48,52,56].map((id,i)=><article key={id}><h3>{t(id)}</h3>{img(55+i*8)}<div>{[1,2,3].map(j=><section key={j}><h4>{pair(id+j).heading}</h4><p>{pair(id+j).body}</p></section>)}</div></article>)}</div></section>

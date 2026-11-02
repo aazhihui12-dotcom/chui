@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import { afterEach, expect, it } from 'vitest';
 import { pages } from '@/content/pages';
@@ -11,13 +12,13 @@ const page = (path: string, locale: 'cn' | 'en' = 'en') => pages.find(p => p.loc
 it('uses the shortened home proposition and supplied mission photograph', () => {
   const { container } = render(<HomeTemplate page={page('/')} />);
   expect(screen.getByRole('heading', { name: "Why choose APOWER TECH's personal care appliance solutions?" })).toBeVisible();
-  expect(container.querySelector('.home-mission > img')).toHaveAttribute('src', '/media/apower/v3/home-mission.webp');
+  expect(imageSourcePath(container.querySelector('.home-mission > img'))).toBe('/media/apower/v3/home-mission.webp');
 });
 it('shows all ten assembly photos beside their numbered instructions', () => {
   const { container } = render(<ProductIndexTemplate page={page('/ProductIndex')} />);
   const steps = container.querySelectorAll('.product-index__assembly li');
   expect(steps).toHaveLength(10);
-  for (let i = 0; i < 10; i++) expect(steps[i].querySelector('img')).toHaveAttribute('src', `/media/apower/v3/assembly-${i + 1}.webp`);
+  for (let i = 0; i < 10; i++) expect(imageSourcePath(steps[i].querySelector('img'))).toBe(`/media/apower/v3/assembly-${i + 1}.webp`);
 });
 it('opens customization copy from its image button and returns keyboard focus', () => {
   render(<ProductIndexTemplate page={page('/ProductIndex')} />);

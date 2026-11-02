@@ -1,6 +1,7 @@
 "use client";
 
 import { sitePath } from "@/lib/site-path";
+import { mediaPath } from "@/lib/media-path";
 
 import { useEffect, useId, useState, type CSSProperties } from "react";
 import type { Locale, Product } from "@/content/schema";
@@ -34,7 +35,7 @@ export function ProductCarousel({ products, locale }: { products: Product[]; loc
           const visible = index >= offset && index < end;
           return <div key={product.id} className="product-carousel__slide" role="group" aria-roledescription="slide" aria-label={cn ? `第${index + 1}款，共${products.length}款` : `${index + 1} of ${products.length}`} aria-hidden={!visible} inert={!visible}>
             <a href={sitePath(`/${locale}${product.locales[locale].legacyPath}`)} className="product-card" aria-label={product.model} tabIndex={visible ? 0 : -1}>
-              {product.image && <img src={sitePath(product.image.src)} alt="" width="400" height="400" loading="lazy" />}
+              {product.image && <img src={mediaPath(product.image.src)} alt="" width="400" height="400" loading="lazy" />}
               <h2>{product.model}</h2><span aria-hidden="true">↗</span>
             </a>
           </div>;

@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { act, cleanup, fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, expect, it, vi } from 'vitest';
 import { VideoModal } from '@/components/interactive/VideoModal';
@@ -39,7 +40,7 @@ function player() {
 it('shows a lazy original poster without mounting an offscreen video source', () => {
   const { container } = player();
   expect(container.querySelector('video[src]')).toBeNull();
-  expect(container.querySelector('img')).toHaveAttribute('src', '/media/poster.webp');
+  expect(imageSourcePath(container.querySelector('img'))).toBe('/media/poster.webp');
   expect(container.querySelector('img')).toHaveAttribute('loading', 'lazy');
 });
 
@@ -49,7 +50,7 @@ it('mounts the background video on entry and retains its source after leaving', 
   act(() => intersect(true));
   const video = container.querySelector('video')!;
   expect(video).toHaveAttribute('src', '/media/preview.mp4');
-  expect(video).toHaveAttribute('poster', '/media/poster.webp');
+  expect(imageSourcePath(video, 'poster')).toBe('/media/poster.webp');
   expect(video.muted).toBe(true);
   act(() => intersect(false));
   expect(container.querySelector('video')).toBe(video);
@@ -101,7 +102,7 @@ it.each(['en', 'cn'] as const)('%s keeps the original sustainability photograph 
   const { container } = render(<HomeTemplate page={pages.find(p => p.id === 'home' && p.locale === locale)!} />);
   const background = container.querySelector('.home-sustainability > img');
   expect(background).not.toBeNull();
-  expect(background).toHaveAttribute('src', '/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp');
+  expect(imageSourcePath(background)).toBe('/media/51a97dab42ca11657877b8ccd8b420f4a8e002b2afd65dfda466975a828018c8.webp');
   expect(background).toHaveAttribute('loading', 'lazy');
   expect(background).toHaveAttribute('alt', '');
 });

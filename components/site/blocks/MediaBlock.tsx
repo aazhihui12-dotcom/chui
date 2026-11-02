@@ -1,7 +1,8 @@
 import { sitePath } from "@/lib/site-path";
+import { mediaPath } from "@/lib/media-path";
 import type { MediaBlock as MediaContent } from "@/content/schema";
 import { Media } from "../Media";
 
 export function MediaBlock({ block }: { block: MediaContent }) {
-  return <figure className="content-media"><Media image={block.image} />{block.caption && <figcaption>{block.caption}</figcaption>}{block.videoUrl && <video aria-label={block.caption || block.image.alt || "Video"} controls preload="none" src={sitePath(block.videoUrl)} poster={sitePath(block.image.src)} />}</figure>;
+  return <figure className="content-media"><Media image={block.image} />{block.caption && <figcaption>{block.caption}</figcaption>}{block.videoUrl && <video aria-label={block.caption || block.image.alt || "Video"} controls preload="none" src={sitePath(block.videoUrl)} poster={mediaPath(block.image.src)} />}</figure>;
 }

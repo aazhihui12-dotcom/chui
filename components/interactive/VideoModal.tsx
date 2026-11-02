@@ -1,6 +1,7 @@
 "use client";
 
 import { sitePath } from "@/lib/site-path";
+import { mediaPath } from "@/lib/media-path";
 
 import { useEffect, useId, useRef, useState } from "react";
 import type { Locale } from "@/content/schema";
@@ -64,7 +65,7 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
   }, [open]);
   return <>
     <button ref={trigger} className="video-preview" aria-label={cn ? "播放制造视频" : "Play manufacturing video"} onClick={() => { setFailed(false); setOpen(true); }}>
-      {background && backgroundLoaded ? <video id={backgroundId} ref={backgroundVideo} src={sitePath(src)} poster={sitePath(poster)} muted loop playsInline preload="none" aria-hidden="true" tabIndex={-1} onPause={() => setBackgroundPaused(true)} onPlay={() => setBackgroundPaused(false)} /> : <img className={background ? "video-preview__background-poster" : undefined} src={sitePath(poster)} alt="" width="1280" height="720" loading="lazy" decoding="async" />}
+      {background && backgroundLoaded ? <video id={backgroundId} ref={backgroundVideo} src={sitePath(src)} poster={mediaPath(poster)} muted loop playsInline preload="none" aria-hidden="true" tabIndex={-1} onPause={() => setBackgroundPaused(true)} onPlay={() => setBackgroundPaused(false)} /> : <img className={background ? "video-preview__background-poster" : undefined} src={mediaPath(poster)} alt="" width="1280" height="720" loading="lazy" decoding="async" />}
       {!background && <span className="video-preview__play" aria-hidden="true">▶</span>}
       <span className="video-preview__caption">{cn ? "走进 APOWER TECH 制造体系" : "Inside APOWER TECH manufacturing"}</span>
     </button>
@@ -81,7 +82,7 @@ export function VideoModal({ src, poster, locale, background = false, videoId }:
           <iframe src={`https://www.youtube-nocookie.com/embed/${videoId}?autoplay=1`} title={cn ? "APOWER TECH · 制造视频" : "APOWER TECH · Manufacturing video"} width="1280" height="720" allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen />
           <button className="video-dialog__keyboard-close sr-only" type="button" onClick={() => setOpen(false)}>{cn ? "关闭视频并返回页面" : "Close video and return to page"}</button>
           <p><a href={`https://www.youtube.com/watch?v=${videoId}`} target="_blank" rel="noreferrer">{cn ? "在 YouTube 打开视频" : "Open video on YouTube"}</a></p>
-        </> : <video src={sitePath(src)} poster={sitePath(poster)} controls playsInline preload="metadata" aria-label={cn ? "制造视频" : "Manufacturing video"} onError={() => setFailed(true)} />}
+        </> : <video src={sitePath(src)} poster={mediaPath(poster)} controls playsInline preload="metadata" aria-label={cn ? "制造视频" : "Manufacturing video"} onError={() => setFailed(true)} />}
         {failed && <p role="alert">{cn ? "视频暂时无法播放。" : "The video could not be played."} <a href={sitePath(src)}>{cn ? "打开视频文件" : "Open video file"}</a></p>}
       </div>
     </dialog>}

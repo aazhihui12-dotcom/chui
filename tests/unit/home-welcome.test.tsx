@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { cleanup, fireEvent, render, within } from '@testing-library/react';
 import { afterEach, expect, it } from 'vitest';
 import { pages } from '@/content/pages';
@@ -10,7 +11,7 @@ it.each(['cn','en'] as const)('%s welcome uses a local photo before activating t
   const {container}=render(<HomeTemplate page={pages.find(p=>p.id==='home'&&p.locale===locale)!}/>);
   const section=container.querySelector('.home-welcome')!;
   const player=section.querySelector('.source-video')!;
-  expect(player.querySelector('img')).toHaveAttribute('src','/media/manufacturing-poster.jpg');
+  expect(imageSourcePath(player.querySelector('img'))).toBe('/media/manufacturing-poster.jpg');
   expect(player.querySelector('iframe')).toBeNull();
   const contact=within(section as HTMLElement).getByRole('link',{name:locale==='cn'?'联系我们':'Contact Us'});
   expect(player.compareDocumentPosition(contact)&Node.DOCUMENT_POSITION_FOLLOWING).toBeTruthy();

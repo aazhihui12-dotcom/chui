@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { act, cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 import { productStaticParams } from "@/lib/content";
@@ -47,7 +48,7 @@ describe("product pages", () => {
     render(<ProductDetailTemplate product={products[0]} locale="en" />);
     fireEvent.click(screen.getByRole("button", { name: "View image 2 of LBH-3228" }));
     const enlarge = screen.getByRole("button", { name: "Enlarge LBH-3228 image" });
-    expect(within(enlarge).getByRole("img")).toHaveAttribute("src", "/media/fcc94b06b588d10b188c5eb7a8bedfe6ce21fc6097ff78aa2a453114ecbf61b6.png");
+    expect(imageSourcePath(within(enlarge).getByRole("img"))).toBe("/media/fcc94b06b588d10b188c5eb7a8bedfe6ce21fc6097ff78aa2a453114ecbf61b6.png");
     act(() => enlarge.focus());
     fireEvent.click(enlarge);
     expect(screen.getByRole("dialog", { name: "LBH-3228 gallery" })).toBeVisible();

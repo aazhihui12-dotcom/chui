@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { cleanup, fireEvent, render, screen, within } from '@testing-library/react';
 import { afterEach, expect, it } from 'vitest';
 import { apowerProducts, apowerCategories } from '@/content/apower';
@@ -32,21 +33,21 @@ for (const locale of ['cn', 'en'] as const) {
     expect(mainImage.getAttribute('src')).not.toBe(firstSrc);
     const detailImages = [...container.querySelectorAll('#product-details .content-media img')];
     expect(detailImages).toHaveLength(detailCount);
-    detailImages.forEach((image, index) => expect(image.getAttribute('src')).toMatch(new RegExp(`/${model.toLowerCase()}-detail-${index+1}\\.webp$`)));
+    detailImages.forEach((image, index) => expect(imageSourcePath(image)).toMatch(new RegExp(`/${model.toLowerCase()}-detail-${index+1}\\.webp$`)));
     if (model === 'AP-G3') expect(within(specs).queryByText('AP-G1')).toBeNull();
   });
 
   it('uses the supplied common product-category banner without replacing the catalog images in '+locale, () => {
     const { container } = render(<ProductCategoryTemplate category={apowerCategories[0]} locale={locale} />);
-    expect(container.querySelector('.product-category-banner > img')).toHaveAttribute('src', '/media/apower/v2/product-range-banner.webp');
+    expect(imageSourcePath(container.querySelector('.product-category-banner > img'))).toBe('/media/apower/v2/product-range-banner.webp');
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(locale === 'cn' ? '吹风机系列' : 'Hair Dryers');
-    expect(container.querySelector('.product-card img')).not.toHaveAttribute('src', '/media/apower/v2/product-range-banner.webp');
+    expect(imageSourcePath(container.querySelector('.product-card img'))).not.toBe('/media/apower/v2/product-range-banner.webp');
   });
 
   it('replaces the factory 5S diagram and order-management phone artwork in '+locale, () => {
     const factory = pages.find(p => p.locale === locale && p.legacyPath === '/Factory_tour')!;
     const first = render(<EditorialTemplate page={factory} />);
-    expect(first.container.querySelector('img[src="/media/apower/v2/factory-5s.webp"]')).not.toBeNull();
+    expect([...first.container.querySelectorAll('img')].filter(img=>imageSourcePath(img)==='/media/apower/v2/factory-5s.webp')).toHaveLength(1);
     first.unmount();
     render(<EditorialTemplate page={pages.find(p => p.locale === locale && p.legacyPath === '/Order_Management')!} />);
     expect(screen.getAllByRole('img', { name: 'APOWER' })).toEqual(expect.arrayContaining([expect.objectContaining({ src: expect.stringContaining('/media/apower/v2/order-phone.webp') })]));

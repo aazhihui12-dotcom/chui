@@ -1,3 +1,4 @@
+import { imageSourcePath } from '../fixtures/image-source';
 import { cleanup, fireEvent, render, screen, within } from "@testing-library/react";
 import { afterEach, describe, expect, it } from "vitest";
 import { englishHome, pages } from "@/content/pages";
@@ -59,7 +60,7 @@ describe("homepage source recognition", () => {
   it.each(["en", "cn"] as const)("uses the APOWER cover before loading background footage on the %s homepage", (locale) => {
     const { container } = render(<HomeTemplate page={pages.find(page => page.id === "home" && page.locale === locale)!} />);
     const preview = container.querySelector('.home-manufacturing .video-preview img');
-    expect(preview).toHaveAttribute('src', '/media/apower/factory-tour-video-poster.webp');
+    expect(imageSourcePath(preview)).toBe('/media/apower/factory-tour-video-poster.webp');
     expect(container.querySelector('.home-manufacturing video[src]')).toBeNull();
     expect(container.querySelector('.home-manufacturing')).not.toHaveTextContent('LBH');
     expect(container.querySelector('iframe')).toBeNull();
