@@ -13,11 +13,15 @@ export function renderHomePage() {
       <section class="hero">
         <div class="hero-copy">
           <div>
+            <div class="hero-stamp" aria-label="Angjiuxi Guangzhou women's denim 2026"><span>01</span><span>ANGJIUXI</span><span>GUANGZHOU / DENIM</span></div>
             <p class="eyebrow">ANGJIUXI / GUANGZHOU</p>
             <h1>专注女装牛仔<span>品牌与供应链平台</span></h1>
             <p class="hero-lead">${siteConfig.description}</p>
           </div>
-          ${renderContactActions("primary")}
+          <div>
+            ${renderContactActions("primary")}
+            <p class="hero-note">看款 · 看版型 · 看交付<br><span>从广州展厅，开始一次更具体的合作。</span></p>
+          </div>
         </div>
         <div class="hero-image">
           <picture>
@@ -25,6 +29,7 @@ export function renderHomePage() {
             <img src="${image("heroDesktopPrimary")}" alt="${siteImages.heroDesktopPrimary.alt}" width="1920" height="1080" fetchpriority="high">
           </picture>
           <span class="hero-marker">WOMEN'S DENIM / 2026</span>
+          <div class="hero-image-caption"><span>SHOWROOM EDIT</span><span>01—05</span></div>
         </div>
       </section>
 
