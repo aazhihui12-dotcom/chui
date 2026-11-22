@@ -20,6 +20,20 @@ function normalizeBaseUrl(value) {
   return value.replace(/\/$/, "");
 }
 
+function normalizeBasePath(value = "") {
+  if (!value || value === "/") return "";
+  return `/${value.replace(/^\/+|\/+$/g, "")}`;
+}
+
+export function applyBasePath(html, basePath = "") {
+  const prefix = normalizeBasePath(basePath);
+  if (!prefix) return html;
+  return html
+    .replaceAll('href="/', `href="${prefix}/`)
+    .replaceAll('src="/', `src="${prefix}/`)
+    .replaceAll('data-fallback-href="/', `data-fallback-href="${prefix}/`);
+}
+
 export function routeToFile(route, outputDir) {
   const cleanRoute = route.replace(/^\/+|\/+$/g, "");
   return cleanRoute ? path.join(outputDir, cleanRoute, "index.html") : path.join(outputDir, "index.html");
@@ -63,7 +77,8 @@ function assertSafeOutput(outputDir) {
 
 export async function buildSite({
   outputDir = process.env.OUTPUT_DIR || path.join(projectDir, "out"),
-  baseUrl = process.env.SITE_URL || "http://localhost:4173"
+  baseUrl = process.env.SITE_URL || "http://localhost:4173",
+  basePath = process.env.BASE_PATH || ""
 } = {}) {
   const safeOutput = assertSafeOutput(outputDir);
   const siteUrl = normalizeBaseUrl(baseUrl);
@@ -76,7 +91,7 @@ export async function buildSite({
   for (const page of pages) {
     const file = routeToFile(page.path, safeOutput);
     await mkdir(path.dirname(file), { recursive: true });
-    await writeFile(file, renderDocument(page, siteUrl), "utf8");
+    await writeFile(file, applyBasePath(renderDocument(page, siteUrl), basePath), "utf8");
   }
 
   await writeFile(path.join(safeOutput, "sitemap.xml"), renderSitemap(siteUrl), "utf8");

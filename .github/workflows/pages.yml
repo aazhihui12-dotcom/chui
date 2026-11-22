@@ -27,6 +27,7 @@ jobs:
       - name: Build static site
         env:
           SITE_URL: https://aazhihui12-dotcom.github.io/chui
+          BASE_PATH: /chui
         run: npm run build
       - uses: actions/upload-pages-artifact@v4
         with:

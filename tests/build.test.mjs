@@ -32,3 +32,12 @@ test("buildSite writes all public pages and crawl files", async () => {
   assert.match(robots, /Sitemap: http:\/\/localhost:4173\/sitemap.xml/);
   assert.doesNotMatch(home, /angjiuxi\.example|待确认|cli_|Jvmo|app_secret/);
 });
+
+test("buildSite prefixes root-relative assets and links for project pages", async () => {
+  const outputDir = await mkdtemp(path.join(os.tmpdir(), "angjiuxi-base-path-"));
+  await buildSite({ outputDir, baseUrl: "https://example.com/chui", basePath: "/chui" });
+  const home = await readFile(path.join(outputDir, "index.html"), "utf8");
+  assert.match(home, /href="\/chui\/styles\.css"/);
+  assert.match(home, /src="\/chui\/images\/site\//);
+  assert.match(home, /href="\/chui\/contact\//);
+});
