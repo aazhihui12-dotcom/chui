@@ -1,4 +1,4 @@
-name: Deploy APOWER test site
+name: Deploy Angjiuxi B2B website
 
 on:
   push:
@@ -21,16 +21,13 @@ jobs:
         with:
           node-version: '24'
           cache: npm
-      - run: npm ci
+      - run: npm install --package-lock-only
       - name: Test
-        # Asset integration tests create/remove a temporary public download.
-        # Keep file-level workers serial so parallel audits never observe it halfway.
-        run: npm test -- --maxWorkers=1
-      - name: Build project-path export
+        run: npm test
+      - name: Build static site
         env:
-          NEXT_PUBLIC_BASE_PATH: /chui
-          NEXT_PUBLIC_SITE_URL: https://aazhihui12-dotcom.github.io
-        run: npm run build && node scripts/prepare-pages-export.mjs out
+          SITE_URL: https://aazhihui12-dotcom.github.io/chui
+        run: npm run build
       - uses: actions/upload-pages-artifact@v4
         with:
           path: out

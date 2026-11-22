@@ -1,9 +1,9 @@
-<!-- BEGIN:nextjs-agent-rules -->
+# 昂玖熙官网项目规则
 
-# This is NOT the Next.js you know
+这是一个依赖 Node.js 原生 ESM 的静态多页面官网，不再使用旧的 Next.js/Chui 页面。
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
-
-This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
-
-<!-- END:nextjs-agent-rules -->
+- 入口源码在 `src/`，公开素材在 `public/`，构建脚本在 `scripts/`。
+- `npm test` 必须通过后才能提交；`npm run build` 输出 `out/`。
+- 不要在公开页面写入飞书机器人密钥、占位文案、未经核实的排名或经营数据。
+- 价格、库存、起订量和交期按具体款式与订单确认，不写统一承诺。
+- `legacy-chui/` 仅用于保留原仓库历史代码，不参与构建。

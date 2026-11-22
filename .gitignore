@@ -1,12 +1,3 @@
-.worktrees/
-node_modules/
-.next/
-out/
-out-pages/
-playwright-report/
-test-results/
-.sites-runtime/
-tsconfig.tsbuildinfo
-source-cache/pages/
-source-cache/assets/
-source-cache/session-cookies.txt
+/dist/
+/out/
+*.log
